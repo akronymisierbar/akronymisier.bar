@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <header>
         {/* <h1>Akronymisierbar</h1> */}
-        <img className='logo center' src="logo.jpg" alt="podcast logo showing headphones and the text Akronymisierbar" />
+        <img className='logo center' src="logo512.png" alt="podcast logo showing headphones and the text Akronymisierbar" />
       </header>
       <p>Podcast von und mit <a href="https://chaos.social/@hoodie">@hoodie</a> und <a href="https://chaos.social/@kilian">@kilian</a>. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen.</p>
       <h2>Links</h2>
