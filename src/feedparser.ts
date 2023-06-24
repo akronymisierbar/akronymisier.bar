@@ -1,5 +1,17 @@
 import dateFormat from "dateformat";
 
+export interface EpisodeDetails {
+  id: string;
+  title: string;
+  date: string;
+  cover: string | null;
+  duration: string;
+  audio: string;
+  summary: string;
+  description: string;
+  content: string;
+};
+
 export async function getFeedItems(): Promise<EpisodeDetails[]> {
   const res = await fetch('/feed.rss');
   const str = await res.text();
@@ -14,21 +26,12 @@ export async function getFeedItems(): Promise<EpisodeDetails[]> {
       cover: item.getElementsByTagName('itunes:image')[0]?.getAttribute('href') ?? '',
       duration: item.getElementsByTagName('itunes:duration')[0].textContent ?? '',
       audio: item.getElementsByTagName('enclosure')[0].getAttribute('url') ?? '',
+      // TODO: Remove summary and use description instead of it after migrating feed contents.
       summary: item.getElementsByTagName('itunes:summary')[0].textContent ?? '',
-      description: item.getElementsByTagName('description')[0].textContent ?? ''
+      description: item.getElementsByTagName('description')[0].textContent ?? '',
+      content: item.getElementsByTagName('content:encoded')[0].textContent ?? ''
     };
   });
-};
-
-export interface EpisodeDetails {
-  id: string;
-  title: string;
-  date: string;
-  cover: string | null;
-  duration: string;
-  audio: string;
-  summary: string;
-  description: string;
 };
 
 export async function getEpisodeDetails(episode: string): Promise<EpisodeDetails> {
