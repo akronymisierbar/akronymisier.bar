@@ -30,11 +30,9 @@ export interface EpisodeDetails {
 
 export async function getEpisodeDetails(episode: string): Promise<EpisodeDetails> {
   const feedItems = Array.from(await getFeedItems());
-  const item = feedItems.find(i => 
-    i.id == episode
-  );
+  const item = feedItems.find(i => i.id == episode);
   if (!item) {
-    throw new Error('invalid episode number');
+    throw new Error(`cannot find episode '${episode}'`);
   }
   return item;
 };
