@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <atom:link href="https://feeds.simplecast.com/OB_iKD_T" rel="self" title="MP3 Audio" type="application/atom+xml"/>
     <atom:link href="https://simplecast.superfeedr.com/" rel="hub" xmlns="http://www.w3.org/2005/Atom"/>
-    <generator>https://simplecast.com</generator>
+    <generator>artisanal hand-crafted XML</generator>
     <title>Akronymisierbar</title>
-    <description>Podcast von und mit @hoodie_de und @kiliankoe. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen.</description>
+    <description>Podcast von und mit @hoodie und @kilian. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen.</description>
     <language>de</language>
+
     <pubDate>Thu, 10 Feb 2022 09:47:26 +0000</pubDate>
     <lastBuildDate>Thu, 10 Feb 2022 09:47:36 +0000</lastBuildDate>
+
     <image>
       <link>https://akronymisier.bar</link>
       <title>Akronymisierbar</title>
-      <url>https://image.simplecastcdn.com/images/7ab096ff-6109-4835-82d4-29fbb06af2c3/84b0c6ce-35f8-4d0a-a77f-ced1b5c999d4/3000x3000/1516569434artwork.jpg?aid=rss_feed</url>
+      <url>https://akronymisier.bar/logo.jpg</url>
     </image>
     <link>https://akronymisier.bar</link>
     <itunes:type>episodic</itunes:type>
     <itunes:summary>Podcast von und mit @hoodie_de und @kiliankoe. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen.</itunes:summary>
     <itunes:author>Kilian &amp; Hendrik</itunes:author>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image href="https://image.simplecastcdn.com/images/7ab096ff-6109-4835-82d4-29fbb06af2c3/84b0c6ce-35f8-4d0a-a77f-ced1b5c999d4/3000x3000/1516569434artwork.jpg?aid=rss_feed"/>
-    <itunes:new-feed-url>https://feeds.simplecast.com/OB_iKD_T</itunes:new-feed-url>
+    <itunes:image href="https://akronymisier.bar/logo.jpg"/>
+    <itunes:new-feed-url>https://feed.akronymisier.bar</itunes:new-feed-url>
     <itunes:keywords>akronymisierbar, dresden, rust, swift</itunes:keywords>
     <itunes:owner>
       <itunes:name>Akronymisierbar</itunes:name>
