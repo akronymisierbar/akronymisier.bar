@@ -27,6 +27,7 @@ export default function EpisodeDetail() {
       <p className="summary">{episode.summary}</p>
       <AudioPlayer
         src={episode.audio}
+        customAdditionalControls={[]}
       />
       <p className="description" dangerouslySetInnerHTML={{ __html: episode.description}} />
       <Footer />
