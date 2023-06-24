@@ -1,11 +1,24 @@
-export async function getFeedItems() {
+export async function getFeedItems(): Promise<EpisodeDetails[]> {
   const res = await fetch('/feed.rss');
   const str = await res.text();
   const data = new window.DOMParser().parseFromString(str, 'text/xml');
-  return data.getElementsByTagName('item');
+  const feedItems = data.getElementsByTagName('item');
+  return Array.from(feedItems).map((item, index) => {
+    return {
+      id: item.getElementsByTagName('itunes:episode')[0].textContent?.padStart(3, '0') ?? '',
+      title: item.getElementsByTagName('title')[0].textContent ?? '',
+      date: item.getElementsByTagName('pubDate')[0].textContent ?? '',
+      cover: item.getElementsByTagName('itunes:image')[0]?.getAttribute('href') ?? '',
+      duration: item.getElementsByTagName('itunes:duration')[0].textContent ?? '',
+      audio: item.getElementsByTagName('enclosure')[0].getAttribute('url') ?? '',
+      summary: item.getElementsByTagName('itunes:summary')[0].textContent ?? '',
+      description: item.getElementsByTagName('description')[0].textContent ?? ''
+    };
+  });
 };
 
 export interface EpisodeDetails {
+  id: string;
   title: string;
   date: string;
   cover: string | null;
@@ -18,18 +31,10 @@ export interface EpisodeDetails {
 export async function getEpisodeDetails(episode: string): Promise<EpisodeDetails> {
   const feedItems = Array.from(await getFeedItems());
   const item = feedItems.find(i => 
-    i.getElementsByTagName('itunes:episode')[0].textContent === parseInt(episode, 10).toString()
+    i.id == episode
   );
   if (!item) {
     throw new Error('invalid episode number');
   }
-  return {
-    title: item.getElementsByTagName('title')[0].textContent ?? '',
-    date: item.getElementsByTagName('pubDate')[0].textContent ?? '',
-    cover: item.getElementsByTagName('itunes:image')[0]?.getAttribute('href') ?? '',
-    duration: item.getElementsByTagName('itunes:duration')[0].textContent ?? '',
-    audio: item.getElementsByTagName('enclosure')[0].getAttribute('url') ?? '',
-    summary: item.getElementsByTagName('itunes:summary')[0].textContent ?? '',
-    description: item.getElementsByTagName('description')[0].textContent ?? ''
-  };
+  return item;
 };

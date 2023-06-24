@@ -3,15 +3,15 @@ import './App.css';
 import './thebest.css';
 import EpisodeItem from './episode-item';
 import Footer from './footer';
-import { getFeedItems } from './feedparser';
+import { getFeedItems, EpisodeDetails } from './feedparser';
 
 function App() {
-  const [items, setItems] = useState([] as Element[]);
+  const [episodes, setEpisodes] = useState([] as EpisodeDetails[]);
 
   useEffect(() => {
     const loadFeedItems = async () => {
       const feedItems = await getFeedItems();
-      setItems(Array.from(feedItems));
+      setEpisodes(feedItems);
     }
     loadFeedItems();
   }, []);
@@ -31,14 +31,14 @@ function App() {
         <li key='liberapay'><a href="https://liberapay.com/akronymisierbar/">Liberapay</a></li>
       </ul>
       <h2>Folgen</h2>
-      {items.map((item, index) => (
+      {episodes.map((ep, index) => (
         <>
-        <EpisodeItem 
-          title={item.getElementsByTagName('title')[0].textContent ?? ''}
-          link={'/' + item.getElementsByTagName('itunes:episode')[0].textContent?.padStart(3, '0')}
-          date={item.getElementsByTagName('pubDate')[0].textContent ?? ''}
-          duration={item.getElementsByTagName('itunes:duration')[0].textContent ?? ''}
-          summary={item.getElementsByTagName('itunes:summary')[0].textContent ?? ''}
+        <EpisodeItem
+          title={ep.title}
+          link={'/' + ep.id}
+          date={ep.date}
+          duration={ep.duration}
+          summary={ep.summary}
         />
         <hr />
         </>
