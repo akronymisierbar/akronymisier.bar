@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { ReactComponent as ApplePodcastsBadge } from './apple-podcasts-badge.svg';
 import './App.css';
+import './thebest.css';
 import EpisodeItem from './EpisodeItem';
 
 function App() {
@@ -11,7 +12,6 @@ function App() {
       const res = await fetch('/feed.rss');
       const str = await res.text();
       const data = new window.DOMParser().parseFromString(str, 'text/xml');
-      console.log(data);
       const items = data.getElementsByTagName('item');
       setItems(Array.from(items));
     };
@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <header>
         {/* <h1>Akronymisierbar</h1> */}
-        <img className='logo' src="logo.jpg" alt="podcast logo showing headphones and the text Akronymisierbar" />
+        <img className='logo center' src="logo.jpg" alt="podcast logo showing headphones and the text Akronymisierbar" />
       </header>
       <p>Podcast von und mit <a href="https://chaos.social/@hoodie">@hoodie</a> und <a href="https://chaos.social/@kilian">@kilian</a>. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen.</p>
       <h2>Links</h2>
