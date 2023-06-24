@@ -1,27 +1,24 @@
 import React, { useEffect, useState } from 'react';
-import { ReactComponent as ApplePodcastsBadge } from './apple-podcasts-badge.svg';
 import './App.css';
 import './thebest.css';
 import EpisodeItem from './EpisodeItem';
+import Footer from './footer';
+import { getFeedItems } from './feedparser';
 
 function App() {
   const [items, setItems] = useState([] as Element[]);
 
   useEffect(() => {
-    const readFeed = async () => {
-      const res = await fetch('/feed.rss');
-      const str = await res.text();
-      const data = new window.DOMParser().parseFromString(str, 'text/xml');
-      const items = data.getElementsByTagName('item');
-      setItems(Array.from(items));
-    };
-    readFeed();
+    const loadFeedItems = async () => {
+      const feedItems = await getFeedItems();
+      setItems(Array.from(feedItems));
+    }
+    loadFeedItems();
   }, []);
 
   return (
     <div className="App">
       <header>
-        {/* <h1>Akronymisierbar</h1> */}
         <img className='logo center' src="logo512.png" alt="podcast logo showing headphones and the text Akronymisierbar" />
       </header>
       <p>Podcast von und mit <a href="https://chaos.social/@hoodie">@hoodie</a> und <a href="https://chaos.social/@kilian">@kilian</a>. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen.</p>
@@ -46,10 +43,7 @@ function App() {
         <hr />
         </>
       ))}
-      <div className="footer">
-        <p>© Copyright 2023 Akronymisierbar</p>
-        <a href="#">Legal Notice</a>
-      </div>
+      <Footer />
     </div>
   );
 }

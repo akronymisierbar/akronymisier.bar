@@ -17,6 +17,13 @@
   color: gray;
 }
 
+.episode-cover {
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin: auto;
+}
+
 hr {
   display: block;
   height: 1px;
