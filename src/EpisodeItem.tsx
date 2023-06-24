@@ -17,7 +17,3 @@ function EpisodeItem({title, link, date, duration, summary}: EpisodeItemProps) {
 }
 
 export default EpisodeItem;
-
-EpisodeItem.defaultProps = {
-  link: '#',
-}

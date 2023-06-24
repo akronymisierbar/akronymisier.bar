@@ -38,6 +38,7 @@ function App() {
         <>
         <EpisodeItem 
           title={item.getElementsByTagName('title')[0].textContent ?? ''}
+          link={'/' + item.getElementsByTagName('itunes:episode')[0].textContent?.padStart(3, '0')}
           date={item.getElementsByTagName('pubDate')[0].textContent ?? ''}
           duration={item.getElementsByTagName('itunes:duration')[0].textContent ?? ''}
           summary={item.getElementsByTagName('itunes:summary')[0].textContent ?? ''}
