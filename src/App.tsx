@@ -35,13 +35,20 @@ function App() {
       </ul>
       <h2>Folgen</h2>
       {items.map((item, index) => (
+        <>
         <EpisodeItem 
           title={item.getElementsByTagName('title')[0].textContent ?? ''}
           date={item.getElementsByTagName('pubDate')[0].textContent ?? ''}
           duration={item.getElementsByTagName('itunes:duration')[0].textContent ?? ''}
           summary={item.getElementsByTagName('itunes:summary')[0].textContent ?? ''}
         />
+        <hr />
+        </>
       ))}
+      <div className="footer">
+        <p>© Copyright 2023 Akronymisierbar</p>
+        <a href="#">Legal Notice</a>
+      </div>
     </div>
   );
 }
