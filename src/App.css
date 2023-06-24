@@ -48,10 +48,19 @@ a {
   margin: auto;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 450px) {
   .episode-cover {
     width: 90%;
     height: auto;
+  }
+
+  .links {
+    flex-direction: column;
+  }
+  
+  .links li {
+    margin-left: 0;
+    margin-bottom: 5px;
   }
 }
 
