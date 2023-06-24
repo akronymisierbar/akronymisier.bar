@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import unshortifyEmoji from "./emoji";
 
 interface EpisodeItemProps {
   title: string;
@@ -24,7 +25,7 @@ function EpisodeItem({
         <span className="date">{date}</span> ·{" "}
         <span className="duration">{duration}</span>
       </p>
-      <p className="summary">{summary}</p>
+      <p className="summary">{unshortifyEmoji(summary)}</p>
     </article>
   );
 }
