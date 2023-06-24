@@ -27,11 +27,11 @@ function App() {
       <p>Podcast von und mit <a href="https://chaos.social/@hoodie">@hoodie</a> und <a href="https://chaos.social/@kilian">@kilian</a>. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen.</p>
       <h2>Links</h2>
       <ul>
-        <li><a href="https://feed.akronymisier.bar">RSS Feed</a></li>
-        <li><a href="https://itunes.apple.com/de/podcast/akronymisierbar/id1200334668">Apple Podcasts</a></li>
-        <li><a href="https://matrix.to/#/#akronymisierbar:matrix.org">Matrix</a></li>
-        <li><a href="https://chaos.social/@akronymisierbar">Fediverse</a></li>
-        <li><a href="https://liberapay.com/akronymisierbar/">Liberapay</a></li>
+        <li key='rss'><a href="https://feed.akronymisier.bar">RSS Feed</a></li>
+        <li key='itunes'><a href="https://itunes.apple.com/de/podcast/akronymisierbar/id1200334668">Apple Podcasts</a></li>
+        <li key='matrix'><a href="https://matrix.to/#/#akronymisierbar:matrix.org">Matrix</a></li>
+        <li key='fediverse'><a href="https://chaos.social/@akronymisierbar">Fediverse</a></li>
+        <li key='liberapay'><a href="https://liberapay.com/akronymisierbar/">Liberapay</a></li>
       </ul>
       <h2>Folgen</h2>
       {items.map((item, index) => (
