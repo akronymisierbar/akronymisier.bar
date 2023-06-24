@@ -8,12 +8,23 @@ interface EpisodeItemProps {
   summary: string;
 }
 
-function EpisodeItem({title, link, date, duration, summary}: EpisodeItemProps) {
+function EpisodeItem({
+  title,
+  link,
+  date,
+  duration,
+  summary,
+}: EpisodeItemProps) {
   return (
     <article>
-      <Link to={link}><h3 className="episode-title">{title}</h3></Link>
-      <p className='details'><span className="date">{date}</span> · <span className="duration">{duration}</span></p>
-      <p className='summary'>{summary}</p>
+      <Link to={link}>
+        <h3 className="episode-title">{title}</h3>
+      </Link>
+      <p className="details">
+        <span className="date">{date}</span> ·{" "}
+        <span className="duration">{duration}</span>
+      </p>
+      <p className="summary">{summary}</p>
     </article>
   );
 }
