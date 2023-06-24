@@ -1,5 +1,5 @@
 .logo {
-  height: 350px;
+  width: 350px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -19,9 +19,15 @@
 
 .episode-cover {
   width: 500px;
-  height: 500px;
   display: block;
   margin: auto;
+}
+
+@media (max-width: 600px) {
+  .episode-cover {
+    width: 90%;
+    height: auto;
+  }
 }
 
 hr {
