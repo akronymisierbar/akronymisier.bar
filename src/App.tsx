@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import './thebest.css';
-import EpisodeItem from './EpisodeItem';
+import EpisodeItem from './episode-item';
 import Footer from './footer';
 import { getFeedItems } from './feedparser';
 
