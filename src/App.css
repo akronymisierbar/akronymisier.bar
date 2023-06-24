@@ -53,6 +53,12 @@ a {
   margin-bottom: 0;
 }
 
+@media (max-width: 1000px) {
+  .back-button {
+    display: none;
+  }
+}
+
 @media (max-width: 450px) {
   .episode-cover {
     width: 90%;
