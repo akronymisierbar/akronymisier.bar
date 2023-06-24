@@ -37,13 +37,28 @@
     <item>
       <guid isPermaLink="false">93f8c73f-1083-40ac-898c-34158efbe497</guid>
       <title>053 - Schiff des Bezeus</title>
-      <description><![CDATA[<ul><li><a href="https://de.wikipedia.org/wiki/Schiff_des_Theseus">Schiff des Theseus</a></li><li><a href="https://www.imdb.com/title/tt0482571">The Prestige</a> (Filmempfehlung!)</li><li><a href="https://xyrillian.de/noises/gnse/004-color-spaces/">Gar Nicht So Einfach - Ein Kessel Buntes</a></li></ul><h3>Wordles</h3><ul><li><a href="https://edjefferson.com/letterle/">Letterle</a></li><li><a href="https://twitter.com/search?q=not%20wordle&src=typed_query">Not Wordle, but ...</a></li><li><a href="https://xkcd.com/2576/">xkcd 2576</a></li></ul><h3>Picks</h3><ul><li><a href="https://github.com/Byron/dua-cli">dua cli</a> cargo install dua-cli</li><li><a href="https://github.com/jokteur/python_communism">python communism</a></li></ul>
-]]></description>
+      <description>Macht ihr Wordles oder seid ihr in der Kontrollgruppe?</description>
       <pubDate>Thu, 10 Feb 2022 09:47:26 +0000</pubDate>
       <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
-      <link>https://akronymisier.bar/episodes/053-7aJLZS_b</link>
-      <content:encoded><![CDATA[<ul><li><a href="https://de.wikipedia.org/wiki/Schiff_des_Theseus">Schiff des Theseus</a></li><li><a href="https://www.imdb.com/title/tt0482571">The Prestige</a> (Filmempfehlung!)</li><li><a href="https://xyrillian.de/noises/gnse/004-color-spaces/">Gar Nicht So Einfach - Ein Kessel Buntes</a></li></ul><h3>Wordles</h3><ul><li><a href="https://edjefferson.com/letterle/">Letterle</a></li><li><a href="https://twitter.com/search?q=not%20wordle&src=typed_query">Not Wordle, but ...</a></li><li><a href="https://xkcd.com/2576/">xkcd 2576</a></li></ul><h3>Picks</h3><ul><li><a href="https://github.com/Byron/dua-cli">dua cli</a> cargo install dua-cli</li><li><a href="https://github.com/jokteur/python_communism">python communism</a></li></ul>
-]]></content:encoded>
+      <link>https://akronymisier.bar/053</link>
+      <content:encoded><![CDATA[
+      <ul>
+        <li><a href="https://de.wikipedia.org/wiki/Schiff_des_Theseus">Schiff des Theseus</a></li>
+        <li><a href="https://www.imdb.com/title/tt0482571">The Prestige</a> (Filmempfehlung!)</li>
+        <li><a href="https://xyrillian.de/noises/gnse/004-color-spaces/">Gar Nicht So Einfach - Ein Kessel Buntes</a></li>
+      </ul>
+      <h3>Wordles</h3>
+      <ul>
+        <li><a href="https://edjefferson.com/letterle/">Letterle</a></li>
+        <li><a href="https://twitter.com/search?q=not%20wordle&src=typed_query">Not Wordle, but ...</a></li>
+        <li><a href="https://xkcd.com/2576/">xkcd 2576</a></li>
+      </ul>
+      <h3>Picks</h3>
+      <ul>
+        <li><a href="https://github.com/Byron/dua-cli">dua cli</a><pre>cargo install dua-cli</pre></li>
+        <li><a href="https://github.com/jokteur/python_communism">python communism</a></li>
+      </ul>
+      ]]>      </content:encoded>
       <enclosure length="53675072" type="audio/mpeg" url="https://cdn.simplecast.com/audio/7ab096ff-6109-4835-82d4-29fbb06af2c3/episodes/cae51f5b-1c8a-4212-ac58-0e9fb3136869/audio/80fb57c2-4655-444f-a88e-b1871a4d6451/default_tc.mp3?aid=rss_feed&amp;feed=OB_iKD_T"/>
       <itunes:title>053 - Schiff des Bezeus</itunes:title>
       <itunes:author>Akronymisierbar</itunes:author>
@@ -57,13 +72,47 @@
     <item>
       <guid isPermaLink="false">e70d7a1e-71db-4f8a-be57-df95279e13a4</guid>
       <title>052 - Kilian Cosplay</title>
-      <description><![CDATA[<p>Heute geht's um Aktoren in Swift und Rust.</p><ul><li>SingleSpeed Fahrräder</li><li><a href="https://en.wikipedia.org/wiki/EURion_constellation">EURion Constellation</a></li><li><a href="https://github.com/readme/featured/nasa-ingenuity-helicopter">Open Source on Mars</a></li><li><a href="https://github.com/apple/swift-evolution/blob/main/proposals/0306-actors.md">Actors in Swift</a></li><li><a href="https://rustacean-station.org/">Rustacean Station ðŸ¦€ðŸ“¡</a><ul><li><a href="https://rustacean-station.org/episode/040-louis-pilford/">Gleam with Louis Pilfold</a> ( <a href="https://gleam.run/">Gleam</a>)</li><li><a href="https://rustacean-station.org/episode/043-bastian-gruber/">Rust Web Development with Bastian Gruber</a></li></ul></li><li><a href="https://www.erlang.org/">Erlang</a></li><li><a href="actix.rs/">actix-web</a> vs <a href="github.com/actix/actix">actix selbst</a></li><li><a href="https://golangbot.com/goroutines/">GoRoutines</a></li><li><a href="https://doc.rust-lang.org/stable/std/sync/mpsc/fn.channel.html">Rust channels</a> / <a href="https://docs.rs/futures/0.3.17/futures/channel/mpsc/fn.channel.html">future channels</a></li><li><a href="https://github.com/apple/swift-evolution/blob/main/proposals/0296-async-await.md">async await in swift</a></li><li><a href="https://developer.apple.com/documentation/foundation/nsnotificationcenter">NSNotificationCenter</a></li><li><a href="https://developer.apple.com/documentation/dispatch/">GCD</a></li><li><a href="https://developer.apple.com/documentation/dispatch/dispatchqueue/">Dispatch Queues</a></li><li><a href="docs.rs/futures/">rust futures</a> <a href="https://rust-lang.github.io/async-book/">async rust book</a> (tokio.rs / async.rs)</li></ul><h2>Titel</h2><ul><li>"Natuerlicher Rythmus"</li><li>extreme chat server</li></ul><h2>Picks:</h2><ul><li><a href="https://internetobject.org/">InternetObject - IO</a></li><li><a href="https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/">Hosting SQLite databases on Github Pages</a></li><li><a href="https://github.com/lucky/bad_actor_poc">Bad Actor</a> and <a href="https://github.com/jonas-schievink/mallory">mallory</a> (<a href="https://www.grepular.com/Sandbox_Rust_Development_with_Rust_Analyzer">Sandboxed Rust Dev</a>)</li></ul><blockquote><p>Hendrik: "... der hat naemlich eine WebAssembly runtime fuer macros gebaut..."<br />Kilian: "Eine WAS?!"<br />fun fact: die heißt quasi genau so:<br /><a href="https://github.com/dtolnay/watt">https://github.com/dtolnay/watt</a></p></blockquote>
-]]></description>
+      <description>Heute geht&apos;s um Aktoren in Swift und Rust.</description>
       <pubDate>Sun, 7 Nov 2021 17:53:44 +0000</pubDate>
       <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
-      <link>https://akronymisier.bar/episodes/052-1xHMlRjN</link>
-      <content:encoded><![CDATA[<p>Heute geht's um Aktoren in Swift und Rust.</p><ul><li>SingleSpeed Fahrräder</li><li><a href="https://en.wikipedia.org/wiki/EURion_constellation">EURion Constellation</a></li><li><a href="https://github.com/readme/featured/nasa-ingenuity-helicopter">Open Source on Mars</a></li><li><a href="https://github.com/apple/swift-evolution/blob/main/proposals/0306-actors.md">Actors in Swift</a></li><li><a href="https://rustacean-station.org/">Rustacean Station ðŸ¦€ðŸ“¡</a><ul><li><a href="https://rustacean-station.org/episode/040-louis-pilford/">Gleam with Louis Pilfold</a> ( <a href="https://gleam.run/">Gleam</a>)</li><li><a href="https://rustacean-station.org/episode/043-bastian-gruber/">Rust Web Development with Bastian Gruber</a></li></ul></li><li><a href="https://www.erlang.org/">Erlang</a></li><li><a href="actix.rs/">actix-web</a> vs <a href="github.com/actix/actix">actix selbst</a></li><li><a href="https://golangbot.com/goroutines/">GoRoutines</a></li><li><a href="https://doc.rust-lang.org/stable/std/sync/mpsc/fn.channel.html">Rust channels</a> / <a href="https://docs.rs/futures/0.3.17/futures/channel/mpsc/fn.channel.html">future channels</a></li><li><a href="https://github.com/apple/swift-evolution/blob/main/proposals/0296-async-await.md">async await in swift</a></li><li><a href="https://developer.apple.com/documentation/foundation/nsnotificationcenter">NSNotificationCenter</a></li><li><a href="https://developer.apple.com/documentation/dispatch/">GCD</a></li><li><a href="https://developer.apple.com/documentation/dispatch/dispatchqueue/">Dispatch Queues</a></li><li><a href="docs.rs/futures/">rust futures</a> <a href="https://rust-lang.github.io/async-book/">async rust book</a> (tokio.rs / async.rs)</li></ul><h2>Titel</h2><ul><li>"Natuerlicher Rythmus"</li><li>extreme chat server</li></ul><h2>Picks:</h2><ul><li><a href="https://internetobject.org/">InternetObject - IO</a></li><li><a href="https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/">Hosting SQLite databases on Github Pages</a></li><li><a href="https://github.com/lucky/bad_actor_poc">Bad Actor</a> and <a href="https://github.com/jonas-schievink/mallory">mallory</a> (<a href="https://www.grepular.com/Sandbox_Rust_Development_with_Rust_Analyzer">Sandboxed Rust Dev</a>)</li></ul><blockquote><p>Hendrik: "... der hat naemlich eine WebAssembly runtime fuer macros gebaut..."<br />Kilian: "Eine WAS?!"<br />fun fact: die heißt quasi genau so:<br /><a href="https://github.com/dtolnay/watt">https://github.com/dtolnay/watt</a></p></blockquote>
-]]></content:encoded>
+      <link>https://akronymisier.bar/052</link>
+      <content:encoded><![CDATA[
+      <ul>
+        <li>SingleSpeed Fahrräder</li>
+        <li><a href="https://en.wikipedia.org/wiki/EURion_constellation">EURion Constellation</a></li>
+        <li><a href="https://github.com/readme/featured/nasa-ingenuity-helicopter">Open Source on Mars</a></li>
+        <li><a href="https://github.com/apple/swift-evolution/blob/main/proposals/0306-actors.md">Actors in Swift</a></li>
+        <li><a href="https://rustacean-station.org/">Rustacean Station</a>
+          <ul>
+            <li><a href="https://rustacean-station.org/episode/040-louis-pilford/">Gleam with Louis Pilfold</a> (<a href="https://gleam.run/">Gleam</a>)</li>
+            <li><a href="https://rustacean-station.org/episode/043-bastian-gruber/">Rust Web Development with Bastian Gruber</a></li>
+          </ul>
+        </li>
+        <li><a href="https://www.erlang.org/">Erlang</a></li>
+        <li><a href="actix.rs/">actix-web</a> vs <a href="github.com/actix/actix">actix selbst</a></li>
+        <li><a href="https://golangbot.com/goroutines/">GoRoutines</a></li>
+        <li><a href="https://doc.rust-lang.org/stable/std/sync/mpsc/fn.channel.html">Rust channels</a> / <a href="https://docs.rs/futures/0.3.17/futures/channel/mpsc/fn.channel.html">future channels</a></li>
+        <li><a href="https://github.com/apple/swift-evolution/blob/main/proposals/0296-async-await.md">async await in swift</a></li>
+        <li><a href="https://developer.apple.com/documentation/foundation/nsnotificationcenter">NSNotificationCenter</a></li>
+        <li><a href="https://developer.apple.com/documentation/dispatch/">GCD</a></li>
+        <li><a href="https://developer.apple.com/documentation/dispatch/dispatchqueue/">Dispatch Queues</a></li>
+        <li><a href="docs.rs/futures/">rust futures</a> <a href="https://rust-lang.github.io/async-book/">async rust book</a> (tokio.rs / async.rs)</li>
+      </ul>
+      <h3>Titel</h3>
+      <ul>
+        <li>"Natuerlicher Rythmus"</li>
+        <li>extreme chat server</li>
+      </ul>
+      <h3>Picks:</h3>
+      <ul>
+        <li><a href="https://internetobject.org/">InternetObject - IO</a></li>
+        <li><a href="https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/">Hosting SQLite databases on Github Pages</a></li>
+        <li><a href="https://github.com/lucky/bad_actor_poc">Bad Actor</a> and <a href="https://github.com/jonas-schievink/mallory">mallory</a> (<a href="https://www.grepular.com/Sandbox_Rust_Development_with_Rust_Analyzer">Sandboxed Rust Dev</a>)</li>
+      </ul>
+      <blockquote>
+        <p>Hendrik: "... der hat naemlich eine WebAssembly runtime fuer macros gebaut..."<br />Kilian: "Eine WAS?!"<br />fun fact: die heißt quasi genau so:<br /><a href="https://github.com/dtolnay/watt">https://github.com/dtolnay/watt</a></p>
+      </blockquote>
+      ]]></content:encoded>
       <enclosure length="82223304" type="audio/mpeg" url="https://cdn.simplecast.com/audio/7ab096ff-6109-4835-82d4-29fbb06af2c3/episodes/aafeb90c-f324-4aff-af59-7a0d3e07709a/audio/21e460bc-6d3c-408e-8df9-998e1a74f9b9/default_tc.mp3?aid=rss_feed&amp;feed=OB_iKD_T"/>
       <itunes:title>052 - Kilian Cosplay</itunes:title>
       <itunes:author>Akronymisierbar</itunes:author>
