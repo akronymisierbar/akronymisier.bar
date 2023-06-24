@@ -24,7 +24,7 @@ function App() {
         {/* <h1>Akronymisierbar</h1> */}
         <img className='logo' src="logo.jpg" alt="podcast logo showing headphones and the text Akronymisierbar" />
       </header>
-      <p>Podcast von und mit @hoodie_de und @kiliankoe. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen.</p>
+      <p>Podcast von und mit <a href="https://chaos.social/@hoodie">@hoodie</a> und <a href="https://chaos.social/@kilian">@kilian</a>. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen.</p>
       <h2>Links</h2>
       <ul>
         <li><a href="https://feed.akronymisier.bar">RSS Feed</a></li>
