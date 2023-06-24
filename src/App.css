@@ -48,6 +48,11 @@ a {
   margin: auto;
 }
 
+.description pre {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 @media (max-width: 450px) {
   .episode-cover {
     width: 90%;
