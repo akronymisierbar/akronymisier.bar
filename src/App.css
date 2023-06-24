@@ -5,6 +5,20 @@
   margin-right: auto;
 }
 
+.links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.links li {
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
 .details {
   font-size: small;
   color: gray;
