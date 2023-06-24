@@ -3,6 +3,7 @@ import { getEpisodeDetails, EpisodeDetails } from "./feedparser";
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 import Footer from "./footer";
+import { useEffect } from "react";
 
 interface LoaderData {
   episode: EpisodeDetails;
@@ -15,6 +16,11 @@ export async function episodeLoader({ params }: {params: any}) {
 
 export default function EpisodeDetail() {
   const { episode } = useLoaderData() as LoaderData;
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <h1>{episode.title}</h1>
