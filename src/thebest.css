@@ -115,7 +115,7 @@ html.contrast span.mfw {
 
 @media (prefers-color-scheme: dark) {
   html:not(.inverted) {
-      background-color:#000
+      background-color:rgb(35, 39, 46);
   }
 
   html:not(.inverted) body {
