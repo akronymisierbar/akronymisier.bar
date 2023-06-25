@@ -21,7 +21,7 @@ function EpisodeItem({
       <Link to={link}>
         <h3 className="episode-title">{title}</h3>
       </Link>
-      <p className="details">
+      <p className="episode-details">
         <span className="date">{date}</span> ·{" "}
         <span className="duration">{duration}</span>
       </p>
