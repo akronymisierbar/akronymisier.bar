@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./main.css";
 import "./thebest.css";
 import EpisodeItem from "./episode-item";
-import Footer from "./footer";
+import { Footer } from "./footer";
 import { getFeedItems, EpisodeDetails } from "./feedparser";
 import { LinkBar } from "./linkbar";
 
@@ -29,10 +29,17 @@ function Main() {
       </header>
 
       <p>
-        Podcast von und mit <a href="https://chaos.social/@hoodie" target="_blank">@hoodie</a>{" "}
-        und <a href="https://chaos.social/@kilian" target="_blank">@kilian</a>. Geballtes
-        gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern
-        und anderen (meist technischen) Themen, die uns spontan einfallen.
+        Podcast von und mit{" "}
+        <a href="https://chaos.social/@hoodie" target="_blank" rel="noreferrer">
+          @hoodie
+        </a>{" "}
+        und{" "}
+        <a href="https://chaos.social/@kilian" target="_blank" rel="noreferrer">
+          @kilian
+        </a>
+        . Geballtes gefährliches Halbwissen zu allem rund um
+        Programmiersprachen, Messengern und anderen (meist technischen) Themen,
+        die uns spontan einfallen.
       </p>
 
       <h2>Folgen</h2>

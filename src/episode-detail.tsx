@@ -2,7 +2,7 @@ import { useLoaderData } from "react-router-dom";
 import { getEpisodeDetails, EpisodeDetails } from "./feedparser";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
-import Footer from "./footer";
+import { Footer } from "./footer";
 import { useEffect } from "react";
 import unshortifyEmoji from "./emoji";
 import { Link } from "react-router-dom";
