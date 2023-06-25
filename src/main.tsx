@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import "./App.css";
+import "./main.css";
 import "./thebest.css";
 import EpisodeItem from "./episode-item";
 import Footer from "./footer";
 import { getFeedItems, EpisodeDetails } from "./feedparser";
 
-function App() {
+function Main() {
   const [episodes, setEpisodes] = useState([] as EpisodeDetails[]);
 
   useEffect(() => {
@@ -17,7 +17,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="main">
       <header>
         <ul className="links">
           <li key="rss">
@@ -55,7 +55,7 @@ function App() {
 
       <h2>Folgen</h2>
       {episodes.map((ep, index) => (
-        <>
+        <div key={ep.id}>
           <EpisodeItem
             title={ep.title}
             link={"/" + ep.id}
@@ -64,11 +64,11 @@ function App() {
             summary={ep.summary}
           />
           <hr />
-        </>
+        </div>
       ))}
       <Footer />
     </div>
   );
 }
 
-export default App;
+export default Main;

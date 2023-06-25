@@ -26,7 +26,7 @@ export default function EpisodeDetail() {
 
   return (
     <>
-      <div className="title-container">
+      <div className="episode-title-container">
         <div className="back-button">
           <Link to="/">
             <BackIcon style={{ width: "100px", height: "100px" }} />
@@ -34,7 +34,7 @@ export default function EpisodeDetail() {
         </div>
         <h1>{episode.title}</h1>
       </div>
-      <p className="details">
+      <p className="episode-details">
         <span className="date">{episode.date}</span> ·{" "}
         <span className="duration">{episode.duration}</span>
       </p>
@@ -51,7 +51,7 @@ export default function EpisodeDetail() {
       )}
       <h2>Shownotes</h2>
       <p
-        className="description"
+        className="episode-content"
         dangerouslySetInnerHTML={{ __html: unshortifyEmoji(episode.content) }}
       />
       <Footer />

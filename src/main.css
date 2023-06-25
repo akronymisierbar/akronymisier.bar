@@ -19,13 +19,13 @@ a {
   text-decoration: none;
 }
 
-.details {
+.episode-details {
   font-size: small;
   color: gray;
   line-height: 0;
 }
 
-.title-container {
+.episode-title-container {
   display: flex;
   align-items: start;
   position: relative;
@@ -48,7 +48,7 @@ a {
   margin: auto;
 }
 
-.description pre {
+.episode-content pre {
   margin-top: 0;
   margin-bottom: 0;
 }
