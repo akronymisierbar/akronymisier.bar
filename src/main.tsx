@@ -21,21 +21,21 @@ function Main() {
       <header>
         <ul className="links">
           <li key="rss">
-            <a href="https://feed.akronymisier.bar">RSS Feed</a>
+            <a href="https://feed.akronymisier.bar" target="_blank">RSS Feed</a>
           </li>
           <li key="itunes">
-            <a href="https://itunes.apple.com/de/podcast/akronymisierbar/id1200334668">
+            <a href="https://itunes.apple.com/de/podcast/akronymisierbar/id1200334668" target="_blank">
               Apple Podcasts
             </a>
           </li>
           <li key="matrix">
-            <a href="https://matrix.to/#/#akronymisierbar:matrix.org">Matrix</a>
+            <a href="https://matrix.to/#/#akronymisierbar:matrix.org" target="_blank">Matrix</a>
           </li>
           <li key="fediverse">
-            <a href="https://chaos.social/@akronymisierbar">Fediverse</a>
+            <a href="https://chaos.social/@akronymisierbar" target="_blank">Fediverse</a>
           </li>
           <li key="liberapay">
-            <a href="https://liberapay.com/akronymisierbar/">Liberapay</a>
+            <a href="https://liberapay.com/akronymisierbar/" target="_blank">Liberapay</a>
           </li>
         </ul>
 
