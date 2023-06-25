@@ -21,11 +21,11 @@ function EpisodeItem({
       <Link to={link}>
         <h3 className="episode-title">{title}</h3>
       </Link>
+      <p className="episode-summary">{unshortifyEmoji(summary)}</p>
       <p className="episode-details">
         <span className="date">{date}</span> ·{" "}
         <span className="duration">{duration}</span>
       </p>
-      <p className="summary">{unshortifyEmoji(summary)}</p>
     </article>
   );
 }
