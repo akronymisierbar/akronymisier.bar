@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import unshortifyEmoji from "./emoji";
 import { Link } from "react-router-dom";
 import { ReactComponent as BackIcon } from "./back-icon.svg";
+import Giscus from '@giscus/react';
 
 interface LoaderData {
   episode: EpisodeDetails;
@@ -53,6 +54,20 @@ export default function EpisodeDetail() {
       <p
         className="episode-content"
         dangerouslySetInnerHTML={{ __html: unshortifyEmoji(episode.content) }}
+      />
+
+      <Giscus
+        repo="akronymisierbar/akronymisier.bar"
+        repoId="R_kgDOJzcCqA"
+        category="Announcements"
+        categoryId="DIC_kwDOJzcCqM4CXdbE"
+        mapping="pathname"
+        strict="0"
+        reactionsEnabled="1"
+        emitMetadata="0"
+        inputPosition="top"
+        theme="preferred_color_scheme"
+        lang="en"
       />
       <Footer />
     </>
