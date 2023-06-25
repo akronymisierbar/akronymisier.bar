@@ -4,13 +4,13 @@ export interface EpisodeDetails {
   id: string;
   title: string;
   date: string;
-  cover: string | null;
+  cover?: string;
   duration: string;
   audio: string;
   summary: string;
   description: string;
   content: string;
-};
+}
 
 export async function getFeedItems(): Promise<EpisodeDetails[]> {
   const res = await fetch('/feed.rss');
@@ -19,6 +19,7 @@ export async function getFeedItems(): Promise<EpisodeDetails[]> {
   const feedItems = data.getElementsByTagName('item');
   return Array.from(feedItems).map((item, index) => {
     const pubDate = item.getElementsByTagName('pubDate')[0].textContent ?? '';
+
     return {
       id: item.getElementsByTagName('itunes:episode')[0].textContent?.padStart(3, '0') ?? '',
       title: item.getElementsByTagName('title')[0].textContent ?? '',
@@ -32,13 +33,13 @@ export async function getFeedItems(): Promise<EpisodeDetails[]> {
       content: item.getElementsByTagName('content:encoded')[0].textContent ?? ''
     };
   });
-};
+}
 
 export async function getEpisodeDetails(episode: string): Promise<EpisodeDetails> {
-  const feedItems = Array.from(await getFeedItems());
-  const item = feedItems.find(i => i.id == episode);
+  const feedItems = await getFeedItems();
+  const item = feedItems.find(i => i.id === episode);
   if (!item) {
     throw new Error(`cannot find episode '${episode}'`);
   }
   return item;
-};
+}

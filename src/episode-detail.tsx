@@ -7,7 +7,7 @@ import { useEffect } from "react";
 import unshortifyEmoji from "./emoji";
 import { Link } from "react-router-dom";
 import { ReactComponent as BackIcon } from "./back-icon.svg";
-import Giscus from '@giscus/react';
+import Giscus from "@giscus/react";
 
 interface LoaderData {
   episode: EpisodeDetails;
