@@ -4,6 +4,7 @@ import "./thebest.css";
 import EpisodeItem from "./episode-item";
 import Footer from "./footer";
 import { getFeedItems, EpisodeDetails } from "./feedparser";
+import { LinkBar } from "./linkbar";
 
 function Main() {
   const [episodes, setEpisodes] = useState([] as EpisodeDetails[]);
@@ -19,26 +20,7 @@ function Main() {
   return (
     <div className="main">
       <header>
-        <ul className="links">
-          <li key="rss">
-            <a href="https://feed.akronymisier.bar" target="_blank">RSS Feed</a>
-          </li>
-          <li key="itunes">
-            <a href="https://itunes.apple.com/de/podcast/akronymisierbar/id1200334668" target="_blank">
-              Apple Podcasts
-            </a>
-          </li>
-          <li key="matrix">
-            <a href="https://matrix.to/#/#akronymisierbar:matrix.org" target="_blank">Matrix</a>
-          </li>
-          <li key="fediverse">
-            <a href="https://chaos.social/@akronymisierbar" target="_blank">Fediverse</a>
-          </li>
-          <li key="liberapay">
-            <a href="https://liberapay.com/akronymisierbar/" target="_blank">Liberapay</a>
-          </li>
-        </ul>
-
+        <LinkBar />
         <img
           className="logo center"
           src="logo512.png"
