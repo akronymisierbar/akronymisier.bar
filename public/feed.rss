@@ -3,15 +3,21 @@
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
   xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
-  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
     <atom:link href="https://feed.akronymisier.bar" rel="self" title="MP3 Audio" type="application/atom+xml"/>
     <atom:link href="https://simplecast.superfeedr.com/" rel="hub"
       xmlns="http://www.w3.org/2005/Atom"/>
     <generator>artisanal hand-crafted XML</generator>
+    
     <title>Akronymisierbar</title>
     <description>Podcast von und mit @hoodie und @kilian. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen.</description>
     <language>de</language>
+
+    <podcast:locked owner="akronymisierbar@fastmail.com">yes</podcast:locked>
+    <podcast:block id="spotify">yes</podcast:block>
+    <podcast:funding url="https://liberapay.com/akronymisierbar/">Liberapay</podcast:funding>
 
     <pubDate>Thu, 10 Feb 2022 09:47:26 +0000</pubDate>
     <lastBuildDate>Thu, 10 Feb 2022 09:47:36 +0000</lastBuildDate>
@@ -22,6 +28,7 @@
       <url>https://akronymisier.bar/logo.jpg</url>
     </image>
     <link>https://akronymisier.bar</link>
+
     <itunes:type>episodic</itunes:type>
     <itunes:summary>Podcast von und mit @hoodie_de und @kiliankoe. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen.</itunes:summary>
     <itunes:author>Kilian &amp; Hendrik</itunes:author>
@@ -35,6 +42,7 @@
     </itunes:owner>
     <itunes:category text="Technology"/>
     <itunes:category text="Leisure"/>
+
     <item>
       <guid isPermaLink="false">93f8c73f-1083-40ac-898c-34158efbe497</guid>
       <title>053 - Schiff des Bezeus</title>
