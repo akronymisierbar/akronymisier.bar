@@ -25,15 +25,21 @@ export default function EpisodeDetail() {
     window.scrollTo(0, 0);
 
     const fetchChaptermarks = async () => {
-      const res = await fetch(`https://media.akronymisier.bar/file/akronymisierbar/${episode.id}.chapters.txt`);
-      if (res.ok) {
-        setChaptermarks(await res.text());
-      } else {
-        setChaptermarks(undefined);
+      try {
+        const res = await fetch(
+          `https://media.akronymisier.bar/file/akronymisierbar/${episode.id}.chapters.txt`
+        );
+        if (res.ok) {
+          setChaptermarks(await res.text());
+        } else {
+          setChaptermarks(undefined);
+        }
+      } catch (error) {
+        console.log("Failed to fetch chaptermarks file. This is fine.");
       }
     };
     fetchChaptermarks();
-  }, []);
+  }, [episode.id]);
 
   return (
     <>
@@ -69,11 +75,7 @@ export default function EpisodeDetail() {
         }
       />
 
-      {episode.summary ? (
-        <p className="summary">{episode.summary}</p>
-      ) : (
-        <></>
-      )}
+      {episode.summary ? <p className="summary">{episode.summary}</p> : <></>}
 
       <h2>Shownotes</h2>
       <p
