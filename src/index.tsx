@@ -1,34 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import Main from "./main";
+import "./styles/index.css";
 import reportWebVitals from "./reportWebVitals";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import ErrorPage from "./error-page";
-import EpisodeDetail, { episodeLoader } from "./episode-detail";
-import LegalNotice from "./legal-notice";
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Main />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: "impressum",
-    element: <LegalNotice />,
-  },
-  {
-    path: "/023",
-    element: <p style={{ fontSize: "240px", textAlign: "center" }}>👀</p>,
-  },
-  {
-    path: ":episode",
-    element: <EpisodeDetail />,
-    loader: episodeLoader,
-    errorElement: <ErrorPage />,
-  },
-]);
+import { RouterProvider } from "react-router-dom";
+import { router } from "./components/router";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import "./main.css";
-import "./thebest.css";
-import EpisodeItem from "./episode-item";
-import { Footer } from "./footer";
-import { getFeedItems, EpisodeDetails } from "./feedparser";
-import { LinkBar } from "./linkbar";
+import "../styles/main.css";
+import "../styles/thebest.css";
+import EpisodeItem from "../components/episode-item";
+import { Footer } from "../components/footer";
+import { getFeedItems, EpisodeDetails } from "../feedparser";
+import { LinkBar } from "../components/linkbar";
 
 function Main() {
   const [episodes, setEpisodes] = useState([] as EpisodeDetails[]);

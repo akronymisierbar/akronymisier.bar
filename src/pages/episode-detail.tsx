@@ -1,11 +1,11 @@
 import { useLoaderData } from "react-router-dom";
-import { getEpisodeDetails, EpisodeDetails } from "./feedparser";
+import { getEpisodeDetails, EpisodeDetails } from "../feedparser";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
-import { Footer } from "./footer";
+import { Footer } from "../components/footer";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { ReactComponent as BackIcon } from "./back-icon.svg";
+import { ReactComponent as BackIcon } from "../icons/back-icon.svg";
 import Giscus from "@giscus/react";
 
 interface LoaderData {
