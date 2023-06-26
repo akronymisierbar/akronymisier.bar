@@ -45,6 +45,7 @@ a {
   width: 350px;
   display: block;
   margin: auto;
+  padding-bottom: 1px;
 }
 
 .episode-content pre {

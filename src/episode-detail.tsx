@@ -3,7 +3,7 @@ import { getEpisodeDetails, EpisodeDetails } from "./feedparser";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 import { Footer } from "./footer";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { ReactComponent as BackIcon } from "./back-icon.svg";
 import Giscus from "@giscus/react";
@@ -19,9 +19,20 @@ export async function episodeLoader({ params }: { params: any }) {
 
 export default function EpisodeDetail() {
   const { episode } = useLoaderData() as LoaderData;
+  const [chaptermarks, setChaptermarks] = useState(undefined as string | undefined);
 
   useEffect(() => {
     window.scrollTo(0, 0);
+
+    const fetchChaptermarks = async () => {
+      const res = await fetch(`https://media.akronymisier.bar/file/akronymisierbar/${episode.id}.chapters.txt`);
+      if (res.ok) {
+        setChaptermarks(await res.text());
+      } else {
+        setChaptermarks(undefined);
+      }
+    };
+    fetchChaptermarks();
   }, []);
 
   return (
@@ -43,12 +54,27 @@ export default function EpisodeDetail() {
         src={episode.cover ? episode.cover : "/logo512.png"}
         alt="coverart"
       />
-      <AudioPlayer src={episode.audio} customAdditionalControls={[]} />
+      <AudioPlayer
+        src={episode.audio}
+        customAdditionalControls={[]}
+        footer={
+          chaptermarks !== undefined ? (
+            <details>
+              <summary>Chaptermarks</summary>
+              <pre>{chaptermarks}</pre>
+            </details>
+          ) : (
+            <></>
+          )
+        }
+      />
+
       {episode.summary ? (
         <p className="summary">{episode.summary}</p>
       ) : (
         <></>
       )}
+
       <h2>Shownotes</h2>
       <p
         className="episode-content"
