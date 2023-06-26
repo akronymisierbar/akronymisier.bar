@@ -4,7 +4,6 @@ import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 import { Footer } from "./footer";
 import { useEffect } from "react";
-import unshortifyEmoji from "./emoji";
 import { Link } from "react-router-dom";
 import { ReactComponent as BackIcon } from "./back-icon.svg";
 import Giscus from "@giscus/react";
@@ -46,14 +45,14 @@ export default function EpisodeDetail() {
       />
       <AudioPlayer src={episode.audio} customAdditionalControls={[]} />
       {episode.summary ? (
-        <p className="summary">{unshortifyEmoji(episode.summary)}</p>
+        <p className="summary">{episode.summary}</p>
       ) : (
         <></>
       )}
       <h2>Shownotes</h2>
       <p
         className="episode-content"
-        dangerouslySetInnerHTML={{ __html: unshortifyEmoji(episode.content) }}
+        dangerouslySetInnerHTML={{ __html: episode.content }}
       />
 
       <Giscus
