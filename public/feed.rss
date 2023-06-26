@@ -34,7 +34,7 @@
     <itunes:author>Kilian &amp; Hendrik</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://akronymisier.bar/logo.jpg"/>
-    <itunes:new-feed-url>https://feed.akronymisier.bar</itunes:new-feed-url>
+    <itunes:new-feed-url>https://akronymisier.bar/feed.rss</itunes:new-feed-url>
     <itunes:keywords>akronymisierbar, dresden, rust, swift</itunes:keywords>
     <itunes:owner>
       <itunes:name>Akronymisierbar</itunes:name>
