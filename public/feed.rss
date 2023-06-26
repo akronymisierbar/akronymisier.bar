@@ -2720,73 +2720,42 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
     <item>
       <guid isPermaLink="false">tag:soundcloud,2010:tracks/305163576</guid>
       <title>000 - Nullnummer</title>
-      <description><![CDATA[<ul>
-<li>Bullet Journal http://bulletjournal.com</li>
-<li>Leicht angepasste Variante einer YouTuberin https://www.youtube.com/watch?v=vtjWgiecORI</li>
-<li>Unsere Podcastclients</li>
-<li>BeyondPod http://beyondpod.mobi/android/index.htm</li>
-<li>Overcast https://overcast.fm</li>
-<li>Podcast Empfehlungen
-<ul>
-<li>DRadio Hörsaal</li>
-<li>DRadio Wissen</li>
-<li>DRadio Update</li>
-<li>DRadio Einhundert</li>
-<li>99% Invisible</li>
-<li>Radiolab</li>
-<li>Startup von Gimlet</li>
-<li>Reply All</li>
-<li>Dan Carlin's Harcore History</li>
-<li>Hoaxilla</li>
-<li>No Such Things as a Fish</li>
-<li>ATP (Accidental Tech Podcast)</li>
-<li>Surprisingly Awesome</li>
-</ul>
-</li>
-<li>Bitlove https://bitlove.org</li>
-<li>IPFS https://ipfs.io</li>
-<li>Maidsafe https://maidsafe.net</li>
-<li>Unser &quot;Sponsor&quot; Kolle-Mate http://kolle-mate.de</li>
-<li>Das ascii https://ascii-dresden.de</li>
-<li>Emojicode http://www.emojicode.org</li>
-</ul>
-]]></description>
       <description>Wir machen jetzt einen Podcast 😱</description>
       <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
       <author>akronymisierbar@fastmail.com (@kiliankoe &amp; @hoodie_de)</author>
       <link>https://akronymisier.bar/episodes/000-nullnummer-372a8996</link>
-      <content:encoded><![CDATA[<ul>
-<li>Bullet Journal http://bulletjournal.com</li>
-<li>Leicht angepasste Variante einer YouTuberin https://www.youtube.com/watch?v=vtjWgiecORI</li>
-<li>Unsere Podcastclients</li>
-<li>BeyondPod http://beyondpod.mobi/android/index.htm</li>
-<li>Overcast https://overcast.fm</li>
-<li>Podcast Empfehlungen
+      <content:encoded><![CDATA[
 <ul>
-<li>DRadio Hörsaal</li>
-<li>DRadio Wissen</li>
-<li>DRadio Update</li>
-<li>DRadio Einhundert</li>
-<li>99% Invisible</li>
-<li>Radiolab</li>
-<li>Startup von Gimlet</li>
-<li>Reply All</li>
-<li>Dan Carlin's Harcore History</li>
-<li>Hoaxilla</li>
-<li>No Such Things as a Fish</li>
-<li>ATP (Accidental Tech Podcast)</li>
-<li>Surprisingly Awesome</li>
-</ul>
-</li>
-<li>Bitlove https://bitlove.org</li>
-<li>IPFS https://ipfs.io</li>
-<li>Maidsafe https://maidsafe.net</li>
-<li>Unser &quot;Sponsor&quot; Kolle-Mate http://kolle-mate.de</li>
-<li>Das ascii https://ascii-dresden.de</li>
-<li>Emojicode http://www.emojicode.org</li>
+  <li><a href="http://bulletjournal.com">Bullet Journal</a></li>
+  <li><a href="https://www.youtube.com/watch?v=vtjWgiecORI">Leicht angepasste Variante einer YouTuberin</a></li>
+  <li>Unsere Podcastclients<ul>
+    <li><a href="http://beyondpod.mobi/android/index.htm">BeyondPod</a></li>
+    <li><a href="https://overcast.fm">Overcast</a></li>
+  </ul></li>
+  <li>Podcast Empfehlungen<ul>
+    <li>DRadio Hörsaal</li>
+    <li>DRadio Wissen</li>
+    <li>DRadio Update</li>
+    <li>DRadio Einhundert</li>
+    <li>99% Invisible</li>
+    <li>Radiolab</li>
+    <li>Startup von Gimlet</li>
+    <li>Reply All</li>
+    <li>Dan Carlin's Harcore History</li>
+    <li>Hoaxilla</li>
+    <li>No Such Things as a Fish</li>
+    <li>ATP (Accidental Tech Podcast)</li>
+    <li>Surprisingly Awesome</li>
+  </ul></li>
+  <li><a href="https://bitlove.org">Bitlove</a></li>
+  <li><a href="https://ipfs.io">IPFS</a></li>
+  <li><a href="https://maidsafe.net">Maidsafe</a></li>
+  <li>Unser &quot;Sponsor&quot; <a href="http://kolle-mate.de">Kolle-Mate</a></li>
+  <li><a href="https://ascii-dresden.de">Das ascii</a></li>
+  <li><a href="http://www.emojicode.org">Emojicode</a></li>
 </ul>
 ]]></content:encoded>
-      <enclosure length="67899727" type="audio/mpeg" url="https://cdn.simplecast.com/audio/7ab096/7ab096ff-6109-4835-82d4-29fbb06af2c3/c89fce8b-f3fc-4d00-9c1a-7bae0f5dec40/372a8996_tc.mp3?aid=rss_feed&amp;feed=OB_iKD_T"/>
+      <enclosure length="67899727" type="audio/mpeg" url="https://media.akronymisier.bar/file/akronymisierbar/000.mp3"/>
       <itunes:title>000 - Nullnummer</itunes:title>
       <itunes:author>@kiliankoe &amp; @hoodie_de</itunes:author>
       <itunes:image href="https://image.simplecastcdn.com/images/7ab096/7ab096ff-6109-4835-82d4-29fbb06af2c3/c89fce8b-f3fc-4d00-9c1a-7bae0f5dec40/3000x3000/1516569378artwork.jpg?aid=rss_feed"/>
