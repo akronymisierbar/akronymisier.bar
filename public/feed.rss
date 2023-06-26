@@ -19,8 +19,8 @@
     <podcast:block id="spotify">yes</podcast:block>
     <podcast:funding url="https://liberapay.com/akronymisierbar/">Liberapay</podcast:funding>
 
-    <pubDate>Thu, 10 Feb 2022 09:47:26 +0000</pubDate>
-    <lastBuildDate>Thu, 10 Feb 2022 09:47:36 +0000</lastBuildDate>
+    <pubDate>Mon, 26 Jun 2023 20:01:54 +0000</pubDate>
+    <lastBuildDate>Mon, 26 Jun 2023 20:01:54 +0000</lastBuildDate>
 
     <image>
       <link>https://akronymisier.bar</link>
@@ -43,6 +43,55 @@
     <itunes:category text="Technology"/>
     <itunes:category text="Leisure"/>
 
+    <item>
+      <guid isPermaLink="false">a7dd273c-5ee2-4dd4-a0f4-65c91e853361</guid>
+      <title>054 - Rule 34 of git</title>
+      <description>Wir sind wieder da, waren wir je weg?</description>
+      <pubDate>Mon, 26 Jun 2023 20:01:54 +0000</pubDate>
+      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <link>https://akronymisier.bar/054</link>
+      <content:encoded><![CDATA[
+<ul>
+  <li><a href="https://www.sz-fahrradfest.de/touren">sz fahrradfest</a></li>
+  <li>die "reddit situation"<ul>
+    <li>Größte Alternative bisher: <a href="https://join-lemmy.org/">Lemmy</a> (leider auch nicht ganz unproblematisch)</li>
+  </ul></li>
+  <li><a href="https://webpack.js.org/">webpack</a> vs <a href="http://vitejs.dev/">vite</a></li>
+  <li><a href="https://youtu.be/3Ay6qZ88boI">fireship</a></li>
+  <li><a href="https://www.git-scm.com/docs/git-blame#Documentation/git-blame.txt---ignore-revs-fileltfilegt">git blame --ignore-revs-file </a></li>
+  <li><a href="https://tauri.studio/">tauri</a></li>
+  <li><a href="https://developer.microsoft.com/en-us/microsoft-edge/webview2/">WebView2</a></li>
+  <li><a href="https://mobilecamp.de/">mobilecamp</a></li>
+  <li><a href="https://pandoc.org/">pandoc</a></li>
+</ul>
+<h3>Picks:</h3>
+<ul>
+  <li><a href="https://starship.rs/">starship.rs</a></li>
+  <li><a href="https://github.com/streamlit/streamlit">streamlit</a></li>
+  <li><a href="http://vite.dev/">vite</a></li>
+  <li><a href="https://github.com/tummychow/git-absorb">git-absorb</a></li>
+  <li><a href="https://github.com/andrewmd5/orion">orion</a></li>
+  <li><a href="https://github.com/typst/typst">typst</a></li>
+  <li><a href="https://github.com/hoodie/rosemary/">rosemary</a></li>
+  <li><a href="https://github.com/hoodie/scrape/">scrape</a></li>
+</ul>
+<h3>Alternative Titel</h3>
+<ul>
+  <li>von Steve and Steven</li>
+  <li>"subreddit geloeschrt"</li>
+  <li>"fireship" vs "starship"</li>
+</ul>
+      ]]>      </content:encoded>
+      <enclosure length="53675072" type="audio/mpeg" url="https://media.akronymisier.bar/file/akronymisierbar/054.mp3"/>
+      <itunes:title>054 - Rule 34 of git</itunes:title>
+      <itunes:author>Akronymisierbar</itunes:author>
+      <itunes:duration>01:37:59</itunes:duration>
+      <itunes:summary>Wir sind wieder da, waren wir je weg?</itunes:summary>
+      <itunes:subtitle>Wir sind wieder da, waren wir je weg?</itunes:subtitle>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>54</itunes:episode>
+    </item>
     <item>
       <guid isPermaLink="false">93f8c73f-1083-40ac-898c-34158efbe497</guid>
       <title>053 - Schiff des Bezeus</title>
