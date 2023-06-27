@@ -53,6 +53,20 @@ a {
   margin-bottom: 0;
 }
 
+summary {
+  padding-bottom: 5px;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  display: block;
+  font-family: monospace;
+  font-size: large;
+}
+
 @media (max-width: 1000px) {
   .back-button {
     display: none;

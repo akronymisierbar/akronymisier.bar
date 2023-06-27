@@ -1,6 +1,6 @@
 import dateFormat from "dateformat";
 
-export interface EpisodeDetails {
+export interface Episode {
   id: string;
   title: string;
   date: string;
@@ -10,12 +10,13 @@ export interface EpisodeDetails {
   summary: string;
   description: string;
   content: string;
+  chapters?: string;
   socialInteract?: string;
 }
 
 export interface Feed {
   pubDate: string;
-  episodes: EpisodeDetails[]
+  episodes: Episode[]
 }
 
 export const emptyFeed: Feed = {
@@ -49,7 +50,7 @@ export async function getFeed(): Promise<Feed> {
   };
 }
 
-export async function getEpisodeDetails(episode: string): Promise<EpisodeDetails> {
+export async function getEpisodeDetails(episode: string): Promise<Episode> {
   const feed = await getFeed();
   const item = feed.episodes.find(i => i.id === episode);
   if (!item) {

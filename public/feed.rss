@@ -91,6 +91,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>54</itunes:episode>
+      <podcast:chapters url="https://media.akronymisier.bar/file/akronymisierbar/054.chapters.json" type="application/json+chapters" />
     </item>
     <item>
       <guid isPermaLink="false">93f8c73f-1083-40ac-898c-34158efbe497</guid>

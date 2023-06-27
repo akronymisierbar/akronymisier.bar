@@ -1,15 +1,37 @@
 import { useLoaderData } from "react-router-dom";
-import { getEpisodeDetails, EpisodeDetails } from "../feedparser";
+import { getEpisodeDetails, Episode } from "../feedparser";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 import { Footer } from "../components/footer";
-import { useEffect, useState } from "react";
+import { useEffect, useState, createRef, RefObject } from "react";
 import { Link } from "react-router-dom";
 import { ReactComponent as BackIcon } from "../icons/back-icon.svg";
 import Giscus from "@giscus/react";
+import H5AudioPlayer from "react-h5-audio-player";
+
+interface ChapterMarks {
+  chapters: Chapter[];
+}
+
+interface Chapter {
+  startTime: number;
+  title: string;
+}
+
+function startTimeToTimestamp(seconds: number): string {
+  const hours = Math.floor(seconds / 3600);
+  const minutes = Math.floor((seconds % 3600) / 60);
+  seconds = Math.floor(seconds % 60);
+
+  const formattedHours = hours.toString().padStart(2, "0");
+  const formattedMinutes = minutes.toString().padStart(2, "0");
+  const formattedSeconds = seconds.toString().padStart(2, "0");
+
+  return `${formattedHours}:${formattedMinutes}:${formattedSeconds}`;
+}
 
 interface LoaderData {
-  episode: EpisodeDetails;
+  episode: Episode;
 }
 
 export async function episodeLoader({ params }: { params: any }) {
@@ -20,8 +42,10 @@ export async function episodeLoader({ params }: { params: any }) {
 export default function EpisodeDetail() {
   const { episode } = useLoaderData() as LoaderData;
   const [chaptermarks, setChaptermarks] = useState(
-    undefined as string | undefined
+    undefined as undefined | ChapterMarks
   );
+
+  const player = createRef() as RefObject<H5AudioPlayer>;
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -29,10 +53,10 @@ export default function EpisodeDetail() {
     const fetchChaptermarks = async () => {
       try {
         const res = await fetch(
-          `https://media.akronymisier.bar/file/akronymisierbar/${episode.id}.chapters.txt`
+          `https://media.akronymisier.bar/file/akronymisierbar/${episode.id}.chapters.json`
         );
         if (res.ok) {
-          setChaptermarks(await res.text());
+          setChaptermarks(await res.json());
         } else {
           setChaptermarks(undefined);
         }
@@ -65,11 +89,23 @@ export default function EpisodeDetail() {
       <AudioPlayer
         src={episode.audio}
         customAdditionalControls={[]}
+        ref={player}
         footer={
           chaptermarks !== undefined ? (
             <details>
               <summary>Chaptermarks</summary>
-              <pre>{chaptermarks}</pre>
+              {chaptermarks.chapters.map((c, idx) => {
+                return (
+                  <button
+                    className="link-button"
+                    onClick={() => {
+                      player.current!.audio.current!.currentTime = c.startTime;
+                    }}
+                  >
+                    {startTimeToTimestamp(c.startTime) + " " + c.title}
+                  </button>
+                );
+              })}
             </details>
           ) : (
             <></>
@@ -98,7 +134,7 @@ export default function EpisodeDetail() {
         theme="preferred_color_scheme"
         lang="en"
       />
-      <Footer lastUpdated={undefined}/>
+      <Footer lastUpdated={undefined} />
     </>
   );
 }
