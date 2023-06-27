@@ -3,16 +3,16 @@ import "../styles/main.css";
 import "../styles/thebest.css";
 import EpisodeItem from "../components/episode-item";
 import { Footer } from "../components/footer";
-import { getFeedItems, EpisodeDetails } from "../feedparser";
+import { getFeed, emptyFeed } from "../feedparser";
 import { LinkBar } from "../components/linkbar";
 
 function Main() {
-  const [episodes, setEpisodes] = useState([] as EpisodeDetails[]);
+  const [feedData, setFeedData] = useState(emptyFeed);
 
   useEffect(() => {
     const loadFeedItems = async () => {
-      const feedItems = await getFeedItems();
-      setEpisodes(feedItems);
+      const feed = await getFeed();
+      setFeedData(feed);
     };
     loadFeedItems();
   }, []);
@@ -43,7 +43,7 @@ function Main() {
       </p>
 
       <h2>Folgen</h2>
-      {episodes.map((ep, index) => (
+      {feedData.episodes.map((ep, index) => (
         <div key={ep.id}>
           <EpisodeItem
             title={ep.title}
@@ -55,7 +55,7 @@ function Main() {
           <hr />
         </div>
       ))}
-      <Footer />
+      <Footer lastUpdated={feedData.pubDate}/>
     </div>
   );
 }

@@ -19,7 +19,9 @@ export async function episodeLoader({ params }: { params: any }) {
 
 export default function EpisodeDetail() {
   const { episode } = useLoaderData() as LoaderData;
-  const [chaptermarks, setChaptermarks] = useState(undefined as string | undefined);
+  const [chaptermarks, setChaptermarks] = useState(
+    undefined as string | undefined
+  );
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -96,7 +98,7 @@ export default function EpisodeDetail() {
         theme="preferred_color_scheme"
         lang="en"
       />
-      <Footer />
+      <Footer lastUpdated={undefined}/>
     </>
   );
 }
