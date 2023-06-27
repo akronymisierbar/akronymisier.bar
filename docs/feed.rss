@@ -18,9 +18,15 @@
     <podcast:locked owner="akronymisierbar@fastmail.com">yes</podcast:locked>
     <podcast:block id="spotify">yes</podcast:block>
     <podcast:funding url="https://liberapay.com/akronymisierbar/">Liberapay</podcast:funding>
+    <podcast:person href="https://chaos.social/hoodie" img="https://assets.chaos.social/accounts/avatars/000/086/679/original/e3bfd5f96638f280.png">Hendrik</podcast:person>
+    <podcast:person href="https://kilian.io" img="https://kilian.io/assets/img/kilian.jpg">Kilian</podcast:person>
+    <podcast:location>Dresden, DE</podcast:location>
+    <podcast:guid>d98cda05-7cdb-565f-b766-cd622743df1c</podcast:guid>
 
+    <!-- UPDATE ME -->
     <pubDate>Mon, 26 Jun 2023 20:01:54 +0000</pubDate>
     <lastBuildDate>Mon, 26 Jun 2023 20:01:54 +0000</lastBuildDate>
+    <!-- UPDATE ME -->
 
     <image>
       <link>https://akronymisier.bar</link>
@@ -81,7 +87,7 @@
   <li>"subreddit geloeschrt"</li>
   <li>"fireship" vs "starship"</li>
 </ul>
-      ]]>      </content:encoded>
+]]></content:encoded>
       <enclosure length="53675072" type="audio/mpeg" url="https://media.akronymisier.bar/file/akronymisierbar/054.mp3"/>
       <itunes:title>054 - Rule 34 of git</itunes:title>
       <itunes:author>Akronymisierbar</itunes:author>
@@ -91,6 +97,13 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>54</itunes:episode>
+      <podcast:chapters url="https://media.akronymisier.bar/file/akronymisierbar/054.chapters.json" type="application/json+chapters" />
+      <podcast:socialInteract 
+        uri="https://chaos.social/@akronymisierbar/110612326237373750"
+        protocol="activitypub"
+        accountId="@akronymisierbar"
+        accountUrl="https://chaos.social/@akronymisierbar"
+      />
     </item>
     <item>
       <guid isPermaLink="false">93f8c73f-1083-40ac-898c-34158efbe497</guid>
@@ -314,6 +327,7 @@
       <enclosure length="139705867" type="audio/mpeg" url="https://cdn.simplecast.com/audio/7ab096ff-6109-4835-82d4-29fbb06af2c3/episodes/370f7ae7-f39d-4cf0-b632-e667d50edb0a/audio/8f63bb18-1e4a-47e4-81de-b63600d3140a/default_tc.mp3?aid=rss_feed&amp;feed=OB_iKD_T"/>
       <itunes:title>045 - Holiday Special - Online Konferenzen 2020</itunes:title>
       <itunes:author>Akronymisierbar</itunes:author>
+      <itunes:image href="https://media.akronymisier.bar/file/akronymisierbar/045.jpg"/>
       <itunes:duration>02:46:08</itunes:duration>
       <itunes:summary>Diesmal zum Thema Konferenzen und Meetups 2020</itunes:summary>
       <itunes:subtitle>Diesmal zum Thema Konferenzen und Meetups 2020</itunes:subtitle>
