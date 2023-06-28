@@ -44,6 +44,7 @@ export async function getFeed(): Promise<Feed> {
         summary: item.getElementsByTagName('itunes:summary')[0].textContent ?? '',
         description: item.getElementsByTagName('description')[0].textContent ?? '',
         content: item.getElementsByTagName('content:encoded')[0].textContent ?? '',
+        chapters: item.getElementsByTagName('podcast:chapters')[0]?.getAttribute('url') ?? '',
         socialInteract: item.getElementsByTagName('podcast:socialInteract')[0]?.getAttribute('uri') ?? ''
       };
     })

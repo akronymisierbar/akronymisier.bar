@@ -51,9 +51,10 @@ export default function EpisodeDetail() {
     window.scrollTo(0, 0);
 
     const fetchChaptermarks = async () => {
+      if (!episode.chapters) { return; }
       try {
         const res = await fetch(
-          `https://media.akronymisier.bar/file/akronymisierbar/${episode.id}.chapters.json`
+          episode.chapters
         );
         if (res.ok) {
           setChaptermarks(await res.json());
@@ -65,7 +66,7 @@ export default function EpisodeDetail() {
       }
     };
     fetchChaptermarks();
-  }, [episode.id]);
+  }, [episode]);
 
   return (
     <>
