@@ -1,0 +1,27 @@
+<item>
+  <guid isPermaLink="false">{guid}</guid>
+  <title>{title}</title>
+  <description>{description}</description>
+  <pubDate>{pubDate}</pubDate>
+  <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+  <link>https://akronymisier.bar/{id}</link>
+  <content:encoded><![CDATA[
+{content}
+]]></content:encoded>
+  <enclosure length="{length}" type="audio/mpeg" url="https://kkw.lol/k/akb/{id}.mp3"/>
+  <itunes:title>{title}</itunes:title>
+  <itunes:author>Akronymisierbar</itunes:author>
+  <itunes:duration>{duration}</itunes:duration>
+  <itunes:summary>{description}</itunes:summary>
+  <itunes:subtitle>{description}</itunes:subtitle>
+  <itunes:explicit>no</itunes:explicit>
+  <itunes:episodeType>full</itunes:episodeType>
+  <itunes:episode>{episodeNumber}</itunes:episode>
+  <podcast:chapters url="https://kkw.lol/k/akb/{id}.chapters.json" type="application/json+chapters" />
+  <podcast:socialInteract 
+    uri="{tootLink}"
+    protocol="activitypub"
+    accountId="@akronymisierbar"
+    accountUrl="https://chaos.social/@akronymisierbar"
+  />
+</item>
