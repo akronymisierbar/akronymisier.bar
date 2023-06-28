@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "react-h5-audio-player/lib/styles.css";
 import "../styles/main.css";
 import "../styles/thebest.css";
 import EpisodeItem from "../components/episode-item";

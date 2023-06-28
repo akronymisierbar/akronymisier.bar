@@ -1,7 +1,6 @@
 import { useLoaderData } from "react-router-dom";
 import { getEpisodeDetails, Episode } from "../feedparser";
 import AudioPlayer from "react-h5-audio-player";
-import "react-h5-audio-player/lib/styles.css";
 import { Footer } from "../components/footer";
 import { useEffect, useState, createRef, RefObject } from "react";
 import { Link } from "react-router-dom";

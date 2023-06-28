@@ -72,6 +72,27 @@ summary {
   font-size: large;
 }
 
+@media (prefers-color-scheme: dark) {
+  .link-button {
+    color: #00a2e7;
+  }
+
+  .rhap_container {
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgb(85, 85, 85);
+    box-shadow: none;
+  }
+
+  .rhap_time {
+    color: #d9d9d9;
+  }
+  
+  .rhap_container svg {
+    color: #d9d9d9;
+  }
+}
+
+
 @media (max-width: 1000px) {
   .back-button {
     display: none;
