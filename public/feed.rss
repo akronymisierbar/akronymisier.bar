@@ -88,7 +88,7 @@
   <li>"fireship" vs "starship"</li>
 </ul>
 ]]></content:encoded>
-      <enclosure length="53675072" type="audio/mpeg" url="https://media.akronymisier.bar/file/akronymisierbar/054.mp3"/>
+      <enclosure length="53675072" type="audio/mpeg" url="https://kkw.lol/k/akb/054.mp3"/>
       <itunes:title>054 - Rule 34 of git</itunes:title>
       <itunes:author>Akronymisierbar</itunes:author>
       <itunes:duration>01:37:59</itunes:duration>
@@ -97,7 +97,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>54</itunes:episode>
-      <podcast:chapters url="https://media.akronymisier.bar/file/akronymisierbar/054.chapters.json" type="application/json+chapters" />
+      <podcast:chapters url="https://kkw.lol/k/akb/054.chapters.json" type="application/json+chapters" />
       <podcast:socialInteract 
         uri="https://chaos.social/@akronymisierbar/110612326237373750"
         protocol="activitypub"
