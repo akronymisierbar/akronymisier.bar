@@ -70,7 +70,7 @@
   <li><a href="https://mobilecamp.de/">mobilecamp</a></li>
   <li><a href="https://pandoc.org/">pandoc</a></li>
 </ul>
-<h3>Picks:</h3>
+<h3>Picks</h3>
 <ul>
   <li><a href="https://starship.rs/">starship.rs</a></li>
   <li><a href="https://github.com/streamlit/streamlit">streamlit</a></li>
@@ -113,24 +113,24 @@
       <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
       <link>https://akronymisier.bar/053</link>
       <content:encoded><![CDATA[
-      <ul>
-        <li><a href="https://de.wikipedia.org/wiki/Schiff_des_Theseus">Schiff des Theseus</a></li>
-        <li><a href="https://www.imdb.com/title/tt0482571">The Prestige</a> (Filmempfehlung!)</li>
-        <li><a href="https://xyrillian.de/noises/gnse/004-color-spaces/">Gar Nicht So Einfach - Ein Kessel Buntes</a></li>
-      </ul>
-      <h3>Wordles</h3>
-      <ul>
-        <li><a href="https://edjefferson.com/letterle/">Letterle</a></li>
-        <li><a href="https://twitter.com/search?q=not%20wordle&src=typed_query">Not Wordle, but ...</a></li>
-        <li><a href="https://xkcd.com/2576/">xkcd 2576</a></li>
-      </ul>
-      <h3>Picks</h3>
-      <ul>
-        <li><a href="https://github.com/Byron/dua-cli">dua cli</a><pre>cargo install dua-cli</pre></li>
-        <li><a href="https://github.com/jokteur/python_communism">python communism</a></li>
-      </ul>
-      ]]>      </content:encoded>
-      <enclosure length="53675072" type="audio/mpeg" url="https://media.akronymisier.bar/file/akronymisierbar/053.mp3"/>
+<ul>
+  <li><a href="https://de.wikipedia.org/wiki/Schiff_des_Theseus">Schiff des Theseus</a></li>
+  <li><a href="https://www.imdb.com/title/tt0482571">The Prestige</a> (Filmempfehlung!)</li>
+  <li><a href="https://xyrillian.de/noises/gnse/004-color-spaces/">Gar Nicht So Einfach - Ein Kessel Buntes</a></li>
+</ul>
+<h3>Wordles</h3>
+<ul>
+  <li><a href="https://edjefferson.com/letterle/">Letterle</a></li>
+  <li><a href="https://twitter.com/search?q=not%20wordle&src=typed_query">Not Wordle, but ...</a></li>
+  <li><a href="https://xkcd.com/2576/">xkcd 2576</a></li>
+</ul>
+<h3>Picks</h3>
+<ul>
+  <li><a href="https://github.com/Byron/dua-cli">dua cli</a><pre>cargo install dua-cli</pre></li>
+  <li><a href="https://github.com/jokteur/python_communism">python communism</a></li>
+</ul>
+]]></content:encoded>
+      <enclosure length="53675072" type="audio/mpeg" url="https://kkw.lol/k/akb/053.mp3"/>
       <itunes:title>053 - Schiff des Bezeus</itunes:title>
       <itunes:author>Akronymisierbar</itunes:author>
       <itunes:duration>01:03:25</itunes:duration>
@@ -139,6 +139,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>53</itunes:episode>
+      <podcast:chapters url="https://kkw.lol/k/akb/053.chapters.json" type="application/json+chapters" />
     </item>
     <item>
       <guid isPermaLink="false">e70d7a1e-71db-4f8a-be57-df95279e13a4</guid>
@@ -148,43 +149,43 @@
       <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
       <link>https://akronymisier.bar/052</link>
       <content:encoded><![CDATA[
-      <ul>
-        <li>SingleSpeed Fahrräder</li>
-        <li><a href="https://en.wikipedia.org/wiki/EURion_constellation">EURion Constellation</a></li>
-        <li><a href="https://github.com/readme/featured/nasa-ingenuity-helicopter">Open Source on Mars</a></li>
-        <li><a href="https://github.com/apple/swift-evolution/blob/main/proposals/0306-actors.md">Actors in Swift</a></li>
-        <li><a href="https://rustacean-station.org/">Rustacean Station</a>
-          <ul>
-            <li><a href="https://rustacean-station.org/episode/040-louis-pilford/">Gleam with Louis Pilfold</a> (<a href="https://gleam.run/">Gleam</a>)</li>
-            <li><a href="https://rustacean-station.org/episode/043-bastian-gruber/">Rust Web Development with Bastian Gruber</a></li>
-          </ul>
-        </li>
-        <li><a href="https://www.erlang.org/">Erlang</a></li>
-        <li><a href="actix.rs/">actix-web</a> vs <a href="github.com/actix/actix">actix selbst</a></li>
-        <li><a href="https://golangbot.com/goroutines/">GoRoutines</a></li>
-        <li><a href="https://doc.rust-lang.org/stable/std/sync/mpsc/fn.channel.html">Rust channels</a> / <a href="https://docs.rs/futures/0.3.17/futures/channel/mpsc/fn.channel.html">future channels</a></li>
-        <li><a href="https://github.com/apple/swift-evolution/blob/main/proposals/0296-async-await.md">async await in swift</a></li>
-        <li><a href="https://developer.apple.com/documentation/foundation/nsnotificationcenter">NSNotificationCenter</a></li>
-        <li><a href="https://developer.apple.com/documentation/dispatch/">GCD</a></li>
-        <li><a href="https://developer.apple.com/documentation/dispatch/dispatchqueue/">Dispatch Queues</a></li>
-        <li><a href="docs.rs/futures/">rust futures</a> <a href="https://rust-lang.github.io/async-book/">async rust book</a> (tokio.rs / async.rs)</li>
-      </ul>
-      <h3>Titel</h3>
-      <ul>
-        <li>"Natuerlicher Rythmus"</li>
-        <li>extreme chat server</li>
-      </ul>
-      <h3>Picks:</h3>
-      <ul>
-        <li><a href="https://internetobject.org/">InternetObject - IO</a></li>
-        <li><a href="https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/">Hosting SQLite databases on Github Pages</a></li>
-        <li><a href="https://github.com/lucky/bad_actor_poc">Bad Actor</a> and <a href="https://github.com/jonas-schievink/mallory">mallory</a> (<a href="https://www.grepular.com/Sandbox_Rust_Development_with_Rust_Analyzer">Sandboxed Rust Dev</a>)</li>
-      </ul>
-      <blockquote>
-        <p>Hendrik: "... der hat naemlich eine WebAssembly runtime fuer macros gebaut..."<br />Kilian: "Eine WAS?!"<br />fun fact: die heißt quasi genau so:<br /><a href="https://github.com/dtolnay/watt">https://github.com/dtolnay/watt</a></p>
-      </blockquote>
-      ]]></content:encoded>
-      <enclosure length="82223304" type="audio/mpeg" url="https://cdn.simplecast.com/audio/7ab096ff-6109-4835-82d4-29fbb06af2c3/episodes/aafeb90c-f324-4aff-af59-7a0d3e07709a/audio/21e460bc-6d3c-408e-8df9-998e1a74f9b9/default_tc.mp3?aid=rss_feed&amp;feed=OB_iKD_T"/>
+<ul>
+  <li>SingleSpeed Fahrräder</li>
+  <li><a href="https://en.wikipedia.org/wiki/EURion_constellation">EURion Constellation</a></li>
+  <li><a href="https://github.com/readme/featured/nasa-ingenuity-helicopter">Open Source on Mars</a></li>
+  <li><a href="https://github.com/apple/swift-evolution/blob/main/proposals/0306-actors.md">Actors in Swift</a></li>
+  <li><a href="https://rustacean-station.org/">Rustacean Station</a>
+    <ul>
+      <li><a href="https://rustacean-station.org/episode/040-louis-pilford/">Gleam with Louis Pilfold</a> (<a href="https://gleam.run/">Gleam</a>)</li>
+      <li><a href="https://rustacean-station.org/episode/043-bastian-gruber/">Rust Web Development with Bastian Gruber</a></li>
+    </ul>
+  </li>
+  <li><a href="https://www.erlang.org/">Erlang</a></li>
+  <li><a href="actix.rs/">actix-web</a> vs <a href="github.com/actix/actix">actix selbst</a></li>
+  <li><a href="https://golangbot.com/goroutines/">GoRoutines</a></li>
+  <li><a href="https://doc.rust-lang.org/stable/std/sync/mpsc/fn.channel.html">Rust channels</a> / <a href="https://docs.rs/futures/0.3.17/futures/channel/mpsc/fn.channel.html">future channels</a></li>
+  <li><a href="https://github.com/apple/swift-evolution/blob/main/proposals/0296-async-await.md">async await in swift</a></li>
+  <li><a href="https://developer.apple.com/documentation/foundation/nsnotificationcenter">NSNotificationCenter</a></li>
+  <li><a href="https://developer.apple.com/documentation/dispatch/">GCD</a></li>
+  <li><a href="https://developer.apple.com/documentation/dispatch/dispatchqueue/">Dispatch Queues</a></li>
+  <li><a href="docs.rs/futures/">rust futures</a> <a href="https://rust-lang.github.io/async-book/">async rust book</a> (tokio.rs / async.rs)</li>
+</ul>
+<h3>Titel</h3>
+<ul>
+  <li>"Natuerlicher Rythmus"</li>
+  <li>extreme chat server</li>
+</ul>
+<h3>Picks</h3>
+<ul>
+  <li><a href="https://internetobject.org/">InternetObject - IO</a></li>
+  <li><a href="https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/">Hosting SQLite databases on Github Pages</a></li>
+  <li><a href="https://github.com/lucky/bad_actor_poc">Bad Actor</a> and <a href="https://github.com/jonas-schievink/mallory">mallory</a> (<a href="https://www.grepular.com/Sandbox_Rust_Development_with_Rust_Analyzer">Sandboxed Rust Dev</a>)</li>
+</ul>
+<blockquote>
+  <p>Hendrik: "... der hat naemlich eine WebAssembly runtime fuer macros gebaut..."<br />Kilian: "Eine WAS?!"<br />fun fact: die heißt quasi genau so:<br /><a href="https://github.com/dtolnay/watt">https://github.com/dtolnay/watt</a></p>
+</blockquote>
+]]></content:encoded>
+      <enclosure length="82223304" type="audio/mpeg" url="https://kkw.lol/k/akb/052.mp3"/>
       <itunes:title>052 - Kilian Cosplay</itunes:title>
       <itunes:author>Akronymisierbar</itunes:author>
       <itunes:duration>01:37:24</itunes:duration>
@@ -193,18 +194,57 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>52</itunes:episode>
+      <podcast:chapters url="https://kkw.lol/k/akb/052.chapters.json" type="application/json+chapters" />
     </item>
     <item>
       <guid isPermaLink="false">3e349a74-c790-495c-9682-5c96a0d6e12b</guid>
       <title>051 - Linux im Rust Kernel</title>
-      <description><![CDATA[<p>Linux im Rust Kernel mit <a href="http://github.com/Mic92">Jörg</a> und <a href="http://github.com/kloenk">Finn</a>.</p><h2>links</h2><ul><li><a href="https://github.com/fishinabarrel/linux-kernel-module-rust">linux kernel module rust</a></li><li><a href="https://wiki.linuxfoundation.org/llvmlinux">llvmlinux</a></li><li><a href="https://github.com/google/syzkaller">google syzkaller</a></li><li><a href="https://sourcehut.org/">sourcehut</a></li><li><a href="https://www.youtube.com/watch?v=ZHP9sUqB3Qs">RustFest Barcelona - Tyler Mandry: Life of an async fn</a></li><li><a href="https://os.phil-opp.com/">Writing an OS in Rust - Philipp Oppermann's blog</a></li><li><a href="https://www.redox-os.org/">redux-os</a></li><li><a href="https://github.com/redox-os/relibc">relibc</a></li><li><a href="https://fuchsia.dev/">fuchsia.dev</a></li><li><a href="https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript">birth and death of javascript</a></li></ul><h2>picks</h2><p>Mic92: <a href="https://github.com/jesseduffield/lazygit">lazygit</a><br />kloenk: <a href="https://github.com/Mic92/cntr">cntr</a></p>
-]]></description>
+      <description>Linux im Rust Kernel mit Jörg und Finn.</description>
       <pubDate>Wed, 28 Jul 2021 21:19:19 +0000</pubDate>
       <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/051-lQaA_9Jq</link>
-      <content:encoded><![CDATA[<p>Linux im Rust Kernel mit <a href="http://github.com/Mic92">Jörg</a> und <a href="http://github.com/kloenk">Finn</a>.</p><h2>links</h2><ul><li><a href="https://github.com/fishinabarrel/linux-kernel-module-rust">linux kernel module rust</a></li><li><a href="https://wiki.linuxfoundation.org/llvmlinux">llvmlinux</a></li><li><a href="https://github.com/google/syzkaller">google syzkaller</a></li><li><a href="https://sourcehut.org/">sourcehut</a></li><li><a href="https://www.youtube.com/watch?v=ZHP9sUqB3Qs">RustFest Barcelona - Tyler Mandry: Life of an async fn</a></li><li><a href="https://os.phil-opp.com/">Writing an OS in Rust - Philipp Oppermann's blog</a></li><li><a href="https://www.redox-os.org/">redux-os</a></li><li><a href="https://github.com/redox-os/relibc">relibc</a></li><li><a href="https://fuchsia.dev/">fuchsia.dev</a></li><li><a href="https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript">birth and death of javascript</a></li></ul><h2>picks</h2><p>Mic92: <a href="https://github.com/jesseduffield/lazygit">lazygit</a><br />kloenk: <a href="https://github.com/Mic92/cntr">cntr</a></p>
+      <content:encoded><![CDATA[
+<p>
+  Linux im Rust Kernel mit <a href="http://github.com/Mic92">Jörg</a> und
+  <a href="http://github.com/kloenk">Finn</a>.
+</p>
+<h3>Links</h3>
+<ul>
+  <li>
+    <a href="https://github.com/fishinabarrel/linux-kernel-module-rust"
+      >linux kernel module rust</a
+    >
+  </li>
+  <li><a href="https://wiki.linuxfoundation.org/llvmlinux">llvmlinux</a></li>
+  <li><a href="https://github.com/google/syzkaller">google syzkaller</a></li>
+  <li><a href="https://sourcehut.org/">sourcehut</a></li>
+  <li>
+    <a href="https://www.youtube.com/watch?v=ZHP9sUqB3Qs"
+      >RustFest Barcelona - Tyler Mandry: Life of an async fn</a
+    >
+  </li>
+  <li>
+    <a href="https://os.phil-opp.com/"
+      >Writing an OS in Rust - Philipp Oppermann's blog</a
+    >
+  </li>
+  <li><a href="https://www.redox-os.org/">redux-os</a></li>
+  <li><a href="https://github.com/redox-os/relibc">relibc</a></li>
+  <li><a href="https://fuchsia.dev/">fuchsia.dev</a></li>
+  <li>
+    <a
+      href="https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript"
+      >birth and death of javascript</a
+    >
+  </li>
+</ul>
+<h3>Picks</h3>
+<ul>
+  <li>Mic92: <a href="https://github.com/jesseduffield/lazygit">lazygit</a></li>
+  <li>kloenk: <a href="https://github.com/Mic92/cntr">cntr</a></li>
+</ul>
 ]]></content:encoded>
-      <enclosure length="103042975" type="audio/mpeg" url="https://cdn.simplecast.com/audio/7ab096ff-6109-4835-82d4-29fbb06af2c3/episodes/58562b4d-aafd-4de5-bd81-3b6877c05c52/audio/134b586f-3db4-4659-8c06-7e82a11fc5c0/default_tc.mp3?aid=rss_feed&amp;feed=OB_iKD_T"/>
+      <enclosure length="103042975" type="audio/mpeg" url="https://kkw.lol/k/akb/051.mp3"/>
       <itunes:title>051 - Linux im Rust Kernel</itunes:title>
       <itunes:author>Akronymisierbar</itunes:author>
       <itunes:duration>02:02:11</itunes:duration>
@@ -213,18 +253,71 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>51</itunes:episode>
+      <podcast:chapters url="https://kkw.lol/k/akb/051.chapters.json" type="application/json+chapters" />
     </item>
     <item>
       <guid isPermaLink="false">a8a466e2-3553-4f26-9f29-e58fc873feca</guid>
       <title>050 - All Chats Are Broken</title>
-      <description><![CDATA[<p>Heute haben wir mal wieder Florian Gilcher (<a href="https://twitter.com/argorak">@Argorak</a>) zu Gast und bequatschen aktuell (oder nicht mehr) existierende Messaging-Dienste.</p><p>Die vage angedeutete Firma in der letzten Chat-Folge heißt übrigens Ferrous Systems ;)</p><ul><li><p>MLS (Message Layer Security) ist jetzt auf dem Weg zum IETF Standard.</p><ul><li><a href="https://github.com/mlswg/mls-protocol/blob/main/draft-ietf-mls-protocol.md">https://github.com/mlswg/mls-protocol/blob/main/draft-ietf-mls-protocol.md</a></li><li><a href="https://github.com/openmls/openmls">https://github.com/openmls/openmls</a></li></ul></li><li><p><a href="https://news.ycombinator.com/item?id=11725602">OWS vs Wire</a></p></li><li><p><a href="https://xkcd.com/1810/">xkcd 1810: Chat Systems</a></p></li></ul><h2>Picks</h2><p>Florian:</p><ul><li><a href="https://pubstruct.com">https://pubstruct.com</a> Ashley Williams als Freelancering. Give her all your moneys</li><li><a href="https://fusion.engineering">https://fusion.engineering</a> Mara Bos Firma, extrem gut</li><li><a href="https://www.patreon.com/samaaron/">https://www.patreon.com/samaaron/</a> Macht Sonic Pi und es ist gut!</li></ul><p>Hendrik:</p><ul><li><a href="https://wpt.fyi">https://wpt.fyi</a> - Which webstandards are supported by which browser (including deno)</li></ul>
-]]></description>
+      <description>Heute haben wir mal wieder Florian Gilcher (@Argorak) zu Gast und bequatschen aktuell (oder nicht mehr) existierende Messaging-Dienste.</description>
       <pubDate>Sat, 10 Jul 2021 13:09:33 +0000</pubDate>
       <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/050-Mb4uLnJl</link>
-      <content:encoded><![CDATA[<p>Heute haben wir mal wieder Florian Gilcher (<a href="https://twitter.com/argorak">@Argorak</a>) zu Gast und bequatschen aktuell (oder nicht mehr) existierende Messaging-Dienste.</p><p>Die vage angedeutete Firma in der letzten Chat-Folge heißt übrigens Ferrous Systems ;)</p><ul><li><p>MLS (Message Layer Security) ist jetzt auf dem Weg zum IETF Standard.</p><ul><li><a href="https://github.com/mlswg/mls-protocol/blob/main/draft-ietf-mls-protocol.md">https://github.com/mlswg/mls-protocol/blob/main/draft-ietf-mls-protocol.md</a></li><li><a href="https://github.com/openmls/openmls">https://github.com/openmls/openmls</a></li></ul></li><li><p><a href="https://news.ycombinator.com/item?id=11725602">OWS vs Wire</a></p></li><li><p><a href="https://xkcd.com/1810/">xkcd 1810: Chat Systems</a></p></li></ul><h2>Picks</h2><p>Florian:</p><ul><li><a href="https://pubstruct.com">https://pubstruct.com</a> Ashley Williams als Freelancering. Give her all your moneys</li><li><a href="https://fusion.engineering">https://fusion.engineering</a> Mara Bos Firma, extrem gut</li><li><a href="https://www.patreon.com/samaaron/">https://www.patreon.com/samaaron/</a> Macht Sonic Pi und es ist gut!</li></ul><p>Hendrik:</p><ul><li><a href="https://wpt.fyi">https://wpt.fyi</a> - Which webstandards are supported by which browser (including deno)</li></ul>
+      <content:encoded><![CDATA[
+<p>
+  Die vage angedeutete Firma in der letzten Chat-Folge heißt übrigens Ferrous
+  Systems ;)
+</p>
+<ul>
+  <li>
+    MLS (Message Layer Security) ist jetzt auf dem Weg zum IETF Standard.
+    <ul>
+      <li>
+        <a
+          href="https://github.com/mlswg/mls-protocol/blob/main/draft-ietf-mls-protocol.md"
+          >https://github.com/mlswg/mls-protocol/blob/main/draft-ietf-mls-protocol.md</a
+        >
+      </li>
+      <li>
+        <a href="https://github.com/openmls/openmls"
+          >https://github.com/openmls/openmls</a
+        >
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="https://news.ycombinator.com/item?id=11725602">OWS vs Wire</a>
+  </li>
+  <li>
+    <a href="https://xkcd.com/1810/">xkcd 1810: Chat Systems</a>
+  </li>
+</ul>
+<h3>Picks</h3>
+<p>Florian</p>
+<ul>
+  <li>
+    <a href="https://pubstruct.com">https://pubstruct.com</a> Ashley Williams
+    als Freelancering. Give her all your moneys
+  </li>
+  <li>
+    <a href="https://fusion.engineering">https://fusion.engineering</a> Mara Bos
+    Firma, extrem gut
+  </li>
+  <li>
+    <a href="https://www.patreon.com/samaaron/"
+      >https://www.patreon.com/samaaron/</a
+    >
+    Macht Sonic Pi und es ist gut!
+  </li>
+</ul>
+<p>Hendrik</p>
+<ul>
+  <li>
+    <a href="https://wpt.fyi">https://wpt.fyi</a> - Which webstandards are
+    supported by which browser (including deno)
+  </li>
+</ul>
 ]]></content:encoded>
-      <enclosure length="116177174" type="audio/mpeg" url="https://cdn.simplecast.com/audio/7ab096ff-6109-4835-82d4-29fbb06af2c3/episodes/48d24719-ae51-41c1-96e9-1ab384451f6f/audio/ef818090-3ccd-4a62-92c9-16b22ea1b1b2/default_tc.mp3?aid=rss_feed&amp;feed=OB_iKD_T"/>
+      <enclosure length="116177174" type="audio/mpeg" url="https://kkw.lol/k/akb/050.mp3"/>
       <itunes:title>050 - All Chats Are Broken</itunes:title>
       <itunes:author>Akronymisierbar</itunes:author>
       <itunes:duration>02:17:49</itunes:duration>
@@ -233,18 +326,60 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>50</itunes:episode>
+      <podcast:chapters url="https://kkw.lol/k/akb/050.chapters.json" type="application/json+chapters" />
     </item>
     <item>
       <guid isPermaLink="false">03c30aff-73e8-4e61-bde1-599fa36f601e</guid>
       <title>049 - Survivorship Bias</title>
-      <description><![CDATA[<p>callback:</p><blockquote><p>"wir müssen uns mal mit nem echten schweizer unterhalten"</p></blockquote><p>-- Folge 048</p><p>Diesmal wieder mit Stefan Schindler <a href="https://twitter.com/dns2utf8">@dns2utf8</a> von <a href="https://www.meetup.com/en-AU/Rust-Zurich/">Rust Zürich</a>.</p><h3>Notes</h3><ul><li><a href="https://www.meetup.com/en-AU/Rust-Zurich/">Rust Zürich</a></li><li>serde.rs</li><li><a href="https://riptutorial.com/c/example/23858/trigraphs">C Trigraphs</a> und <a href="https://en.wikipedia.org/wiki/Punycode">Punycode</a></li><li><a href="https://cpp-ug-dresden.blogspot.com/">C++ UserGroup Dresden</a></li><li><a href="https://rustbridge.com/">Rust Bridge</a></li><li><a href="https://en.wikipedia.org/wiki/Reverse_Polish_notation">Reverse Polish Notation</a></li><li><a href="https://www.meetup.com/CocoaHeads-Cologne/">CocoaHeads Köln</a></li><li><a href="https://www.youtube.com/watch?v=C_mndbMCzU8">Brokkoli</a></li><li><a href="https://obsproject.com/">OBS Studio</a></li></ul><h2>Picks</h2><ul><li><a href="https://www.youtube.com/watch?v=2d4jJO0GPKw">CRM</a></li><li><a href="https://sofort-impfen.de/">Sofort Impfen</a></li><li><a href="https://blog.rust-lang.org/2021/05/15/six-years-of-rust.html">Six years of Rust</a></li></ul><h2>Alternative Titel</h2><ul><li>Programmieren Beibringen für Anfänger</li></ul>
-]]></description>
+      <description>Diesmal wieder mit Stefan Schindler @dns2utf8 von Rust Zürich.</description>
       <pubDate>Sun, 16 May 2021 11:11:46 +0000</pubDate>
       <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/049-oAvns8WG</link>
-      <content:encoded><![CDATA[<p>callback:</p><blockquote><p>"wir müssen uns mal mit nem echten schweizer unterhalten"</p></blockquote><p>-- Folge 048</p><p>Diesmal wieder mit Stefan Schindler <a href="https://twitter.com/dns2utf8">@dns2utf8</a> von <a href="https://www.meetup.com/en-AU/Rust-Zurich/">Rust Zürich</a>.</p><h3>Notes</h3><ul><li><a href="https://www.meetup.com/en-AU/Rust-Zurich/">Rust Zürich</a></li><li>serde.rs</li><li><a href="https://riptutorial.com/c/example/23858/trigraphs">C Trigraphs</a> und <a href="https://en.wikipedia.org/wiki/Punycode">Punycode</a></li><li><a href="https://cpp-ug-dresden.blogspot.com/">C++ UserGroup Dresden</a></li><li><a href="https://rustbridge.com/">Rust Bridge</a></li><li><a href="https://en.wikipedia.org/wiki/Reverse_Polish_notation">Reverse Polish Notation</a></li><li><a href="https://www.meetup.com/CocoaHeads-Cologne/">CocoaHeads Köln</a></li><li><a href="https://www.youtube.com/watch?v=C_mndbMCzU8">Brokkoli</a></li><li><a href="https://obsproject.com/">OBS Studio</a></li></ul><h2>Picks</h2><ul><li><a href="https://www.youtube.com/watch?v=2d4jJO0GPKw">CRM</a></li><li><a href="https://sofort-impfen.de/">Sofort Impfen</a></li><li><a href="https://blog.rust-lang.org/2021/05/15/six-years-of-rust.html">Six years of Rust</a></li></ul><h2>Alternative Titel</h2><ul><li>Programmieren Beibringen für Anfänger</li></ul>
+      <content:encoded><![CDATA[
+<blockquote cite="https://akronymisier.bar/048">
+<p>wir müssen uns mal mit nem echten schweizer unterhalten</p>
+</blockquote>
+<cite>Folge 48</cite>
+
+<ul>
+  <li>Stefan Schindler <a href="https://twitter.com/dns2utf8">@dns2utf8</a></li>
+  <li><a href="https://www.meetup.com/en-AU/Rust-Zurich/">Rust Zürich</a></li>
+  <li><a href="https://serde.rs">serde.rs</a></li>
+  <li>
+    <a href="https://riptutorial.com/c/example/23858/trigraphs">C Trigraphs</a>
+    und <a href="https://en.wikipedia.org/wiki/Punycode">Punycode</a>
+  </li>
+  <li>
+    <a href="https://cpp-ug-dresden.blogspot.com/">C++ UserGroup Dresden</a>
+  </li>
+  <li><a href="https://rustbridge.com/">Rust Bridge</a></li>
+  <li>
+    <a href="https://en.wikipedia.org/wiki/Reverse_Polish_notation"
+      >Reverse Polish Notation</a
+    >
+  </li>
+  <li>
+    <a href="https://www.meetup.com/CocoaHeads-Cologne/">CocoaHeads Köln</a>
+  </li>
+  <li><a href="https://www.youtube.com/watch?v=C_mndbMCzU8">Brokkoli</a></li>
+  <li><a href="https://obsproject.com/">OBS Studio</a></li>
+</ul>
+<h3>Picks</h3>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=2d4jJO0GPKw">CRM</a></li>
+  <li><a href="https://sofort-impfen.de/">Sofort Impfen</a></li>
+  <li>
+    <a href="https://blog.rust-lang.org/2021/05/15/six-years-of-rust.html"
+      >Six years of Rust</a
+    >
+  </li>
+</ul>
+<h3>Alternative Titel</h3>
+<ul>
+  <li>Programmieren Beibringen für Anfänger</li>
+</ul>
 ]]></content:encoded>
-      <enclosure length="87032444" type="audio/mpeg" url="https://cdn.simplecast.com/audio/7ab096ff-6109-4835-82d4-29fbb06af2c3/episodes/42c37e92-29b0-41eb-bfe5-fcb26f71d716/audio/c805f22a-931f-4330-93b0-5c7549241c76/default_tc.mp3?aid=rss_feed&amp;feed=OB_iKD_T"/>
+      <enclosure length="87032444" type="audio/mpeg" url="https://kkw.lol/k/akb/049.mp3"/>
       <itunes:title>049 - Survivorship Bias</itunes:title>
       <itunes:author>Akronymisierbar</itunes:author>
       <itunes:duration>01:43:08</itunes:duration>
@@ -253,6 +388,7 @@
       <itunes:explicit>no</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>49</itunes:episode>
+      <podcast:chapters url="https://kkw.lol/k/akb/049.chapters.json" type="application/json+chapters" />
     </item>
     <item>
       <guid isPermaLink="false">761040a1-c3f5-4f45-8875-55de581b4459</guid>
