@@ -117,8 +117,8 @@ ul li img {
 blockquote {
   color: #456;
   margin-left: 0;
-  margin-top: 2em;
-  margin-bottom:2em
+  /* margin-top: 2em;
+  margin-bottom:2em */
 }
 
 blockquote span {
@@ -152,11 +152,11 @@ blockquote:before {
   width:1.2rem
 }
 
-blockquote:after {
+/* blockquote:after {
   content: "";
   display: block;
   clear:both
-}
+} */
 
 @media screen and (max-width: 500px) {
   body {
