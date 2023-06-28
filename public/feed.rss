@@ -15,13 +15,13 @@
     <description>Podcast von und mit @hoodie und @kilian. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen.</description>
     <language>de</language>
 
+    <podcast:guid>d98cda05-7cdb-565f-b766-cd622743df1c</podcast:guid>
     <podcast:locked owner="akronymisierbar@fastmail.com">yes</podcast:locked>
-    <podcast:block id="spotify">yes</podcast:block>
     <podcast:funding url="https://liberapay.com/akronymisierbar/">Liberapay</podcast:funding>
     <podcast:person href="https://chaos.social/hoodie" img="https://assets.chaos.social/accounts/avatars/000/086/679/original/e3bfd5f96638f280.png">Hendrik</podcast:person>
     <podcast:person href="https://kilian.io" img="https://kilian.io/assets/img/kilian.jpg">Kilian</podcast:person>
     <podcast:location>Dresden, DE</podcast:location>
-    <podcast:guid>d98cda05-7cdb-565f-b766-cd622743df1c</podcast:guid>
+    <podcast:block id="spotify">yes</podcast:block>
 
     <!-- UPDATE ME -->
     <pubDate>Mon, 26 Jun 2023 20:01:54 +0000</pubDate>
@@ -36,7 +36,7 @@
     <link>https://akronymisier.bar</link>
 
     <itunes:type>episodic</itunes:type>
-    <itunes:summary>Podcast von und mit @hoodie_de und @kiliankoe. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen.</itunes:summary>
+    <itunes:summary>Podcast von und mit @hoodie und @kilian. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen.</itunes:summary>
     <itunes:author>Kilian &amp; Hendrik</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://akronymisier.bar/logo.jpg"/>
