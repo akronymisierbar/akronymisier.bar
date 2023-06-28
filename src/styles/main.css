@@ -57,6 +57,11 @@ summary {
   padding-bottom: 5px;
 }
 
+.chapter-marks {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
 .link-button {
   background: none;
   border: none;

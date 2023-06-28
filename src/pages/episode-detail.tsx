@@ -51,11 +51,11 @@ export default function EpisodeDetail() {
     window.scrollTo(0, 0);
 
     const fetchChaptermarks = async () => {
-      if (!episode.chapters) { return; }
+      if (!episode.chapters) {
+        return;
+      }
       try {
-        const res = await fetch(
-          episode.chapters
-        );
+        const res = await fetch(episode.chapters);
         if (res.ok) {
           setChaptermarks(await res.json());
         } else {
@@ -91,21 +91,24 @@ export default function EpisodeDetail() {
         ref={player}
         footer={
           chaptermarks !== undefined ? (
-            <details>
-              <summary>Chaptermarks</summary>
-              {chaptermarks.chapters.map((c, idx) => {
-                return (
-                  <button
-                    className="link-button"
-                    onClick={() => {
-                      player.current!.audio.current!.currentTime = c.startTime;
-                    }}
-                  >
-                    {startTimeToTimestamp(c.startTime) + " " + c.title}
-                  </button>
-                );
-              })}
-            </details>
+            <div className="chapter-marks">
+              <details>
+                <summary>Chaptermarks</summary>
+                {chaptermarks.chapters.map((c, idx) => {
+                  return (
+                    <button
+                      className="link-button"
+                      onClick={() => {
+                        player.current!.audio.current!.currentTime =
+                          c.startTime;
+                      }}
+                    >
+                      {startTimeToTimestamp(c.startTime) + " " + c.title}
+                    </button>
+                  );
+                })}
+              </details>
+            </div>
           ) : (
             <></>
           )
