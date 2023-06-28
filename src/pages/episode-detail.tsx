@@ -61,9 +61,7 @@ export default function EpisodeDetail() {
         } else {
           setChaptermarks(undefined);
         }
-      } catch (error) {
-        console.log("Failed to fetch chaptermarks file. This is fine.");
-      }
+      } catch (error) {}
     };
     fetchChaptermarks();
   }, [episode]);
