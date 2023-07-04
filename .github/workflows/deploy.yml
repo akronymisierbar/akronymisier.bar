@@ -21,8 +21,11 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v1
+      with:
+        path: ./build
     - name: Deploy GitHub Pages site
       uses: actions/deploy-pages@v2.0.2
       with:
         token: ${{ github.token }}
-        artifact_name: ./build
