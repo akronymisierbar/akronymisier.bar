@@ -114,6 +114,10 @@ article .content {
   .rhap_container svg {
     color: #d9d9d9;
   }
+
+  .episodes-title-container input {
+    background-color: black;
+  }
 }
 
 
