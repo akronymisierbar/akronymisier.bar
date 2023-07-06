@@ -52,6 +52,7 @@ function Main() {
             date={ep.date}
             duration={ep.duration}
             summary={ep.summary}
+            cover={ep.cover}
           />
           <hr />
         </div>

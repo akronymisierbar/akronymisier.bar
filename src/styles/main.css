@@ -72,6 +72,19 @@ summary {
   font-size: large;
 }
 
+article {
+  display: flex;
+}
+
+article img {
+  height: 130px;
+  margin-right: 15px;
+}
+
+article .content {
+  flex-grow: 1;
+}
+
 @media (prefers-color-scheme: dark) {
   .link-button {
     color: #00a2e7;
