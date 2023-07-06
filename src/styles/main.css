@@ -19,6 +19,17 @@ a {
   text-decoration: none;
 }
 
+.episodes-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.episodes-title-container input {
+  border: 1px solid gray;
+  padding: 8px;
+}
+
 .episode-details {
   font-size: small;
   color: gray;
