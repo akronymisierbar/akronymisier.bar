@@ -8,7 +8,7 @@ export default function LegalNotice() {
       <p>Zwickauer Str. 91</p>
       <p>01187 Dresden</p>
       <br />
-      <p><a href="mailto:akronymisierbar@fastmail.com">akronymisierbar@fastmail.com</a></p>
+      <p><a href="mailto:mail@akronymisier.bar">mail@akronymisier.bar</a></p>
     </>
   );
 }
