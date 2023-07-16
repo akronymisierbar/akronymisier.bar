@@ -30,6 +30,21 @@ a {
   padding: 8px;
 }
 
+.search-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clear-search-button {
+  position: absolute;
+  right: 8px;
+  scale: 70%;
+  cursor: pointer;
+  color: gray;
+}
+
 .episode-details {
   font-size: small;
   color: gray;

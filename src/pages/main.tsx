@@ -6,6 +6,7 @@ import EpisodeItem from "../components/episode-item";
 import { Footer } from "../components/footer";
 import { getFeed, emptyFeed } from "../feedparser";
 import { LinkBar } from "../components/linkbar";
+import { ReactComponent as XIcon } from "../icons/x-circle.svg";
 
 function Main() {
   const [feedData, setFeedData] = useState(emptyFeed);
@@ -14,6 +15,10 @@ function Main() {
   const onSearchQueryChange = (event: ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(event.target.value);
   };
+
+  function clearSearchQuery() {
+    setSearchQuery("");
+  }
 
   useEffect(() => {
     const loadFeedItems = async () => {
@@ -50,14 +55,19 @@ function Main() {
 
       <div className="episodes-title-container">
         <h2>Folgen</h2>
-        <input
-          value={searchQuery}
-          onChange={onSearchQueryChange}
-          type="text"
-          id="search"
-          placeholder="Suche..."
-          name="search"
-        />
+        <div className="search-container">
+          <input
+            value={searchQuery}
+            onChange={onSearchQueryChange}
+            type="text"
+            id="search"
+            placeholder="Suche..."
+            name="search"
+          />
+          <div className="clear-search-button" onClick={clearSearchQuery} style={{display: searchQuery ? "": "none"}}>
+            <XIcon />
+          </div>
+        </div>
       </div>
       {feedData.episodes
         .filter((ep) => {
