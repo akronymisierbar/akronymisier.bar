@@ -24,8 +24,8 @@
     <podcast:block id="spotify">yes</podcast:block>
 
     <!-- UPDATE ME -->
-    <pubDate>Tue, 04 Jun 2023 20:43:00 +0000</pubDate>
-    <lastBuildDate>Tue, 04 Jun 2023 20:43:00 +0000</lastBuildDate>
+    <pubDate>Fri, 04 Aug 2023 22:10:00 +0000</pubDate>
+    <lastBuildDate>Fri, 04 Aug 2023 22:10:00 +0000</lastBuildDate>
     <!-- UPDATE ME -->
 
     <image>
@@ -48,6 +48,28 @@
     </itunes:owner>
     <itunes:category text="Technology"/>
     <itunes:category text="Leisure"/>
+
+    <item>
+      <guid isPermaLink="false">8d7e8d3e-335a-4329-bd12-5995f18cda7c</guid>
+      <title>055 - Hinreichend aber nicht korrekt</title>
+      <description>Es geht um WEI, Firefox und eine schicke neue Webseite (ohne X!).</description>
+      <pubDate>Fri, 04 Aug 2023 22:10:00 +0000</pubDate>
+      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <link>https://akronymisier.bar/055</link>
+      <content:encoded><![CDATA[<ul><li><a href=https://github.com/RupertBenWiser/Web-Environment-Integrity/blob/main/explainer.md>WEI</a><li><a href=https://httptoolkit.com/blog/apple-private-access-tokens-attestation/ >Apple already shipped attestation on the web, and we barely noticed</a><li><a href=https://media.ccc.de/v/33c3-7969-shut_up_and_take_my_money>CCC: shut up and take my money</a><li><a href=https://knowyourmeme.com/editorials/guides/what-is-torment-nexus-the-man-made-horrors-trope-explained>torment</a> <a href="https://www.urbandictionary.com/define.php?term=torment+nexus">nexus</a><li><a href=https://en.wikipedia.org/wiki/Cliqz>cliqz</a><li><a href=https://scribe.rip/https:/medium.com/re-form/x-to-close-417936dfc0dc>x to close</a><li><a href=scribe.rip>scribe.rip</a><li><a href=nitter.net>nitter.net</a><li><a href=https://blurha.sh/ >blurha.sh</a><li><a href=https://song.link/de/i/1565381507>podcast</a><li><a href=https://systemabsturz.band/ >systemabsturz.band</a><li><a href=http://arewemlsyet.com/ >are we MLS yet</a><li><a href=https://github.com/goto-opensource/sframe>sframe</a> (<a href=https://datatracker.ietf.org/doc/draft-ietf-sframe-enc/ >rfc</a>)<li><a href="https://www.youtube.com/watch?v=qNNKpnd5lyM">Why tech billionaires suck at fixing transport</a><li><a href=https://nebula.tv/notjustbikes>not just bikes</a><li><a href="https://www.youtube.com/playlist?list=PLNYkxOF6rcIAKIQFsNbV0JDws_G_bnNo9">http 203</a> <a href=https://http.cat/203>🐈</a></ul><h3 id=firefox-extensions>Firefox Extensions</h3><ul><li><a href=https://libredirect.github.io/ >LibRedirect</a><li><a href=https://github.com/cavi-au/Consent-O-Matic>Consent-O-Matic</a><li><a href=https://github.com/stefanw/bibbot>BibBot</a><li><a href=https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/ >TamperMonkey</a><li><a href=https://github.com/rugk/mastodon-simplified-federation>Mastodon Simplified Federation</a><li><a href=https://sponsor.ajay.app/ >SponsorBlock</a><li><a href=https://underpassapp.com/StopTheMadness/support-firefox.html>StopTheMadness</a><li><a href=https://github.com/piroor/treestyletab>Tree Style Tab</a></ul><h3 id=picks>Picks</h3><ul><li><a href=https://github.com/grassmunk/Chicago95>Chicago95</a><li>diff.rs (nach docs.rs, std.rs und lib.rs)<li><a href=https://github.com/MarcoIeni/release-plz>release plz</a></ul><h3 id=alternative-titel>Alternative Titel</h3><ul><li>pickoverflow<li>der Menschenbrowser<li><a href=https://𝕏.bar>https://𝕏.bar</a><li>macOS 𝕏<li>peak-design</ul>]]></content:encoded>
+      <enclosure length="153124601" type="audio/mpeg" url="https://kkw.lol/k/akb/055.mp3"/>
+      <itunes:title>055 - Hinreichend aber nicht korrekt</itunes:title>
+      <itunes:author>Akronymisierbar</itunes:author>
+      <itunes:image href="https://kkw.lol/k/akb/055.jpg"/>
+      <itunes:duration>01:45:23</itunes:duration>
+      <itunes:summary>Es geht um WEI, Firefox und eine schicke neue Webseite (ohne X!).</itunes:summary>
+      <itunes:subtitle>Es geht um WEI, Firefox und eine schicke neue Webseite (ohne X!).</itunes:subtitle>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>55</itunes:episode>
+      <podcast:chapters url="https://kkw.lol/k/akb/055.chapters.json" type="application/json+chapters" />
+    </item>
+
 
     <item>
       <guid isPermaLink="false">a7dd273c-5ee2-4dd4-a0f4-65c91e853361</guid>
