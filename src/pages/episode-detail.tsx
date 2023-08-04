@@ -49,14 +49,17 @@ export default function EpisodeDetail() {
       if (!episode.chapters) {
         return;
       }
-      try {
-        const res = await fetch(episode.chapters);
-        if (res.ok) {
+      // Don't care if chaptermarks aren't available, only if they are.
+      const res = await fetch(episode.chapters).catch(() => null);
+      if (res?.ok) {
+        try {
           setChaptermarks(await res.json());
-        } else {
-          setChaptermarks(undefined);
+        } catch (error) {
+          console.error(`Failed to parse chaptermark json: ${error}`);
         }
-      } catch (error) {}
+      } else {
+        setChaptermarks(undefined);
+      }
     };
     fetchChaptermarks();
   }, [episode]);
