@@ -56,38 +56,7 @@
       <pubDate>Mon, 26 Jun 2023 20:01:54 +0000</pubDate>
       <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
       <link>https://akronymisier.bar/054</link>
-      <content:encoded><![CDATA[
-<ul>
-  <li><a href="https://www.sz-fahrradfest.de/touren">SZ Fahrradfest</a></li>
-  <li>die "reddit situation"<ul>
-    <li>Größte Alternative bisher: <a href="https://join-lemmy.org/">Lemmy</a> (leider auch nicht ganz unproblematisch)</li>
-  </ul></li>
-  <li><a href="https://webpack.js.org/">webpack</a> vs <a href="http://vitejs.dev/">vite</a></li>
-  <li><a href="https://youtu.be/3Ay6qZ88boI">fireship</a></li>
-  <li><a href="https://www.git-scm.com/docs/git-blame#Documentation/git-blame.txt---ignore-revs-fileltfilegt">git blame --ignore-revs-file </a></li>
-  <li><a href="https://tauri.studio/">tauri</a></li>
-  <li><a href="https://developer.microsoft.com/en-us/microsoft-edge/webview2/">WebView2</a></li>
-  <li><a href="https://mobilecamp.de/">mobilecamp</a></li>
-  <li><a href="https://pandoc.org/">pandoc</a></li>
-</ul>
-<h3>Picks</h3>
-<ul>
-  <li><a href="https://starship.rs/">starship.rs</a></li>
-  <li><a href="https://github.com/streamlit/streamlit">streamlit</a></li>
-  <li><a href="http://vite.dev/">vite</a></li>
-  <li><a href="https://github.com/tummychow/git-absorb">git-absorb</a></li>
-  <li><a href="https://github.com/andrewmd5/orion">orion</a></li>
-  <li><a href="https://github.com/typst/typst">typst</a></li>
-  <li><a href="https://github.com/hoodie/rosemary/">rosemary</a></li>
-  <li><a href="https://github.com/hoodie/scrape/">scrape</a></li>
-</ul>
-<h3>Alternative Titel</h3>
-<ul>
-  <li>von Steve and Steven</li>
-  <li>"subreddit geloeschrt"</li>
-  <li>"fireship" vs "starship"</li>
-</ul>
-]]></content:encoded>
+      <content:encoded><![CDATA[<ul><li><a href=https://www.sz-fahrradfest.de/touren>SZ Fahrradfest</a><li>die "reddit situation"<ul><li>Größte Alternative bisher: <a href=https://join-lemmy.org/ >Lemmy</a> (leider auch nicht ganz unproblematisch)</ul><li><a href=https://webpack.js.org/ >webpack</a> vs <a href=http://vitejs.dev/ >vite</a><li><a href=https://youtu.be/3Ay6qZ88boI>fireship</a><li><a href=https://www.git-scm.com/docs/git-blame#Documentation/git-blame.txt---ignore-revs-fileltfilegt>git blame --ignore-revs-file</a><li><a href=https://tauri.studio/ >tauri</a><li><a href=https://developer.microsoft.com/en-us/microsoft-edge/webview2/ >WebView2</a><li><a href=https://mobilecamp.de/ >mobilecamp</a><li><a href=https://pandoc.org/ >pandoc</a></ul><h3>Picks</h3><ul><li><a href=https://starship.rs/ >starship.rs</a><li><a href=https://github.com/streamlit/streamlit>streamlit</a><li><a href=http://vite.dev/ >vite</a><li><a href=https://github.com/tummychow/git-absorb>git-absorb</a><li><a href=https://github.com/andrewmd5/orion>orion</a><li><a href=https://github.com/typst/typst>typst</a><li><a href=https://github.com/hoodie/rosemary/ >rosemary</a><li><a href=https://github.com/hoodie/scrape/ >scrape</a></ul><h3>Alternative Titel</h3><ul><li>von Steve and Steven<li>"subreddit geloeschrt"<li>"fireship" vs "starship"</ul>]]></content:encoded>
       <enclosure length="141510867" type="audio/mpeg" url="https://kkw.lol/k/akb/054.mp3"/>
       <itunes:title>054 - Rule 34 of git</itunes:title>
       <itunes:author>Akronymisierbar</itunes:author>
