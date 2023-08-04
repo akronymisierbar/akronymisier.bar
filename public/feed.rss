@@ -41,7 +41,7 @@
     <itunes:explicit>no</itunes:explicit>
     <itunes:image href="https://akronymisier.bar/logo.jpg"/>
     <itunes:new-feed-url>https://akronymisier.bar/feed.rss</itunes:new-feed-url>
-    <itunes:keywords>akronymisierbar, dresden, rust, swift</itunes:keywords>
+    <itunes:keywords>akronymisierbar, dresden, rust, swift, typescript</itunes:keywords>
     <itunes:owner>
       <itunes:name>Akronymisierbar</itunes:name>
       <itunes:email>akronymisierbar@fastmail.com</itunes:email>
