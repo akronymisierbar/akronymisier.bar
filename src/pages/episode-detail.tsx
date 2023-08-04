@@ -1,10 +1,11 @@
 import { useLoaderData } from "react-router-dom";
-import { getEpisodeDetails, Episode } from "../feedparser";
+import { Episode } from "../feedparser";
 import AudioPlayer from "react-h5-audio-player";
 import { Footer } from "../components/footer";
 import { useEffect, useState, createRef, RefObject } from "react";
 import { Link } from "react-router-dom";
 import { ReactComponent as BackIcon } from "../icons/back-icon.svg";
+
 import Giscus from "@giscus/react";
 import H5AudioPlayer from "react-h5-audio-player";
 
@@ -31,11 +32,6 @@ function startTimeToTimestamp(seconds: number): string {
 
 interface LoaderData {
   episode: Episode;
-}
-
-export async function episodeLoader({ params }: { params: any }) {
-  const episode = await getEpisodeDetails(params.episode);
-  return { episode };
 }
 
 export default function EpisodeDetail() {
@@ -93,7 +89,7 @@ export default function EpisodeDetail() {
             <div className="chapter-marks">
               <details>
                 <summary>Chaptermarks</summary>
-                {chaptermarks.chapters.map((c, idx) => {
+                {chaptermarks.chapters.map((c) => {
                   return (
                     <button
                       className="link-button"

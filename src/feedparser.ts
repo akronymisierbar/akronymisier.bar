@@ -30,7 +30,7 @@ export async function getFeed(): Promise<Feed> {
   const data = new window.DOMParser().parseFromString(str, 'text/xml');
   return {
     pubDate: dateFormat(data.getElementsByTagName("pubDate")[0].textContent ?? "", "dd.mm.yyyy HH:MM"),
-    episodes: Array.from(data.getElementsByTagName('item')).map((item, index) => {
+    episodes: Array.from(data.getElementsByTagName('item')).map((item) => {
       const pubDate = item.getElementsByTagName('pubDate')[0].textContent ?? '';
 
       return {

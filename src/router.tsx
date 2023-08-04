@@ -1,13 +1,14 @@
 import { createBrowserRouter } from "react-router-dom";
-import Main from "../pages/main";
-import ErrorPage from "../pages/error-page";
-import LegalNotice from "../pages/legal-notice";
-import EpisodeDetail, { episodeLoader } from "../pages/episode-detail";
+import Root from "./pages/root";
+import ErrorPage from "./pages/error-page";
+import LegalNotice from "./pages/legal-notice";
+import EpisodeDetail from "./pages/episode-detail";
+import { getEpisodeDetails } from "./feedparser";
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main />,
+    element: <Root />,
     errorElement: <ErrorPage />,
   },
   {
@@ -25,3 +26,8 @@ export const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
 ]);
+
+async function episodeLoader({ params }: { params: any }) {
+  const episode = await getEpisodeDetails(params.episode);
+  return { episode };
+}
