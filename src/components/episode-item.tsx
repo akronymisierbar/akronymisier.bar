@@ -19,7 +19,9 @@ function EpisodeItem({
 }: EpisodeItemProps) {
   return (
     <article>
-      <img src={cover ? cover : "/logo512.png"} alt="cover der folge" />
+      <Link to={link}>
+        <img src={cover ? cover : "/logo512.png"} alt="cover der folge" />
+      </Link>
       <div className="content">
         <Link to={link}>
           <h3 className="episode-title">{title}</h3>
