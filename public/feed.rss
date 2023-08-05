@@ -12,7 +12,7 @@
     <generator>artisanal hand-crafted XML</generator>
     
     <title>Akronymisierbar</title>
-    <description>Podcast von und mit @hoodie und @kilian. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen.</description>
+    <description>Podcast von und mit Hendrik und Kilian. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen.</description>
     <language>de</language>
 
     <podcast:guid>d98cda05-7cdb-565f-b766-cd622743df1c</podcast:guid>
@@ -36,7 +36,7 @@
     <link>https://akronymisier.bar</link>
 
     <itunes:type>episodic</itunes:type>
-    <itunes:summary>Podcast von und mit @hoodie und @kilian. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen.</itunes:summary>
+    <itunes:summary>Podcast von und mit Hendrik und Kilian. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen.</itunes:summary>
     <itunes:author>Kilian &amp; Hendrik</itunes:author>
     <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://akronymisier.bar/logo.jpg"/>

@@ -42,11 +42,11 @@ export default function Root() {
       <p>
         Podcast von und mit{" "}
         <a href="https://chaos.social/@hoodie" target="_blank" rel="noreferrer">
-          @hoodie
+          Hendrik
         </a>{" "}
         und{" "}
         <a href="https://chaos.social/@kilian" target="_blank" rel="noreferrer">
-          @kilian
+          Kilian
         </a>
         . Geballtes gefährliches Halbwissen zu allem rund um
         Programmiersprachen, Messengern und anderen (meist technischen) Themen,
