@@ -1,10 +1,11 @@
 import { useLoaderData } from "react-router-dom";
-import { getEpisodeDetails, Episode } from "../feedparser";
+import { Episode } from "../feedparser";
 import AudioPlayer from "react-h5-audio-player";
 import { Footer } from "../components/footer";
 import { useEffect, useState, createRef, RefObject } from "react";
 import { Link } from "react-router-dom";
 import { ReactComponent as BackIcon } from "../icons/back-icon.svg";
+
 import Giscus from "@giscus/react";
 import H5AudioPlayer from "react-h5-audio-player";
 
@@ -33,11 +34,6 @@ interface LoaderData {
   episode: Episode;
 }
 
-export async function episodeLoader({ params }: { params: any }) {
-  const episode = await getEpisodeDetails(params.episode);
-  return { episode };
-}
-
 export default function EpisodeDetail() {
   const { episode } = useLoaderData() as LoaderData;
   const [chaptermarks, setChaptermarks] = useState(
@@ -53,14 +49,17 @@ export default function EpisodeDetail() {
       if (!episode.chapters) {
         return;
       }
-      try {
-        const res = await fetch(episode.chapters);
-        if (res.ok) {
+      // Don't care if chaptermarks aren't available, only if they are.
+      const res = await fetch(episode.chapters).catch(() => null);
+      if (res?.ok) {
+        try {
           setChaptermarks(await res.json());
-        } else {
-          setChaptermarks(undefined);
+        } catch (error) {
+          console.error(`Failed to parse chaptermark json: ${error}`);
         }
-      } catch (error) {}
+      } else {
+        setChaptermarks(undefined);
+      }
     };
     fetchChaptermarks();
   }, [episode]);
@@ -93,7 +92,7 @@ export default function EpisodeDetail() {
             <div className="chapter-marks">
               <details>
                 <summary>Chaptermarks</summary>
-                {chaptermarks.chapters.map((c, idx) => {
+                {chaptermarks.chapters.map((c) => {
                   return (
                     <button
                       className="link-button"

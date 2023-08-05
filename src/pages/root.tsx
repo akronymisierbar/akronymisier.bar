@@ -1,4 +1,4 @@
-import React, { useEffect, useState, ChangeEvent } from "react";
+import { useEffect, useState, ChangeEvent } from "react";
 import "react-h5-audio-player/lib/styles.css";
 import "../styles/main.css";
 import "../styles/thebest.css";
@@ -8,7 +8,7 @@ import { getFeed, emptyFeed } from "../feedparser";
 import { LinkBar } from "../components/linkbar";
 import { ReactComponent as XIcon } from "../icons/x-circle.svg";
 
-function Main() {
+export default function Root() {
   const [feedData, setFeedData] = useState(emptyFeed);
   const [searchQuery, setSearchQuery] = useState("");
 
@@ -81,7 +81,7 @@ function Main() {
             ep.description.toLowerCase().includes(query)
           );
         })
-        .map((ep, index) => (
+        .map((ep) => (
           <div key={ep.id}>
             <EpisodeItem
               title={ep.title}
@@ -98,5 +98,3 @@ function Main() {
     </div>
   );
 }
-
-export default Main;
