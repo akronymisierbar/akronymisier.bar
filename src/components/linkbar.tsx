@@ -3,7 +3,7 @@ export function LinkBar() {
     <ul className="links">
       <li key="rss">
         <a
-          href="https://feed.akronymisier.bar"
+          href="https://akronymisier.bar/feed.rss"
           target="_blank"
           rel="noreferrer"
         >
