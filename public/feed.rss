@@ -38,7 +38,7 @@
     <itunes:type>episodic</itunes:type>
     <itunes:summary>Podcast von und mit @hoodie und @kilian. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen.</itunes:summary>
     <itunes:author>Kilian &amp; Hendrik</itunes:author>
-    <itunes:explicit>no</itunes:explicit>
+    <itunes:explicit>false</itunes:explicit>
     <itunes:image href="https://akronymisier.bar/logo.jpg"/>
     <itunes:new-feed-url>https://akronymisier.bar/feed.rss</itunes:new-feed-url>
     <itunes:keywords>akronymisierbar, dresden, rust, swift, typescript</itunes:keywords>
@@ -64,7 +64,7 @@
       <itunes:duration>01:45:23</itunes:duration>
       <itunes:summary>Es geht um WEI, Firefox und eine schicke neue Webseite (ohne X!).</itunes:summary>
       <itunes:subtitle>Es geht um WEI, Firefox und eine schicke neue Webseite (ohne X!).</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>55</itunes:episode>
       <podcast:chapters url="https://kkw.lol/k/akb/055.chapters.json" type="application/json+chapters" />
@@ -85,7 +85,7 @@
       <itunes:duration>01:37:59</itunes:duration>
       <itunes:summary>Wir sind wieder da, waren wir je weg?</itunes:summary>
       <itunes:subtitle>Wir sind wieder da, waren wir je weg?</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>54</itunes:episode>
       <podcast:chapters url="https://kkw.lol/k/akb/054.chapters.json" type="application/json+chapters" />
@@ -127,7 +127,7 @@
       <itunes:duration>01:03:25</itunes:duration>
       <itunes:summary>Macht ihr Wordles oder seid ihr in der Kontrollgruppe?</itunes:summary>
       <itunes:subtitle>Macht ihr Wordles oder seid ihr in der Kontrollgruppe?</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>53</itunes:episode>
       <podcast:chapters url="https://kkw.lol/k/akb/053.chapters.json" type="application/json+chapters" />
@@ -182,7 +182,7 @@
       <itunes:duration>01:37:24</itunes:duration>
       <itunes:summary>Heute geht&apos;s um Aktoren in Swift und Rust.</itunes:summary>
       <itunes:subtitle>Heute geht&apos;s um Aktoren in Swift und Rust.</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>52</itunes:episode>
       <podcast:chapters url="https://kkw.lol/k/akb/052.chapters.json" type="application/json+chapters" />
@@ -241,7 +241,7 @@
       <itunes:duration>02:02:11</itunes:duration>
       <itunes:summary>Linux im Rust Kernel mit Jörg und Finn.</itunes:summary>
       <itunes:subtitle>Linux im Rust Kernel mit Jörg und Finn.</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>51</itunes:episode>
       <podcast:chapters url="https://kkw.lol/k/akb/051.chapters.json" type="application/json+chapters" />
@@ -314,7 +314,7 @@
       <itunes:duration>02:17:49</itunes:duration>
       <itunes:summary>Heute haben wir mal wieder Florian Gilcher (@Argorak) zu Gast und bequatschen aktuell (oder nicht mehr) existierende Messaging-Dienste.</itunes:summary>
       <itunes:subtitle>Heute haben wir mal wieder Florian Gilcher (@Argorak) zu Gast und bequatschen aktuell (oder nicht mehr) existierende Messaging-Dienste.</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>50</itunes:episode>
       <podcast:chapters url="https://kkw.lol/k/akb/050.chapters.json" type="application/json+chapters" />
@@ -376,7 +376,7 @@
       <itunes:duration>01:43:08</itunes:duration>
       <itunes:summary>Diesmal wieder mit Stefan Schindler @dns2utf8 von Rust Zürich.</itunes:summary>
       <itunes:subtitle>Diesmal wieder mit Stefan Schindler @dns2utf8 von Rust Zürich.</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>49</itunes:episode>
       <podcast:chapters url="https://kkw.lol/k/akb/049.chapters.json" type="application/json+chapters" />
@@ -397,7 +397,7 @@
       <itunes:duration>01:21:20</itunes:duration>
       <itunes:summary></itunes:summary>
       <itunes:subtitle></itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>48</itunes:episode>
     </item>
@@ -417,7 +417,7 @@
       <itunes:duration>02:29:18</itunes:duration>
       <itunes:summary></itunes:summary>
       <itunes:subtitle></itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>47</itunes:episode>
     </item>
@@ -437,7 +437,7 @@
       <itunes:duration>01:42:32</itunes:duration>
       <itunes:summary>Der Tom erzählt uns heute ein wenig über das wunderbare Projekt Quarantäneheld*innen.</itunes:summary>
       <itunes:subtitle>Der Tom erzählt uns heute ein wenig über das wunderbare Projekt Quarantäneheld*innen.</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>46</itunes:episode>
     </item>
@@ -458,7 +458,7 @@
       <itunes:duration>02:46:08</itunes:duration>
       <itunes:summary>Diesmal zum Thema Konferenzen und Meetups 2020</itunes:summary>
       <itunes:subtitle>Diesmal zum Thema Konferenzen und Meetups 2020</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>45</itunes:episode>
     </item>
@@ -478,7 +478,7 @@
       <itunes:duration>01:29:31</itunes:duration>
       <itunes:summary>Nach nur drei Monaten Abstinenz sind wir zurück \o/</itunes:summary>
       <itunes:subtitle>Nach nur drei Monaten Abstinenz sind wir zurück \o/</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>44</itunes:episode>
     </item>
@@ -498,7 +498,7 @@
       <itunes:duration>01:28:24</itunes:duration>
       <itunes:summary>Heute geht&apos;s mal wieder um COVID-19 (ugh!), Messenger (wow!), desktop notifications (cool!) und ganz viel Typescript Metaprogramming (yay!).</itunes:summary>
       <itunes:subtitle>Heute geht&apos;s mal wieder um COVID-19 (ugh!), Messenger (wow!), desktop notifications (cool!) und ganz viel Typescript Metaprogramming (yay!).</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>43</itunes:episode>
     </item>
@@ -518,7 +518,7 @@
       <itunes:duration>01:43:51</itunes:duration>
       <itunes:summary>Diese Folge ist die Antwort auf die Frage nach dem Leben, dem Universum und dem ganzen Rest.</itunes:summary>
       <itunes:subtitle>Diese Folge ist die Antwort auf die Frage nach dem Leben, dem Universum und dem ganzen Rest.</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>42</itunes:episode>
     </item>
@@ -538,7 +538,7 @@
       <itunes:duration>01:29:04</itunes:duration>
       <itunes:summary></itunes:summary>
       <itunes:subtitle></itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>41</itunes:episode>
     </item>
@@ -558,7 +558,7 @@
       <itunes:duration>01:42:56</itunes:duration>
       <itunes:summary>Wieder remote, dieses Mal aber in guter Qualität!</itunes:summary>
       <itunes:subtitle>Wieder remote, dieses Mal aber in guter Qualität!</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>40</itunes:episode>
     </item>
@@ -578,7 +578,7 @@
       <itunes:duration>01:27:00</itunes:duration>
       <itunes:summary>Wir üben uns im social distancing und nehmen die Folge heute (erstmalig zu zweit?) dezentral auf.</itunes:summary>
       <itunes:subtitle>Wir üben uns im social distancing und nehmen die Folge heute (erstmalig zu zweit?) dezentral auf.</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>39</itunes:episode>
     </item>
@@ -598,7 +598,7 @@
       <itunes:duration>01:48:32</itunes:duration>
       <itunes:summary>Akronymisierbar ganz klassisch, mit diversen Programmiersprachen.</itunes:summary>
       <itunes:subtitle>Akronymisierbar ganz klassisch, mit diversen Programmiersprachen.</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>38</itunes:episode>
     </item>
@@ -618,7 +618,7 @@
       <itunes:duration>02:18:08</itunes:duration>
       <itunes:summary>Ganz viel Wind um nix, heute mit zwei (2!) Gästen, Schmittlauch und Mic. Nix zu sehen hier, auch nix zu hören und erst recht nix zu erzählen.</itunes:summary>
       <itunes:subtitle>Ganz viel Wind um nix, heute mit zwei (2!) Gästen, Schmittlauch und Mic. Nix zu sehen hier, auch nix zu hören und erst recht nix zu erzählen.</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>37</itunes:episode>
     </item>
@@ -638,7 +638,7 @@
       <itunes:duration>01:11:30</itunes:duration>
       <itunes:summary>Die Akronymisierbar Gala (live, aber jetzt nicht mehr) vom 36c3!</itunes:summary>
       <itunes:subtitle>Die Akronymisierbar Gala (live, aber jetzt nicht mehr) vom 36c3!</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>36</itunes:episode>
     </item>
@@ -658,7 +658,7 @@
       <itunes:duration>01:39:06</itunes:duration>
       <itunes:summary></itunes:summary>
       <itunes:subtitle></itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>35</itunes:episode>
     </item>
@@ -678,7 +678,7 @@
       <itunes:duration>01:45:22</itunes:duration>
       <itunes:summary></itunes:summary>
       <itunes:subtitle></itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>34</itunes:episode>
     </item>
@@ -698,7 +698,7 @@
       <itunes:duration>01:46:29</itunes:duration>
       <itunes:summary>Der Titel sagt schon alles.</itunes:summary>
       <itunes:subtitle>Der Titel sagt schon alles.</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>33</itunes:episode>
     </item>
@@ -786,7 +786,7 @@
       <itunes:duration>02:24:18</itunes:duration>
       <itunes:summary>Heute mit Xyrill (xyrillian.de) zu Gast! </itunes:summary>
       <itunes:subtitle>Heute mit Xyrill (xyrillian.de) zu Gast! </itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>32</itunes:episode>
     </item>
@@ -870,7 +870,7 @@
       <itunes:duration>01:51:07</itunes:duration>
       <itunes:summary>Heute mit Sascha (@saspeuk), aka Graf Datenbank.</itunes:summary>
       <itunes:subtitle>Heute mit Sascha (@saspeuk), aka Graf Datenbank.</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>31</itunes:episode>
     </item>
@@ -900,7 +900,7 @@ https://github.com/entropic-dev/entropic</p>
       <itunes:duration>01:35:05</itunes:duration>
       <itunes:summary>Folge 30, wie schnell die Zeit vergeht 😱</itunes:summary>
       <itunes:subtitle>Folge 30, wie schnell die Zeit vergeht 😱</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>30</itunes:episode>
     </item>
@@ -991,7 +991,7 @@ https://github.com/entropic-dev/entropic</p>
       <itunes:duration>02:02:37</itunes:duration>
       <itunes:summary></itunes:summary>
       <itunes:subtitle></itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>29</itunes:episode>
     </item>
@@ -1077,7 +1077,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>01:30:52</itunes:duration>
       <itunes:summary>Heute mit unerwarteten neuem(?) Gast!</itunes:summary>
       <itunes:subtitle>Heute mit unerwarteten neuem(?) Gast!</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>28</itunes:episode>
     </item>
@@ -1134,7 +1134,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>01:24:55</itunes:duration>
       <itunes:summary>diesmal mit Juls, Steiger, Stefan und Marius</itunes:summary>
       <itunes:subtitle>diesmal mit Juls, Steiger, Stefan und Marius</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>27</itunes:episode>
     </item>
@@ -1183,7 +1183,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>01:11:37</itunes:duration>
       <itunes:summary>Heute mit Henrik Skupin (@whimboo) über&apos;s Arbeiten bei Mozilla.</itunes:summary>
       <itunes:subtitle>Heute mit Henrik Skupin (@whimboo) über&apos;s Arbeiten bei Mozilla.</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>26</itunes:episode>
     </item>
@@ -1222,7 +1222,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>00:29:49</itunes:duration>
       <itunes:summary>Es waren mal wieder Datenspuren in Dresden. Wir haben uns dieses Mal mit Johannes unterhalten, der einen Vortrag über Ada, Spark und formale Verifikation gehalten hat.</itunes:summary>
       <itunes:subtitle>Es waren mal wieder Datenspuren in Dresden. Wir haben uns dieses Mal mit Johannes unterhalten, der einen Vortrag über Ada, Spark und formale Verifikation gehalten hat.</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>25</itunes:episode>
     </item>
@@ -1293,7 +1293,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>01:27:22</itunes:duration>
       <itunes:summary>Ob wir die Qualität von Folge 023 erreichen können? Vermutlich nicht, aber wir geben uns Mühe!</itunes:summary>
       <itunes:subtitle>Ob wir die Qualität von Folge 023 erreichen können? Vermutlich nicht, aber wir geben uns Mühe!</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>24</itunes:episode>
     </item>
@@ -1368,7 +1368,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>01:17:35</itunes:duration>
       <itunes:summary>Heute mit Gast Florian Gilcher (@argorak). </itunes:summary>
       <itunes:subtitle>Heute mit Gast Florian Gilcher (@argorak). </itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>22</itunes:episode>
     </item>
@@ -1427,7 +1427,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>01:27:40</itunes:duration>
       <itunes:summary>Heute reden wir mal nicht über Programmiersprachen...</itunes:summary>
       <itunes:subtitle>Heute reden wir mal nicht über Programmiersprachen...</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>21</itunes:episode>
     </item>
@@ -1528,7 +1528,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>01:40:00</itunes:duration>
       <itunes:summary>Welcome back to Acronyminizable (or is it Acronymizable?)!</itunes:summary>
       <itunes:subtitle>Welcome back to Acronyminizable (or is it Acronymizable?)!</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>20</itunes:episode>
     </item>
@@ -1679,7 +1679,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>01:25:46</itunes:duration>
       <itunes:summary>Es ist viel passiert die letzten Tage. Microsofts neuste Ãœbernahme, Rustfest &amp; WWDC u.v.m. Diese Folge ist prall gefüllt mit *echten* current events!</itunes:summary>
       <itunes:subtitle>Es ist viel passiert die letzten Tage. Microsofts neuste Ãœbernahme, Rustfest &amp; WWDC u.v.m. Diese Folge ist prall gefüllt mit *echten* current events!</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>19</itunes:episode>
     </item>
@@ -1750,7 +1750,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>02:04:41</itunes:duration>
       <itunes:summary>Wiederholungstäte... äh -gast Jupp ist heute wieder da \o/ Und wir sitzen dieses Mal auch nicht halbnackt mit ihm ascii, sondern unterhalten uns ganz entspannt über Editoren, Tastaturen, git und andere tolle Themen. </itunes:summary>
       <itunes:subtitle>Wiederholungstäte... äh -gast Jupp ist heute wieder da \o/ Und wir sitzen dieses Mal auch nicht halbnackt mit ihm ascii, sondern unterhalten uns ganz entspannt über Editoren, Tastaturen, git und andere tolle Themen. </itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>18</itunes:episode>
     </item>
@@ -1835,7 +1835,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>02:29:19</itunes:duration>
       <itunes:summary>Ein deep dive in die wunderbare Welt der funktionalen Programmierung</itunes:summary>
       <itunes:subtitle>Ein deep dive in die wunderbare Welt der funktionalen Programmierung</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>17</itunes:episode>
     </item>
@@ -1894,7 +1894,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>01:25:27</itunes:duration>
       <itunes:summary>Willkommen zurück zu eurem Lieblingsbuchempfehlungspodcast!</itunes:summary>
       <itunes:subtitle>Willkommen zurück zu eurem Lieblingsbuchempfehlungspodcast!</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>16</itunes:episode>
     </item>
@@ -1975,7 +1975,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>01:59:23</itunes:duration>
       <itunes:summary>Neue Folge Akronymisierbar, und alle so yeah \o/! Heute geht&apos;s bei uns um Bücher aus denen man was lernt, dependency manager, chatbots und jquery.</itunes:summary>
       <itunes:subtitle>Neue Folge Akronymisierbar, und alle so yeah \o/! Heute geht&apos;s bei uns um Bücher aus denen man was lernt, dependency manager, chatbots und jquery.</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>15</itunes:episode>
     </item>
@@ -2022,7 +2022,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>01:26:56</itunes:duration>
       <itunes:summary>Haben uns heute mal wieder zusammengesetzt um u.a. über curl, git Gewohnheiten und JSON zu reden. Viel Spaß mit der Folge!</itunes:summary>
       <itunes:subtitle>Haben uns heute mal wieder zusammengesetzt um u.a. über curl, git Gewohnheiten und JSON zu reden. Viel Spaß mit der Folge!</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>14</itunes:episode>
     </item>
@@ -2099,7 +2099,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>01:16:18</itunes:duration>
       <itunes:summary>Akronymisierbar 013</itunes:summary>
       <itunes:subtitle>Akronymisierbar 013</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>13</itunes:episode>
     </item>
@@ -2172,7 +2172,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>01:17:51</itunes:duration>
       <itunes:summary>Heute hört ihr mit doppelter Effizienz gleich zwei Podcasts auf einmal. Hallo Swift und Akronymisierbar machen auf dem [34. Chaos Communication Congress](https://events.ccc.de/tag/34c3/) ein joint venture und nehmen zusammen eine Sonderfolge auf. [Ben](https://twitter.com/benchr), [Hendrik](https://twitter.com/hoodie_de), [Kilian](https://twitter.com/kiliankoe) und [Vincent](https://twitter.com/regexident) waren vor Ort und erzählen ein wenig über Erfahrungen und was man auf dem 34c3 so sehen und erleben kann.</itunes:summary>
       <itunes:subtitle>Heute hört ihr mit doppelter Effizienz gleich zwei Podcasts auf einmal. Hallo Swift und Akronymisierbar machen auf dem [34. Chaos Communication Congress](https://events.ccc.de/tag/34c3/) ein joint venture und nehmen zusammen eine Sonderfolge auf. [Ben](https://twitter.com/benchr), [Hendrik](https://twitter.com/hoodie_de), [Kilian](https://twitter.com/kiliankoe) und [Vincent](https://twitter.com/regexident) waren vor Ort und erzählen ein wenig über Erfahrungen und was man auf dem 34c3 so sehen und erleben kann.</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>12</itunes:episode>
     </item>
@@ -2211,7 +2211,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>01:47:51</itunes:duration>
       <itunes:summary>Wir quatschen heute u.a. über Konferenzen, Weihnachtsgeschenke und WebAssembly. Am Ende schaut sogar spontan noch ein Steigr vorbei!</itunes:summary>
       <itunes:subtitle>Wir quatschen heute u.a. über Konferenzen, Weihnachtsgeschenke und WebAssembly. Am Ende schaut sogar spontan noch ein Steigr vorbei!</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>11</itunes:episode>
     </item>
@@ -2320,7 +2320,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>01:44:00</itunes:duration>
       <itunes:summary>Diesmal waren wir zu Gast auf den Datenspuren in Technischen Sammlungen haben wir in einem echten Vintage DDR Tonstudio aufgenommen.</itunes:summary>
       <itunes:subtitle>Diesmal waren wir zu Gast auf den Datenspuren in Technischen Sammlungen haben wir in einem echten Vintage DDR Tonstudio aufgenommen.</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>10</itunes:episode>
     </item>
@@ -2381,7 +2381,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>01:27:46</itunes:duration>
       <itunes:summary>Akronymisierbar 009</itunes:summary>
       <itunes:subtitle>Akronymisierbar 009</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>9</itunes:episode>
     </item>
@@ -2428,7 +2428,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>02:13:43</itunes:duration>
       <itunes:summary>Akronymisierbar 008</itunes:summary>
       <itunes:subtitle>Akronymisierbar 008</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>8</itunes:episode>
     </item>
@@ -2477,7 +2477,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 </itunes:summary>
       <itunes:subtitle>Heute mit [@jupp0r](https://twitter.com/jupp0r) ([http://jupp.ninja/](http://jupp.ninja/))
 </itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>7</itunes:episode>
     </item>
@@ -2630,7 +2630,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>01:34:17</itunes:duration>
       <itunes:summary>Nach 6 Folgen sind wir immer noch nicht vorbereitet bei der Aufnahme.</itunes:summary>
       <itunes:subtitle>Nach 6 Folgen sind wir immer noch nicht vorbereitet bei der Aufnahme.</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>6</itunes:episode>
     </item>
@@ -2685,7 +2685,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>02:01:38</itunes:duration>
       <itunes:summary>Wir sitzen heute auf dem MobileCamp 2017 und plaudern wieder über $Dinge. Hauptsächlich über das MobileCamp selbst, ein paar komische online zu erwerbende Produkte, unsere aktuellen Lieblingsprojekte auf GitHub und kurz über Versionsnummern.</itunes:summary>
       <itunes:subtitle>Wir sitzen heute auf dem MobileCamp 2017 und plaudern wieder über $Dinge. Hauptsächlich über das MobileCamp selbst, ein paar komische online zu erwerbende Produkte, unsere aktuellen Lieblingsprojekte auf GitHub und kurz über Versionsnummern.</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>5</itunes:episode>
     </item>
@@ -2770,7 +2770,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>01:56:47</itunes:duration>
       <itunes:summary>Nebst diversen Abweichungen (dafür sind wir ja mittlerweile quasi bekannt) geht&apos;s heute um Mastodon, Electron, XMPP und Saftpressen. Spannung ensues!</itunes:summary>
       <itunes:subtitle>Nebst diversen Abweichungen (dafür sind wir ja mittlerweile quasi bekannt) geht&apos;s heute um Mastodon, Electron, XMPP und Saftpressen. Spannung ensues!</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>4</itunes:episode>
     </item>
@@ -2823,7 +2823,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>02:08:40</itunes:duration>
       <itunes:summary>Wir reden heute (wieder und dieses mal auch ordentlich zu dritt!) über Aprilscherze, beschissene Messenger, Kexts auf macOS und natürlich wieder ein paar random GitHub Projekte. Nebst viel anderem Kram nebenher. Wie Hendrik in der Folge sicherlich korrekt anmerkt, unsere Gespräche sind eher ne Tiefensuche. </itunes:summary>
       <itunes:subtitle>Wir reden heute (wieder und dieses mal auch ordentlich zu dritt!) über Aprilscherze, beschissene Messenger, Kexts auf macOS und natürlich wieder ein paar random GitHub Projekte. Nebst viel anderem Kram nebenher. Wie Hendrik in der Folge sicherlich korrekt anmerkt, unsere Gespräche sind eher ne Tiefensuche. </itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>3</itunes:episode>
     </item>
@@ -2868,7 +2868,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>01:24:55</itunes:duration>
       <itunes:summary>Akronymisierbar 002</itunes:summary>
       <itunes:subtitle>Akronymisierbar 002</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>2</itunes:episode>
     </item>
@@ -2911,7 +2911,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>01:03:32</itunes:duration>
       <itunes:summary>Akronymisierbar 001</itunes:summary>
       <itunes:subtitle>Akronymisierbar 001</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>1</itunes:episode>
     </item>
@@ -2960,7 +2960,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <itunes:duration>01:20:21</itunes:duration>
       <itunes:summary>Wir machen jetzt einen Podcast 😱</itunes:summary>
       <itunes:subtitle>Wir machen jetzt einen Podcast 😱</itunes:subtitle>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>0</itunes:episode>
     </item>
