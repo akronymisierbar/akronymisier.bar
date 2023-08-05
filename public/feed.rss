@@ -165,7 +165,7 @@
   <li><a href="https://developer.apple.com/documentation/foundation/nsnotificationcenter">NSNotificationCenter</a></li>
   <li><a href="https://developer.apple.com/documentation/dispatch/">GCD</a></li>
   <li><a href="https://developer.apple.com/documentation/dispatch/dispatchqueue/">Dispatch Queues</a></li>
-  <li><a href="docs.rs/futures/">rust futures</a> <a href="https://rust-lang.github.io/async-book/">async rust book</a> (tokio.rs / async.rs)</li>
+  <li><a href="https://docs.rs/futures/">rust futures</a> <a href="https://rust-lang.github.io/async-book/">async rust book</a> (tokio.rs / async.rs)</li>
 </ul>
 <h3>Titel</h3>
 <ul>
