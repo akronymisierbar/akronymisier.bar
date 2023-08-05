@@ -158,7 +158,7 @@
     </ul>
   </li>
   <li><a href="https://www.erlang.org/">Erlang</a></li>
-  <li><a href="https://actix.rs/">actix-web</a> vs <a href="github.com/actix/actix">actix selbst</a></li>
+  <li><a href="https://actix.rs/">actix-web</a> vs <a href="https://github.com/actix/actix">actix selbst</a></li>
   <li><a href="https://golangbot.com/goroutines/">GoRoutines</a></li>
   <li><a href="https://doc.rust-lang.org/stable/std/sync/mpsc/fn.channel.html">Rust channels</a> / <a href="https://docs.rs/futures/0.3.17/futures/channel/mpsc/fn.channel.html">future channels</a></li>
   <li><a href="https://github.com/apple/swift-evolution/blob/main/proposals/0296-async-await.md">async await in swift</a></li>
