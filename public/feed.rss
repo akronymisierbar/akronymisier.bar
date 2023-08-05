@@ -6,7 +6,7 @@
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
   xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
-    <atom:link href="https://feed.akronymisier.bar" rel="self" title="MP3 Audio" type="application/atom+xml"/>
+    <atom:link href="https://akronymisier.bar/feed.rss" rel="self" title="MP3 Audio" type="application/atom+xml"/>
     <atom:link href="https://simplecast.superfeedr.com/" rel="hub"
       xmlns="http://www.w3.org/2005/Atom"/>
     <generator>artisanal hand-crafted XML</generator>
@@ -2122,7 +2122,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 <p>Vielen herzlichen Dank natürlich an das <a href="https://das-sendezentrum.de/bleibt-alles-anders-das-sendezentrum-auf-dem-34c3/">Sendezentrum</a> auf dem 34c3. Ohne euch wäre das so nicht möglich gewesen &lt;3</p>
 <h2>Links</h2>
 <ul>
-<li><a href="http://feed.akronymisier.bar">Akronymisierbar</a></li>
+<li><a href="http://akronymisier.bar/feed.rss">Akronymisierbar</a></li>
 <li><a href="http://hallo-swift.de">Hallo Swift</a></li>
 </ul>
 <h3>Empfohlene Talks</h3>
