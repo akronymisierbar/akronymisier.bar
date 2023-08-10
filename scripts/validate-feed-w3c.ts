@@ -7,6 +7,17 @@ if (Deno.args.length !== 1) {
   Deno.exit(1);
 }
 
+const ignorableIssues: Record<string, string> = {
+  // Only an error through GitHub
+  "0": 'Feeds should not be served with the "text/plain" media type',
+  // No clue what this is about, it looks like this is the only one that's accessible, but can probably be removed in any case.
+  "2": "Use of unknown namespace: http://www.google.com/schemas/play-podcasts/1.0",
+  // Also only an issue on GitHub
+  "9": "Self reference doesn't match document location",
+  // Not much that can be done about this now...
+  "2927": "itunes:episode must be a positive integer: 0",
+};
+
 const res = await fetch(Deno.args[0]);
 const html = await res.text();
 
@@ -27,12 +38,11 @@ function printIssue(issue: any, severity: string) {
   }
   const message = issue.querySelector("span.message").textContent;
 
-  // const feedItem = issue
-  //   .querySelector("blockquote > pre")
-  //   .textContent.replace("^", "")
-  //   .trim();
-
-  console.log(`::${severity} file=public/feed.rss,line=${line},col=${column}::${message}`);
+  if (ignorableIssues[line] !== message) {
+    console.log(
+      `::${severity} file=public/feed.rss,line=${line},col=${column}::${message}`
+    );
+  }
 }
 
 const issues = doc
