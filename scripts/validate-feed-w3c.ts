@@ -3,7 +3,7 @@
 import { DOMParser } from "https://deno.land/x/deno_dom@v0.1.38/deno-dom-wasm.ts";
 
 if (Deno.args.length !== 1) {
-  console.log("Usage: ./validate-feed-ext.ts <feed-url>");
+  console.log("Usage: ./validate-feed-w3c.ts <feed-url>");
   Deno.exit(1);
 }
 
