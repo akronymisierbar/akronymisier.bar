@@ -7,9 +7,6 @@ on:
     paths:
       - 'public/feed.rss'
 
-# This doesn't yet do automatic validation, but will prompt
-# those that updated the feed to not forget to validate it.
-
 jobs:
   validate-feed:
     runs-on: ubuntu-latest
@@ -18,9 +15,20 @@ jobs:
       - uses: actions/github-script@v6
         with:
           script: |
+            const podbaseURL = "https://podba.se/?url=https://raw.githubusercontent.com/akronymisierbar/akronymisier.bar/${{ github.sha }}/public/feed.rss"
             github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: 'Looks like you made a change to the RSS feed. Please validate your change against https://podba.se/validate/ and https://validator.w3.org/feed/, thanks!'
+              body: `Looks like you made a change to the RSS feed. Aside from the automatic checks, please also check [podbase's feed validator](${podbaseURL}), thanks!`
             })
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: npm
+      - uses: denolib/setup-deno@master
+        with:
+          deno-version: v1.35.3
+      - run: npm run lint:feed-w3c https://validator.w3.org/feed/check.cgi?url=https://raw.githubusercontent.com/akronymisierbar/akronymisier.bar/${{ github.sha }}/public/feed.rss
+      
