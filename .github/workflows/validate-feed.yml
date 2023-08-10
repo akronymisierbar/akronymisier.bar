@@ -19,7 +19,7 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: 'Looks like you made a change to the RSS feed. Aside from the automatic checks, please also check [podbase's feed validator](https://podba.se/validate/${{ github.sha }}), thanks!'
+              body: 'Looks like you made a change to the RSS feed. Aside from the automatic checks, please also check [podbase's feed validator](https://podba.se/?url=https://raw.githubusercontent.com/akronymisierbar/akronymisier.bar/${{ github.sha }}/public/feed.rss), thanks!'
             })
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
