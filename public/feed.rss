@@ -109,24 +109,7 @@
       <pubDate>Thu, 10 Feb 2022 09:47:26 +0000</pubDate>
       <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
       <link>https://akronymisier.bar/053</link>
-      <content:encoded><![CDATA[
-<ul>
-  <li><a href="https://de.wikipedia.org/wiki/Schiff_des_Theseus">Schiff des Theseus</a></li>
-  <li><a href="https://www.imdb.com/title/tt0482571">The Prestige</a> (Filmempfehlung!)</li>
-  <li><a href="https://xyrillian.de/noises/gnse/004-color-spaces/">Gar Nicht So Einfach - Ein Kessel Buntes</a></li>
-</ul>
-<h3>Wordles</h3>
-<ul>
-  <li><a href="https://edjefferson.com/letterle/">Letterle</a></li>
-  <li><a href="https://twitter.com/search?q=not%20wordle&src=typed_query">Not Wordle, but ...</a></li>
-  <li><a href="https://xkcd.com/2576/">xkcd 2576</a></li>
-</ul>
-<h3>Picks</h3>
-<ul>
-  <li><a href="https://github.com/Byron/dua-cli">dua cli</a><pre>cargo install dua-cli</pre></li>
-  <li><a href="https://github.com/jokteur/python_communism">python communism</a></li>
-</ul>
-]]></content:encoded>
+      <content:encoded><![CDATA[<ul><li><a href=https://de.wikipedia.org/wiki/Schiff_des_Theseus>Schiff des Theseus</a><li><a href=https://www.imdb.com/title/tt0482571>The Prestige</a> (Filmempfehlung!)<li><a href=https://xyrillian.de/noises/gnse/004-color-spaces/ >Gar Nicht So Einfach - Ein Kessel Buntes</a></ul><h3>Wordles</h3><ul><li><a href=https://edjefferson.com/letterle/ >Letterle</a><li><a href="https://twitter.com/search?q=not%20wordle&src=typed_query">Not Wordle, but ...</a><li><a href=https://xkcd.com/2576/ >xkcd 2576</a></ul><h3>Picks</h3><ul><li><a href=https://github.com/Byron/dua-cli>dua cli</a><pre>cargo install dua-cli</pre><li><a href=https://github.com/jokteur/python_communism>python communism</a></ul>]]></content:encoded>
       <enclosure length="53675072" type="audio/mpeg" url="https://kkw.lol/k/akb/053.mp3"/>
       <itunes:title>053 - Schiff des Bezeus</itunes:title>
       <itunes:author>Akronymisierbar</itunes:author>
@@ -450,8 +433,7 @@
     <item>
       <guid isPermaLink="false">a8b6b74d-6c83-4b6a-9034-e3d2ef9f3237</guid>
       <title>045 - Holiday Special - Online Konferenzen 2020</title>
-      <description><![CDATA[<h2>Gäste</h2><p>Florian: <a href="https://twitter.com/Argorak">@Argorak</a><br />Stefan: <a href="https://twitter.com/dns2utf8">@dns2utf8</a><br />Jan-Erik: <a href="https://twitter.com/badboy_">@badboy_</a></p><h2>Links</h2><ul><li><a href="https://rc3.world/">Congress</a></li><li><a href="https://mybuild.microsoft.com/">Microsoft Build</a></li><li><a href="https://homeferences.netlify.app">homeferences</a></li><li><a href="https://rustfest.global">Rustfest Global</a></li><li><a href="https://oxidizeconf.com/oxidize-1k/">Oxidize 1K</a></li><li><a href="https://twitter.com/samaaron">Sam Aaron</a></li><li><a href="https://githubuniverse.com/">github universe</a></li><li><a href="https://vi.to/">vi.to</a></li><li><a href="https://www.meetup.com/Rust-Berlin/events/270177388/">Rust and Tell Berlin</a></li><li><a href="https://berline.rs">berlin.rs</a></li><li><a href="https://uikonf.com/">UIKonf</a></li><li><a href="https://auphonic.com/">auphonic</a>, <a href="https://www.audacityteam.org/">audacity</a></li><li><a href="https://gather.town">gather.town</a>, <a href="https://workadventu.re">workadventu.re</a></li></ul><h2>Picks</h2><p>Jan-Erik</p><ul><li><a href="https://github.com/austinjones/tab-rs">tab-rs</a> - a terminal multiplexer</li><li><a href="https://www.youtube.com/watch?v=GtcZ0ZOcO5w&list=PL85XCvVPmGQiudPknCxiSpybc5RTfkXe6">RustFest - Playlist</a></li></ul><p>Stefan</p><ul><li><a href="https://crates.io/crates/color_blinder/">Color Blinder</a> mit der <a href="https://gitlab.com/dns2utf8/color_blinder_gtk">GUI</a></li><li><a href="https://github.com/rust-threadpool/rust-threadpool">threadpool</a></li><li><a href="https://mps.estada.ch/">MultiPlayer Snake</a></li></ul><p>Florian</p><ul><li><a href="https://colorbrewer2.org">Color Brewer</a></li><li><a href="https://knurling.ferrous-systems.com/">Knurling</a></li><li><a href="https://github.com/http-rs/tide">tide</a></li><li><a href="https://ruby-lang.org">Ruby 3</a></li></ul><p>Kilian</p><ul><li><a href="https://github.com/nerdsupremacist/memes">nerdsupremacist/memes</a></li></ul>
-]]></description>
+      <description>Diesmal zum Thema Konferenzen und Meetups 2020</description>
       <pubDate>Wed, 30 Dec 2020 19:34:14 +0000</pubDate>
       <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/045-aUilsi76</link>
