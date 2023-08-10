@@ -21,3 +21,12 @@ jobs:
         with:
           deno-version: v1.35.3
       - run: npm run lint:feed-w3c https://validator.w3.org/feed/check.cgi?url=https://raw.githubusercontent.com/akronymisierbar/akronymisier.bar/${{ github.sha }}/public/feed.rss
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: 'Looks like you made a change to the RSS feed. Aside from the automatic checks, please also check [podbase's feed validator](https://podba.se/validate/${{ github.sha }}), thanks!'
+            })
