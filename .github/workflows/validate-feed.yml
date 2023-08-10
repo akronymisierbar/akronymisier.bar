@@ -17,4 +17,7 @@ jobs:
         with:
           node-version: 20
           cache: npm
+      - uses: denolib/setup-deno@master
+        with:
+          deno-version: v1.35.3
       - run: npm run lint:feed-ext https://raw.githubusercontent.com/akronymisierbar/akronymisier.bar/${{ github.sha }}/public/feed.rss
