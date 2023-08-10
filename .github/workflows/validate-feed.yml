@@ -12,15 +12,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 20
-          cache: npm
-      - uses: denolib/setup-deno@master
-        with:
-          deno-version: v1.35.3
-      - run: npm run lint:feed-w3c https://validator.w3.org/feed/check.cgi?url=https://raw.githubusercontent.com/akronymisierbar/akronymisier.bar/${{ github.sha }}/public/feed.rss
       - uses: actions/github-script@v6
         with:
           script: |
@@ -30,3 +21,13 @@ jobs:
               repo: context.repo.repo,
               body: 'Looks like you made a change to the RSS feed. Aside from the automatic checks, please also check [podbase's feed validator](https://podba.se/validate/${{ github.sha }}), thanks!'
             })
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: npm
+      - uses: denolib/setup-deno@master
+        with:
+          deno-version: v1.35.3
+      - run: npm run lint:feed-w3c https://validator.w3.org/feed/check.cgi?url=https://raw.githubusercontent.com/akronymisierbar/akronymisier.bar/${{ github.sha }}/public/feed.rss
+      
