@@ -30,5 +30,8 @@ jobs:
       - uses: denolib/setup-deno@master
         with:
           deno-version: v1.35.3
-      - run: npm run lint:feed-w3c https://validator.w3.org/feed/check.cgi?url=https://raw.githubusercontent.com/akronymisierbar/akronymisier.bar/${{ github.sha }}/public/feed.rss
+      - name: Validate AKB specific feed requirements
+        run: npm run lint:feed public/feed.rss
+      - name: Validate feed against W3C RSS Feed Validator
+        run: npm run lint:feed-w3c https://validator.w3.org/feed/check.cgi?url=https://raw.githubusercontent.com/akronymisierbar/akronymisier.bar/${{ github.sha }}/public/feed.rss
       
