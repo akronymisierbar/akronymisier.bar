@@ -48,3 +48,7 @@ const compats = doc
 if (compats.length !== 0) {
   compats.forEach((i) => printIssue(i, "warning"));
 }
+
+if (issues.length !== 0 || compats.length !== 0) {
+  Deno.exit(1);
+}
