@@ -90,13 +90,23 @@ function assertExistenceOfAlliTunesTags(item: any) {
 
 // deno-lint-ignore no-explicit-any
 async function assertChaptermarks(item: any) {
-  const episodeNumber = item["itunes:episode"].toString().padStart(3, "0");
   const res = await fetch(
-    `https://kkw.lol/k/akb/${episodeNumber}.chapters.txt`,
+    `https://kkw.lol/k/akb/${num(item)}.chapters.txt`,
     { method: "HEAD" }
   );
   if (!res.ok && !item["podcast:chapters"]) {
     err(`${num(item)} has chapter marks, but no podcast:chapters tag.`);
+  }
+}
+
+// deno-lint-ignore no-explicit-any
+async function assertCoverart(item: any) {
+  if (!item["itunes:image"]) {
+    return;
+  }
+  const res = await fetch(item["itunes:image"]["@href"], { method: "HEAD" });
+  if (!res.ok) {
+    err(`${num(item)} specifies custom cover art, but the image isn't available.`);
   }
 }
 
@@ -123,6 +133,7 @@ async function validateItem(item: any) {
   assertExistenceOfAlliTunesTags(item);
   await assertEnclosureContentLength(item);
   await assertChaptermarks(item);
+  await assertCoverart(item);
 }
 
 if (Deno.args.length !== 1) {
