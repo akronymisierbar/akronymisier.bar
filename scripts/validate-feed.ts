@@ -1,6 +1,12 @@
 #! /usr/bin/env deno run --allow-read --allow-net
 
-import { parse } from "https://deno.land/x/xml/mod.ts";
+import { parse } from "https://deno.land/x/xml@2.1.1/mod.ts";
+
+let foundIssue = false;
+function err(text: string) {
+  foundIssue = true;
+  console.error(text);
+}
 
 // deno-lint-ignore no-explicit-any
 function num(item: any) {
@@ -8,17 +14,13 @@ function num(item: any) {
 }
 
 // deno-lint-ignore no-explicit-any
-function assertExistenceAndLength(
-  item: any,
-  tag: string,
-  maxLength: number | undefined
-) {
+function assertExistenceAndLength(item: any, tag: string, maxLength: number | undefined) {
   if (!item[tag]) {
-    console.error(`${num(item)} has a missing or empty ${tag}.`);
+    err(`${num(item)} has a missing or empty ${tag}.`);
     return;
   }
   if (maxLength && item[tag].length > maxLength) {
-    console.error(`${num(item)}'s ${tag} is longer than ${maxLength} chars.`);
+    err(`${num(item)}'s ${tag} is longer than ${maxLength} chars.`);
   }
 }
 
@@ -30,7 +32,7 @@ async function assertEnclosureContentLength(item: any) {
   const enclosureLength = item.enclosure["@length"].toString();
   const contentLength = res.headers.get("content-length");
   if (enclosureLength !== contentLength) {
-    console.error(
+    err(
       `${num(item)} has an enclosure length of ${enclosureLength}, but server reports ${contentLength}.`
     );
   }
@@ -42,7 +44,7 @@ function assertLink(item: any) {
     .toString()
     .padStart(3, "0")}`;
   if (item.link !== correctEpisodeLink) {
-    console.error(`${num(item)} has an invalid link '${item.link}'.`);
+    err(`${num(item)} has an invalid link '${item.link}'.`);
   }
 }
 
@@ -50,10 +52,10 @@ function assertLink(item: any) {
 function assertTitle(item: any) {
   const titleRegex = /\d{3} - [a-zA-Z\d¯\\_(ツ)/ ]+/;
   if (!item.title.match(titleRegex)) {
-    console.error(`${num(item)} has invalid format.`);
+    err(`${num(item)} has invalid format.`);
   }
   if (item.title !== item["itunes:title"]) {
-    console.error(
+    err(
       `${num(item)} should match itunes:title ${item["itunes:title"]}`
     );
   }
@@ -63,7 +65,7 @@ function assertTitle(item: any) {
 function assertPubDate(item: any) {
   const pubDate = new Date(item.pubDate);
   if (pubDate > new Date()) {
-    console.error(`${num(item)} has a future pubDate.`);
+    err(`${num(item)} has a future pubDate.`);
   }
 }
 
@@ -79,7 +81,7 @@ function assertExistenceOfAlliTunesTags(item: any) {
     !item["itunes:episodeType"] ||
     !item["itunes:episode"]
   ) {
-    console.error(`${num(item)} doesn't have all required itunes tags.`);
+    err(`${num(item)} doesn't have all required itunes tags.`);
   }
 }
 
@@ -91,7 +93,7 @@ async function assertChaptermarks(item: any) {
     { method: "HEAD" }
   );
   if (!res.ok && !item["podcast:chapters"]) {
-    console.error(`${num(item)} has chapter marks, but no podcast:chapters tag.`);
+    err(`${num(item)} has chapter marks, but no podcast:chapters tag.`);
   }
 }
 
@@ -107,10 +109,10 @@ async function validateItem(item: any) {
     );
   }
   if (item.description?.trim() === item["content:encoded"]?.trim()) {
-    console.error(`${num(item)} has the same value for its description and content:encoded.`);
+    err(`${num(item)} has the same value for its description and content:encoded.`);
   }
   if (!item.enclosure["@url"].startsWith("https://kkw.lol")) {
-    console.error(`${num(item)} isn't hosted on kkw.lol`);
+    err(`${num(item)} isn't hosted on kkw.lol`);
   }
   assertLink(item);
   assertTitle(item);
@@ -121,7 +123,7 @@ async function validateItem(item: any) {
 }
 
 if (Deno.args.length !== 1) {
-  console.log("Usage: ./validate-feed.ts /path/to/feed.rss");
+  console.error("Usage: ./validate-feed.ts /path/to/feed.rss");
   Deno.exit(1);
 }
 
@@ -135,5 +137,9 @@ try {
   }
 } catch (error) {
   console.error(error);
+  Deno.exit(1);
+}
+
+if (foundIssue) {
   Deno.exit(1);
 }
