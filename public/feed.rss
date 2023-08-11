@@ -15,18 +15,8 @@
     <description>Podcast von und mit Hendrik und Kilian. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen.</description>
     <language>de</language>
 
-    <podcast:guid>d98cda05-7cdb-565f-b766-cd622743df1c</podcast:guid>
-    <podcast:locked owner="akronymisierbar@fastmail.com">yes</podcast:locked>
-    <podcast:funding url="https://liberapay.com/akronymisierbar/">Liberapay</podcast:funding>
-    <podcast:person href="https://chaos.social/hoodie" img="https://assets.chaos.social/accounts/avatars/000/086/679/original/e3bfd5f96638f280.png">Hendrik</podcast:person>
-    <podcast:person href="https://kilian.io" img="https://kilian.io/assets/img/kilian.jpg">Kilian</podcast:person>
-    <podcast:location>Dresden, DE</podcast:location>
-    <podcast:block id="spotify">yes</podcast:block>
-
-    <!-- UPDATE ME -->
     <pubDate>Thu, 10 Aug 2023 16:59:29 +0000</pubDate>
     <lastBuildDate>Thu, 10 Aug 2023 16:59:29 +0000</lastBuildDate>
-    <!-- UPDATE ME -->
 
     <image>
       <link>https://akronymisier.bar</link>
@@ -34,6 +24,14 @@
       <url>https://akronymisier.bar/logo.jpg</url>
     </image>
     <link>https://akronymisier.bar</link>
+
+    <podcast:guid>d98cda05-7cdb-565f-b766-cd622743df1c</podcast:guid>
+    <podcast:locked owner="akronymisierbar@fastmail.com">yes</podcast:locked>
+    <podcast:funding url="https://liberapay.com/akronymisierbar/">Liberapay</podcast:funding>
+    <podcast:person href="https://chaos.social/hoodie" img="https://assets.chaos.social/accounts/avatars/000/086/679/original/e3bfd5f96638f280.png">Hendrik</podcast:person>
+    <podcast:person href="https://kilian.io" img="https://kilian.io/assets/img/kilian.jpg">Kilian</podcast:person>
+    <podcast:location>Dresden, DE</podcast:location>
+    <podcast:block id="spotify">yes</podcast:block>    
 
     <itunes:type>episodic</itunes:type>
     <itunes:summary>Podcast von und mit Hendrik und Kilian. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen.</itunes:summary>
