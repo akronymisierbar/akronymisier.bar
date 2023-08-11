@@ -1,6 +1,7 @@
 #! /usr/bin/env deno run --allow-read --allow-net
 
 import { parse } from "https://deno.land/x/xml@2.1.1/mod.ts";
+import { Item } from "./types.ts";
 
 let foundIssue = false;
 function err(text: string) {
@@ -8,13 +9,11 @@ function err(text: string) {
   console.error(text);
 }
 
-// deno-lint-ignore no-explicit-any
-function num(item: any) {
+function num(item: Item) {
   return item["itunes:episode"].toString().padStart(3, "0");
 }
 
-// deno-lint-ignore no-explicit-any
-async function assertEnclosure(item: any) {
+async function assertEnclosure(item: Item) {
   if (!item.enclosure["@url"].startsWith("https://kkw.lol")) {
     err(`${num(item)} isn't hosted on kkw.lol.`);
   }
@@ -30,8 +29,7 @@ async function assertEnclosure(item: any) {
   }
 }
 
-// deno-lint-ignore no-explicit-any
-function assertDescription(item: any) {
+function assertDescription(item: Item) {
   if (!item.description) {
     err(`${num(item)} has no description.`);
   }
@@ -46,8 +44,7 @@ function assertDescription(item: any) {
   }
 }
 
-// deno-lint-ignore no-explicit-any
-function assertLink(item: any) {
+function assertLink(item: Item) {
   const correctEpisodeLink = `https://akronymisier.bar/${item["itunes:episode"]
     .toString()
     .padStart(3, "0")}`;
@@ -56,8 +53,7 @@ function assertLink(item: any) {
   }
 }
 
-// deno-lint-ignore no-explicit-any
-function assertTitle(item: any) {
+function assertTitle(item: Item) {
   const titleRegex = /\d{3} - [a-zA-Z\d¯\\_(ツ)/ ]+/;
   if (!item.title.match(titleRegex)) {
     err(`${num(item)} has invalid format.`);
@@ -72,16 +68,14 @@ function assertTitle(item: any) {
   }
 }
 
-// deno-lint-ignore no-explicit-any
-function assertPubDate(item: any) {
+function assertPubDate(item: Item) {
   const pubDate = new Date(item.pubDate);
   if (pubDate > new Date()) {
     err(`${num(item)} has a future pubDate.`);
   }
 }
 
-// deno-lint-ignore no-explicit-any
-function assertiTunesTags(item: any) {
+function assertiTunesTags(item: Item) {
   if (!item["itunes:title"]) {
     err(`${num(item)} has no itunes:title.`);
   }
@@ -118,8 +112,7 @@ function assertiTunesTags(item: any) {
   }
 }
 
-// deno-lint-ignore no-explicit-any
-function assertEncodedContent(item: any) {
+function assertEncodedContent(item: Item) {
   if (!item["content:encoded"]) {
     err(`${num(item)} has no content:encoded.`);
   }
@@ -134,8 +127,7 @@ function assertEncodedContent(item: any) {
   }
 }
 
-// deno-lint-ignore no-explicit-any
-async function assertChaptermarks(item: any) {
+async function assertChaptermarks(item: Item) {
   const resTXT = await fetch(
     `https://kkw.lol/k/akb/${num(item)}.chapters.txt`,
     { method: "HEAD" }
@@ -154,8 +146,7 @@ async function assertChaptermarks(item: any) {
   }
 }
 
-// deno-lint-ignore no-explicit-any
-async function assertCoverart(item: any) {
+async function assertCoverart(item: Item) {
   if (!item["itunes:image"]) {
     return;
   }
@@ -165,8 +156,7 @@ async function assertCoverart(item: any) {
   }
 }
 
-// deno-lint-ignore no-explicit-any
-async function validateItem(item: any) {
+async function validateItem(item: Item) {
   assertDescription(item);
   assertLink(item);
   assertTitle(item);
