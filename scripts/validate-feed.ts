@@ -89,6 +89,16 @@ function assertExistenceOfAlliTunesTags(item: any) {
 }
 
 // deno-lint-ignore no-explicit-any
+function assertEncodedContent(item: any) {
+  if (item["content:encoded"].includes("<h1>")) {
+    err(`${num(item)} should not contain any <h1>s in its content.`);
+  }
+  if (item["content:encoded"].includes("Shownotes")) {
+    err(`${num(item)} should not contain a Shownotes header in its content.`);
+  }
+}
+
+// deno-lint-ignore no-explicit-any
 async function assertChaptermarks(item: any) {
   const resTXT = await fetch(
     `https://kkw.lol/k/akb/${num(item)}.chapters.txt`,
@@ -138,6 +148,7 @@ async function validateItem(item: any) {
   assertTitle(item);
   assertPubDate(item);
   assertExistenceOfAlliTunesTags(item);
+  assertEncodedContent(item);
   await assertEnclosureContentLength(item);
   await assertChaptermarks(item);
   await assertCoverart(item);
