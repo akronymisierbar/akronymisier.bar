@@ -26,7 +26,7 @@
     <link>https://akronymisier.bar</link>
 
     <podcast:guid>d98cda05-7cdb-565f-b766-cd622743df1c</podcast:guid>
-    <podcast:locked owner="akronymisierbar@fastmail.com">yes</podcast:locked>
+    <podcast:locked owner="mail@akronymisier.bar">yes</podcast:locked>
     <podcast:funding url="https://liberapay.com/akronymisierbar/">Liberapay</podcast:funding>
     <podcast:person href="https://chaos.social/hoodie" img="https://assets.chaos.social/accounts/avatars/000/086/679/original/e3bfd5f96638f280.png">Hendrik</podcast:person>
     <podcast:person href="https://kilian.io" img="https://kilian.io/assets/img/kilian.jpg">Kilian</podcast:person>
@@ -42,7 +42,7 @@
     <itunes:keywords>akronymisierbar, dresden, rust, swift, typescript</itunes:keywords>
     <itunes:owner>
       <itunes:name>Akronymisierbar</itunes:name>
-      <itunes:email>akronymisierbar@fastmail.com</itunes:email>
+      <itunes:email>mail@akronymisier.bar</itunes:email>
     </itunes:owner>
     <itunes:category text="Technology"/>
     <itunes:category text="Leisure"/>
@@ -52,7 +52,7 @@
       <title>055 - Hinreichend aber nicht korrekt</title>
       <description>Es geht um WEI, Firefox und eine schicke neue Webseite (ohne X!).</description>
       <pubDate>Fri, 04 Aug 2023 22:10:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/055</link>
       <content:encoded><![CDATA[<ul><li><a href=https://github.com/RupertBenWiser/Web-Environment-Integrity/blob/main/explainer.md>WEI</a><li><a href=https://httptoolkit.com/blog/apple-private-access-tokens-attestation/ >Apple already shipped attestation on the web, and we barely noticed</a><li><a href=https://media.ccc.de/v/33c3-7969-shut_up_and_take_my_money>CCC: shut up and take my money</a><li><a href=https://knowyourmeme.com/editorials/guides/what-is-torment-nexus-the-man-made-horrors-trope-explained>torment</a> <a href="https://www.urbandictionary.com/define.php?term=torment+nexus">nexus</a><li><a href=https://en.wikipedia.org/wiki/Cliqz>cliqz</a><li><a href=https://scribe.rip/https:/medium.com/re-form/x-to-close-417936dfc0dc>x to close</a><li><a href=scribe.rip>scribe.rip</a><li><a href=nitter.net>nitter.net</a><li><a href=https://blurha.sh/ >blurha.sh</a><li><a href=https://song.link/de/i/1565381507>podcast - von wegen lisbeth</a><li><a href=https://systemabsturz.band/ >systemabsturz.band</a><li><a href=http://arewemlsyet.com/ >are we MLS yet</a><li><a href=https://github.com/goto-opensource/sframe>sframe</a> (<a href=https://datatracker.ietf.org/doc/draft-ietf-sframe-enc/ >rfc</a>)<li><a href="https://www.youtube.com/watch?v=qNNKpnd5lyM">Why tech billionaires suck at fixing transport</a><li><a href=https://nebula.tv/notjustbikes>not just bikes</a><li><a href="https://www.youtube.com/playlist?list=PLNYkxOF6rcIAKIQFsNbV0JDws_G_bnNo9">http 203</a> <a href=https://http.cat/203>🐈</a></ul><h3 id=firefox-extensions>Firefox Extensions</h3><ul><li><a href=https://libredirect.github.io/ >LibRedirect</a><li><a href=https://github.com/cavi-au/Consent-O-Matic>Consent-O-Matic</a><li><a href=https://github.com/stefanw/bibbot>BibBot</a><li><a href=https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/ >TamperMonkey</a><li><a href=https://github.com/rugk/mastodon-simplified-federation>Mastodon Simplified Federation</a><li><a href=https://sponsor.ajay.app/ >SponsorBlock</a><li><a href=https://underpassapp.com/StopTheMadness/support-firefox.html>StopTheMadness</a><li><a href=https://github.com/piroor/treestyletab>Tree Style Tab</a></ul><h3 id=picks>Picks</h3><ul><li><a href=https://github.com/grassmunk/Chicago95>Chicago95</a><li>diff.rs (nach docs.rs, std.rs und lib.rs)<li><a href=https://github.com/MarcoIeni/release-plz>release plz</a></ul><h3 id=alternative-titel>Alternative Titel</h3><ul><li>pickoverflow<li>der Menschenbrowser<li><a href=https://𝕏.bar>https://𝕏.bar</a><li>macOS 𝕏<li>peak-design</ul>]]></content:encoded>
       <enclosure length="153124601" type="audio/mpeg" url="https://kkw.lol/k/akb/055.mp3"/>
@@ -80,7 +80,7 @@
       <title>054 - Rule 34 of git</title>
       <description>Wir sind wieder da, waren wir je weg?</description>
       <pubDate>Mon, 26 Jun 2023 20:01:54 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/054</link>
       <content:encoded><![CDATA[<ul><li><a href=https://www.sz-fahrradfest.de/touren>SZ Fahrradfest</a><li>die "reddit situation"<ul><li>Größte Alternative bisher: <a href=https://join-lemmy.org/ >Lemmy</a> (leider auch nicht ganz unproblematisch)</ul><li><a href=https://webpack.js.org/ >webpack</a> vs <a href=http://vitejs.dev/ >vite</a><li><a href=https://youtu.be/3Ay6qZ88boI>fireship</a><li><a href=https://www.git-scm.com/docs/git-blame#Documentation/git-blame.txt---ignore-revs-fileltfilegt>git blame --ignore-revs-file</a><li><a href=https://tauri.studio/ >tauri</a><li><a href=https://developer.microsoft.com/en-us/microsoft-edge/webview2/ >WebView2</a><li><a href=https://mobilecamp.de/ >mobilecamp</a><li><a href=https://pandoc.org/ >pandoc</a></ul><h3>Picks</h3><ul><li><a href=https://starship.rs/ >starship.rs</a><li><a href=https://github.com/streamlit/streamlit>streamlit</a><li><a href=http://vite.dev/ >vite</a><li><a href=https://github.com/tummychow/git-absorb>git-absorb</a><li><a href=https://github.com/andrewmd5/orion>orion</a><li><a href=https://github.com/typst/typst>typst</a><li><a href=https://github.com/hoodie/rosemary/ >rosemary</a><li><a href=https://github.com/hoodie/scrape/ >scrape</a></ul><h3>Alternative Titel</h3><ul><li>von Steve and Steven<li>"subreddit geloeschrt"<li>"fireship" vs "starship"</ul>]]></content:encoded>
       <enclosure length="141510867" type="audio/mpeg" url="https://kkw.lol/k/akb/054.mp3"/>
@@ -105,7 +105,7 @@
       <title>053 - Schiff des Bezeus</title>
       <description>Macht ihr Wordles oder seid ihr in der Kontrollgruppe?</description>
       <pubDate>Thu, 10 Feb 2022 09:47:26 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/053</link>
       <content:encoded><![CDATA[<ul><li><a href=https://de.wikipedia.org/wiki/Schiff_des_Theseus>Schiff des Theseus</a><li><a href=https://www.imdb.com/title/tt0482571>The Prestige</a> (Filmempfehlung!)<li><a href=https://xyrillian.de/noises/gnse/004-color-spaces/ >Gar Nicht So Einfach - Ein Kessel Buntes</a></ul><h3>Wordles</h3><ul><li><a href=https://edjefferson.com/letterle/ >Letterle</a><li><a href="https://twitter.com/search?q=not%20wordle&amp;src=typed_query">Not Wordle, but</a><li><a href=https://xkcd.com/2576/ >xkcd 2576</a></ul><h3>Picks</h3><ul><li><a href=https://github.com/Byron/dua-cli>dua cli</a><pre>cargo install dua-cli</pre><li><a href=https://github.com/jokteur/python_communism>python communism</a></ul>]]></content:encoded>
       <enclosure length="53675072" type="audio/mpeg" url="https://kkw.lol/k/akb/053.mp3"/>
@@ -124,7 +124,7 @@
       <title>052 - Kilian Cosplay</title>
       <description>Heute geht&apos;s um Aktoren in Swift und Rust.</description>
       <pubDate>Sun, 7 Nov 2021 17:53:44 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/052</link>
       <content:encoded><![CDATA[
 <ul>
@@ -179,7 +179,7 @@
       <title>051 - Linux im Rust Kernel</title>
       <description>Linux im Rust Kernel mit Jörg und Finn.</description>
       <pubDate>Wed, 28 Jul 2021 21:19:19 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/051-lQaA_9Jq</link>
       <content:encoded><![CDATA[
 <p>
@@ -238,7 +238,7 @@
       <title>050 - All Chats Are Broken</title>
       <description>Heute haben wir mal wieder Florian Gilcher (@Argorak) zu Gast und bequatschen aktuell (oder nicht mehr) existierende Messaging-Dienste.</description>
       <pubDate>Sat, 10 Jul 2021 13:09:33 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/050-Mb4uLnJl</link>
       <content:encoded><![CDATA[
 <p>
@@ -311,7 +311,7 @@
       <title>049 - Survivorship Bias</title>
       <description>Diesmal wieder mit Stefan Schindler @dns2utf8 von Rust Zürich.</description>
       <pubDate>Sun, 16 May 2021 11:11:46 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/049-oAvns8WG</link>
       <content:encoded><![CDATA[
 <blockquote cite="https://akronymisier.bar/048">
@@ -374,7 +374,7 @@
       <description><![CDATA[<ul><li>SeedBombing via <a href="https://www.diestadtgaertner.de/">StadtGärtner</a></li><li><a href="https://kilian.io">kilian.io</a></li><li>Schriftarten<ul><li><a href="https://www.myfonts.com/fonts/tabular-type-foundry/comic-code/">Comic Code</a> oder <a href="https://github.com/shannpersand/comic-shanns">Comic Shanns</a> - aber auch <a href="https://github.com/belluzj/fantasque-sans">Fantasque-Sans</a> oder <a href="http://www.comicneue.com/">Comic Neue</a></li><li> <a href="https://www.theverge.com/2021/4/28/22407297/microsoft-office-new-default-font-2022">Microsofts neue Schriftarten</a></li><li><a href="https://www.yanone.de/fonts/kaffeesatz/">Kaffeesatz</a></li><li><a href="http://vollkorn-typeface.com/">Vollkorn</a></li></ul></li><li><a href="https://c3d2.de/news/pentaradio24-20210323.html">PentaRadio über Pass4All</a></li><li><a href="https://twitter.com/UMNComputerSci/status/1384948683821694976">Minnesota darf nicht mehr an Linux arbeiten</a> </li><li><a href="https://www.zdf.de/dokumentation/zdfinfo-doku/der-maulwurf--undercover-in-nordkorea--freunde-von-kim-jong-un-100.html">Der Maulwurf</a></li><li><a href="https://www.reddit.com/r/OutOfTheLoop/">du bist out of the loop?</a></li><li><a href="https://www.platformer.news/p/-what-really-happened-at-basecamp">what really happened at Basecamp</a></li><li><a href="https://www.youtube.com/watch?v=JU_6b0Wpx08">Video Essay "Cancel Culture: Is This Face Funny or Offensive?"</a></li><li><a href="https://twitter.com/impf_progress">@impf_progress</a></li><li><a href="https://blog.emojipedia.org/ios-14-5-emoji-changelog/">Emojis Neue 🧔🏻‍♀️</a></li><li>Youtubers<ul><li><a href="https://www.youtube.com/channel/UCMb0O2CdPBNi-QqPk5T3gsQ">Coffee Youtuber</a></li><li><a href="https://www.youtube.com/channel/UCg3qsVzHeUt5_cPpcRtoaJQ">kiwami japan</a></li><li><a href="https://www.youtube.com/channel/UCRix1GJvSBNDpEFY561eSzw">Laura Kampf</a></li></ul></li></ul>
 ]]></description>
       <pubDate>Sat, 8 May 2021 17:42:48 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/048-TbvQF3VD</link>
       <content:encoded><![CDATA[<ul><li>SeedBombing via <a href="https://www.diestadtgaertner.de/">StadtGärtner</a></li><li><a href="https://kilian.io">kilian.io</a></li><li>Schriftarten<ul><li><a href="https://www.myfonts.com/fonts/tabular-type-foundry/comic-code/">Comic Code</a> oder <a href="https://github.com/shannpersand/comic-shanns">Comic Shanns</a> - aber auch <a href="https://github.com/belluzj/fantasque-sans">Fantasque-Sans</a> oder <a href="http://www.comicneue.com/">Comic Neue</a></li><li> <a href="https://www.theverge.com/2021/4/28/22407297/microsoft-office-new-default-font-2022">Microsofts neue Schriftarten</a></li><li><a href="https://www.yanone.de/fonts/kaffeesatz/">Kaffeesatz</a></li><li><a href="http://vollkorn-typeface.com/">Vollkorn</a></li></ul></li><li><a href="https://c3d2.de/news/pentaradio24-20210323.html">PentaRadio über Pass4All</a></li><li><a href="https://twitter.com/UMNComputerSci/status/1384948683821694976">Minnesota darf nicht mehr an Linux arbeiten</a> </li><li><a href="https://www.zdf.de/dokumentation/zdfinfo-doku/der-maulwurf--undercover-in-nordkorea--freunde-von-kim-jong-un-100.html">Der Maulwurf</a></li><li><a href="https://www.reddit.com/r/OutOfTheLoop/">du bist out of the loop?</a></li><li><a href="https://www.platformer.news/p/-what-really-happened-at-basecamp">what really happened at Basecamp</a></li><li><a href="https://www.youtube.com/watch?v=JU_6b0Wpx08">Video Essay "Cancel Culture: Is This Face Funny or Offensive?"</a></li><li><a href="https://twitter.com/impf_progress">@impf_progress</a></li><li><a href="https://blog.emojipedia.org/ios-14-5-emoji-changelog/">Emojis Neue 🧔🏻‍♀️</a></li><li>Youtubers<ul><li><a href="https://www.youtube.com/channel/UCMb0O2CdPBNi-QqPk5T3gsQ">Coffee Youtuber</a></li><li><a href="https://www.youtube.com/channel/UCg3qsVzHeUt5_cPpcRtoaJQ">kiwami japan</a></li><li><a href="https://www.youtube.com/channel/UCRix1GJvSBNDpEFY561eSzw">Laura Kampf</a></li></ul></li></ul>
 ]]></content:encoded>
@@ -394,7 +394,7 @@
       <description><![CDATA[<h2>Links</h2><ul><li><a href="https://github.com/nikolas/github-drama">github-drama</a></li><li><a href="https://store.steampowered.com/app/6120/Shank/">Shank</a></li><li><a href="https://store.steampowered.com/app/102840/Shank_2/">Shank 2</a></li><li><a href="https://skyline.github.com/">Github Skyline</a></li><li><a href="https://coffeescript.org/">Coffeescript 2.0</a></li><li><a href="https://naubino.de/">naubino</a></li><li><a href="https://www.youtube.com/watch?v=BtJAsvJOlhM">168 AWS Services in 2 minutes</a></li><li><a href="https://github.com/nektos/act/">act</a></li><li><a href="https://www.ynharari.com/">Yuval Harari</a></li><li><a href="https://media.ccc.de/v/34c3-9270-dude_you_broke_the_future">Dude you broke the Future</a></li><li><a href="https://github.com/colinhacks/zod">Zod</a></li></ul><h2>Themen</h2><ul><li><a href="https://hackernoon.com/a-post-mortem-in-5-acts-how-microsoft-privatized-open-source-and-killed-javascript-in-the-process-5s5i33ma">A Post-Mortem in 5 Acts: How Microsoft Privatized Open Source And Killed JavaScript in the Process</a></li><li>Kilian ist im <a href="https://nano.org/">Nano</a> Hype</li></ul><h2>Picks</h2><ul><li>Hendrik: <a href="https://github.com/type-challenges/type-challenges">Type Challenges</a></li><li>Kilian: <a href="https://github.com/RustScan/RustScan">RustScan/RustScan</a></li></ul><p>Besucht uns auf <a href="https://matrix.to/#/#akronymisierbar:matrix.org">Matrix</a>!</p>
 ]]></description>
       <pubDate>Sun, 21 Feb 2021 16:10:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/047-pBMi9t5Y</link>
       <content:encoded><![CDATA[<h2>Links</h2><ul><li><a href="https://github.com/nikolas/github-drama">github-drama</a></li><li><a href="https://store.steampowered.com/app/6120/Shank/">Shank</a></li><li><a href="https://store.steampowered.com/app/102840/Shank_2/">Shank 2</a></li><li><a href="https://skyline.github.com/">Github Skyline</a></li><li><a href="https://coffeescript.org/">Coffeescript 2.0</a></li><li><a href="https://naubino.de/">naubino</a></li><li><a href="https://www.youtube.com/watch?v=BtJAsvJOlhM">168 AWS Services in 2 minutes</a></li><li><a href="https://github.com/nektos/act/">act</a></li><li><a href="https://www.ynharari.com/">Yuval Harari</a></li><li><a href="https://media.ccc.de/v/34c3-9270-dude_you_broke_the_future">Dude you broke the Future</a></li><li><a href="https://github.com/colinhacks/zod">Zod</a></li></ul><h2>Themen</h2><ul><li><a href="https://hackernoon.com/a-post-mortem-in-5-acts-how-microsoft-privatized-open-source-and-killed-javascript-in-the-process-5s5i33ma">A Post-Mortem in 5 Acts: How Microsoft Privatized Open Source And Killed JavaScript in the Process</a></li><li>Kilian ist im <a href="https://nano.org/">Nano</a> Hype</li></ul><h2>Picks</h2><ul><li>Hendrik: <a href="https://github.com/type-challenges/type-challenges">Type Challenges</a></li><li>Kilian: <a href="https://github.com/RustScan/RustScan">RustScan/RustScan</a></li></ul><p>Besucht uns auf <a href="https://matrix.to/#/#akronymisierbar:matrix.org">Matrix</a>!</p>
 ]]></content:encoded>
@@ -414,7 +414,7 @@
       <description><![CDATA[<ul><li>Quarantäneheld*innen<ul><li><a href="https://www.quarantaenehelden.org/#/press">in der Presse</a></li><li>Ein paar Statistiken:<ul><li>Median - Antworten pro Hilfsanfrage: ~4</li><li>Median - Antwortzeit auf eine Hilfsanfrage: ~41 min</li></ul></li><li>Du möchtest uns unterstützen, mit <a href="https://github.com/option26/quarantine-hero">Open Source Contributions</a> oder finanziell? Melde dich gern bei uns: <a href="mailto:tom.graupner@quarantaenehelden.org">tom.graupner@quarantaenehelden.org</a></li></ul></li><li><a href="https://break-out.org">breakout</a></li><li><a href="https://github.com/option26/quarantine-hero">github</a></li><li><a href="https://www.instagram.com/quarantaenehelden/">instagram</a></li><li><a href="https://www.silbernetz.org">Silbernetz</a></li><li><a href="https://www.zusammengegencorona.de/">zusammen gegen corona</a></li><li><a href="https://www.ndr.de/nachrichten/info/Coronavirus-Update-Alle-Folgen,podcastcoronavirus134.html">Coronavirus Update</a></li></ul><h3>Picks</h3><ul><li>Tom: <a href="https://ukw.fm/ukw054-corona-weekly-erdnuesse-sind-schlimmer/">UKW Corona Weekly Podcast</a></li><li>Hendrik: <a href="https://www.zeit.de/wissen/gesundheit/2020-12/corona-impfungen-deutschland-impfquoten-bundeslaender-landkreise-karte">Impfkarte</a></li><li>Kilian: <a href="https://github.com/rphl/corona-widget">rphl/corona-widget</a> & <a href="https://scriptable.app">Scriptable</a></li></ul>
 ]]></description>
       <pubDate>Sun, 10 Jan 2021 22:31:39 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/046-r9REiP39</link>
       <content:encoded><![CDATA[<ul><li>Quarantäneheld*innen<ul><li><a href="https://www.quarantaenehelden.org/#/press">in der Presse</a></li><li>Ein paar Statistiken:<ul><li>Median - Antworten pro Hilfsanfrage: ~4</li><li>Median - Antwortzeit auf eine Hilfsanfrage: ~41 min</li></ul></li><li>Du möchtest uns unterstützen, mit <a href="https://github.com/option26/quarantine-hero">Open Source Contributions</a> oder finanziell? Melde dich gern bei uns: <a href="mailto:tom.graupner@quarantaenehelden.org">tom.graupner@quarantaenehelden.org</a></li></ul></li><li><a href="https://break-out.org">breakout</a></li><li><a href="https://github.com/option26/quarantine-hero">github</a></li><li><a href="https://www.instagram.com/quarantaenehelden/">instagram</a></li><li><a href="https://www.silbernetz.org">Silbernetz</a></li><li><a href="https://www.zusammengegencorona.de/">zusammen gegen corona</a></li><li><a href="https://www.ndr.de/nachrichten/info/Coronavirus-Update-Alle-Folgen,podcastcoronavirus134.html">Coronavirus Update</a></li></ul><h3>Picks</h3><ul><li>Tom: <a href="https://ukw.fm/ukw054-corona-weekly-erdnuesse-sind-schlimmer/">UKW Corona Weekly Podcast</a></li><li>Hendrik: <a href="https://www.zeit.de/wissen/gesundheit/2020-12/corona-impfungen-deutschland-impfquoten-bundeslaender-landkreise-karte">Impfkarte</a></li><li>Kilian: <a href="https://github.com/rphl/corona-widget">rphl/corona-widget</a> & <a href="https://scriptable.app">Scriptable</a></li></ul>
 ]]></content:encoded>
@@ -433,7 +433,7 @@
       <title>045 - Holiday Special - Online Konferenzen 2020</title>
       <description>Diesmal zum Thema Konferenzen und Meetups 2020</description>
       <pubDate>Wed, 30 Dec 2020 19:34:14 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/045-aUilsi76</link>
       <content:encoded><![CDATA[<h2>Gäste</h2><p>Florian: <a href=https://twitter.com/Argorak>@Argorak</a><br>Stefan: <a href=https://twitter.com/dns2utf8>@dns2utf8</a><br>Jan-Erik: <a href=https://twitter.com/badboy_>@badboy_</a><h2>Links</h2><ul><li><a href=https://rc3.world/ >Congress</a><li><a href=https://mybuild.microsoft.com/ >Microsoft Build</a><li><a href=https://homeferences.netlify.app>homeferences</a><li><a href=https://rustfest.global>Rustfest Global</a><li><a href=https://oxidizeconf.com/oxidize-1k/ >Oxidize 1K</a><li><a href=https://twitter.com/samaaron>Sam Aaron</a><li><a href=https://githubuniverse.com/ >github universe</a><li><a href=https://vi.to/ >vi.to</a><li><a href=https://www.meetup.com/Rust-Berlin/events/270177388/ >Rust and Tell Berlin</a><li><a href=https://berline.rs>berlin.rs</a><li><a href=https://uikonf.com/ >UIKonf</a><li><a href=https://auphonic.com/ >auphonic</a>, <a href=https://www.audacityteam.org/ >audacity</a><li><a href=https://gather.town>gather.town</a>, <a href=https://workadventu.re>workadventu.re</a></ul><h2>Picks</h2><p>Jan-Erik<ul><li><a href=https://github.com/austinjones/tab-rs>tab-rs</a> - a terminal multiplexer<li><a href="https://www.youtube.com/watch?v=GtcZ0ZOcO5w&amp;list=PL85XCvVPmGQiudPknCxiSpybc5RTfkXe6">RustFest - Playlist</a></ul><p>Stefan<ul><li><a href=https://crates.io/crates/color_blinder/ >Color Blinder</a> mit der <a href=https://gitlab.com/dns2utf8/color_blinder_gtk>GUI</a><li><a href=https://github.com/rust-threadpool/rust-threadpool>threadpool</a><li><a href=https://mps.estada.ch/ >MultiPlayer Snake</a></ul><p>Florian<ul><li><a href=https://colorbrewer2.org>Color Brewer</a><li><a href=https://knurling.ferrous-systems.com/ >Knurling</a><li><a href=https://github.com/http-rs/tide>tide</a><li><a href=https://ruby-lang.org>Ruby 3</a></ul><p>Kilian<ul><li><a href=https://github.com/nerdsupremacist/memes>nerdsupremacist/memes</a></ul>]]></content:encoded>
       <enclosure length="139705867" type="audio/mpeg" url="https://cdn.simplecast.com/audio/7ab096ff-6109-4835-82d4-29fbb06af2c3/episodes/370f7ae7-f39d-4cf0-b632-e667d50edb0a/audio/8f63bb18-1e4a-47e4-81de-b63600d3140a/default_tc.mp3?aid=rss_feed&amp;feed=OB_iKD_T"/>
@@ -453,7 +453,7 @@
       <description><![CDATA[<h2>News</h2><ul><li><a href="https://blog.servo.org/2020/11/17/servo-home/">Servo has a new home</a></li><li><a href="https://github.blog/2020-11-16-standing-up-for-developers-youtube-dl-is-back/">youtube-dl und DMCA</a></li><li><a href="https://lapcatsoftware.com/articles/ocsp.html">Apple OSCP Fuckup</a> (<a href="https://sneak.berlin/20201112/your-computer-isnt-yours/">your computer isn't yours</a>)</li><li><a href="https://blog.jacopo.io/en/post/apple-ocsp/">Does Apple really log every app you run? A technical look</a></li><li><a href="https://www.apple.com/mac/m1/">M1</a></li><li><a href="https://devblogs.microsoft.com/typescript/announcing-typescript-4-1/">Announcing Typescript 4.1</a><ul><li><a href="https://github.com/jamiebuilds/json-parser-in-typescript-very-bad-idea-please-dont-use">json parser in typescript very bad idea please don't use</a></li><li><a href="https://github.com/codemix/ts-sql">ts-sql</a></li></ul></li></ul><h2>Picks</h2><ul><li><a href="https://keithclark.github.io/ZzFXM/">ZzFXM</a></li><li><a href="https://github.com/Impostor/Impostor">Impostor/Impostor</a></li><li><a href="https://github.com/AdguardTeam/AdGuardHome">AdguardTeam/AdGuardHome</a></li><li><a href="https://magenta.github.io/lofi-player/">https://magenta.github.io/lofi-player/</a></li><li><a href="https://www.youtube.com/watch?v=reCMB81A70k">lo fi merkelwave</a></li></ul>
 ]]></description>
       <pubDate>Sun, 22 Nov 2020 17:57:48 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/044-US6cMKy2</link>
       <content:encoded><![CDATA[<h2>News</h2><ul><li><a href="https://blog.servo.org/2020/11/17/servo-home/">Servo has a new home</a></li><li><a href="https://github.blog/2020-11-16-standing-up-for-developers-youtube-dl-is-back/">youtube-dl und DMCA</a></li><li><a href="https://lapcatsoftware.com/articles/ocsp.html">Apple OSCP Fuckup</a> (<a href="https://sneak.berlin/20201112/your-computer-isnt-yours/">your computer isn't yours</a>)</li><li><a href="https://blog.jacopo.io/en/post/apple-ocsp/">Does Apple really log every app you run? A technical look</a></li><li><a href="https://www.apple.com/mac/m1/">M1</a></li><li><a href="https://devblogs.microsoft.com/typescript/announcing-typescript-4-1/">Announcing Typescript 4.1</a><ul><li><a href="https://github.com/jamiebuilds/json-parser-in-typescript-very-bad-idea-please-dont-use">json parser in typescript very bad idea please don't use</a></li><li><a href="https://github.com/codemix/ts-sql">ts-sql</a></li></ul></li></ul><h2>Picks</h2><ul><li><a href="https://keithclark.github.io/ZzFXM/">ZzFXM</a></li><li><a href="https://github.com/Impostor/Impostor">Impostor/Impostor</a></li><li><a href="https://github.com/AdguardTeam/AdGuardHome">AdguardTeam/AdGuardHome</a></li><li><a href="https://magenta.github.io/lofi-player/">https://magenta.github.io/lofi-player/</a></li><li><a href="https://www.youtube.com/watch?v=reCMB81A70k">lo fi merkelwave</a></li></ul>
 ]]></content:encoded>
@@ -473,7 +473,7 @@
       <description><![CDATA[<h2>GitHub Stars</h2><ul><li><a href="https://github.com/prasmussen/git-vanity-hash">git-vanity-hash</a></li><li><a href="https://sonic-pi.net/">sonic pi</a>, <a href="https://github.com/lpil/sonic-pi-tool">sonic-pi-tool</a></li><li><a href="https://github.com/ruffle-rs/ruffle">ruffle</a></li><li><a href="https://rescript-lang.org/">rescript-lang.org</a></li><li><a href="https://mariusschulz.com/blog/mapped-types-in-typescript">mapped types</a>/<a href="https://www.typescriptlang.org/docs/handbook/advanced-types.html">advanced types</a> in typescript</li></ul><h2>Alternative Titel</h2><ul><li>Peak Humanity</li></ul>
 ]]></description>
       <pubDate>Thu, 20 Aug 2020 20:39:56 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/043-bjBW_MBa</link>
       <content:encoded><![CDATA[<h2>GitHub Stars</h2><ul><li><a href="https://github.com/prasmussen/git-vanity-hash">git-vanity-hash</a></li><li><a href="https://sonic-pi.net/">sonic pi</a>, <a href="https://github.com/lpil/sonic-pi-tool">sonic-pi-tool</a></li><li><a href="https://github.com/ruffle-rs/ruffle">ruffle</a></li><li><a href="https://rescript-lang.org/">rescript-lang.org</a></li><li><a href="https://mariusschulz.com/blog/mapped-types-in-typescript">mapped types</a>/<a href="https://www.typescriptlang.org/docs/handbook/advanced-types.html">advanced types</a> in typescript</li></ul><h2>Alternative Titel</h2><ul><li>Peak Humanity</li></ul>
 ]]></content:encoded>
@@ -493,7 +493,7 @@
       <description><![CDATA[<h2><a href="https://github.com/corona-warn-app">Corona-Warn-App</a></h2><p><a href="https://www.coronawarn.app">coronawarn.app</a></p><ul><li><code>curl https://svc90.main.px.t-online.de/version/v1/diagnosis-keys/country/DE/date</code> <a href="https://twitter.com/schmittlauch/status/1274437829607804928">Danke @schmittlauch</a></li><li>Empfehlung <a href="https://ukw.fm/ukw030-die-corona-warn-app/">ukw030</a> "Die Corona Warn App"</li><li><a href="https://lumen-couture.myshopify.com/products/led-matrix-face-mask">Lumen Couture</a></li></ul><h2>Chrome in Space</h2><ul><li><a href="https://space.stackexchange.com/questions/9243/what-computer-and-software-is-used-by-the-falcon-9/9446#9446">good enough for space</a></li></ul><h2>BLM</h2><ul><li><a href="https://www.blackgirlscode.com/donations.html">Black Girls Code</a></li><li><a href="https://nymag.com/strategist/article/where-to-donate-for-black-lives-matter.html">137 Ways to Donate in Support of Black Lives and Communities of Color</a></li><li><a href="https://www.zdf.de/serien/deutscher">serie: "deutscher"</a></li><li><a href="https://github.com/rubocop-hq/rubocop/issues/8091">ruboCop renamed?</a> (<a href="https://thoughtbot.com/blog/factory_bot#why">factory girl</a>)</li><li><a href="https://www.youtube.com/watch?v=jZjmlJPJgug">Last Week Tonight Facial Recognition</a></li><li><a href="https://is2020over.com">is2020over.com</a></li><li>Jolie Nolke - Explaining the Pandemic to my Past Self <a href="https://www.youtube.com/watch?v=Ms7capx4Cb8">Part 1</a> and <a href="https://www.youtube.com/watch?v=xdyDpP2s-og">Part 2</a></li><li><a href="https://www.usgs.gov/faqs/yellowstone-overdue-eruption-when-will-yellowstone-erupt?qt-news_science_products=0#qt-news_science_products">Is Yellowstone overdue for an eruption? When will Yellowstone erupt?</a></li><li><a href="https://twitter.com/littlewisehen/status/1268961586208784387/photo/1">LEAKED! REST OF 2020 CALENDAR LA</a></li></ul><h2>hey</h2><ul><li><a href="https://hey.com">hey.com</a> vs <a href="https://bye.fyi">bye.fyi</a> vs <a href="https://youdownloadtheappanditdoesntwork.com/">youdownloadtheappanditdoesntwork.com</a></li></ul><h2>Weitere Links</h2><ul><li><a href="https://jmap.io">jmap</a></li><li><a href="https://devtalks.de/ep-8-special-3-apple-wwdc-2020-keynote/">Devtalks WWDC</a></li></ul><h2>Picks</h2><ul><li><a href="https://latex.now.sh/elements">latex.css</a>, <a href="https://github.com/jdan/98.css">98.css</a>, <a href="https://alexbsoft.github.io/win95.css/">95.css</a> <a href="https://github.com/botoxparty/XP.css">xp.css</a></li><li><a href="https://github.com/PDF-Archiver/PDF-Archiver">PDF-Archiver</a> & <a href="https://scanbot.io">Scanbot</a></li><li><a href="https://evertpot.com/ecmascript-4-the-missing-version/">ES4 - the missing version</a></li><li><a href="http://jbp.io/2020/06/14/rustls-audit.html">Third-party audit of rustls</a></li></ul>
 ]]></description>
       <pubDate>Sun, 21 Jun 2020 23:14:58 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/042-DGBbcAWT</link>
       <content:encoded><![CDATA[<h2><a href="https://github.com/corona-warn-app">Corona-Warn-App</a></h2><p><a href="https://www.coronawarn.app">coronawarn.app</a></p><ul><li><code>curl https://svc90.main.px.t-online.de/version/v1/diagnosis-keys/country/DE/date</code> <a href="https://twitter.com/schmittlauch/status/1274437829607804928">Danke @schmittlauch</a></li><li>Empfehlung <a href="https://ukw.fm/ukw030-die-corona-warn-app/">ukw030</a> "Die Corona Warn App"</li><li><a href="https://lumen-couture.myshopify.com/products/led-matrix-face-mask">Lumen Couture</a></li></ul><h2>Chrome in Space</h2><ul><li><a href="https://space.stackexchange.com/questions/9243/what-computer-and-software-is-used-by-the-falcon-9/9446#9446">good enough for space</a></li></ul><h2>BLM</h2><ul><li><a href="https://www.blackgirlscode.com/donations.html">Black Girls Code</a></li><li><a href="https://nymag.com/strategist/article/where-to-donate-for-black-lives-matter.html">137 Ways to Donate in Support of Black Lives and Communities of Color</a></li><li><a href="https://www.zdf.de/serien/deutscher">serie: "deutscher"</a></li><li><a href="https://github.com/rubocop-hq/rubocop/issues/8091">ruboCop renamed?</a> (<a href="https://thoughtbot.com/blog/factory_bot#why">factory girl</a>)</li><li><a href="https://www.youtube.com/watch?v=jZjmlJPJgug">Last Week Tonight Facial Recognition</a></li><li><a href="https://is2020over.com">is2020over.com</a></li><li>Jolie Nolke - Explaining the Pandemic to my Past Self <a href="https://www.youtube.com/watch?v=Ms7capx4Cb8">Part 1</a> and <a href="https://www.youtube.com/watch?v=xdyDpP2s-og">Part 2</a></li><li><a href="https://www.usgs.gov/faqs/yellowstone-overdue-eruption-when-will-yellowstone-erupt?qt-news_science_products=0#qt-news_science_products">Is Yellowstone overdue for an eruption? When will Yellowstone erupt?</a></li><li><a href="https://twitter.com/littlewisehen/status/1268961586208784387/photo/1">LEAKED! REST OF 2020 CALENDAR LA</a></li></ul><h2>hey</h2><ul><li><a href="https://hey.com">hey.com</a> vs <a href="https://bye.fyi">bye.fyi</a> vs <a href="https://youdownloadtheappanditdoesntwork.com/">youdownloadtheappanditdoesntwork.com</a></li></ul><h2>Weitere Links</h2><ul><li><a href="https://jmap.io">jmap</a></li><li><a href="https://devtalks.de/ep-8-special-3-apple-wwdc-2020-keynote/">Devtalks WWDC</a></li></ul><h2>Picks</h2><ul><li><a href="https://latex.now.sh/elements">latex.css</a>, <a href="https://github.com/jdan/98.css">98.css</a>, <a href="https://alexbsoft.github.io/win95.css/">95.css</a> <a href="https://github.com/botoxparty/XP.css">xp.css</a></li><li><a href="https://github.com/PDF-Archiver/PDF-Archiver">PDF-Archiver</a> & <a href="https://scanbot.io">Scanbot</a></li><li><a href="https://evertpot.com/ecmascript-4-the-missing-version/">ES4 - the missing version</a></li><li><a href="http://jbp.io/2020/06/14/rustls-audit.html">Third-party audit of rustls</a></li></ul>
 ]]></content:encoded>
@@ -513,7 +513,7 @@
       <description><![CDATA[<ul><li><a href="https://github.com/features/codespaces">GitHub Codespaces</a></li><li><a href="https://keys.pub/#what-is-it">Keys.pub</a></li><li><a href="https://signal.org/blog/signal-and-giphy-update/">Signal GIF Search</a></li><li><a href="https://pythoninsider.blogspot.com/2020/04/python-2718-last-release-of-python-2.html">the last release of python 2</a></li><li><a href="https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/">.NET MAUI</a></li><li><a href="https://devblogs.microsoft.com/commandline/windows-package-manager-preview/">Windows Package Manager</a></li></ul><h2>Picks</h2><ul><li><a href="https://github.com/sgrif/notepad_logger">sgrif/notepad_logger</a></li><li><a href="https://orb.farm/">orb.farm</a></li><li><a href="https://www.youtube.com/watch?v=6avJHaC3C2U">The Art of Code</a></li><li><a href="https://www.youtube.com/watch?v=ZAW1LBJE-w4">$stdout - Remote Life</a></li></ul>
 ]]></description>
       <pubDate>Sat, 30 May 2020 21:20:21 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/041-rMEgfJgY</link>
       <content:encoded><![CDATA[<ul><li><a href="https://github.com/features/codespaces">GitHub Codespaces</a></li><li><a href="https://keys.pub/#what-is-it">Keys.pub</a></li><li><a href="https://signal.org/blog/signal-and-giphy-update/">Signal GIF Search</a></li><li><a href="https://pythoninsider.blogspot.com/2020/04/python-2718-last-release-of-python-2.html">the last release of python 2</a></li><li><a href="https://devblogs.microsoft.com/dotnet/introducing-net-multi-platform-app-ui/">.NET MAUI</a></li><li><a href="https://devblogs.microsoft.com/commandline/windows-package-manager-preview/">Windows Package Manager</a></li></ul><h2>Picks</h2><ul><li><a href="https://github.com/sgrif/notepad_logger">sgrif/notepad_logger</a></li><li><a href="https://orb.farm/">orb.farm</a></li><li><a href="https://www.youtube.com/watch?v=6avJHaC3C2U">The Art of Code</a></li><li><a href="https://www.youtube.com/watch?v=ZAW1LBJE-w4">$stdout - Remote Life</a></li></ul>
 ]]></content:encoded>
@@ -533,7 +533,7 @@
       <description><![CDATA[<h2>Errata</h2><blockquote><p>PostScript ist übrigens ne Adobe Sache, keine Apple Sache. Und warum schickt man nicht einfach ne BitMap zum Drucker? Weil man 1990 noch keine A3 Seiten in 1200 dpi in endlicher Zeit auf dem lokalen Netzwerk übertragen konnte ...<br />NeXTstep hat das ja auch für's Rendern des UIs verwendet (Display PostScript, von Adobe lizensiert). Was 2 coole Effekte hatte: 1. konnte man einen Screenshot in 1200 DPI ausdrucken (weil die ganzen UI Elemente PS waren), 2. hat dadurch Remote-Desktop super geklappt, weil das ganze PS auf dem lokalen DPS Server lief.</p></blockquote><p>Danke Helge!</p><h2>Topics</h2><ul><li><a href="https://news.ycombinator.com/item?id=22762173">Zoom's Security Issues</a></li><li><a href="https://blog.google/inside-google/company-announcements/apple-and-google-partner-covid-19-contact-tracing-technology">Apple & Google Corona Contact Tracing</a></li><li><a href="https://support.apple.com/en-us/HT211028">Apple's Faceshields</a></li><li><a href="https://icq.com/">New ICQ</a></li><li><a href="https://www.ruma.io/news/ruma-is-dead-long-live-ruma-2020-04-10/">ruma is dead</a>, long live <a href="https://conduit.rs">conduit</a></li><li><a href="https://www.pypy.org/">PyPy</a></li><li><a href="https://cpp-ug-dresden.blogspot.com/2020/03/april-talk-hendrik-sollich-rust-for-cpp.html">C++ Ug Dresden</a></li><li><a href="https://twitter.com/lrz/status/1250453967957561344?s=21">iCloud wasm</a></li><li><a href="https://docs.rs/inline-python/0.4.1/inline_python/">inline python</a></li><li><a href="https://youtu.be/zPuELAzJyno?t=1434">oxidize 1k recording</a></li><li><a href="https://di.c3voc.de/fahrplan">DiVOC</a></li><li><a href="https://fallofcivilizationspodcast.com/">Fall of Civilizations</a></li></ul><h2>Picks</h2><ul><li><a href="https://github.com/DevinR528/RumaTui">DevinR528/RumaTui</a></li><li><a href="https://imisstheoffice.eu/">I miss the office</a></li><li><a href="https://www.youtube.com/channel/UCS4FAVeYW_IaZqAbqhlvxlA/featured">context free</a></li><li><a href="https://gds.blog.gov.uk/2016/10/07/platform-as-a-service-team-takes-even-handed-approach-to-meetings/">hand signes</a></li><li><a href="https://bouncingdvdlogo.com">bouncingdvdlogo.com</a></li><li><a href="https://github.com/SwiftDocOrg/DocTest">SwiftDocOrg/DocTest</a></li><li><a href="https://github.com/aaronjanse/dns-over-wikipedia">aaronjanse/dns-over-wikipedia</a><ul><li>passend dazu: <a href="https://wpodns.adtac.in/">DNS over Wikipedia</a></li></ul></li></ul><h2>Alternative Titel</h2><ul><li>the eternal backlog</li><li>seminativ</li></ul>
 ]]></description>
       <pubDate>Sun, 19 Apr 2020 20:28:12 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/040-dYecnJdC</link>
       <content:encoded><![CDATA[<h2>Errata</h2><blockquote><p>PostScript ist übrigens ne Adobe Sache, keine Apple Sache. Und warum schickt man nicht einfach ne BitMap zum Drucker? Weil man 1990 noch keine A3 Seiten in 1200 dpi in endlicher Zeit auf dem lokalen Netzwerk übertragen konnte ...<br />NeXTstep hat das ja auch für's Rendern des UIs verwendet (Display PostScript, von Adobe lizensiert). Was 2 coole Effekte hatte: 1. konnte man einen Screenshot in 1200 DPI ausdrucken (weil die ganzen UI Elemente PS waren), 2. hat dadurch Remote-Desktop super geklappt, weil das ganze PS auf dem lokalen DPS Server lief.</p></blockquote><p>Danke Helge!</p><h2>Topics</h2><ul><li><a href="https://news.ycombinator.com/item?id=22762173">Zoom's Security Issues</a></li><li><a href="https://blog.google/inside-google/company-announcements/apple-and-google-partner-covid-19-contact-tracing-technology">Apple & Google Corona Contact Tracing</a></li><li><a href="https://support.apple.com/en-us/HT211028">Apple's Faceshields</a></li><li><a href="https://icq.com/">New ICQ</a></li><li><a href="https://www.ruma.io/news/ruma-is-dead-long-live-ruma-2020-04-10/">ruma is dead</a>, long live <a href="https://conduit.rs">conduit</a></li><li><a href="https://www.pypy.org/">PyPy</a></li><li><a href="https://cpp-ug-dresden.blogspot.com/2020/03/april-talk-hendrik-sollich-rust-for-cpp.html">C++ Ug Dresden</a></li><li><a href="https://twitter.com/lrz/status/1250453967957561344?s=21">iCloud wasm</a></li><li><a href="https://docs.rs/inline-python/0.4.1/inline_python/">inline python</a></li><li><a href="https://youtu.be/zPuELAzJyno?t=1434">oxidize 1k recording</a></li><li><a href="https://di.c3voc.de/fahrplan">DiVOC</a></li><li><a href="https://fallofcivilizationspodcast.com/">Fall of Civilizations</a></li></ul><h2>Picks</h2><ul><li><a href="https://github.com/DevinR528/RumaTui">DevinR528/RumaTui</a></li><li><a href="https://imisstheoffice.eu/">I miss the office</a></li><li><a href="https://www.youtube.com/channel/UCS4FAVeYW_IaZqAbqhlvxlA/featured">context free</a></li><li><a href="https://gds.blog.gov.uk/2016/10/07/platform-as-a-service-team-takes-even-handed-approach-to-meetings/">hand signes</a></li><li><a href="https://bouncingdvdlogo.com">bouncingdvdlogo.com</a></li><li><a href="https://github.com/SwiftDocOrg/DocTest">SwiftDocOrg/DocTest</a></li><li><a href="https://github.com/aaronjanse/dns-over-wikipedia">aaronjanse/dns-over-wikipedia</a><ul><li>passend dazu: <a href="https://wpodns.adtac.in/">DNS over Wikipedia</a></li></ul></li></ul><h2>Alternative Titel</h2><ul><li>the eternal backlog</li><li>seminativ</li></ul>
 ]]></content:encoded>
@@ -552,7 +552,7 @@
       <title>039 - HomeOfficeEdition</title>
       <description>Wir üben uns im social distancing und nehmen die Folge heute (erstmalig zu zweit?) dezentral auf.</description>
       <pubDate>Sun, 22 Mar 2020 16:12:27 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/039-ZUSW66fN</link>
       <content:encoded><![CDATA[<p>Sorry für die bescheidene Audioqualität auf Kilians Seite. Die aktuelle Situation hat sich auch in Form von Hard- und Softwareproblemen aufgezeigt... Für die nächste Folge haben wir uns schon bessere Optionen überlegt.</p><h2>Errata</h2><ul><li>DoublePick: rustlings (pick in 037, mentioned again in 038)</li></ul><h2>Topics</h2><ul><li>HomeOffice</li><li><a href="https://www.conventionalcommits.org/">conventional commit</a></li><li><a href="https://futhark-lang.org/blog/2020-03-15-futhark-0.15.1-released.html">Futhark</a></li><li>Acquisition der Woche: <a href="https://blog.npmjs.org/post/612764866888007680/next-phase-montage">GitHub isst npm</a></li><li><a href="https://github.com/mobile/">GitHub Mobile</a></li><li><a href="https://changelog.com/podcast/384">Enter The Matrix</a></li><li><a href="https://twitter.com/homeferences">homeferences</a> (e.g. <a href="https://oxidizeconf.com/oxidize-1k-chat/">Oxidize 1k</a>)</li><li><a href="https://jobs.apple.com/en-us/details/200144575/software-engineer">Rust bei Apple</a></li><li><a href="https://twitter.com/kuenzler/status/1241018421346742277">Netflix reduziert nur die Bitrate wegen...</a></li></ul><h3>Corona Related</h3><ul><li><a href="https://www.coronazaehler.de/">coronazaehler.de</a></li><li><a href="https://www.coronatracker.com/analytics/">coronatracker.com</a></li><li><a href="https://wirvsvirushackathon.org/">wirvsvirushackathon</a></li><li><a href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">Johns Hopkins</a></li><li><a href="https://experience.arcgis.com/experience/478220a4c454480e823b17327b2bf1d4">Robert Koch-Institut: COVID-19-Dashboard</a></li><li><a href="https://gcber.org/corona/?scene=126&amp;clicktime=1582908487&amp;from=singlemessage&amp;isappinstalled=0">German Chinese Bureau of Economic Research</a></li><li><a href="https://quarantaenehelden.org">QuarantäneHelden</a></li></ul><h2>Picks</h2><ul><li><a href="https://github.com/michaelneu/webxcel">michaelneu/webxcel</a><ul><li><a href="https://github.com/gmork2/PS-HTTPD">gmork2/PS-HTTPD</a></li></ul></li><li><a href="https://github.com/apple/swift-argument-parser">apple/swift-argument-parser</a></li><li><a href="https://www.youtube.com/watch?v=uYbdx4I7STg">The Weird World in RGB</a>, <a href="https://www.youtube.com/watch?v=wh4aWZRtTwU">Brown</a></li><li><a href="https://mosermichael.github.io/jq-illustrated/dir/content.html">jq - illustrated tutorial</a></li><li><a href="https://tldr.sh">tldr pages</a></li><li><a href="https://crates.io/crates/convco">convco</a></li><li><a href="https://github.com/Gruntfuggly/todo-tree">TODO tree</a></li></ul><h2>Alternative Titel</h2><ul><li>github action hero</li></ul>
 ]]></content:encoded>
@@ -572,7 +572,7 @@
       <description><![CDATA[<h2>Errata</h2><p>OMG, sorry für die schlecht audio qualität in 037, aber wir haben ungewöhnlich viel feedback bekommen :P Zur Wiedergutmachung: Musik (at the end) -> <a href="https://www.youtube.com/watch?v=sClpvvYIs2s">$STDOUT - "INTERVIEWS"</a></p><h2>Themen</h2><ul><li>Hendrik spielt mit <a href="https://www.home-assistant.io">home assistant</a></li><li>Kilian spielt in seiner eigenen virtuellen Welt</li><li><a href="https://github.com/rustbridge/">rustbridge</a>, <a href="https://github.com/rust-lang/rustlings">rustlings</a></li><li><a href="https://deno.land">Deno</a></li><li><a href="https://github.com/npm/cli/issues/836">npm/Cloudflare Fuckup der Woche</a></li><li>Mal wieder Programmiersprachen, heute:<ul><li><a href="https://kevin-lang.dev/">Kevin</a></li><li><a href="https://ballerina.io">Ballerina</a></li></ul></li><li><a href="https://fasterthanli.me/blog/2020/i-want-off-mr-golangs-wild-ride/">I want off Mr. Golang's Wild Ride</a></li><li><a href="https://fuchsia.googlesource.com/fuchsia/+/refs/heads/master/docs/project/policy/programming_languages.md">Fuchsia Programming Language Policy</a></li><li><a href="https://hitchdev.com/strictyaml/why/implicit-typing-removed/">Yaml's "Norway Problem"</a></li></ul><h2>Picks</h2><ul><li><a href="https://developers.google.com/web/shows/http203/podcast/">http 203</a></li><li><a href="https://yglu.io/">yglu</a> vs <a href="https://jsonnet.org">jsonnet</a></li><li><a href="https://github.com/dabreegster/abstreet">dabreegster/abstreet</a><ul><li><a href="https://www.youtube.com/watch?v=5mv8YBavcZg">Fixing City Skylines Maps</a></li></ul></li><li><a href="https://github.com/nerdsupremacist/Graphaello">nerdsupremacist/Graphaello</a></li><li><a href="https://github.com/JohnSundell/Publish">JohnSundell/Publish</a></li></ul><h2>Musik</h2><p><a href="https://www.youtube.com/watch?v=sClpvvYIs2s">$stdout - Interviews</a></p><h2>Alternative Titel</h2><ul><li>Polizeipolizei</li><li>Loesch den Scheiss</li><li>Das Norway Problem</li></ul>
 ]]></description>
       <pubDate>Sat, 29 Feb 2020 20:25:47 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/038-LJSer_zI</link>
       <content:encoded><![CDATA[<h2>Errata</h2><p>OMG, sorry für die schlecht audio qualität in 037, aber wir haben ungewöhnlich viel feedback bekommen :P Zur Wiedergutmachung: Musik (at the end) -> <a href="https://www.youtube.com/watch?v=sClpvvYIs2s">$STDOUT - "INTERVIEWS"</a></p><h2>Themen</h2><ul><li>Hendrik spielt mit <a href="https://www.home-assistant.io">home assistant</a></li><li>Kilian spielt in seiner eigenen virtuellen Welt</li><li><a href="https://github.com/rustbridge/">rustbridge</a>, <a href="https://github.com/rust-lang/rustlings">rustlings</a></li><li><a href="https://deno.land">Deno</a></li><li><a href="https://github.com/npm/cli/issues/836">npm/Cloudflare Fuckup der Woche</a></li><li>Mal wieder Programmiersprachen, heute:<ul><li><a href="https://kevin-lang.dev/">Kevin</a></li><li><a href="https://ballerina.io">Ballerina</a></li></ul></li><li><a href="https://fasterthanli.me/blog/2020/i-want-off-mr-golangs-wild-ride/">I want off Mr. Golang's Wild Ride</a></li><li><a href="https://fuchsia.googlesource.com/fuchsia/+/refs/heads/master/docs/project/policy/programming_languages.md">Fuchsia Programming Language Policy</a></li><li><a href="https://hitchdev.com/strictyaml/why/implicit-typing-removed/">Yaml's "Norway Problem"</a></li></ul><h2>Picks</h2><ul><li><a href="https://developers.google.com/web/shows/http203/podcast/">http 203</a></li><li><a href="https://yglu.io/">yglu</a> vs <a href="https://jsonnet.org">jsonnet</a></li><li><a href="https://github.com/dabreegster/abstreet">dabreegster/abstreet</a><ul><li><a href="https://www.youtube.com/watch?v=5mv8YBavcZg">Fixing City Skylines Maps</a></li></ul></li><li><a href="https://github.com/nerdsupremacist/Graphaello">nerdsupremacist/Graphaello</a></li><li><a href="https://github.com/JohnSundell/Publish">JohnSundell/Publish</a></li></ul><h2>Musik</h2><p><a href="https://www.youtube.com/watch?v=sClpvvYIs2s">$stdout - Interviews</a></p><h2>Alternative Titel</h2><ul><li>Polizeipolizei</li><li>Loesch den Scheiss</li><li>Das Norway Problem</li></ul>
 ]]></content:encoded>
@@ -591,7 +591,7 @@
       <title>037 - Wir hatten ja nix!</title>
       <description>Ganz viel Wind um nix, heute mit zwei (2!) Gästen, Schmittlauch und Mic. Nix zu sehen hier, auch nix zu hören und erst recht nix zu erzählen.</description>
       <pubDate>Tue, 28 Jan 2020 07:43:26 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/037-fWfo_Snt</link>
       <content:encoded><![CDATA[<p>Ganz viel Wind um nix, heute mit zwei (2!) Gästen, Schmittlauch und Mic. Nix zu sehen hier, auch nix zu hören und erst recht nix zu erzählen.</p><h2>Vielen Dank an unsere Gäste</h2><p>schmittlauch: <a href="https://toot.matereal.eu/@schmittlauch">Fediverse</a>, <a href="https://twitter.com/schmittlauch">Twitter</a>, <a href="https://github.com/schmittlauch">GitHub</a></p><p>Mic92: <a href="https://toot.matereal.eu/@mic92">Fediverse</a>, <a href="https://twitter.com/Mic_92">Twitter</a>, <a href="https://github.com/mic92">GitHub</a></p><h2>Thema: <a href="https://nixos.org/nix/">Nix</a></h2><ul><li>nix unter macOS: prinzipiell eine unterstützte Plattform, <a href="https://github.com/NixOS/nix/issues/2925">unter Catalina aber gerade etwas hakelig</a></li><li>Docker Container mit Nix: <a href="https://nixery.dev/">Nixery</a></li><li>distributed service management mit <a href="https://nixos.org/disnix/">disnix</a></li></ul><h2>nix expression language</h2><ul><li>die <a href="https://nixos.org/nixpkgs/manual/#chap-stdenv">stdenv</a> builder Funktion</li><li><a href="https://discourse.nixos.org/t/why-not-use-yaml-for-configuration-and-package-declaration/1333">Why not use YAML for configuration and package declaration?</a></li><li><a href="https://github.com/Mic92/dotfiles">Mic's dotfiles</a> </li><li>Nix auf Systemen ohne root-Rechte mit user namespaces: <a href="https://github.com/nix-community/nix-user-chroot">nix-user-chroot</a></li></ul><h2><a href="https://nixos.org/nixos/">NixOS</a></h2><ul><li><a href="https://nixos.org/nixos/options.html">Optionssuche</a></li><li><a href="https://github.com/Mic92/dotfiles/tree/master/nixos/turingmachine">Mic's nixos dotfile</a></li></ul><h3>Einstiegserfahrungen (schmittlauch)</h3><ul><li>habe mich an <a href="https://github.com/Mic92/dotfiles/tree/master/nixos">Mic's config</a> orientiert</li><li>Nix language kennen lernen: <a href="https://nixcloud.io/tour/">https://nixcloud.io/tour/</a></li><li>man sollte nix expressions zumindest <i>lesen</i> können, um config Optionen entdecken & verstehen zu können: <code>nix edit nixpkgs.$PACKAGE</code></li><li>anfangs verwirrend: auch bei installiertem Paket sind libraries & headers erst mal nicht im system path</li><li>Dokumentation:<ul><li>unübersichtlicher als bei Arch, da über mehrere Ressourcen verteilt</li><li>meine Suchstrategie:<ol><li><a href="https://nixos.wiki/">https://nixos.wiki/</a></li><li>für system config: <a href="https://nixos.org/nixos/options.html">NixOS config options</a>, danach <a href="https://nixos.org/nixos/manual/">NixOS Doku</a></li><li>zum Paketieren von Software/ ökosystemspezifische Fragen: <a href="https://nixos.org/nixpkgs/manual/">nixpkgs Doku</a></li><li><a href="https://github.com/NixOS/nixpkgs/issues">nixpkgs issues</a> sind gute Quelle für Bugs, Workarounds und undokumentierte Features</li><li>wenn alle Stricke reißen: nachfragen! <a href="https://discourse.nixos.org/">https://discourse.nixos.org/</a> oder #nixos, #nixos-de auf Freenode</li><li>gut zum Analysieren des aktuellen Systems: <code>nix repl "&lt;nixpkgs/nixos&gt;"</code></li></ol></li></ul></li><li>Empfehlungen:<ul><li>deklarative Softwareverwaltung mit <a href="https://rycee.gitlab.io/home-manager/">home-manager</a></li></ul></li></ul><h3>Toolempfehlungen, best practices</h3><ul><li><a href="https://rycee.gitlab.io/home-manager/">home-manager</a> und deklarative Softwareverwaltung</li><li><a href="https://github.com/target/lorri">lorri</a> + <a href="https://github.com/direnv/direnv/">direnv</a></li><li><a href="https://hydra.nixos.org/">hydra</a></li><li><a href="https://github.com/bennofs/nix-index">nix-index</a></li><li><a href="https://github.com/Mic92/nixos-shell">nixos-shell</a></li><li><a href="https://github.com/nix-community/nix-user-chroot">nix-user-chroot</a></li></ul><h2>Picks (vulgo: GitHub Stars der Woche)</h2><ul><li><a href="https://github.com/getferdi/ferdi/">Ferdi</a> - Hardfork von Franz</li><li>Monospace Font mit (optionalen) Serifen: <a href="https://github.com/be5invis/Iosevka">Iosevka</a><ul><li>meine Variante für Nix: <code>(iosevka.override { design = [ "slab" "term" ]; set = "serif"; })</code></li><li>Apropos Serifen: <a href="http://vollkorn-typeface.com/">Vollkorn</a></li></ul></li><li><a href="https://npmdrinkinggame.party">npm drinking game</a></li><li>Retraction für Snips, wurden von Sonos gekauft ðŸ˜¢</li><li><a href="https://github.com/rust-lang/rustlings">rustlings</a> und <a href="https://github.com/rustbridge/">rust-bridge</a></li><li><a href="https://tech.ingolf-wagner.de/nixos/krops/">krops</a></li><li><a href="https://notabug.org/peers/forgefed">ForgeFed</a>: Föderation für code hosting Instanzen mit ActivityPub<ul><li><a href="https://notabug.org/peers/forgefed/issues/87">Finanzierung der weiteren Implementierung</a></li><li><a href="https://talk.feneas.org/c/forgefed">Diskussionsforum</a></li></ul></li><li><a href="https://github.com/textX/Arpeggio">Arpeggio</a>: PEG Parser Generator für Python</li></ul>
 ]]></content:encoded>
@@ -611,7 +611,7 @@
       <description><![CDATA[<h3>Teilnehmerinnen</h3><ul><li><a href="https://twitter.com/hoodie_de">hoodie_de</a></li><li><a href="https://twitter.com/stefanmajewsky">xyrill</a></li><li><a href="https://twitter.com/steigr">steigr</a></li><li><a href="https://twitter.com/juwisan">juwisan</a></li><li><a href="https://twitter.com/SasPeuk">SasPeuk</a></li><li><a href="https://twitter.com/kiliankoe">kiliankoe</a></li></ul><h3>Referenzen</h3><ul><li><a href="https://media.ccc.de/v/36c3-11177-hacker_jeopardy">Hacker Jeopardy 36c3</a></li><li><a href="https://www.akronymisier.bar/episodes/032">akb032 mit xyrill</a></li><li><a href="https://chromeunboxed.com/apple-safari-google-chrome-chromium-browser-open-source/">Safari switcht zu chromium</a></li><li><a href="https://media.ccc.de/v/36c3-10652-bahnmining_-_punktlichkeit_ist_eine_zier">BahnMining</a></li><li><a href="https://bahn.guru/">bahn.guru</a></li><li>nachfolgender Podcast "star wars" ist <a href="https://fahrplan.das-sendezentrum.de/36c3/talk/EKFJUY/">insnider feat kulturpessimistinnen</a></li></ul><h3>Alternative Titel</h3><ul><li>früher war mehr Zukunft</li><li>Fahrgäste zweiter Klasse</li><li>Flugskam</li></ul>
 ]]></description>
       <pubDate>Sun, 5 Jan 2020 15:07:02 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/036-QsjouuqK</link>
       <content:encoded><![CDATA[<h3>Teilnehmerinnen</h3><ul><li><a href="https://twitter.com/hoodie_de">hoodie_de</a></li><li><a href="https://twitter.com/stefanmajewsky">xyrill</a></li><li><a href="https://twitter.com/steigr">steigr</a></li><li><a href="https://twitter.com/juwisan">juwisan</a></li><li><a href="https://twitter.com/SasPeuk">SasPeuk</a></li><li><a href="https://twitter.com/kiliankoe">kiliankoe</a></li></ul><h3>Referenzen</h3><ul><li><a href="https://media.ccc.de/v/36c3-11177-hacker_jeopardy">Hacker Jeopardy 36c3</a></li><li><a href="https://www.akronymisier.bar/episodes/032">akb032 mit xyrill</a></li><li><a href="https://chromeunboxed.com/apple-safari-google-chrome-chromium-browser-open-source/">Safari switcht zu chromium</a></li><li><a href="https://media.ccc.de/v/36c3-10652-bahnmining_-_punktlichkeit_ist_eine_zier">BahnMining</a></li><li><a href="https://bahn.guru/">bahn.guru</a></li><li>nachfolgender Podcast "star wars" ist <a href="https://fahrplan.das-sendezentrum.de/36c3/talk/EKFJUY/">insnider feat kulturpessimistinnen</a></li></ul><h3>Alternative Titel</h3><ul><li>früher war mehr Zukunft</li><li>Fahrgäste zweiter Klasse</li><li>Flugskam</li></ul>
 ]]></content:encoded>
@@ -631,7 +631,7 @@
       <description><![CDATA[<h2>Shownotes</h2><ul><li><a href="https://wiki.theory.org/index.php/YourLanguageSucks#Rust_sucks_because">Your Language Sucks</a></li><li><a href="https://blog.rust-lang.org/2019/11/07/Async-await-stable.html">async.await in Rust 1.39</a></li><li><a href="https://github.com/nvzqz/static-assertions-rs/">Static Assertions</a></li><li><a href="https://rust-lang.github.io/rust-clippy/">Clippy lints</a></li><li><a href="https://rustacean-station.org/">Rustacean Station</a></li><li>Palantir <a href="https://www.thepoke.co.uk/wp-content/uploads/2017/05/DAb-3W0XYAAkwhL.jpg">https://www.thepoke.co.uk/wp-content/uploads/2017/05/DAb-3W0XYAAkwhL.jpg</a></li><li><a href="https://lightcommands.com">light commands</a></li><li><a href="https://www.youtube.com/watch?v=9uZam0ubq-Y">The Language Sounds That Could Exist, But Don't</a></li><li><a href="https://matrix.org/blog/category/this-week-in-matrix/">this week in matrix</a></li><li><a href="https://blocklist.kowabit.de/fritzboxliste.txt">Blocklist für die Fritzbox</a></li></ul><h2>Picks</h2><ul><li><a href="https://github.com/graceavery/tamagotchiTemp">Touchbar Pet</a></li><li><a href="https://github.com/rust-analyzer/rust-analyzer">Rust Analyzer</a></li><li><a href="https://github.com/deezer/spleeter">Spleeter</a></li><li><a href="https://github.com/lislis/ukulele-hero">Ukulele Hero</a></li><li><a href="http://fretsonfire.sourceforge.net/">Frets on Fire</a></li></ul><h2>Alternative Titel</h2><ul><li>bash bashing</li><li>Spaß mit Fehlermeldungen</li><li>RCEaaS</li><li>immer mehr computer</li><li>ESL Firefox</li></ul>
 ]]></description>
       <pubDate>Mon, 25 Nov 2019 21:05:16 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/035-HHBkv2mM</link>
       <content:encoded><![CDATA[<h2>Shownotes</h2><ul><li><a href="https://wiki.theory.org/index.php/YourLanguageSucks#Rust_sucks_because">Your Language Sucks</a></li><li><a href="https://blog.rust-lang.org/2019/11/07/Async-await-stable.html">async.await in Rust 1.39</a></li><li><a href="https://github.com/nvzqz/static-assertions-rs/">Static Assertions</a></li><li><a href="https://rust-lang.github.io/rust-clippy/">Clippy lints</a></li><li><a href="https://rustacean-station.org/">Rustacean Station</a></li><li>Palantir <a href="https://www.thepoke.co.uk/wp-content/uploads/2017/05/DAb-3W0XYAAkwhL.jpg">https://www.thepoke.co.uk/wp-content/uploads/2017/05/DAb-3W0XYAAkwhL.jpg</a></li><li><a href="https://lightcommands.com">light commands</a></li><li><a href="https://www.youtube.com/watch?v=9uZam0ubq-Y">The Language Sounds That Could Exist, But Don't</a></li><li><a href="https://matrix.org/blog/category/this-week-in-matrix/">this week in matrix</a></li><li><a href="https://blocklist.kowabit.de/fritzboxliste.txt">Blocklist für die Fritzbox</a></li></ul><h2>Picks</h2><ul><li><a href="https://github.com/graceavery/tamagotchiTemp">Touchbar Pet</a></li><li><a href="https://github.com/rust-analyzer/rust-analyzer">Rust Analyzer</a></li><li><a href="https://github.com/deezer/spleeter">Spleeter</a></li><li><a href="https://github.com/lislis/ukulele-hero">Ukulele Hero</a></li><li><a href="http://fretsonfire.sourceforge.net/">Frets on Fire</a></li></ul><h2>Alternative Titel</h2><ul><li>bash bashing</li><li>Spaß mit Fehlermeldungen</li><li>RCEaaS</li><li>immer mehr computer</li><li>ESL Firefox</li></ul>
 ]]></content:encoded>
@@ -650,7 +650,7 @@
       <title>034 - Flachbettscannerbootleg</title>
       <description></description>
       <pubDate>Mon, 4 Nov 2019 08:50:26 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/034-F_li4xd7</link>
       <content:encoded><![CDATA[<ul><li>#akronymisierbar:matrix.org</li><li><a href="https://www.youtube.com/watch?v=DZBvy4abB1o">Breaking the 100 bits per second barrier with Matrix</a></li><li><a href="https://daniel.haxx.se/blog/2017/01/26/quic-is-h2-over-udp/">Haxx.se über quic</a></li><li><a href="https://wicg.github.io/web-transport/">WebTransport Proposal</a></li><li><a href="https://www.meetup.com/LogMeIn-Germany/events/266044743/">WebRTC Meetup</a></li><li><pre>cd /Library/Audio/Sounds/Alerts/ <br/>&& sudo curl -O https://davidcelis.nyc3.cdn.digitaloceanspaces.com/Honk.aiff</pre></li><li><a href="https://goose.game">Untitled Goose Game</a></li><li><a href="https://play.date">Playdate</a></li><li><a href="https://www.youtube.com/watch?v=1Xp_imnO6WE&amp;t=262s">veritasium video handy flug</a> & <a href="https://www.youtube.com/watch?v=1VPfZ_XzisU">Bizarre behavior of rotating bodies</a></li><li><a href="https://www.youtube.com/channel/UCSpFnDQr88xCZ80N-X7t0nQ">Corridor Crew</a></li><li><a href="https://shhgit.darkport.co.uk">sshgit</a></li><li><a href="https://git-fork.com">git Fork</a></li><li>Den Link zu dem HN Kommentar zum Digitalisieren von LPs via Flachbettscanner findet Kilian nicht mehr. Aber das hier ist vermutlich das näheste Äquivalent und ähnlich spannend: <a href="https://en.wikipedia.org/wiki/IRENE_(technology)">https://en.wikipedia.org/wiki/IRENE_(technology)</a> - doch, <a href="https://www.cse.huji.ac.il/~springer/DigitalNeedle/">hier</a> (danke an den Hörer mit supreme Google-Power)!</li></ul><h3>Picks/Stars</h3><ul><li><a href="https://github.com/abhijithvijayan/stargazed">Stargazed</a></li><li><a href="https://github.com/VSCodium/vscodium">VSCodium</a></li><li><a href="https://quiet.github.io/quiet-js/">quiet-js</a></li><li><a href="https://github.com/jupp0r/hungry">hungry</a></li><li><a href="https://github.com/so-fancy/diff-so-fancy">diff-so-fancy</a></li><li><a href="https://github.com/Quotation/LongestCocoa">LongestCocoa</a></li></ul><h3>Alternative Titel</h3><ul><li>WienerMessenger</li><li>scheiss open source</li><li>Vibriersitzmöbel</li></ul>
 ]]>      </content:encoded>
@@ -669,7 +669,7 @@
       <title>033 - Meetups, Parteien und andere Religionsgemeinschaften</title>
       <description>Der Titel sagt schon alles.</description>
       <pubDate>Fri, 18 Oct 2019 21:50:07 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/033-FKPR2UPT</link>
       <content:encoded><![CDATA[<ul><li><a href="https://youtu.be/AbgsfeGvg3E?t=230">Kevlin Henneys Talk "Old is the New New"</a> u.a über Algol vs Functional Programming</li><li><a href="https://twitter.com/noop_noob/status/1183234844534304769">Go with Preprocessor</a></li><li><a href="https://twitter.com/ekuber/status/1184982510473596929">rust-swift-interop</a></li><li><a href="https://github.com/kiliankoe/MensaDresden">Mensa Dresden</a> in <a href="https://developer.apple.com/documentation/swiftui">SwiftUI</a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme">Dark Mode im Browser</a></li><li><a href="http://hallo-swift.de/">Hallo Swift</a></li><li><a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioContext">WebAudio</a> & <a href="https://www.youtube.com/watch?v=_yt89v0S1MA">GitarrenEffekt in JavaScript</a> & <a href="https://people.xiph.org/~jm/demo/rnnoise/">RNNoise</a></li><li><a href="https://rocket.rs/">rocket</a> <a href="https://tokio.rs/">tokio</a> <a href="https://github.com/seanmonstar/warp">warp</a></li><li><a href="https://openmensa.org">open mensa</a></li><li><a href="https://maraphones.com/">Mara Phones</a></li><li><a href="https://dri.es/headless-cms-rest-vs-jsonapi-vs-graphql">REST vs JSON:API vs GraphQL</a></li><li><a href="https://www.krankygeek.com/">Kranky Geek</a> watching in Dresden (kommt noch)</li><li><a href="http://cpp-ug-dresden.blogspot.com/">C++ UG Dresden</a></li><li><a href="https://twitter.com/ekuber/status/1184957619154247680">https://twitter.com/ekuber/status/1184957619154247680</a></li><li><a href="https://pythoninsider.blogspot.com/2019/10/python-380-is-now-available.html">Python 3.8</a></li><li><a href="https://gist.github.com/RobertAKARobin/a1cba47d62c009a378121398cc5477ea">Python Is Not A Great Programming Language</a></li></ul><h2>Github Stars</h2><ul><li><a href="https://async.rs/">async-std</a></li><li><a href="https://github.com/nagix/mini-tokyo-3d">mini tokyo 3d</a></li><li>Manni App für <a href="https://apps.apple.com/us/app/manni/id1347527695?l=de&amp;ls=1">iOS</a> und <a href="https://play.google.com/store/apps/details?id=philippmatthes.com.manni">Android</a></li><li><a href="https://github.com/danieldulaney/xkcdfs">xkcdfs</a></li><li><a href="https://github.com/mozilla/grcov">grcov</a> / kcov / <a href="https://github.com/kennytm/cargo-kcov">cargo-kcov</a></li><li><a href="https://github.com/rustswift/swift-bindgen">swift-bindgen</a>/<a href="https://github.com/getditto/rust-bitcode">rust-bitcode</a></li></ul><h2>Podcastempfehlung</h2><ul><li><a href="https://www.theofficeladies.com">Office Ladies</a></li><li><a href="https://www.thematrixminute.one/">Matrix by the Minute</a></li><li><a href="http://rickandmorty.radio-castriert.de/">Rick and Morty</a></li><li><a href="https://podcasts.apple.com/us/podcast/the-chernobyl-podcast/id1459712981">Chernobyl Podcast</a></li><li><a href="https://compendion.net/fireflycast/">FireFlyPodcast</a></li><li><a href="https://www.hoaxilla.com/">Hoaxilla</a></li></ul><p><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.rGK_RkJwtdbAmbJf5sgSLQHaE8%26pid%3DApi&amp;f=1" alt="Braco" /></p><h2>Alternative Titel</h2><ul><li>teaPotOS</li><li>studente</li><li>falsyness</li><li>generische Monaden</li><li>Mittelalter Github</li><li>Verboten</li><li>Meetups, Parteien und andere Religionsgemeinschaften</li><li>Fixing bugs on prod like a pro</li><li>Lowrider-Straßenbahn</li><li>fefe coverage</li></ul>
 ]]></content:encoded>
@@ -723,7 +723,7 @@
 </ul>
 ]]></description>
       <pubDate>Tue, 10 Sep 2019 06:31:16 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/032-pJK1NiOY</link>
       <content:encoded><![CDATA[<h2>Shownotes</h2>
 <ul>
@@ -809,7 +809,7 @@
 </ul>
 ]]></description>
       <pubDate>Mon, 12 Aug 2019 17:36:20 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/031-cK9nYvic</link>
       <content:encoded><![CDATA[<h2>ShowNotes</h2>
 <ul>
@@ -866,7 +866,7 @@ https://addons.mozilla.org/en-US/firefox/addon/panorama-view/#&amp;gid=1&amp;pid
 https://github.com/entropic-dev/entropic</p>
 ]]></description>
       <pubDate>Tue, 23 Jul 2019 20:34:03 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/030-ngVp_pz2</link>
       <content:encoded><![CDATA[<h2>links</h2>
 <p>https://apolloinrealtime.org/11/<br />
@@ -926,7 +926,7 @@ https://github.com/entropic-dev/entropic</p>
 </ul>
 ]]></description>
       <pubDate>Tue, 18 Jun 2019 22:36:45 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Kilian &amp; Hendrik)</author>
+      <author>mail@akronymisier.bar (Kilian &amp; Hendrik)</author>
       <link>https://akronymisier.bar/episodes/029-BPuB09er</link>
       <content:encoded><![CDATA[<h1>Shownotes</h1>
 <ul>
@@ -1015,7 +1015,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 <p>Schreibt uns in <a href="https://matrix.to/#/#akronymisierbar:matrix.org">#akronymisierbar:matrix.org</a>.</p>
 ]]></description>
       <pubDate>Thu, 2 May 2019 09:12:28 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Kilian &amp; Hendrik)</author>
+      <author>mail@akronymisier.bar (Kilian &amp; Hendrik)</author>
       <link>https://akronymisier.bar/episodes/028-2y5aTbss</link>
       <content:encoded><![CDATA[<h2>Kilians Zeit in Cupertino</h2>
 <p>https://twitter.com/kiliankoe/status/1054071811132932096</p>
@@ -1086,7 +1086,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 </ul>
 ]]></description>
       <pubDate>Tue, 8 Jan 2019 20:58:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Kilian &amp; Hendrik)</author>
+      <author>mail@akronymisier.bar (Kilian &amp; Hendrik)</author>
       <link>https://akronymisier.bar/episodes/027-jahresruckblick-as-a-service-817ba67c</link>
       <content:encoded><![CDATA[<p>diesmal mit Juls, Steiger, Stefan und Marius</p>
 <ul>
@@ -1138,7 +1138,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 </ul>
 ]]></description>
       <pubDate>Sun, 11 Nov 2018 18:34:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Henrik &amp; Hendrik)</author>
+      <author>mail@akronymisier.bar (Henrik &amp; Hendrik)</author>
       <link>https://akronymisier.bar/episodes/026-alles-ist-ein-bug-fc7febbe</link>
       <content:encoded><![CDATA[<p>Heute mit Henrik Skupin (@whimboo) über's Arbeiten bei Mozilla.</p>
 <ul>
@@ -1181,7 +1181,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 <p>Johannes auf <a href="https://twitter.com/jk70523">Twitter</a> und <a href="https://github.com/jklmnn/">GitHub</a></p>
 ]]></description>
       <pubDate>Wed, 26 Sep 2018 13:15:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Kilian &amp; Hendrik)</author>
+      <author>mail@akronymisier.bar (Kilian &amp; Hendrik)</author>
       <link>https://akronymisier.bar/episodes/025-datenspuren-2018-ee179f57</link>
       <content:encoded><![CDATA[<p>Es waren mal wieder Datenspuren in Dresden. Wir haben uns dieses Mal mit Johannes unterhalten, der einen Vortrag über Ada, Spark und formale Verifikation gehalten hat.</p>
 <h1>Links</h1>
@@ -1235,7 +1235,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 </ul>
 ]]></description>
       <pubDate>Sun, 23 Sep 2018 08:31:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Kilian &amp; Hendrik)</author>
+      <author>mail@akronymisier.bar (Kilian &amp; Hendrik)</author>
       <link>https://akronymisier.bar/episodes/024-survivor-bias-a2f65c16</link>
       <content:encoded><![CDATA[<h3>Links</h3>
 <ul>
@@ -1307,7 +1307,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 </ul>
 ]]></description>
       <pubDate>Fri, 17 Aug 2018 18:25:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Kilian &amp; Hendrik)</author>
+      <author>mail@akronymisier.bar (Kilian &amp; Hendrik)</author>
       <link>https://akronymisier.bar/episodes/022-rant-bubble-ce1cb8b3</link>
       <content:encoded><![CDATA[<p>Heute mit Gast Florian Gilcher (@argorak).</p>
 <p>Florian auf <a href="https://twitter.com/argorak">Twitter</a> und <a href="http://github.com/skade">GitHub</a>.</p>
@@ -1373,7 +1373,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 </ul>
 ]]></description>
       <pubDate>Wed, 8 Aug 2018 10:10:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Kilian &amp; Hendrik)</author>
+      <author>mail@akronymisier.bar (Kilian &amp; Hendrik)</author>
       <link>https://akronymisier.bar/episodes/021-hack-und-slipchat-3acb9637</link>
       <content:encoded><![CDATA[<p>Heute reden wir mal nicht über Programmiersprachen...</p>
 <h2>Shownotes</h2>
@@ -1452,7 +1452,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 </ul>
 ]]></description>
       <pubDate>Sat, 28 Jul 2018 21:20:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Kilian &amp; Hendrik)</author>
+      <author>mail@akronymisier.bar (Kilian &amp; Hendrik)</author>
       <link>https://akronymisier.bar/episodes/020-von-squirting-und-anderen-02fd91af</link>
       <content:encoded><![CDATA[<p>Welcome back to Acronyminizable (or is it Acronymizable?)!</p>
 <p>Nach kurzer Sprachverwirrung heute wieder mit diversen Themen, so wie sonst auch. u.a. Webtechnologien, wohlwollenden Diktatoren und öffentlichem Nahverkehr.</p>
@@ -1577,7 +1577,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 </ul>
 ]]></description>
       <pubDate>Sat, 9 Jun 2018 20:20:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Kilian &amp; Hendrik)</author>
+      <author>mail@akronymisier.bar (Kilian &amp; Hendrik)</author>
       <link>https://akronymisier.bar/episodes/019-ms-github-for-workgroups-37901178</link>
       <content:encoded><![CDATA[<ul>
 <li>
@@ -1687,7 +1687,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 <p>Bonus: <a href="https://www.youtube.com/watch?v=FdS3tjEIqUA">I Am Pressing The Spacebar</a></p>
 ]]></description>
       <pubDate>Tue, 22 May 2018 05:00:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Kilian &amp; Hendrik)</author>
+      <author>mail@akronymisier.bar (Kilian &amp; Hendrik)</author>
       <link>https://akronymisier.bar/episodes/018-100-jahre-hackerkultur-5f8b3a00</link>
       <content:encoded><![CDATA[<h2>Links</h2>
 <ul>
@@ -1764,7 +1764,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 </ul>
 ]]></description>
       <pubDate>Fri, 18 May 2018 13:48:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Kilian &amp; Hendrik)</author>
+      <author>mail@akronymisier.bar (Kilian &amp; Hendrik)</author>
       <link>https://akronymisier.bar/episodes/017-unschuldiges-programmieren-57057aa9</link>
       <content:encoded><![CDATA[<p>Heute tauchen wir zusammen mit unserem Gast Marius in die wunderbare Welt der funktionalen Programmierung ab. Vielen Dank an Marius für die Einblicke! Das war eine beeindruckende Menge Informationen in dafür viel zu kurzer Zeit.</p>
 <h2>Picks</h2>
@@ -1835,7 +1835,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 </ul>
 ]]></description>
       <pubDate>Sat, 7 Apr 2018 10:36:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Kilian &amp; Hendrik)</author>
+      <author>mail@akronymisier.bar (Kilian &amp; Hendrik)</author>
       <link>https://akronymisier.bar/episodes/016-nie-wieder-rosenstolz-8ad9ddb2</link>
       <content:encoded><![CDATA[<p>Willkommen zurück zu eurem Lieblingsbuchempfehlungspodcast!</p>
 <ul>
@@ -1904,7 +1904,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 </ul>
 ]]></description>
       <pubDate>Sun, 25 Feb 2018 17:00:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Kilian &amp; Hendrik)</author>
+      <author>mail@akronymisier.bar (Kilian &amp; Hendrik)</author>
       <link>https://akronymisier.bar/episodes/015-peak-web-30-07154ac8</link>
       <content:encoded><![CDATA[<p>Neue Folge Akronymisierbar, und alle so yeah \o/! Heute geht's bei uns um Bücher aus denen man was lernt, dependency manager, chatbots und jquery.</p>
 <ul>
@@ -1967,7 +1967,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 </ul>
 ]]></description>
       <pubDate>Sun, 28 Jan 2018 22:00:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (Kilian &amp; Hendrik)</author>
+      <author>mail@akronymisier.bar (Kilian &amp; Hendrik)</author>
       <link>https://akronymisier.bar/episodes/014-liebesgrusse-aus-meltdown-c7279bc8</link>
       <content:encoded><![CDATA[<p>Haben uns heute mal wieder zusammengesetzt um u.a. über curl, git Gewohnheiten und JSON zu reden. Viel Spaß mit der Folge!</p>
 <ul>
@@ -2028,7 +2028,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 </ul>
 ]]></description>
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (@kiliankoe &amp; @hoodie_de)</author>
+      <author>mail@akronymisier.bar (@kiliankoe &amp; @hoodie_de)</author>
       <link>https://akronymisier.bar/episodes/013-schmelzkase-9fd81c8f</link>
       <content:encoded><![CDATA[<h1>Schmelzkäse</h1>
 <h2>34c3 Talks</h2>
@@ -2075,7 +2075,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <title>012 - 34c3</title>
       <description>Heute hört ihr mit doppelter Effizienz gleich zwei Podcasts auf einmal. Hallo Swift und wir machen auf dem 34c3 ein joint venture und nehmen zusammen eine Sonderfolge auf. Wir erzählen ein wenig über Erfahrungen und was man so sehen und erleben kann.</description>
       <pubDate>Mon, 1 Jan 2018 00:00:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (@kiliankoe &amp; @hoodie_de)</author>
+      <author>mail@akronymisier.bar (@kiliankoe &amp; @hoodie_de)</author>
       <link>https://akronymisier.bar/episodes/012-34c3-1341d590</link>
       <content:encoded><![CDATA[<h1>tuwat!</h1>
 <p><img src="http://hallo-swift.de/images/34c3.jpg" alt="" /></p>
@@ -2130,7 +2130,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 </ul>
 ]]></description>
       <pubDate>Sun, 24 Dec 2017 00:00:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (@kiliankoe &amp; @hoodie_de)</author>
+      <author>mail@akronymisier.bar (@kiliankoe &amp; @hoodie_de)</author>
       <link>https://akronymisier.bar/episodes/011-code-der-code-generiert-der-code-a092d298</link>
       <content:encoded><![CDATA[<p>Haben uns aus Mangel an Planung doch erstmal wieder mit alter Audiotechnik eingefunden. Sorry für die Qualität, wir werden das hoffentlich irgendwann(tm) mal besser hinbekommen. Wir quatschen heute u.a. über Konferenzen, Weihnachtsgeschenke und WebAssembly. Am Ende schaut sogar spontan noch ein Steigr vorbei!</p>
 <ul>
@@ -2203,7 +2203,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 </ul>
 ]]></description>
       <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (@kiliankoe &amp; @hoodie_de)</author>
+      <author>mail@akronymisier.bar (@kiliankoe &amp; @hoodie_de)</author>
       <link>https://akronymisier.bar/episodes/010-datenspuren-97ec18b5</link>
       <content:encoded><![CDATA[<h1>Akronymisierbar 010 - Datenspuren</h1>
 <p>Diesmal waren wir zu Gast auf den Datenspuren in Technischen Sammlungen haben wir in einem echten Vintage DDR Tonstudio aufgenommen.</p>
@@ -2287,7 +2287,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 </ul>
 ]]></description>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (@kiliankoe &amp; @hoodie_de)</author>
+      <author>mail@akronymisier.bar (@kiliankoe &amp; @hoodie_de)</author>
       <link>https://akronymisier.bar/episodes/009-tu-967d3b8c</link>
       <content:encoded><![CDATA[<ul>
 <li>Ten most popular fonts: https://blog.checkio.org/top-10-most-popular-coding-fonts-5f6e65282266</li>
@@ -2340,7 +2340,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 </ul>
 ]]></description>
       <pubDate>Sun, 6 Aug 2017 00:00:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (@kiliankoe &amp; @hoodie_de)</author>
+      <author>mail@akronymisier.bar (@kiliankoe &amp; @hoodie_de)</author>
       <link>https://akronymisier.bar/episodes/008-spoiler-alert-3fef8400</link>
       <content:encoded><![CDATA[<p>Rick and Morty ist mittlerweile übrigens weitergegangen! http://whatthefuckisethereum.com (GitHub)</p>
 <p>#Stars:</p>
@@ -2386,7 +2386,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 </ul>
 ]]></description>
       <pubDate>Mon, 3 Jul 2017 00:00:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (@kiliankoe &amp; @hoodie_de)</author>
+      <author>mail@akronymisier.bar (@kiliankoe &amp; @hoodie_de)</author>
       <link>https://akronymisier.bar/episodes/007-nackt-0804b461</link>
       <content:encoded><![CDATA[<h1>Akronymisierbar 007</h1>
 <p>Heute mit <a href="https://twitter.com/jupp0r">@jupp0r</a> (<a href="http://jupp.ninja/">http://jupp.ninja/</a>)</p>
@@ -2487,7 +2487,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 <p>Bitte schreibt uns auf <a href="https://twitter.com/akronymisierbar">https://twitter.com/akronymisierbar</a></p>
 ]]></description>
       <pubDate>Sun, 21 May 2017 00:00:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (@kiliankoe &amp; @hoodie_de)</author>
+      <author>mail@akronymisier.bar (@kiliankoe &amp; @hoodie_de)</author>
       <link>https://akronymisier.bar/episodes/006-level5-7279b3fc</link>
       <content:encoded><![CDATA[<h2>Convose</h2>
 <ul>
@@ -2590,7 +2590,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 </ul>
 ]]></description>
       <pubDate>Sun, 30 Apr 2017 00:00:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (@kiliankoe &amp; @hoodie_de)</author>
+      <author>mail@akronymisier.bar (@kiliankoe &amp; @hoodie_de)</author>
       <link>https://akronymisier.bar/episodes/005-plumbus-d24347a4</link>
       <content:encoded><![CDATA[<p>Wir sitzen heute auf dem MobileCamp 2017 und plaudern wieder über $Dinge. Hauptsächlich über das MobileCamp selbst, ein paar komische online zu erwerbende Produkte, unsere aktuellen Lieblingsprojekte auf GitHub und kurz über Versionsnummern. Nicht wundern, auf unserer tollen neuen Seite ist bisher leider noch nicht viel zu sehen. Kommt noch!</p>
 <p>GitHub Stars:</p>
@@ -2659,7 +2659,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 </ul>
 ]]></description>
       <pubDate>Sat, 29 Apr 2017 00:00:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (@kiliankoe &amp; @hoodie_de)</author>
+      <author>mail@akronymisier.bar (@kiliankoe &amp; @hoodie_de)</author>
       <link>https://akronymisier.bar/episodes/004-lolstories-49df92ea</link>
       <content:encoded><![CDATA[<p>Nebst diversen Abweichungen (dafür sind wir ja mittlerweile quasi bekannt) geht's heute um Mastodon, Electron, XMPP und Saftpressen. Spannung ensues!</p>
 <p>GitHub Stars:</p>
@@ -2710,7 +2710,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <title>003 - Whatever</title>
       <description>Wir reden heute (auch ordentlich zu dritt!) über Aprilscherze, beschissene Messenger, Kexts auf macOS und natürlich wieder ein paar random GitHub Repos. Wie Hendrik in der Folge korrekt anmerkt, unsere Gespräche sind eher ne Tiefensuche.</description>
       <pubDate>Thu, 6 Apr 2017 00:00:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (@kiliankoe &amp; @hoodie_de)</author>
+      <author>mail@akronymisier.bar (@kiliankoe &amp; @hoodie_de)</author>
       <link>https://akronymisier.bar/episodes/003-whatever-61f26545</link>
       <content:encoded><![CDATA[<p>Wir reden heute (wieder und dieses mal auch ordentlich zu dritt!) über Aprilscherze, beschissene Messenger, Kexts auf macOS und natürlich wieder ein paar random GitHub Projekte. Nebst viel anderem Kram nebenher. Wie Hendrik in der Folge sicherlich korrekt anmerkt, unsere Gespräche sind eher ne Tiefensuche.</p>
 <p>Versprochene Links:</p>
@@ -2758,7 +2758,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 <p>Zu Gast heute: Steigr \o/ https://twitter.com/steigr</p>
 ]]></description>
       <pubDate>Fri, 10 Mar 2017 00:00:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (@kiliankoe &amp; @hoodie_de)</author>
+      <author>mail@akronymisier.bar (@kiliankoe &amp; @hoodie_de)</author>
       <link>https://akronymisier.bar/episodes/002-bullshitty-inc-e6ed20ba</link>
       <content:encoded><![CDATA[<p>https://github.com/kiliankoe/vvo</p>
 <h2>GitHub ⭐ der Woche</h2>
@@ -2801,7 +2801,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
 </ul>
 ]]></description>
       <pubDate>Thu, 9 Feb 2017 00:00:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (@kiliankoe &amp; @hoodie_de)</author>
+      <author>mail@akronymisier.bar (@kiliankoe &amp; @hoodie_de)</author>
       <link>https://akronymisier.bar/episodes/001-trollfutterungszeit-8de7ad47</link>
       <content:encoded><![CDATA[<p>Links, so viele Links.</p>
 <ul>
@@ -2831,7 +2831,7 @@ https://twitter.com/TheAmyCode/status/1118880420232351744</p>
       <title>000 - Nullnummer</title>
       <description>Wir machen jetzt einen Podcast 😱</description>
       <pubDate>Sun, 15 Jan 2017 00:00:00 +0000</pubDate>
-      <author>akronymisierbar@fastmail.com (@kiliankoe &amp; @hoodie_de)</author>
+      <author>mail@akronymisier.bar (@kiliankoe &amp; @hoodie_de)</author>
       <link>https://akronymisier.bar/episodes/000-nullnummer-372a8996</link>
       <content:encoded><![CDATA[
 <ul>

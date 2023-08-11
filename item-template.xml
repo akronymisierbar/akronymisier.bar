@@ -3,7 +3,7 @@
   <title>{title}</title>
   <description>{description}</description>
   <pubDate>{pubDate}</pubDate>
-  <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
+  <author>mail@akronymisier.bar (Akronymisierbar)</author>
   <link>https://akronymisier.bar/{id}</link>
   <content:encoded><![CDATA[
 {content}
