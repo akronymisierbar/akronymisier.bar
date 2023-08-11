@@ -104,7 +104,7 @@ async function assertChaptermarks(item: any) {
     `https://kkw.lol/k/akb/${num(item)}.chapters.txt`,
     { method: "HEAD" }
   );
-  if (!resTXT.ok && !item["podcast:chapters"]) {
+  if (resTXT.ok && !item["podcast:chapters"]) {
     err(`${num(item)} has chapter marks, but no podcast:chapters tag.`);
   }
 
