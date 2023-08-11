@@ -90,12 +90,19 @@ function assertExistenceOfAlliTunesTags(item: any) {
 
 // deno-lint-ignore no-explicit-any
 async function assertChaptermarks(item: any) {
-  const res = await fetch(
+  const resTXT = await fetch(
     `https://kkw.lol/k/akb/${num(item)}.chapters.txt`,
     { method: "HEAD" }
   );
-  if (!res.ok && !item["podcast:chapters"]) {
+  if (!resTXT.ok && !item["podcast:chapters"]) {
     err(`${num(item)} has chapter marks, but no podcast:chapters tag.`);
+  }
+
+  if (item["podcast:chapters"]) {
+    const resJSON = await fetch(item["podcast:chapters"]["@url"], { method: "HEAD" });
+    if (!resJSON.ok) {
+      err(`${num(item)} lists json chapter marks, but they're not available.`);
+    }
   }
 }
 
