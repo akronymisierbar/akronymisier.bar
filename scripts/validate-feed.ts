@@ -59,6 +59,9 @@ function assertTitle(item: any) {
       `${num(item)} should match itunes:title ${item["itunes:title"]}`
     );
   }
+  if (item.title.slice(0, 3) !== num(item)) {
+    err(`${num(item)}'s title number and episode number don't match: ${item.title.slice(0, 3)} and ${num(item)}`);
+  }
 }
 
 // deno-lint-ignore no-explicit-any
