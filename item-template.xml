@@ -5,9 +5,7 @@
   <pubDate>{pubDate}</pubDate>
   <author>mail@akronymisier.bar (Akronymisierbar)</author>
   <link>https://akronymisier.bar/{id}</link>
-  <content:encoded><![CDATA[
-{content}
-]]></content:encoded>
+  <content:encoded><![CDATA[{content}]]></content:encoded>
   <enclosure length="{length}" type="audio/mpeg" url="https://kkw.lol/k/akb/{id}.mp3"/>
   <itunes:title>{title}</itunes:title>
   <itunes:author>Akronymisierbar</itunes:author>
