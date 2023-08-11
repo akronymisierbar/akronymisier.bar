@@ -12,16 +12,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/github-script@v6
-        with:
-          script: |
-            const podbaseURL = "https://podba.se/?url=https://raw.githubusercontent.com/akronymisierbar/akronymisier.bar/${{ github.sha }}/public/feed.rss"
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `Looks like you made a change to the RSS feed. Aside from the automatic checks, please also check [podbase's feed validator](${podbaseURL}), thanks!`
-            })
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
@@ -34,4 +24,15 @@ jobs:
         run: npm run lint:feed public/feed.rss
       - name: Validate feed against W3C RSS Feed Validator
         run: npm run lint:feed-w3c https://validator.w3.org/feed/check.cgi?url=https://raw.githubusercontent.com/akronymisierbar/akronymisier.bar/${{ github.sha }}/public/feed.rss
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            const podbaseURL = "https://podba.se/?url=https://raw.githubusercontent.com/akronymisierbar/akronymisier.bar/${{ github.sha }}/public/feed.rss"
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `Looks like you made a change to the RSS feed. Aside from the automatic checks, please also check [podbase's feed validator](${podbaseURL}), thanks!`
+            })
+      
       
