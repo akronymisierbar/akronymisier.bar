@@ -9,9 +9,7 @@ function err(text: string) {
   console.error(text);
 }
 
-function num(item: Item) {
-  return item["itunes:episode"].toString().padStart(3, "0");
-}
+
 
 async function assertEnclosure(item: Item) {
   if (!item.enclosure["@url"].startsWith("https://kkw.lol")) {

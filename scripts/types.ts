@@ -20,6 +20,10 @@ export interface Item {
   "podcast:socialInteract"?: SocialInteract;
 }
 
+export function num(item: Item) {
+  return item["itunes:episode"].toString().padStart(3, "0");
+}
+
 interface Guid {
   "@isPermaLink": boolean;
   "#text": string;
