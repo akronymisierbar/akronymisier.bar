@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:feed": "deno run --allow-read --allow-net scripts/validate-feed.ts",
     "lint:feed-w3c": "deno run --allow-net scripts/validate-feed-w3c.ts",
     "preview": "vite preview"
   },
