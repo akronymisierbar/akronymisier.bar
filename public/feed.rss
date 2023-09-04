@@ -24,8 +24,8 @@
     <podcast:block id="spotify">yes</podcast:block>
 
     <!-- UPDATE ME -->
-    <pubDate>Thu, 10 Aug 2023 16:59:29 +0000</pubDate>
-    <lastBuildDate>Thu, 10 Aug 2023 16:59:29 +0000</lastBuildDate>
+    <pubDate>Mon, 04 Sep 2023 20:00:00 +0000</pubDate>
+    <lastBuildDate>Mon, 04 Sep 2023 20:00:00 +0000</lastBuildDate>
     <!-- UPDATE ME -->
 
     <image>
@@ -48,6 +48,26 @@
     </itunes:owner>
     <itunes:category text="Technology"/>
     <itunes:category text="Leisure"/>
+
+    <item>
+      <guid isPermaLink="false">01f3579e-423d-4e5c-8289-61acc5a4b827</guid>
+      <title>056 - 8 Bit sind nicht viele Bit</title>
+      <description>Ada, Rust und Frame.work mit Johannes.</description>
+      <pubDate>Mon, 04 Sep 2023 20:00:00 +0000</pubDate>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
+      <link>https://akronymisier.bar/056</link>
+      <content:encoded><![CDATA[<p>Johannes war heute mal wieder zu Besuch, zu letzt bekannt aus <a href="https://akronymisier.bar/025">Folge 025</a>.</p><h3 id="links">Links</h3><ul><li><a href="https://github.com/serde-rs/serde">serde-rs/serde</a></li><li><a href="https://github.com/serde-rs/serde/issues/2538">serde ships pre compiled proc-macros</a></li><li><a href="https://fosstodon.org/@mo8it/110923157910185612">people were blockt</a></li><li><a href="https://github.com/commons-rs/serde-deblobbed">serde deblobbed</a></li><li><a href="https://github.com/serde-rs/serde/releases/tag/v1.0.184">Restore from-source serde_derive build on all platforms</a></li><li><a href="https://internals.rust-lang.org/t/pre-rfc-sandboxed-deterministic-reproducible-efficient-wasm-compilation-of-proc-macros/19359">Pre-RFC: Sandboxed, deterministic, reproducible, efficient Wasm compilation of proc macros</a></li><li><a href="https://www2.seas.gwu.edu/~mfeldman/ada-project-summary.html">Ada Project Summary</a></li><li><a href="https://alire.ada.dev/">alire</a></li><li><a href="https://github.com/AdaCore/Ada_Drivers_Library">Ada Drivers Library</a></li><li><a href="https://alire.ada.dev/crates/hal.html">HAL</a></li><li><a href="https://github.com/jklmnn/gpr-rust">jklmnn/gpr-rust</a></li><li><a href="https://frame.work">frame.work</a></li></ul><h3 id="picks">Picks</h3><ul><li><a href="https://github.com/carvilsi/flipper0-wifi-map">carvilsi/flipper0-wifi-map</a></li><li><a href="https://www.adacore.com/uploads/techPapers/232867-adacore-record-flux-tech-paper-v10.pdf">AdaCore RecordFlux Paper</a></li><li><a href="https://github.com/cat-milk/Anime-Girls-Holding-Programming-Books">cat-milk/Anime-Girls-Holding-Programming-Books</a></li><li><a href="https://feed-me-up-scotty.vincenttunru.com/">Feed me up, Scotty!</a></li><li><a href="https://github.com/BelfrySCAD/BOSL2">BelfrySCAD/BOSL2</a> &amp; <a href="https://github.com/DSchroer/openscad-wasm">DSchroer/openscad-wasm</a></li></ul><h3 id="alternative-title">Alternative title</h3><ul><li>all layouts are beautiful</li><li>griechisch Stunde</li><li>isch &#39;abe gar keinen &#39;eap</li></ul>]]></content:encoded>
+      <enclosure length="216993001" type="audio/mpeg" url="https://kkw.lol/k/akb/056.mp3"/>
+      <itunes:title>056 - 8 bit sind nicht viele Bit</itunes:title>
+      <itunes:author>Akronymisierbar</itunes:author>
+      <itunes:duration>02:30:11</itunes:duration>
+      <itunes:summary>Ada, Rust und Frame.work mit Johannes.</itunes:summary>
+      <itunes:subtitle>Ada, Rust und Frame.work mit Johannes.</itunes:subtitle>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>56</itunes:episode>
+      <podcast:chapters url="https://kkw.lol/k/akb/056.chapters.json" type="application/json+chapters" />
+    </item>
 
     <item>
       <guid isPermaLink="false">8d7e8d3e-335a-4329-bd12-5995f18cda7c</guid>
