@@ -24,8 +24,8 @@
     <podcast:block id="spotify">yes</podcast:block>
 
     <!-- UPDATE ME -->
-    <pubDate>Sat, 03 Feb 2024 14:00:00 +0000</pubDate>
-    <lastBuildDate>Sat, 03 Feb 2024 14:00:00 +0000</lastBuildDate>
+    <pubDate>Tue, 20 Feb 2024 17:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 20 Feb 2024 17:00:00 +0000</lastBuildDate>
     <!-- UPDATE ME -->
 
     <image>
@@ -48,6 +48,26 @@
     </itunes:owner>
     <itunes:category text="Technology"/>
     <itunes:category text="Leisure"/>
+
+    <item>
+      <guid isPermaLink="false">c838013d-f12d-47c2-bd18-1299cf78a928</guid>
+      <title>057 - Quantum</title>
+      <description>Von Minecraft-Löchern und Heimassistenten</description>
+      <pubDate>Tue, 20 Feb 2024 17:00:00 +0000</pubDate>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
+      <link>https://akronymisier.bar/057</link>
+      <content:encoded><![CDATA[<p>Unser beider Minecraft Relapse (Kilian wohnt sogar schon in einer Höhle)<h3 id=home-assistant>Home Assistant</h3><ul><li><a href=https://www.home-assistant.io/ >https://www.home-assistant.io/</a><li><a href=https://aranet.com/ >Aranet Sensors</a><li><a href=https://phoscon.de/en/conbee2>conbee2</a><li><a href=https://www.home-assistant.io/integrations/zha/ >zha</a><li><a href=https://www.home-assistant.io/blog/2024/01/25/matter-livestream-blog/ >State of Matter</a><li>Home Assistant meets minecraft <a href=https://codestian.github.io/HomeAssistantMC/ >HomeAssistantMC</a> und <a href=https://gitlab.com/klikini/mineassistant/-/tree/trunk>MineAssistant</a></ul><h3 id=picks>Picks</h3><ul><li>Hendrik<ul><li><a href="https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets">VSCode Pets</a><li><a href=https://github.com/qjcg/awesome-typst>Awesome Typst</a></ul><li>Kilian<ul><li><a href=https://github.com/arcataroger/awesome-engineering-games>arcataroger/awesome-engineering-games</a><li><a href=https://github.com/mawerty/Is-Prime>mawerty/Is-Prime</a></ul></ul><h3 id=veritasium-videos>Veritasium Videos</h3><ul><li><a href="https://www.youtube.com/watch?v=AF8d72mA41M&pp=ygUKdmVyaXRhc2l1bQ%3D%3D">Why It Was Almost Impossible to Make the Blue LED</a><li><a href="https://www.youtube.com/watch?v=mScpHTIi-kM">What Game Theory Reveals About Life The Universe and Everything</a></ul>]]></content:encoded>
+      <enclosure length="148007040" type="audio/mpeg" url="https://kkw.lol/k/akb/057.mp3"/>
+      <itunes:title>057 - Quantum</itunes:title>
+      <itunes:author>Akronymisierbar</itunes:author>
+      <itunes:duration>01:42:24</itunes:duration>
+      <itunes:summary>Von Minecraft-Löchern und Heimassistenten</itunes:summary>
+      <itunes:subtitle>Von Minecraft-Löchern und Heimassistenten</itunes:subtitle>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>57</itunes:episode>
+      <podcast:chapters url="https://kkw.lol/k/akb/057.chapters.json" type="application/json+chapters" />
+    </item>
 
     <item>
       <guid isPermaLink="false">01f3579e-423d-4e5c-8289-61acc5a4b827</guid>
