@@ -67,6 +67,7 @@
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>58</itunes:episode>
       <podcast:chapters url="https://kkw.lol/k/akb/058.chapters.json" type="application/json+chapters" />
+      <podcast:socialInteract uri="https://chaos.social/@akronymisierbar/112245955967347271" protocol="activitypub" accountId="@akronymisierbar" accountUrl="https://chaos.social/@akronymisierbar" />
     </item>
 
     <item>
