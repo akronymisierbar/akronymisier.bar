@@ -232,14 +232,14 @@
     <item>
       <guid isPermaLink="false">3e349a74-c790-495c-9682-5c96a0d6e12b</guid>
       <title>051 - Linux im Rust Kernel</title>
-      <description>Linux im Rust Kernel mit Jörg und Finn.</description>
+      <description>Linux im Rust Kernel mit Jörg und Fiona.</description>
       <pubDate>Wed, 28 Jul 2021 21:19:19 +0000</pubDate>
       <author>akronymisierbar@fastmail.com (Akronymisierbar)</author>
       <link>https://akronymisier.bar/episodes/051-lQaA_9Jq</link>
       <content:encoded><![CDATA[
 <p>
   Linux im Rust Kernel mit <a href="http://github.com/Mic92">Jörg</a> und
-  <a href="http://github.com/kloenk">Finn</a>.
+  <a href="http://github.com/kloenk">Fiona</a>.
 </p>
 <h3>Links</h3>
 <ul>
@@ -247,6 +247,7 @@
     <a href="https://github.com/fishinabarrel/linux-kernel-module-rust">linux kernel module rust</a
     >
   </li>
+  <li><a href="https://rust-for-linux.com/">rust-for-linux.com</a></li>
   <li><a href="https://wiki.linuxfoundation.org/llvmlinux">llvmlinux</a></li>
   <li><a href="https://github.com/google/syzkaller">google syzkaller</a></li>
   <li><a href="https://sourcehut.org/">sourcehut</a></li>
@@ -277,8 +278,8 @@
       <itunes:title>051 - Linux im Rust Kernel</itunes:title>
       <itunes:author>Akronymisierbar</itunes:author>
       <itunes:duration>02:02:11</itunes:duration>
-      <itunes:summary>Linux im Rust Kernel mit Jörg und Finn.</itunes:summary>
-      <itunes:subtitle>Linux im Rust Kernel mit Jörg und Finn.</itunes:subtitle>
+      <itunes:summary>Linux im Rust Kernel mit Jörg und Fiona.</itunes:summary>
+      <itunes:subtitle>Linux im Rust Kernel mit Jörg und Fiona.</itunes:subtitle>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>51</itunes:episode>
