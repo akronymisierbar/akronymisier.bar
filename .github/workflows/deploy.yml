@@ -6,26 +6,26 @@ permissions:
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '20'
-        cache: 'npm'
-    - run: npm ci
-    - run: npm run lint
-    - run: npm run build
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v1
-      with:
-        path: ./dist
-    - name: Deploy GitHub Pages site
-      uses: actions/deploy-pages@v2.0.2
-      with:
-        token: ${{ github.token }}
+      - uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+          cache: "npm"
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          path: ./dist
+      - name: Deploy GitHub Pages site
+        uses: actions/deploy-pages@v2.0.2
+        with:
+          token: ${{ github.token }}
