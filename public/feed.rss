@@ -24,8 +24,8 @@
     <podcast:block id="spotify">yes</podcast:block>
 
     <!-- UPDATE ME -->
-    <pubDate>Wed, 10 Apr 2024 08:00:00 +0000</pubDate>
-    <lastBuildDate>Wed, 10 Apr 2024 08:00:00 +0000</lastBuildDate>
+    <pubDate>Wed, 30 Jul 2025 08:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 30 Jul 2025 08:00:00 +0000</lastBuildDate>
     <!-- UPDATE ME -->
 
     <image>
@@ -48,6 +48,26 @@
     </itunes:owner>
     <itunes:category text="Technology"/>
     <itunes:category text="Leisure"/>
+
+    <item>
+      <guid isPermaLink="false">02b1d6fd-55f8-4042-9d0e-dafece292763</guid>
+      <title>059 - Folge 26</title>
+      <description>Akronymisierbar 2026 mit Browsern, Spracherkennung, Android und einer extra Portion Slop.</description>
+      <pubDate>Wed, 30 Jul 2025 08:00:00 +0000</pubDate>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
+      <link>https://akronymisier.bar/059</link>
+      <content:encoded><![CDATA[<h3 id=links>Links</h3><ul><li>notebook llm<li>quarks daily<li><a href=https://en.wikipedia.org/wiki/Wilhelm_scream>Wilhelm_scream</a><li><a href="https://rakhim.org/honestly-undefined/19/">Blogging vs. blog setups</a><li><a href=https://arc.net/ >Arc</a> bis <a href=https://zen-browser.app/ >Zen</a><li><a href="https://www.youtube.com/watch?v=mmjUlFIaNLE">firefox is hard to love</a><li><a href=https://crates.io/crates/hannibal/ >hannibal 0.12</a><li><a href=https://marcoshuerta.com/dash/atp_search/ >ATP Volltextsuche</a><li><a href=https://github.com/openai/whisper>whisper</a><li><a href=https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2>Nvidia Parakeet v2</a><li><a href=https://plasma-mobile.org/ >plasma mobile</a><li><a href=https://kdeconnect.kde.org/ >kdeconnect</a><li><a href=https://grapheneos.org/ >GrapheneOS</a><li><a href=https://immich.app/ >immich</a><li><a href=https://velvetshark.com/ai-company-logos-that-look-like-buttholes>Why do AI company logos look like buttholes?</a><li><a href=https://lap.dev/lapce/ >lapce</a></ul><h3 id=picks>Picks</h3><ul><li><a href=https://zed.dev/ >zed</a><li><a href=https://tailscale.com/ >TailScale</a><li><a href=https://headscale.net/stable/ >headscale</a><li><a href=https://github.com/t-mart/kill-sticky>kill-sticky</a><li><a href=https://borgo-lang.github.io/ >borgo-lang</a></ul><h3 id=alternative-titel>Alternative Titel</h3><ul><li>Folge 26<li>AIkronymisierbar<li>RAGronymisierbar<li>Slopfatigue<li>jedes logo ist ein butthole<li>101h Akronymisierbar</ul>]]></content:encoded>
+      <enclosure length="175383211" type="audio/mpeg" url="https://kkw.lol/k/akb/059.mp3"/>
+      <itunes:title>059 - Folge 26</itunes:title>
+      <itunes:author>Akronymisierbar</itunes:author>
+      <itunes:duration>02:01:46</itunes:duration>
+      <itunes:summary>Akronymisierbar 2026 mit Browsern, Spracherkennung, Android und einer extra Portion Slop.</itunes:summary>
+      <itunes:subtitle>Akronymisierbar 2026 mit Browsern, Spracherkennung, Android und einer extra Portion Slop.</itunes:subtitle>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>59</itunes:episode>
+      <podcast:chapters url="https://kkw.lol/k/akb/059.chapters.json" type="application/json+chapters" />
+    </item>
 
     <item>
       <guid isPermaLink="false">d94a3abb-9b77-4eec-8871-5705115724be</guid>
