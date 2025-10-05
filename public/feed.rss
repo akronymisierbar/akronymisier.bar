@@ -24,8 +24,8 @@
     <podcast:block id="spotify">yes</podcast:block>
 
     <!-- UPDATE ME -->
-    <pubDate>Thu, 31 Jul 2025 08:00:00 +0000</pubDate>
-    <lastBuildDate>Thu, 31 Jul 2025 08:00:00 +0000</lastBuildDate>
+    <pubDate>Sun, 05 Oct 2025 17:00:00 +0000</pubDate>
+    <lastBuildDate>Sun, 05 Oct 2025 17:00:00 +0000</lastBuildDate>
     <!-- UPDATE ME -->
 
     <image>
@@ -48,6 +48,27 @@
     </itunes:owner>
     <itunes:category text="Technology"/>
     <itunes:category text="Leisure"/>
+
+    <item>
+      <guid isPermaLink="false">270bee1e-ee13-4bc3-94f2-ace634d6fd33</guid>
+      <title>060 - Reboot Politics ÷ Akronymisierbar</title>
+      <description>Crossover der beiden Podcasts Reboot Politics und Akronymisierbar.</description>
+      <pubDate>Fri, 19 Sep 2025 22:00:00 +0000</pubDate>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
+      <link>https://akronymisier.bar/060</link>
+      <content:encoded><![CDATA[Technik, Politik und ganz viel Drumherum. Wir reden in dieser Folge vor allem über KI – von allen Richtungen betrachtet.]]></content:encoded>
+      <enclosure length="91008639" type="audio/mpeg" url="https://kkw.lol/k/akb/060.mp3"/>
+      <itunes:title>060 - Reboot Politics ÷ Akronymisierbar</itunes:title>
+      <itunes:author>Akronymisierbar</itunes:author>
+      <itunes:duration>01:03:09</itunes:duration>
+      <itunes:summary>Crossover der beiden Podcasts Reboot Politics und Akronymisierbar.</itunes:summary>
+      <itunes:subtitle>Crossover der beiden Podcasts Reboot Politics und Akronymisierbar.</itunes:subtitle>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>60</itunes:episode>
+      <podcast:chapters url="https://kkw.lol/k/akb/060.chapters.json" type="application/json+chapters" />
+      <podcast:socialInteract uri="https://dresden.network/@ueckueck/115085132439297083" protocol="activitypub" accountId="@ueckueck" accountUrl="https://dresden.network/@ueckueck" />
+    </item>
 
     <item>
       <guid isPermaLink="false">02b1d6fd-55f8-4042-9d0e-dafece292763</guid>
