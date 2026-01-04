@@ -24,8 +24,8 @@
     <podcast:block id="spotify">yes</podcast:block>
 
     <!-- UPDATE ME -->
-    <pubDate>Sun, 05 Oct 2025 15:00:00 +0000</pubDate>
-    <lastBuildDate>Sun, 05 Oct 2025 15:00:00 +0000</lastBuildDate>
+    <pubDate>Sun, 04 Jan 2026 19:00:00 +0000</pubDate>
+    <lastBuildDate>Sun, 04 Jan 2026 19:00:00 +0000</lastBuildDate>
     <!-- UPDATE ME -->
 
     <image>
@@ -48,6 +48,26 @@
     </itunes:owner>
     <itunes:category text="Technology"/>
     <itunes:category text="Leisure"/>
+    
+    <item>
+      <guid isPermaLink="false">93dc46b5-07d2-4a2f-ac4a-3db5b59fe396</guid>
+      <title>061 - Kraftradeln</title>
+      <description>Live und in Farbe mit mcnesium vom 39c3.</description>
+      <pubDate>Sun, 04 Jan 2026 19:00:00 +0000</pubDate>
+      <author>mail@akronymisier.bar (Akronymisierbar)</author>
+      <link>https://akronymisier.bar/061</link>
+      <content:encoded><![CDATA[<h3 id=links>Links</h3><ul><li>Kilian und Hendrik und Mcnesium auf dem <a href=https://media.ccc.de/c/39c3>39C3</a> aus dem <a href=https://das-sendezentrum.de/das-sendezentrum-auf-dem-39c3/ >Sendezentrum</a><li>direkt im Anschluss an <a href=https://regines-radsalon.de/ >Regines Radsalon</a><li><a href=https://meshtastic.org/ >meshtastic</a><li><a href=https://www.iroh.computer/ >iroh</a> <a href=https://github.com/n0-computer/iroh-workshop-39c3>workshop</a><li><a href=https://fahrplan.events.ccc.de/congress/2025/fahrplan/event/the-art-of-text-rendering>The Art of Text (Rendering)</a><li><a href=https://media.ccc.de/v/39c3-gegenmacht-best-of-informationsfreiheit>Arne Semsrott: Gegenmacht - Best of Informationsfreiheit</a><li><a href=https://media.ccc.de/v/39c3-zps-ein-jahr-adenauer-srp-und-mehr>ZPS SRP+</a><li><a href=https://cornfieldelectronics.com/cfe/projects.php>Hardware Workshop</a><li><a href=https://events.ccc.de/2025/11/22/39c3-call-for-angels/ >Call for Angels</a><li><a href=https://events.ccc.de/congress/2025/hub/en/event/detail/punkrock-songtext-lesung>Punkrock-Songtext-Lesung</a><li><a href=https://events.ccc.de/congress/2025/hub/en/event/detail/von-berlin-ins-exil-lieder-der-20er-und-30er-jahre>Von Berlin ins Exil - Lieder der 20er und 30er Jahre</a> (<a href=https://de.wikipedia.org/wiki/Hollywooder_Liederbuch>Hollywood Liederbuch</a>)<li><a href=https://app.media.ccc.de/v/39c3-die-kanguru-rebellion-digital-independence-day>Die Känguru Rebellion</a><li><a href=https://media.ccc.de/v/39c3-gptdash-der-reverse-turing-test>GPTDash</a><li><a href="https://www.youtube.com/watch?v=0obMRztklqU&list=PLPMs1AwAkaViYXfAHlKwJHqc16Jiya_sI">Numberwang</a><li><a href=https://chaospost.de/ >chaospost</a></ul><h3 id=alternative-titel>Alternative Titel</h3><ul><li>enchattification<li>akbdash<li>39C3 dilettantisch zusammengefasst</ul>]]></content:encoded>
+      <enclosure length="58972225" type="audio/mpeg" url="https://kkw.lol/k/akb/061.mp3"/>
+      <itunes:title>061 - Kraftradeln</itunes:title>
+      <itunes:author>Akronymisierbar</itunes:author>
+      <itunes:duration>01:01:19</itunes:duration>
+      <itunes:summary>Live und in Farbe mit mcnesium vom 39c3.</itunes:summary>
+      <itunes:subtitle>Live und in Farbe mit mcnesium vom 39c3.</itunes:subtitle>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>61</itunes:episode>
+      <podcast:chapters url="https://kkw.lol/k/akb/060.chapters.json" type="application/json+chapters" />
+    </item>
 
     <item>
       <guid isPermaLink="false">270bee1e-ee13-4bc3-94f2-ace634d6fd33</guid>
