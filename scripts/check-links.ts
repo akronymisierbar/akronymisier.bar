@@ -29,20 +29,29 @@ interface EpisodeResult {
 }
 
 function extractUrls(content: string): string[] {
-  // Extract URLs from markdown links [text](url) and bare URLs
-  const markdownLinkRegex = /\[([^\]]*)\]\(([^)]+)\)/g;
-  const bareUrlRegex = /(?<![[(])https?:\/\/[^\s<>"')\]]+/g;
-
   const urls = new Set<string>();
 
+  // Match [text](<url>) - angle bracket syntax for URLs with special chars
+  const angleBracketLinkRegex = /\[[^\]]*\]\(<([^>]+)>\)/g;
   let match;
-  while ((match = markdownLinkRegex.exec(content)) !== null) {
-    const url = match[2].trim();
+  while ((match = angleBracketLinkRegex.exec(content)) !== null) {
+    const url = match[1].trim();
     if (url.startsWith("http://") || url.startsWith("https://")) {
       urls.add(url);
     }
   }
 
+  // Match [text](url) - standard markdown links (no nested parens)
+  const standardLinkRegex = /\[[^\]]*\]\(([^)<>\s][^)\s]*)\)/g;
+  while ((match = standardLinkRegex.exec(content)) !== null) {
+    const url = match[1].trim();
+    if (url.startsWith("http://") || url.startsWith("https://")) {
+      urls.add(url);
+    }
+  }
+
+  // Match bare URLs not inside markdown link syntax
+  const bareUrlRegex = /(?<![[(])https?:\/\/[^\s<>"'\]]+/g;
   while ((match = bareUrlRegex.exec(content)) !== null) {
     urls.add(match[0]);
   }
