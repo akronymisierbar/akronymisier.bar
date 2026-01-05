@@ -2,7 +2,7 @@ name: Validate PR
 
 on:
   pull_request:
-    branches: ['**']
+    branches: ["**"]
 
 jobs:
   validate:
@@ -32,7 +32,7 @@ jobs:
       - name: Validate RSS feed (W3C)
         run: |
           deno run --allow-net scripts/validate-feed-w3c.ts \
-            "https://validator.w3.org/feed/check.cgi?url=https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}/public/feed.xml"
+            "https://validator.w3.org/feed/check.cgi?url=https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}/public/feed.rss"
         continue-on-error: true
 
   comment-on-episode-change:
@@ -46,7 +46,7 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const podbaseURL = `https://podba.se/?url=https://raw.githubusercontent.com/${context.repo.owner}/${context.repo.repo}/${context.sha}/public/feed.xml`;
+            const podbaseURL = `https://podba.se/?url=https://raw.githubusercontent.com/${context.repo.owner}/${context.repo.repo}/${context.sha}/public/feed.rss`;
             github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
