@@ -342,6 +342,85 @@ async function main() {
         severity: "warning",
       });
     }
+
+    // === AKB-SPECIFIC ===
+
+    // Title format: NNN - Name
+    const titleRegex = /^\d{3} - .+$/;
+    if (title && !titleRegex.test(title)) {
+      errors.push({
+        category: "AKB",
+        message: `${title}: Title doesn't match format "NNN - Name"`,
+        severity: "error",
+      });
+    }
+
+    // Title number matches itunes:episode
+    const itunesEpisode = getText(item, "itunes:episode");
+    if (title && itunesEpisode) {
+      const titleNum = title.slice(0, 3);
+      const episodeNum = itunesEpisode.padStart(3, "0");
+      if (titleNum !== episodeNum) {
+        errors.push({
+          category: "AKB",
+          message: `${title}: Title number (${titleNum}) doesn't match itunes:episode (${episodeNum})`,
+          severity: "error",
+        });
+      }
+    }
+
+    // pubDate not in future
+    const pubDateStr = getText(item, "pubDate");
+    if (pubDateStr) {
+      const pubDate = new Date(pubDateStr);
+      if (pubDate > new Date()) {
+        errors.push({
+          category: "AKB",
+          message: `${title}: pubDate is in the future`,
+          severity: "error",
+        });
+      }
+    }
+
+    // No <h1> or <h2> in content:encoded
+    const contentEncoded = getText(item, "content:encoded");
+    if (contentEncoded) {
+      if (/<h1[\s>]/i.test(contentEncoded)) {
+        errors.push({
+          category: "AKB",
+          message: `${title}: content:encoded contains <h1> (use <h3> or lower)`,
+          severity: "error",
+        });
+      }
+      if (/<h2[\s>]/i.test(contentEncoded)) {
+        errors.push({
+          category: "AKB",
+          message: `${title}: content:encoded contains <h2> (use <h3> or lower)`,
+          severity: "error",
+        });
+      }
+
+      // No "Shownotes" header in content
+      if (/>\s*Shownotes\s*</i.test(contentEncoded)) {
+        errors.push({
+          category: "AKB",
+          message: `${title}: content:encoded contains "Shownotes" header (template adds this)`,
+          severity: "warning",
+        });
+      }
+
+      // No twitter.com or x.com links (use xcancel.com instead)
+      const twitterMatches = contentEncoded.match(/https?:\/\/(www\.)?(twitter\.com|x\.com)\/[^\s<"']*/gi);
+      if (twitterMatches) {
+        for (const match of twitterMatches) {
+          errors.push({
+            category: "AKB",
+            message: `${title}: contains Twitter/X link (use xcancel.com): ${match}`,
+            severity: "error",
+          });
+        }
+      }
+    }
   }
 
   printResults(errors);

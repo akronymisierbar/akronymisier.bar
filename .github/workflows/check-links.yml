@@ -1,0 +1,52 @@
+name: Check Links
+
+on:
+  pull_request:
+    branches: ["**"]
+    paths:
+      - "content/episodes/*.md"
+
+  schedule:
+    # Run every three months
+    - cron: "0 4 * */3 *"
+
+  workflow_dispatch:
+    inputs:
+      all_episodes:
+        description: "Check all episodes"
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  check-links-pr:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Check links in changed episodes
+        run: deno run --allow-read --allow-net --allow-run scripts/check-links.ts --changed-only
+
+  check-links-scheduled:
+    if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.all_episodes)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Check all episode links
+        run: deno run --allow-read --allow-net scripts/check-links.ts
