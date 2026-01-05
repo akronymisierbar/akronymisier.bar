@@ -1,0 +1,1784 @@
+WEBVTT
+
+00:00:00.080 --> 00:00:02.180
+Hi Kejan! Hey Henrik! Hi Johannes!
+
+00:00:03.420 --> 00:00:04.940
+Wen soll ich jetzt am Erzsatz begrüßen?
+
+00:00:06.040 --> 00:00:07.380
+Hi Johannes! Hi Kejan!
+
+00:00:16.660 --> 00:00:20.680
+Wir experimentieren mal wieder mit neuer Technik, neuer alter Technik mal wieder.
+
+00:00:20.880 --> 00:00:24.800
+Es sind wieder Datenspuren! Diesmal nicht Datenspuren 2017, sondern 2018.
+
+00:00:25.400 --> 00:00:29.520
+Perfekt. Und wir sitzen diesmal nicht im Studio der Technischen Sammlung Dresden.
+
+00:00:30.240 --> 00:00:31.920
+wo die Datenspuren letztes Jahr waren,
+
+00:00:32.230 --> 00:00:33.500
+sondern diesmal sitzen wir
+
+00:00:34.020 --> 00:00:35.420
+im Studio des
+
+00:00:36.220 --> 00:00:38.020
+Coloradios, wo die Datenspuren
+
+00:00:38.260 --> 00:00:39.780
+dieses Jahr sind. Also nicht im Studio,
+
+00:00:39.910 --> 00:00:41.700
+sondern im Zentralwerk. Das ist hier in der
+
+00:00:41.720 --> 00:00:43.280
+Rieser Straße in Pieschen in Dresden.
+
+00:00:43.650 --> 00:00:45.500
+Das ist die neue Heimat vom C3D2, dem
+
+00:00:45.640 --> 00:00:47.140
+lokalen Chaos-Erfa.
+
+00:00:48.080 --> 00:00:49.500
+Ist ein cooler Ort, auf jeden Fall ein interessanter
+
+00:00:49.580 --> 00:00:51.600
+Location für die Datenspuren. Ich war hier jetzt
+
+00:00:51.680 --> 00:00:52.900
+das zweite Mal erst in meinem Leben.
+
+00:00:53.110 --> 00:00:55.220
+Das finde ich sehr passend für die Veranstaltung.
+
+00:00:56.200 --> 00:00:57.700
+Ja, es verteilt sich so ein bisschen auf mehrere
+
+00:00:57.960 --> 00:00:59.300
+Räume und auf mehrere Gebäude.
+
+00:00:59.720 --> 00:01:01.420
+der Vortragssaal ist
+
+00:01:01.480 --> 00:01:03.260
+in so einem Nebengebäude und
+
+00:01:03.660 --> 00:01:04.760
+das Coloradio ist in diesem
+
+00:01:05.379 --> 00:01:07.420
+eher sanierten Trakt, in dem sich
+
+00:01:07.480 --> 00:01:08.280
+auch unten im Keller
+
+00:01:09.700 --> 00:01:11.460
+der Hackerspace vom C3D2 befindet.
+
+00:01:11.660 --> 00:01:12.220
+Eigentlich ganz cool.
+
+00:01:13.100 --> 00:01:15.140
+Ja, und wir haben hier spontan die Erlaubnis bekommen,
+
+00:01:15.340 --> 00:01:17.080
+in den Raum reinzugehen und ein bisschen
+
+00:01:17.480 --> 00:01:19.120
+hier in diese Mikrofone reinzusprechen.
+
+00:01:19.120 --> 00:01:20.580
+Mal schauen, ob wir die Aufnahme hinterher auch
+
+00:01:20.620 --> 00:01:22.340
+vom Computer runterkriegen.
+
+00:01:23.220 --> 00:01:25.000
+Aber beim PETA-Radio funktioniert es ja auch.
+
+00:01:25.040 --> 00:01:27.160
+Ich hoffe bloß, wir sind gerade nicht aus Versehen live.
+
+00:01:27.600 --> 00:01:29.160
+Also die Aufnahme nicht runterbekommt,
+
+00:01:29.260 --> 00:01:29.840
+wird das niemand erfahren.
+
+00:01:30.980 --> 00:01:33.060
+Und wenn wir sie nur live streamen, dann hören das
+
+00:01:33.060 --> 00:01:35.120
+jetzt nur sehr paar überraschte Zuhörer da draußen.
+
+00:01:35.130 --> 00:01:36.740
+Ich weiß nicht, wo das nicht live wäre, aber
+
+00:01:36.990 --> 00:01:38.800
+ich hoffe, wir sind nicht aus Versehen jetzt als Penta Radio
+
+00:01:39.060 --> 00:01:39.860
+live oder so.
+
+00:01:41.100 --> 00:01:42.940
+Hallo, liebe Penta Radio Zuhörer.
+
+00:01:44.060 --> 00:01:44.780
+Hört akronomisierbar.
+
+00:01:45.040 --> 00:01:46.980
+Hört akronomisierbar. Wir stellen uns
+
+00:01:47.140 --> 00:01:48.240
+wenigstens namentlich vor.
+
+00:01:49.640 --> 00:01:50.700
+Ja, also diesmal sind wir zu dritt.
+
+00:01:50.970 --> 00:01:52.840
+Der Johannes war noch nie bei uns mit auf der Sendung.
+
+00:01:53.080 --> 00:01:54.860
+Hi Johannes, magst du kurz einen Satz
+
+00:01:54.860 --> 00:01:55.500
+zu dir erzählen?
+
+00:01:56.980 --> 00:01:58.460
+Ja, ich bin Johannes und ich
+
+00:01:58.480 --> 00:01:59.960
+schreibe gerade meine Diplomarbeit,
+
+00:02:00.760 --> 00:02:02.100
+was sehr anstrengend ist.
+
+00:02:02.760 --> 00:02:04.260
+Und ansonsten befasse ich mich
+
+00:02:04.560 --> 00:02:06.220
+mit formaler Verifikation,
+
+00:02:06.840 --> 00:02:08.000
+weshalb ich vermutlich auch hier bin.
+
+00:02:09.100 --> 00:02:10.500
+Du bist einfach hier, weil wir uns
+
+00:02:10.820 --> 00:02:12.620
+gerne mit dir unterhalten und du immer interessante Themen hast.
+
+00:02:13.260 --> 00:02:14.120
+Ja, das stimmt auch.
+
+00:02:15.540 --> 00:02:16.640
+Aber formale Verifikation
+
+00:02:16.640 --> 00:02:17.620
+ist auch ein interessantes Thema.
+
+00:02:18.150 --> 00:02:20.260
+Wir werden jetzt auch ein bisschen detaillierter drüber reden können,
+
+00:02:20.400 --> 00:02:22.280
+weil wir wollten eigentlich noch zwei andere Leute,
+
+00:02:22.290 --> 00:02:23.760
+die heute einen Vortrag gehalten haben,
+
+00:02:25.040 --> 00:02:26.180
+mit in diese Sendung holen.
+
+00:02:26.180 --> 00:02:28.120
+Die mussten allerdings ganz spontan wegrennen.
+
+00:02:29.400 --> 00:02:30.120
+Das heißt...
+
+00:02:30.120 --> 00:02:30.720
+Es ist noch mehr Zeit für Johannes.
+
+00:02:32.440 --> 00:02:34.340
+Habt ihr euch Vorträge auf den Datenspuren
+
+00:02:35.020 --> 00:02:35.820
+angeguckt dieses Jahr?
+
+00:02:37.120 --> 00:02:38.100
+Klar, also ein paar Sachen, die
+
+00:02:38.440 --> 00:02:40.340
+stattgefunden haben, zum Beispiel Johannes gestern,
+
+00:02:40.440 --> 00:02:42.300
+da kommen wir gleich dazu, oder auch
+
+00:02:42.500 --> 00:02:44.020
+wohin noch ein paar? Unter anderem
+
+00:02:44.740 --> 00:02:46.200
+fand ich sehr cool die Spieleentwicklung
+
+00:02:46.280 --> 00:02:48.060
+in Haskell, das ist sehr amüsant
+
+00:02:48.180 --> 00:02:50.200
+von jemandem, der sich damit abmüht, in Haskell
+
+00:02:50.210 --> 00:02:52.120
+ein kleines Spiel zu schreiben, das spielte auch sehr cool aus.
+
+00:02:52.150 --> 00:02:53.440
+War das gerade eben erst? Das war
+
+00:02:55.160 --> 00:02:56.060
+zwei Talks her,
+
+00:02:56.210 --> 00:02:57.920
+also vor einer Stunde, vor anderthalb Stunden circa.
+
+00:02:58.060 --> 00:03:00.460
+war recht interessant und davor auch
+
+00:03:01.660 --> 00:03:02.520
+von Patrick über
+
+00:03:02.650 --> 00:03:04.320
+die Augmented Reality
+
+00:03:04.700 --> 00:03:06.540
+und so die Grenzen beziehungsweise die Probleme,
+
+00:03:06.650 --> 00:03:08.460
+die damit einhergehen, fand ich auch sehr recht spannend mit
+
+00:03:08.820 --> 00:03:10.120
+und ein paar Gedanken gemacht, was so
+
+00:03:10.600 --> 00:03:12.600
+typische Use Cases sind, was alles
+
+00:03:12.650 --> 00:03:14.160
+ganz cool wäre, wenn wir stabile
+
+00:03:14.700 --> 00:03:16.540
+Augmented Reality haben, aber auch was so Probleme
+
+00:03:16.660 --> 00:03:18.180
+sind, wenn jeder mit einer Kamera vorm Gesicht rum
+
+00:03:18.210 --> 00:03:20.420
+oder alle anderen ständig filmt, hat halt alles
+
+00:03:20.640 --> 00:03:22.320
+vor und ziemlich große Nachteile da, aber klar.
+
+00:03:22.900 --> 00:03:24.540
+Also im Allgemeinen dieses Jahr
+
+00:03:24.570 --> 00:03:26.239
+sind sehr viele technische Vorträge
+
+00:03:26.260 --> 00:03:28.420
+gewesen, im Gegensatz zu den Vorjahren,
+
+00:03:28.440 --> 00:03:29.140
+wo auch einige
+
+00:03:30.360 --> 00:03:32.000
+allgemeine soziale oder kulturelle
+
+00:03:32.620 --> 00:03:34.040
+oder politische Talks dabei waren.
+
+00:03:34.180 --> 00:03:36.120
+Dieses Jahr war es gefühlt ausschließlich
+
+00:03:36.400 --> 00:03:38.120
+Technikthemen. Stimmt, es war mehr
+
+00:03:38.360 --> 00:03:39.600
+Techniklastig, würde ich auch behaupten. Genau.
+
+00:03:40.080 --> 00:03:42.080
+Den Talk gerade über Spieleentwicklung in
+
+00:03:42.120 --> 00:03:43.960
+Haskell habe ich komplett verpasst, weil ich mit
+
+00:03:44.380 --> 00:03:45.860
+dem Axel, den wir letztes Jahr interviewt hatten,
+
+00:03:47.140 --> 00:03:47.980
+da saß in der Ecke,
+
+00:03:47.980 --> 00:03:49.980
+der hatte gestern einen Vortrag gehalten über
+
+00:03:50.020 --> 00:03:51.660
+das Remarkable und wie er dieses
+
+00:03:55.260 --> 00:03:56.220
+Dateiformat, was
+
+00:03:56.240 --> 00:03:58.780
+so ein E-Ink-Zeichentablet.
+
+00:03:59.460 --> 00:04:00.700
+Er hat gestern einen Vortrag darüber gehalten,
+
+00:04:01.460 --> 00:04:02.380
+wie er das Dateiformat
+
+00:04:02.970 --> 00:04:03.760
+reverse-ingeniert hat.
+
+00:04:04.880 --> 00:04:06.720
+Und ich habe vorhin mit ihm eine Runde rumgesessen
+
+00:04:06.750 --> 00:04:08.080
+und versucht, das in Rust neu zu schreiben.
+
+00:04:08.340 --> 00:04:10.480
+Sehr cool. Mal schauen, wie weiter am Ende
+
+00:04:10.570 --> 00:04:11.960
+dieser Sendung mit der Implementierung war.
+
+00:04:11.970 --> 00:04:13.580
+Aber ich wollte ihm auch ein bisschen eine Einführung geben.
+
+00:04:13.650 --> 00:04:14.360
+Das war eigentlich ganz witzig.
+
+00:04:16.359 --> 00:04:18.200
+Ja, du hast gestern einen Vortrag gehalten
+
+00:04:18.500 --> 00:04:20.600
+und zwar über ARA und Spark.
+
+00:04:22.680 --> 00:04:23.980
+Kannst du uns ein bisschen was dazu erzählen?
+
+00:04:24.500 --> 00:04:25.940
+Ja, also ARA,
+
+00:04:26.100 --> 00:04:27.400
+ist eine Programmiersprache
+
+00:04:28.960 --> 00:04:29.360
+und
+
+00:04:30.440 --> 00:04:32.400
+die ist halt speziell darauf ausgelegt,
+
+00:04:33.120 --> 00:04:34.340
+sichere Systeme zu bauen
+
+00:04:34.540 --> 00:04:36.240
+im Sinne von Safety und von Security
+
+00:04:37.040 --> 00:04:38.120
+und im Gegensatz zu C,
+
+00:04:38.180 --> 00:04:40.420
+wo man zum Beispiel einen Pointer hat und der zeigt auf irgendeinen
+
+00:04:40.620 --> 00:04:42.620
+Speicher und man hat keine Ahnung,
+
+00:04:42.740 --> 00:04:44.360
+was da liegt und dann geht das Programm kaputt.
+
+00:04:44.480 --> 00:04:46.740
+Deswegen ist in Ader
+
+00:04:46.740 --> 00:04:48.320
+halt alles sehr genau spezifiziert.
+
+00:04:48.840 --> 00:04:50.540
+Das heißt, du hast keine undefinierten
+
+00:04:51.120 --> 00:04:52.560
+Speicherbereiche, du hast immer irgendeinen
+
+00:04:52.640 --> 00:04:54.119
+Array, in dem dein Speicher drin liegt
+
+00:04:54.560 --> 00:04:56.160
+und der hat immer eine definierte Größe
+
+00:04:56.610 --> 00:04:58.240
+und wenn du darüber hinausgehst,
+
+00:04:59.360 --> 00:05:00.080
+dann... Sprich,
+
+00:05:00.210 --> 00:05:01.280
+ADA hat einfach ein Typsystem.
+
+00:05:01.860 --> 00:05:04.140
+Ja, es hat ein sehr, sehr cooles
+
+00:05:04.220 --> 00:05:06.040
+Typsystem sogar. Also Typen in
+
+00:05:06.110 --> 00:05:08.300
+ADA sind nicht, wir haben verschiedene großartige
+
+00:05:08.820 --> 00:05:10.260
+Speicherojekte, sondern Typen
+
+00:05:10.340 --> 00:05:12.240
+sind semantisch. Das heißt,
+
+00:05:12.270 --> 00:05:14.120
+du kannst sagen, ich habe hier meine Uhrzeit und
+
+00:05:14.130 --> 00:05:16.060
+ich habe einen Stundentypen und der Stundentyp geht
+
+00:05:16.070 --> 00:05:16.920
+von 0 bis 24.
+
+00:05:18.020 --> 00:05:19.000
+Falsch, von 0 bis 23.
+
+00:05:20.040 --> 00:05:21.840
+Und wenn ich da 24 eintrage, dann
+
+00:05:22.600 --> 00:05:23.520
+bringt mir das halt einen Fehler.
+
+00:05:23.580 --> 00:05:32.620
+Das ist cool. Und wenn ich in meiner C-Stunde halt in ein Integer 365 eintrage, obwohl das eine Stunde ist, dann macht das Programm komische Dinge.
+
+00:05:32.960 --> 00:05:36.400
+Das kann ich einschränken, indem ich sage, ich habe Zahlen, die bloß bestimmte Bereiche abdecken.
+
+00:05:36.680 --> 00:05:41.260
+Genau, ich sage dann halt, mein Typ Stunde ist ein Integer vom Range 0 bis 23.
+
+00:05:41.540 --> 00:05:50.200
+Sowas ähnliches hattest du in deinem Beispiel-Talk ja auch. Du hast irgendwie gesagt, ich möchte nur Integer, also einen symmetrischen Integer haben.
+
+00:05:50.340 --> 00:05:52.820
+Das heißt, ich habe im Negativen eine Zahl mehr
+
+00:05:52.940 --> 00:05:54.720
+und die lasse ich explizit aus.
+
+00:05:54.880 --> 00:05:56.420
+Das war auch so eine Range-Geschichte.
+
+00:05:57.120 --> 00:05:58.300
+Aber der Interessantere,
+
+00:06:01.040 --> 00:06:03.240
+das Overlying-Konzept davon ist ja,
+
+00:06:03.320 --> 00:06:08.420
+dass man in ADA auf eine bestimmte andere Art und Weise
+
+00:06:08.520 --> 00:06:10.240
+Aussagen über seinen Code treffen kann.
+
+00:06:10.450 --> 00:06:11.080
+Ist das das?
+
+00:06:12.100 --> 00:06:14.560
+Genau, also du hast halt in ADA,
+
+00:06:14.730 --> 00:06:16.280
+das nennt man Contract-Based Programming.
+
+00:06:16.700 --> 00:06:19.800
+Das heißt, du kannst Aspekte an deine Funktionen heranschreiben,
+
+00:06:20.480 --> 00:06:25.620
+wo zum Beispiel gesagt wird, alles was die Funktion returnt, ist ein Wert größer 0.
+
+00:06:26.900 --> 00:06:31.680
+Und das kannst du entweder machen, indem du sagst, die Funktion returnt den Typen, der nur größer 0 sein kann.
+
+00:06:33.420 --> 00:06:36.340
+Oder du sagst, machst das als sogenannte Nachbedingung.
+
+00:06:37.140 --> 00:06:42.080
+Und diese Nachbedingungen sind recht interessant, denn einerseits kannst du quasi im Compiler einschalten,
+
+00:06:44.700 --> 00:06:47.820
+dass der Compiler das zu Runtime checkt und wenn zu Runtime das auftritt,
+
+00:06:47.960 --> 00:06:50.380
+dann läuft nicht irgendein invalider Wert in dein Programm rein,
+
+00:06:50.490 --> 00:06:52.700
+sondern dein Programm beendet sich ganz sauber mit einer Exception.
+
+00:06:53.220 --> 00:06:56.100
+Oder du fängst die Exception sogar ab und machst dann deine Fehlerbehandlung.
+
+00:06:57.060 --> 00:06:59.860
+Und wenn du Spark verwendest, also ein Subset von Ader,
+
+00:07:00.180 --> 00:07:06.000
+dann kannst du genau dieses Property zur Compile Time bereits verifizieren.
+
+00:07:06.640 --> 00:07:08.180
+Das war eine Frage, die mir gestern eingefallen ist.
+
+00:07:08.180 --> 00:07:12.020
+Also man kann an Funktionen und an Typen auch Konzepts reinschreiben?
+
+00:07:12.760 --> 00:07:14.520
+An einfache Typen geht das nicht.
+
+00:07:14.880 --> 00:07:17.220
+Also du kannst ein Integer definieren, der hat einen bestimmten Wertebereich.
+
+00:07:17.860 --> 00:07:19.600
+und das ist im Prinzip schon das maximale
+
+00:07:19.920 --> 00:07:21.460
+Constraint und wenn du den weiter constrainten willst,
+
+00:07:21.580 --> 00:07:23.240
+schreibst du einfach einen kleineren Wertebereich ran.
+
+00:07:23.860 --> 00:07:25.120
+Aber es gibt in Ader Records,
+
+00:07:25.560 --> 00:07:27.540
+also das muss man sich vorstellen wie so ein Struct in C.
+
+00:07:27.960 --> 00:07:29.220
+Kann ich denn sowas schreiben wie
+
+00:07:29.380 --> 00:07:31.580
+ich hab einen String und der darf nur
+
+00:07:31.720 --> 00:07:32.460
+mit Hallo anfangen?
+
+00:07:34.420 --> 00:07:35.740
+Also quasi I-Namen sind Strings
+
+00:07:35.880 --> 00:07:36.240
+abbilden.
+
+00:07:38.040 --> 00:07:39.780
+Wir haben jetzt jetzt nur über Wertebereiche,
+
+00:07:40.000 --> 00:07:41.600
+über Zahlenbereiche gesprochen, aber was kann man
+
+00:07:41.600 --> 00:07:42.520
+denn da noch alles ausdrücken?
+
+00:07:42.940 --> 00:07:44.120
+Genau darauf wollte ich gerade hinaus.
+
+00:07:44.860 --> 00:07:46.320
+Also das geht leider nur mit Records.
+
+00:07:46.740 --> 00:07:49.600
+Also ein Record ist im Prinzip ein Struct in C und du kannst halt verschiedene Felder haben.
+
+00:07:50.320 --> 00:07:53.800
+Und wenn du jetzt diesen String, der noch mit Hallo anfängt, darstellen wolltest,
+
+00:07:54.720 --> 00:07:57.060
+könntest du beispielsweise ein Record machen.
+
+00:07:57.520 --> 00:08:01.140
+Und da kann ich halt sagen, ich habe jetzt mein erstes Feld, das ist ein String der Länge 5.
+
+00:08:01.840 --> 00:08:03.220
+Und da muss immer Hallo drinstehen.
+
+00:08:03.780 --> 00:08:08.480
+Und diese Eigenschaft, dass da mal Hallo drinsteht, wird geprüft,
+
+00:08:08.580 --> 00:08:12.560
+immer wenn du eine Variable dieses Typs an eine Funktion übergibst oder returnst.
+
+00:08:13.500 --> 00:08:14.440
+Das heißt zur Laufzeit sogar?
+
+00:08:14.660 --> 00:08:15.440
+Genau, zur Laufzeit.
+
+00:08:15.600 --> 00:08:20.420
+Und der Unterschied zwischen ARA und Spark ist jetzt quasi, dass Spark das zur Compile-Zeit macht?
+
+00:08:20.680 --> 00:08:25.040
+Genau, dass Spark würde diese Laufzeiteigenschaft bereits zur Compile-Zeit checken.
+
+00:08:25.600 --> 00:08:31.880
+Das heißt, was du danach bewiesen hast, wenn das keine Fehler gibt, dass bei jedem Funktionsaufruf tatsächlich Hallo drinsteht.
+
+00:08:32.159 --> 00:08:41.800
+Und wenn du das Hallo änderst in was anderes und das dann einer Funktion übergibst, würde Spark dir halt einen sogenannten Check geben, also in dem Fall eine Medium Warning.
+
+00:08:42.700 --> 00:08:47.820
+Und die würde sagen, dass dort die Möglichkeit besteht, dass deine Typ-Invariante verletzt wird.
+
+00:08:49.600 --> 00:08:56.140
+Und das heißt nicht, dass es zwangsläufig passiert, sondern Spark kann bloß nicht beweisen, dass es immer den Fall erfüllt, der gegeben ist.
+
+00:08:57.040 --> 00:08:59.400
+Und da wäre dann ein Punkt, an dem dein Programm abstürzen könnte.
+
+00:09:00.240 --> 00:09:04.760
+Ah, das klingt aber sehr, als könnte man das auch eventuell in anderen Sprachen nachbauen, oder?
+
+00:09:05.460 --> 00:09:22.580
+Die Leute von AdaCore, die das Spark aktuell entwickeln und auch das Ader entwickeln, stecken da sehr, sehr viel Energie rein und sehr, sehr viel Zeit rein, das zu beweisen. Also das klingt erstmal sehr einfach, aber man läuft auch sehr schnell in Limitierungen rein.
+
+00:09:22.760 --> 00:09:27.020
+Das heißt, Spark kann auch immer nur einen begrenzten Scope überblicken.
+
+00:09:27.620 --> 00:09:29.900
+Wenn du zum Beispiel jetzt eine Variable hast und du beweist,
+
+00:09:30.000 --> 00:09:32.340
+dass die vor einer Schleife einen gewissen Wert hat
+
+00:09:32.880 --> 00:09:34.220
+und dann rufst du eine Schleife auf.
+
+00:09:35.299 --> 00:09:38.200
+Und Spark weiß jetzt nicht, was in der Schleife so richtig passiert.
+
+00:09:39.860 --> 00:09:41.980
+Und dann kannst du erstmal in der Schleife nicht sofort sagen,
+
+00:09:42.300 --> 00:09:43.900
+hey, diese Variable ändert sich dort nicht.
+
+00:09:44.780 --> 00:09:46.120
+Oder du rufst eine Funktion auf,
+
+00:09:47.860 --> 00:09:49.880
+die diese Variable mit einem bestimmten Wert braucht
+
+00:09:50.300 --> 00:09:52.300
+und dann sagt Spark, ja, das könnte dort fehlschlagen.
+
+00:09:52.940 --> 00:10:08.160
+Aber was du dann zum Beispiel machen kannst, du gehst in die Schleife rein und gibst Spark dort eine Schleifeninvariante, das ist in Ader dann ein Pragma, Pragma Loop Invariant. Und in der Schleifenvariante legst du fest, diese Variable ändert sich in der Schleife nicht.
+
+00:10:08.960 --> 00:10:13.040
+Aber ist ein Schleifenkörper nicht genau das gleiche wie eine Funktion?
+
+00:10:14.140 --> 00:10:16.920
+Ja, aber du weißt nicht, wie oft du diesen Schleifenkörper durchläufst.
+
+00:10:17.390 --> 00:10:20.240
+Wenn ich eine Funktion aufrufe, läuft die von oben nach unten durch.
+
+00:10:21.280 --> 00:10:23.540
+Und wenn ich einen Schleifenkörper aufrufe,
+
+00:10:24.150 --> 00:10:26.380
+dann habe ich eine Abbruchbedingung und eine Wiederholung.
+
+00:10:26.560 --> 00:10:28.260
+Ich überlege bloß gerade, wenn man das nicht mit Schleifen,
+
+00:10:28.390 --> 00:10:33.880
+sondern mit Iteratoren machen würde,
+
+00:10:34.330 --> 00:10:36.960
+dann würde ich einen Haufen von Lambdas aneinander chanen.
+
+00:10:37.160 --> 00:10:39.940
+Und die sind ja stateless quasi.
+
+00:10:40.340 --> 00:10:42.060
+Dann könnte man auch so eine Aussage viel einfacher treffen.
+
+00:10:43.060 --> 00:10:44.680
+Das sind ja quasi Funktionen, die da aneinander reißen.
+
+00:10:44.740 --> 00:10:46.520
+Und diese Funktionen ja immer wieder mit neuen Inputs,
+
+00:10:47.080 --> 00:10:48.420
+beziehungsweise ohne weitere Inputs wieder heißen.
+
+00:10:48.440 --> 00:10:50.360
+Weißt du, nach jedem Funktionsaufruf ist ja eigentlich egal,
+
+00:10:50.500 --> 00:10:52.440
+zum wie häufigsten Mal du aufgerufen wurdest.
+
+00:10:53.480 --> 00:10:55.720
+Und dann könnte man eventuell so eine Aussage besser treffen
+
+00:10:55.900 --> 00:10:57.180
+als bei einer normalen Schleife.
+
+00:10:57.840 --> 00:10:59.180
+Bei einer Schleife kannst du alles Mögliche machen.
+
+00:10:59.220 --> 00:11:00.500
+Da kannst du auch deine Zähler verändern.
+
+00:11:02.200 --> 00:11:03.200
+Ja gut, okay, ich stecke nicht ganz drin.
+
+00:11:03.240 --> 00:11:04.600
+Aber es klingt zumindest ziemlich spannend.
+
+00:11:05.300 --> 00:11:06.400
+Und ich muss noch ganz kurz fragen,
+
+00:11:06.540 --> 00:11:08.360
+wegen dem Pragma, diese Invariante,
+
+00:11:08.460 --> 00:11:09.740
+die du da festlegen kannst,
+
+00:11:09.820 --> 00:11:11.620
+wird das dann formal verifiziert,
+
+00:11:11.760 --> 00:11:16.140
+dass diese Invariante nie, also das quasi, was immer du da behauptest,
+
+00:11:16.480 --> 00:11:19.780
+dass die Behauptung, dass sie festgesetzt wird auf irgendeine andere Weise.
+
+00:11:21.060 --> 00:11:22.640
+Wie verifiziert er das denn, wenn du schon meinst,
+
+00:11:22.640 --> 00:11:25.180
+dass er die Schleife nicht komplett überblicken kann, was da genau passiert?
+
+00:11:26.560 --> 00:11:28.860
+Oder ist das ein Runtime-Check, den du da quasi reinlegst?
+
+00:11:28.890 --> 00:11:32.280
+Nein, nein, in Spark ist das alles zu Compiletime,
+
+00:11:32.520 --> 00:11:34.440
+beziehungsweise ist es nicht ganz zu Compiletime.
+
+00:11:34.800 --> 00:11:38.120
+Du kompilierst es erst und dann lässt du den Prover über dein Programm laufen,
+
+00:11:38.700 --> 00:11:39.820
+aber es ist immer noch statisch.
+
+00:11:40.380 --> 00:11:40.540
+Okay.
+
+00:11:41.480 --> 00:11:50.700
+Der Punkt ist, was ich mit dem Scope meine, ist, du rufst eine Funktion auf, die ändert eine Variable und danach weißt du nicht mehr, was in deiner Variable steht.
+
+00:11:51.320 --> 00:11:53.420
+Und Funktionen können auch sogenannte Seiteneffekte haben.
+
+00:11:53.540 --> 00:11:55.880
+Das heißt, du hast eine globale Variable, die liegt irgendwo rum.
+
+00:11:57.380 --> 00:12:01.500
+Also Funktionen dürfen keine Seiteneffekte haben, aber Prozeduren, das sind ADA zwei verschiedene Dinge.
+
+00:12:02.400 --> 00:12:09.300
+Also eine Funktion ist etwas in ADA, was einfach Werte nimmt und dann einen Wert returnt.
+
+00:12:10.040 --> 00:12:22.020
+Also keine Ahnung, die Funktion add nimmt a und b und returnt dann das Ergebnis davon. Und in Spark dürfen diese Funktionen keine Seiteneffekte haben, das heißt, sie dürfen nicht auf globale Variablen zugreifen zum Beispiel.
+
+00:12:22.240 --> 00:12:48.580
+Aber ist ADA, es gibt ja viele Projekte, die so formale Verifikationen explizit auf funktionalen Programmiersprachen machen, auf Haskell oder auf Idris oder auf Rust, weil man dort gewisse Aussagen viel genauer treffen kann. Du weißt halt genau, dass bestimmte Sachen keine Seiteneffekte haben, es gibt keine globalen Sachen. Es ist eine sehr eingeschränkende Sprache, was die formale Verifikation viel einfacher macht. Ist ADA eine funktionale Programmiersprache?
+
+00:12:48.880 --> 00:12:57.460
+Nein, ADA ist eine imperative Programmiersprache. Also die Syntax ist auch sehr Pascal ähnlich, also beginn und end, keine geschweiften Klammern.
+
+00:12:58.020 --> 00:12:59.780
+Allgemein relativ wenig Syntax habe ich gesehen.
+
+00:13:00.520 --> 00:13:01.620
+Ist ja sehr Keyword-lastig.
+
+00:13:02.270 --> 00:13:10.440
+Ja, es ist sehr Keyword-lastig. Also die Sprache ADA wurde auch unter der Prämisse entwickelt, dass man sagen kann, dass es sehr leicht sein muss, diese Sprache zu lesen.
+
+00:13:10.850 --> 00:13:16.820
+Und auch wenn du nicht alle Sonderzeichen, die existieren, im Kopf hast und deren Bedeutung kennst, kannst du diese Sprache relativ gut verstehen.
+
+00:13:17.860 --> 00:13:35.940
+Das ist ein schöner Ansatz. Ich meine, das ist jetzt für uns als alltägliche Programmierer ein bisschen ungewohnt, weil genau das Pattern-Matching, was wir die letzten Jahre so uns eingebläut haben, genau da nicht mehr zutrifft. Aber als jemand, der vielleicht komplett neu an Programmieren reingeht, da kann man sich das schon als Text ganz gut durchlesen, das stimmt.
+
+00:13:36.080 --> 00:14:01.480
+Ja, ADA hat generell die Eigenschaft, dass das Ziel ist, Uneindeutigkeiten zu vermeiden. Also in C hast du gerne eine Aneinanderreihung von Operatoren und dann gehst du in deine Operator-Presidence und musst rausfinden, welcher Operator wie gezählt wird. ADA legt diese Operator-Presidence einfach nicht fest und du musst klammern. Das hat den Nachteil, du musst gern auch mehr klammern als in anderen Sprachen.
+
+00:14:01.600 --> 00:14:06.020
+Das heißt, Plus und Mal haben eine nicht festgelegte Precedence.
+
+00:14:06.220 --> 00:14:09.340
+Ich bin mir gerade nicht sicher, ob das für die Grundrechenarten auch gilt.
+
+00:14:09.380 --> 00:14:12.320
+Es kann sein, dass die Grundrechenarten da ein bisschen ausgenommen sind,
+
+00:14:12.460 --> 00:14:15.180
+weil das ist was, was überall eindeutig ist.
+
+00:14:16.399 --> 00:14:18.000
+Also Punktrechnung vor Strichrechnung.
+
+00:14:18.540 --> 00:14:22.460
+Aber wie würdest du die Precedence intuitiv festlegen
+
+00:14:22.660 --> 00:14:25.020
+für den End-Apparator und einen Plus?
+
+00:14:25.520 --> 00:14:26.800
+Ja, Operatoren sind immer schwierig.
+
+00:14:28.160 --> 00:14:30.939
+Genau, aber auch C und C++ haben für den End-Apparator
+
+00:14:30.960 --> 00:14:32.540
+und den Punktoperator und auch
+
+00:14:34.279 --> 00:14:34.920
+die normalen
+
+00:14:35.140 --> 00:14:36.820
+arithmetischen Operatoren Precedents
+
+00:14:36.860 --> 00:14:38.800
+die untereinander gewisse Effekte haben
+
+00:14:39.440 --> 00:14:40.700
+und in ADA wirst du
+
+00:14:40.960 --> 00:14:42.780
+gezwungen zu klammern und damit ist für jeden, der
+
+00:14:42.920 --> 00:14:44.540
+das liest, auch wenn er nicht sofort weiß, welche
+
+00:14:44.840 --> 00:14:46.740
+Precedents das hat, ganz klar, welche Operatoren
+
+00:14:46.760 --> 00:14:48.860
+wie zusammenwirken. Das finde ich recht angenehm von der Idee her.
+
+00:14:49.060 --> 00:14:50.640
+Da könnte man aber Operatoren eigentlich auch komplett
+
+00:14:50.760 --> 00:14:52.720
+weglassen, oder? Operatoren abschaffen, klar.
+
+00:14:52.900 --> 00:14:54.620
+Naja, ich meine, ob du nur bei jedem
+
+00:14:54.820 --> 00:14:56.660
+Operator klammern musst oder ob du einfach
+
+00:14:56.760 --> 00:14:58.740
+eine Funktion add hast, wo du zwei Parameter
+
+00:14:58.820 --> 00:15:00.920
+reingehst. Das machen ja auch mal die Sprachen. Das ist halt bloß eine
+
+00:15:01.060 --> 00:15:02.740
+ein Trade-off zwischen Verbosity und
+
+00:15:03.180 --> 00:15:05.220
+Lesbarkeit. Ich meine, gerade mit Grundrechnerarten
+
+00:15:05.340 --> 00:15:07.160
+kennen die meisten Menschen visuell sehr gut umgehen
+
+00:15:07.400 --> 00:15:07.920
+mit Operatoren.
+
+00:15:08.899 --> 00:15:11.100
+Aber ich finde das allgemein ziemlich cool. Also ich fand
+
+00:15:11.160 --> 00:15:12.860
+deinen Vortrag sehr schön. Ich kann auch jetzt nur empfehlen,
+
+00:15:13.080 --> 00:15:14.960
+schaut euch den Vortrag, den der Johannes
+
+00:15:15.140 --> 00:15:17.080
+gehalten hat, nochmal an.
+
+00:15:17.580 --> 00:15:18.960
+Die werden ja bei den Datenspuren alle
+
+00:15:19.100 --> 00:15:20.680
+aufgezeichnet. Wir packen da einfach Links in die Show.
+
+00:15:20.700 --> 00:15:21.720
+Auf jeden Fall. Das war echt spannend.
+
+00:15:22.640 --> 00:15:25.180
+Eine Sache, die mir aber noch eingefallen ist, jetzt habe ich irgendwie so ein bisschen
+
+00:15:25.280 --> 00:15:26.980
+den subjektiven Eindruck, dass ADA eigentlich
+
+00:15:27.180 --> 00:15:29.100
+so von dem, wie du es beschrieben hast, eine Sprache ist,
+
+00:15:29.180 --> 00:15:32.320
+die sich eher nicht so gut für formale Verifikation eignet,
+
+00:15:32.500 --> 00:15:35.240
+allein aufgrund von Tatsachen, dass er halt nicht funktional ist
+
+00:15:35.420 --> 00:15:39.100
+und dass so gewisse Sachen wie Operator Presidents einfach nicht klar sind
+
+00:15:39.100 --> 00:15:40.220
+und man dann gezwungen wird, so zu klammern.
+
+00:15:41.220 --> 00:15:43.500
+Gibt es noch andere Sprachen, die sowas erlauben,
+
+00:15:43.680 --> 00:15:44.960
+bei denen es vielleicht einfacher ist?
+
+00:15:46.720 --> 00:15:53.760
+Ist ADA die einzige Sprache, die dieses Konzept-Konzept mitbringt?
+
+00:15:53.930 --> 00:15:54.800
+Oder gibt es noch andere Sachen?
+
+00:15:54.840 --> 00:15:58.520
+Also ADA selbst ist ja erstmal nicht das, was formal verifiziert wird,
+
+00:15:58.700 --> 00:16:00.480
+sondern Spark. Stimmt, ja.
+
+00:16:00.830 --> 00:16:02.680
+Also du hast, in Ader hast du auch
+
+00:16:02.690 --> 00:16:04.620
+so schöne Geschichten, wie du in C hast, also du
+
+00:16:04.740 --> 00:16:06.280
+kannst halt auch Pointer verwenden.
+
+00:16:07.040 --> 00:16:08.620
+In Ader heißt das Access-Type, es ist
+
+00:16:09.000 --> 00:16:10.660
+eigentlich, technisch gesehen
+
+00:16:10.750 --> 00:16:12.540
+ist es irgendwo ein Pointer, eigentlich verhält
+
+00:16:12.550 --> 00:16:13.760
+es sich eher wie eine Referenz,
+
+00:16:15.540 --> 00:16:16.560
+was die Sache halt
+
+00:16:16.870 --> 00:16:18.580
+mit den Speicheradressen sehr viel einfacher macht,
+
+00:16:18.660 --> 00:16:20.220
+du machst keine Pointer-Arithmetik mehr.
+
+00:16:22.740 --> 00:16:24.480
+Brauchst du auch nicht, denn du hast richtige Arrays.
+
+00:16:27.680 --> 00:16:31.540
+Ich weiß, es gibt externe Beweise für viele Sprachen.
+
+00:16:31.830 --> 00:16:34.780
+Also Frama C zum Beispiel ist eine Möglichkeit, um C zu beweisen.
+
+00:16:37.480 --> 00:16:39.100
+Wie das bei funktionalen Sprachen aussieht,
+
+00:16:39.290 --> 00:16:40.860
+damit kenne ich mich leider nicht so gut aus.
+
+00:16:42.260 --> 00:16:46.420
+Aber prinzipiell, also Konzepte,
+
+00:16:46.420 --> 00:16:48.280
+die du bei imperativen Programmiersprachen hast,
+
+00:16:48.290 --> 00:16:51.220
+sind halt häufig nur bis zu einem gewissen Punkt beweisbar.
+
+00:16:52.079 --> 00:16:54.840
+Ich glaube, die Spark-Leute überlegen,
+
+00:16:54.960 --> 00:16:57.600
+ob sie das Borrowing-Konzept aus Rust übernehmen möchten,
+
+00:16:57.880 --> 00:17:00.760
+damit sie dann quasi auch Pointer oder Access-Typen beweisen können.
+
+00:17:02.000 --> 00:17:04.100
+Denn wenn du einfach nur Pointer nimmst
+
+00:17:04.180 --> 00:17:06.220
+und irgendwo ein Stückchen Speicher rumreißt,
+
+00:17:06.360 --> 00:17:08.459
+hast du deine Beweisbarkeit an der Stelle verloren,
+
+00:17:08.880 --> 00:17:10.220
+weil das viel zu komplex ist.
+
+00:17:10.640 --> 00:17:12.020
+Und du keine Übersicht mehr hast,
+
+00:17:12.220 --> 00:17:14.120
+wer wann wie auf Speicher zugreifen kann.
+
+00:17:15.319 --> 00:17:17.140
+Aber das Borrowing-Konzept definiert ja sehr genau,
+
+00:17:17.420 --> 00:17:18.819
+wer wann auf Speicher zugreifen darf.
+
+00:17:19.140 --> 00:17:22.000
+Und damit bekommst du deine Beweisbarkeit halt wieder.
+
+00:17:22.060 --> 00:17:33.380
+Fast schon eine Art Beweis, den der Compiler dann erstmal durchführt und zu schauen, ob du wirklich sinnvoll mit deinem Speicher umgehst, aber ob du halt nur exklusiv, nur an einer Stelle mutable oder wie auch immer darauf zugreifst.
+
+00:17:33.460 --> 00:17:59.320
+Eine Überlegung ist, ob man überhaupt formale Verifikationen bis zu einem gewissen Grad braucht, weil man bereits ein Typsystem hat, was einem erlaubt, genügend Aussagen über seinen Code zu treffen. Wenn ich jetzt zum Beispiel einen Integer-Typen implementieren kann oder wenn mir die Sprache die Möglichkeit gibt, einen Integer-Typen zu implementieren, der nur von drei bis fünf geht, dann brauche ich auch keinen Beweiser mehr drüber laufen zu lassen, dann kompiliert es einfach nicht, wenn ich es falsch reingehe.
+
+00:17:59.340 --> 00:18:16.320
+Das stimmt, aber formale Verifikation macht ja mehr als nur, also das ist quasi der Punkt, an dem du sagst, okay, wir haben jetzt die Abwesenheit von Laufzeitfehlern bewiesen, das heißt, das Programm stürzt nicht ab, es treten keine Exceptions auf, aber du kannst zum Beispiel auch Logikflüsse damit beweisen.
+
+00:18:17.040 --> 00:18:17.980
+Jetzt wird es interessant.
+
+00:18:18.330 --> 00:18:22.840
+Das heißt, du hast eine Datenflussanalyse.
+
+00:18:23.420 --> 00:18:24.820
+Sag mal, du willst was verschlüsseln,
+
+00:18:24.830 --> 00:18:26.800
+du hast eine Verschlüsselungsfunktion implementiert.
+
+00:18:27.450 --> 00:18:29.460
+Und in ganz vielen Verschlüsselungsfunktionen ist zum Beispiel,
+
+00:18:29.510 --> 00:18:32.680
+du musst einen Initialization Vector irgendwo reintun.
+
+00:18:33.410 --> 00:18:35.420
+Und keine Ahnung, der Programmierer zum Debuggen stellt,
+
+00:18:35.500 --> 00:18:36.760
+setzt er den jetzt einfach mal auf 0.
+
+00:18:37.960 --> 00:18:38.960
+Und dann debuckt er halt.
+
+00:18:39.440 --> 00:18:40.960
+Und dann vergisst er, den zurückzusetzen.
+
+00:18:41.050 --> 00:18:43.180
+Und dann rufst du die Verschlüsselungsfunktion auf,
+
+00:18:43.380 --> 00:18:44.980
+tust du deinen Initialization Vector rein.
+
+00:18:45.520 --> 00:18:46.800
+Der wird halt einfach ignoriert.
+
+00:18:47.740 --> 00:18:49.760
+und dann hast du halt eine schwache Verschlüsselung,
+
+00:18:49.760 --> 00:18:51.460
+weil das immer mit 0 initialisiert ist.
+
+00:18:52.620 --> 00:18:58.460
+In Spark kannst du dann quasi als Aspect eine Dependency angeben.
+
+00:18:59.280 --> 00:19:03.280
+Das heißt, dein Cypher-Text hängt ab von deinem Plain-Text,
+
+00:19:03.500 --> 00:19:05.580
+von deinem Key und von dem Initialization-Vektor
+
+00:19:06.180 --> 00:19:08.980
+und Spark wird deine Datenfloss-Analyse auf deiner Funktion aufrufen
+
+00:19:09.060 --> 00:19:12.920
+und feststellen, hey, du initialisierst deinen Initialization-Vektor
+
+00:19:13.060 --> 00:19:15.220
+einfach immer mit 0 und ignorierst den Eingabewert
+
+00:19:15.660 --> 00:19:17.700
+und wird dir dafür eine Warnmeldung ausgeben.
+
+00:19:18.680 --> 00:19:21.320
+Und an der Stelle hast du quasi einen logischen Fehler gefunden,
+
+00:19:21.460 --> 00:19:23.000
+der nichts mit irgendwelchen Typen zu tun hat,
+
+00:19:23.080 --> 00:19:24.740
+den du auch nicht hättest mit Typen abfangen können.
+
+00:19:25.280 --> 00:19:27.620
+Ah, sehr schön, krass, ja.
+
+00:19:28.620 --> 00:19:31.720
+Du hast ja auch schon nicht-triviale Software in Adap
+
+00:19:31.750 --> 00:19:33.640
+bzw. Spark geschrieben, hast du ja schon mal erzählt,
+
+00:19:33.970 --> 00:19:37.540
+im ASCII sitzend, gibt es da irgendwelche Schmerzpunkte,
+
+00:19:37.820 --> 00:19:39.620
+wenn man gerade ein bisschen was Größeres schreibt,
+
+00:19:39.890 --> 00:19:41.400
+wenn man versucht, das komplett durchzubeweisen?
+
+00:19:43.720 --> 00:19:48.380
+Einerseits, du darfst nicht anfangen, Software in Spark aus C abzuschreiben.
+
+00:19:48.900 --> 00:19:50.300
+Also wenn du Software portierst.
+
+00:19:50.440 --> 00:19:52.500
+Dann sollte du keine Sprache Software aus C abschreiben.
+
+00:19:52.840 --> 00:19:53.300
+Das stimmt.
+
+00:19:53.840 --> 00:19:57.060
+Aber du musst immer ein bisschen das Konzept von Spark im Kopf haben
+
+00:19:57.160 --> 00:20:01.680
+und dir überlegen, an welchen Schnittstellen du quasi bestimmte Bedingungen einfügen kannst,
+
+00:20:01.800 --> 00:20:03.260
+wie du deine Funktionen strukturierst.
+
+00:20:03.700 --> 00:20:07.560
+Weil wenn du das halt falsch machst und so wie es in C gern mal gemacht wird,
+
+00:20:08.140 --> 00:20:13.200
+dann kommst du ganz schnell an den Punkt, an dem das für dich schwerer wird zu beweisen,
+
+00:20:13.880 --> 00:20:15.840
+weil die Schnittstellen quasi falsch gewählt sind.
+
+00:20:16.720 --> 00:20:19.900
+Das heißt, du führst irgendeine spezifische Berechnung raus
+
+00:20:20.060 --> 00:20:22.080
+und davor und danach müssen bestimmte Bedingungen gelten.
+
+00:20:22.540 --> 00:20:25.560
+Dann wäre das ein optimaler Punkt, um daraus eine eigene Funktion zu machen,
+
+00:20:25.640 --> 00:20:28.640
+in der du quasi davor und danach die entsprechenden Bedingungen checkst.
+
+00:20:28.720 --> 00:20:31.520
+Das meinte ich, deswegen ist es halt einfacher,
+
+00:20:31.580 --> 00:20:34.220
+funktionale Programmiersprachen zu verifizieren
+
+00:20:34.440 --> 00:20:36.840
+und C ist keine funktionale Programmiersprache.
+
+00:20:37.000 --> 00:20:39.740
+Ja, das stimmt, wobei ich glaube, für viele Programmierer
+
+00:20:39.740 --> 00:20:42.400
+ist es einfacher, imperative Programmiersprachen zu verwenden.
+
+00:20:43.480 --> 00:20:47.500
+Das weiß ich nicht mal, das ist eine Geföhnungssache, aber das ist jetzt ein ganz anderes Thema.
+
+00:20:48.740 --> 00:21:00.000
+Du bist einfach darauf hinaus, dass man mehr idiomatisches AdaSpark dann wirklich tatsächlich geschrieben haben sollte, damit man es einfacher beweisen kann, als wenn man versucht, das C direkt darüber zu übersetzen.
+
+00:21:00.320 --> 00:21:22.260
+Ja, also ich habe auch schon Software geschrieben, die war erst in C geschrieben und wir haben sie dann quasi in Spark programmiert und haben festgestellt, ja, das ist alles schlecht. Und wir haben dann quasi uns den Algorithmus nochmal aus dem C quasi herausgebastelt und dann neu in Spark implementiert, was halt viele Probleme an der Stelle gelöst hat.
+
+00:21:22.900 --> 00:21:40.940
+Und man sollte niemals vergessen, auch formale Beweise sind nicht perfekt. Der Compiler sitzt immer noch unten drunter und auch der Compiler macht Fehler. Und generell das Argument kommt halt sehr häufig, wenn man darüber redet, ja, dein Compiler muss doch auch bewiesen sein, wenn du das beweist und deine Beweistools müssen ja auch bewiesen sein.
+
+00:21:43.640 --> 00:21:53.160
+Natürlich stimmt das, auch die Tools machen unter Umständen den einen oder anderen Fehler, aber das tun sie auch in C und in C++ und soweit mir bekannt ist, hat keine Programmiersprache ein vollkommen bugfreies Tooling.
+
+00:21:54.520 --> 00:22:04.780
+Der Vorteil ist, du findest trotzdem eine sehr große Menge an Fehlern mit den Beweisen, die du sonst nicht gefunden hättest und die Beweise haben eine ganz spezifische Eigenschaft, du hast keine False Positives.
+
+00:22:05.100 --> 00:22:14.600
+Wenn ein Check als bewiesen gilt, dann ist er auch bewiesen. Das heißt im Umkehrschluss nicht, dass wenn etwas nicht beweist, dass es nicht korrekt ist, aber dein Tooling ist aktuell nicht in der Lage, das zu beweisen.
+
+00:22:14.900 --> 00:22:39.260
+Du hast ja, glaube ich, gestern auch mal mit erzählt auf der Frage, die darauf einging. Im Prinzip, wenn du was bewiesen hast, dann heißt das ja nicht, dass irgendwie dein Tooling darüber gelaufen ist, beziehungsweise, wie formuliere ich das am besten? Dann heißt das ja nicht, dass dein Tooling es versucht hat für alle Eingabewerte und es hat einfach geklappt, sondern dass es formal verifizieren konnte, dass das nicht schief gehen kann. Und dann spielt es ja auch eigentlich gar keine Rolle, ob das Tooling bewiesen ist oder nicht.
+
+00:22:40.840 --> 00:22:57.640
+Das Tooling zum Beweisen ist ja auch nicht der Compiler, sondern Spark nutzt dazu im Hintergrund sogenannte Theorembeweise. Es nutzt auch verschiedene Theorembeweise. Die mathematischen Grundlagen und wie gut diese Software ist, kann ich selbst nicht beurteilen, aber die Menschen, die sowas entwickeln, sind sehr, sehr intelligent.
+
+00:22:58.380 --> 00:23:12.740
+Und diese Theorembeweise werden ja nicht nur in Spark verwendet, die werden auch in externen Beweistools wie zum Beispiel Isabel oder Cock verwendet. Und es werden sehr große Softwareprojekte in produktiven Anwendungen mit diesen externen Beweisern auch verifiziert.
+
+00:23:12.960 --> 00:23:14.580
+Das ist wahrscheinlich alles schon abgehangen genug.
+
+00:23:15.000 --> 00:23:23.620
+Und ich gehe davon aus, dass diese Tools existieren auch schon eine Weile und ich gehe davon aus, dass die sehr, sehr gut getestet sind.
+
+00:23:24.020 --> 00:23:41.820
+Ja, im Prinzip, wenn du diesen Beweis gefunden hast, wenn du mit irgendeinem Theorem mathematisch verifizieren kannst, dass das so funktioniert, wie du das aufgeschrieben hast und dass die Kontakte erfüllt sind, dann kannst du diesen Beweis ja auch anschauen und das nachvollziehen und musst halt nicht darauf vertrauen, dass es halt irgendwie bestimmt hinhaut.
+
+00:23:41.840 --> 00:23:43.520
+Aber es ist ja bewiesen.
+
+00:23:43.800 --> 00:23:51.420
+Du hast einen mathematischen Beweis, du hast Theoreme und Axiome, die quasi dazu führen, dass du mathematisch nachvollziehen kannst, was dort passiert.
+
+00:23:52.360 --> 00:23:56.300
+Und damit ein Beweis in der Mathematik ist ein Beweis.
+
+00:23:56.740 --> 00:23:58.140
+Heißt ja nicht so grundlos so, genau.
+
+00:23:58.480 --> 00:24:08.780
+Apropos Beweisen. Unsere Zuhörer haben ja jetzt offenbar bewiesen, dass sie Interesse an ADA und an Spark haben, sonst hätten sie jetzt bereits den nächsten Podcast in ihrer Liste angemacht.
+
+00:24:09.620 --> 00:24:11.560
+Wenn ich jetzt anfangen möchte mit
+
+00:24:12.290 --> 00:24:13.720
+ADA und mit Spark, muss ich überhaupt mit
+
+00:24:13.880 --> 00:24:14.920
+ADA anfangen oder kann ich direkt
+
+00:24:15.980 --> 00:24:17.900
+Spark pur mir angucken?
+
+00:24:18.480 --> 00:24:19.780
+Wie stecke ich denn ein in diese
+
+00:24:19.960 --> 00:24:21.440
+Sprache? Wo gehe ich hin? Gibt es irgendwie
+
+00:24:21.560 --> 00:24:23.740
+Tutorial-Seiten oder Dokumentationen?
+
+00:24:24.840 --> 00:24:25.760
+Gibt es einen Compiler für alle
+
+00:24:26.240 --> 00:24:27.720
+Betriebssysteme? Ja, es gibt
+
+00:24:27.730 --> 00:24:29.820
+einen Compiler für alle Betriebssysteme. Die Firma,
+
+00:24:29.830 --> 00:24:31.800
+die aktuell hinter ADA
+
+00:24:31.910 --> 00:24:32.540
+steht, ist ADA Core.
+
+00:24:33.720 --> 00:24:35.100
+Und es gibt die
+
+00:24:35.380 --> 00:24:37.300
+Knut-Toolchain, die gibt es einmal in der Pro-Variante,
+
+00:24:37.500 --> 00:24:39.580
+die sehr viel Geld kostet, aber es gibt halt
+
+00:24:39.600 --> 00:24:41.940
+auch eine GPL-lizenzierte Variante.
+
+00:24:43.460 --> 00:24:44.220
+Ich bin mir nicht sicher,
+
+00:24:44.360 --> 00:24:46.740
+ob die die GCC-Exception hat.
+
+00:24:47.120 --> 00:24:48.260
+Es kann sein, dass sie die nicht hat.
+
+00:24:48.270 --> 00:24:49.280
+Das heißt, du könntest dann nur,
+
+00:24:49.370 --> 00:24:51.020
+wenn du deine Software vertreiben möchtest
+
+00:24:51.270 --> 00:24:54.740
+mit dem GPL-Compiler von EdaCore,
+
+00:24:55.840 --> 00:24:57.800
+dann musst du die unter die GPL stellen.
+
+00:24:58.260 --> 00:24:59.400
+Weil ich den Compiler verwendet habe.
+
+00:24:59.560 --> 00:25:00.660
+Weil du den Compiler verwendet hast.
+
+00:25:00.920 --> 00:25:01.340
+Ah, spannend.
+
+00:25:02.000 --> 00:25:04.160
+Der GCC von der Free Software Foundation
+
+00:25:04.700 --> 00:25:06.060
+besitzt auch ein ADA-Frontend.
+
+00:25:08.080 --> 00:25:09.900
+In den Sourcen, die ich mir so angeschaut habe,
+
+00:25:09.990 --> 00:25:11.700
+als ich einen Runtime dafür geschrieben habe,
+
+00:25:13.840 --> 00:25:14.200
+ist das
+
+00:25:14.940 --> 00:25:15.660
+ziemlich gleich.
+
+00:25:17.500 --> 00:25:18.280
+Wobei das neueste
+
+00:25:18.280 --> 00:25:20.180
+und aktuellste Tooling natürlich von AdaCore kommt.
+
+00:25:21.080 --> 00:25:21.420
+Das heißt,
+
+00:25:22.150 --> 00:25:24.200
+Links zu den Tools, zu den Compilern
+
+00:25:24.320 --> 00:25:25.900
+und zu Tutorials eventuell
+
+00:25:26.260 --> 00:25:28.000
+kannst du uns ja noch geben, das packen wir dann in die Show Notes.
+
+00:25:28.260 --> 00:25:29.900
+Genau, das kann ich noch machen. Sehr schön.
+
+00:25:31.420 --> 00:25:32.120
+Ich glaube, damit haben wir
+
+00:25:32.120 --> 00:25:33.920
+jetzt auch die Menge an
+
+00:25:34.080 --> 00:25:35.360
+Informationen, die wir in einem
+
+00:25:37.160 --> 00:25:37.880
+Audio-Format
+
+00:25:37.900 --> 00:25:40.260
+transportieren können, was ADA und Spark angeht.
+
+00:25:41.540 --> 00:25:41.860
+Erschöpft.
+
+00:25:42.560 --> 00:25:43.960
+Sind noch andere interessante Sachen passiert
+
+00:25:44.060 --> 00:25:44.800
+in diesen Datenspuren?
+
+00:25:45.520 --> 00:25:47.960
+Ich habe, wie gesagt, noch die zwei anderen Talks vorhin mit angeschaut.
+
+00:25:48.100 --> 00:25:49.980
+Da hätten wir jetzt ja gerne mit den Rednern noch sprechen können,
+
+00:25:50.080 --> 00:25:51.520
+wenn wir die nicht leider auf einen Geburtstag gewinnen.
+
+00:25:51.520 --> 00:25:53.780
+Ja genau, ich habe nämlich den zweiten verpasst und hätte jetzt gerne
+
+00:25:55.680 --> 00:25:56.320
+den Redner,
+
+00:25:56.320 --> 00:25:57.880
+den ich jetzt nicht namentlich denunziere,
+
+00:25:59.480 --> 00:26:00.320
+gerne noch dazu befragt.
+
+00:26:00.400 --> 00:26:01.440
+Aber jetzt kriege ich es gar nicht mehr mit.
+
+00:26:01.480 --> 00:26:02.740
+Jetzt muss ich mir die Aufzeichnungen dazu.
+
+00:26:02.740 --> 00:26:03.520
+Aber dafür sind die doch da.
+
+00:26:03.580 --> 00:26:05.060
+Es ist doch wunderbar, dass es eben Aufzeichnungen gibt.
+
+00:26:05.200 --> 00:26:06.840
+Ich mag diese Chaos-Veranstaltung mit
+
+00:26:07.440 --> 00:26:09.060
+den Talks, die man sauber
+
+00:26:09.200 --> 00:26:11.020
+wiederfindet und in guter Qualität
+
+00:26:11.800 --> 00:26:12.800
+sich selbst daheim streamen kann.
+
+00:26:12.800 --> 00:26:15.040
+Das ist eine große Artikel. Genau, theoretisch würde ich am liebsten den
+
+00:26:15.960 --> 00:26:16.740
+Co1, der
+
+00:26:17.140 --> 00:26:18.900
+jetzt das VOG managt gerade
+
+00:26:19.140 --> 00:26:20.880
+und den
+
+00:26:21.080 --> 00:26:22.620
+Herrn Schmidlauch, der offenbar auch mit der Technik
+
+00:26:23.020 --> 00:26:25.080
+befasst ist, gerne einfach mal eine Sendung
+
+00:26:25.160 --> 00:26:27.280
+holen und die mal zu der ganzen Infrastruktur
+
+00:26:27.380 --> 00:26:29.080
+befragen. Das wäre, glaube ich, mal so ein Projekt.
+
+00:26:29.780 --> 00:26:30.860
+Das müssen wir noch nachholen.
+
+00:26:31.440 --> 00:26:33.060
+Apropos dazu, gibt es
+
+00:26:33.160 --> 00:26:35.160
+möglicherweise nächstes Jahr auf den Datenspuren
+
+00:26:35.180 --> 00:26:36.040
+schon ein geteasertes,
+
+00:26:36.980 --> 00:26:38.980
+eine Möglichkeit, dass hier Podcasts sich generell
+
+00:26:39.020 --> 00:26:40.860
+besser einnisten können und besser
+
+00:26:41.120 --> 00:26:43.620
+betreut mit Livestream-Sachen
+
+00:26:43.780 --> 00:26:44.360
+da was aufnehmen können.
+
+00:26:44.360 --> 00:26:46.560
+Du meinst ein Datenspuren-Sendezentrum?
+
+00:26:46.980 --> 00:26:48.560
+Etwas in der Art ist da möglicherweise
+
+00:26:48.860 --> 00:26:49.920
+geplant, habe ich vorhin gehört.
+
+00:26:50.140 --> 00:26:51.360
+Wir wollen mal nicht zu viel versprechen.
+
+00:26:51.780 --> 00:26:54.240
+Das heißt natürlich noch gar nichts, aber das wäre cool. Ich würde mich freuen nächstes Jahr.
+
+00:26:54.300 --> 00:26:55.520
+Ich hätte das super gerne auf jeden Fall.
+
+00:26:56.820 --> 00:26:58.600
+Chaosveranstaltungen oder allgemein Konferenzen
+
+00:26:59.060 --> 00:27:00.600
+mit angeschlossenem
+
+00:27:00.960 --> 00:27:02.300
+Podcast-Senderoption
+
+00:27:02.920 --> 00:27:04.620
+ist ein klasse Format, gerade weil man
+
+00:27:04.640 --> 00:27:05.400
+die Möglichkeit hat,
+
+00:27:07.100 --> 00:27:07.340
+als
+
+00:27:09.160 --> 00:27:10.560
+Ersatz für die Besucher, die
+
+00:27:10.640 --> 00:27:12.360
+nicht direkt hingehen konnten und keine Fragen
+
+00:27:12.510 --> 00:27:13.920
+an den Redner stellen konnten,
+
+00:27:14.700 --> 00:27:16.400
+einfach sich trotzdem nochmal den Redner zu seinen
+
+00:27:16.520 --> 00:27:18.400
+Talks zu interviewen. Das müssten wir
+
+00:27:18.500 --> 00:27:20.320
+eigentlich für viel mehr solche Veranstaltungen machen.
+
+00:27:20.720 --> 00:27:22.320
+Finde ich cool. Aber gut,
+
+00:27:22.580 --> 00:27:23.620
+das gibt es dann vielleicht nächstes Jahr.
+
+00:27:25.360 --> 00:27:26.380
+Genau, haben wir sonst noch andere Themen?
+
+00:27:27.300 --> 00:27:28.140
+Prinzip erstmal nicht.
+
+00:27:28.720 --> 00:27:30.180
+Für heute hier, vielen Dank Johannes erstmal,
+
+00:27:30.340 --> 00:27:32.240
+dass du dir die Zeit genommen hast, mit uns nochmal kurz
+
+00:27:32.270 --> 00:27:33.900
+über deinen Vortrag zu plauschen.
+
+00:27:34.660 --> 00:27:35.260
+fand ich sehr toll
+
+00:27:36.100 --> 00:27:38.240
+ansonsten nur noch ein was, was ich noch mit
+
+00:27:38.340 --> 00:27:40.140
+ansprechen müsste in eigener Sache, nämlich
+
+00:27:40.580 --> 00:27:42.280
+haben wir eine kleine Orga
+
+00:27:42.440 --> 00:27:44.400
+Änderung für Akronomisierbar in den nächsten
+
+00:27:44.740 --> 00:27:46.100
+halben Jahr geplant
+
+00:27:46.840 --> 00:27:48.340
+denn ich bin ab dem ersten
+
+00:27:48.640 --> 00:27:49.920
+ersten, ersten zehnten
+
+00:27:50.520 --> 00:27:52.400
+jetzt dann im Ausland und zwar
+
+00:27:52.600 --> 00:27:54.240
+bei Apple als Praktikant beschäftigt
+
+00:27:54.720 --> 00:27:55.940
+und werde deswegen
+
+00:27:56.280 --> 00:27:58.420
+oh mein Gott, haben wir noch nie drüber
+
+00:27:58.520 --> 00:27:59.280
+gesprochen, zumindest nicht öffentlich
+
+00:28:00.460 --> 00:28:02.259
+werde deswegen wahrscheinlich erstmal
+
+00:28:02.280 --> 00:28:03.840
+nicht hier in diesem Podcast weiter
+
+00:28:04.730 --> 00:28:06.140
+mit aufnehmen dürfen, soweit ich das
+
+00:28:06.240 --> 00:28:08.280
+verstanden habe. Das werde ich nochmal abklären, sobald
+
+00:28:08.280 --> 00:28:10.260
+ich wirklich da bin. Aber du
+
+00:28:10.380 --> 00:28:12.000
+wirst ja stellvertretend erstmal
+
+00:28:12.440 --> 00:28:13.960
+jemand anders mit ins Brot holen.
+
+00:28:14.010 --> 00:28:16.400
+Also ich habe ein, zwei Kandidaten im Auge,
+
+00:28:16.410 --> 00:28:18.220
+die vielleicht mache ich einfach eine
+
+00:28:19.660 --> 00:28:20.540
+gastzentrierte Sendung
+
+00:28:20.760 --> 00:28:21.040
+weiterhin.
+
+00:28:23.000 --> 00:28:24.020
+Vielleicht findet sich auch eine
+
+00:28:25.620 --> 00:28:26.500
+dauerhafte Übergangsvertretung
+
+00:28:26.600 --> 00:28:28.180
+für dich. Das werden wir noch herausfinden.
+
+00:28:29.560 --> 00:28:30.200
+Aber ja,
+
+00:28:31.740 --> 00:28:32.540
+es gibt
+
+00:28:32.660 --> 00:28:33.900
+zumindest Präzidenzen für
+
+00:28:35.260 --> 00:28:36.600
+andere Podcast-House,
+
+00:28:36.820 --> 00:28:38.200
+die wir persönlich kennen, die
+
+00:28:38.540 --> 00:28:40.280
+ein ähnliches Praktikum gemacht haben und dann auch
+
+00:28:40.280 --> 00:28:42.380
+ein halbes Jahr lang nicht in ihrem Podcast teilgenommen haben.
+
+00:28:43.020 --> 00:28:44.220
+Deswegen können wir, glaube ich, nicht
+
+00:28:44.300 --> 00:28:45.140
+versprechen, dass der Kian,
+
+00:28:46.000 --> 00:28:47.880
+auch wenn es technisch wahrscheinlich möglich wäre,
+
+00:28:49.360 --> 00:28:50.160
+an akronomisierbar
+
+00:28:51.740 --> 00:28:52.140
+fortlaufend,
+
+00:28:53.639 --> 00:28:54.440
+an akronomisierbar
+
+00:28:54.920 --> 00:28:56.260
+das nächste halbe Jahr teilnehmen können wird.
+
+00:28:56.260 --> 00:28:57.600
+Wir werden sehen. Das wird sich zeigen müssen.
+
+00:28:58.420 --> 00:28:59.920
+Ich werde uns in der nächsten Folge mitbekommen.
+
+00:29:00.300 --> 00:29:01.800
+Ich kann mich natürlich trotzdem weiterhin online finden.
+
+00:29:01.910 --> 00:29:03.780
+Ich werde auch, soweit ich das verstanden habe,
+
+00:29:04.820 --> 00:29:07.040
+ausschließlich bei Apple an Open-Source-Dingen arbeiten.
+
+00:29:07.240 --> 00:29:09.800
+Deswegen wird man das auch verfolgen können, zumindest online.
+
+00:29:10.040 --> 00:29:10.740
+Ein bisschen Angst davor.
+
+00:29:10.920 --> 00:29:11.880
+Ich freue mich ja übrigens für dich.
+
+00:29:13.620 --> 00:29:14.800
+Dann machen wir doch einfach eine Sektion
+
+00:29:14.930 --> 00:29:15.780
+What happened to Kilian?
+
+00:29:16.820 --> 00:29:20.700
+Du schreibst mir einfach, was du veröffentlichen darfst
+
+00:29:20.700 --> 00:29:21.920
+und ich werde das dann im Podcast erzählen.
+
+00:29:22.030 --> 00:29:22.620
+Mach es mal so.
+
+00:29:23.440 --> 00:29:23.920
+Finde ich gut.
+
+00:29:25.060 --> 00:29:25.380
+Sehr schön.
+
+00:29:26.060 --> 00:29:28.200
+Gut, ich glaube, an dieser Stelle können wir uns dann jetzt auch ausklingen lassen.
+
+00:29:29.000 --> 00:29:29.760
+Vielen Dank fürs Zuhören.
+
+00:29:29.900 --> 00:29:32.180
+Das war Folge 025, glaube ich.
+
+00:29:32.260 --> 00:29:33.940
+25, genau. Vielen Dank, Johannes,
+
+00:29:34.100 --> 00:29:35.640
+dass du an unserer Sendung teilgenommen hast.
+
+00:29:35.800 --> 00:29:37.440
+Ja, vielen Dank, dass ich darüber reden durfte.
+
+00:29:38.620 --> 00:29:41.240
+Das war eine sehr kurze Datenspuren-Sondersendung,
+
+00:29:41.980 --> 00:29:42.380
+akronomisierbar.
+
+00:29:42.920 --> 00:29:45.980
+Und die nächste Sendung in eurem Podcatcher beginnt in 3,
+
+00:29:46.560 --> 00:29:46.780
+2,
+
+00:29:47.580 --> 00:29:47.800
+1,
+
+00:29:48.560 --> 00:29:48.720
+Boop!
+

@@ -1,0 +1,219 @@
+{% extends "base.html" %}
+
+{% block title %}Transkript-Suche - {{ config.title }}{% endblock title %}
+
+{% block description %}Durchsuche alle Podcast-Transkripte{% endblock description %}
+
+{% block content %}
+<h1>Transkript-Suche</h1>
+
+<p class="search-description">Durchsuche alle Episoden und Transkripte.</p>
+
+<div class="search-page">
+    <div class="search-input-container">
+        <input
+            type="text"
+            id="search-input"
+            placeholder="Suche in allen Episoden und Transkripten..."
+            autofocus
+        />
+        <button class="clear-search-button" id="clear-search" style="display: none">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="15" y1="9" x2="9" y2="15"></line>
+                <line x1="9" y1="9" x2="15" y2="15"></line>
+            </svg>
+        </button>
+    </div>
+
+    <div id="search-status"></div>
+    <div id="search-results"></div>
+</div>
+
+<script>
+(function() {
+    let searchIndex = null;
+    let episodeMap = new Map();
+    let debounceTimer = null;
+
+    const searchInput = document.getElementById('search-input');
+    const clearButton = document.getElementById('clear-search');
+    const resultsContainer = document.getElementById('search-results');
+    const statusContainer = document.getElementById('search-status');
+
+    async function loadIndex() {
+        if (searchIndex) return;
+        statusContainer.textContent = 'Lade Suchindex...';
+        try {
+            const response = await fetch('/search-index.json');
+            searchIndex = await response.json();
+            for (const ep of searchIndex.episodes) {
+                episodeMap.set(ep.i, ep);
+            }
+            statusContainer.textContent = '';
+        } catch (err) {
+            statusContainer.textContent = 'Fehler beim Laden des Suchindex.';
+            console.error('Failed to load search index:', err);
+        }
+    }
+
+    function search(query) {
+        const normalizedQuery = query.toLowerCase().trim();
+        if (normalizedQuery.length < 2) return [];
+
+        const results = [];
+
+        for (const episode of searchIndex.episodes) {
+            const titleMatch = episode.t.toLowerCase().includes(normalizedQuery);
+            const descMatch = episode.d.toLowerCase().includes(normalizedQuery);
+            if (titleMatch || descMatch) {
+                results.push({
+                    type: 'episode',
+                    episode,
+                    matchField: titleMatch ? 'title' : 'description'
+                });
+            }
+        }
+
+        for (const segment of searchIndex.segments) {
+            if (segment.t.toLowerCase().includes(normalizedQuery)) {
+                const episode = episodeMap.get(segment.e);
+                if (episode) {
+                    results.push({
+                        type: 'transcript',
+                        episode,
+                        segment,
+                        snippet: createSnippet(segment.t, normalizedQuery)
+                    });
+                }
+            }
+        }
+
+        return results;
+    }
+
+    function createSnippet(text, query) {
+        const lowerText = text.toLowerCase();
+        const index = lowerText.indexOf(query);
+        const start = Math.max(0, index - 50);
+        const end = Math.min(text.length, index + query.length + 50);
+        let snippet = text.slice(start, end);
+        if (start > 0) snippet = '...' + snippet;
+        if (end < text.length) snippet = snippet + '...';
+        return snippet;
+    }
+
+    function highlightMatch(text, query) {
+        const regex = new RegExp('(' + escapeRegex(query) + ')', 'gi');
+        return text.replace(regex, '<mark>$1</mark>');
+    }
+
+    function escapeRegex(string) {
+        return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    function formatTime(seconds) {
+        const h = Math.floor(seconds / 3600);
+        const m = Math.floor((seconds % 3600) / 60);
+        const s = Math.floor(seconds % 60);
+        return h.toString().padStart(2, '0') + ':' +
+               m.toString().padStart(2, '0') + ':' +
+               s.toString().padStart(2, '0');
+    }
+
+    function groupByEpisode(matches) {
+        const groups = new Map();
+        for (const match of matches) {
+            const id = match.episode.i;
+            if (!groups.has(id)) {
+                groups.set(id, { episode: match.episode, matches: [] });
+            }
+            groups.get(id).matches.push(match);
+        }
+        return Array.from(groups.values()).sort((a, b) => b.episode.p.localeCompare(a.episode.p));
+    }
+
+    function renderResults(matches, query) {
+        if (matches.length === 0) {
+            statusContainer.textContent = 'Keine Ergebnisse gefunden.';
+            resultsContainer.innerHTML = '';
+            return;
+        }
+
+        const grouped = groupByEpisode(matches);
+        const totalMatches = matches.filter(m => m.type === 'transcript').length;
+        statusContainer.textContent = totalMatches + ' Treffer in ' + grouped.length + ' Episoden';
+
+        let html = '';
+        for (const group of grouped) {
+            const { episode, matches: groupMatches } = group;
+            const transcriptMatches = groupMatches.filter(m => m.type === 'transcript').slice(0, 5);
+            const episodeMatch = groupMatches.find(m => m.type === 'episode');
+            const hasMore = groupMatches.filter(m => m.type === 'transcript').length > 5;
+
+            html += '<div class="search-result-group">';
+            html += '<h3><a href="' + episode.u + '">' + highlightMatch(episode.t, query) + '</a></h3>';
+            html += '<p class="episode-details">' + episode.p + ' &middot; ' + episode.l + '</p>';
+
+            if (episodeMatch) {
+                html += '<p class="episode-description-match">' + highlightMatch(episode.d, query) + '</p>';
+            }
+
+            if (transcriptMatches.length > 0) {
+                html += '<ul class="transcript-matches">';
+                for (const m of transcriptMatches) {
+                    html += '<li>';
+                    html += '<a href="' + episode.u + '?t=' + m.segment.s + '">';
+                    html += '<span class="timestamp">' + formatTime(m.segment.s) + '</span>';
+                    html += '<span class="snippet">' + highlightMatch(m.snippet, query) + '</span>';
+                    html += '</a>';
+                    html += '</li>';
+                }
+                html += '</ul>';
+            }
+
+            if (hasMore) {
+                const moreCount = groupMatches.filter(m => m.type === 'transcript').length - 5;
+                html += '<p class="more-results">...und ' + moreCount + ' weitere Treffer</p>';
+            }
+
+            html += '</div>';
+        }
+
+        resultsContainer.innerHTML = html;
+    }
+
+    async function handleSearch() {
+        const query = searchInput.value;
+        clearButton.style.display = query ? 'flex' : 'none';
+
+        if (query.length < 2) {
+            statusContainer.textContent = '';
+            resultsContainer.innerHTML = '';
+            return;
+        }
+
+        await loadIndex();
+        if (!searchIndex) return;
+
+        const matches = search(query);
+        renderResults(matches, query);
+    }
+
+    searchInput.addEventListener('input', function() {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(handleSearch, 300);
+    });
+
+    clearButton.addEventListener('click', function() {
+        searchInput.value = '';
+        clearButton.style.display = 'none';
+        statusContainer.textContent = '';
+        resultsContainer.innerHTML = '';
+        searchInput.focus();
+    });
+
+    loadIndex();
+})();
+</script>
+{% endblock content %}

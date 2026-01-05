@@ -1,0 +1,7649 @@
+WEBVTT
+
+00:00:08.420 --> 00:00:08.960
+Hey Kilian!
+
+00:00:09.400 --> 00:00:10.040
+Hey Hendrik!
+
+00:00:10.820 --> 00:00:13.420
+Wie geht's dir? Wir haben schon eine Weile nicht mehr geredet.
+
+00:00:13.520 --> 00:00:15.880
+Ich habe so ein bisschen die Befürchtung gehabt, in der letzten Folge sage ich,
+
+00:00:16.260 --> 00:00:19.260
+wir machen das jetzt nach 51 Folgen, machen wir weiter, oder? Und dann hören wir auf.
+
+00:00:20.860 --> 00:00:21.820
+Das wäre natürlich traurig.
+
+00:00:22.600 --> 00:00:25.880
+Aber man hat ja keine Ambitionen, also manche Podcasts haben explizit so ein Ende,
+
+00:00:26.140 --> 00:00:27.140
+manche appen einfach ab.
+
+00:00:28.040 --> 00:00:29.280
+Manche dünnen nach hinten so aus.
+
+00:00:29.400 --> 00:00:32.099
+Ich glaube, wir sind vielleicht ein bisschen der, der so ein bisschen nach hinten ausdünnt.
+
+00:00:32.820 --> 00:00:33.720
+Ja, was heißt ausdünnen?
+
+00:00:33.840 --> 00:00:36.580
+Wir haben irgendwo unseren natürlichen Rhythmus gefunden, würde ich behaupten.
+
+00:00:36.600 --> 00:00:37.020
+Ja, unseren natürlichen Rhythmus gefunden.
+
+00:00:37.240 --> 00:00:41.440
+Ich habe auch, muss ich sagen, gar nicht mehr so viel Unterschiedliches zu erzählen gehabt.
+
+00:00:41.500 --> 00:00:43.760
+Ich habe das Gefühl, viele Themen haben wir schon beackert.
+
+00:00:43.820 --> 00:00:45.220
+Du meinst, wir haben die Welt durch.
+
+00:00:45.600 --> 00:00:48.140
+Wir haben so das, was wir eigentlich so erzählen haben.
+
+00:00:48.160 --> 00:00:50.000
+Mehr kann man nicht über Rust und TypeScript reden.
+
+00:00:51.400 --> 00:00:56.260
+Aber über TypeScript habe ich ja bloß geredet, weil wir aus Not quasi.
+
+00:00:56.700 --> 00:00:58.580
+Also uns gehen definitiv nicht die Themen aus,
+
+00:00:58.800 --> 00:00:59.960
+aber ich glaube, wir hatten so ein bisschen
+
+00:01:01.020 --> 00:01:02.380
+so ein Sommerloch
+
+00:01:02.550 --> 00:01:04.379
+oder sowas. Ich habe jetzt auch lange nicht
+
+00:01:04.519 --> 00:01:05.960
+nebenbei gecodet oder sowas.
+
+00:01:06.090 --> 00:01:07.560
+Das ist Arbeit war irgendwie...
+
+00:01:10.159 --> 00:01:11.760
+Das fängt jetzt bei mir wieder an.
+
+00:01:13.040 --> 00:01:14.500
+Vielleicht liegt es auch daran, dass Winter wird.
+
+00:01:14.570 --> 00:01:14.980
+Ich weiß nicht.
+
+00:01:15.920 --> 00:01:17.000
+Das ist so ein saisonales Ding.
+
+00:01:17.479 --> 00:01:18.860
+Wir sind eher so ein Winter-Podcast.
+
+00:01:18.900 --> 00:01:20.760
+Den Sommer über kaufst du dir ein Fahrrad
+
+00:01:20.840 --> 00:01:22.140
+nach dem nächsten und den Winter...
+
+00:01:22.330 --> 00:01:23.240
+Das stimmt gar nicht.
+
+00:01:25.159 --> 00:01:26.700
+Ich habe gerade eben das Nummer 3 geteilt.
+
+00:01:26.700 --> 00:01:28.300
+Du hast gesagt, das ist nicht Nummer 3, das ist Nummer 4?
+
+00:01:29.440 --> 00:01:30.300
+Ja, naja.
+
+00:01:30.370 --> 00:01:31.380
+Also ich habe gerade hier,
+
+00:01:32.920 --> 00:01:34.140
+um davon einzufangen, ich habe mir
+
+00:01:34.840 --> 00:01:36.220
+dieses Fahrrad jetzt gekauft.
+
+00:01:36.410 --> 00:01:37.460
+Und das war eher so eine
+
+00:01:40.159 --> 00:01:40.520
+unvernünftige
+
+00:01:40.660 --> 00:01:41.000
+Entscheidung.
+
+00:01:42.580 --> 00:01:44.420
+Ich stand davor und das ist
+
+00:01:44.920 --> 00:01:46.299
+ein Feather, das ist ein
+
+00:01:48.000 --> 00:01:48.720
+Singlespeed Stadtfahrrad.
+
+00:01:48.820 --> 00:01:49.780
+Das sieht aus wie ein Rennrad.
+
+00:01:50.150 --> 00:01:52.500
+Aber der Fahrradladen hier in Dresden,
+
+00:01:52.580 --> 00:01:54.600
+der hat noch Lichter und Bleche dran
+
+00:01:54.760 --> 00:01:55.460
+gebaut und ich dachte mir so,
+
+00:01:56.580 --> 00:01:57.660
+ist schon schön. Aber
+
+00:01:58.800 --> 00:02:00.400
+Single-Speed-Fahren ist schon anstrengend,
+
+00:02:00.500 --> 00:02:02.560
+muss ich sagen. Das ist jetzt nicht das letzte
+
+00:02:02.780 --> 00:02:04.680
+Fahrrad, was alle Probleme löst und mit dem
+
+00:02:04.760 --> 00:02:06.540
+man alles machen kann und man kann damit auch nicht
+
+00:02:06.740 --> 00:02:08.500
+überall lang fahren. Aber es ist
+
+00:02:09.379 --> 00:02:10.840
+schön und ich dachte, ich muss
+
+00:02:10.840 --> 00:02:12.700
+es mal normalisieren, dass man sich auch mal
+
+00:02:12.720 --> 00:02:13.820
+ein schönes Fahrrad kauft.
+
+00:02:14.240 --> 00:02:16.560
+Auch mal, nach den anderen sehr schönen Teil.
+
+00:02:17.100 --> 00:02:18.720
+Nee, aber ich meine, wenn du mal so guckst,
+
+00:02:18.780 --> 00:02:20.659
+was so, wenn du dich in anderen Ländern
+
+00:02:20.680 --> 00:02:22.560
+und guckst, also hauptsächlich wahrscheinlich Dänemark
+
+00:02:22.690 --> 00:02:24.700
+und Schweden und Holland, da fahren
+
+00:02:24.710 --> 00:02:25.860
+die Leute schöne Fahrräder.
+
+00:02:26.880 --> 00:02:28.560
+Also gerade in Kopenhagen war ich ja irgendwie vor zwei,
+
+00:02:28.630 --> 00:02:30.740
+drei Jahren mal, da ist da ein schön Fahrräder
+
+00:02:30.820 --> 00:02:32.500
+rumfahren. Und hier in Deutschland, der Deutsche
+
+00:02:32.660 --> 00:02:35.000
+ist so ein Gebrauchsfahrrad
+
+00:02:36.080 --> 00:02:36.280
+Fahrer.
+
+00:02:36.540 --> 00:02:38.460
+Das ist eine Altersfrage. Du fährst gebrauchte Räder,
+
+00:02:38.560 --> 00:02:40.320
+bis du Rentner bist und dann fährst du jetzt fette
+
+00:02:40.480 --> 00:02:42.420
+Elektro-Mountainbikes. Genau, so ein Elektro-Mountainbikes.
+
+00:02:42.420 --> 00:02:44.240
+Oder Elektro-Falträder. Ja, und sowas.
+
+00:02:44.660 --> 00:02:46.460
+Und ich habe den Eindruck, die Leute in Deutschland
+
+00:02:46.680 --> 00:02:48.279
+kaufen sich halt ein Fahrrad
+
+00:02:49.359 --> 00:02:51.080
+und machen das relativ lieblos
+
+00:02:51.200 --> 00:02:52.900
+oder das muss dann das Fahrrad sein,
+
+00:02:53.040 --> 00:02:54.600
+was alle Probleme löst?
+
+00:02:54.760 --> 00:02:55.440
+Das Fahrrad.
+
+00:02:55.600 --> 00:02:56.600
+Das ist eine deutsche Fahrradmarke.
+
+00:02:56.880 --> 00:02:59.060
+Und die meisten Leute, wenn sie sich dann was
+
+00:02:59.400 --> 00:03:01.520
+ordentliches, schönes kaufen wollen, steigen sie aufs Auto um.
+
+00:03:02.799 --> 00:03:03.120
+Und
+
+00:03:04.079 --> 00:03:05.480
+ich möchte das so ein bisschen normalisieren,
+
+00:03:05.580 --> 00:03:07.660
+mal mit einem schönen Fahrrad durch die Stadt zu fahren.
+
+00:03:07.840 --> 00:03:09.160
+Ich glaube, das brauchst du nicht normalisieren,
+
+00:03:09.160 --> 00:03:11.240
+aber ich verstehe deinen Gedanken.
+
+00:03:11.960 --> 00:03:13.520
+Keine Ahnung, dieses Fahrrad habe ich mir geholt
+
+00:03:13.620 --> 00:03:15.140
+und vielleicht verkaufe ich es in einem halben Jahr wieder
+
+00:03:15.320 --> 00:03:16.640
+und hole mir was Praktischeres.
+
+00:03:17.100 --> 00:03:19.640
+Wenn du ein Foto davon machst, können wir das ja als Coverart mit hier reinbringen.
+
+00:03:20.140 --> 00:03:23.460
+Ich werde eigentlich nicht so mit meinen Anschaffungen angeben.
+
+00:03:24.400 --> 00:03:26.600
+Aber wir können ja nicht von einem wiederholend schönen Rad reden.
+
+00:03:27.660 --> 00:03:29.640
+Ich kann definitiv ein bisschen Werbung machen.
+
+00:03:30.160 --> 00:03:37.120
+Es gibt in Dresden, in Löpptau gibt es den Radstadtladen.
+
+00:03:37.480 --> 00:03:40.600
+Die habe ich gefunden, weil ich mir auf der Kesselsdorfer Straße,
+
+00:03:41.180 --> 00:03:43.000
+so ein kleiner Radstadtladen,
+
+00:03:45.400 --> 00:03:45.800
+Stadtradladen.
+
+00:03:46.380 --> 00:03:47.360
+Der heißt aber Radstadtladen.
+
+00:03:47.680 --> 00:03:50.080
+Und den habe ich gefunden, weil ich mir über Frieda und Friedrich
+
+00:03:50.080 --> 00:03:51.940
+ein Lastenfahrrad einmal im Monat hole,
+
+00:03:52.560 --> 00:03:53.760
+um Pfand wegzubringen.
+
+00:03:54.940 --> 00:03:55.300
+Und
+
+00:03:56.300 --> 00:03:57.260
+da steht dieses Fahrrad drum.
+
+00:03:58.180 --> 00:04:00.060
+Dann habe ich einen Monat drüber nachgedacht
+
+00:04:00.100 --> 00:04:00.920
+und dann habe ich mir gedacht,
+
+00:04:01.780 --> 00:04:02.500
+so für den Winter
+
+00:04:04.080 --> 00:04:05.260
+wäre es vielleicht ganz hübsch.
+
+00:04:05.540 --> 00:04:06.920
+Für den Winter holst du das Singlespeed.
+
+00:04:07.980 --> 00:04:08.120
+Ja.
+
+00:04:09.200 --> 00:04:09.840
+Ich meine, gut,
+
+00:04:09.960 --> 00:04:11.760
+da haben wir jetzt einen höheren Berg. Dresden ist ja eh
+
+00:04:12.860 --> 00:04:14.600
+relativ flache Stadt, würde ich behaupten.
+
+00:04:15.560 --> 00:04:16.440
+Solange du nicht aus
+
+00:04:16.640 --> 00:04:18.340
+Dresden raus willst in die Randgebiete, weil dadurch,
+
+00:04:18.459 --> 00:04:19.980
+dass wir in diesem Kessel sind, ist es halt...
+
+00:04:20.540 --> 00:04:22.540
+Also Single-Speed-Fahren ist schon anstrengend, muss ich sagen.
+
+00:04:22.760 --> 00:04:24.700
+Ja, wenn du halt mal irgendwo wirklich einen Berg hoch willst,
+
+00:04:24.820 --> 00:04:26.640
+dann spürst du es gut, den beiden, glaube ich.
+
+00:04:26.710 --> 00:04:28.780
+Du musst eigentlich diese Idealgeschwindigkeit
+
+00:04:29.020 --> 00:04:30.520
+halten. Du kannst
+
+00:04:30.780 --> 00:04:32.400
+langsam fahren, aber dann sind die einzelnen
+
+00:04:33.320 --> 00:04:34.040
+Pedalentritte anstrengend.
+
+00:04:34.900 --> 00:04:36.560
+Gerade wenn du einen Berg hoch willst, musst du
+
+00:04:36.570 --> 00:04:37.720
+eine Mindestgeschwindigkeit haben,
+
+00:04:38.780 --> 00:04:39.540
+weil du sonst verreckst.
+
+00:04:39.790 --> 00:04:41.100
+Du brauchst Trittfrequenz, wie du gerade meintest.
+
+00:04:41.320 --> 00:04:42.400
+Trittfrequenz. Und
+
+00:04:43.880 --> 00:04:45.300
+bei mir habe ich aber auch schon gemerkt,
+
+00:04:45.480 --> 00:04:47.540
+oh, die Geschwindigkeit, die ich gerne fahren würde,
+
+00:04:48.140 --> 00:04:49.420
+die schaffe ich mit dem Fahrrad gar nicht.
+
+00:04:50.259 --> 00:04:51.520
+Weil dann die Trittfrequenz
+
+00:04:51.560 --> 00:04:53.280
+zu hoch wird. Also es ist,
+
+00:04:53.480 --> 00:04:55.360
+ich habe mir gedacht, das ist so das Fahrrad zum langsam
+
+00:04:55.700 --> 00:04:57.460
+durch die Stadt fahren. So 30, 35
+
+00:04:57.680 --> 00:04:59.300
+muss reichen. Das ist zum langsam fahren.
+
+00:04:59.480 --> 00:05:01.340
+Das ist ein gutes Fahrradfahren.
+
+00:05:01.520 --> 00:05:03.180
+Was gibt es denn bei dir so neues? Was hast du da an der Hand?
+
+00:05:04.120 --> 00:05:05.960
+Ja, ich habe mir etwas tätowieren lassen.
+
+00:05:06.600 --> 00:05:07.760
+Echt jetzt? Ist das
+
+00:05:07.880 --> 00:05:09.459
+dauerhaft? Das ist dauerhaft. Ich hatte vorher mal
+
+00:05:09.480 --> 00:05:11.320
+ein paar Tempo wäre drauf, um zu wissen,
+
+00:05:11.360 --> 00:05:13.320
+wie es sich so anfühlt. Du hast ja da jetzt
+
+00:05:13.760 --> 00:05:15.280
+1, 2, 3, 4, 5
+
+00:05:16.480 --> 00:05:17.280
+ungleichmäßig verteilte
+
+00:05:17.480 --> 00:05:19.400
+Kreise ans Handgelenk
+
+00:05:19.520 --> 00:05:20.840
+retiturieren lassen. Das ist richtig.
+
+00:05:21.420 --> 00:05:23.520
+Es hat tatsächlich sogar eine Person bisher erkannt,
+
+00:05:23.700 --> 00:05:25.140
+weil du direkt sagen kannst, ist das die
+
+00:05:25.420 --> 00:05:27.020
+Eurion-Konstellation? What the fuck?
+
+00:05:27.380 --> 00:05:28.520
+Woher weißt du das?
+
+00:05:29.440 --> 00:05:32.020
+Ja. Das ist die Eurion-Konstellation?
+
+00:05:32.280 --> 00:05:33.640
+Ja, die liebevoll so getaufte
+
+00:05:33.760 --> 00:05:35.340
+oder es kann auch andere Namen. Das ist dieses
+
+00:05:35.500 --> 00:05:37.300
+Muster, was du auf Geldscheinen wiederholt findest.
+
+00:05:37.300 --> 00:05:38.660
+Ist das tatsächlich das Sternbild?
+
+00:05:39.000 --> 00:05:41.020
+Ne, das ist benannt, weil so ein bisschen wie
+
+00:05:41.310 --> 00:05:42.620
+der Belt of Orion, wie heißt der?
+
+00:05:43.400 --> 00:05:44.020
+Rionsgürtel in Deutsch?
+
+00:05:45.680 --> 00:05:46.320
+Aber so aussieht,
+
+00:05:46.920 --> 00:05:48.840
+also das hat mal so ein
+
+00:05:49.170 --> 00:05:50.900
+Dude benannt, der das auf Schein entdeckt hatte,
+
+00:05:50.950 --> 00:05:52.820
+aber der hat es natürlich nicht entdeckt und das war ja schon
+
+00:05:53.380 --> 00:05:55.100
+von anderen auf die Scheine gepackt.
+
+00:05:57.080 --> 00:05:58.980
+Das heißt, du hast jetzt was mit Geldscheinen gemeinsam?
+
+00:05:59.780 --> 00:06:00.440
+Ne, das ist ein bisschen
+
+00:06:01.740 --> 00:06:03.120
+trist, der Gedanke.
+
+00:06:04.600 --> 00:06:05.320
+Aber ich finde
+
+00:06:05.480 --> 00:06:06.280
+dieses Muster halt toll.
+
+00:06:06.840 --> 00:06:08.480
+Ist dir auch irgendwo anders so ein Dollarzeichen?
+
+00:06:08.600 --> 00:06:10.700
+Nein, noch schlimmer, Bitcoin.
+
+00:06:14.020 --> 00:06:16.880
+Das Muster wird halt von Druckern und Scannern benutzt,
+
+00:06:17.300 --> 00:06:20.020
+dass die algorithmisch Scheine als solche erkennen können.
+
+00:06:20.580 --> 00:06:21.700
+Und ich habe das mal vor einer Weile probiert gehabt,
+
+00:06:21.740 --> 00:06:23.480
+habe einen 50-Euro-Schein auf den Farbkobierer gelegt
+
+00:06:23.480 --> 00:06:25.680
+und da kam halt eine Seite komplett am Toner raus.
+
+00:06:26.020 --> 00:06:28.000
+Also quasi 50 Euro im Toner, gefühlt.
+
+00:06:28.600 --> 00:06:29.820
+So als Strafe, oder was?
+
+00:06:29.960 --> 00:06:30.100
+Genau.
+
+00:06:31.020 --> 00:06:32.980
+Andere Geräte machen dann einfach nur die halbe Seite
+
+00:06:33.400 --> 00:06:35.100
+oder drücken ein fettes Waterprint drüber.
+
+00:06:35.680 --> 00:06:37.420
+Alles, um halt dich davon abzuhalten,
+
+00:06:37.540 --> 00:06:39.960
+auf sehr billige, einfache Art und Weise Falschgeld zu produzieren.
+
+00:06:41.040 --> 00:06:44.940
+Das ist natürlich das Falschgeld, was du sofort entdeckst.
+
+00:06:45.040 --> 00:06:47.540
+Würde man eigentlich meinen, aber es gab ja auch diesen Fall von dem Typen,
+
+00:06:47.640 --> 00:06:50.960
+der irgendwo im Supermarkt mit einem 23-Euro-Schein bezahlt hat und es angenommen wurde.
+
+00:06:51.580 --> 00:06:54.040
+Woher wollen Sie wissen, dass der falsch ist, wenn Sie noch nie einen gesehen haben?
+
+00:06:54.540 --> 00:06:55.140
+Guter Punkt.
+
+00:06:56.800 --> 00:07:00.100
+Also viele Schwarz-Weiß-Geräte machen das nicht, weil es da wohl zu offensichtlich ist,
+
+00:07:00.200 --> 00:07:01.340
+aber vielleicht reicht das ja.
+
+00:07:03.060 --> 00:07:07.500
+Aber das wird halt da benutzt und ich hatte mir da mal irgendwann im Studium so einen Stempel mit...
+
+00:07:07.520 --> 00:07:09.400
+sagen, du machst, hast du das jetzt hier
+
+00:07:09.480 --> 00:07:11.420
+drauf getan, damit man dich nicht kopieren kann?
+
+00:07:11.440 --> 00:07:13.060
+Ich bin jetzt quasi unkopierbar, genau. Aber
+
+00:07:13.360 --> 00:07:15.320
+ich weiß, dass du im Studio mal einen Stempel damit
+
+00:07:15.460 --> 00:07:17.400
+gemacht hattest und dass der Stempel nicht funktioniert hat.
+
+00:07:17.860 --> 00:07:19.260
+Der Stempel hat mäßig,
+
+00:07:19.420 --> 00:07:21.260
+also der hatte nicht funktioniert, wenn man ihn nur einmal
+
+00:07:21.460 --> 00:07:23.460
+irgendwas, also das war wirklich quasi dieses Muster in sehr klein,
+
+00:07:23.540 --> 00:07:25.340
+in ähnlicher Farbe und ich hab,
+
+00:07:25.560 --> 00:07:27.260
+also der war halt ein Hauch zu groß, hab ich das Gefühl,
+
+00:07:27.380 --> 00:07:28.920
+aber ich hab's dann später nochmal ausprobiert gehabt, wenn du
+
+00:07:29.280 --> 00:07:31.160
+die Seite komplett wirklich, also nicht komplett, aber mehrfach
+
+00:07:31.280 --> 00:07:33.280
+damit bestempelt hattest, dann wurde es tatsächlich recht gut
+
+00:07:33.400 --> 00:07:35.040
+erkannt und nicht nur einmal irgendwo in der Ecke.
+
+00:07:35.820 --> 00:07:37.480
+Und ich hatte dann halt irgendwann angefangen
+
+00:07:37.500 --> 00:07:39.460
+Unterlagen in alle möglichen Institutionen und Ämter,
+
+00:07:39.990 --> 00:07:41.320
+für die ich keine Sympathien übrig hatte.
+
+00:07:41.800 --> 00:07:42.980
+Das war anfangs das Immeramt,
+
+00:07:43.220 --> 00:07:45.280
+das war später noch andere Ecken.
+
+00:07:45.880 --> 00:07:47.280
+Alles hat die so ein bisschen
+
+00:07:47.960 --> 00:07:49.560
+inconspicuous zu stempeln, nur für den Fall,
+
+00:07:49.660 --> 00:07:51.020
+dass sie das scannen oder kopieren wollen.
+
+00:07:51.180 --> 00:07:53.520
+Kann man diesen Stempel jetzt im Akronomysiker-Onlineshop kaufen?
+
+00:07:54.360 --> 00:07:54.660
+Nee, nee.
+
+00:07:56.640 --> 00:07:57.260
+Den gibt es schon leider
+
+00:07:57.900 --> 00:07:59.600
+eine ganze Zeit nicht mehr, ich habe den irgendwo verloren.
+
+00:07:59.740 --> 00:08:01.240
+Wenn ich mich damit stempel, dann habe ich quasi,
+
+00:08:01.660 --> 00:08:03.500
+dann ist das Killian-Cosplay.
+
+00:08:05.860 --> 00:08:06.400
+Sehr schön.
+
+00:08:07.000 --> 00:08:15.880
+Aber ich meine, es ist, also abgesehen davon, dass dieses Tattoo natürlich sicherlich nicht funktional ist, allein wegen der Größe und, keine Ahnung, der Färbung, weil es halt schwarz ist.
+
+00:08:16.520 --> 00:08:29.920
+Aber ich finde die Idee, also ich meine, wir wissen doch aufgrund der Tatsache, was wir machen, dass moderne Software selten sauber von scratch implementiert wird, um das zu tun, was sie machen sollen.
+
+00:08:29.980 --> 00:08:32.340
+Das ist eine Abstraktionsebene über der nächsten Abstraktionsebene.
+
+00:08:32.919 --> 00:08:34.900
+Und man sagt immer so schön,
+
+00:08:36.280 --> 00:08:37.140
+standing on the shoulders of giants.
+
+00:08:37.700 --> 00:08:39.820
+Aber tatsächlich sind das irgendwie die frickligsten Gebilde,
+
+00:08:39.830 --> 00:08:42.500
+die wir bauen, die immer größer werden und gerade so standhalten können.
+
+00:08:42.580 --> 00:08:44.120
+Gibt es schöne Bilder auf Marquiser.
+
+00:08:44.540 --> 00:08:44.820
+Ja, genau.
+
+00:08:45.350 --> 00:08:46.900
+Und es würde mich halt echt nicht wundern,
+
+00:08:46.930 --> 00:08:50.320
+wenn wir irgendwann mal in, keine Ahnung, 50, 100, 300 Jahren
+
+00:08:50.820 --> 00:08:54.800
+irgendwie es schaffen, biologische 3D-Drucker zu bauen,
+
+00:08:54.960 --> 00:08:56.560
+die Menschen drucken können, nur von der Idee her,
+
+00:08:56.560 --> 00:08:57.240
+oder kopieren können,
+
+00:08:57.660 --> 00:08:59.120
+dass irgendwo in diesem Software-Stack
+
+00:08:59.150 --> 00:09:01.200
+noch alte Xerox-Treiber mit drinstecken,
+
+00:09:01.320 --> 00:09:02.820
+die auch dieses Muster erkennen.
+
+00:09:04.180 --> 00:09:04.760
+Hast du
+
+00:09:05.010 --> 00:09:06.820
+Seven Eves von Neil Stevenson gelesen?
+
+00:09:06.820 --> 00:09:08.080
+Noch nicht, ich bin gerade noch dabei.
+
+00:09:08.340 --> 00:09:09.880
+Das geht weit in die Zukunft,
+
+00:09:10.980 --> 00:09:12.880
+ohne dass ich das zu sehr
+
+00:09:13.000 --> 00:09:14.880
+spüllen möchte. Und da läuft dann immer noch
+
+00:09:15.740 --> 00:09:17.180
+alte Software von heute.
+
+00:09:17.720 --> 00:09:18.840
+Sowas würde mich halt auch nicht wundern, wenn
+
+00:09:18.970 --> 00:09:20.800
+irgendwo halt ganz alt dieser Legacy-Shit
+
+00:09:20.860 --> 00:09:21.560
+noch unten drunter liegt.
+
+00:09:22.960 --> 00:09:24.140
+Den Gedanken fand ich einfach witzig.
+
+00:09:25.320 --> 00:09:26.760
+Das kann durchaus passieren.
+
+00:09:26.820 --> 00:09:31.340
+Ich meine, was für Anreize gibt es zum Beispiel, regelmäßig neue Betriebssysteme zu erfinden?
+
+00:09:31.700 --> 00:09:33.580
+Linux läuft jetzt, na gut, 30 Jahre.
+
+00:09:35.240 --> 00:09:36.900
+Aber fast 30 Jahre.
+
+00:09:38.140 --> 00:09:42.060
+Und vielleicht bringt Google mal demnächst irgendwie ihr Fuchsjahr an den Start an vielen Stellen.
+
+00:09:42.660 --> 00:09:48.560
+Aber ob das Linux in den meisten Sachen ersetzen wird, die Basis davon ist noch älter.
+
+00:09:48.700 --> 00:09:50.360
+Eigentlich Unix kommt aus den 60ern.
+
+00:09:51.200 --> 00:09:52.840
+Und das wird noch eine Weile laufen, schätze ich mal.
+
+00:09:53.520 --> 00:09:55.260
+Es wird selten angefangen, komplett neu.
+
+00:09:55.680 --> 00:09:57.620
+Es gibt ein paar Spielereien, die man so sieht,
+
+00:09:57.760 --> 00:09:59.700
+irgendwelche Spaßprojekte. Aber so Konzepte
+
+00:09:59.760 --> 00:10:01.540
+wie POSIX oder sowas, die leben auch
+
+00:10:01.800 --> 00:10:03.760
+ewig. Ich meine, das ist natürlich auch ein Riesenvorteil,
+
+00:10:03.820 --> 00:10:05.660
+den du mit sowas ans Boot holst, wenn du da kompatibel
+
+00:10:05.860 --> 00:10:07.760
+bist, aber es
+
+00:10:07.860 --> 00:10:09.600
+gibt halt nicht den Incentive neu anzufangen.
+
+00:10:09.980 --> 00:10:11.560
+Aber du hast halt auch dementsprechend
+
+00:10:11.600 --> 00:10:13.500
+sehr viel, ich will nicht sagen
+
+00:10:13.660 --> 00:10:15.420
+Kraft, aber sehr viel historischen
+
+00:10:15.700 --> 00:10:17.720
+Kontext, den du dir mit einschleppst. Möglicherweise
+
+00:10:18.540 --> 00:10:19.420
+Legacy-Krams und
+
+00:10:20.620 --> 00:10:21.740
+Blote ist auch der falsche Begriff.
+
+00:10:21.860 --> 00:10:22.820
+Aber ich verstehe, was ich meine.
+
+00:10:23.820 --> 00:10:26.260
+und das siehst du dir halt alles, ich verstehe, was ich meine, genau.
+
+00:10:28.620 --> 00:10:31.300
+Ich meine, also jetzt habe ich natürlich mit diesem Linux läuft überall
+
+00:10:31.440 --> 00:10:33.060
+und es gibt keinen Incentive, was Neues zu bauen,
+
+00:10:33.120 --> 00:10:34.740
+da habe ich natürlich ein paar Leuten Unrecht getan,
+
+00:10:34.920 --> 00:10:38.240
+die gerade hier in Dresden an sichereren, besseren Betriebssystemen arbeiten.
+
+00:10:38.260 --> 00:10:39.900
+Da gibt es ja auch so eine Szene.
+
+00:10:41.820 --> 00:10:45.300
+Und die haben natürlich auch ihre Berechtigung und ihren Use Case.
+
+00:10:45.660 --> 00:10:47.820
+Mir ist nämlich gerade die Frage eingefallen,
+
+00:10:47.960 --> 00:10:50.440
+könntest du dir vorstellen, dass du bereits Software geschrieben hast,
+
+00:10:51.040 --> 00:10:53.000
+irgendwas, was du jetzt bereits gebaut hast?
+
+00:10:53.440 --> 00:10:54.620
+Könntest du dir vorstellen, dass das in
+
+00:10:55.480 --> 00:10:56.820
+20 Jahren noch irgendwo
+
+00:10:57.340 --> 00:10:59.120
+Anwendung gibt? Gibt es was, was du
+
+00:10:59.260 --> 00:11:01.140
+gebaut hast, wo du denkst, das lebt noch eine Weile?
+
+00:11:02.140 --> 00:11:02.760
+Boah, also...
+
+00:11:02.760 --> 00:11:03.980
+Das ist immer so mein Hintergedanke.
+
+00:11:04.680 --> 00:11:06.340
+Das stimmt nicht, das ist jetzt schon alles tot.
+
+00:11:06.860 --> 00:11:08.860
+Das ist eine Halbwertszeit
+
+00:11:08.860 --> 00:11:09.340
+von einer Woche.
+
+00:11:11.400 --> 00:11:12.480
+Also das Einzige, was ich mir vorstellen könnte,
+
+00:11:12.530 --> 00:11:15.000
+wäre die Contribution, die Spamistro Package Manager gemacht hat.
+
+00:11:15.440 --> 00:11:16.700
+Das Zeug, ich meine, das läuft jetzt auf
+
+00:11:16.820 --> 00:11:19.300
+Millionen von Maschinen und...
+
+00:11:19.640 --> 00:11:20.080
+Bis es irgendwann,
+
+00:11:20.920 --> 00:11:23.400
+deine Lines of Code irgendwann alle rausgepatcht
+
+00:11:23.420 --> 00:11:25.120
+Sicherlich, wird das irgendwann passieren.
+
+00:11:25.440 --> 00:11:27.040
+Was ich bei uns im Code mal feststelle, ich habe
+
+00:11:27.280 --> 00:11:29.220
+Vierse-Code mit GitLens,
+
+00:11:29.250 --> 00:11:31.300
+mit diesem GitLens-Plugin und da siehst du auf jeder Zeile
+
+00:11:31.480 --> 00:11:32.720
+gut die Commit-Message, so
+
+00:11:33.660 --> 00:11:35.140
+grau eingeblendet die Commit-Message,
+
+00:11:35.260 --> 00:11:36.260
+die geschrieben wurde,
+
+00:11:37.460 --> 00:11:39.260
+mit der diese Zeile das letzte
+
+00:11:39.260 --> 00:11:39.940
+Mal angefasst wurde.
+
+00:11:41.220 --> 00:11:42.940
+Mit der diese Zeile quasi geboren wurde. Genau.
+
+00:11:43.720 --> 00:11:45.220
+Und was am langlebigsten ist,
+
+00:11:45.220 --> 00:11:47.120
+weil natürlich GitBlame,
+
+00:11:47.150 --> 00:11:48.660
+so funktioniert es, die Leerzeilen.
+
+00:11:49.800 --> 00:11:51.220
+Und da siehst du in den Leerzeilen
+
+00:11:51.330 --> 00:11:53.100
+immer, das sind Zeilen von 2050.
+
+00:11:53.380 --> 00:11:55.480
+2016, weil die natürlich nie weggehen.
+
+00:11:55.540 --> 00:11:57.800
+Die werden immer bloß verschoben, wenn du was Neues dazu kommst.
+
+00:11:58.000 --> 00:11:59.180
+2015, 2016 ist ja noch
+
+00:12:00.200 --> 00:12:00.940
+jung. Das ist ja
+
+00:12:02.020 --> 00:12:03.160
+gefühlt zwei Jahre alt.
+
+00:12:03.660 --> 00:12:04.920
+Aber das ist so der...
+
+00:12:06.420 --> 00:12:07.460
+Ich habe heute irgendwo,
+
+00:12:07.800 --> 00:12:09.760
+sorry, über den ganz kurzen Tangent ganz woanders
+
+00:12:09.920 --> 00:12:11.260
+und ich habe vorhin den Reddit-Kommentar gelesen
+
+00:12:11.920 --> 00:12:13.700
+und irgendwer meinte, ha, ich erinnere mich noch,
+
+00:12:13.700 --> 00:12:15.380
+als ich in der Highschool war und Hobbit 1 geschaut habe.
+
+00:12:15.540 --> 00:12:17.840
+Hä, Hobbit 1? Kann der nicht vor drei, vier Jahren raus?
+
+00:12:18.240 --> 00:12:19.660
+Oh, das ist neun Jahre her.
+
+00:12:20.360 --> 00:12:21.240
+So ging es mir, als
+
+00:12:21.260 --> 00:12:23.580
+Die Incredible Spider-Man rauskam,
+
+00:12:23.860 --> 00:12:25.260
+wo ich mir gedacht habe, kam da nicht gerade erst
+
+00:12:25.260 --> 00:12:27.480
+ein Spider-Man-Film raus und das war zwölf Jahre her.
+
+00:12:27.980 --> 00:12:29.060
+Das war der mit Tobey Maguire.
+
+00:12:29.880 --> 00:12:30.540
+Okay, da war.
+
+00:12:31.860 --> 00:12:32.680
+Das ist schon eine Weile.
+
+00:12:33.310 --> 00:12:34.720
+Der Tobey Maguire-Film, der kam gefühlt raus,
+
+00:12:34.790 --> 00:12:35.940
+als ich in der Grundschule war.
+
+00:12:36.980 --> 00:12:38.600
+Wahrscheinlich, vielleicht warst du da in der Grundschule.
+
+00:12:41.600 --> 00:12:42.820
+Mir fehlt bloß gerade dieser Punkt ein.
+
+00:12:43.080 --> 00:12:44.460
+Software, die ewig lebt.
+
+00:12:44.590 --> 00:12:46.880
+Also es haben tatsächlich Leute, die ich persönlich kenne,
+
+00:12:47.040 --> 00:12:48.060
+geschafft, Software
+
+00:12:48.770 --> 00:12:49.820
+oder Software mitzuarbeiten
+
+00:12:50.480 --> 00:12:51.260
+oder Software zu schreiben,
+
+00:12:52.120 --> 00:12:53.680
+die jetzt auf dem Mars in irgendwelchen
+
+00:12:54.180 --> 00:12:55.280
+Rovern rumfährt.
+
+00:12:56.760 --> 00:12:57.700
+Das ist ziemlich geil.
+
+00:12:57.740 --> 00:12:59.540
+Ist das nicht? GitHub hat da
+
+00:12:59.580 --> 00:13:01.300
+diese coolen, apropos Spider-Man-Conference
+
+00:13:01.440 --> 00:13:03.980
+von 2002, das ist literally 20 Jahre her.
+
+00:13:04.520 --> 00:13:05.660
+20 Jahre her, da war ich
+
+00:13:05.960 --> 00:13:07.320
+neun, da war ich nicht mehr in der Grundschule,
+
+00:13:07.820 --> 00:13:09.780
+doch klar. Da warst du wahrscheinlich auf irgendeinem,
+
+00:13:10.000 --> 00:13:11.980
+ach neun, ja, neunte Klasse, ist was anderes
+
+00:13:12.020 --> 00:13:12.780
+als neun Jahre alt.
+
+00:13:13.880 --> 00:13:14.640
+GitHub hat,
+
+00:13:15.620 --> 00:13:17.920
+ich weiß jetzt nicht gerade, wo ich das bei wem finden würde,
+
+00:13:18.420 --> 00:13:20.680
+Aber GitHub hat auch irgendwann diese Achievements hier eingefügt.
+
+00:13:20.970 --> 00:13:22.440
+Ja. Wo du siehst, ob du ein Arctic
+
+00:13:22.700 --> 00:13:24.600
+Code Vault Contributor bist. Das hat gefühlt
+
+00:13:24.710 --> 00:13:26.640
+jeder geschafft, oder? Ja, da ist überall was reingegangen.
+
+00:13:26.700 --> 00:13:28.700
+Das sind, glaube ich, irgendeine Sponsorship-Krams.
+
+00:13:29.140 --> 00:13:30.680
+Bei manchen Leuten siehst du jetzt aber halt
+
+00:13:30.840 --> 00:13:32.340
+auch, oh, die haben heute wieder diesen schönen Halloween-Grafen.
+
+00:13:33.080 --> 00:13:34.380
+Wo sie das Farb-Theme einmal
+
+00:13:34.800 --> 00:13:35.260
+im Jahr ändern.
+
+00:13:38.100 --> 00:13:38.780
+Die haben noch
+
+00:13:38.780 --> 00:13:40.440
+eine Badge für Leute, die halt bei den
+
+00:13:40.560 --> 00:13:42.420
+Mars Missions Code mit reingekriegt haben, weil sie in irgendwelchen
+
+00:13:42.480 --> 00:13:43.580
+Dependencies mitgearbeitet haben.
+
+00:13:44.620 --> 00:13:45.960
+Solange das hoffentlich nicht irgendwelcher
+
+00:13:46.360 --> 00:13:48.140
+Node-Krams ist. Ich habe Angst davor.
+
+00:13:48.240 --> 00:13:49.060
+Das ist durchaus möglich.
+
+00:13:50.190 --> 00:13:52.140
+Da müsste man doch jetzt eigentlich bloß bei GitHub
+
+00:13:52.520 --> 00:13:53.220
+nach, wie heißt der?
+
+00:13:54.260 --> 00:13:55.000
+Ah, wahrscheinlich.
+
+00:13:56.060 --> 00:13:58.180
+Und der hat bestimmt Software geschrieben, die bei SpaceX
+
+00:13:58.420 --> 00:14:00.200
+in den Raketen in den Interface gebaut wurde.
+
+00:14:00.490 --> 00:14:01.540
+Der hat das geschafft, tatsächlich.
+
+00:14:02.480 --> 00:14:03.960
+Der hat das Mars 2020
+
+00:14:04.280 --> 00:14:05.760
+Helikopter Contribution geschafft.
+
+00:14:05.860 --> 00:14:07.680
+Das Bootstrap.
+
+00:14:08.100 --> 00:14:09.780
+Wieso läuft denn Bootstrap damit?
+
+00:14:12.340 --> 00:14:12.940
+Oh Gott.
+
+00:14:13.740 --> 00:14:14.180
+Spannend.
+
+00:14:14.980 --> 00:14:16.579
+Warum hat der
+
+00:14:16.600 --> 00:14:18.400
+hat der Helikopter ein Webinterface
+
+00:14:18.560 --> 00:14:20.120
+und ich ihn loben.
+
+00:14:20.640 --> 00:14:21.400
+Durch, also möglich.
+
+00:14:21.720 --> 00:14:23.200
+Der wird gesteuert über Chrome.
+
+00:14:23.860 --> 00:14:26.400
+Nee, der hat das bestimmt bloß aus Versehen
+
+00:14:26.580 --> 00:14:28.320
+reingezogen, obwohl er es gar nicht benutzt,
+
+00:14:28.640 --> 00:14:30.100
+wie es halt bei Node immer so ist.
+
+00:14:30.140 --> 00:14:32.080
+Genau, da ist ein 2MB-Bild von Guy Fieri dabei,
+
+00:14:32.200 --> 00:14:33.300
+wie in jedem Node-Modul.
+
+00:14:34.720 --> 00:14:36.660
+Auf dem Helikopter mit drauf.
+
+00:14:37.360 --> 00:14:37.760
+Traurig.
+
+00:14:38.300 --> 00:14:40.160
+Wir müssen doch eine Festplatte mehr einbauen, das tut mir leid.
+
+00:14:40.240 --> 00:14:40.880
+Das ganze JavaScript.
+
+00:14:41.900 --> 00:14:43.200
+Das muss alles mit weg.
+
+00:14:45.060 --> 00:14:45.460
+Oh Mann.
+
+00:14:45.840 --> 00:14:47.340
+Du hast 45.000
+
+00:14:47.680 --> 00:14:48.500
+Follower aufgetabt.
+
+00:14:49.300 --> 00:14:49.900
+Das ist schon stark.
+
+00:14:50.670 --> 00:14:51.620
+Ja, das ist schon ein bisschen krass.
+
+00:14:53.639 --> 00:14:55.400
+Worüber wollen wir heute reden?
+
+00:14:56.000 --> 00:14:56.820
+Wir wollten über
+
+00:14:57.080 --> 00:14:58.960
+Aktoren sprechen. Zumindest ist das
+
+00:14:59.200 --> 00:15:00.420
+unser Thema.
+
+00:15:01.170 --> 00:15:02.760
+Genau, ich weiß, wie wir zusammen saßen
+
+00:15:03.370 --> 00:15:04.600
+bei irgendeiner, ich hab bei dir
+
+00:15:05.100 --> 00:15:05.700
+diese letzte
+
+00:15:06.840 --> 00:15:07.320
+Dab Dab
+
+00:15:08.899 --> 00:15:09.860
+Wobbelabadab, wie heißt das?
+
+00:15:12.100 --> 00:15:12.420
+Diese
+
+00:15:13.980 --> 00:15:14.660
+W3C geguckt?
+
+00:15:14.780 --> 00:15:15.380
+Wie heißt das?
+
+00:15:16.560 --> 00:15:17.400
+Die DubDub. Was ist das?
+
+00:15:18.839 --> 00:15:20.140
+Apples Worldwide Developer Conference.
+
+00:15:20.500 --> 00:15:21.960
+Genau, die machen mal so flashige Videos und ich dachte,
+
+00:15:22.320 --> 00:15:24.240
+es ist bestimmt Spaß, das mit dir zusammen zu gucken.
+
+00:15:24.800 --> 00:15:26.420
+Und da haben sie neue Swift-Features
+
+00:15:26.620 --> 00:15:28.300
+vorgestellt und das hat mich doch sehr
+
+00:15:28.440 --> 00:15:30.420
+fasziniert. Haben die das damit angesprochen
+
+00:15:30.580 --> 00:15:32.420
+gehabt? Weiß ich denn gar nicht mehr.
+
+00:15:32.560 --> 00:15:34.060
+DubDub ist ja auch schon wieder ein halbes Jahr her.
+
+00:15:34.340 --> 00:15:36.380
+Das ist eine Weile her. Damals habe ich
+
+00:15:36.380 --> 00:15:37.340
+sie gefragt, was ist denn das?
+
+00:15:38.440 --> 00:15:39.520
+Aktoren? Das klingt ja spannend.
+
+00:15:40.140 --> 00:15:41.940
+Aktoren ist ja an sich nichts Neues.
+
+00:15:42.100 --> 00:15:44.060
+Das ist ja so ein uralt Erlang-Feature,
+
+00:15:44.280 --> 00:15:46.220
+aber die Sprache, die alles richtig macht,
+
+00:15:46.360 --> 00:15:47.640
+schon seit 20 Jahren,
+
+00:15:48.360 --> 00:15:49.900
+auf die keiner achtet, aber die im Hintergrund
+
+00:15:49.960 --> 00:15:51.080
+alles schon richtig gemacht hat.
+
+00:15:51.420 --> 00:15:53.820
+Vielleicht können wir das Konzept mal ganz kurz einführen.
+
+00:15:53.860 --> 00:15:55.360
+Also ich habe das Thema hauptsächlich auf dem Schirm,
+
+00:15:55.400 --> 00:15:56.700
+weil ich schon eine Weile
+
+00:15:57.860 --> 00:15:58.560
+irgendwie versuche,
+
+00:15:59.400 --> 00:16:01.920
+kleine Demo-Web-Anwendungen in Rust zu bauen
+
+00:16:01.980 --> 00:16:04.380
+und da bin ich halt über Actix gestolpert.
+
+00:16:04.960 --> 00:16:05.880
+Ach stimmt, das ist auch so.
+
+00:16:05.940 --> 00:16:08.380
+Actix Web ist ein Rust-Web-Framework,
+
+00:16:09.339 --> 00:16:10.900
+was angeblich auf Aktoren basiert,
+
+00:16:11.080 --> 00:16:13.340
+weil Actix selber ist ein Aktoren-Framework.
+
+00:16:14.340 --> 00:16:24.780
+Aber das benutzt keiner. Das benutzen viele Actics Web. Aber dass da eigentlich so eine Aktoren-Runtime irgendwie als eine Dependency und als Ursprung dieses Projekts mit drin lebt, das ignorieren die meisten Leute.
+
+00:16:26.900 --> 00:16:48.900
+Und ich habe heute erst wieder eine Folge Rustation Station, diesen Rust-Podcast gehört, wo der Autor von so einem Developing Web Applications mit Rust Buch gesagt hat, ja, ich hätte mir Actics angucken können, aber ich wollte nicht erst dieses Aktoren-Konzept lernen müssen, um Web-Anwendungen zu bauen.
+
+00:16:48.960 --> 00:16:58.420
+Ich will doch nur irgendwie Web-Requests entgegennehmen und ein paar Formulare und Datenbank-Requests.
+
+00:16:58.580 --> 00:17:00.240
+Wozu Geier brauche ich denn Aktoren?
+
+00:17:00.420 --> 00:17:03.940
+Ist dieses Konzept in Rust so anders oder groß?
+
+00:17:04.520 --> 00:17:06.240
+Und deswegen wollte ich da mal ganz kurz drauf eingehen.
+
+00:17:07.660 --> 00:17:10.140
+Was ist denn für dein Verständnis ein Aktor?
+
+00:17:10.720 --> 00:17:14.640
+Meinem Verständnis nach ist ein so ein Actor oder ein Aktor,
+
+00:17:14.980 --> 00:17:16.400
+ich meine, den ich auf Deutsch einfach packen kann,
+
+00:17:17.000 --> 00:17:18.720
+ein relativ simples Konzept,
+
+00:17:19.040 --> 00:17:20.900
+das einfach nur so ein Concurrency Primitive ist,
+
+00:17:21.020 --> 00:17:25.319
+der irgendwie Sachen, der dir synchronen Zugriff auf,
+
+00:17:26.500 --> 00:17:27.339
+so ein simples Konzept,
+
+00:17:27.520 --> 00:17:31.160
+das dir synchronen Zugriff auf bestimmten State ermöglicht.
+
+00:17:31.820 --> 00:17:32.260
+Das war's.
+
+00:17:33.400 --> 00:17:36.480
+Also das, was du vorher mit Logs irgendwie selber gebaut hast oder so,
+
+00:17:36.920 --> 00:17:37.720
+oder halt erwarten musstest,
+
+00:17:37.720 --> 00:17:39.800
+dass du richtig den Zugriff steuerst,
+
+00:17:39.900 --> 00:17:42.400
+Also im Sinne von, dass du selber weißt, wer wann auf was zugreift,
+
+00:17:42.560 --> 00:17:45.760
+die Threads richtig managen musst, das nimmt dir der Actor ab.
+
+00:17:45.840 --> 00:17:48.040
+Also so eine Art Synchronisationsprimitive für dich.
+
+00:17:48.080 --> 00:17:48.980
+Essenziell genau das.
+
+00:17:51.100 --> 00:17:54.240
+Ich muss sagen, ich kenne es im Detail nicht aus anderen Sprachen.
+
+00:17:54.360 --> 00:17:55.960
+Ich habe mich nie in anderen Sprachen damit auseinandergesetzt.
+
+00:17:56.520 --> 00:17:59.820
+Ich kenne den Primitive als solchen.
+
+00:17:59.930 --> 00:18:03.440
+Aber in Swift weiß ich auch nicht, wie alles im Detail funktioniert.
+
+00:18:03.450 --> 00:18:07.000
+Aber da habe ich es zumindest schon mal für kleine Spielereien bisher benutzt.
+
+00:18:07.180 --> 00:18:10.180
+Also Swift hat jetzt Aktoren quasi als Teil der Sprache eingeführt.
+
+00:18:10.400 --> 00:18:12.460
+Die wurden mit eingebaut.
+
+00:18:12.580 --> 00:18:13.700
+Das ist ja auch kein Geheimnis.
+
+00:18:14.840 --> 00:18:17.100
+Wie sich bei der DubDub früher die großen Features angekündigt haben,
+
+00:18:17.100 --> 00:18:17.860
+die vorher niemand wusste.
+
+00:18:18.160 --> 00:18:21.840
+Swift wird ja auch im Offenen quasi vorangetrieben.
+
+00:18:22.280 --> 00:18:23.640
+Manche Leute mit dem Schmunzeln,
+
+00:18:23.940 --> 00:18:26.520
+weil Apple da auch nicht mehr ganz offen ist,
+
+00:18:26.540 --> 00:18:27.940
+wofür sie manche Sachen haben wollen.
+
+00:18:28.080 --> 00:18:30.260
+Das war damals wie Function Builder,
+
+00:18:30.300 --> 00:18:31.460
+hieß jetzt wie Sound Builder der Fall,
+
+00:18:31.940 --> 00:18:33.700
+wo halt von Apples Seite massiv Druck da war,
+
+00:18:33.720 --> 00:18:34.500
+diese Features zu implementieren.
+
+00:18:34.580 --> 00:18:36.160
+Warum wollt ihr das haben? Was ist das?
+
+00:18:36.280 --> 00:18:38.680
+Und dann kam SwiftUI. Ah, dafür
+
+00:18:38.900 --> 00:18:39.740
+wollte ich das. Okay, danke.
+
+00:18:43.180 --> 00:18:44.700
+Prinzipiell wird Swift im Offenen entwickelt.
+
+00:18:44.850 --> 00:18:46.380
+Man weiß, wo es hingeht. Man weiß, welche Features
+
+00:18:46.540 --> 00:18:47.960
+proposed werden und was kommt.
+
+00:18:48.890 --> 00:18:50.840
+Und da gab es halt eben die Aktoren, die mit reingekommen
+
+00:18:50.960 --> 00:18:53.020
+sind. Die haben ein bisschen Syntax-Support
+
+00:18:53.050 --> 00:18:55.200
+von der Sprache bekommen. Natürlich braucht man so ein Actor-Keyword.
+
+00:18:56.820 --> 00:18:58.500
+Das Ganze hat mit Async-Await
+
+00:18:58.640 --> 00:19:00.240
+relativ stark. Es ist verzahnt.
+
+00:19:00.410 --> 00:19:02.080
+Es ist gleichzeitig in der Sprache angekommen, oder?
+
+00:19:03.100 --> 00:19:04.260
+Halbwegs gleichzeitig, ja.
+
+00:19:04.440 --> 00:19:06.200
+Da gibt es, glaube ich, ein paar Sachen, die noch offen sind
+
+00:19:06.800 --> 00:19:08.260
+und so richtig nutzbar
+
+00:19:08.390 --> 00:19:10.580
+ist das alles noch nicht hundertprozentig.
+
+00:19:10.590 --> 00:19:11.740
+Also ich habe da letztens versucht, tatsächlich
+
+00:19:12.840 --> 00:19:14.080
+ein kleines Matrix SDK
+
+00:19:14.930 --> 00:19:15.280
+zu bauen
+
+00:19:16.460 --> 00:19:18.040
+auf Basis von Async Await
+
+00:19:18.580 --> 00:19:20.220
+und bin erstmal dagegen gerannt, dass das
+
+00:19:20.420 --> 00:19:22.040
+ja auf meinem macOS
+
+00:19:22.400 --> 00:19:24.120
+auf macOS BS
+
+00:19:25.340 --> 00:19:25.920
+Big Sur
+
+00:19:29.200 --> 00:19:29.420
+nicht
+
+00:19:30.580 --> 00:19:31.440
+bauen, weil
+
+00:19:32.540 --> 00:19:34.180
+da kein Support für gibt auf dem OS.
+
+00:19:34.360 --> 00:19:36.180
+ich musste halt auf Monterey bauen, beziehungsweise
+
+00:19:36.340 --> 00:19:38.200
+für iOS 15 und ich wollte
+
+00:19:38.230 --> 00:19:39.860
+es halt aber auf macOS laufen lassen.
+
+00:19:40.380 --> 00:19:42.460
+Sie ziehen ja ab jetzt jede Major-Version,
+
+00:19:42.580 --> 00:19:44.360
+jedes Mal eine Major-Version, oder? Kann das sein?
+
+00:19:45.280 --> 00:19:45.820
+Die haben das
+
+00:19:47.640 --> 00:19:48.700
+macOS-Numbering-Scheme
+
+00:19:48.800 --> 00:19:49.680
+ein bisschen angepasst.
+
+00:19:50.380 --> 00:19:52.460
+Also ich weiß nicht, ob es jetzt 12, 13
+
+00:19:52.600 --> 00:19:52.960
+weitergeht.
+
+00:19:55.880 --> 00:19:56.960
+15 ist doch noch
+
+00:19:57.470 --> 00:19:57.940
+zwei Jahre hin.
+
+00:19:58.100 --> 00:19:58.760
+iOS 15.
+
+00:19:59.930 --> 00:20:01.920
+Das ist das, was gleichzeitig mit Monterey auskam.
+
+00:20:02.020 --> 00:20:03.620
+Da gab es halt SDK-Support für.
+
+00:20:04.060 --> 00:20:05.740
+Ich wollte eben auf macOS bauen, deswegen habe ich da ein bisschen,
+
+00:20:06.560 --> 00:20:08.240
+also es hat ja nicht alles so funktioniert, wie ich es wollte.
+
+00:20:08.310 --> 00:20:10.160
+Und es gab halt im SDK kein Support-Führer.
+
+00:20:10.200 --> 00:20:12.100
+Da waren die Xcode-Betas so unstable, haben teilweise
+
+00:20:12.350 --> 00:20:14.280
+nicht den Kram dabei gehabt, den man da brauchte.
+
+00:20:14.520 --> 00:20:15.580
+Das war alles ein bisschen ekelhaft, deswegen,
+
+00:20:16.200 --> 00:20:17.400
+naja. Aber
+
+00:20:18.740 --> 00:20:19.940
+prinzipiell ist das da.
+
+00:20:20.290 --> 00:20:22.280
+Du kannst Aktoren benutzen,
+
+00:20:22.330 --> 00:20:23.800
+du kannst dir Dinge darauf aufbauen.
+
+00:20:24.540 --> 00:20:26.140
+Du kannst Async-Await jetzt nutzen.
+
+00:20:26.250 --> 00:20:27.800
+Das wurde sogar jetzt backported für
+
+00:20:27.920 --> 00:20:29.800
+bis iOS 13, was ziemlich fancy ist.
+
+00:20:30.240 --> 00:20:32.000
+Auf macOS wahrscheinlich auch bis Big Sur.
+
+00:20:32.220 --> 00:20:33.780
+Ich würde mich wundern, wenn das noch davor ist.
+
+00:20:33.880 --> 00:20:34.600
+ich habe die Teilen nicht im Kopf.
+
+00:20:35.960 --> 00:20:36.360
+Aber
+
+00:20:37.920 --> 00:20:39.140
+genau, man kann das jetzt nutzen.
+
+00:20:39.960 --> 00:20:41.380
+Das sind Sprachfeatures teilweise.
+
+00:20:42.980 --> 00:20:43.540
+Es gab noch
+
+00:20:45.160 --> 00:20:46.000
+mal ganz kurz
+
+00:20:54.380 --> 00:20:56.600
+Erklär es mir mal am besten, ohne dass ich da hingucken muss.
+
+00:20:56.940 --> 00:20:57.500
+Ja, ich wollte ganz kurz
+
+00:20:58.900 --> 00:21:00.160
+ein SE raussuchen.
+
+00:21:01.720 --> 00:21:02.120
+SE?
+
+00:21:02.720 --> 00:21:05.480
+Ein Swift Evolution Proposal.
+
+00:21:05.560 --> 00:21:06.440
+Oh, Swift Evolution.
+
+00:21:12.680 --> 00:21:13.460
+Genau, sorry.
+
+00:21:13.860 --> 00:21:16.360
+Es gibt, haben auch ein paar Sprachvideos dafür eingebaut,
+
+00:21:16.440 --> 00:21:17.700
+hauptsächlich neue Keywords eigentlich nur,
+
+00:21:17.800 --> 00:21:19.040
+dass du jetzt Actors nutzen kannst,
+
+00:21:19.140 --> 00:21:22.100
+dass du von manchen Funktionen im Actor
+
+00:21:22.220 --> 00:21:24.620
+noch als non-isolated zum Beispiel bezeichnen kannst,
+
+00:21:24.720 --> 00:21:26.860
+damit du halt den Compiler klar notieren kannst,
+
+00:21:27.020 --> 00:21:31.520
+was irgendwo, wo darauf zugegriffen wird.
+
+00:21:32.500 --> 00:21:34.780
+Aber prinzipiell funktioniert das jetzt alles so.
+
+00:21:35.780 --> 00:21:36.440
+Und ja.
+
+00:21:38.200 --> 00:21:40.040
+Aber sie sind halt relativ simpel.
+
+00:21:40.260 --> 00:21:41.900
+Du suchst gerade nach einer Liste von Swift-Keywords.
+
+00:21:42.000 --> 00:21:42.700
+Ich habe irgendwie den Eindruck,
+
+00:21:42.760 --> 00:21:44.700
+dass Swift für jeden scheiß neues Keyword in Swift-Keywords ist.
+
+00:21:44.700 --> 00:21:45.220
+Nee, ist echt so.
+
+00:21:45.800 --> 00:21:47.360
+Die Liste ist lang, sehr lang.
+
+00:21:48.640 --> 00:21:50.120
+Und ist ein bisschen witzig von Fast-Fall.
+
+00:21:50.160 --> 00:21:52.380
+Manche Sachen werden irgendwie weird recycelt.
+
+00:21:52.520 --> 00:21:53.980
+Gerade wo oben schon eine Social-Head-Type stand.
+
+00:21:54.840 --> 00:21:58.000
+Und manche Sachen machen sie halt für jeden Shit und was Neues.
+
+00:21:58.280 --> 00:21:58.840
+Naja, egal.
+
+00:21:59.140 --> 00:21:59.780
+Das hat man da hingestellt.
+
+00:21:59.860 --> 00:22:07.780
+Also ein Aktor in Swift ist jetzt, du hast quasi, das von den Beispielen, ich habe es mir wirklich nicht eingeguckt, ich habe gehofft, dass du mir das erklärst.
+
+00:22:08.660 --> 00:22:15.880
+Ein Aktor benutzt du quasi anstatt einer Klasse oder anstatt des Class-Keywords sagst du, das ist keine Klasse, das ist ein Aktor.
+
+00:22:15.980 --> 00:22:21.840
+Also ein Aktor ist wirklich ein Type. Genauso wie du eine Klasse definieren würdest, würdest du auch ein Aktor definieren.
+
+00:22:22.380 --> 00:22:26.300
+Mit dem einen Unterschied, dass Aktoren in Swift keine Inheritance unterstützen. Das gibt es nicht.
+
+00:22:27.000 --> 00:22:30.040
+Du kannst Protokolle implementieren, aber es gibt keine Inheritance.
+
+00:22:30.060 --> 00:22:31.620
+Das ist wirklich eine sprachprimitive.
+
+00:22:31.850 --> 00:22:32.980
+Du hast keine Klasse, sondern...
+
+00:22:32.980 --> 00:22:34.280
+Es ist ein anderer Reference-Type, genau.
+
+00:22:34.420 --> 00:22:36.000
+Es ist keine Klasse, sondern es ist ein Actor.
+
+00:22:36.360 --> 00:22:36.540
+Genau.
+
+00:22:37.020 --> 00:22:38.700
+Und was unterscheidet das dann von einer Klasse?
+
+00:22:39.360 --> 00:22:41.240
+Dass sie halt eben diese Features mitbringen,
+
+00:22:41.360 --> 00:22:43.780
+dass zum Beispiel jegliche Mutable-State,
+
+00:22:43.970 --> 00:22:45.860
+also jegliche Mutable-Properties in einem Actor,
+
+00:22:46.360 --> 00:22:47.980
+auf die kannst du nicht einfach von außen zugreifen.
+
+00:22:48.230 --> 00:22:49.740
+Du kannst keine Properties lesen, quasi.
+
+00:22:49.900 --> 00:22:52.740
+Du kannst... Konstanten kannst du lesen von außen,
+
+00:22:52.940 --> 00:22:54.160
+weil da kann der Compiler garantieren,
+
+00:22:54.240 --> 00:22:55.560
+dass die eben nicht geländert werden zur Laufzeit.
+
+00:22:56.140 --> 00:22:59.580
+Aber Mutable Properties kannst du nicht von außen einfach lesen.
+
+00:22:59.620 --> 00:23:00.840
+Und Methoden kannst du benutzen?
+
+00:23:01.280 --> 00:23:04.700
+Solange sie halt nicht irgendwie mit dem Mutable State agieren.
+
+00:23:05.770 --> 00:23:11.640
+Das heißt, wenn ich irgendwie sage, ich habe einen Aktor, der ein Counter ist, dann habe ich eine Methode, die zählt den Count intern.
+
+00:23:11.750 --> 00:23:13.580
+Die kannst du nicht direkt von außen aufrufen.
+
+00:23:14.100 --> 00:23:15.700
+Der Spaß kommt eben mit Amazing Await Support.
+
+00:23:15.830 --> 00:23:19.340
+Du kannst sie sehr wohl mit dem du das Await Keyword benutzt von außen aufrufen.
+
+00:23:20.120 --> 00:23:22.420
+Und da kommt es nämlich genau auf den Spaß eben raus,
+
+00:23:22.680 --> 00:23:25.100
+dass der Aktor halt selber entscheidet,
+
+00:23:25.640 --> 00:23:31.260
+beziehungsweise dir halt die Swift Runtime den Zugriff garantiert,
+
+00:23:31.440 --> 00:23:33.860
+dass du halt in dem Moment quasi das Log auf den Zugriff bekommst.
+
+00:23:34.080 --> 00:23:36.520
+Ich weiß nicht, wie die korrekte Formulierung hier lautet,
+
+00:23:36.980 --> 00:23:39.820
+aber quasi die Concurrency für dich managt im Hintergrund
+
+00:23:40.240 --> 00:23:42.880
+und du nicht damit anfangen musst, irgendwie deine Threads umherzuwerfen
+
+00:23:42.980 --> 00:23:45.460
+und versuchen, deine Thread-Safety selber zu garantieren
+
+00:23:46.000 --> 00:23:49.160
+oder halt einfach darauf zu achten, dass du da keine Data Races bekommst.
+
+00:23:49.560 --> 00:23:51.700
+Das stellt dir der Aktor sicher,
+
+00:23:52.240 --> 00:23:55.380
+indem er dir halt durch Nutzen des Await-Keywords von außen
+
+00:23:56.100 --> 00:23:57.960
+du halt quasi aufgibst,
+
+00:23:58.640 --> 00:24:00.180
+in dem Moment genau ausgeführt zu werden,
+
+00:24:00.180 --> 00:24:01.180
+wenn du denkst, ausgeführt zu werden,
+
+00:24:01.280 --> 00:24:03.580
+sondern quasi, wenn der Aktor dir die Zukunft darauf ermöglicht.
+
+00:24:03.740 --> 00:24:07.140
+Ich darf Methoden also nur asynchron drauf aufrufen.
+
+00:24:07.140 --> 00:24:09.120
+Du darfst Methoden nur asynchron drauf aufrufen,
+
+00:24:09.180 --> 00:24:11.200
+es sei denn, du garantierst dem Compiler
+
+00:24:11.860 --> 00:24:13.060
+oder der Compiler sieht selber,
+
+00:24:13.240 --> 00:24:16.540
+dass diese Methoden keinen Mutable State innerhalb des Aktors anfassen.
+
+00:24:17.320 --> 00:24:20.260
+Wenn die nur konstant den Kram lesen,
+
+00:24:20.530 --> 00:24:21.320
+dann ist das kein Problem.
+
+00:24:22.050 --> 00:24:23.000
+Dann kannst du die annotieren.
+
+00:24:23.250 --> 00:24:25.180
+Das war dieses sogenannte Non-Isolated-Keyword,
+
+00:24:25.210 --> 00:24:26.220
+was ich vorhin mit angesprochen habe.
+
+00:24:26.590 --> 00:24:28.080
+Wenn du das benutzt, dann garantierst du den Compiler,
+
+00:24:28.550 --> 00:24:29.260
+der checkt das auch selber.
+
+00:24:29.420 --> 00:24:31.460
+Das ist ein Ding, wo ich mir nicht sicher bin,
+
+00:24:31.580 --> 00:24:32.980
+warum braucht man das überhaupt annotieren,
+
+00:24:32.980 --> 00:24:34.000
+wenn der Compiler das eh versteht.
+
+00:24:34.070 --> 00:24:35.780
+Aber dann machst du es zumindest explizit,
+
+00:24:36.190 --> 00:24:37.100
+auch beim Lesen.
+
+00:24:38.520 --> 00:24:39.320
+Der Compiler weiß dann,
+
+00:24:39.370 --> 00:24:40.880
+dass das passt kein State an,
+
+00:24:40.930 --> 00:24:41.680
+nichts, was mutable ist.
+
+00:24:42.620 --> 00:24:44.500
+Und du kannst von außen darauf sehr wohl
+
+00:24:44.570 --> 00:24:46.220
+auch ohne await drauf zugreifen.
+
+00:24:47.200 --> 00:24:49.480
+Das ist eigentlich der ganze Spaß an der Sache.
+
+00:24:49.690 --> 00:24:51.320
+Als ich das das erste Mal gehört habe über Swift,
+
+00:24:51.760 --> 00:24:52.440
+hatte ich so ein bisschen
+
+00:24:55.740 --> 00:24:57.140
+den Eindruck, das ist quasi
+
+00:24:57.740 --> 00:24:59.760
+oder hatte ich so ein
+
+00:25:00.380 --> 00:25:01.480
+Als ich das das erste Mal
+
+00:25:01.620 --> 00:25:03.300
+gehört habe über Swift, hatte ich so ein Déjà-vu.
+
+00:25:03.820 --> 00:25:04.680
+Ich mir dachte, ist das nicht
+
+00:25:05.480 --> 00:25:07.200
+das Konzept, wie Objective-C
+
+00:25:07.520 --> 00:25:08.580
+ursprünglich funktionieren sollte?
+
+00:25:09.160 --> 00:25:11.200
+Du hast nicht Klassen, wo du Methoden aufrufst, sondern
+
+00:25:11.350 --> 00:25:13.160
+alles ist eine Message und du schickst quasi
+
+00:25:13.210 --> 00:25:15.400
+eine Message hin oder so? Das geht in eine gewisse Richtung.
+
+00:25:15.800 --> 00:25:16.500
+Da stimme ich dir zu.
+
+00:25:16.580 --> 00:25:18.960
+Hat der Objective-C da auch so eine Runtime,
+
+00:25:19.260 --> 00:25:20.900
+die da irgendwie sichergestellt hat,
+
+00:25:20.980 --> 00:25:22.900
+dass das isoliert war voneinander?
+
+00:25:23.200 --> 00:25:25.040
+Oder war das mit der Message
+
+00:25:25.320 --> 00:25:27.120
+bloß so ein, wir wollen nicht den Begriff
+
+00:25:27.320 --> 00:25:28.760
+Methode und Funktion verwenden?
+
+00:25:28.780 --> 00:25:31.000
+Also du hast schon wirklich Messages durch die Gegend geschickt.
+
+00:25:31.100 --> 00:25:32.720
+Das hatte ein paar witzige Konsequenzen auch.
+
+00:25:32.750 --> 00:25:34.660
+Das zum Beispiel, wie war das?
+
+00:25:35.000 --> 00:25:36.920
+Ich hoffe, ich labere jetzt keinen Quatsch, aber ich meine
+
+00:25:36.930 --> 00:25:38.840
+so eine Erinnerung zu haben, wenn du quasi irgendwie
+
+00:25:38.940 --> 00:25:41.060
+in ein Objekt, was null ist, eine Message
+
+00:25:41.180 --> 00:25:42.920
+gepasst hast, die aber nicht existiert,
+
+00:25:43.610 --> 00:25:44.839
+dann gab es halt keine Null-Pointer-Exception
+
+00:25:44.860 --> 00:25:46.660
+wie in anderen Sprachen, sondern die wurde halt entweder einfach
+
+00:25:46.800 --> 00:25:48.660
+verworfen oder du kannst es halt noch, glaube ich, die Exception
+
+00:25:48.840 --> 00:25:50.360
+fangen oder irgendwie, irgendwas gab es da,
+
+00:25:50.680 --> 00:25:52.280
+so witzig. Hast du dann einfach keine Antwort gekriegt?
+
+00:25:52.880 --> 00:25:54.560
+Quasi von der Idee her, ich hoffe, ich verwursche das
+
+00:25:54.640 --> 00:25:56.580
+gerade nicht im Kopf. Ich schreibe sehr wie selten
+
+00:25:56.780 --> 00:25:58.040
+Objective-C. Ja, das ist ganz gut.
+
+00:25:58.380 --> 00:25:59.060
+Ja, ich...
+
+00:26:00.600 --> 00:26:02.660
+Da sollte ich vielleicht mehr machen, weil wir es auf der Arbeit auch noch mitnutzen,
+
+00:26:02.740 --> 00:26:03.780
+aber ich weigere mich auf,
+
+00:26:04.780 --> 00:26:06.820
+den Teil anzufassen oder beziehungsweise
+
+00:26:06.900 --> 00:26:08.620
+dann lieber einen Zwift-Gym
+
+00:26:08.740 --> 00:26:10.580
+zu schreiben und dann die neuen Sachen einfach
+
+00:26:10.640 --> 00:26:11.840
+in Zwift zu packen. Aber
+
+00:26:12.980 --> 00:26:14.820
+im Prinzip, also du hast in Objective-C wirklich
+
+00:26:14.840 --> 00:26:17.640
+so ein Message-Passing-Konzept
+
+00:26:17.680 --> 00:26:18.980
+und das ist auch wirklich da.
+
+00:26:19.120 --> 00:26:21.280
+Das ist nicht einfach nur ein anderer Begriff für Methodenaufrufen,
+
+00:26:21.340 --> 00:26:23.800
+sondern du archivst wirklich Messages durch die Kante.
+
+00:26:24.600 --> 00:26:25.440
+In der Hinsicht geht das natürlich,
+
+00:26:26.280 --> 00:26:27.200
+klingt es ein bisschen ähnlich,
+
+00:26:27.900 --> 00:26:29.240
+aber du hast bei Objective-C
+
+00:26:30.720 --> 00:26:31.980
+keinerlei Runtime-Support
+
+00:26:32.140 --> 00:26:34.060
+für irgendwelche Aufdröseln
+
+00:26:34.160 --> 00:26:35.400
+von Concurrency-Sicherheit.
+
+00:26:35.660 --> 00:26:38.040
+Bei Swift hast du jetzt eine Runtime,
+
+00:26:38.060 --> 00:26:39.200
+die Teil der Sprache ist
+
+00:26:39.320 --> 00:26:40.820
+und dein Aktor läuft irgendwo
+
+00:26:42.299 --> 00:26:43.740
+auf so einer Art Thread
+
+00:26:43.760 --> 00:26:45.320
+oder in so einer Art Pool und
+
+00:26:46.080 --> 00:26:47.360
+wird irgendwann aufgeweckt und
+
+00:26:47.620 --> 00:26:49.340
+mal arbeitet ein bisschen. Quasi.
+
+00:26:49.400 --> 00:26:51.460
+Aber das ist alles relativ elegant wahrscheinlich vor dir
+
+00:26:51.760 --> 00:26:53.620
+versteckt. Quasi, genau. Das Wichtige,
+
+00:26:53.760 --> 00:26:55.340
+was du damit auch gleich mit ansprichst, ist, dass
+
+00:26:55.500 --> 00:26:57.400
+es natürlich relativ sinnfrei ist, wenn du genau einen
+
+00:26:57.560 --> 00:26:59.540
+Aktor hast. Dann hat dir das nicht viel
+
+00:26:59.620 --> 00:27:01.560
+gebracht. Du willst natürlich multiple Aktoren
+
+00:27:01.700 --> 00:27:03.400
+haben und da wird das ganze System auch
+
+00:27:04.000 --> 00:27:05.480
+praktisch seine Stärken aus, wenn du
+
+00:27:05.480 --> 00:27:07.440
+in so einem Aktorensystem eben arbeitest, wo du
+
+00:27:07.820 --> 00:27:09.420
+sehr viele Aktoren hast, die nebeneinander
+
+00:27:10.180 --> 00:27:11.760
+concurrent eben bestimmte
+
+00:27:11.820 --> 00:27:13.720
+Arbeit leisten können. Und da kommen wir noch
+
+00:27:13.740 --> 00:27:15.720
+ganz Spannendem, was jetzt gerade, ich glaube, vor ein paar Tagen
+
+00:27:16.460 --> 00:27:17.700
+am 28. Oktober,
+
+00:27:17.800 --> 00:27:19.080
+vor drei Tagen, announced wurde.
+
+00:27:19.760 --> 00:27:21.640
+Da haben die auf dem Swift-Blog
+
+00:27:22.420 --> 00:27:23.300
+ein sogenanntes
+
+00:27:25.020 --> 00:27:25.900
+Distributed Actors
+
+00:27:26.480 --> 00:27:27.260
+Ding ausgepackt.
+
+00:27:28.280 --> 00:27:29.760
+Das Ganze ist ein Open-Source-Package
+
+00:27:30.300 --> 00:27:32.400
+für vor allem das Swift-on-Server-Ecosystem,
+
+00:27:33.280 --> 00:27:34.040
+weil das auf dem
+
+00:27:34.160 --> 00:27:35.860
+Client wenig Sinn macht.
+
+00:27:36.100 --> 00:27:37.800
+Das ist mehr so ein Server-Side-Feature.
+
+00:27:38.760 --> 00:27:40.080
+Und die Idee dahinter ist,
+
+00:27:40.160 --> 00:27:42.059
+dass du durch eine kleine
+
+00:27:42.080 --> 00:27:43.960
+Erweiterung der Sprache und vor allem noch ein Package, was dazu
+
+00:27:44.180 --> 00:27:45.820
+kommt, Aktoren
+
+00:27:45.960 --> 00:27:47.680
+ermöglichst, nicht nur
+
+00:27:48.380 --> 00:27:49.960
+auf dem einen System zu
+
+00:27:50.060 --> 00:27:51.900
+laufen, sondern die Aktoren auch distributen
+
+00:27:52.060 --> 00:27:53.360
+kannst über verschiedene Maschinen.
+
+00:27:54.600 --> 00:27:55.860
+Und da wird es halt richtig fancy.
+
+00:27:58.480 --> 00:28:00.000
+Mit System meinst du ein Computer.
+
+00:28:00.340 --> 00:28:01.980
+Genau, dass du halt nicht nur einen Rechner hast,
+
+00:28:02.160 --> 00:28:03.580
+beziehungsweise was auch immer das für
+
+00:28:04.080 --> 00:28:05.600
+Hardware letztendlich ist, gerade in der
+
+00:28:06.140 --> 00:28:07.540
+serverless Welt in Anführungsstrichen.
+
+00:28:07.980 --> 00:28:09.820
+Du musst dich halt, also dir kann es relativ
+
+00:28:10.120 --> 00:28:11.480
+egal sein, wo deine Aktoren laufen.
+
+00:28:12.920 --> 00:28:37.000
+Also, so wie ich das verstanden habe, ich muss gestehen, ich bin noch nicht da in den Detail reingestiegen oder so, aber es klingt sehr interessant und gerade wenn du halt irgendwelche wirklich fancy Sachen machen willst, du bist in der Spieleentwicklung oder so und brauchst wirklich Dinge, die, keine Ahnung, Game Lobby war so ein Beispiel, was hier im Blogpost genannt wurde oder woanders mit in der Diskussion, dass du halt bestimmte Arbeit verteilen möchtest auf verschiedene Maschinen, egal wo die halt sind.
+
+00:28:37.980 --> 00:28:42.040
+Das ursprüngliche Konzept Aktoren kommt ja, wie wir am Anfang mal ganz kurz angeschnitten hatten,
+
+00:28:42.080 --> 00:28:43.180
+ja eigentlich aus der Erlang-Welt.
+
+00:28:43.320 --> 00:28:45.740
+Genau, also glaube ich zumindest. Erlang die Sprache, die alles richtig macht.
+
+00:28:45.840 --> 00:28:46.900
+Die Sprache, die alles richtig macht.
+
+00:28:47.360 --> 00:28:52.360
+Und im Endeffekt ist ein Aktor da ein Objekt, was läuft und eine Lifetime hat
+
+00:28:52.520 --> 00:28:54.480
+und vielleicht sogar abschmieren kann.
+
+00:28:54.560 --> 00:28:57.280
+Und das ist richtig in diese Erlang-VM mit eingebaut.
+
+00:28:57.820 --> 00:29:02.560
+Sie haben ja dieses, war das nicht derer Philosophie, irgendwie die early oder irgendwie sowas?
+
+00:29:02.740 --> 00:29:03.400
+Oder crash often?
+
+00:29:04.800 --> 00:29:05.440
+Vielleicht, ja.
+
+00:29:05.680 --> 00:29:09.120
+Das Konzept der Fall Tolerance mit in ihren Stack mit eingebaut haben.
+
+00:29:09.190 --> 00:29:26.360
+Die mussten Systeme bauen, die übelst Fall Tolerant sind, weil die haben sie in irgendwelchen, das lief halt nicht in irgendeinem Rechenzentrum, wo du irgendwie das monitoren und neu starten kannst, sondern deren Software lief in irgendwelchen Telefonanlagen, die irgendwo mitten in der Wildnis an der Straßenecke standen und die entsprechend abstürzen konnten.
+
+00:29:26.520 --> 00:29:27.960
+weltweite Infrastruktur, das war ja auch dieses
+
+00:29:28.540 --> 00:29:30.780
+Open Telephony Protocol
+
+00:29:31.000 --> 00:29:32.280
+oder OPT, ich glaube OTP.
+
+00:29:32.860 --> 00:29:32.980
+Genau.
+
+00:29:33.540 --> 00:29:36.560
+Was das Erlang-Projekt letztendlich ist.
+
+00:29:37.220 --> 00:29:38.580
+Aber natürlich
+
+00:29:38.740 --> 00:29:40.460
+stellt dich das vor gewisse Probleme, die du halt
+
+00:29:40.660 --> 00:29:42.340
+irgendwie elegant lösen möchtest. Genau, und wenn du dann
+
+00:29:43.620 --> 00:29:44.420
+verteiltes Arbeiten
+
+00:29:44.580 --> 00:29:46.480
+machen möchtest oder wenn du machen möchtest, dass
+
+00:29:46.520 --> 00:29:48.260
+das Ding schnell auf Nachrichten reagieren
+
+00:29:48.540 --> 00:29:50.380
+und weitergeben kann, dann möchtest du schon
+
+00:29:50.440 --> 00:29:52.520
+das irgendwie verteilen auf vielleicht Threads
+
+00:29:52.600 --> 00:29:53.440
+oder sowas ähnliches.
+
+00:29:54.500 --> 00:29:56.480
+Und da hast du halt immer das Problem bei
+
+00:29:56.500 --> 00:29:58.360
+allen Sprachen, die multithreading können, dass du
+
+00:29:58.600 --> 00:30:00.580
+irgendwie dann nicht mit Logs rumschlagen musst
+
+00:30:01.120 --> 00:30:01.220
+und
+
+00:30:02.740 --> 00:30:04.420
+vielleicht Deadlogs produzieren kannst
+
+00:30:04.640 --> 00:30:06.340
+oder Race Conditions und
+
+00:30:06.740 --> 00:30:08.340
+deswegen hat Erlang da dieses
+
+00:30:08.500 --> 00:30:10.320
+Konzept von Aktoren, die sich Nachrichten schicken,
+
+00:30:11.380 --> 00:30:12.460
+erstellt. Das heißt,
+
+00:30:12.660 --> 00:30:14.400
+du hast wirklich einfach dieses abstrakte
+
+00:30:14.480 --> 00:30:15.920
+Konzept, du hast einen Aktor, der läuft
+
+00:30:16.280 --> 00:30:17.900
+und der hat eine...
+
+00:30:18.340 --> 00:30:19.320
+Ich möchte jetzt nicht so viel über
+
+00:30:21.720 --> 00:30:22.520
+Erlang explizit
+
+00:30:22.640 --> 00:30:24.360
+sagen, weil ich es ehrlich gesagt nicht so genau
+
+00:30:24.540 --> 00:30:26.240
+weiß, aber du hast im Prinzip abstrakt das Konzept,
+
+00:30:26.320 --> 00:30:42.300
+Du hast einen Akteur, der läuft und der kann einem anderen Akteur eine Nachricht schicken und der arbeitet nur, wenn er eine Nachricht bekommt und die kommunizieren in dem Sinn auf Nachrichten antworten oder ich möchte vermuten, sich gegenseitig Adressen geben und sagen, du schickst mir einfach irgendwann eine andere Nachricht und darauf reagiere ich dann.
+
+00:30:42.640 --> 00:30:49.100
+Genau. Also es hat mich so ein bisschen auch erinnert, ich weiß nicht, inwiefern das überhaupt damit verwandt ist oder nicht, aber an dieses GoRoutine-Konzept aus Go.
+
+00:30:49.980 --> 00:30:57.900
+Insofern ist mir jetzt gerade das erste Mal aufgefallen, also GoRoutine und CoRoutine ja quasi, dass die da Portmanteau aus ihren Sprachnamen und CoRoutine geschaffen haben.
+
+00:30:57.900 --> 00:30:58.640
+Das fällt dir jetzt erst auf.
+
+00:30:58.760 --> 00:30:59.580
+Das ist mir jetzt erst aufgefallen.
+
+00:31:00.420 --> 00:31:20.260
+Aber das war ja auch so ein Ding, wo du quasi ein gewisses Konstrukt, ich weiß nicht mehr, wie komplex das möglich war, aber dass du da irgendwas, hier mach mal Arbeit und ich schicke dir Daten in diesem Channel und du antwortest bitte auf diesem Channel und kannst somit auch Sachen sehr direkt über verschiedene.
+
+00:31:20.520 --> 00:31:24.080
+Genau, das ist Synchronization via Communication quasi.
+
+00:31:24.280 --> 00:31:26.560
+Das geht ja auch in die Richtung, ist ja auch quasi dieselbe Idee, dass du das.
+
+00:31:28.039 --> 00:31:29.580
+So, und jetzt gibt's
+
+00:31:29.960 --> 00:31:31.500
+Aktoren und die sind quasi, du könntest
+
+00:31:31.600 --> 00:31:34.000
+sagen, dein Aktor ist so eine Art Thread-Objekt
+
+00:31:34.900 --> 00:31:35.700
+und das
+
+00:31:37.260 --> 00:31:37.760
+du musst
+
+00:31:37.820 --> 00:31:39.580
+nicht darauf warten, dass die beiden Threads
+
+00:31:39.700 --> 00:31:41.300
+synchron irgendwas machen, sondern die können sich entweder,
+
+00:31:41.480 --> 00:31:42.960
+ja, also bei einem Thread müsstest du jetzt
+
+00:31:43.600 --> 00:31:45.440
+synchron irgendwie einen Lock auf diesen Thread kriegen
+
+00:31:45.540 --> 00:31:46.960
+und da irgendwie eine Methode aufrufen
+
+00:31:47.480 --> 00:31:47.880
+oder
+
+00:31:49.400 --> 00:31:51.360
+du schreibst dem eine Nachricht in irgendeine
+
+00:31:51.500 --> 00:31:53.340
+Mailbox und sobald der kann, holt er die Nachricht
+
+00:31:53.340 --> 00:31:54.700
+aus dieser Mailbox wieder raus.
+
+00:31:55.500 --> 00:31:56.400
+Was ja so ein Konzept ist.
+
+00:31:56.680 --> 00:32:02.580
+Bei Rust wurde ganz früh als Synchronisationskonzept in der Standardbibliothek eingeführt.
+
+00:32:02.950 --> 00:32:05.300
+Wenn du zwei Threads hast, dann können die einen Channel aufmachen.
+
+00:32:06.720 --> 00:32:08.280
+Und das war quasi schon die Basis davon.
+
+00:32:09.380 --> 00:32:12.580
+Das heißt, wenn ich einen Thread starte, erzeuge ich vorher so einen Channel.
+
+00:32:12.700 --> 00:32:15.480
+Das ist einfach eine Methode, die heißt eine freie Funktion, die heißt Channel.
+
+00:32:16.100 --> 00:32:19.920
+Die kann ich parametrisieren, mit was für einem Typ Objekt ich über diesen Channel schicke.
+
+00:32:20.220 --> 00:32:23.200
+Dieser Typ Objekt muss dann dementsprechend Thread-Safe sein.
+
+00:32:24.680 --> 00:32:39.040
+Und aus der Methode kommt so ein Tupel mit einem Sender und einem Receiver raus und ich stecke den Sender in meinen Thread rein und auf meiner Seite blockiere ich dann erstmal, bis ich irgendwie eine Nachricht von dem Thread zurückbekomme.
+
+00:32:39.090 --> 00:32:45.760
+Wenn der Thread arbeitet, dann ist er irgendwann fertig und dann irgendwann schickt er über den Sender, den ich ihm gegeben habe, an meinen Receiver eine Nachricht zurück.
+
+00:32:45.980 --> 00:32:52.180
+Das ist so das Basic-Synchronisationskonzept oder eines der Basic-Synchronisationskonzepte in der Sprache Channels.
+
+00:32:53.440 --> 00:32:54.800
+Und die haben so eine Art Messagebox.
+
+00:32:55.820 --> 00:32:56.740
+Ich erinnere mich schon ganz klein bisschen,
+
+00:32:56.990 --> 00:32:58.880
+natürlich gerade mit dem Blocking passt das nicht ganz,
+
+00:32:58.890 --> 00:32:59.900
+aber erinnere mich so ein bisschen an den
+
+00:33:01.040 --> 00:33:02.840
+NS-Notification-Center, den du auf
+
+00:33:03.360 --> 00:33:05.020
+macOS, iOS und den anderen
+
+00:33:05.480 --> 00:33:07.260
+OSs hast, wo du halt auch
+
+00:33:08.300 --> 00:33:09.140
+Daten reinschieben kannst
+
+00:33:09.210 --> 00:33:10.680
+und die von woanders,
+
+00:33:11.180 --> 00:33:12.960
+muss nicht mal deine Applikation sein,
+
+00:33:13.100 --> 00:33:14.960
+sondern irgendwo im System, wenn du auf dem
+
+00:33:15.380 --> 00:33:16.040
+gleich benannten
+
+00:33:18.240 --> 00:33:18.960
+Notifications hörst,
+
+00:33:19.460 --> 00:33:21.080
+kannst du die auch subscriben darauf und dann
+
+00:33:21.220 --> 00:33:22.580
+kriegst du diese Nachrichten
+
+00:33:23.280 --> 00:33:24.660
+zugeschickt. Eigentlich ein cooles Konzept.
+
+00:33:24.800 --> 00:33:26.800
+Kannst du die abfangen, die jemand anders eigentlich bekommen sollte?
+
+00:33:27.010 --> 00:33:28.840
+Du kannst die nicht abfangen, aber du kannst die mitlesen.
+
+00:33:29.000 --> 00:33:31.000
+Ach witzig. Und auch viele Apple-Applikationen
+
+00:33:31.080 --> 00:33:32.680
+schicken halt im Hintergrund einfach diese Notifications,
+
+00:33:32.800 --> 00:33:34.700
+die du kannte und die kannst du halt auch mitlesen, wenn dich
+
+00:33:34.740 --> 00:33:36.760
+es interessiert. Ich hatte mal versucht, so eine
+
+00:33:36.880 --> 00:33:38.860
+kleine Scrobble-App zu bauen für Last.fm,
+
+00:33:38.960 --> 00:33:40.220
+die einfach die iTunes-Notifications mitliest.
+
+00:33:40.300 --> 00:33:42.760
+Das muss eine Weile her sein. Das ist gar nicht
+
+00:33:42.940 --> 00:33:44.080
+so lange her. Ich glaube nur so
+
+00:33:44.620 --> 00:33:45.180
+zwei, drei Jahre.
+
+00:33:46.660 --> 00:33:48.200
+Aber es hat dann nicht Last.fm benutzt, oder?
+
+00:33:48.420 --> 00:33:50.340
+Doch, doch. Es lebt immer noch. Witzig.
+
+00:33:52.159 --> 00:33:52.440
+Witzig.
+
+00:33:52.660 --> 00:33:54.220
+Du musst mir mal deinen LastFM-Account geben.
+
+00:33:54.420 --> 00:33:55.640
+Sonst ist es schon eigentlich nicht mehr tot.
+
+00:33:57.000 --> 00:33:58.620
+Aber bei Swift-Aktoren ist dann
+
+00:33:58.720 --> 00:34:00.860
+das Konzept von Messageboxen und sowas
+
+00:34:00.960 --> 00:34:02.940
+komplett vor dir versteckt. Das macht dann diese Runtime.
+
+00:34:03.420 --> 00:34:04.720
+Naja, nee. Also du musst ja schon irgendwie
+
+00:34:04.900 --> 00:34:06.440
+Aktoren Daten schicken können,
+
+00:34:06.620 --> 00:34:07.380
+die auch wieder raus.
+
+00:34:08.100 --> 00:34:10.720
+Aber das ist dann quasi von der Sprache her oder von der Syntax her
+
+00:34:10.740 --> 00:34:13.080
+sieht das für dich aus wie ein Methodenaufruf, der asynchron ist, oder?
+
+00:34:13.960 --> 00:34:14.580
+Ja, genau.
+
+00:34:14.659 --> 00:34:16.260
+Das ist jetzt nicht so, als ob du irgendwie Send
+
+00:34:17.639 --> 00:34:19.480
+als Aufruf hast oder was reinsteckst.
+
+00:34:19.999 --> 00:34:20.639
+Ich glaube nicht.
+
+00:34:21.220 --> 00:34:22.300
+Ich stecke nicht so tief drin.
+
+00:34:22.899 --> 00:34:24.419
+Also ich kenne nicht alle Details davon, aber
+
+00:34:24.799 --> 00:34:26.700
+ich glaube nicht. Ich glaube, du machst das wirklich einfach nur
+
+00:34:26.710 --> 00:34:30.200
+dann über den Asic-Await-Syntax-Sugar-Features
+
+00:34:30.460 --> 00:34:32.379
+außen dran. Was ja eigentlich ganz schick ist auf dieser Art und Weise.
+
+00:34:32.450 --> 00:34:34.879
+Es ist dann vor dir versteckt. Genau. Aber du musst
+
+00:34:35.060 --> 00:34:37.220
+quasi das Aktorensystem der Sprache
+
+00:34:37.360 --> 00:34:40.540
+verwenden. Das ist ja... Genau, also das ist jetzt nicht ein Library-Feature,
+
+00:34:40.639 --> 00:34:43.220
+was du... Vielleicht sowohl Segen als auch
+
+00:34:43.379 --> 00:34:45.600
+Fluch. Kann man so oder so sehen.
+
+00:34:45.610 --> 00:34:47.800
+Ist natürlich nicht ganz so sexy, wenn das
+
+00:34:48.539 --> 00:34:50.780
+ein Sprachfeature ist, weil es dann so ingrained ist,
+
+00:34:50.860 --> 00:34:52.780
+dass du halt nicht viel Flexibilität an der Stelle hast.
+
+00:34:53.200 --> 00:34:55.020
+So wie andere Sprachen, die alles als Library aufziehen,
+
+00:34:55.020 --> 00:34:55.899
+was eigentlich auch ganz schick ist.
+
+00:34:57.400 --> 00:34:58.680
+Und du hast vorhin was von
+
+00:34:59.559 --> 00:35:00.600
+Aktersystemen erzählt. Das heißt,
+
+00:35:00.900 --> 00:35:02.740
+es macht ja keinen Sinn, wenn ich jetzt irgendwie eine Anwendung
+
+00:35:02.880 --> 00:35:04.120
+baue, die nur ein Actor hat.
+
+00:35:05.040 --> 00:35:06.760
+Die müssen ja irgendwie verschiedene,
+
+00:35:07.200 --> 00:35:08.840
+du möchtest ja mehrere Aktoren haben, die miteinander
+
+00:35:09.160 --> 00:35:10.800
+sprechen. Wie sehen die sich in Swift?
+
+00:35:10.940 --> 00:35:12.720
+Oder wie funktioniert das? Haben die einfach Referenzen
+
+00:35:12.840 --> 00:35:14.620
+aufeinander und rufen diese Methoden aufeinander auf?
+
+00:35:14.720 --> 00:35:16.680
+Oder wie funktioniert das? Soweit ich weiß, ja.
+
+00:35:16.940 --> 00:35:18.540
+Aber da muss ich passen. Das müsste ich mir,
+
+00:35:18.760 --> 00:35:20.380
+also das habe ich jetzt nicht im Detail im Kopf.
+
+00:35:20.800 --> 00:35:23.320
+Ich habe, wie gesagt, nur hier unten ein paar kleine Spiele reingemacht,
+
+00:35:23.440 --> 00:35:24.780
+weil das auch alles noch relativ frisch ist.
+
+00:35:25.310 --> 00:35:28.200
+Und ich nur mal schauen wollte, wie nutzt man das, wie spricht man das an.
+
+00:35:28.320 --> 00:35:30.700
+Aber ich habe jetzt noch nichts Echtes damit gebaut.
+
+00:35:30.810 --> 00:35:33.840
+Auch keine wirklich kleineren Projekte, die darauf aufbauen.
+
+00:35:34.040 --> 00:35:36.360
+Mich interessiert das wirklich sehr, weil ich finde,
+
+00:35:37.200 --> 00:35:39.700
+ich muss sagen, ich mag das Akte-Konzept sehr, um damit Anwendungen zu bauen.
+
+00:35:40.160 --> 00:35:42.280
+Auch wenn ich mich sehr an die Person reinversetzen kann,
+
+00:35:42.480 --> 00:35:44.540
+die in dem anderen Podcast gesagt hat, ich weiß nicht, was ich damit soll,
+
+00:35:44.680 --> 00:35:46.320
+wenn ich Web-Anwendungen baue.
+
+00:35:47.100 --> 00:35:50.160
+Weil eine Web-Anwendung, da hast du vielleicht ganz banal
+
+00:35:50.180 --> 00:35:52.660
+irgendwie einen Router am Anfang und einen Haufen Funktionen,
+
+00:35:53.160 --> 00:35:54.080
+wo du sagst, wenn du
+
+00:35:54.080 --> 00:35:56.040
+auf diese Adresse aufrufst, wird diese
+
+00:35:56.160 --> 00:35:58.020
+Funktion aufgerufen und wozu brauchst man da
+
+00:35:58.180 --> 00:35:58.460
+Aktoren?
+
+00:35:59.920 --> 00:36:02.080
+Ist ein Argument. Es ist halt dieses typische
+
+00:36:02.240 --> 00:36:03.840
+Beispiel von wegen, es ist halt ein weiteres
+
+00:36:04.100 --> 00:36:05.840
+Tool in deinem Werkzeugkasten. Genau.
+
+00:36:06.280 --> 00:36:07.960
+Und du musst halt darauf vorsichtig sein,
+
+00:36:08.160 --> 00:36:10.000
+weil du diesen Hammer hast, dass nicht alles aussieht wie
+
+00:36:10.200 --> 00:36:10.960
+ein Nagel, aber
+
+00:36:12.960 --> 00:36:13.980
+essentiell, es ist halt
+
+00:36:14.060 --> 00:36:15.780
+glaube ich auch wie Async Awaits und Feature,
+
+00:36:16.040 --> 00:36:18.059
+wenn du anfängst deine Anwendung
+
+00:36:18.080 --> 00:36:19.840
+so zu strukturieren, dass sie halt sehr aktorbasiert
+
+00:36:20.080 --> 00:36:21.880
+arbeitet oder sehr viel auf
+
+00:36:22.020 --> 00:36:23.760
+Async-Await aufsetzt, das zieht sich halt durch deine ganze
+
+00:36:23.940 --> 00:36:25.780
+Codebase durch. Deswegen ist jetzt die Frage, wozu benutzt man
+
+00:36:25.900 --> 00:36:27.880
+Aktoren wirklich? Was ist für dich
+
+00:36:27.900 --> 00:36:29.800
+ein Use-Case, wo du Aktoren verwenden? Also wenn ich
+
+00:36:29.980 --> 00:36:31.680
+weiß, dass ich Dinge, dass ich
+
+00:36:31.860 --> 00:36:33.520
+irgendwelche Currency-Features brauche, weil ich
+
+00:36:33.780 --> 00:36:35.760
+wie mein, wir leben ja in einer
+
+00:36:36.000 --> 00:36:37.860
+Welt, wo eine CPU dich so weit bringt
+
+00:36:37.980 --> 00:36:39.440
+und wir haben ja auch sehr starke
+
+00:36:39.860 --> 00:36:41.540
+Single-Core-CPUs, hat Apple ja jetzt
+
+00:36:41.860 --> 00:36:43.900
+letztens nochmal vorgestellt, die neuen MacBooks, muss ich sagen.
+
+00:36:44.020 --> 00:36:46.120
+Du musst ein bisschen aufpassen, dass wir nicht zu so einem Apple-Podcast
+
+00:36:46.140 --> 00:36:48.360
+Ja, ja. Accidental Apple Podcast, genau.
+
+00:36:50.500 --> 00:36:54.800
+Aber trotzdem ist es ja eine Welt, in der wir eher horizontal skalieren, was CPUs angeht.
+
+00:36:55.500 --> 00:37:01.640
+Und du willst ja optimierte Software so schreiben, gerade Software, die halt große Workloads durcharbeiten möchte,
+
+00:37:02.860 --> 00:37:04.860
+dass das halt auch effizient verteilt läuft.
+
+00:37:05.040 --> 00:37:09.020
+Und sobald du halt anfängst, Dinge über mehrere, also wo du halt irgendwie Threading ins Spiel bringst.
+
+00:37:09.140 --> 00:37:12.660
+Also du siehst Aktoren in Swift so als Ersatz für Multi-Threading.
+
+00:37:13.220 --> 00:37:35.100
+Ja, absolut. Also was du vorher mit irgendwelchen Dispatch-Queues Threadsave gemacht hast, da musst du halt aufpassen. Also du kannst damit alles bauen, absolut, aber du musst wirklich darauf aufpassen. Genauso wie du in C-Memory-Safe-Software schreiben kannst, kannst du sehr wohl. Du musst halt nur aufpassen, es richtig zu machen. Und du kannst sehr einfach Scheiße bauen und dir deine irgendwelche Data Races erzeugen.
+
+00:37:37.060 --> 00:37:38.160
+Um das zu umgehen,
+
+00:37:39.280 --> 00:37:39.900
+also Data Races
+
+00:37:39.970 --> 00:37:42.500
+im Sinne von Concurrency-Problemen,
+
+00:37:42.780 --> 00:37:44.200
+kannst du halt Aktoren nutzen, die dir sehr viel
+
+00:37:44.260 --> 00:37:45.960
+davon abfangen. Du kannst auch
+
+00:37:46.120 --> 00:37:47.600
+Aktoren falsch halten quasi
+
+00:37:48.300 --> 00:37:49.660
+und da trotzdem halt
+
+00:37:50.070 --> 00:37:51.960
+dir blöd Dinge synchronisieren, wenn du halt
+
+00:37:52.300 --> 00:37:53.900
+hier zwar einen Aktor hast,
+
+00:37:54.150 --> 00:37:55.400
+der eine Property hat und irgendwie
+
+00:37:55.760 --> 00:37:57.520
+eine Funktion, die mutatet
+
+00:37:58.000 --> 00:37:59.840
+und du einfach aus irgendeinem Grund
+
+00:38:00.020 --> 00:38:01.680
+nochmal zwei Threads erstellst, die
+
+00:38:01.810 --> 00:38:03.940
+auf diese beiden Properties zugreifen, auf beiden Seiten
+
+00:38:04.120 --> 00:38:06.020
+hier mit await, dann hat der Compiler kein Problem damit.
+
+00:38:06.700 --> 00:38:08.620
+aber du kannst trotzdem natürlich einen Data Race erzeugen
+
+00:38:08.840 --> 00:38:10.580
+weil es halt einfach falsch benutzt wird
+
+00:38:10.580 --> 00:38:11.000
+an der Stelle
+
+00:38:11.920 --> 00:38:13.640
+Ich würde mal eine Runde darauf eingehen
+
+00:38:14.400 --> 00:38:15.860
+wie Aktoren in Rust funktionieren
+
+00:38:16.040 --> 00:38:17.840
+weil man da
+
+00:38:18.240 --> 00:38:20.080
+ein bisschen mehr von den
+
+00:38:20.240 --> 00:38:21.640
+Innereien zu sehen bekommt
+
+00:38:21.740 --> 00:38:24.280
+zumindest depending on welches Framework
+
+00:38:24.320 --> 00:38:25.780
+man jetzt benutzt. Ich habe ja am Anfang gesagt
+
+00:38:26.320 --> 00:38:28.220
+ich habe mit Actics rumgespielt
+
+00:38:28.280 --> 00:38:29.980
+und dann wollte ich mal dieses Konzept
+
+00:38:30.160 --> 00:38:30.460
+von einem
+
+00:38:32.020 --> 00:38:33.060
+Chat-Server mal bis zur
+
+00:38:35.160 --> 00:38:36.120
+Extremität treiben
+
+00:38:36.140 --> 00:38:38.080
+mal ein bisschen
+
+00:38:39.580 --> 00:38:40.000
+ausreizen.
+
+00:38:41.420 --> 00:38:43.120
+Und in Rust gibt es ja seit einiger Zeit
+
+00:38:44.460 --> 00:38:45.160
+auch Async Await
+
+00:38:45.460 --> 00:38:46.980
+und dementsprechend Async Await
+
+00:38:47.130 --> 00:38:48.760
+oder Async Runtimes,
+
+00:38:48.790 --> 00:38:50.120
+so Exekutoren, wo man seine
+
+00:38:50.760 --> 00:38:52.240
+Futures und Tasks
+
+00:38:53.780 --> 00:38:55.080
+schedulen und laufen lassen kann.
+
+00:38:55.150 --> 00:38:56.760
+Ist das eigentlich ein Language Feature?
+
+00:38:56.900 --> 00:38:59.020
+Das ist aus Tokio oder wie die Library
+
+00:38:59.200 --> 00:39:00.260
+hieß, alles herausgegangen?
+
+00:39:00.630 --> 00:39:02.860
+Genau, also das ist Async Await
+
+00:39:02.860 --> 00:39:04.860
+und Async Rust ist ein relativ
+
+00:39:06.500 --> 00:39:09.100
+für den Einsteiger wahrscheinlich recht unübersichtliches
+
+00:39:09.160 --> 00:39:12.340
+Feld und es ist auch schwierig, das irgendwie einzuführen. Es gibt
+
+00:39:13.040 --> 00:39:16.720
+Async, Await und Futures als Sprachfeature in Rust, in der
+
+00:39:16.880 --> 00:39:20.840
+Standardbibliothek. Das ist aber quasi nur the least common
+
+00:39:21.020 --> 00:39:24.680
+denominator, um sagen zu können, so
+
+00:39:24.840 --> 00:39:28.800
+baust du ein Future. Und ein Future ist einfach
+
+00:39:29.440 --> 00:39:32.860
+etwas, was man pollen kann. Und dann weiß man,
+
+00:39:33.020 --> 00:39:34.640
+ist es entweder fertig oder nicht fertig.
+
+00:39:34.700 --> 00:39:36.480
+Da gibt es auch noch weitere Konzepte wie Waker,
+
+00:39:36.700 --> 00:39:38.880
+möchte ich jetzt gar nicht wirklich darauf eingehen, Future ist quasi
+
+00:39:38.980 --> 00:39:40.740
+was, ein Stück
+
+00:39:41.020 --> 00:39:43.060
+Code, dass das immer ein Stückchen,
+
+00:39:43.280 --> 00:39:44.980
+dass man ab und zu fragen kann, hast du schon Arbeit gemacht
+
+00:39:45.300 --> 00:39:46.980
+und dann irgendwann wird man fertig. Damit kann man jetzt noch
+
+00:39:47.080 --> 00:39:48.900
+keine Aktoren bauen, aber das ist so die
+
+00:39:49.619 --> 00:39:50.640
+primitive unter dieser
+
+00:39:51.180 --> 00:39:52.960
+Async-Runtime in Rust. Und das ist das
+
+00:39:53.180 --> 00:39:54.920
+Einzige, worauf sich die Sprache irgendwann
+
+00:39:55.140 --> 00:39:57.080
+geeinigt hatte und dementsprechend
+
+00:39:57.200 --> 00:39:58.980
+gibt es seit ein, zwei,
+
+00:39:59.640 --> 00:40:00.700
+drei Jahren vielleicht
+
+00:40:01.580 --> 00:40:03.480
+das Async und das Await-Keyword
+
+00:40:03.490 --> 00:40:04.980
+in der Sprache und
+
+00:40:05.270 --> 00:40:07.140
+wenn du eine Async, du kannst eine Methode
+
+00:40:07.150 --> 00:40:09.140
+oder Funktion Async machen und dann
+
+00:40:09.300 --> 00:40:10.780
+heißt es einfach, dass das, was die
+
+00:40:11.400 --> 00:40:13.160
+macht, intern im Block
+
+00:40:13.360 --> 00:40:14.620
+macht sie nicht, sondern sie gibt
+
+00:40:15.740 --> 00:40:17.180
+ein Future zurück und man muss
+
+00:40:17.280 --> 00:40:18.680
+dieses Future irgendwann pollen,
+
+00:40:19.620 --> 00:40:20.820
+damit diese Arbeit wirklich gemacht wird.
+
+00:40:21.820 --> 00:40:22.920
+Und das ist natürlich was,
+
+00:40:23.420 --> 00:40:25.240
+damit möchte sich eigentlich niemand selber auseinandersetzen.
+
+00:40:26.240 --> 00:40:27.420
+Man musste jetzt quasi,
+
+00:40:28.240 --> 00:40:29.120
+was man in Rust macht,
+
+00:40:29.280 --> 00:40:31.020
+ist, dass man diese Futures zusammenbaut und
+
+00:40:31.310 --> 00:40:33.120
+so eine Art Task baut. Eine Task ist
+
+00:40:33.130 --> 00:40:34.620
+was, was die Future hält und dafür sorgt,
+
+00:40:35.340 --> 00:40:37.200
+dass die der Reihe nach fortgesetzt wird,
+
+00:40:37.360 --> 00:40:39.160
+immer mal ein bisschen Arbeit macht und irgendwann fertig
+
+00:40:39.320 --> 00:40:40.800
+ist oder
+
+00:40:41.220 --> 00:40:43.180
+nie fertig ist, wenn du darin so eine Art Dauerloop
+
+00:40:43.380 --> 00:40:44.880
+hast, was man auch häufig sieht. Du hast zum Beispiel
+
+00:40:46.160 --> 00:40:46.840
+ein Future,
+
+00:40:47.260 --> 00:40:49.080
+was Arbeit macht und dann ist der
+
+00:40:49.130 --> 00:40:51.020
+Loop zu Ende und dann fängt es von vorne an, weil
+
+00:40:51.020 --> 00:40:52.780
+du zum Beispiel einen Server baust, der einfach
+
+00:40:52.920 --> 00:40:54.440
+auf Anfragen antwortet.
+
+00:40:56.300 --> 00:40:56.660
+Und
+
+00:40:57.100 --> 00:40:58.700
+Tokio, was du gerade erwähnt hast, oder
+
+00:40:59.000 --> 00:41:00.600
+Alternativ Async RS
+
+00:41:00.860 --> 00:41:02.720
+oder Async Stutt sind Runtimes
+
+00:41:02.920 --> 00:41:04.360
+dafür. Async Stutt?
+
+00:41:04.620 --> 00:41:06.580
+Async Stutt, das findest du auf async.rs,
+
+00:41:06.780 --> 00:41:08.600
+das ist das Projekt, an dem unter anderem
+
+00:41:08.960 --> 00:41:10.440
+unser vorheriger Gast
+
+00:41:11.280 --> 00:41:12.580
+Florian Gieschen mitgearbeitet hat.
+
+00:41:12.680 --> 00:41:14.360
+Witzig. Und seine Firma.
+
+00:41:16.560 --> 00:41:16.660
+Und
+
+00:41:17.660 --> 00:41:18.660
+die sind quasi dafür da,
+
+00:41:19.440 --> 00:41:20.780
+diese Tasks, die du
+
+00:41:21.080 --> 00:41:22.660
+als Benutzer von Rust
+
+00:41:24.440 --> 00:41:25.000
+zusammenbaust,
+
+00:41:25.240 --> 00:41:26.740
+deine, ich fetche
+
+00:41:26.760 --> 00:41:28.700
+was von hier und dann verarbeite ich das
+
+00:41:28.800 --> 00:41:30.580
+und dann sende ich es nach da. Das ist so eine Task,
+
+00:41:31.700 --> 00:41:32.060
+die
+
+00:41:32.780 --> 00:41:34.740
+irgendwie zu schedulen und zu laufen.
+
+00:41:34.770 --> 00:41:36.520
+Die haben solche Exekutoren. Auf einem Exekutor
+
+00:41:36.700 --> 00:41:38.680
+kannst du deine Tasks schedulen
+
+00:41:38.680 --> 00:41:40.580
+und jedes Mal, wenn ich Task sage, kannst du quasi
+
+00:41:40.880 --> 00:41:41.980
+Thread denken. Okay.
+
+00:41:42.540 --> 00:41:44.660
+Bloß, dass sie halt darauf achten, dass
+
+00:41:44.710 --> 00:41:46.080
+das eventuell nicht auf
+
+00:41:46.600 --> 00:41:48.540
+mehreren Threads läuft, sondern nur auf einem, je nachdem,
+
+00:41:48.540 --> 00:41:50.300
+wie du es konfigurierst. Oder, dass sie so eine Art
+
+00:41:50.900 --> 00:41:52.400
+Threadpool haben, wo sie deine
+
+00:41:52.800 --> 00:41:54.560
+Tasks schedulen und die dann
+
+00:41:54.700 --> 00:41:56.060
+miteinander arbeiten. Das ist quasi
+
+00:41:57.440 --> 00:41:58.540
+und damit hat die Sprache quasi
+
+00:41:58.640 --> 00:42:00.420
+dieses Konzept von Green Threads, also
+
+00:42:00.580 --> 00:42:02.680
+Nicht-Betriebssystem-Nan-Threads
+
+00:42:02.960 --> 00:42:04.560
+wieder zurückgebracht.
+
+00:42:05.140 --> 00:42:06.660
+Bloß, dass es halt jetzt ein Library-Feature
+
+00:42:06.740 --> 00:42:08.580
+ist und es alternative Implementierung davon gibt.
+
+00:42:09.820 --> 00:42:10.160
+Makes sense.
+
+00:42:10.360 --> 00:42:12.740
+Das hat jetzt alles noch nicht wirklich was mit Aktoren zu tun,
+
+00:42:12.820 --> 00:42:14.800
+aber du baust, du würdest mit sowas
+
+00:42:14.860 --> 00:42:16.280
+jetzt zum Beispiel eine Web-Anwendung bauen,
+
+00:42:17.220 --> 00:42:18.780
+einen Server, da baust
+
+00:42:18.880 --> 00:42:20.120
+du eine Task,
+
+00:42:20.740 --> 00:42:22.500
+die wirfst du, die schedulest du
+
+00:42:22.560 --> 00:42:24.580
+in deinem Executor und dann läuft sie und in deiner
+
+00:42:24.620 --> 00:42:26.580
+Task läuft ein Loop im Kreis und
+
+00:42:27.220 --> 00:42:28.160
+fragt irgendeinen
+
+00:42:29.640 --> 00:42:30.120
+irgendeinen
+
+00:42:30.920 --> 00:42:32.600
+Web-Service Primitive
+
+00:42:33.020 --> 00:42:34.540
+nach, kommen hier gerade Anfragen
+
+00:42:34.720 --> 00:42:36.500
+auf diesem Pfad rein oder
+
+00:42:36.580 --> 00:42:38.920
+ein TCP-Listener, kommen hier Anfragen
+
+00:42:39.140 --> 00:42:40.780
+auf diesem Port
+
+00:42:40.980 --> 00:42:42.640
+rein und so weiter und so fort und dann macht sie ein bisschen
+
+00:42:42.860 --> 00:42:44.720
+Arbeit und dann beantwortet sie
+
+00:42:44.720 --> 00:42:46.460
+das und schickt sie wieder was raus und dafür ist
+
+00:42:46.580 --> 00:42:48.100
+deine Task-Runtime verantwortlich.
+
+00:42:48.900 --> 00:42:50.420
+Und damit kann man Anwendungen bauen
+
+00:42:50.680 --> 00:42:51.440
+und das funktioniert gut,
+
+00:42:52.960 --> 00:42:54.560
+aber man ist die ganze Zeit
+
+00:42:54.580 --> 00:42:56.520
+beschäftigt, irgendwie Tasks mit
+
+00:42:56.760 --> 00:42:58.480
+Loops zu bauen und Endlos-Loops
+
+00:42:58.720 --> 00:43:00.360
+und dann muss man irgendwie, wenn man mehrere
+
+00:43:00.560 --> 00:43:02.180
+Tasks miteinander sprechen lassen möchte,
+
+00:43:02.600 --> 00:43:04.320
+muss man dafür sorgen, dass man irgendwie am Anfang,
+
+00:43:04.460 --> 00:43:05.880
+wie ich das schon gesagt habe, so eine Art
+
+00:43:06.619 --> 00:43:08.460
+Channel erzeugt, wo man dann der einen
+
+00:43:08.640 --> 00:43:10.500
+Task sagen kann, hier, du hast jetzt den Receiver
+
+00:43:11.120 --> 00:43:12.540
+und der anderen Task sagt, du hast
+
+00:43:12.660 --> 00:43:14.720
+jetzt den Sender, damit die sich synchronisieren
+
+00:43:14.920 --> 00:43:16.480
+können, damit die eine der anderen was schicken kann
+
+00:43:16.880 --> 00:43:18.640
+und dann gibt es unterschiedliche Arten
+
+00:43:18.720 --> 00:43:20.620
+von Channels, es gibt Unbounded
+
+00:43:20.820 --> 00:43:22.480
+Channels und Bounded Channels, die
+
+00:43:22.620 --> 00:43:24.540
+irgendwie unterschiedliche Message
+
+00:43:26.180 --> 00:43:27.400
+Mailbox-Größen haben
+
+00:43:27.900 --> 00:43:28.340
+und
+
+00:43:29.520 --> 00:43:31.460
+Channels sind, je nachdem wie sie optimiert
+
+00:43:31.560 --> 00:43:32.720
+sind, sind meistens sogenannte
+
+00:43:33.440 --> 00:43:34.800
+MPSC-Channels, das heißt
+
+00:43:36.000 --> 00:43:38.100
+Multi-Producer-Single-Consumer-Channels,
+
+00:43:38.220 --> 00:43:39.560
+das heißt, ich kann den Sendeteil
+
+00:43:40.820 --> 00:43:41.480
+beliebig häufig
+
+00:43:41.680 --> 00:43:43.380
+kopieren und an andere Tasks geben, aber
+
+00:43:43.380 --> 00:43:44.740
+der Empfänger ist immer eine Mailbox.
+
+00:43:45.150 --> 00:43:47.360
+Das heißt, viele, viele andere Tasks
+
+00:43:47.600 --> 00:43:49.220
+oder Threads können einem was schicken.
+
+00:43:50.080 --> 00:43:51.320
+Das sind einfach so Primitiven, die sind
+
+00:43:51.420 --> 00:43:52.880
+da in der Sprache und damit kann man viel bauen,
+
+00:43:53.380 --> 00:43:56.120
+Aber es ist nicht so sehr abstrakt.
+
+00:43:56.240 --> 00:43:56.900
+Es ist schon wirklich,
+
+00:43:57.560 --> 00:43:58.460
+es ist schon wirklich,
+
+00:43:59.580 --> 00:44:01.100
+du musst dich schon sehr damit auseinandersetzen,
+
+00:44:01.600 --> 00:44:02.400
+wie du damit was machst.
+
+00:44:02.440 --> 00:44:03.820
+Ich habe damit mal eine kleine Anwendung gebaut.
+
+00:44:04.280 --> 00:44:05.440
+Du musst schon verstehen, was du tust.
+
+00:44:05.980 --> 00:44:07.140
+Deswegen ist so ein Aktorenkonzept
+
+00:44:07.920 --> 00:44:08.860
+an und für sich was Hübsches.
+
+00:44:09.820 --> 00:44:11.140
+Und Actix hat,
+
+00:44:12.940 --> 00:44:13.420
+Actix ist,
+
+00:44:14.000 --> 00:44:14.840
+Actix und Actix Web
+
+00:44:15.500 --> 00:44:17.120
+sind ein Aktorenframework
+
+00:44:17.240 --> 00:44:17.960
+und ein Webframework,
+
+00:44:18.540 --> 00:44:19.440
+die Hand in Hand gehen.
+
+00:44:19.760 --> 00:44:21.500
+Die meisten Leute brauchen die Aktoren nicht.
+
+00:44:21.840 --> 00:44:30.820
+Aber Aktoren sind zum Beispiel dann spannend, wenn du sowas wie einen Websocket-Service baust, wo was läuft, eine Connection zum Beispiel, die einen Zustand hält.
+
+00:44:30.940 --> 00:44:44.180
+Sagen wir es so, ich habe einen Web-Service, so ein klassisches Websocket-Chat-Server-Example und jedes Mal, wenn ein Websocket aufgeht, hält jemand eine stehende Connection mit einem Zustand und da kommen Nachrichten rein.
+
+00:44:44.340 --> 00:44:51.480
+Da möchte ich ja nicht immer wieder von vorne anfangen und mir vielleicht irgendwie global so ein Objekt merken, wo ich irgendwie Sachen erzeuge und das dann zuordne.
+
+00:44:52.220 --> 00:44:58.320
+Sondern da lebt dann so ein neues Objekt, mein WebSocket-Listener, und der kriegt alle WebSocket-Nachrichten rein.
+
+00:44:59.220 --> 00:45:00.620
+Und bei Actix wäre das ein Aktor.
+
+00:45:01.880 --> 00:45:05.180
+Das heißt, der ist dann gestartet und sobald der WebSocket ausgeht, stirbt der Aktor wieder.
+
+00:45:05.800 --> 00:45:12.700
+So ein Aktor ist also ein Objekt, das hat eine Runtime, das wird irgendwann gestartet und irgendwann wird es wieder gestoppt.
+
+00:45:13.320 --> 00:45:17.320
+Und zwischen denen lebt eine Instanz von dieser Klasse, von diesem Struct.
+
+00:45:18.020 --> 00:45:21.440
+Und die kann auf bestimmte Arten und Weisen von Nachrichten reagieren.
+
+00:45:22.620 --> 00:45:24.720
+Und das klingt jetzt komplett anders als bei Swift,
+
+00:45:24.810 --> 00:45:26.120
+aber an und für sich ist es Underlying.
+
+00:45:26.670 --> 00:45:27.360
+Das ist dieselbe Idee.
+
+00:45:27.400 --> 00:45:28.200
+Eigentlich dieselbe Idee.
+
+00:45:28.550 --> 00:45:35.360
+Du hast bei Actix, implementierst du einen Actor-Trade für deinen Typen.
+
+00:45:35.960 --> 00:45:38.680
+Mein Typ kann ein Counter sein, der einfach bloß eine Zahl hält.
+
+00:45:39.160 --> 00:45:40.400
+Für den implementiere ich Actor.
+
+00:45:40.570 --> 00:45:42.320
+Dann kann das Ding gestartet werden.
+
+00:45:43.060 --> 00:45:45.080
+gestoppt werden und gestartet heißt einfach bloß,
+
+00:45:45.090 --> 00:45:47.080
+ich drücke Start und dann habe ich eine Adresse
+
+00:45:48.060 --> 00:45:49.440
+auf dieses Dings, was so eine Art
+
+00:45:49.720 --> 00:45:51.040
+Sender von so einem Channel ist
+
+00:45:51.440 --> 00:45:53.540
+und an die Adresse kann ich Nachrichten schicken.
+
+00:45:54.160 --> 00:45:55.320
+Aber was für Nachrichten
+
+00:45:55.410 --> 00:45:56.940
+kann ich an dieses Objekt schicken?
+
+00:45:57.380 --> 00:45:59.220
+Ich muss dann noch weitere Trades implementieren,
+
+00:45:59.400 --> 00:46:00.760
+einen Trade namens Händler.
+
+00:46:01.500 --> 00:46:02.120
+Und das heißt, ich habe,
+
+00:46:03.060 --> 00:46:04.920
+ein Händler ist Nachrichtenhändler, das heißt
+
+00:46:05.040 --> 00:46:07.020
+normalerweise für meinen Counter-Beispiel würde ich sagen,
+
+00:46:07.880 --> 00:46:08.960
+ich habe ein Struck, das heißt Counter,
+
+00:46:09.010 --> 00:46:10.700
+das hat eine Zahl drin, dafür implementiere ich Actor.
+
+00:46:11.140 --> 00:46:12.780
+Das kann also dann gestartet werden.
+
+00:46:12.920 --> 00:46:15.260
+Und dann implementiere ich noch Händler für eine Nachricht.
+
+00:46:16.200 --> 00:46:18.200
+Und das ist quasi, was dann bei Swift eine Methode wäre,
+
+00:46:18.490 --> 00:46:19.600
+ein einfacher Methodenaufruf.
+
+00:46:19.980 --> 00:46:21.520
+Bei Rust ist es, ich implementiere,
+
+00:46:21.640 --> 00:46:24.680
+dass du diese Nachricht entgegennehmen kannst.
+
+00:46:25.180 --> 00:46:27.200
+Und dann kann ich an die Adresse eine bestimmte Nachricht schicken.
+
+00:46:27.360 --> 00:46:29.300
+Und in dieser Implementierung von diesem Händler,
+
+00:46:29.400 --> 00:46:31.740
+ich kann irgendwie zehn Händler für unterschiedliche Methodentypen haben,
+
+00:46:32.100 --> 00:46:33.560
+in der Implementierung von diesem Händler
+
+00:46:34.540 --> 00:46:36.780
+implementiere ich dann, was das Ding damit macht.
+
+00:46:38.039 --> 00:46:39.940
+Okay, das ergibt irgendwo Sinn, ja.
+
+00:46:41.020 --> 00:46:42.100
+So, und da kannst du dann auch
+
+00:46:42.220 --> 00:46:44.200
+Aktor-Systeme, dann wird der
+
+00:46:44.320 --> 00:46:45.880
+spannende Teil, wie baut man Aktoren-Systeme?
+
+00:46:45.880 --> 00:46:47.960
+Du hast ja, und jetzt, ich hätte wirklich
+
+00:46:48.580 --> 00:46:50.280
+gerne Zeit gehabt, mich mit Erlang
+
+00:46:50.410 --> 00:46:51.900
+oder so auseinanderzusetzen, wir könnten vielleicht
+
+00:46:52.799 --> 00:46:54.000
+nochmal jemanden fragen dazu.
+
+00:46:55.080 --> 00:46:56.240
+Schreibt uns, wenn ihr Ahnung von Erlang
+
+00:46:56.320 --> 00:46:57.260
+habt, wir wollen mal mit euch quatschen.
+
+00:46:57.670 --> 00:46:57.780
+Genau.
+
+00:47:00.439 --> 00:47:01.380
+Aktoren-Systeme, wie,
+
+00:47:01.920 --> 00:47:03.920
+jetzt haben wir also diese Primitive von einem Aktor
+
+00:47:04.380 --> 00:47:06.200
+irgendwie gelöst, bei Swift mit
+
+00:47:06.340 --> 00:47:08.260
+Syntax und bei Rust in
+
+00:47:08.380 --> 00:47:09.620
+Actix zum Beispiel mit einer Library.
+
+00:47:10.560 --> 00:47:15.600
+Und jetzt baut man damit seinen minimalen Chat-Server mit ein, zwei Aktoren oder einem Aktor pro Connection.
+
+00:47:16.980 --> 00:47:19.520
+Und jetzt merkt man, ah, man braucht noch einen Aktor mehr.
+
+00:47:19.520 --> 00:47:22.180
+Man braucht irgendwie noch einen Chat-Raum-Aktor.
+
+00:47:22.400 --> 00:47:26.220
+Jeder, der sich mit dem Chat-Server verbindet, kriegt einen Aktor für seine Connection.
+
+00:47:26.920 --> 00:47:28.880
+Und die reden mit einem Raum.
+
+00:47:29.960 --> 00:47:31.400
+Und dieser Raum ist auch ein Aktor.
+
+00:47:32.000 --> 00:47:32.600
+Oder mit einem anderen.
+
+00:47:32.840 --> 00:47:34.240
+Vielleicht reden die mit mehreren Räumen.
+
+00:47:34.300 --> 00:47:38.560
+Und da haben dann plötzlich schon mehrere Aktoren Adressen aufeinander und können sich Nachrichten schicken.
+
+00:47:38.820 --> 00:47:40.320
+Das ist echt ein schönes Beispiel mit so einem Chat-Server.
+
+00:47:40.460 --> 00:47:42.180
+da passt das richtig gut rein. Genau, und
+
+00:47:42.460 --> 00:47:44.080
+wo kriegen die ihre Räume her? Ich
+
+00:47:44.980 --> 00:47:46.120
+connecte mich mit diesem Server
+
+00:47:46.680 --> 00:47:48.620
+und ich möchte die Adresse von einem Raumaktor
+
+00:47:48.820 --> 00:47:50.780
+haben. Gibt es da was Globales?
+
+00:47:51.140 --> 00:47:52.060
+Na, eigentlich nicht.
+
+00:47:52.460 --> 00:47:54.120
+Möchtest du nicht? Also hast du noch einen
+
+00:47:54.400 --> 00:47:56.320
+Aktortypen mehr? Es gibt nämlich dann
+
+00:47:56.480 --> 00:47:57.820
+plötzlich Serviceaktoren.
+
+00:47:58.520 --> 00:48:00.280
+Da kannst du, da gibt es
+
+00:48:00.340 --> 00:48:01.860
+einfach bloß immer eine Instanz von
+
+00:48:02.360 --> 00:48:04.080
+und du kannst dir über eine
+
+00:48:04.840 --> 00:48:06.120
+statische Funktion kannst du dir
+
+00:48:06.220 --> 00:48:08.180
+aus einer, bei Actix heißt es Registry,
+
+00:48:08.420 --> 00:48:10.420
+kannst du sagen lassen, hey
+
+00:48:10.420 --> 00:48:25.560
+Gib mir mal die Adresse oder eine Adresse, die Adresse kannst du beliebig kopieren, auf den Raummanager oder auf den Raumservice. Und dann kriegst du als Connection die Adresse zu dem Raumservice.
+
+00:48:26.240 --> 00:48:27.600
+und den Raumservice kannst du dann
+
+00:48:27.800 --> 00:48:29.800
+Nachrichten schicken wie, ich möchte
+
+00:48:29.960 --> 00:48:30.380
+diesen Raum
+
+00:48:32.680 --> 00:48:33.720
+akronomisierbar joinen
+
+00:48:34.300 --> 00:48:35.820
+und dann sagt der Raumservice
+
+00:48:36.740 --> 00:48:37.420
+ja, Raum
+
+00:48:38.120 --> 00:48:39.660
+kenne ich, ich verwalte nämlich diese
+
+00:48:39.860 --> 00:48:41.700
+Räume alle, ich schicke dir jetzt mal
+
+00:48:41.820 --> 00:48:43.380
+über den selben Kanal,
+
+00:48:43.510 --> 00:48:45.700
+über dieses Message Passing
+
+00:48:46.140 --> 00:48:47.300
+schicke ich dir eine Adresse
+
+00:48:47.780 --> 00:48:49.680
+zu einem Raum, der akronomisierbar heißt
+
+00:48:50.320 --> 00:48:51.620
+und der andere Connection fragt
+
+00:48:51.640 --> 00:48:53.920
+denselben Server und kriegt von dem dieselbe Adresse
+
+00:48:53.940 --> 00:48:56.120
+über eine Nachricht und dann können zwei Leute
+
+00:48:56.160 --> 00:48:56.780
+an diesen Raum
+
+00:48:58.020 --> 00:48:58.920
+eine Nachricht schicken.
+
+00:49:00.080 --> 00:49:01.680
+Das heißt, wir haben jetzt das Konzept von einem,
+
+00:49:02.820 --> 00:49:03.960
+du hast jetzt bereits fünf Aktoren
+
+00:49:04.000 --> 00:49:05.920
+in diesem System. Jeder von uns
+
+00:49:06.060 --> 00:49:07.120
+beiden hat eine Connection-Aktor,
+
+00:49:07.820 --> 00:49:08.300
+jeder hat eine,
+
+00:49:10.140 --> 00:49:10.480
+nee, es gibt
+
+00:49:10.600 --> 00:49:12.300
+bloß einen Raum, wir reden beide mit, es sind
+
+00:49:12.320 --> 00:49:13.960
+bloß vier in dem Fall, jeder
+
+00:49:14.600 --> 00:49:16.220
+redet mit diesem einen Raum und wir mussten
+
+00:49:16.400 --> 00:49:18.380
+einmal einen anderen Service-Aktor fragen,
+
+00:49:21.220 --> 00:49:22.060
+der uns die
+
+00:49:22.500 --> 00:49:23.900
+Antwort gegeben, der uns diese
+
+00:49:23.920 --> 00:49:24.620
+rausgibt.
+
+00:49:26.160 --> 00:49:26.740
+Und das ist,
+
+00:49:27.620 --> 00:49:29.520
+sowas habe ich als Spielzeug
+
+00:49:29.800 --> 00:49:30.340
+mal gebaut,
+
+00:49:31.600 --> 00:49:32.180
+dann gab es noch
+
+00:49:33.660 --> 00:49:35.380
+Session-Aktoren, Session-Management und
+
+00:49:35.540 --> 00:49:37.620
+Account-Service-Aktoren, alles so, wenn du
+
+00:49:37.720 --> 00:49:39.600
+verteilte Systeme bauen möchtest,
+
+00:49:40.760 --> 00:49:40.980
+wo
+
+00:49:42.839 --> 00:49:43.400
+unterschiedliche
+
+00:49:44.119 --> 00:49:45.220
+Aspekte von deiner
+
+00:49:45.859 --> 00:49:47.060
+Anwendungs-State halten.
+
+00:49:47.820 --> 00:49:48.400
+Du möchtest nicht
+
+00:49:49.260 --> 00:49:51.480
+einen Vektor oder ein Array haben, wo
+
+00:49:51.480 --> 00:49:53.800
+alle deine Namen von deinen Räumen drinstehen,
+
+00:49:54.780 --> 00:49:56.020
+nee, du hast einen Service
+
+00:49:56.900 --> 00:49:58.140
+und der erzeugt und
+
+00:49:58.240 --> 00:50:00.120
+verwaltet und schmeißt
+
+00:50:00.240 --> 00:50:00.800
+weg Räume.
+
+00:50:02.140 --> 00:50:03.980
+Und ein Raum hat eine Lifetime und wenn der Raum
+
+00:50:04.080 --> 00:50:06.000
+geschlossen wird, dann wird der Ektor einfach beendet und jeder, der
+
+00:50:06.060 --> 00:50:08.020
+eine Adresse auf diesen Ektor hat, merkt, oh, die
+
+00:50:08.160 --> 00:50:10.120
+Adresse ist jetzt ungültig, weil der Raum tot ist
+
+00:50:10.200 --> 00:50:11.680
+und sowas. Das ist eigentlich ein schönes Konzept
+
+00:50:12.020 --> 00:50:13.860
+auf so eine abstrakte Art und Weise, eigentlich auf eine
+
+00:50:13.900 --> 00:50:15.540
+recht objektorientierte Art und Weise,
+
+00:50:16.020 --> 00:50:18.080
+so einen Service zu bauen, der den internen Zustand
+
+00:50:18.200 --> 00:50:19.560
+hält. Das ist ganz gut, ja.
+
+00:50:20.080 --> 00:50:21.760
+So. Und das ist
+
+00:50:21.780 --> 00:50:23.280
+das ist so, dass, als ich
+
+00:50:23.690 --> 00:50:25.340
+mich mehr damit auseinandergesetzt habe, dachte ich,
+
+00:50:25.760 --> 00:50:27.260
+das ist eigentlich eine schöne Art und Weise, seine
+
+00:50:27.680 --> 00:50:29.320
+Anwendungen zu strukturieren. Das ist natürlich
+
+00:50:30.060 --> 00:50:31.500
+ein Hammer, mit dem man nicht auf jeden
+
+00:50:31.640 --> 00:50:33.540
+Nagel hauen kann, weil die meisten Web-Anwendungen
+
+00:50:33.880 --> 00:50:35.540
+nicht so stateful
+
+00:50:35.780 --> 00:50:37.460
+sind, dass du irgendwie, oder auch
+
+00:50:37.460 --> 00:50:39.600
+nicht so realtime sind. Für die meisten reicht's aus,
+
+00:50:40.080 --> 00:50:41.260
+wenn du Routen definierst
+
+00:50:41.680 --> 00:50:43.660
+und dann mit der Route irgendwie eine Datenbank
+
+00:50:43.740 --> 00:50:45.420
+guckst und du hältst dein State dann wahrscheinlich auch
+
+00:50:45.819 --> 00:50:47.620
+außerhalb von deiner Anwendung, eigentlich eher,
+
+00:50:47.750 --> 00:50:49.860
+wenn du, weil meine Anwendung,
+
+00:50:49.860 --> 00:50:51.740
+die ich gerade beschrieben habe, wenn die abstürzt, dann ist es wirklich
+
+00:50:51.760 --> 00:50:52.400
+gesamten Zustand.
+
+00:50:53.340 --> 00:50:55.880
+Ja gut, dass du irgendwo noch den State persistieren möchtest,
+
+00:50:56.320 --> 00:50:57.660
+ergibt schon Sinn, aber wie du schon meinst,
+
+00:50:58.460 --> 00:50:59.860
+es ergibt nicht für jede Anwendung Sinn,
+
+00:51:00.859 --> 00:51:02.180
+das so aufzuziehen,
+
+00:51:02.260 --> 00:51:03.680
+weil du einfach, also das ist,
+
+00:51:04.600 --> 00:51:05.720
+der Hammer ist zu groß für das
+
+00:51:05.900 --> 00:51:07.580
+mögliche Problem, aber wenn du es halt wirklich
+
+00:51:07.920 --> 00:51:09.700
+irgendwie diesen State auseinanderziehen kannst,
+
+00:51:09.820 --> 00:51:11.780
+das ist ja gerade das Schöne daran, dass du nicht diesen einen
+
+00:51:11.940 --> 00:51:13.200
+State dann hast, sondern dass du es halt wirklich
+
+00:51:13.740 --> 00:51:15.560
+auseinanderziehen kannst und das Zeug sich nicht tangiert,
+
+00:51:15.880 --> 00:51:17.800
+bis auf genau an den Schnittstellen, wo es halt sinnvoll ist,
+
+00:51:18.120 --> 00:51:19.040
+dann kannst du halt auch sehr,
+
+00:51:19.780 --> 00:51:20.440
+wie sagt man immer so schön,
+
+00:51:20.980 --> 00:51:22.320
+man kann sehr gut über den Code
+
+00:51:22.540 --> 00:51:22.760
+reasonen.
+
+00:51:23.490 --> 00:51:26.280
+Das lässt sich schön blöd ins Denkliche ziehen, aber
+
+00:51:26.980 --> 00:51:28.720
+it makes it easier to reason about it.
+
+00:51:28.920 --> 00:51:30.160
+Ja, man versteht den Code irgendwie.
+
+00:51:31.520 --> 00:51:31.660
+Genau.
+
+00:51:31.990 --> 00:51:33.960
+Der sich so verzahnt ist auf jeder Ebene.
+
+00:51:34.350 --> 00:51:36.100
+Und das Modell hilft dir halt dabei, das
+
+00:51:36.300 --> 00:51:37.020
+automatisch zu machen.
+
+00:51:39.300 --> 00:51:40.340
+Genau, also Aktoren sind
+
+00:51:40.740 --> 00:51:42.220
+bei Actics sind Aktoren einfach
+
+00:51:42.440 --> 00:51:42.640
+bloß
+
+00:51:44.360 --> 00:51:46.280
+ein bestimmtes Modell gewesen, um
+
+00:51:47.580 --> 00:51:48.020
+Multithreading
+
+00:51:48.400 --> 00:51:50.460
+und um dieses Konzept von Multithreading und
+
+00:51:50.460 --> 00:51:52.920
+mal in ein gewisses Schema zu zwingen,
+
+00:51:52.970 --> 00:51:53.820
+um sagen zu können,
+
+00:51:54.779 --> 00:51:56.920
+du musst dir jetzt nicht jedes Mal drüber nachdenken,
+
+00:51:57.320 --> 00:51:58.520
+du startest ein Thread und dann
+
+00:51:59.519 --> 00:52:00.520
+beendest du den Thread wieder
+
+00:52:00.630 --> 00:52:02.720
+und du musst irgendwie, das sind Sachen, die du immer wieder machst.
+
+00:52:03.740 --> 00:52:04.720
+Ein Thread starten
+
+00:52:05.100 --> 00:52:06.480
+oder dann in so einer Asynchron-Time
+
+00:52:06.600 --> 00:52:08.300
+eine Task starten und da irgendeine Art
+
+00:52:08.570 --> 00:52:10.720
+Channel-Receiver und Sender verteilen
+
+00:52:10.860 --> 00:52:12.240
+und so was. Und immer,
+
+00:52:12.620 --> 00:52:14.420
+bei bestimmten Anwendungen hast du immer eine Task
+
+00:52:14.510 --> 00:52:16.200
+oder ein Thread mit einem Endlos-Loop, der läuft
+
+00:52:16.230 --> 00:52:18.240
+und irgendwann mit einer Abbruchbedingung
+
+00:52:18.310 --> 00:52:20.440
+dann aus dem Loop rausspringt. Das sind so Sachen, die machst du
+
+00:52:20.460 --> 00:52:20.800
+immer wieder.
+
+00:52:22.880 --> 00:52:24.400
+Und das kannst du dementsprechend
+
+00:52:24.400 --> 00:52:25.580
+ganz gut mit dem Actor erschlagen.
+
+00:52:27.140 --> 00:52:27.960
+Hört mich sehr an dieses
+
+00:52:28.360 --> 00:52:30.820
+klassische Game-Dev-Ding.
+
+00:52:31.440 --> 00:52:32.620
+Du siehst mal hier die Game-Loop
+
+00:52:32.820 --> 00:52:34.420
+hoch und die läuft immer und die macht
+
+00:52:34.460 --> 00:52:36.420
+dir eine, da packst du die
+
+00:52:36.520 --> 00:52:38.340
+gesamte Logik rein irgendwie und das wird
+
+00:52:38.400 --> 00:52:40.160
+immer und immer und immer und immer wieder
+
+00:52:40.360 --> 00:52:41.980
+ausgeführt, bis dein Spiel immer vorbei ist.
+
+00:52:42.480 --> 00:52:43.820
+Genau, so in etwa.
+
+00:52:44.620 --> 00:52:46.120
+Und dann erzählt dir jemand was von
+
+00:52:46.260 --> 00:52:48.200
+Entity-Component-Systemen, was nochmal eine ganz andere
+
+00:52:48.220 --> 00:52:49.060
+Das war cool.
+
+00:52:51.200 --> 00:52:53.120
+Das war leider nicht so der erfolgreichste Game Jam,
+
+00:52:53.160 --> 00:52:54.640
+aber es erinnert mich an einen coolen Game Jam,
+
+00:52:55.160 --> 00:52:56.800
+den ich mit Freunden gemacht habe, wo wir so ein
+
+00:52:57.300 --> 00:52:57.980
+Top-Down-Space,
+
+00:52:59.360 --> 00:53:00.540
+nicht unbedingt Shooter, aber
+
+00:53:01.740 --> 00:53:03.760
+oder auch von Station zu Station fliegen,
+
+00:53:03.880 --> 00:53:05.740
+kannst Handel betreiben und gegen Piraten kämpfen
+
+00:53:05.860 --> 00:53:07.140
+und so weiter. Das war die Idee dahinter.
+
+00:53:07.720 --> 00:53:09.600
+Aber letztendlich war es ein, wir setzten uns
+
+00:53:09.740 --> 00:53:10.980
+erstmal zwei Tage damit auseinander,
+
+00:53:11.320 --> 00:53:12.820
+wie wir eigentlich so ein ECS- und
+
+00:53:12.820 --> 00:53:14.760
+ein NCD-Component-System hochziehen und
+
+00:53:14.760 --> 00:53:15.400
+wie strukturieren wir das.
+
+00:53:17.560 --> 00:53:19.700
+Ich möchte die Person nicht namentlich nennen,
+
+00:53:19.700 --> 00:53:21.540
+die da mitgemacht hat, aber Person
+
+00:53:23.440 --> 00:53:23.860
+P
+
+00:53:24.220 --> 00:53:25.060
+wollte unbedingt
+
+00:53:26.360 --> 00:53:27.240
+nicht, also
+
+00:53:27.920 --> 00:53:29.860
+alle Frameworks, die wir gefunden haben, die sowas schon
+
+00:53:30.200 --> 00:53:31.920
+gerappt haben, waren nicht gut genug.
+
+00:53:32.400 --> 00:53:34.100
+Lass uns mal die Component-Systeme
+
+00:53:34.100 --> 00:53:35.640
+so ein bisschen hinten anstellen. Das ist tatsächlich
+
+00:53:35.760 --> 00:53:37.300
+in meiner Geschichte auch noch so ein bisschen vorkommt.
+
+00:53:37.700 --> 00:53:39.240
+Ich habe tatsächlich was sehr ähnliches, aber gerade
+
+00:53:40.900 --> 00:53:41.700
+vorgestern auf Arbeit
+
+00:53:42.070 --> 00:53:42.880
+nicht gebaut, aber
+
+00:53:44.040 --> 00:53:45.580
+gemerkt habe, dass ich bestimmte Features,
+
+00:53:45.780 --> 00:53:47.540
+also da war explizit drum, ist ja kein Geheimnis,
+
+00:53:48.660 --> 00:53:50.060
+solche Message Views zu bauen
+
+00:53:50.460 --> 00:53:51.540
+für unseren Matrix Client.
+
+00:53:51.980 --> 00:53:53.580
+Die Views für die einzelnen Events
+
+00:53:54.940 --> 00:53:56.060
+und sowas wie
+
+00:53:56.420 --> 00:53:57.940
+Reactions drunter hast du ja bei
+
+00:53:58.260 --> 00:53:59.820
+diversen Event Types. Hast du ja bei
+
+00:53:59.920 --> 00:54:01.140
+Textnachrichten, bei Bildern und so weiter.
+
+00:54:01.760 --> 00:54:04.300
+Oder die Möglichkeit, dass du solche Red Marker
+
+00:54:04.560 --> 00:54:06.060
+mit anzeigen kannst, hast du ja auch nicht nur bei
+
+00:54:06.140 --> 00:54:08.120
+einer Sache. Und Matrix macht
+
+00:54:08.120 --> 00:54:09.440
+die halt ein bisschen anders, beziehungsweise
+
+00:54:09.720 --> 00:54:11.800
+wie Matrix, das ist ja... Du kannst eigentlich tatsächlich
+
+00:54:12.580 --> 00:54:13.859
+lokal, wenn du so eine
+
+00:54:13.820 --> 00:54:15.880
+Chat-Anwendungen mit vielen Channels oder Räumen
+
+00:54:16.080 --> 00:54:17.040
+hast, sowas wie
+
+00:54:18.560 --> 00:54:19.860
+Element oder Slack,
+
+00:54:20.320 --> 00:54:21.620
+da könnte man sich auch jeden
+
+00:54:22.040 --> 00:54:23.720
+Raum als Aktor bauen.
+
+00:54:24.140 --> 00:54:26.020
+Der ab und zu mal
+
+00:54:26.260 --> 00:54:28.060
+seinen State mit dem Server synchronisiert.
+
+00:54:28.240 --> 00:54:29.880
+Da hatte tatsächlich ehemaliger
+
+00:54:30.000 --> 00:54:32.080
+Gast Finn mit angefangen, das in Neo schon einzubauen.
+
+00:54:32.600 --> 00:54:34.060
+Genau das auf Actors
+
+00:54:34.180 --> 00:54:35.900
+basierend. Also Aktoren sind
+
+00:54:35.900 --> 00:54:36.640
+ein schönes Konzept.
+
+00:54:37.830 --> 00:54:38.180
+Hi Finn.
+
+00:54:39.500 --> 00:54:41.960
+Hallo. Kannst gerne wieder vorbeikommen.
+
+00:54:43.500 --> 00:54:46.800
+Und in meiner Geschichte habe ich jetzt also mit Actix rumgespielt.
+
+00:54:47.710 --> 00:54:50.760
+Und Actix ist ja dieses eine Webframework,
+
+00:54:51.760 --> 00:54:55.700
+wo es vor ein, zwei Jahren diesen Fallout von dem Hauptentwickler gab.
+
+00:54:56.480 --> 00:54:58.200
+Das haben mehr und mehr Leute benutzt,
+
+00:54:59.150 --> 00:55:01.500
+weil es eines der schnellsten Webframeworks war.
+
+00:55:02.160 --> 00:55:07.220
+Und der Entwickler hat das, also das ist auch so ein massives Projekt,
+
+00:55:07.290 --> 00:55:08.580
+was eine Person alleine gebaut hat.
+
+00:55:08.580 --> 00:55:10.420
+Das ist so eine Riesenleistung eigentlich gewesen.
+
+00:55:10.820 --> 00:55:12.920
+Und der hat wirklich hauptsächlich Wert auf Geschwindigkeit gelegt
+
+00:55:13.240 --> 00:55:14.960
+und hat auch ein paar Shortcuts
+
+00:55:15.060 --> 00:55:16.660
+im Code gemacht und da war ein bisschen was
+
+00:55:16.800 --> 00:55:18.840
+Unsafe dabei und die Leute haben ihn dann immer mal auf
+
+00:55:19.859 --> 00:55:20.180
+auf
+
+00:55:21.700 --> 00:55:22.880
+haben ihn dann immer mal auf GitHub
+
+00:55:23.040 --> 00:55:24.940
+drauf hingewiesen und ein paar Mal wurde es
+
+00:55:25.020 --> 00:55:26.900
+gefixt und irgendwann hat er gesagt, nee, warum müssen wir das
+
+00:55:26.940 --> 00:55:28.880
+jetzt machen? Also ganz ehrlich, das muss nicht
+
+00:55:29.000 --> 00:55:30.500
+safe sein und sowas. Und
+
+00:55:31.000 --> 00:55:32.800
+dann ist das so ein bisschen eskaliert und
+
+00:55:32.880 --> 00:55:34.800
+die Leute haben nicht gut drauf
+
+00:55:34.900 --> 00:55:36.820
+reagiert und er hat nicht gut reagiert
+
+00:55:37.320 --> 00:55:38.860
+und irgendwann hat er gesagt, fuck you all,
+
+00:55:39.040 --> 00:55:40.080
+ich schmeiß es jetzt hin.
+
+00:55:40.920 --> 00:55:42.900
+Und dann hat er tatsächlich mal für zwei Tage das Repo
+
+00:55:43.579 --> 00:55:44.480
+privat gemacht gehabt,
+
+00:55:45.360 --> 00:55:46.880
+bis dann Leute gesagt haben, nee, warte mal, da
+
+00:55:47.020 --> 00:55:48.880
+dependen jetzt schon Leute drauf, mach das mal bitte
+
+00:55:48.980 --> 00:55:50.260
+nicht. Und dann hat er
+
+00:55:51.359 --> 00:55:52.880
+das wieder freigestellt, hat
+
+00:55:53.000 --> 00:55:54.860
+irgendjemand anders zum Maintainer gemacht und gesagt, ich schmeiß
+
+00:55:54.920 --> 00:55:55.480
+Open Source jetzt hin.
+
+00:55:56.800 --> 00:55:58.820
+Kann man der Person nicht verübeln?
+
+00:55:58.920 --> 00:56:00.700
+Das ist teilweise sehr anstrengend.
+
+00:56:00.820 --> 00:56:02.840
+Das war sehr traurig, vor allem wenn du dann so ein Projekt hast,
+
+00:56:02.880 --> 00:56:04.880
+wo du viel Hoffnung reinsetzt, wenn du dann
+
+00:56:05.000 --> 00:56:06.020
+plötzlich merkst, oh, jetzt ist es vorbei.
+
+00:56:06.700 --> 00:56:08.600
+Actix wird noch weiterentwickelt, aber nicht mit der
+
+00:56:08.740 --> 00:56:10.700
+Velocity, die es mal hatte. Einfach nur
+
+00:56:10.800 --> 00:56:12.700
+wegen diesem Drama, was der existiert hat? Genau.
+
+00:56:13.300 --> 00:56:29.760
+Es ist aber auch echt, es ist eine schwierige Situation, wenn vor allem es auf den Schultern einer Person lastet, diese Verantwortung, wenn du dadurch, du fängst so ein Projekt ja selten an, weil du Bock drauf hast, dich mit anderen Leuten online über deine Projektentscheidung herumzuschlagen, sondern du fängst es ja an, weil du Bock auf das Thema hast.
+
+00:56:30.440 --> 00:56:52.920
+Und selten hat man im Kopf, dass man das ja auch nicht nur jetzt baut, sondern dass man das ja auch maintainen muss. Und dass der Maintenance Effort halt vor allem darin liegt, dass Leute sich bei dir melden mit Problemen und aber nicht mit Fixes, sondern mit Problemen. Und das ist halt dann, die erwarten, dass es dein Job ist und wenn die halt nicht mehr freundlich daherkommen, sondern ein bisschen demanding sind, dann eckt das natürlich an.
+
+00:56:53.260 --> 00:57:09.660
+Also gerade bei solchen Projekten, die du auf GitHub maintainst und Leute wollen da was von oder benutzen das und haben plötzlich Wünsche oder Probleme damit, das größte Problem ist, glaube ich, meistens die Kommunikation zwischen Maintainer und Antragsteller bei ProRequests.
+
+00:57:10.900 --> 00:57:11.980
+den Leuten zu verklickern.
+
+00:57:12.440 --> 00:57:14.120
+Selbst wenn du einen Unsolicited
+
+00:57:14.300 --> 00:57:16.140
+Request aufmachst, der einfach was verbessert,
+
+00:57:16.700 --> 00:57:18.120
+hatten wir natürlich auf Arbeit einen Kollegen, der
+
+00:57:18.180 --> 00:57:20.160
+dann Probleme hatte, dem Maintainer von einem
+
+00:57:20.240 --> 00:57:21.360
+Projekt zu verklickern, warum
+
+00:57:22.920 --> 00:57:24.160
+diese kleine Änderung,
+
+00:57:24.160 --> 00:57:26.160
+die sie eigentlich machen wollten, warum das sinnvoll
+
+00:57:26.240 --> 00:57:28.040
+ist. Also das ist wirklich ein menschliches Problem,
+
+00:57:28.700 --> 00:57:29.300
+das auftritt.
+
+00:57:29.720 --> 00:57:30.860
+Das ist ja absolut der Fall.
+
+00:57:32.380 --> 00:57:33.900
+Kommunikation ist ja immer so die Krux
+
+00:57:34.080 --> 00:57:35.940
+zwischen uns Menschen. Fand ich letztens auch schön
+
+00:57:36.040 --> 00:57:37.860
+diesen, da habe ich mit meinem Nachbarn
+
+00:57:37.960 --> 00:57:39.900
+drüber gequatscht, vor gestern Abend
+
+00:57:39.920 --> 00:57:41.480
+tatsächlich erst. Der ist
+
+00:57:42.640 --> 00:57:43.600
+Elektrotechniker und
+
+00:57:43.900 --> 00:57:44.620
+ist an der TU,
+
+00:57:45.540 --> 00:57:46.500
+macht da Forschung, was,
+
+00:57:47.140 --> 00:57:48.840
+er hat so schön betitelt, Post-Channon,
+
+00:57:50.240 --> 00:57:51.740
+das ist so sein Forschungsfeld.
+
+00:57:51.740 --> 00:57:53.580
+So nach Channon-Codings oder was?
+
+00:57:53.740 --> 00:57:55.600
+Genau, also die Welt nach Channon quasi.
+
+00:57:56.120 --> 00:57:57.640
+Wie macht man die Enkodierung
+
+00:57:57.800 --> 00:57:59.560
+der Zukunft, also Daten auf unterster
+
+00:57:59.740 --> 00:58:01.600
+Ebene. Und das
+
+00:58:01.680 --> 00:58:03.500
+klang super spannend alles und wir
+
+00:58:03.500 --> 00:58:05.460
+hatten dann irgendwann auch dieses, so schön
+
+00:58:05.540 --> 00:58:07.020
+auf menschlicher Ebene das hochgezogen,
+
+00:58:07.560 --> 00:58:09.880
+dass du ja auch quasi Codierungsfehler
+
+00:58:09.900 --> 00:58:11.860
+hast und damit musst du umgehen, das ist
+
+00:58:12.040 --> 00:58:13.780
+irgendwo so ein Feature, was so oder so
+
+00:58:13.980 --> 00:58:15.780
+existiert und dass wir auch als Mensch
+
+00:58:15.980 --> 00:58:17.780
+irgendwie, ich kann dir ja nicht die Gedanken, die ich habe,
+
+00:58:18.040 --> 00:58:19.700
+direkt zu dir mindmeldmäßig
+
+00:58:19.900 --> 00:58:21.700
+rüberschieben, sondern ich kodiere die ja
+
+00:58:21.700 --> 00:58:23.720
+in Sprache, in diesen ineffizienten Kanal,
+
+00:58:24.040 --> 00:58:26.020
+dem du quasi, dem du zuhörst
+
+00:58:26.020 --> 00:58:27.220
+und das wieder dekodierst in Gedanken
+
+00:58:27.690 --> 00:58:29.940
+oder meine Sprache quasi deserialisierst
+
+00:58:30.460 --> 00:58:31.860
+und hoffentlich bei demselben
+
+00:58:32.140 --> 00:58:33.860
+Gedanken am Ende ankommt. Das Problem ist
+
+00:58:33.860 --> 00:58:36.320
+nur, dass wir halt sehr kontextabhängig
+
+00:58:36.480 --> 00:58:36.600
+sprechen.
+
+00:58:38.480 --> 00:58:39.360
+Meistens sagst du einfach,
+
+00:58:39.840 --> 00:58:41.440
+das ist so und das muss so
+
+00:58:42.040 --> 00:58:43.440
+und bei der, weil die andere
+
+00:58:43.700 --> 00:58:45.440
+das sind Aufrufe
+
+00:58:45.840 --> 00:58:47.220
+quasi den Zustand von
+
+00:58:47.560 --> 00:58:48.560
+Informationen in deinem Kopf ändern
+
+00:58:49.540 --> 00:58:50.380
+machen wir das
+
+00:58:51.740 --> 00:58:53.180
+und die andere Person hat
+
+00:58:53.540 --> 00:58:55.020
+dann in ihrem Kopf einen anderen Zustand als du
+
+00:58:55.840 --> 00:58:57.860
+und deswegen ist die beste Kommunikation
+
+00:58:57.860 --> 00:58:58.480
+an solchen Stellen
+
+00:58:59.540 --> 00:59:01.600
+ich glaube das ist auch was, was man unter der Überschrift
+
+00:59:01.720 --> 00:59:03.440
+gewaltfreie Kommunikation auch mit
+
+00:59:03.640 --> 00:59:05.460
+kommuniziert, erstmal der anderen Person
+
+00:59:05.820 --> 00:59:07.560
+helfen, den Zustand in deinem
+
+00:59:07.680 --> 00:59:09.460
+Kopf zu verstehen und zu verstehen
+
+00:59:09.820 --> 00:59:11.740
+wo du herkommst, was deine Motivation ist,
+
+00:59:11.830 --> 00:59:12.660
+wie deine,
+
+00:59:13.680 --> 00:59:15.200
+wenn es jetzt nicht um Pull-Requests geht, wie deine
+
+00:59:15.380 --> 00:59:17.320
+Gefühlslage vielleicht ist und warum du etwas
+
+00:59:17.650 --> 00:59:18.860
+auf eine gewisse Art und Weise empfindest,
+
+00:59:19.500 --> 00:59:21.380
+dann dein Intent und
+
+00:59:21.580 --> 00:59:23.480
+dann verstehen die Leute auch diesen Intent viel besser.
+
+00:59:24.099 --> 00:59:25.380
+Wichtig dabei ist halt, dass
+
+00:59:25.460 --> 00:59:27.400
+du eine gewisse Menge an
+
+00:59:27.500 --> 00:59:29.460
+Empathie mitbringst, damit du halt überhaupt verstehst, was andere
+
+00:59:29.640 --> 00:59:31.500
+Menschen, wie sie das verstehen
+
+00:59:31.640 --> 00:59:33.500
+könnten, also auf wie viel Kontext
+
+00:59:33.500 --> 00:59:35.400
+du reinpacken musst, damit du andere Menschen
+
+00:59:35.540 --> 00:59:36.960
+abholen kannst, weil du ja nicht weißt,
+
+00:59:37.579 --> 00:59:38.760
+wie viel da notwendig ist.
+
+00:59:39.300 --> 00:59:59.560
+Das klingt jetzt alles sehr abstrakt, aber das ist das, was bei guter zwischenmenschlicher Kommunikation, worauf es ankommt, dass wir uns gegenseitig gut verstehen und uns abholen und unsere Gedanken richtig rüberbringen. Sicherlich ist der Hauptpunkt für 99 Prozent der Streite und Konflikte da draußen einfach nur wenig Kommunikation.
+
+00:59:59.580 --> 01:00:01.740
+Die Leute sind irgendwann frustriert,
+
+01:00:02.040 --> 01:00:03.700
+weil du meinen Standpunkt einfach nicht verstehst.
+
+01:00:03.780 --> 01:00:05.620
+Weil du einfach nicht verstehst, warum ich das
+
+01:00:05.960 --> 01:00:06.340
+so sehe.
+
+01:00:07.960 --> 01:00:09.720
+Und dann bin ich frustriert und schrei dich an
+
+01:00:09.880 --> 01:00:10.780
+und halte dich für blöd.
+
+01:00:12.420 --> 01:00:13.540
+Und du denkst auch, ich bin blöd.
+
+01:00:13.780 --> 01:00:15.720
+Obwohl wir einfach bloß von unterschiedlichen
+
+01:00:16.619 --> 01:00:17.420
+Grundbedingungen ausgegangen sind.
+
+01:00:17.420 --> 01:00:19.400
+Und am Ende voneinander vorbeigeredet haben, weil es einfach nur
+
+01:00:19.480 --> 01:00:21.700
+daran gescheitert ist, dass wir unsere Gedanken nicht ordentlich die Grundbedingungen haben.
+
+01:00:21.700 --> 01:00:23.640
+Ich hatte neulich einen Pull-Request auf einer
+
+01:00:23.820 --> 01:00:25.520
+kleinen Library von mir, wo einer tonnenweise
+
+01:00:25.660 --> 01:00:27.260
+Sachen geändert hat, die ich überhaupt nicht verstanden habe.
+
+01:00:27.680 --> 01:00:28.480
+Anstatt ihm zu sagen,
+
+01:00:29.620 --> 01:00:31.320
+du, das machen wir jetzt nicht, das finde ich ja das scheiße.
+
+01:00:31.420 --> 01:00:33.140
+Da habe ich halt irgendwie auch versucht zu erklären,
+
+01:00:33.940 --> 01:00:35.080
+wo ich herkomme. Ich habe tatsächlich
+
+01:00:35.460 --> 01:00:37.240
+einen Kommentar unter seinen Pull Request geschrieben.
+
+01:00:37.960 --> 01:00:39.440
+Maybe I start with where I'm
+
+01:00:39.540 --> 01:00:39.960
+coming from.
+
+01:00:42.720 --> 01:00:43.480
+Ich würde es gerne ein bisschen
+
+01:00:43.720 --> 01:00:45.180
+zurück zu dem technischen Thema führen.
+
+01:00:46.440 --> 01:00:47.120
+Ich habe es vorhin, weil ich gerade
+
+01:00:47.620 --> 01:00:49.380
+noch daran gedacht hatte. Ich habe hier so eine
+
+01:00:49.620 --> 01:00:51.420
+winzig kleine Library aufgetabt, die heißt
+
+01:00:51.680 --> 01:00:52.780
+Circular Checkmark Progress.
+
+01:00:53.140 --> 01:00:53.640
+Das sieht hübsch aus.
+
+01:00:55.180 --> 01:00:57.320
+Es gibt in SwiftUI so ein Progress View
+
+01:00:58.000 --> 01:00:59.660
+und der ist relativ generisch,
+
+01:00:59.760 --> 01:01:01.380
+der kann dir irgendwie Progress visualisieren.
+
+01:01:01.520 --> 01:01:03.700
+Der kann im Default State einfach so ein Spinner sein,
+
+01:01:03.760 --> 01:01:05.620
+wie wir ihn von diversen Betriebssystemen
+
+01:01:05.720 --> 01:01:07.440
+mittlerweile kennen. Der kann aber auch ein Balken sein,
+
+01:01:07.520 --> 01:01:09.540
+der voll läuft. Da gibt es andere Styles, die du in SwiftUI
+
+01:01:09.700 --> 01:01:11.640
+draufpacken kannst. Und ich habe eben einen implementiert,
+
+01:01:11.640 --> 01:01:13.400
+der eben dieser Circular Checkmate Progress View Style
+
+01:01:13.680 --> 01:01:15.500
+heißt. Den kannst du einfach dran packen und dann sieht es
+
+01:01:15.660 --> 01:01:17.340
+automatisch so aus wie so ein Kreis, der voll läuft,
+
+01:01:17.620 --> 01:01:19.260
+wahlweise mit einer Animation am Ende noch so einen
+
+01:01:19.420 --> 01:01:20.760
+Taken reinsetzt oder eine Zahl mit anzeigt.
+
+01:01:21.460 --> 01:01:23.220
+Das ist das alles. Und irgendwer hat letztens
+
+01:01:23.220 --> 01:01:25.260
+ein Issue aufgemacht und gemeint,
+
+01:01:25.720 --> 01:01:28.160
+das geht nicht. Das hier ist der Fehler,
+
+01:01:28.160 --> 01:01:29.640
+den ich bekomme, wenn ich das einbinden möchte.
+
+01:01:30.220 --> 01:01:33.900
+Und weil Apple halt Dinge nicht
+
+01:01:34.140 --> 01:01:36.120
+Backwards-Compatible in Xcode einfach gemacht hat.
+
+01:01:36.220 --> 01:01:37.000
+Also danke Apple.
+
+01:01:37.720 --> 01:01:39.760
+Und hab das dann halt gefixt, gepusht.
+
+01:01:40.660 --> 01:01:42.440
+Und er so, oh, das ist ja mega geil.
+
+01:01:43.060 --> 01:01:44.220
+Und weil ich halt irgendwann mal
+
+01:01:44.340 --> 01:01:45.460
+auf GitHub hinzugefügt hab,
+
+01:01:45.560 --> 01:01:47.820
+solche Sponsor-Buttons, Features,
+
+01:01:48.180 --> 01:01:50.160
+hat er mir einfach 25 Euro geschickt
+
+01:01:50.400 --> 01:01:51.480
+als Dankeschön. Das fand ich so,
+
+01:01:52.300 --> 01:01:54.420
+okay, ich mein, das ist nett.
+
+01:01:55.320 --> 01:01:57.540
+Das war unerwartet. Das erste Mal, dass ich sowas erlebt habe.
+
+01:01:58.420 --> 01:01:59.120
+Der war happy, weil
+
+01:01:59.580 --> 01:02:01.100
+anscheinend hat ihm das Arbeit abgenommen.
+
+01:02:01.320 --> 01:02:02.120
+Das fand ich sehr gut.
+
+01:02:02.120 --> 01:02:04.620
+Du verdienst mit Open-Source-Geld.
+
+01:02:05.940 --> 01:02:06.220
+Genau.
+
+01:02:07.540 --> 01:02:07.860
+Einmalig.
+
+01:02:08.680 --> 01:02:10.260
+Aber fand ich krass. Ich habe noch nicht gesehen,
+
+01:02:10.320 --> 01:02:11.800
+vorher sowas mitbekommen, dass Leute halt sowas machen.
+
+01:02:12.599 --> 01:02:14.440
+Nicht, dass man sowas machen sollte oder müsste.
+
+01:02:15.040 --> 01:02:16.340
+Aber das fand ich einfach in dem Moment sehr nett.
+
+01:02:16.920 --> 01:02:18.620
+Wir haben einfach sehr unkompliziert miteinander gequatscht.
+
+01:02:18.620 --> 01:02:19.580
+Der hat ja dieses Issue aufgemacht.
+
+01:02:19.920 --> 01:02:21.500
+Oh, ja stimmt, das liegt daran, hab's gefixt.
+
+01:02:22.020 --> 01:02:22.780
+Das ist super toll, danke.
+
+01:02:23.180 --> 01:02:38.320
+Ich könnte mir vorstellen, häufig ist es ja wirklich auch eine Firma, die was von deinem Projekt will, was in ihrem kommerziellen Produkt einsetzen möchte. Und dann werden da irgendwelche Leute, die das in ihrer Freizeit machen, genervt, irgendwelche Updates reinzuziehen.
+
+01:02:39.320 --> 01:02:41.280
+Da wäre es eigentlich ganz sinnvoll, wenn du irgendwie sagen könntest,
+
+01:02:41.280 --> 01:02:42.960
+du, wir machen das hier eh viel Geld. Also ich
+
+01:02:43.360 --> 01:02:44.880
+stelle Pull-Requests an jemand Privaten
+
+01:02:45.380 --> 01:02:46.780
+während meiner Arbeitszeit und der
+
+01:02:47.160 --> 01:02:48.380
+beantwortet das in seiner Freizeit.
+
+01:02:50.000 --> 01:02:51.400
+Wäre es eigentlich cool, wenn man da sagen könnte,
+
+01:02:51.600 --> 01:02:53.460
+hier Firma, wir haben
+
+01:02:53.680 --> 01:02:55.220
+diese Code-Contribution, kannst du vielleicht an dein
+
+01:02:55.320 --> 01:02:57.060
+Ticket dran kleben, sponsert dem doch mal
+
+01:02:57.080 --> 01:02:59.160
+eine Stunde Arbeitszeit oder sowas. Das wäre
+
+01:02:59.200 --> 01:03:00.320
+eigentlich ganz cool als Konzept.
+
+01:03:00.620 --> 01:03:03.060
+Es gibt ja noch dieses, hier ist das Bounty-Source, glaube ich,
+
+01:03:03.160 --> 01:03:05.080
+diese Webseite, die explizit dafür da ist,
+
+01:03:05.160 --> 01:03:07.140
+dass du gewisse GitHub-Issues
+
+01:03:07.360 --> 01:03:09.280
+sponsern kannst. Ich weiß nicht, ob das GitHub-spezifisch ist
+
+01:03:09.300 --> 01:03:11.940
+oder auch andere Plattformen, aber ich sehe es zumindest dort immer wieder.
+
+01:03:12.900 --> 01:03:17.620
+Und letztens irgendwo gesehen, es gibt etliche Issues in den Element oder Matrix-Repos,
+
+01:03:17.660 --> 01:03:19.300
+die ich mit subscribed bin.
+
+01:03:19.980 --> 01:03:25.340
+Und ich glaube, das war das Multi-Account-Support-Issue für Element-Desktop,
+
+01:03:26.240 --> 01:03:28.820
+wo irgendwer mal angefangen hat, das Issue ist jetzt irgendwie vier Jahre offen,
+
+01:03:29.220 --> 01:03:30.340
+ich werfe einfach mal Geld drauf.
+
+01:03:30.560 --> 01:03:31.020
+Wer ist mit dabei?
+
+01:03:31.200 --> 01:03:33.760
+Und das ist so ein Issue, wo halt wirklich jeden Monat irgendwie kommt immer jemand her,
+
+01:03:33.920 --> 01:03:34.740
+wann kommt denn endlich das Feature?
+
+01:03:34.920 --> 01:03:35.700
+Wann kommt denn endlich das Feature?
+
+01:03:36.340 --> 01:03:38.360
+Und dann haben Leute aber sich in dem Issue zusammengebündet
+
+01:03:38.380 --> 01:03:40.500
+und dann plötzlich angefangen, versuchst sich zu übertrumpfen,
+
+01:03:40.600 --> 01:03:42.180
+wer mehr Geld draufwerfen kann. Die sind da irgendwie
+
+01:03:42.340 --> 01:03:44.060
+1000 Euro, die an diesem Mischio hängen.
+
+01:03:45.219 --> 01:03:46.040
+Das fand ich
+
+01:03:46.500 --> 01:03:47.340
+sehr unerwartet.
+
+01:03:48.460 --> 01:03:50.460
+Und die hat aber noch keiner abgeholt.
+
+01:03:50.550 --> 01:03:51.420
+Die hat niemand abgeholt.
+
+01:03:52.060 --> 01:03:54.000
+Ich betweifle auch, dass das Element das machen wird, weil
+
+01:03:54.100 --> 01:03:56.020
+1000 Euro sind für Geld, vor allem wenn jemand
+
+01:03:56.200 --> 01:03:58.040
+das privat machen würde. Aber wenn
+
+01:03:58.260 --> 01:04:00.060
+eine Firma das damit reinpatcht,
+
+01:04:00.690 --> 01:04:02.100
+dann wäre das wieder so ein rechtliches
+
+01:04:02.190 --> 01:04:04.060
+Ding, wahrscheinlich was weirdes und komisch
+
+01:04:04.070 --> 01:04:06.140
+und dann fällt das weg.
+
+01:04:06.320 --> 01:04:07.800
+Aber man sieht zumindest, dass Leute sich das sehr wünschen.
+
+01:04:08.240 --> 01:04:10.680
+Das ist dann wieder so ein anderes Problem,
+
+01:04:10.840 --> 01:04:12.680
+was ich gleich noch mit ansprechen würde.
+
+01:04:12.740 --> 01:04:14.840
+Also ich würde es gerne noch mal zu Actics
+
+01:04:15.200 --> 01:04:15.520
+zurückführen.
+
+01:04:16.800 --> 01:04:17.860
+Ich hatte letzte Woche die,
+
+01:04:18.480 --> 01:04:19.680
+oder ich hatte vor ein, zwei, drei Wochen
+
+01:04:20.200 --> 01:04:21.400
+so einen Hackathon auf Arbeit.
+
+01:04:22.040 --> 01:04:24.080
+So drei, vier Tage, wo du machen kannst.
+
+01:04:24.300 --> 01:04:24.640
+Sehr cool.
+
+01:04:24.820 --> 01:04:25.540
+Was du willst.
+
+01:04:27.380 --> 01:04:28.800
+Und ich hatte gedacht, naja, ich möchte
+
+01:04:29.220 --> 01:04:31.080
+irgendwie so grassroots-mäßig bei mir in der Firma
+
+01:04:31.220 --> 01:04:32.180
+den Leuten Rust beibringen.
+
+01:04:32.780 --> 01:04:34.340
+Da habe ich einen Hackathon gemacht, wo wir einfach
+
+01:04:34.500 --> 01:04:36.240
+diesen Chat-Server, den ich gerade so
+
+01:04:36.260 --> 01:04:38.480
+in der Luft beschrieben habe, mit Räumen
+
+01:04:38.660 --> 01:04:40.420
+und WebSocket Connections auf
+
+01:04:40.660 --> 01:04:42.240
+Aktoren basiert, wo ich das einfach mal
+
+01:04:42.400 --> 01:04:44.060
+nochmal baue, bloß mit Kollegen zusammen,
+
+01:04:45.020 --> 01:04:46.400
+um auch Leuten die Möglichkeit
+
+01:04:46.420 --> 01:04:48.340
+zu geben, einfach mal zur Arbeitszeit
+
+01:04:48.340 --> 01:04:49.120
+ein bisschen Rust zu schreiben.
+
+01:04:50.540 --> 01:04:52.460
+Und da haben wir Actix genommen. Und das Problem
+
+01:04:52.520 --> 01:04:53.520
+bei Actix ist allerdings,
+
+01:04:54.240 --> 01:04:54.960
+Actix ist
+
+01:04:55.640 --> 01:04:56.500
+Actix ist
+
+01:04:57.280 --> 01:04:58.860
+Aktorensystem Predated Async Await.
+
+01:04:59.860 --> 01:05:01.080
+Das heißt, du kannst
+
+01:05:01.320 --> 01:05:03.040
+Aktoren, du kannst
+
+01:05:03.160 --> 01:05:04.940
+Synchronnachrichten schicken, das möchtest du aber nicht unbedingt,
+
+01:05:05.160 --> 01:05:11.540
+Also Synchron-Nachrichten-Schicken heißt, ich schreibe das in die Mailbox rein und dann hat es der andere noch nicht abgeholt, sondern der arbeitet irgendwann damit um.
+
+01:05:11.540 --> 01:05:12.480
+Das ist eine Worker-Queue.
+
+01:05:12.700 --> 01:05:13.440
+Das ist eine Worker-Queue.
+
+01:05:14.440 --> 01:05:22.700
+Und du kannst aber auch Asynchron-Nachrichten schicken, dann musst du allerdings aus deinem Sendevorgang mit 10 Zeilen Continuation-Code, den du dann schreiben musst,
+
+01:05:22.780 --> 01:05:31.380
+mit ich forme das in eine Actor-Future um und dann muss ich die Antwort vielleicht abwarten und dann rufe ich auf meinem Kontext-Spawn mit diesem Ding auf,
+
+01:05:31.640 --> 01:05:32.720
+anstatt dass ich einfach Await sage.
+
+01:05:33.280 --> 01:05:33.800
+Nicht so optimal.
+
+01:05:34.080 --> 01:05:35.960
+das ist nicht so optimal und wenn du
+
+01:05:36.140 --> 01:05:37.980
+jetzt, ich hab dann irgendwie zwei Leute, die super Bock
+
+01:05:38.090 --> 01:05:39.620
+hatten, ich hab gesagt, dann baut doch mal noch einen
+
+01:05:39.840 --> 01:05:41.600
+Aktor, der in diesem Chatraum
+
+01:05:42.140 --> 01:05:43.560
+als Bot joint
+
+01:05:44.020 --> 01:05:45.900
+und irgendwie Nachrichten an den Raum schickt
+
+01:05:46.440 --> 01:05:47.340
+und der irgendwie
+
+01:05:48.260 --> 01:05:50.060
+Nachrichten auch von dem Raum bekommt
+
+01:05:50.240 --> 01:05:51.900
+und Anfragen entgegennehmen kann und dann
+
+01:05:52.140 --> 01:05:53.540
+irgendwie irgendwas antwortet oder sowas.
+
+01:05:54.000 --> 01:05:55.880
+Und die Leute sind leider daran gescheitert,
+
+01:05:56.660 --> 01:05:58.020
+weil sie gerne eine Async
+
+01:05:58.220 --> 01:05:59.920
+Library zum, äh, nehmen
+
+01:06:00.080 --> 01:06:01.440
+wollten, um irgendwas,
+
+01:06:02.160 --> 01:06:03.240
+und irgendeinen Service abzufragen,
+
+01:06:03.340 --> 01:06:05.720
+Wetterservice oder irgendwie
+
+01:06:06.300 --> 01:06:08.220
+hier DVB-Fahrplan
+
+01:06:08.290 --> 01:06:08.900
+oder sowas, ja.
+
+01:06:10.800 --> 01:06:12.220
+Weil wir es nicht hingekriegt haben,
+
+01:06:12.400 --> 01:06:14.340
+dieses Pseudo-Async-Konzept,
+
+01:06:14.580 --> 01:06:15.980
+was Actix selber gebaut hat,
+
+01:06:16.600 --> 01:06:17.440
+mit dem,
+
+01:06:17.890 --> 01:06:20.440
+mit der normalen Async-Primitiven,
+
+01:06:20.600 --> 01:06:22.060
+die Rust später eingeführt hat,
+
+01:06:22.140 --> 01:06:23.600
+zu verheiraten. Das ist zumindest ein
+
+01:06:24.100 --> 01:06:26.060
+nicht triviales, nicht sehr einsteigerfreundliches
+
+01:06:26.210 --> 01:06:27.020
+Problem. Okay.
+
+01:06:28.220 --> 01:06:29.860
+Und das hat mich sehr enttäuscht und dadurch, dass
+
+01:06:29.980 --> 01:06:31.599
+Actix auch selber nicht aktiv
+
+01:06:31.600 --> 01:06:33.480
+oder nicht sehr aktiv weiterentwickelt wird,
+
+01:06:34.140 --> 01:06:35.580
+habe ich mich so umgeguckt und
+
+01:06:35.780 --> 01:06:37.560
+habe eine andere Library gefunden, die auch
+
+01:06:37.620 --> 01:06:39.600
+auf der, in dem Readme
+
+01:06:39.880 --> 01:06:41.920
+von Async.as oder Async.stut
+
+01:06:42.360 --> 01:06:43.060
+verlinkt wurde, die heißt
+
+01:06:44.120 --> 01:06:44.480
+xActor.
+
+01:06:46.460 --> 01:06:47.700
+Die sieht aus wie Actix,
+
+01:06:47.920 --> 01:06:49.640
+also primitiv, du hast einen Service,
+
+01:06:50.000 --> 01:06:51.360
+dann wird dein Aktor als
+
+01:06:51.800 --> 01:06:53.140
+einmalig gestartet und
+
+01:06:54.100 --> 01:06:55.740
+es gibt nur eine Instanz von
+
+01:06:55.840 --> 01:06:57.420
+diesem Aktor. Es gibt so eine Art
+
+01:06:57.880 --> 01:06:59.540
+Supervisor, wo wenn dein Actor stoppt,
+
+01:06:59.550 --> 01:07:01.580
+der neu gestartet wird. Es gibt
+
+01:07:02.400 --> 01:07:21.440
+Es gibt, wichtig ist noch, dass du nicht die Adresse auf einen bestimmten Akto haben möchtest, sondern du möchtest, das Konzept heißt bei den beiden dann Receiver oder Sender, du möchtest eine Adresse auf etwas haben, was eine bestimmte Nachricht empfangen kann, damit du eventuell unterschiedliche Implementierungen von deinem Akto haben könntest.
+
+01:07:22.100 --> 01:07:33.560
+Du möchtest zum Beispiel, dein Raum soll gejoint werden können von einer WebSocket-Connection und dann schickt dein Raum an die WebSocket-Connection die Nachricht, die über den WebSocket an den Browser geschickt werden soll.
+
+01:07:33.820 --> 01:07:51.720
+Aber wenn ich zum Beispiel einen Bot habe, der auch in den Raum gehen soll, das ist einfach ein anderer Akto. Der ist nicht WebSocket Connection. Ich kann dann also in meine Liste nicht WebSocket Connection Adressen reintun, sondern ich brauche eine Liste von Adressen von Dingen, an die ich eine bestimmte Nachricht schicken kann. Also so ein anderes Abstraktionsmodell.
+
+01:07:52.140 --> 01:07:53.880
+Das hat diese Library alles mitgebracht
+
+01:07:55.460 --> 01:07:55.620
+und
+
+01:07:56.600 --> 01:07:57.300
+dann habe ich gedacht,
+
+01:07:57.620 --> 01:07:59.600
+die ist schön und die ist auch Async, das Senden ist
+
+01:07:59.800 --> 01:08:00.780
+asynchron, die benutzt,
+
+01:08:01.580 --> 01:08:02.640
+die hat nicht alles selber gebaut,
+
+01:08:03.180 --> 01:08:05.020
+Actix hat seine eigenen Channels gebaut
+
+01:08:06.520 --> 01:08:07.560
+und die benutzen
+
+01:08:07.720 --> 01:08:09.380
+die Channels von
+
+01:08:09.660 --> 01:08:11.100
+Futures.ars, das ist so eine
+
+01:08:12.300 --> 01:08:13.260
+Common Utility
+
+01:08:13.660 --> 01:08:15.300
+Library, die von den
+
+01:08:15.300 --> 01:08:17.080
+Rust Hauptmaintainern mitentwickelt wurde
+
+01:08:17.259 --> 01:08:19.480
+und so Common Async
+
+01:08:20.040 --> 01:08:21.280
+Use Cases abzubilden, da sind dann
+
+01:08:21.220 --> 01:08:23.240
+irgendwelche Channels drin, da sind irgendwelche Logs drin, da sind wirklich
+
+01:08:23.339 --> 01:08:25.339
+so Synchronisations
+
+01:08:26.020 --> 01:08:26.520
+Primitiven drin.
+
+01:08:27.580 --> 01:08:29.319
+Und das ist total schön. Und dann
+
+01:08:29.680 --> 01:08:31.359
+wollte ich darauf setzen und dann stellst du halt
+
+01:08:31.520 --> 01:08:31.620
+fest,
+
+01:08:33.200 --> 01:08:35.279
+das geht nicht. Na gut, das fixe ich mal schnell.
+
+01:08:35.339 --> 01:08:37.339
+Du kannst nicht warten, ist der Actor gestoppt oder
+
+01:08:37.480 --> 01:08:39.359
+nicht. Das kannst du nicht abfragen. Das kann ich
+
+01:08:39.799 --> 01:08:40.799
+bei Actics, aber hier nicht.
+
+01:08:41.240 --> 01:08:41.980
+Nein, dann baue ich es mal schnell ein.
+
+01:08:43.420 --> 01:08:45.240
+Oh, wenn ich den Aktoren stoppe, werden
+
+01:08:45.580 --> 01:08:47.160
+Intervalle, die dieser Actor
+
+01:08:47.740 --> 01:08:49.279
+startet, nicht gestoppt. Ein Actor muss
+
+01:08:49.400 --> 01:08:50.580
+auch in einem Intervall starten können.
+
+01:08:50.880 --> 01:08:52.500
+Okay. Ja, du hast zum Beispiel,
+
+01:08:52.609 --> 01:08:54.420
+dein Raum hat einen Intervall, wo
+
+01:08:54.420 --> 01:08:56.200
+er regelmäßig mal schaut,
+
+01:08:56.600 --> 01:08:58.480
+welche Adresse ist noch aktiv, für so Garbage
+
+01:08:58.600 --> 01:09:00.460
+Collection oder sowas. Das ist sowas, was Actix kann
+
+01:09:00.620 --> 01:09:02.540
+und das kann das auch, aber es war nicht korrekt
+
+01:09:02.700 --> 01:09:03.759
+implementiert, dass es gestoppt wurde.
+
+01:09:04.109 --> 01:09:06.520
+Dann habe ich da ein bisschen
+
+01:09:07.500 --> 01:09:08.120
+contributen wollen
+
+01:09:09.640 --> 01:09:10.520
+und Pull Requests
+
+01:09:10.580 --> 01:09:12.520
+gemacht und Fixes gemacht und der Typ antwortet leider
+
+01:09:12.549 --> 01:09:13.180
+nicht mehr. Na, toll.
+
+01:09:14.900 --> 01:09:16.480
+Weil ich nicht weiß, wie viele Leute wirklich
+
+01:09:16.640 --> 01:09:18.980
+Aktoren benutzen. So ein Aktorsystem
+
+01:09:19.220 --> 01:09:20.839
+oder diese Aktor-Library ist
+
+01:09:20.859 --> 01:09:22.339
+Zeilen Code, das ist nicht viel. Das ist
+
+01:09:22.759 --> 01:09:23.720
+erstaunlich kompakt. Ja.
+
+01:09:24.920 --> 01:09:26.779
+Und das hat der vielleicht mal zum Spaß
+
+01:09:26.960 --> 01:09:28.640
+gemacht und danach hat das aber selber nicht
+
+01:09:28.740 --> 01:09:30.460
+gebraucht oder sowas. Durchaus möglich. Wer weiß.
+
+01:09:32.380 --> 01:09:32.759
+Und dann habe ich
+
+01:09:32.759 --> 01:09:34.740
+mich gefragt und ich habe mit einem gemeinsamen Kumpel
+
+01:09:34.750 --> 01:09:35.359
+von uns geredet.
+
+01:09:36.839 --> 01:09:38.960
+Ich hätte das gerne.
+
+01:09:41.060 --> 01:09:42.279
+Soll ich das jetzt forken?
+
+01:09:42.770 --> 01:09:44.640
+Das Ding. Ab wann macht man das?
+
+01:09:45.060 --> 01:09:46.560
+Und ist das angemessen? Und ich werde
+
+01:09:46.680 --> 01:09:48.420
+auch nicht meine eigene Library maintainen.
+
+01:09:50.400 --> 01:09:51.859
+Aber die drei Sachen, die mir aufgefallen sind,
+
+01:09:51.980 --> 01:09:53.900
+würde mir schon reichen, wenn die gefixt wären erstmal.
+
+01:09:53.950 --> 01:09:55.940
+So für die grundsätzlichen Use Cases.
+
+01:09:56.840 --> 01:09:57.220
+Und er so,
+
+01:09:59.160 --> 01:10:00.260
+ich habe da neulich auf Reddit
+
+01:10:00.860 --> 01:10:02.100
+gesehen, eine Liste von jemandem,
+
+01:10:02.240 --> 01:10:04.180
+der mal
+
+01:10:05.020 --> 01:10:06.500
+in Rust Actor Frameworks
+
+01:10:06.720 --> 01:10:08.040
+gesammelt oder nachgekauft hatte
+
+01:10:08.500 --> 01:10:10.380
+und festgestellt hatte, da gibt es ganz schön
+
+01:10:10.560 --> 01:10:12.240
+viele. Und ich so,
+
+01:10:12.720 --> 01:10:14.400
+ich so, oh nein,
+
+01:10:14.660 --> 01:10:16.060
+echt? Und
+
+01:10:16.410 --> 01:10:17.800
+der hat hier diese Auflösung gemacht
+
+01:10:18.230 --> 01:10:18.960
+und das sind
+
+01:10:19.440 --> 01:10:21.440
+das sind 45 Actor-Frameworks,
+
+01:10:22.820 --> 01:10:23.700
+wovon Actix
+
+01:10:23.790 --> 01:10:25.580
+und dieses X-Actor, was ich beschrieben habe,
+
+01:10:25.900 --> 01:10:27.000
+nur zwei sind.
+
+01:10:28.140 --> 01:10:29.580
+Und ich hab mir gedacht, oh Gott,
+
+01:10:30.040 --> 01:10:31.340
+es gibt einen so von diesen
+
+01:10:31.580 --> 01:10:33.180
+Frameworks, die sind wahrscheinlich alle
+
+01:10:34.620 --> 01:10:35.480
+unterschiedlich und
+
+01:10:35.840 --> 01:10:37.360
+unterschiedlich maintained und es gibt nicht ein
+
+01:10:37.560 --> 01:10:39.280
+Konzept, auf das alle setzen. Bei Swift ist es ja so,
+
+01:10:40.020 --> 01:10:41.640
+das ist ein Sprachkonzept, da benutzen
+
+01:10:41.840 --> 01:10:42.620
+alle Aktoren gleich.
+
+01:10:43.920 --> 01:10:45.720
+Hier muss ich jetzt evaluieren,
+
+01:10:45.860 --> 01:10:47.420
+was ist gut und was ist nicht gut
+
+01:10:47.440 --> 01:10:49.020
+und was lebt, was ist tot.
+
+01:10:49.440 --> 01:10:51.620
+Vor allem der Interop miteinander ist ja sicherlich
+
+01:10:51.760 --> 01:10:53.540
+auch geil. Wenn du das in der Library benutzt, die aber halt
+
+01:10:53.840 --> 01:10:55.320
+keine App ist, sondern eine Library und
+
+01:10:56.400 --> 01:10:57.560
+deine Downstream Dependencies,
+
+01:10:57.820 --> 01:10:59.540
+also deine Dependents, müssen wir
+
+01:10:59.540 --> 01:11:01.460
+dann quasi entweder dasselbe nutzen oder damit
+
+01:11:01.680 --> 01:11:03.360
+Bescheid wissen. Du baust, glaube ich, keine
+
+01:11:03.760 --> 01:11:05.080
+Libraries, wurde dann wieder Aktor.
+
+01:11:05.360 --> 01:11:07.500
+Das gibst du nicht über die Grenzen hinaus. Das ist wahrscheinlich nicht.
+
+01:11:07.580 --> 01:11:09.540
+Das ist für Anwendungsentwicklung selber.
+
+01:11:10.120 --> 01:11:11.460
+Aber ich habe mich dann jetzt, ich habe mir
+
+01:11:11.460 --> 01:11:13.600
+dann erstmal wieder so eine kleine Sinnkrise
+
+01:11:13.760 --> 01:11:15.080
+gekriegt, weil ich dachte, oh Gott, ich dachte,
+
+01:11:16.400 --> 01:11:18.200
+Ich dachte, ich will nicht meine eigene
+
+01:11:18.350 --> 01:11:20.240
+Actor, also ich will nicht dieses X-Ector-Forken.
+
+01:11:20.480 --> 01:11:21.920
+Erstens fällt mir nicht ein, wie ich es nennen sollte.
+
+01:11:22.520 --> 01:11:24.140
+Das ist das Schwierigste. Zum anderen gibt es
+
+01:11:24.140 --> 01:11:26.140
+ja dann noch eine Actor-Library mehr und jetzt habe ich
+
+01:11:26.150 --> 01:11:28.140
+aber gesehen, ich glaube, der Zug ist abgefahren.
+
+01:11:28.210 --> 01:11:30.020
+Es gibt Actix, X-Ector,
+
+01:11:30.740 --> 01:11:32.000
+Axiom. Aber es gibt noch nicht
+
+01:11:32.220 --> 01:11:34.180
+YAL für Yet Another. Doch, da.
+
+01:11:34.600 --> 01:11:36.520
+J-A-A-L oder so? J-A-A-F.
+
+01:11:36.960 --> 01:11:37.320
+Verdammt!
+
+01:11:38.860 --> 01:11:40.260
+Scheiße, Yet Another Actor-Fammer.
+
+01:11:41.560 --> 01:11:41.920
+Actix,
+
+01:11:42.820 --> 01:11:43.180
+Acteur,
+
+01:11:44.220 --> 01:11:45.840
+Actors, R-S, Actori,
+
+01:11:46.140 --> 01:11:48.460
+May Actor Traktor Riker,
+
+01:11:49.200 --> 01:11:49.800
+Ghost Actor
+
+01:11:51.160 --> 01:11:51.960
+Acto-RS.
+
+01:11:52.480 --> 01:11:53.800
+Das ist der beste Name, den ich gerne...
+
+01:11:53.900 --> 01:11:55.520
+Ich finde Theater ziemlich geil.
+
+01:11:55.820 --> 01:11:56.700
+Theater ist ziemlich geil.
+
+01:11:56.940 --> 01:11:58.960
+Aber auch Washed Up für Washed Up Actors.
+
+01:11:59.200 --> 01:12:00.800
+Oder Traktasaur.
+
+01:12:02.220 --> 01:12:02.820
+Die sind ja geil.
+
+01:12:03.560 --> 01:12:05.700
+Also es gibt diese Riesenliste und ich dachte mir,
+
+01:12:05.800 --> 01:12:07.320
+oh Gott, jetzt muss ich mich erstmal hinsetzen.
+
+01:12:07.460 --> 01:12:10.160
+Und das habe ich jetzt irgendwie gestern und heute so ein bisschen gemacht.
+
+01:12:10.460 --> 01:12:12.040
+Und habe mir diese ganzen Links,
+
+01:12:12.220 --> 01:12:14.240
+die eigentlich mittlerweile auch vor sechs Monaten
+
+01:12:14.480 --> 01:12:15.640
+in Reddit hier gepostet wurden,
+
+01:12:16.080 --> 01:12:19.680
+mal in Tabs aufgemacht und habe mal so ein bisschen wissenschaftlich versucht,
+
+01:12:19.980 --> 01:12:23.680
+irgendwie so eine Metastudio zu machen, was davon ist jetzt eigentlich praktisch.
+
+01:12:23.890 --> 01:12:25.540
+Und das ist diese Tabelle, die ich hier baue.
+
+01:12:25.900 --> 01:12:28.180
+Pause das danach auch mal bitte im Rastabelle, da freut mich.
+
+01:12:28.380 --> 01:12:32.260
+Und dann habe ich mir gedacht, na warte mal, wenn der hier auf Reddit das schon geschrieben hat,
+
+01:12:32.580 --> 01:12:36.480
+da haben dann auch Leute geantwortet, sowas wie, du hast, you missed mine.
+
+01:12:38.680 --> 01:12:39.820
+Da gibt es also noch mehr.
+
+01:12:40.380 --> 01:12:44.260
+A while ago I made a joke that there were more actor frameworks than actor framework users.
+
+01:12:45.680 --> 01:12:49.980
+Ich habe auch so ein bisschen den Eindruck, also wenn ich hier so reingucke, sind viele davon glücklicherweise tot.
+
+01:12:50.620 --> 01:12:55.240
+Ich habe hier eine Spalte, die da heißt Downloads und Stars.
+
+01:12:55.460 --> 01:13:00.000
+Also Stars habe ich noch nicht, aber es gibt, die meisten haben so unter 2000 Downloads.
+
+01:13:00.000 --> 01:13:03.260
+Und diese 2000 Downloads sind wahrscheinlich das Grundrauschen.
+
+01:13:04.180 --> 01:13:06.340
+Ich habe irgendwann mal eine Library, die sage ich jetzt nicht namentlich,
+
+01:13:06.360 --> 01:13:12.500
+ich habe eine Library auf Crates.io veröffentlicht, die einfach sowas wie Baseline heißt oder sowas, wo ganz fett drin steht.
+
+01:13:13.060 --> 01:13:14.360
+Die macht nichts, da ist nichts drin.
+
+01:13:14.800 --> 01:13:16.800
+nicht benutzen. Ich möchte bloß
+
+01:13:16.900 --> 01:13:18.500
+gucken, wann die mal runtergeladen wird,
+
+01:13:18.780 --> 01:13:20.540
+weil es gibt ja solche... Um das rauszurechnen.
+
+01:13:20.760 --> 01:13:22.540
+Um das rauszurechnen, um dieses Grundrauschen
+
+01:13:22.620 --> 01:13:23.120
+rauszurechnen.
+
+01:13:25.160 --> 01:13:26.480
+Ich erinnere da was, Rustler hat
+
+01:13:27.160 --> 01:13:28.540
+560.000 Downloads.
+
+01:13:29.260 --> 01:13:29.800
+Ja, also
+
+01:13:30.420 --> 01:13:32.460
+das ist auch hier viel durcheinander geschmissen.
+
+01:13:32.540 --> 01:13:34.340
+Also ich wollte so ein bisschen gucken, auf was für
+
+01:13:34.480 --> 01:13:36.040
+Runtimes passieren die sind. Zum Beispiel
+
+01:13:36.700 --> 01:13:38.640
+Actix bringt seine eigene Runtime mit.
+
+01:13:38.920 --> 01:13:40.340
+X-Actor ist praktisch, weil es
+
+01:13:40.500 --> 01:13:42.480
+irgendwie sowohl auf Tokio als auch
+
+01:13:42.620 --> 01:13:44.580
+auf Async-Stutt läuft.
+
+01:13:45.380 --> 01:13:47.380
+es gibt welche, die laufen auf Thread-Pools
+
+01:13:47.620 --> 01:13:49.340
+und machen das dementsprechend
+
+01:13:49.540 --> 01:13:51.460
+selber und dieses, was hier 500.000
+
+01:13:51.720 --> 01:13:53.520
+Downloads hat, wenn man sich das anguckt, das hat
+
+01:13:54.030 --> 01:13:54.120
+auch
+
+01:13:55.880 --> 01:13:57.620
+dementsprechend... Also das hat die Erlang-Runtime?
+
+01:13:58.000 --> 01:13:59.120
+Ja, das ist kein
+
+01:13:59.300 --> 01:14:01.320
+Actor-Framework, das ist bloß, da steht bloß was
+
+01:14:01.460 --> 01:14:02.860
+mit Actern drin, damit baut man solche
+
+01:14:03.700 --> 01:14:05.280
+Erlang-NIFs, das sind
+
+01:14:06.860 --> 01:14:07.580
+Native Interface
+
+01:14:07.740 --> 01:14:09.440
+Function oder irgendwas, das ist eigentlich so eine Art
+
+01:14:10.380 --> 01:14:11.440
+Erlang-Tooling-Library,
+
+01:14:11.530 --> 01:14:13.300
+deswegen hab ich sie auch schon wieder rausgeschmissen, aber ich bin jetzt gerade
+
+01:14:13.300 --> 01:14:15.260
+dabei diese...
+
+01:14:15.340 --> 01:14:16.580
+Das Schönste ist
+
+01:14:17.050 --> 01:14:19.160
+die Library Herbot.
+
+01:14:19.640 --> 01:14:20.160
+Herbot.
+
+01:14:21.100 --> 01:14:22.520
+Das ist die hier.
+
+01:14:23.190 --> 01:14:24.940
+A simple active framework in Rust
+
+01:14:25.050 --> 01:14:26.860
+built around centralized message routes.
+
+01:14:26.870 --> 01:14:29.000
+Hat auch bloß irgendwie 300
+
+01:14:29.200 --> 01:14:31.120
+Downloads. Herbot supports
+
+01:14:31.400 --> 01:14:32.960
+a program architecture pattern
+
+01:14:33.400 --> 01:14:35.240
+consisting of well defined bla bla bla bla
+
+01:14:35.250 --> 01:14:37.100
+bla bla bla. The name
+
+01:14:37.220 --> 01:14:39.020
+was inspired by this epic
+
+01:14:39.290 --> 01:14:40.700
+review of Taco Bell
+
+01:14:40.710 --> 01:14:43.260
+of Taco Bell Cantina. Lies das mal
+
+01:14:43.280 --> 01:14:44.880
+for. The food was great.
+
+01:14:45.340 --> 01:14:47.060
+Herbert was great. The younger girl who
+
+01:14:47.180 --> 01:14:48.780
+called out the order was great. However,
+
+01:14:49.120 --> 01:14:50.900
+the main lady cook was kind of rude to Herbert.
+
+01:14:51.220 --> 01:14:53.040
+She kept chastising him. All the customers
+
+01:14:53.480 --> 01:14:55.160
+heard her belittle him. Now, I don't
+
+01:14:55.220 --> 01:14:56.780
+know the history between them, but I do know
+
+01:14:56.980 --> 01:14:59.140
+she was referencing how lazy he was and etc.
+
+01:14:59.620 --> 01:15:00.740
+I was so embarrassed for him.
+
+01:15:00.980 --> 01:15:02.620
+He kept his cool, but I didn't like it.
+
+01:15:03.440 --> 01:15:04.880
+Ein Stern. Justice for Herbert.
+
+01:15:07.860 --> 01:15:08.260
+Okay.
+
+01:15:09.760 --> 01:15:10.060
+Random.
+
+01:15:11.500 --> 01:15:11.920
+Ja, manchmal.
+
+01:15:12.200 --> 01:15:14.480
+Ich glaube, hieß nicht dieser eine Charakter
+
+01:15:14.560 --> 01:15:16.140
+in diesem Cartoon auch, Herbert, oder so?
+
+01:15:16.200 --> 01:15:16.680
+Ich weiß es nicht.
+
+01:15:16.840 --> 01:15:17.600
+Keine Ahnung, weiß ich.
+
+01:15:18.480 --> 01:15:20.300
+Aber schön hat man zumindest einen Namen.
+
+01:15:20.480 --> 01:15:23.140
+Okay, es ist aber ein minimales Rust-Actor-Framework.
+
+01:15:23.440 --> 01:15:23.660
+Ja.
+
+01:15:24.480 --> 01:15:26.120
+Also das ist so ein bisschen mein Problem gerade.
+
+01:15:26.240 --> 01:15:28.360
+Ich suche gerade noch nach dem schönen
+
+01:15:28.540 --> 01:15:29.920
+Actor-Framework in Rust.
+
+01:15:30.560 --> 01:15:31.760
+Ich habe so ein paar Kandidaten.
+
+01:15:31.800 --> 01:15:33.920
+Ich konnte glücklicherweise einige ausschließen.
+
+01:15:34.520 --> 01:15:36.460
+Ich finde X-Actor immer noch mit am schönsten.
+
+01:15:36.600 --> 01:15:38.400
+Bloß, dass der Maintainer
+
+01:15:38.440 --> 01:15:39.300
+mir nicht antwortet.
+
+01:15:40.520 --> 01:15:41.920
+Deswegen bin ich immer noch geneigt,
+
+01:15:42.040 --> 01:15:43.900
+eventuell zu forken, wenn wir nicht eines
+
+01:15:43.940 --> 01:15:45.560
+von diesen anderen Frameworks, die alle
+
+01:15:45.980 --> 01:15:47.520
+mitunter recht unterschiedliche Semantiken haben.
+
+01:15:47.560 --> 01:15:49.080
+Also eines, was auch sehr
+
+01:15:50.960 --> 01:15:51.920
+sehr verbreiteter
+
+01:15:52.080 --> 01:15:53.900
+ist, ist Bastion. Und das ist auch
+
+01:15:54.040 --> 01:15:54.660
+ich glaube ich
+
+01:15:56.680 --> 01:15:57.440
+Bastion RS.
+
+01:15:57.920 --> 01:15:59.760
+Nein, natürlich haben sie die URL
+
+01:15:59.980 --> 01:16:00.980
+nicht geregistriert.
+
+01:16:03.600 --> 01:16:03.840
+Aber
+
+01:16:04.220 --> 01:16:05.980
+das ist ein Framework,
+
+01:16:06.100 --> 01:16:07.540
+was auch sehr ausgereift ist.
+
+01:16:09.240 --> 01:16:09.440
+Und
+
+01:16:10.020 --> 01:16:11.820
+da kenne ich auch über Ecken die Person,
+
+01:16:12.020 --> 01:16:12.660
+die daran arbeitet.
+
+01:16:14.360 --> 01:16:16.220
+Und das hat allerdings eine komplett andere Semantik,
+
+01:16:16.360 --> 01:16:18.200
+wo jeder Aktor kein Objekt ist,
+
+01:16:18.300 --> 01:16:20.040
+sondern eine Funktion, die irgendwo
+
+01:16:21.020 --> 01:16:22.040
+reingescheduled wird und da gibt
+
+01:16:22.080 --> 01:16:24.040
+dann, gibt es gescopete Aktoren
+
+01:16:24.160 --> 01:16:26.280
+und das habe ich noch absolut nicht verstanden,
+
+01:16:26.660 --> 01:16:28.140
+was, welche Use Cases man damit erschlägt.
+
+01:16:28.460 --> 01:16:29.960
+Aber was mich am meisten stört, ist,
+
+01:16:29.960 --> 01:16:31.820
+dass quasi diese gescopeten Aktoren,
+
+01:16:31.940 --> 01:16:33.660
+die heißen hier Children
+
+01:16:34.520 --> 01:16:35.940
+und die werden dann als Worker
+
+01:16:36.060 --> 01:16:36.460
+gestartet.
+
+01:16:37.940 --> 01:16:38.540
+Und ich finde das...
+
+01:16:38.620 --> 01:16:40.520
+Das ist nicht mit Schallflabor-Mauskompatibel.
+
+01:16:42.700 --> 01:16:44.780
+Ich glaube, das ist ein sehr, sehr hochwertiges
+
+01:16:45.040 --> 01:16:46.720
+Framework, aber die Nomenklatur
+
+01:16:46.790 --> 01:16:48.360
+von dem Ding, weiß ich nicht, ob ich
+
+01:16:48.760 --> 01:16:50.620
+die mag. Aber Bastion
+
+01:16:50.650 --> 01:16:52.620
+ist definitiv mal ein Blick wert für Leute, die sich
+
+01:16:52.620 --> 01:16:54.540
+mit solchen Sachen auseinandersetzen möchten. Also
+
+01:16:54.680 --> 01:16:56.820
+Bastion ist ein Fault-Tolerant Runtime
+
+01:16:56.920 --> 01:16:58.640
+for Rust Applications. Ich muss es mir noch mal
+
+01:16:58.780 --> 01:17:00.080
+genauer angucken. Bastion.
+
+01:17:01.420 --> 01:17:02.680
+Aber dieses generische
+
+01:17:02.840 --> 01:17:04.400
+Modell, das ist, wie gesagt, Actix und
+
+01:17:04.580 --> 01:17:06.520
+X-Actor waren sehr ähnlich. Du hast einfach
+
+01:17:07.760 --> 01:17:08.480
+ein Instruct
+
+01:17:08.960 --> 01:17:09.740
+für deinen State.
+
+01:17:10.500 --> 01:17:13.300
+Da sagst du, du bist jetzt ein Aktor, dann kann man es starten und stoppen.
+
+01:17:13.620 --> 01:17:17.340
+Man kann Adressen austauschen und man kann abstrakte Adressen austauschen,
+
+01:17:18.119 --> 01:17:20.600
+wo nicht genau wichtig ist, welcher Aktor auf der anderen Seite ist,
+
+01:17:21.460 --> 01:17:23.040
+sondern dass du nur die Adresse hinschickst.
+
+01:17:23.080 --> 01:17:26.780
+Und dann wird es dann wieder wichtig, wenn ich eine Adresse halte,
+
+01:17:26.840 --> 01:17:28.940
+halte ich dann damit das Ding am Leben, was ist, wenn es tot ist,
+
+01:17:29.920 --> 01:17:31.460
+wenn der gestoppt hat und so weiter und so fort.
+
+01:17:31.540 --> 01:17:33.580
+Das sind die Sachen, die ich in dieser Tabelle mal ausführen wollte.
+
+01:17:34.220 --> 01:17:34.620
+Sehr cool.
+
+01:17:36.360 --> 01:17:37.940
+Als ich das angefangen habe, habe ich mir dann gedacht,
+
+01:17:38.220 --> 01:17:39.340
+ich bin noch nicht der Erste, der das gemacht hat.
+
+01:17:39.480 --> 01:17:40.280
+Das wollte ich gerade sagen.
+
+01:17:40.980 --> 01:17:42.660
+das ist sechs Monate her
+
+01:17:42.750 --> 01:17:43.300
+hier in Reddit
+
+01:17:44.600 --> 01:17:46.920
+da wird doch einer so ein Awesome gemacht haben
+
+01:17:47.320 --> 01:17:47.780
+Bestimmt
+
+01:17:48.000 --> 01:17:50.040
+Awesome of Rust Actors
+
+01:17:51.080 --> 01:17:52.600
+so, das ist ein Begriff, den du momentan
+
+01:17:52.600 --> 01:17:53.480
+nicht mehr googeln kannst
+
+01:17:54.350 --> 01:17:55.960
+weil dummerweise der Film
+
+01:17:57.600 --> 01:17:58.600
+weil Rust
+
+01:17:58.860 --> 01:18:00.420
+nämlich leider der Name von diesem Film
+
+01:18:00.520 --> 01:18:01.640
+mit Alec Baldwin ist
+
+01:18:02.700 --> 01:18:03.240
+in dem er
+
+01:18:04.260 --> 01:18:05.680
+wo er bei den Dreharbeiten die
+
+01:18:06.140 --> 01:18:07.720
+Cinematografin aus Versehen erschossen hat
+
+01:18:07.850 --> 01:18:09.599
+Das ist auch so eine echt beschissene Geschichte
+
+01:18:10.360 --> 01:18:11.820
+Das ist eine absolut beschissen Geschichte.
+
+01:18:12.060 --> 01:18:12.940
+Dieser Film heißt Rust.
+
+01:18:13.140 --> 01:18:18.100
+Das zieht sich natürlich sehr durch Medien und deswegen steht jetzt überall dieses Keyword mit Rust und Actor.
+
+01:18:18.720 --> 01:18:18.900
+Genau.
+
+01:18:20.540 --> 01:18:21.900
+Jetzt ist es nicht mehr Google-Bart.
+
+01:18:22.980 --> 01:18:23.140
+So.
+
+01:18:23.680 --> 01:18:24.000
+Na toll.
+
+01:18:24.640 --> 01:18:26.000
+Aber das ist mein nächstes Metaprojekt.
+
+01:18:26.010 --> 01:18:27.320
+Ich bin ja irgendwann vor...
+
+01:18:27.620 --> 01:18:29.800
+Willst du direkt die Awesome-Page dafür starten?
+
+01:18:30.740 --> 01:18:33.320
+Genau, die Awesome-Page habe ich überlegt, dass ich die anfange.
+
+01:18:34.140 --> 01:18:35.960
+Einfach auch für mein eigenes Seelenwohl.
+
+01:18:37.340 --> 01:18:50.620
+Ich habe auch Awesome Rust Testing losgetreten, wo allerdings bei solchen Awesomes musst du immer aufpassen, dass du in anderen Awesomes eingetragen bist, so Meta-Awesomes, damit das nicht veraltet.
+
+01:18:50.870 --> 01:18:56.880
+Was früher Wikipedia-Listen waren, wo es dann teilweise Lists of Lists gibt, aber es gibt ein paar Lists of Lists of Lists.
+
+01:18:57.100 --> 01:19:02.060
+Und ich habe auch keine Lust, das manuell zu curaten, muss ich sagen.
+
+01:19:02.200 --> 01:19:06.400
+Ich würde am liebsten eine Datei haben, wo ich bloß die GitHub-URLs reinschmeiße
+
+01:19:06.460 --> 01:19:09.280
+oder nur die Namen von den Libraries und dann irgendein Skript,
+
+01:19:09.900 --> 01:19:12.560
+was für mich Download-Zahlen und Stars.
+
+01:19:12.620 --> 01:19:13.940
+Vor allem ist es dann auch immer up-to-date, ja.
+
+01:19:14.300 --> 01:19:16.640
+Ich hätte gerne eine GitHub-API, das gibt es auch gar nicht,
+
+01:19:16.840 --> 01:19:18.040
+die mir Lines of Code sagt.
+
+01:19:18.960 --> 01:19:20.000
+Du, das ist, also, ja.
+
+01:19:20.720 --> 01:19:21.240
+Gibt es das?
+
+01:19:21.640 --> 01:19:22.320
+Nicht, dass ich wüsste.
+
+01:19:22.600 --> 01:19:25.820
+Also, die GraphQL-API gibt viel raus, aber das glaube ich nicht.
+
+01:19:25.840 --> 01:19:28.040
+Wenn jemand bereits eine Library kennt, die mir Awesomes generiert.
+
+01:19:30.000 --> 01:19:31.520
+Awesome, awesome. Awesome, meta awesome.
+
+01:19:31.860 --> 01:19:34.140
+Meta awesome. Ich glaube, wir haben den Sendungstitel
+
+01:19:34.140 --> 01:19:34.700
+für heute gefunden.
+
+01:19:37.320 --> 01:19:38.360
+Aber das bringt mich
+
+01:19:38.460 --> 01:19:40.200
+hart. Also ich wollte jetzt hier nicht unbedingt
+
+01:19:40.310 --> 01:19:41.380
+die Überleitung für
+
+01:19:42.920 --> 01:19:43.980
+die Picks machen,
+
+01:19:44.110 --> 01:19:45.600
+aber das ist tatsächlich...
+
+01:19:45.760 --> 01:19:48.240
+Lass uns mal eine Überleitung machen, denn wir haben, glaube ich,
+
+01:19:48.380 --> 01:19:50.280
+den Komplexitätsgrad
+
+01:19:50.380 --> 01:19:51.800
+dieser Sendung jetzt erreicht.
+
+01:19:51.900 --> 01:19:54.020
+Das ist tatsächlich eine gute Überleitung zu meinem Pick.
+
+01:19:54.980 --> 01:19:55.800
+Und zwar
+
+01:19:56.540 --> 01:19:58.360
+gibt es hier jemanden, der
+
+01:19:59.370 --> 01:20:00.320
+gerne auf GitHub Pages
+
+01:20:02.280 --> 01:20:02.980
+Seiten hosten möchte,
+
+01:20:03.580 --> 01:20:04.620
+was ich sehr nachvollziehen kann,
+
+01:20:04.800 --> 01:20:06.640
+weil GitHub Pages zum Hosten von statischen Seiten
+
+01:20:06.900 --> 01:20:08.600
+großartig ist. Habe ich für viele Sachen
+
+01:20:08.740 --> 01:20:10.180
+gemacht. Meine Homepage, mein Blog,
+
+01:20:10.540 --> 01:20:12.500
+viele andere Kram. Muss auch kein
+
+01:20:12.660 --> 01:20:14.480
+öffentliches Repo sein. Nur will diese
+
+01:20:14.800 --> 01:20:16.160
+Person auch Daten
+
+01:20:16.820 --> 01:20:18.400
+visualisieren auf dieser Seite. Daten,
+
+01:20:18.470 --> 01:20:20.640
+die aber möglicherweise ein bisschen dynamisch
+
+01:20:20.840 --> 01:20:22.520
+aus einer SQLite-Datenbank gezogen
+
+01:20:22.680 --> 01:20:24.559
+werden. Und es wäre zum Beispiel
+
+01:20:24.580 --> 01:20:26.100
+genau das, was du mitmachen möchtest,
+
+01:20:26.820 --> 01:20:29.020
+bloß der Hintergrund keine SQLite-Datenbank
+
+01:20:29.020 --> 01:20:30.440
+ist, sondern möglicherweise die GitHub-API.
+
+01:20:31.180 --> 01:20:33.020
+Aber man kann ja JavaScript-Dinge
+
+01:20:33.180 --> 01:20:34.520
+machen auf GitHub-Pages. Ist ja kein Problem.
+
+01:20:34.840 --> 01:20:36.580
+Läuft ja alles kleinseitig, ist ja statisch in der Seite
+
+01:20:36.590 --> 01:20:38.680
+mit enthalten. Das Problem
+
+01:20:38.900 --> 01:20:40.920
+ist, wenn du einfach eine SQLite daneben
+
+01:20:41.040 --> 01:20:42.620
+legst, was spricht
+
+01:20:42.780 --> 01:20:44.320
+diese SQLite-Datenbank an?
+
+01:20:44.780 --> 01:20:46.420
+Das geht ja nicht so einfach direkt.
+
+01:20:46.870 --> 01:20:48.940
+Und was diese grandiose Person gemacht hat,
+
+01:20:50.020 --> 01:20:50.460
+ist...
+
+01:20:50.660 --> 01:20:52.080
+SQLite nach WebAssembly kompiliert.
+
+01:20:52.120 --> 01:20:54.540
+Diese Person hat einfach SQLite komplett
+
+01:20:54.560 --> 01:20:56.060
+nach WebAssembly kompiliert
+
+01:20:56.520 --> 01:20:58.340
+und zusätzlich noch
+
+01:20:59.420 --> 01:21:00.180
+ich glaube
+
+01:21:00.180 --> 01:21:02.380
+einen File System Treiber gebaut drunter,
+
+01:21:02.980 --> 01:21:03.540
+der quasi
+
+01:21:04.820 --> 01:21:06.180
+diese SQLite Datenbank
+
+01:21:06.420 --> 01:21:08.120
+über HTTP Range Requests an
+
+01:21:08.250 --> 01:21:10.500
+die SQLite Library streamt.
+
+01:21:11.060 --> 01:21:11.580
+Dass du quasi
+
+01:21:12.390 --> 01:21:14.280
+nur noch die URL zu einer SQLite Datenbank
+
+01:21:14.420 --> 01:21:16.000
+angibst und die SQLite
+
+01:21:16.000 --> 01:21:18.480
+Das heißt, du musst nicht mal die gesamte Datenbank auf einmal runterladen,
+
+01:21:18.480 --> 01:21:20.260
+ich muss sie bloß über HTTP erreichen können.
+
+01:21:20.260 --> 01:21:22.340
+Genau, genau. Und für die
+
+01:21:22.360 --> 01:21:23.960
+SQLite Library sieht es so aus, ob die einfach
+
+01:21:23.960 --> 01:21:25.840
+in einem Fake-Dateisystem liegt
+
+01:21:26.480 --> 01:21:27.960
+und die lädt die einfach. Du kannst
+
+01:21:28.060 --> 01:21:30.100
+dagegen Queries schreiben, du kannst die runnen
+
+01:21:30.480 --> 01:21:31.640
+und die werden einfach instant
+
+01:21:32.020 --> 01:21:33.900
+on the fly, client-side ausgeführt, weil
+
+01:21:34.020 --> 01:21:36.000
+komplett SQLite, also Represorably
+
+01:21:36.100 --> 01:21:38.140
+kompiliert ist, oh Gott, ich sag das Wort
+
+01:21:38.160 --> 01:21:39.960
+nicht, also böse K-Wort breit liegt
+
+01:21:40.760 --> 01:21:41.160
+und
+
+01:21:42.700 --> 01:21:43.100
+kompilat.
+
+01:21:44.580 --> 01:21:46.040
+Ich hätte das mit C geschrieben, aber ja.
+
+01:21:48.080 --> 01:21:48.260
+Und
+
+01:21:48.740 --> 01:21:50.220
+da eben dann ausführbar ist
+
+01:21:50.220 --> 01:21:52.120
+und das ist unglaublich fancy, die Idee.
+
+01:21:52.260 --> 01:21:53.120
+Also ich finde das so cool.
+
+01:21:55.200 --> 01:21:55.760
+gefällt mir sehr.
+
+01:21:56.130 --> 01:21:57.420
+Vor allem, dass es halt auch noch über die
+
+01:21:57.470 --> 01:21:59.740
+Range Request im Hintergrund die Datenbank streamt.
+
+01:21:59.920 --> 01:22:01.680
+Wirklich, literally streamt. Das ist richtig cool.
+
+01:22:02.180 --> 01:22:02.720
+Richtig, richtig cool.
+
+01:22:03.900 --> 01:22:04.800
+Abgefahren. Super geil.
+
+01:22:06.080 --> 01:22:07.620
+Ich hatte mir was in die Pics reingezogen,
+
+01:22:07.800 --> 01:22:09.640
+wo ich gehofft hätte, dass da mehr auf der Seite
+
+01:22:09.710 --> 01:22:11.700
+zu finden ist, aber im Endeffekt war es gar nicht so viel.
+
+01:22:11.770 --> 01:22:12.080
+Es gibt
+
+01:22:13.740 --> 01:22:15.480
+und zwar das
+
+01:22:15.940 --> 01:22:17.560
+Internet-Object-Format,
+
+01:22:18.420 --> 01:22:19.320
+was auf seiner Seite
+
+01:22:19.860 --> 01:22:21.580
+neulich auf GitHub kurz stand und claimt
+
+01:22:21.600 --> 01:22:23.600
+irgendwie eine bessere Variante von JSON
+
+01:22:23.760 --> 01:22:24.480
+zu sein, weil es
+
+01:22:25.220 --> 01:22:27.020
+Schema-Thin, Schema-First,
+
+01:22:27.400 --> 01:22:29.300
+Well-Designed und Instantly Simple
+
+01:22:30.900 --> 01:22:31.600
+Insanely Simple
+
+01:22:31.800 --> 01:22:33.620
+ist. Das Problem bei JSON
+
+01:22:33.860 --> 01:22:35.460
+ist, dass du immer irgendwie in einem anderen
+
+01:22:35.600 --> 01:22:37.180
+Format noch ein JSON-Schema definieren musst.
+
+01:22:37.680 --> 01:22:39.280
+Oder wie funktioniert meine JSON-API? Es gibt
+
+01:22:39.420 --> 01:22:41.320
+fünf Lösungen, wie JSON-APIs wohl zu
+
+01:22:41.440 --> 01:22:43.280
+definieren, sodass du weißt, an welcher Stelle
+
+01:22:43.420 --> 01:22:45.180
+im JSON was steht.
+
+01:22:45.480 --> 01:22:47.360
+Bei XML hast du
+
+01:22:47.560 --> 01:22:49.200
+DTDs, bei JSON hast du
+
+01:22:49.280 --> 01:22:51.560
+JSON-Schema, bloß das JSON-Schema immer noch
+
+01:22:51.580 --> 01:22:53.340
+ist und es sich wahrscheinlich abzeichnet, dass
+
+01:22:53.500 --> 01:22:55.580
+JSON-Schema nie zu Ende standardisiert wird.
+
+01:22:56.160 --> 01:22:57.700
+Ich habe, muss ich gestehen,
+
+01:22:58.020 --> 01:22:59.640
+also ich verstehe den Sinn
+
+01:22:59.920 --> 01:23:01.460
+eines Schemas, aber
+
+01:23:02.520 --> 01:23:03.540
+dass du damit sinnvoll
+
+01:23:03.560 --> 01:23:05.260
+was anfangen kannst, habe ich
+
+01:23:06.040 --> 01:23:07.500
+für JSON-Schema noch nie so
+
+01:23:07.620 --> 01:23:09.060
+wirklich verstanden, muss ich gestehen.
+
+01:23:09.620 --> 01:23:11.400
+Also DTDs kannst du ja irgendwie
+
+01:23:11.700 --> 01:23:13.100
+programmatisch sinnvoll verarbeiten.
+
+01:23:14.140 --> 01:23:15.620
+Aus JSON-Schemas kannst du,
+
+01:23:15.840 --> 01:23:17.720
+wenn du auf jasonschema.org
+
+01:23:17.940 --> 01:23:19.340
+gehst, gibt es 35
+
+01:23:19.560 --> 01:23:21.200
+Libraries in zig Sprachen,
+
+01:23:21.800 --> 01:23:23.500
+wo du Validatoren
+
+01:23:23.590 --> 01:23:25.320
+oder Code Generation mitmachen kannst.
+
+01:23:25.520 --> 01:23:26.540
+Ja, aber...
+
+01:23:28.140 --> 01:23:28.580
+Anyway,
+
+01:23:29.360 --> 01:23:31.580
+es gibt jetzt dieses Internet Object,
+
+01:23:31.860 --> 01:23:33.480
+was witzigerweise IO heißt.
+
+01:23:33.800 --> 01:23:35.020
+Das ist ein cooler Name.
+
+01:23:36.040 --> 01:23:37.460
+Aber leider ist auf der Webseite
+
+01:23:38.550 --> 01:23:39.680
+fast nichts lesbar.
+
+01:23:39.720 --> 01:23:41.580
+Das sieht aus wie JSON ohne
+
+01:23:41.800 --> 01:23:43.340
+Keys. Ne, nicht ganz.
+
+01:23:44.060 --> 01:23:45.480
+So ein bisschen. Es sieht aus wie
+
+01:23:45.600 --> 01:23:47.440
+JSON ohne... Ohne Klammern,
+
+01:23:47.580 --> 01:23:48.800
+ohne Anführungszeichen, ohne Keys.
+
+01:23:49.230 --> 01:23:50.740
+Das ist, glaube ich, erstmal das Klima.
+
+01:23:51.580 --> 01:23:52.520
+Ich packe es mal in die Liste.
+
+01:23:53.330 --> 01:23:54.760
+Ich finde, es ist hoffnungsvoll, aber ich weiß,
+
+01:23:55.140 --> 01:23:57.080
+bin mir nicht sicher, ob diese Seite nicht vielleicht ein Scam ist.
+
+01:23:59.700 --> 01:24:00.020
+Ich meine,
+
+01:24:01.760 --> 01:24:03.120
+ich habe immer den Gedanken
+
+01:24:03.170 --> 01:24:04.740
+im Hintergrund, ich habe immer dieses
+
+01:24:04.990 --> 01:24:06.680
+Park-DD-Projekt gemacht
+
+01:24:06.990 --> 01:24:08.640
+mit Johannes zusammen, der auch schon mal Gast bei uns war.
+
+01:24:10.260 --> 01:24:10.840
+Und wir haben da
+
+01:24:11.720 --> 01:24:12.280
+historische Daten.
+
+01:24:14.840 --> 01:24:16.180
+Achso, ihr habt eine Historie.
+
+01:24:16.710 --> 01:24:17.100
+Genau, wir haben
+
+01:24:19.560 --> 01:24:19.920
+Auslastungszahlen
+
+01:24:20.360 --> 01:24:21.120
+für Parkplätze,
+
+01:24:21.200 --> 01:24:22.840
+die wir halt gesammelt haben über Jahre,
+
+01:24:23.520 --> 01:24:24.000
+aus denen man halt
+
+01:24:25.680 --> 01:24:26.320
+Hochrechnungen machen kann
+
+01:24:27.340 --> 01:24:29.280
+und versuchen kann, abzusehen,
+
+01:24:29.340 --> 01:24:31.080
+wie die Auslastung in Zukunft
+
+01:24:31.340 --> 01:24:31.920
+aussieht und so weiter.
+
+01:24:34.520 --> 01:24:34.700
+Und
+
+01:24:35.640 --> 01:24:37.160
+das Problem daran an diesen
+
+01:24:37.340 --> 01:24:39.120
+Daten, wo wir das damals gestrukturiert haben,
+
+01:24:39.150 --> 01:24:40.880
+also das Problem an den Daten ist nichts, aber
+
+01:24:41.640 --> 01:24:43.080
+wir stellen die halt als JSON
+
+01:24:43.520 --> 01:24:44.840
+breit und nicht als CSV,
+
+01:24:45.100 --> 01:24:46.300
+was tausendmal sinnvoller wäre,
+
+01:24:47.240 --> 01:24:48.760
+weil halt du bei diesem JSON
+
+01:24:49.440 --> 01:24:51.160
+halt eine unglaubliche
+
+01:24:51.160 --> 01:24:52.680
+an Keys hast, der
+
+01:24:53.740 --> 01:24:54.620
+diese Datenmenge
+
+01:24:55.050 --> 01:24:56.880
+zu einem Vielfachen aufbläht,
+
+01:24:57.120 --> 01:24:58.320
+als dem, was es eigentlich ist.
+
+01:24:58.750 --> 01:25:00.960
+Und das Witzige ist, Johannes, der Spaß hat,
+
+01:25:01.080 --> 01:25:02.720
+diese Dumps zu compressen
+
+01:25:03.240 --> 01:25:04.140
+und dann wirklich so eine,
+
+01:25:04.840 --> 01:25:06.020
+dann ist es dir keine Ahnung, ich weiß nicht mehr,
+
+01:25:06.420 --> 01:25:08.900
+das war irgendwie ein 100 Megabyte Dump runter
+
+01:25:09.580 --> 01:25:10.680
+und dann packst du das und hast plötzlich
+
+01:25:10.960 --> 01:25:12.160
+20 Gigabyte auf der Platte.
+
+01:25:12.960 --> 01:25:14.440
+Stell dir vor, du hättest das in XML,
+
+01:25:14.590 --> 01:25:15.940
+dann hättest du für jede Spalte
+
+01:25:16.660 --> 01:25:18.440
+zweimal den Spaltennamen mit drin.
+
+01:25:19.060 --> 01:25:20.580
+Als Opening und als Closing Tag.
+
+01:25:20.940 --> 01:25:23.200
+Ich meine, es ist relativ einfach, das mal zu optimieren,
+
+01:25:23.240 --> 01:25:25.120
+aber es hat halt einfach noch nie jemand getan.
+
+01:25:25.480 --> 01:25:26.900
+Deswegen ist das nicht so.
+
+01:25:27.940 --> 01:25:29.280
+Das habe ich mal so im Hintergrund von wegen,
+
+01:25:29.320 --> 01:25:32.020
+ja, das ist so die maximal ineffizienteste Form,
+
+01:25:32.200 --> 01:25:33.540
+diese Daten eben bereitzustellen.
+
+01:25:34.960 --> 01:25:36.340
+Aber es ist zu viel Aufwand.
+
+01:25:36.520 --> 01:25:37.760
+Es geht noch ineffizienter.
+
+01:25:37.760 --> 01:25:38.480
+Es geht mit XML.
+
+01:25:39.740 --> 01:25:40.320
+Es geht mit XML.
+
+01:25:40.760 --> 01:25:42.060
+Deswegen gibt es Datenformate.
+
+01:25:42.120 --> 01:25:42.640
+Das fand ich spannend.
+
+01:25:42.740 --> 01:25:46.300
+Das hat der Sebastian mal gemacht.
+
+01:25:49.060 --> 01:25:50.460
+Es gibt Formate für
+
+01:25:52.100 --> 01:25:52.980
+Dictionaries, glaube ich,
+
+01:25:52.980 --> 01:25:54.560
+und diese sind einfach definiert
+
+01:25:54.900 --> 01:25:55.700
+gezipptes XML.
+
+01:25:56.950 --> 01:25:58.760
+Und dann auch eine Library, die ohne das
+
+01:25:59.020 --> 01:26:00.700
+gesamte Ding auszupacken
+
+01:26:01.180 --> 01:26:02.600
+mit einem Streaming
+
+01:26:03.740 --> 01:26:04.620
+Zip Reader,
+
+01:26:04.750 --> 01:26:06.320
+wo du einfach der Reihe nach das
+
+01:26:07.000 --> 01:26:08.260
+auslesen kannst und einem Streaming
+
+01:26:08.440 --> 01:26:10.700
+XML Parser quasi durch dieses Ding durchsuchen
+
+01:26:10.840 --> 01:26:12.840
+kannst, ohne das jemals komplett auszupacken.
+
+01:26:12.940 --> 01:26:14.080
+Ist das, obwohl
+
+01:26:14.720 --> 01:26:16.580
+eine XML Datei wäre immer noch eine Datei,
+
+01:26:16.580 --> 01:26:17.940
+aber man kennt das ja auch von anderen
+
+01:26:19.020 --> 01:26:20.000
+Lösung her, dass man
+
+01:26:20.800 --> 01:26:22.180
+eine ZIP-Datei oder
+
+01:26:22.840 --> 01:26:24.280
+irgendein gesipptes Format quasi
+
+01:26:24.520 --> 01:26:27.100
+reused einfach nur als Projektdatei,
+
+01:26:27.840 --> 01:26:28.460
+was aber dann eigentlich
+
+01:26:28.490 --> 01:26:30.660
+ein Verzeichnis ist, weil du das Verzeichnis nicht so einfach verschieben kannst.
+
+01:26:31.280 --> 01:26:32.540
+macOS hat das anders gelöst
+
+01:26:32.640 --> 01:26:33.300
+durch diese Bundles.
+
+01:26:34.700 --> 01:26:36.100
+App ist ja nicht das Einzige, aber es gibt
+
+01:26:36.360 --> 01:26:38.640
+diese Packages, die du zusammenpacken kannst, was tatsächlich ein Ordner ist.
+
+01:26:38.780 --> 01:26:39.420
+Eine App ist ein Ordner.
+
+01:26:39.620 --> 01:26:42.540
+In Java ist auch nur eine ZIP-Datei.
+
+01:26:42.540 --> 01:26:43.960
+Genau, aber eine App ist halt nicht gesippt,
+
+01:26:43.990 --> 01:26:45.480
+die ist halt literally einfach ein Ordner.
+
+01:26:46.300 --> 01:26:48.060
+ich kenne das Konzept noch von CBZ
+
+01:26:48.260 --> 01:26:50.220
+beziehungsweise CBR-Dateien für so alte Comic-Book-Reader.
+
+01:26:50.820 --> 01:26:51.900
+Das sind ja auch nur eine ZIP oder
+
+01:26:52.240 --> 01:26:53.760
+eine RAR-Datei, je nachdem, welche Enden du hast.
+
+01:26:53.940 --> 01:26:55.660
+Z ist eine ZIP, CBR ist eine RAR.
+
+01:26:56.260 --> 01:26:57.780
+Wo einfach nur eine Stapel JPEGs drin liegen.
+
+01:26:58.240 --> 01:26:59.680
+Das ist dann halt dein Comic-Buch.
+
+01:27:00.120 --> 01:27:01.600
+Ich meine, das ist ein wohl definiertes Paket.
+
+01:27:01.660 --> 01:27:03.660
+Ja, eben. Lässt sich einfacher transportieren
+
+01:27:03.840 --> 01:27:05.800
+als ein Ordner mit JPEGs, weil einen Ordner kannst du
+
+01:27:05.800 --> 01:27:07.680
+nicht einfach irgendwo hochladen. Den musst du vorher
+
+01:27:07.860 --> 01:27:09.180
+zippen und warum nicht einfach so die ZIP nehmen?
+
+01:27:09.640 --> 01:27:11.800
+Das ist eine Datei, das ist das Buch.
+
+01:27:12.660 --> 01:27:13.900
+Kannst du halt auspacken, wenn du möchtest,
+
+01:27:14.240 --> 01:27:16.260
+aber musst du halt nicht, weil der Re
+
+01:27:16.300 --> 01:27:16.700
+bis at least.
+
+01:27:17.230 --> 01:27:18.860
+Nicht schlecht. Das ist cool.
+
+01:27:20.560 --> 01:27:22.560
+Das andere Pick, was ich noch hatte,
+
+01:27:22.680 --> 01:27:24.460
+das schiebe ich schon seit mehreren Episoden
+
+01:27:24.720 --> 01:27:26.360
+vor mir her und das muss jetzt endlich mal aus
+
+01:27:26.500 --> 01:27:28.300
+unserem Backlog raus. Das ist schon eine Weile her.
+
+01:27:28.520 --> 01:27:29.180
+Sechs Monate.
+
+01:27:32.380 --> 01:27:34.320
+Bad Actor Proc. Das passt einfach namentlich gerade
+
+01:27:34.400 --> 01:27:36.600
+zur Sendung. Bad Actor in dem Sinne
+
+01:27:36.740 --> 01:27:38.440
+hat allerdings überhaupt nichts mit Aktoren
+
+01:27:38.560 --> 01:27:40.260
+zu tun, sondern ist einfach Bad Actor.
+
+01:27:40.350 --> 01:27:42.740
+Es ist eine Library, wo du ein Proc-Makro,
+
+01:27:42.830 --> 01:27:44.520
+also so ein Makro
+
+01:27:44.540 --> 01:27:46.860
+wie diesen Serialize, die Serialize
+
+01:27:47.080 --> 01:27:47.880
+Proc und nicht Proc.
+
+01:27:49.700 --> 01:27:50.840
+Also das Ding ist aber
+
+01:27:50.840 --> 01:27:51.360
+ein POC.
+
+01:27:52.100 --> 01:27:53.460
+Proof of Concept oder Person of Color?
+
+01:27:54.080 --> 01:27:55.400
+Proof of Concept in dem Sinne.
+
+01:27:58.420 --> 01:27:58.940
+Das hier ist quasi
+
+01:27:58.960 --> 01:28:01.000
+ein Makro und in Rust-Makros kannst du halt
+
+01:28:01.040 --> 01:28:02.820
+Rust ausführen. Du kannst leider alles machen
+
+01:28:03.060 --> 01:28:04.900
+in Rust-Makros und du kannst dementsprechend
+
+01:28:05.020 --> 01:28:06.780
+auch auf Netzwerk und Filesystem
+
+01:28:06.900 --> 01:28:07.960
+zugreifen. Auf die Art und Weise
+
+01:28:10.080 --> 01:28:10.740
+kannst du zum Beispiel
+
+01:28:10.780 --> 01:28:12.340
+so eine coole Library wie Diesel,
+
+01:28:12.560 --> 01:28:13.780
+dieser ORM von Sean Griffin,
+
+01:28:14.480 --> 01:28:16.080
+während des Kompilierens
+
+01:28:16.560 --> 01:28:18.300
+eine Verbindung zu deiner Datenbank herstellen,
+
+01:28:18.600 --> 01:28:20.340
+um zu prüfen, dass dein Datenbankschema
+
+01:28:20.600 --> 01:28:22.140
+mit der Datenbankversion, die da läuft,
+
+01:28:22.300 --> 01:28:23.880
+kompatibel ist mit den Tabellen, die da drin
+
+01:28:24.000 --> 01:28:25.280
+bekläut sind. Das ist eigentlich ganz cool.
+
+01:28:26.340 --> 01:28:28.180
+Das Problem ist, wenn
+
+01:28:28.340 --> 01:28:30.500
+deine Makros zur Compile-Zeit
+
+01:28:30.560 --> 01:28:31.840
+alles machen können, können sie auch
+
+01:28:32.300 --> 01:28:34.000
+irgendwie deinen Env auslesen und
+
+01:28:34.160 --> 01:28:35.980
+deinen Punkt-Passwords-Folder
+
+01:28:36.260 --> 01:28:37.220
+irgendwie ans Netzwerk schicken.
+
+01:28:38.420 --> 01:28:39.840
+Haben sie hier gezeigt, dass das geht?
+
+01:28:42.100 --> 01:28:42.840
+Ich finde, das ist auch noch
+
+01:28:43.360 --> 01:28:44.120
+Open Innocent.
+
+01:28:44.200 --> 01:28:45.380
+App in VS Code.
+
+01:28:46.600 --> 01:28:48.380
+So, und das hat eine Diskussion losgeführt,
+
+01:28:48.560 --> 01:28:50.280
+wo ich echt denke, oh mein
+
+01:28:50.380 --> 01:28:52.000
+Gott, das ist aber irgendwie schiefgegangen.
+
+01:28:52.520 --> 01:28:54.200
+Du kannst in, ja,
+
+01:28:54.400 --> 01:28:55.960
+du kannst in Rust irgendwie mit
+
+01:28:56.320 --> 01:28:58.500
+Makros, aber eigentlich vorher auch schon mit Build-Skripten
+
+01:28:59.640 --> 01:29:00.440
+beim Kompilieren
+
+01:29:01.340 --> 01:29:02.160
+Seiteneffekte haben und
+
+01:29:02.220 --> 01:29:03.860
+aufs Netzwerk und aufs Dateisystem zu greifen.
+
+01:29:04.380 --> 01:29:06.060
+Das ist immer das Problem, das wir mit allen anderen
+
+01:29:06.600 --> 01:29:07.740
+Ökosystemen auch schnappgesprochen haben.
+
+01:29:08.560 --> 01:29:09.780
+Bei Ruby sind
+
+01:29:10.880 --> 01:29:12.600
+die Manifeste sind Ruby-Dateien,
+
+01:29:12.680 --> 01:29:14.060
+die kannst du ausführen bei Swift,
+
+01:29:14.160 --> 01:29:15.280
+ist es wahrscheinlich auch möglich.
+
+01:29:16.120 --> 01:29:17.560
+Die Package-Skript werden ja ausgeführt.
+
+01:29:17.960 --> 01:29:20.020
+Genau. Da bist du an sich in der
+
+01:29:20.140 --> 01:29:21.760
+Sandbox, aber du hast trotzdem Möglichkeiten,
+
+01:29:22.260 --> 01:29:23.020
+Shindu da zu treiben.
+
+01:29:23.860 --> 01:29:25.740
+Und bei Rust, was ich halt immer schön gefunden habe,
+
+01:29:25.740 --> 01:29:27.900
+dass du halt über der Tommel-Datei das nicht kannst,
+
+01:29:28.280 --> 01:29:29.720
+du hast halt diesen Escape-Patch mit der
+
+01:29:30.360 --> 01:29:31.900
+Build-RS, mit dem Build-Skript, aber
+
+01:29:31.980 --> 01:29:34.060
+da siehst du halt, du kannst halt theoretisch
+
+01:29:34.160 --> 01:29:35.960
+und wenn du dein Package runterziehst, kannst du halt
+
+01:29:36.080 --> 01:29:38.160
+sagen, führ nicht einfach random Build-Skripte
+
+01:29:38.220 --> 01:29:39.780
+aus, weil sich das sehr einfach filtern lässt.
+
+01:29:39.920 --> 01:29:41.700
+Genau. Aber wenn du halt über
+
+01:29:41.920 --> 01:29:44.100
+Compile-Time-Makros gehst, dann so. Bei Aktoren
+
+01:29:44.120 --> 01:29:46.840
+Bei Makros gibt es nur einen Ansatz zu sagen,
+
+01:29:47.540 --> 01:29:49.620
+wir können die Makros,
+
+01:29:50.000 --> 01:29:52.200
+das gibt es von David Tolney,
+
+01:29:52.340 --> 01:29:55.420
+der ist sowieso der Sindre-Song-Huste von Rust-Paketen.
+
+01:29:55.780 --> 01:29:57.960
+Der hat Serde gebaut und tonweise andere coole Sachen.
+
+01:29:58.260 --> 01:30:00.660
+Der hat quasi eine WebAssembly-Runtime für Makros gebaut.
+
+01:30:01.480 --> 01:30:02.440
+Eine was?
+
+01:30:03.340 --> 01:30:05.820
+Da werden deine Makros nicht mit normalem Rust geschrieben,
+
+01:30:05.900 --> 01:30:06.760
+sondern eigentlich schon,
+
+01:30:06.940 --> 01:30:08.420
+aber die werden vorkompiliert
+
+01:30:08.420 --> 01:30:09.780
+und werden dann beim Kompilieren
+
+01:30:09.900 --> 01:30:11.420
+in einer WebAssembly-Runtime ausgeführt.
+
+01:30:12.680 --> 01:30:13.560
+Was ziemlich cool ist,
+
+01:30:13.660 --> 01:30:15.500
+was die nämlich auch schneller und kleiner
+
+01:30:15.680 --> 01:30:16.600
+macht, aber unabhängig davon.
+
+01:30:17.100 --> 01:30:18.580
+Und ich glaube,
+
+01:30:19.320 --> 01:30:20.920
+eines der Beispiele wie das hier,
+
+01:30:21.310 --> 01:30:23.160
+aber auch meine 35.000
+
+01:30:23.400 --> 01:30:25.160
+andere Beispiele aus der Node.js-Welt,
+
+01:30:25.260 --> 01:30:27.060
+wo dir sowas auch zur Compile
+
+01:30:27.150 --> 01:30:28.960
+oder Installation Time passiert, hat
+
+01:30:29.010 --> 01:30:30.960
+dazu geführt, dass VS Code jetzt vor
+
+01:30:31.160 --> 01:30:33.240
+einiger Zeit so eine Notification
+
+01:30:33.440 --> 01:30:35.120
+eingeführt hat, wenn du einen Ordner öffnest
+
+01:30:35.240 --> 01:30:36.880
+mit einem Projekt, wo eine Package.json
+
+01:30:37.010 --> 01:30:38.940
+oder eine Cargo-Ton mit drin liegt, du musst dir jetzt
+
+01:30:38.950 --> 01:30:40.580
+am Anfang immer klicken,
+
+01:30:41.360 --> 01:30:42.580
+vertraust du dem Paket?
+
+01:30:43.640 --> 01:30:46.140
+Und wenn du dem nicht vertraust,
+
+01:30:46.310 --> 01:30:48.180
+dann wird das in so einem Restricted-Mode
+
+01:30:48.280 --> 01:30:49.620
+gestartet und dann
+
+01:30:50.020 --> 01:30:50.260
+führt
+
+01:30:51.990 --> 01:30:53.560
+VS Code gewisse Sachen da drin nicht aus und
+
+01:30:53.720 --> 01:30:54.640
+baut es potenziell.
+
+01:30:54.860 --> 01:30:57.920
+Das ist genauso sinnlos wie das Pop-Up, was Xcode eingeführt hat.
+
+01:30:58.300 --> 01:30:59.680
+Mittlerweile, wenn du Projekte aus dem
+
+01:30:59.990 --> 01:31:01.660
+Internet runterlädst, dann annotiert
+
+01:31:01.740 --> 01:31:02.860
+die Safari mit so einer
+
+01:31:03.250 --> 01:31:05.820
+hier Downloaded-from-URL-Annotation
+
+01:31:06.000 --> 01:31:06.420
+irgendwie so ein
+
+01:31:07.280 --> 01:31:09.520
+Excellent-Attribute. Im Finder ist das, glaube ich, wenn ihr mich nicht
+
+01:31:09.590 --> 01:31:11.540
+alles täuscht. Und wenn du das Projekt in den Xcode
+
+01:31:11.560 --> 01:31:12.900
+öffnest, dann kommt Xcode mit zum Problem.
+
+01:31:13.040 --> 01:31:15.180
+This project was downloaded from the internet.
+
+01:31:15.300 --> 01:31:17.380
+Do you trust it? Ja, geht auf. Nein, geht
+
+01:31:17.540 --> 01:31:19.400
+Xcode wieder zu. Also drückt da natürlich jeder
+
+01:31:19.540 --> 01:31:20.020
+immer auf Ja.
+
+01:31:21.040 --> 01:31:23.180
+Ja, und genau dasselbe ist bei
+
+01:31:23.340 --> 01:31:25.220
+VS Code und das ist für mich so der
+
+01:31:25.460 --> 01:31:27.440
+Punkt, wo ich gesagt habe, das ist die falsche Lösung,
+
+01:31:27.840 --> 01:31:29.420
+weil die Leute einfach immer Ja drücken
+
+01:31:29.680 --> 01:31:31.360
+und dann kann jemand
+
+01:31:31.540 --> 01:31:33.400
+anders sagen, ja, du bist ja selber dran schuld, wenn du da Ja
+
+01:31:33.580 --> 01:31:35.300
+drückst, aber sonst kannst du den Scheißjahr einfach nicht
+
+01:31:35.500 --> 01:31:37.400
+benutzen. Und die sinnvollere
+
+01:31:37.580 --> 01:31:39.520
+Lösung wäre, an und für
+
+01:31:39.580 --> 01:31:41.520
+sich, dass du
+
+01:31:41.540 --> 01:31:44.820
+also für Node.js sowas wie bei Dino,
+
+01:31:45.420 --> 01:31:48.420
+dass du sagst, du kannst zwar gerne hier in Starscripts ausführen,
+
+01:31:48.420 --> 01:31:49.660
+wenn ich was kompilieren muss,
+
+01:31:50.400 --> 01:31:53.300
+aber dann kannst du explizit festlegen,
+
+01:31:53.350 --> 01:31:56.780
+du darfst nur auf diesen Ordner zugreifen und nicht aufs Internet.
+
+01:31:57.110 --> 01:31:59.040
+Du darfst nicht mein Home lesen,
+
+01:31:59.040 --> 01:32:01.020
+du darfst nicht meine Environment-Variablen lesen
+
+01:32:01.020 --> 01:32:04.340
+und du darfst auch definitiv nichts irgendwo extra runterladen
+
+01:32:06.140 --> 01:32:07.660
+oder ins Internet schicken.
+
+01:32:08.120 --> 01:32:10.540
+Das könnte man bei Dino machen,
+
+01:32:10.640 --> 01:32:12.380
+das kann man bei Rust, bei Makros
+
+01:32:12.520 --> 01:32:13.040
+wahrscheinlich machen.
+
+01:32:14.340 --> 01:32:15.900
+Das ist mehr Arbeit.
+
+01:32:16.260 --> 01:32:18.400
+Aber es wäre, in meinem Verständnis nach,
+
+01:32:18.500 --> 01:32:20.600
+die sinnvollere Lösung, als den Nutzer
+
+01:32:20.700 --> 01:32:22.620
+zu zwingen, jedes Mal zu sagen,
+
+01:32:22.980 --> 01:32:24.520
+ja, dieses Projekt darf
+
+01:32:24.940 --> 01:32:26.500
+alles, was auch immer es tut, ich weiß zwar
+
+01:32:26.540 --> 01:32:28.400
+nicht, was es tun wird und meistens macht es nichts,
+
+01:32:28.620 --> 01:32:30.300
+aber dieses eine Mal, wo es dann wirklich
+
+01:32:30.560 --> 01:32:32.360
+malicious ist, habe ich trotzdem, ich
+
+01:32:32.860 --> 01:32:34.420
+Depp, habe dann Ja geklickt.
+
+01:32:34.560 --> 01:32:36.380
+Es ist immer eine Schuldzuweisung, du hast nichts damit gekonnt,
+
+01:32:36.440 --> 01:32:38.180
+außer dass die Nutzern sagen, wie du gerade gemeint hast,
+
+01:32:38.300 --> 01:32:40.380
+du bist ja schuld, Depp. Hast ja auf Ja gedrückt.
+
+01:32:40.500 --> 01:32:41.840
+aber das hilft ja nicht.
+
+01:32:42.280 --> 01:32:44.680
+Nee, das löst das Problem nicht. Also theoretisch
+
+01:32:44.820 --> 01:32:46.460
+brauchst du für jedes Package,
+
+01:32:46.460 --> 01:32:47.580
+was du öffnest, eine Sandbox.
+
+01:32:49.700 --> 01:32:50.600
+Ja, aber halt
+
+01:32:50.760 --> 01:32:52.500
+auch eine unkaputtbare, der du für immer
+
+01:32:52.620 --> 01:32:53.660
+vertrauen kannst sowieso.
+
+01:32:54.540 --> 01:32:55.920
+Benutzt du eigentlich auf GitHub die,
+
+01:32:56.600 --> 01:32:58.400
+wie heißt denn das, ich muss hier bloß Punkt
+
+01:32:58.680 --> 01:33:00.460
+drücken und dann geht ein GitHub Web
+
+01:33:00.680 --> 01:33:02.380
+Editor auf? Das haben sie jetzt aber doch relativ,
+
+01:33:02.520 --> 01:33:04.120
+ah nee, nee, er wie ist Code.defs
+
+01:33:04.300 --> 01:33:06.300
+ist neu, aber GitHub.defs gibt es schon wieder
+
+01:33:06.300 --> 01:33:08.180
+ein paar bisschen, benutze ich nicht.
+
+01:33:08.340 --> 01:33:10.460
+Ich habe in diesem Bad Actor
+
+01:33:11.260 --> 01:33:13.240
+Ah, witzig, man geht einfach auf die
+
+01:33:13.460 --> 01:33:14.960
+GitHub-Adresse von dem
+
+01:33:16.080 --> 01:33:17.600
+Package und anstatt GitHub.com
+
+01:33:17.640 --> 01:33:18.840
+macht man GitHub.dev
+
+01:33:19.480 --> 01:33:20.660
+und jetzt läuft das hier.
+
+01:33:22.740 --> 01:33:23.760
+Cool, damit muss ich mal mehr spielen.
+
+01:33:23.860 --> 01:33:25.620
+Vielleicht ist die Zukunft
+
+01:33:25.840 --> 01:33:27.520
+ja, dass wir die Software eh nicht mehr
+
+01:33:27.560 --> 01:33:28.540
+auf unseren Privat berechnen.
+
+01:33:28.540 --> 01:33:30.800
+Die Idee von Thin Clients gibt es ja auch schon erst seit
+
+01:33:31.500 --> 01:33:32.560
+40, 50 Jahren.
+
+01:33:33.680 --> 01:33:35.220
+Die 70er haben angerufen, sie wollen ihre
+
+01:33:35.440 --> 01:33:36.600
+Thin Clients zurückhaben.
+
+01:33:36.860 --> 01:33:38.420
+50er sind 50 Jahre her.
+
+01:33:41.440 --> 01:33:43.060
+Weißt du, was auch 50 Jahre her heißt?
+
+01:33:43.910 --> 01:33:44.900
+Der Beginn dieser Sendung.
+
+01:33:46.780 --> 01:33:47.700
+Eineinhalb Stunden zuerst.
+
+01:33:47.910 --> 01:33:49.940
+Das war unser Versuch,
+
+01:33:50.940 --> 01:33:52.040
+über Aktoren zu reden.
+
+01:33:52.730 --> 01:33:53.340
+Ich wusste gerade,
+
+01:33:53.370 --> 01:33:55.680
+weil es in den 70ern war,
+
+01:33:56.100 --> 01:33:57.720
+da gab es in einem fantastischen Buch,
+
+01:33:57.720 --> 01:33:59.100
+das ich alle paar Jahre mal wieder lese,
+
+01:33:59.450 --> 01:34:01.540
+von Bill Bryson, eine kurze Geschichte von fast allem.
+
+01:34:02.140 --> 01:34:03.820
+Der packt in dieses Buch so wunderschön
+
+01:34:05.330 --> 01:34:06.080
+viele gedankliche
+
+01:34:06.240 --> 01:34:07.180
+Visualisierungen mit rein.
+
+01:34:07.900 --> 01:34:10.980
+Also so zwei, die mir besonders am Herzen liegen,
+
+01:34:11.940 --> 01:34:14.760
+ist einfach nur, wie wir als Menschen nicht mit großen Zahlen umgehen können.
+
+01:34:15.500 --> 01:34:18.920
+Wenn du eine Million Sekunden im Kopf hast,
+
+01:34:19.320 --> 01:34:20.880
+was würdest du denken, was das für ein Zeitraum ist?
+
+01:34:21.190 --> 01:34:23.640
+Also wenn du eine Million Sekunden in der Zeit zurückgehst,
+
+01:34:23.950 --> 01:34:24.700
+wo würdest du enden?
+
+01:34:24.700 --> 01:34:29.440
+Ich glaube, im Millionenbereich handelt es sich noch um eine Range von Tagen bis Wochen.
+
+01:34:29.680 --> 01:34:31.340
+Genau, du bist einfach vor anderthalb Wochen oder drei Wochen.
+
+01:34:31.820 --> 01:34:34.300
+Aber eine Milliarde ist dann schon irgendwie meine Lebenszeit.
+
+01:34:34.310 --> 01:34:36.739
+Eine Milliarde sind halt, dann bist du plötzlich vor 30 Jahren
+
+01:34:37.420 --> 01:34:38.700
+und eine Billion,
+
+01:34:38.740 --> 01:34:40.560
+dann bist du halt vor 30.000 Jahren.
+
+01:34:40.700 --> 01:34:42.680
+Das ist halt ein gigantischer Unterschied
+
+01:34:42.760 --> 01:34:43.480
+zu den Schritten vorher.
+
+01:34:44.740 --> 01:34:46.120
+Ein anderer Beispiel, was ich vorhin im Kopf habe,
+
+01:34:46.140 --> 01:34:47.160
+was sich überhaupt nichts damit zu tun hat,
+
+01:34:47.800 --> 01:34:48.960
+wenn du deine Arme ausstreckst.
+
+01:34:49.780 --> 01:34:53.180
+Das ist genauso lang, wie dein Körper hoch.
+
+01:34:53.260 --> 01:34:53.780
+Nee, nee, nee.
+
+01:34:54.780 --> 01:34:55.840
+Du streckst deine Arme aus
+
+01:34:56.020 --> 01:34:57.380
+und du denkst, das ist ein Zeitstrahl.
+
+01:34:58.080 --> 01:34:59.340
+Bei deiner linken Fingerspitze
+
+01:35:01.420 --> 01:35:02.020
+gab es die Erde.
+
+01:35:02.100 --> 01:35:04.500
+Da haben sich Steinknumpen zusammengefunden
+
+01:35:06.400 --> 01:35:06.720
+und
+
+01:35:06.740 --> 01:35:07.560
+Oder war es der Big Bang?
+
+01:35:08.570 --> 01:35:09.760
+Macht wahrscheinlich keinen riesigen Unterschied,
+
+01:35:10.070 --> 01:35:11.980
+aber da fängt unsere Zeitrechnung an.
+
+01:35:12.720 --> 01:35:13.840
+Also eins von den beiden Dingen,
+
+01:35:14.260 --> 01:35:15.980
+wie gesagt. Auf der rechten
+
+01:35:16.100 --> 01:35:18.120
+Fingerspitze ist jetzt. Da sind wir gerade.
+
+01:35:20.020 --> 01:35:20.260
+Auf einem
+
+01:35:20.420 --> 01:35:22.200
+Großteil dieser Skala, die ich
+
+01:35:22.280 --> 01:35:23.060
+hier gerade vor dir
+
+01:35:24.620 --> 01:35:26.040
+stehend stelle, passiert überhaupt
+
+01:35:26.360 --> 01:35:28.280
+nichts. Bei meiner rechten Hand,
+
+01:35:29.240 --> 01:35:30.260
+also bei der
+
+01:35:30.700 --> 01:35:31.940
+unteren Handkante hat angefangen,
+
+01:35:32.080 --> 01:35:33.980
+Leben zu existieren. Komplexes Leben
+
+01:35:34.030 --> 01:35:35.840
+noch lange nicht. Das kam irgendwann in den Fingerspitzen.
+
+01:35:36.180 --> 01:35:38.160
+wenn du eine Nagelfeile nimmst und einmal
+
+01:35:38.630 --> 01:35:40.380
+über meinen Finger ziehst, hast du die komplette
+
+01:35:40.560 --> 01:35:41.660
+Menschheit ausgelöscht.
+
+01:35:42.560 --> 01:35:44.540
+Das ist so ein winzig kleiner Fleck
+
+01:35:44.810 --> 01:35:46.660
+auf diesem Zeitstrahl der Existenz.
+
+01:35:47.400 --> 01:35:48.160
+Ja, auf jeden Fall.
+
+01:35:48.580 --> 01:35:49.040
+Das ist krass.
+
+01:35:50.640 --> 01:35:51.960
+Finde ich toll. Ich mag solche
+
+01:35:52.580 --> 01:35:54.500
+Gedankenspiele, weil sie einfach dieses Konzept
+
+01:35:54.680 --> 01:35:56.420
+von Größe
+
+01:35:56.770 --> 01:35:57.820
+ein bisschen anschaulicher machen.
+
+01:35:59.520 --> 01:36:00.420
+Kennst du Corridor Crew?
+
+01:36:00.690 --> 01:36:02.720
+Ja, da hast du schon mal in der Folge empfohlen.
+
+01:36:03.220 --> 01:36:04.520
+Der Ren macht immer
+
+01:36:04.500 --> 01:36:06.340
+schöne Videos, wo er so Größenverhältnisse
+
+01:36:06.490 --> 01:36:07.980
+und sowas visualisiert und auch
+
+01:36:08.240 --> 01:36:09.540
+Exponential Growth von
+
+01:36:10.520 --> 01:36:11.440
+so einer Virusausbreitung.
+
+01:36:12.780 --> 01:36:13.800
+Am Anfang denkst du noch,
+
+01:36:14.130 --> 01:36:16.340
+ach, das ist ja nichts und oh, jetzt hat es sich verdoppelt, aber es war
+
+01:36:16.340 --> 01:36:18.260
+ja vorher nicht viel, also ist es verdoppelt nicht viel, aber
+
+01:36:18.380 --> 01:36:20.360
+noch dreimal verdoppeln und du ertrinkst in dem Wasser,
+
+01:36:20.520 --> 01:36:21.740
+was da irgendwie in dem Flüß langläuft.
+
+01:36:22.640 --> 01:36:22.960
+Ganz cool.
+
+01:36:23.830 --> 01:36:23.960
+Anyway,
+
+01:36:26.340 --> 01:36:27.440
+pack ich mal mit in die Show Notes.
+
+01:36:28.640 --> 01:36:29.620
+Auch Bill Bryson,
+
+01:36:30.620 --> 01:36:31.160
+schreibt er sich.
+
+01:36:31.960 --> 01:36:33.780
+Mit Y-O-S-O-N.
+
+01:36:34.380 --> 01:36:36.160
+Genau so. Sehr schön.
+
+01:36:37.240 --> 01:36:37.740
+Das war
+
+01:36:38.860 --> 01:36:40.780
+Akronomisierbar Folge 52.
+
+01:36:41.090 --> 01:36:41.640
+In der Tat.
+
+01:36:43.980 --> 01:36:44.320
+Vielen Dank,
+
+01:36:44.440 --> 01:36:46.280
+dass ihr bis hierhin durchgehalten habt. Wenn ihr
+
+01:36:46.940 --> 01:36:48.380
+Interesse an, darüber habt,
+
+01:36:48.540 --> 01:36:50.340
+über Aktoren und Aktorsysteme
+
+01:36:50.540 --> 01:36:52.140
+und Distributed Computing
+
+01:36:52.780 --> 01:36:54.240
+zu quatschen, wir nehmen sehr gerne
+
+01:36:54.360 --> 01:36:56.220
+Gäste in diesen Sendungen auf. Und wenn ihr einfach Feedback
+
+01:36:56.380 --> 01:36:57.960
+geben wollt, schaut auf Matrix einfach vorbei.
+
+01:36:58.620 --> 01:37:00.000
+Und wenn ich es wahrscheinlich vergessen werde,
+
+01:37:00.160 --> 01:37:01.260
+Hendrix Fahrradfoto
+
+01:37:02.260 --> 01:37:03.820
+in den Dings zu packen,
+
+01:37:04.560 --> 01:37:06.880
+Dann postet Hendrik das so in den Matrix-Channel.
+
+01:37:10.400 --> 01:37:11.900
+Gehabt euch wohl bis zur nächsten Folge.
+
+01:37:13.660 --> 01:37:14.300
+Der Countdown
+
+01:37:14.790 --> 01:37:16.300
+für den nächsten Podcast in eurem Podcatcher
+
+01:37:17.700 --> 01:37:19.000
+Die nächste Folge
+
+01:37:19.950 --> 01:37:21.440
+in eurem Podcatcher beginnt in 3,
+
+01:37:22.200 --> 01:37:23.120
+2, 1,
+

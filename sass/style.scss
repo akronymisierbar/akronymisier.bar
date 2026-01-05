@@ -126,7 +126,7 @@ header {
     
     .clear-search-button {
         position: absolute;
-        right: 0.5rem;
+        right: 2.5rem;
         background: none;
         border: none;
         cursor: pointer;
@@ -134,9 +134,25 @@ header {
         padding: 0.25rem;
         display: flex;
         align-items: center;
-        
+
         &:hover {
             color: $primary-color;
+        }
+    }
+
+    .transcript-search-link {
+        margin-left: 0.5rem;
+        padding: 0.5rem;
+        color: $secondary-color;
+        display: flex;
+        align-items: center;
+        border-radius: 4px;
+        transition: background-color 0.2s, color 0.2s;
+
+        &:hover {
+            background: $background-light;
+            color: $link-color;
+            text-decoration: none;
         }
     }
 }
@@ -384,6 +400,121 @@ footer {
     }
 }
 
+// Search page styles
+.search-page {
+    margin-top: 2rem;
+
+    .search-input-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+
+        input {
+            flex: 1;
+            padding: 1rem;
+            padding-right: 3rem;
+            font-size: 1.125rem;
+            border: 2px solid $border-color;
+            border-radius: 8px;
+
+            &:focus {
+                outline: none;
+                border-color: $link-color;
+            }
+        }
+
+        .clear-search-button {
+            position: absolute;
+            right: 1rem;
+        }
+    }
+}
+
+.search-description {
+    color: $secondary-color;
+    margin-bottom: 1rem;
+}
+
+#search-status {
+    color: $secondary-color;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.search-result-group {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid $border-color;
+
+    h3 {
+        margin: 0 0 0.5rem;
+    }
+
+    .episode-details {
+        font-size: 0.875rem;
+        color: $secondary-color;
+        margin: 0.25rem 0 1rem;
+    }
+
+    .episode-description-match {
+        font-size: 0.9rem;
+        margin: 0.5rem 0 1rem;
+        color: $secondary-color;
+    }
+}
+
+.transcript-matches {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+        margin: 0.5rem 0;
+    }
+
+    a {
+        display: flex;
+        gap: 1rem;
+        padding: 0.75rem;
+        background: $background-light;
+        border-radius: 4px;
+        color: inherit;
+        text-decoration: none;
+
+        &:hover {
+            background: darken($background-light, 5%);
+        }
+    }
+
+    .timestamp {
+        font-family: monospace;
+        color: $link-color;
+        flex-shrink: 0;
+        font-size: 0.875rem;
+    }
+
+    .snippet {
+        flex: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 0.9rem;
+    }
+}
+
+mark {
+    background: #fff3cd;
+    padding: 0 0.125rem;
+    border-radius: 2px;
+}
+
+.more-results {
+    font-size: 0.875rem;
+    color: $secondary-color;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
 // Dark mode support
 @media (prefers-color-scheme: dark) {
     body {
@@ -442,5 +573,36 @@ footer {
     blockquote {
         border-color: #444;
         color: #999;
+    }
+
+    .search-page .search-input-container input {
+        background: #2a2a2a;
+        border-color: #444;
+        color: #e0e0e0;
+
+        &:focus {
+            border-color: #66b3ff;
+        }
+    }
+
+    .transcript-matches a {
+        background: #2a2a2a;
+
+        &:hover {
+            background: #333;
+        }
+    }
+
+    .transcript-search-link:hover {
+        background: #2a2a2a;
+    }
+
+    mark {
+        background: #665d00;
+        color: #fff;
+    }
+
+    .search-result-group {
+        border-color: #444;
     }
 }
