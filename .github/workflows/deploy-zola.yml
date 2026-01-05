@@ -27,7 +27,7 @@ jobs:
           deno-version: v2.x
 
       - name: Generate search index
-        run: deno run --allow-read --allow-write scripts/generate-search-index.ts
+        run: deno run --allow-read --allow-write --allow-net scripts/generate-search-index.ts
 
       - name: Setup Zola
         uses: taiki-e/install-action@v2
