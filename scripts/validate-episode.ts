@@ -37,7 +37,6 @@ interface EpisodeFrontmatter {
     cover_image?: string;
     audio_url?: string;
     chapters_url?: string;
-    transcript_vtt?: string;
   };
 }
 
@@ -231,6 +230,18 @@ async function validateEpisode(filePath: string, checkRemote: boolean): Promise<
         field: "cover",
         message: `No cover image found at ${BASE_URL}/${episodeNum}.{jpg,png}`,
         severity: "warning",
+      });
+    }
+
+    // Check VTT transcript exists
+    const vttUrl = `${BASE_URL}/${episodeNum}.vtt`;
+    const vttExists = await checkUrlExists(vttUrl);
+    if (!vttExists) {
+      errors.push({
+        file: fileName,
+        field: "vtt",
+        message: `Transcript not found at: ${vttUrl}`,
+        severity: "error",
       });
     }
   }

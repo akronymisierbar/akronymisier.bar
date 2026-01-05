@@ -1,18 +1,19 @@
-#!/usr/bin/env -S deno run --allow-read --allow-write
+#!/usr/bin/env -S deno run --allow-read --allow-write --allow-net
 
 /**
  * Generates a search index from episode metadata and VTT transcripts.
+ * Transcripts are fetched from kkw.lol during build.
  * The index is used for client-side full-text search.
  *
  * Usage:
- *   deno run --allow-read --allow-write scripts/generate-search-index.ts
+ *   deno run --allow-read --allow-write --allow-net scripts/generate-search-index.ts
  */
 
 import { walk } from "https://deno.land/std@0.208.0/fs/walk.ts";
 import { parse } from "https://deno.land/std@0.208.0/toml/parse.ts";
 
 const EPISODES_DIR = new URL("../content/episodes", import.meta.url).pathname;
-const TRANSCRIPTS_DIR = new URL("../transcripts", import.meta.url).pathname;
+const TRANSCRIPT_BASE_URL = "https://kkw.lol/k/akb";
 const OUTPUT_FILE = new URL("../static/search-index.json", import.meta.url).pathname;
 
 interface EpisodeFrontmatter {
@@ -134,8 +135,21 @@ function consolidateCues(cues: VttCue[], targetDuration: number = 30): Transcrip
   return segments;
 }
 
-function getTranscriptPath(episodeId: string): string {
-  return `${TRANSCRIPTS_DIR}/${episodeId}.vtt`;
+function getTranscriptUrl(episodeId: string): string {
+  return `${TRANSCRIPT_BASE_URL}/${episodeId}.vtt`;
+}
+
+async function fetchTranscript(episodeId: string): Promise<string | null> {
+  const url = getTranscriptUrl(episodeId);
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      return null;
+    }
+    return await response.text();
+  } catch {
+    return null;
+  }
 }
 
 function formatDate(date: string | Date): string {
@@ -147,6 +161,7 @@ function formatDate(date: string | Date): string {
 
 async function main() {
   console.log("Generating search index...\n");
+  console.log("Fetching transcripts from kkw.lol...\n");
 
   const index: SearchIndex = {
     version: 1,
@@ -155,9 +170,12 @@ async function main() {
     segments: [],
   };
 
-  let episodesProcessed = 0;
-  let transcriptsProcessed = 0;
-  let segmentsCreated = 0;
+  interface EpisodeEntry {
+    episodeId: string;
+    frontmatter: EpisodeFrontmatter;
+  }
+
+  const episodeEntries: EpisodeEntry[] = [];
 
   for await (const entry of walk(EPISODES_DIR, { exts: [".md"], maxDepth: 1 })) {
     if (entry.name === "_index.md") continue;
@@ -171,33 +189,48 @@ async function main() {
       continue;
     }
 
+    episodeEntries.push({ episodeId, frontmatter });
+  }
+
+  const transcriptResults = await Promise.all(
+    episodeEntries.map(async ({ episodeId }) => {
+      const vttContent = await fetchTranscript(episodeId);
+      return { episodeId, vttContent };
+    })
+  );
+
+  const transcriptMap = new Map<string, string | null>();
+  for (const { episodeId, vttContent } of transcriptResults) {
+    transcriptMap.set(episodeId, vttContent);
+  }
+
+  let transcriptsProcessed = 0;
+  let segmentsCreated = 0;
+
+  for (const { episodeId, frontmatter } of episodeEntries) {
     const episode: EpisodeMetadata = {
       i: episodeId,
-      t: frontmatter.title,
+      t: frontmatter.title!,
       d: frontmatter.extra?.description || "",
-      p: formatDate(frontmatter.date),
+      p: formatDate(frontmatter.date!),
       u: `/episodes/${episodeId}/`,
       l: frontmatter.extra?.duration || "",
     };
     index.episodes.push(episode);
-    episodesProcessed++;
 
-    const transcriptPath = getTranscriptPath(episodeId);
-    try {
-      const vttContent = await Deno.readTextFile(transcriptPath);
-      if (vttContent) {
-        const cues = parseVtt(vttContent);
-        const segments = consolidateCues(cues);
+    const vttContent = transcriptMap.get(episodeId);
+    if (vttContent) {
+      const cues = parseVtt(vttContent);
+      const segments = consolidateCues(cues);
 
-        for (const segment of segments) {
-          segment.e = episodeId;
-          index.segments.push(segment);
-          segmentsCreated++;
-        }
-        transcriptsProcessed++;
-        console.log(`  ${episodeId}: ${cues.length} cues -> ${segments.length} segments`);
+      for (const segment of segments) {
+        segment.e = episodeId;
+        index.segments.push(segment);
+        segmentsCreated++;
       }
-    } catch {
+      transcriptsProcessed++;
+      console.log(`  ${episodeId}: ${cues.length} cues -> ${segments.length} segments`);
+    } else {
       console.log(`  ${episodeId}: No transcript found`);
     }
   }
@@ -210,8 +243,8 @@ async function main() {
   const sizeKb = (stats.size / 1024).toFixed(1);
 
   console.log(`\n---`);
-  console.log(`Episodes processed: ${episodesProcessed}`);
-  console.log(`Transcripts found: ${transcriptsProcessed}`);
+  console.log(`Episodes processed: ${episodeEntries.length}`);
+  console.log(`Transcripts fetched: ${transcriptsProcessed}`);
   console.log(`Segments created: ${segmentsCreated}`);
   console.log(`Index size: ${sizeKb} KB`);
   console.log(`Output: ${OUTPUT_FILE}`);
