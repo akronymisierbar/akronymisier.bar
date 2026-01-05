@@ -408,6 +408,18 @@ async function main() {
           severity: "warning",
         });
       }
+
+      // No twitter.com or x.com links (use xcancel.com instead)
+      const twitterMatches = contentEncoded.match(/https?:\/\/(www\.)?(twitter\.com|x\.com)\/[^\s<"']*/gi);
+      if (twitterMatches) {
+        for (const match of twitterMatches) {
+          errors.push({
+            category: "AKB",
+            message: `${title}: contains Twitter/X link (use xcancel.com): ${match}`,
+            severity: "error",
+          });
+        }
+      }
     }
   }
 
