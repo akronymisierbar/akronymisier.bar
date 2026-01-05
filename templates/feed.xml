@@ -96,6 +96,14 @@
       {% if page.extra.social_interact %}
       <podcast:socialInteract uri="{{ page.extra.social_interact }}" protocol="activitypub" accountId="@akronymisierbar" accountUrl="{{ config.extra.mastodon_url }}" />
       {% endif %}
+      {% if page.extra.cover_image %}
+      <itunes:image href="{{ page.extra.cover_image }}"/>
+      {% else %}
+      <itunes:image href="{{ config.base_url }}/images/logo.jpg"/>
+      {% endif %}
+      {% if page.extra.transcript_vtt %}
+      <podcast:transcript url="{{ page.extra.transcript_vtt }}" type="text/vtt" language="de"/>
+      {% endif %}
     </item>
     {% endfor %}
   </channel>
