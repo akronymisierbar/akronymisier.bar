@@ -38,7 +38,7 @@
     <itunes:type>episodic</itunes:type>
     <itunes:summary>{{ config.description }}</itunes:summary>
     <itunes:author>{{ config.extra.hosts[1].name }} &amp; {{ config.extra.hosts[0].name }}</itunes:author>
-    <itunes:explicit>{% if config.extra.podcast_explicit %}yes{% else %}no{% endif %}</itunes:explicit>
+    <itunes:explicit>{% if config.extra.podcast_explicit %}true{% else %}false{% endif %}</itunes:explicit>
     <itunes:image href="{{ config.base_url }}/images/logo.jpg"/>
     <itunes:new-feed-url>{{ feed_url | safe }}</itunes:new-feed-url>
     <itunes:keywords>{{ config.extra.podcast_keywords }}</itunes:keywords>
