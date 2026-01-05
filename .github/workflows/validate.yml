@@ -29,27 +29,5 @@ jobs:
           zola build
           cp public/feed.xml public/feed.rss
 
-      - name: Validate RSS feed (W3C)
-        run: |
-          deno run --allow-net scripts/validate-feed-w3c.ts \
-            "https://validator.w3.org/feed/check.cgi?url=https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}/public/feed.rss"
-        continue-on-error: true
-
-  comment-on-episode-change:
-    runs-on: ubuntu-latest
-    if: contains(github.event.pull_request.changed_files, 'episodes/')
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Post Podbase validator link
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const podbaseURL = `https://podba.se/?url=https://raw.githubusercontent.com/${context.repo.owner}/${context.repo.repo}/${context.sha}/public/feed.rss`;
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `This PR changes episode files. Please also check [podbase's feed validator](${podbaseURL}) after the build completes.`
-            });
+      - name: Validate RSS feed
+        run: deno run --allow-read scripts/validate-feed.ts
