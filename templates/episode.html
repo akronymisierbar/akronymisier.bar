@@ -99,6 +99,152 @@ endblock description %} {% block head %}
             background: #2a2a2a;
         }
     }
+
+    .fediverse-interactions {
+        margin-top: 3rem;
+        padding-top: 2rem;
+        border-top: 1px solid #ddd;
+    }
+
+    .interaction-stats {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .stat-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .stat-label {
+        font-size: 0.875rem;
+        color: #666;
+        font-weight: 500;
+    }
+
+    .avatars {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.25rem;
+    }
+
+    .avatars img {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        background: #eee;
+    }
+
+    .avatars .more-count {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #ddd;
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: #666;
+    }
+
+    .replies {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .reply {
+        padding: 1rem;
+        background: #f5f5f5;
+        border-radius: 8px;
+    }
+
+    .reply-header {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-bottom: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    .reply-header img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #ddd;
+    }
+
+    .reply-header a {
+        font-weight: 600;
+    }
+
+    .reply-header time {
+        color: #666;
+        font-size: 0.875rem;
+        margin-left: auto;
+    }
+
+    .reply-content {
+        line-height: 1.5;
+    }
+
+    .reply-content p {
+        margin: 0.5rem 0;
+    }
+
+    .reply-content p:first-child {
+        margin-top: 0;
+    }
+
+    .reply-content a {
+        word-break: break-word;
+    }
+
+    .discuss-link {
+        margin-top: 1.5rem;
+    }
+
+    .fediverse-error {
+        color: #666;
+        font-style: italic;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .fediverse-interactions {
+            border-top-color: #444;
+        }
+
+        .stat-label {
+            color: #aaa;
+        }
+
+        .avatars img {
+            border-color: #1a1a1a;
+            background: #333;
+        }
+
+        .avatars .more-count {
+            background: #444;
+            color: #aaa;
+        }
+
+        .reply {
+            background: #2a2a2a;
+        }
+
+        .reply-header time {
+            color: #aaa;
+        }
+
+        .fediverse-error {
+            color: #aaa;
+        }
+    }
 </style>
 {% endblock head %} {% block header %} {# Remove header content - we'll put
 everything in the content block #} {% endblock header %} {% block content %} {#
@@ -177,39 +323,29 @@ episode_number = episode_num | int %} {% endif %}
     </div>
 
     {% if page.extra.social_interact %}
-    <div class="social-interact">
+    <div class="fediverse-interactions" id="fediverse-interactions" data-url="{{ page.extra.social_interact | safe }}">
         <h2>Diskussion</h2>
-        <p>
-            Diskutiere diese Folge auf Mastodon:
-            <a
-                href="{{ page.extra.social_interact }}"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Zur Diskussion →
+
+        <div class="interaction-stats" id="interaction-stats">
+            <div class="stat-group" id="boosts-group" style="display: none">
+                <span class="stat-label">Geteilt von</span>
+                <div class="avatars" id="boost-avatars"></div>
+            </div>
+            <div class="stat-group" id="favorites-group" style="display: none">
+                <span class="stat-label">Favorisiert von</span>
+                <div class="avatars" id="favorite-avatars"></div>
+            </div>
+        </div>
+
+        <div class="replies" id="replies"></div>
+
+        <p class="discuss-link">
+            <a href="{{ page.extra.social_interact }}" target="_blank" rel="noopener noreferrer">
+                Auf Mastodon antworten →
             </a>
         </p>
     </div>
     {% endif %}
-
-    <div id="giscus-comments">
-        <script
-            src="https://giscus.app/client.js"
-            data-repo="akronymisierbar/akronymisier.bar"
-            data-repo-id="R_kgDOJzcCqA"
-            data-category="Announcements"
-            data-category-id="DIC_kwDOJzcCqM4CXdbE"
-            data-mapping="pathname"
-            data-strict="0"
-            data-reactions-enabled="1"
-            data-emit-metadata="0"
-            data-input-position="bottom"
-            data-theme="preferred_color_scheme"
-            data-lang="de"
-            crossorigin="anonymous"
-            async
-        ></script>
-    </div>
 </article>
 
 <script>
@@ -312,5 +448,121 @@ episode_number = episode_num | int %} {% endif %}
 
         return hh + ":" + mm + ":" + ss;
     }
+
+    // Fediverse interactions
+    (async function loadFediverseInteractions() {
+        const container = document.getElementById("fediverse-interactions");
+        if (!container) return;
+
+        const socialUrl = container.dataset.url;
+        if (!socialUrl) return;
+
+        // Parse Mastodon URL to extract instance and status ID
+        // Supports: https://instance.tld/@user/123 and https://instance.tld/users/user/statuses/123
+        const match = socialUrl.match(/https?:\/\/([^\/]+)\/(?:@[^\/]+\/|users\/[^\/]+\/statuses\/)(\d+)/);
+        if (!match) {
+            console.log("Could not parse Fediverse URL:", socialUrl);
+            return;
+        }
+
+        const [, instance, statusId] = match;
+
+        function escapeHtml(text) {
+            const div = document.createElement("div");
+            div.textContent = text || "";
+            return div.innerHTML;
+        }
+
+        function sanitizeHtml(html) {
+            const div = document.createElement("div");
+            div.innerHTML = html || "";
+            // Remove potentially dangerous elements and attributes
+            div.querySelectorAll("script, style, iframe, object, embed").forEach(el => el.remove());
+            div.querySelectorAll("*").forEach(el => {
+                for (const attr of [...el.attributes]) {
+                    if (attr.name.startsWith("on") || attr.name === "style") {
+                        el.removeAttribute(attr.name);
+                    }
+                }
+            });
+            return div.innerHTML;
+        }
+
+        function renderAvatars(accounts, containerId, groupId) {
+            const container = document.getElementById(containerId);
+            const group = document.getElementById(groupId);
+            if (!accounts || accounts.length === 0) return;
+
+            group.style.display = "flex";
+            const maxAvatars = 12;
+
+            accounts.slice(0, maxAvatars).forEach(account => {
+                const img = document.createElement("img");
+                img.src = account.avatar_static || account.avatar;
+                img.alt = account.display_name || account.username;
+                img.title = account.display_name || account.username;
+                img.loading = "lazy";
+                container.appendChild(img);
+            });
+
+            if (accounts.length > maxAvatars) {
+                const more = document.createElement("span");
+                more.className = "more-count";
+                more.textContent = "+" + (accounts.length - maxAvatars);
+                more.title = (accounts.length - maxAvatars) + " weitere";
+                container.appendChild(more);
+            }
+        }
+
+        function renderReplies(descendants) {
+            const container = document.getElementById("replies");
+            if (!descendants || descendants.length === 0) return;
+
+            descendants.forEach(reply => {
+                const article = document.createElement("article");
+                article.className = "reply";
+
+                const date = new Date(reply.created_at);
+                const dateStr = date.toLocaleDateString("de-DE", {
+                    day: "numeric",
+                    month: "short",
+                    year: "numeric"
+                });
+
+                article.innerHTML = `
+                    <div class="reply-header">
+                        <img src="${escapeHtml(reply.account.avatar_static || reply.account.avatar)}" alt="" loading="lazy">
+                        <a href="${escapeHtml(reply.account.url)}" target="_blank" rel="noopener noreferrer">
+                            ${escapeHtml(reply.account.display_name || reply.account.username)}
+                        </a>
+                        <time datetime="${reply.created_at}">${dateStr}</time>
+                    </div>
+                    <div class="reply-content">${sanitizeHtml(reply.content)}</div>
+                `;
+                container.appendChild(article);
+            });
+        }
+
+        try {
+            const apiBase = `https://${instance}/api/v1/statuses/${statusId}`;
+
+            const [context, favoritedBy, rebloggedBy] = await Promise.all([
+                fetch(`${apiBase}/context`).then(r => r.ok ? r.json() : null),
+                fetch(`${apiBase}/favourited_by`).then(r => r.ok ? r.json() : null),
+                fetch(`${apiBase}/reblogged_by`).then(r => r.ok ? r.json() : null)
+            ]);
+
+            renderAvatars(rebloggedBy, "boost-avatars", "boosts-group");
+            renderAvatars(favoritedBy, "favorite-avatars", "favorites-group");
+
+            if (context && context.descendants) {
+                renderReplies(context.descendants);
+            }
+        } catch (error) {
+            console.log("Could not load Fediverse interactions:", error);
+            const repliesContainer = document.getElementById("replies");
+            repliesContainer.innerHTML = '<p class="fediverse-error">Interaktionen konnten nicht geladen werden.</p>';
+        }
+    })();
 </script>
 {% endblock content %}
