@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <atom:link href="{{ feed_url | safe }}" rel="self" title="MP3 Audio" type="application/atom+xml"/>
+    <atom:link href="https://simplecast.superfeedr.com/" rel="hub" xmlns="http://www.w3.org/2005/Atom"/>
+    <generator>Zola</generator>
+    
+    <title>{{ config.title }}</title>
+    <description>{{ config.description }}</description>
+    <language>{{ lang }}</language>
+    
+    <podcast:guid>{{ config.extra.podcast_guid }}</podcast:guid>
+    <podcast:locked owner="{{ config.extra.podcast_email }}">{% if config.extra.podcast_locked %}yes{% else %}no{% endif %}</podcast:locked>
+    <podcast:funding url="{{ config.extra.podcast_funding_url }}">Liberapay</podcast:funding>
+    {% for host in config.extra.hosts %}
+    <podcast:person href="{{ host.url }}" img="{{ host.img }}">{{ host.name }}</podcast:person>
+    {% endfor %}
+    <podcast:location>{{ config.extra.podcast_location }}</podcast:location>
+    {% if config.extra.podcast_block_spotify %}
+    <podcast:block id="spotify">yes</podcast:block>
+    {% endif %}
+    
+    <pubDate>{{ last_updated | date(format="%a, %d %b %Y %H:%M:%S %z") }}</pubDate>
+    <lastBuildDate>{{ last_updated | date(format="%a, %d %b %Y %H:%M:%S %z") }}</lastBuildDate>
+    
+    <image>
+      <link>{{ config.base_url }}</link>
+      <title>{{ config.title }}</title>
+      <url>{{ config.base_url }}/images/logo.jpg</url>
+    </image>
+    <link>{{ config.base_url }}</link>
+    
+    <itunes:type>episodic</itunes:type>
+    <itunes:summary>{{ config.description }}</itunes:summary>
+    <itunes:author>{{ config.extra.hosts[1].name }} &amp; {{ config.extra.hosts[0].name }}</itunes:author>
+    <itunes:explicit>{% if config.extra.podcast_explicit %}yes{% else %}no{% endif %}</itunes:explicit>
+    <itunes:image href="{{ config.base_url }}/images/logo.jpg"/>
+    <itunes:new-feed-url>{{ feed_url | safe }}</itunes:new-feed-url>
+    <itunes:keywords>{{ config.extra.podcast_keywords }}</itunes:keywords>
+    <itunes:owner>
+      <itunes:name>Akronymisierbar</itunes:name>
+      <itunes:email>{{ config.extra.podcast_email }}</itunes:email>
+    </itunes:owner>
+    <itunes:category text="{{ config.extra.podcast_category }}"/>
+    <itunes:category text="{{ config.extra.podcast_subcategory }}"/>
+    
+    {% for page in pages %}
+    {% set episode_num = page.slug %}
+    {% set base_url = config.extra.episode_base_url %}
+    
+    {# Handle audio URL #}
+    {% if page.extra.audio_url %}
+      {% set audio_url = page.extra.audio_url %}
+    {% else %}
+      {% set audio_url = base_url ~ "/" ~ episode_num ~ ".mp3" %}
+    {% endif %}
+    
+    {# Handle chapters URL #}
+    {% if page.extra.chapters_url %}
+      {% set chapters_url = page.extra.chapters_url %}
+    {% else %}
+      {% set chapters_url = base_url ~ "/" ~ episode_num ~ ".chapters.json" %}
+    {% endif %}
+    
+    {# Handle episode number #}
+    {% if page.extra.episode_number %}
+      {% set episode_number = page.extra.episode_number %}
+    {% else %}
+      {% set episode_number = episode_num | int %}
+    {% endif %}
+    <item>
+      <guid isPermaLink="false">{{ page.extra.guid }}</guid>
+      <title>{{ page.title }}</title>
+      <description>{{ page.extra.description }}</description>
+      <pubDate>{{ page.date | date(format="%a, %d %b %Y %H:%M:%S %z") }}</pubDate>
+      <author>{{ config.extra.podcast_email }} (Akronymisierbar)</author>
+      <link>{{ page.permalink }}</link>
+      <content:encoded><![CDATA[{{ page.content | safe }}]]></content:encoded>
+      <enclosure length="{{ page.extra.audio_length }}" type="audio/mpeg" url="{{ audio_url }}"/>
+      <itunes:title>{{ page.title }}</itunes:title>
+      <itunes:author>Akronymisierbar</itunes:author>
+      <itunes:duration>{{ page.extra.duration }}</itunes:duration>
+      <itunes:summary>{{ page.extra.description }}</itunes:summary>
+      <itunes:subtitle>{{ page.extra.description }}</itunes:subtitle>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>{{ episode_number }}</itunes:episode>
+      {% if page.extra.chapters_url or chapters_url %}
+      <podcast:chapters url="{{ chapters_url }}" type="application/json+chapters" />
+      {% endif %}
+      {% if page.extra.social_interact %}
+      <podcast:socialInteract uri="{{ page.extra.social_interact }}" protocol="activitypub" accountId="@akronymisierbar" accountUrl="{{ config.extra.mastodon_url }}" />
+      {% endif %}
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

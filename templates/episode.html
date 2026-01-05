@@ -1,0 +1,316 @@
+{% extends "base.html" %} {% block title %}{{ page.title }} - {{ config.title
+}}{% endblock title %} {% block description %}{{ page.extra.description }}{%
+endblock description %} {% block head %}
+<style>
+    .episode-title-row {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .episode-title-row h1 {
+        margin: 0;
+        flex: 1;
+    }
+
+    .back-button {
+        display: flex;
+        align-items: center;
+        color: inherit;
+    }
+
+    .back-button svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .episode-cover {
+        width: 100%;
+        max-width: 600px;
+        display: block;
+        margin: 2rem auto;
+        border-radius: 8px;
+    }
+
+    .audio-player {
+        margin: 2rem 0;
+        background: #f5f5f5;
+        border-radius: 8px;
+        padding: 1rem;
+    }
+
+    audio {
+        width: 100%;
+    }
+
+    .chapter-marks {
+        margin-top: 1rem;
+    }
+
+    .chapter-marks summary {
+        cursor: pointer;
+        font-weight: bold;
+        padding: 0.5rem 0;
+    }
+
+    .chapter-button {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 0.5rem;
+        margin: 0.25rem 0;
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+        font-size: 0.875rem;
+    }
+
+    .chapter-button:hover {
+        background: #e9e9e9;
+    }
+
+    .transcript {
+        margin: 2rem 0;
+        padding: 1rem;
+        background: #f9f9f9;
+        border-radius: 8px;
+        max-height: 400px;
+        overflow-y: auto;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .audio-player {
+            background: #2a2a2a;
+        }
+
+        .chapter-button {
+            background: #2a2a2a;
+            border-color: #444;
+        }
+
+        .chapter-button:hover {
+            background: #333;
+        }
+
+        .transcript {
+            background: #2a2a2a;
+        }
+    }
+</style>
+{% endblock head %} {% block header %} {# Remove header content - we'll put
+everything in the content block #} {% endblock header %} {% block content %} {#
+Derive episode data from slug #} {% set episode_num = page.slug %} {% set
+base_url = config.extra.episode_base_url %} {# Handle audio URL #} {% if
+page.extra.audio_url %} {% set audio_url = page.extra.audio_url %} {% else %} {%
+set audio_url = base_url ~ "/" ~ episode_num ~ ".mp3" %} {% endif %} {# Handle
+chapters URL #} {% if page.extra.chapters_url %} {% set chapters_url =
+page.extra.chapters_url %} {% else %} {% set chapters_url = base_url ~ "/" ~
+episode_num ~ ".chapters.json" %} {% endif %} {# Handle transcript URL #} {% if
+page.extra.transcript_vtt %} {% set transcript_vtt = page.extra.transcript_vtt
+%} {% else %} {% set transcript_vtt = base_url ~ "/" ~ episode_num ~ ".vtt" %}
+{% endif %} {# Handle episode number #} {% if page.extra.episode_number %} {%
+set episode_number = page.extra.episode_number %} {% else %} {% set
+episode_number = episode_num | int %} {% endif %}
+
+<article>
+    {# Title with back button #}
+    <div class="episode-title-row">
+        <a href="/episodes/" class="back-button">
+            <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+            >
+                <path d="M19 12H5M12 19l-7-7 7-7" />
+            </svg>
+        </a>
+        <h1>{{ page.title }}</h1>
+    </div>
+
+    {# Date and duration #}
+    <p class="episode-details">
+        <span class="date">{{ page.date | date(format="%d.%m.%Y") }}</span> ·
+        <span class="duration">{{ page.extra.duration }}</span>
+    </p>
+
+    {# Cover image #} {% if page.extra.cover_image %}
+    <img
+        class="episode-cover"
+        src="{{ page.extra.cover_image }}"
+        alt="Cover art for {{ page.title }}"
+    />
+    {% else %}
+    <img
+        class="episode-cover"
+        src="/images/logo512.png"
+        alt="Akronymisierbar Podcast Logo"
+    />
+    {% endif %} {# Audio player #}
+    <div class="audio-player">
+        <audio controls preload="metadata" id="audio-player">
+            <source src="{{ audio_url }}" type="audio/mpeg" />
+            Dein Browser unterstützt das Audio-Element nicht.
+        </audio>
+
+        <div class="chapter-marks" id="chapter-marks" style="display: none">
+            <details>
+                <summary>Kapitelmarken</summary>
+                <div id="chapters-list">Lade Kapitelmarken...</div>
+            </details>
+        </div>
+    </div>
+
+    {% if page.extra.description %}
+    <p class="summary">{{ page.extra.description }}</p>
+    {% endif %}
+
+    <h2>Shownotes</h2>
+    <div class="episode-content">{{ page.content | safe }}</div>
+
+    <div class="transcript" id="transcript" style="display: none">
+        <h2>Transkript</h2>
+        <div id="transcript-content">Lade Transkript...</div>
+    </div>
+
+    {% if page.extra.social_interact %}
+    <div class="social-interact">
+        <h2>Diskussion</h2>
+        <p>
+            Diskutiere diese Folge auf Mastodon:
+            <a
+                href="{{ page.extra.social_interact }}"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Zur Diskussion →
+            </a>
+        </p>
+    </div>
+    {% endif %}
+
+    <div id="giscus-comments">
+        <script
+            src="https://giscus.app/client.js"
+            data-repo="akronymisierbar/akronymisier.bar"
+            data-repo-id="R_kgDOJzcCqA"
+            data-category="Announcements"
+            data-category-id="DIC_kwDOJzcCqM4CXdbE"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="bottom"
+            data-theme="preferred_color_scheme"
+            data-lang="de"
+            crossorigin="anonymous"
+            async
+        ></script>
+    </div>
+</article>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const audioPlayer = document.getElementById("audio-player");
+        const chaptersUrl = "{{ chapters_url }}";
+        const transcriptUrl = "{{ transcript_vtt }}";
+
+        // Load and display chapter marks
+        fetch(chaptersUrl)
+            .then((response) => {
+                if (!response.ok) throw new Error("Chapters not found");
+                return response.json();
+            })
+            .then((data) => {
+                const chapterMarks = document.getElementById("chapter-marks");
+                const chaptersList = document.getElementById("chapters-list");
+                chaptersList.innerHTML = "";
+
+                data.chapters.forEach((chapter) => {
+                    const button = document.createElement("button");
+                    button.className = "chapter-button";
+                    button.textContent =
+                        formatTime(chapter.startTime) + " - " + chapter.title;
+                    button.onclick = () => {
+                        audioPlayer.currentTime = chapter.startTime;
+                        audioPlayer.play();
+                    };
+                    chaptersList.appendChild(button);
+                });
+
+                chapterMarks.style.display = "block";
+            })
+            .catch((error) => {
+                console.log("Chapter marks not available");
+            });
+
+        // Load and display transcript
+        fetch(transcriptUrl)
+            .then((response) => {
+                if (!response.ok) throw new Error("Transcript not found");
+                return response.text();
+            })
+            .then((vttContent) => {
+                const transcript = document.getElementById("transcript");
+                const transcriptContent =
+                    document.getElementById("transcript-content");
+
+                // Parse VTT and display as text
+                const lines = vttContent.split("\n");
+                let text = "";
+                let inCue = false;
+
+                for (const line of lines) {
+                    if (line.includes("-->")) {
+                        inCue = true;
+                    } else if (inCue && line.trim() === "") {
+                        inCue = false;
+                        text += "\n";
+                    } else if (inCue && line.trim() !== "") {
+                        text += line + " ";
+                    }
+                }
+
+                transcriptContent.textContent = text;
+                transcript.style.display = "block";
+            })
+            .catch((error) => {
+                console.log("Transcript not available");
+            });
+
+        // Remember playback position
+        const episodeId = "{{ page.slug }}";
+        const savedPosition = localStorage.getItem("position-" + episodeId);
+
+        if (savedPosition) {
+            audioPlayer.currentTime = parseFloat(savedPosition);
+        }
+
+        audioPlayer.addEventListener("timeupdate", function () {
+            localStorage.setItem(
+                "position-" + episodeId,
+                audioPlayer.currentTime,
+            );
+        });
+
+        audioPlayer.addEventListener("ended", function () {
+            localStorage.removeItem("position-" + episodeId);
+        });
+    });
+
+    function formatTime(seconds) {
+        const h = Math.floor(seconds / 3600);
+        const m = Math.floor((seconds % 3600) / 60);
+        const s = Math.floor(seconds % 60);
+
+        const hh = h.toString().padStart(2, "0");
+        const mm = m.toString().padStart(2, "0");
+        const ss = s.toString().padStart(2, "0");
+
+        return hh + ":" + mm + ":" + ss;
+    }
+</script>
+{% endblock content %}

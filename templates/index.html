@@ -1,0 +1,120 @@
+{% extends "base.html" %} {% block content %}
+<div class="intro">
+    <p>
+        Podcast von und mit
+        <a
+            href="{{ config.extra.hosts[0].url }}"
+            target="_blank"
+            rel="noreferrer"
+            >{{ config.extra.hosts[0].name }}</a
+        >
+        und
+        <a
+            href="{{ config.extra.hosts[1].url }}"
+            target="_blank"
+            rel="noreferrer"
+            >{{ config.extra.hosts[1].name }}</a
+        >. Geballtes gefährliches Halbwissen zu allem rund um
+        Programmiersprachen, Messengern und anderen (meist technischen) Themen,
+        die uns spontan einfallen.
+    </p>
+</div>
+
+<div class="episodes-title-container">
+    <h2>Neueste Folgen</h2>
+    <div class="search-container">
+        <input type="text" id="search" placeholder="Suche..." name="search" />
+        <button
+            class="clear-search-button"
+            id="clear-search"
+            style="display: none"
+        >
+            <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+            >
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="15" y1="9" x2="9" y2="15"></line>
+                <line x1="9" y1="9" x2="15" y2="15"></line>
+            </svg>
+        </button>
+    </div>
+</div>
+
+<div id="episodes-list">
+    {% set episodes = get_section(path="episodes/_index.md") %} {% for page in
+    episodes.pages | slice(end=10) %}
+    <div
+        class="episode-item"
+        data-search="{{ page.title | lower }} {{ page.extra.description | lower }}"
+    >
+        <div class="episode-item-content">
+            <a href="{{ page.permalink }}" class="episode-thumb-link">
+                {% if page.extra.cover_image %}
+                <img
+                    class="episode-thumb"
+                    src="{{ page.extra.cover_image }}"
+                    alt="Cover for {{ page.title }}"
+                />
+                {% else %}
+                <img
+                    class="episode-thumb"
+                    src="/images/logo512.png"
+                    alt="Podcast logo"
+                />
+                {% endif %}
+            </a>
+            <div class="episode-info">
+                <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
+                <p class="summary">{{ page.extra.description }}</p>
+                <p class="episode-details">
+                    <span class="date"
+                        >{{ page.date | date(format="%d.%m.%Y") }}</span
+                    >
+                    ·
+                    <span class="duration">{{ page.extra.duration }}</span>
+                </p>
+            </div>
+        </div>
+        <hr />
+    </div>
+    {% endfor %}
+</div>
+
+<div class="more-episodes">
+    <a href="/episodes/" class="btn">Alle Episoden anzeigen →</a>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const searchInput = document.getElementById("search");
+        const clearButton = document.getElementById("clear-search");
+        const episodesList = document.getElementById("episodes-list");
+        const episodes = episodesList.querySelectorAll(".episode-item");
+
+        searchInput.addEventListener("input", function () {
+            const query = this.value.toLowerCase();
+            clearButton.style.display = query ? "block" : "none";
+
+            episodes.forEach((episode) => {
+                const searchData = episode.dataset.search;
+                episode.style.display = searchData.includes(query)
+                    ? "block"
+                    : "none";
+            });
+        });
+
+        clearButton.addEventListener("click", function () {
+            searchInput.value = "";
+            clearButton.style.display = "none";
+            episodes.forEach((episode) => {
+                episode.style.display = "block";
+            });
+        });
+    });
+</script>
+{% endblock content %}

@@ -1,0 +1,33 @@
+name: Validate PR
+
+on:
+  pull_request:
+    branches: ["**"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Setup Zola
+        uses: taiki-e/install-action@v2
+        with:
+          tool: zola@0.19.2
+
+      - name: Validate episodes
+        run: deno run --allow-read --allow-net scripts/validate-episode.ts
+
+      - name: Build site
+        run: |
+          zola build
+          cp public/feed.xml public/feed.rss
+
+      - name: Validate RSS feed
+        run: deno run --allow-read scripts/validate-feed.ts
