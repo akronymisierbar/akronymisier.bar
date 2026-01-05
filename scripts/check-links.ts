@@ -28,6 +28,22 @@ interface EpisodeResult {
   links: LinkResult[];
 }
 
+const SKIP_DOMAINS = [
+  // Always reports 503, and also we don't need to hammer a good service.
+  "xcancel.com",
+];
+
+function shouldSkipUrl(url: string): boolean {
+  try {
+    const hostname = new URL(url).hostname;
+    return SKIP_DOMAINS.some(
+      (domain) => hostname === domain || hostname.endsWith(`.${domain}`),
+    );
+  } catch {
+    return false;
+  }
+}
+
 function extractUrls(content: string): string[] {
   const urls = new Set<string>();
 
@@ -37,7 +53,9 @@ function extractUrls(content: string): string[] {
   while ((match = angleBracketLinkRegex.exec(content)) !== null) {
     const url = match[1].trim();
     if (url.startsWith("http://") || url.startsWith("https://")) {
-      urls.add(url);
+      if (!shouldSkipUrl(url)) {
+        urls.add(url);
+      }
     }
   }
 
@@ -46,14 +64,19 @@ function extractUrls(content: string): string[] {
   while ((match = standardLinkRegex.exec(content)) !== null) {
     const url = match[1].trim();
     if (url.startsWith("http://") || url.startsWith("https://")) {
-      urls.add(url);
+      if (!shouldSkipUrl(url)) {
+        urls.add(url);
+      }
     }
   }
 
   // Match bare URLs not inside markdown link syntax
   const bareUrlRegex = /(?<![[(])https?:\/\/[^\s<>"'\]]+/g;
   while ((match = bareUrlRegex.exec(content)) !== null) {
-    urls.add(match[0]);
+    const url = match[0];
+    if (!shouldSkipUrl(url)) {
+      urls.add(url);
+    }
   }
 
   return [...urls];
@@ -116,7 +139,7 @@ async function checkUrl(url: string): Promise<LinkResult> {
 
 async function checkUrlsWithConcurrency(
   urls: string[],
-  concurrency: number
+  concurrency: number,
 ): Promise<LinkResult[]> {
   const results: LinkResult[] = [];
   const queue = [...urls];
@@ -181,7 +204,7 @@ async function main() {
   const args = Deno.args;
   const changedOnly = args.includes("--changed-only");
   const specificFiles = args.filter(
-    (a) => a.endsWith(".md") && !a.startsWith("--")
+    (a) => a.endsWith(".md") && !a.startsWith("--"),
   );
 
   let filesToCheck: string[] = [];
@@ -193,16 +216,19 @@ async function main() {
       return;
     }
     filesToCheck = changed.map((f) =>
-      f.startsWith("content/") ? f : `content/episodes/${f}`
+      f.startsWith("content/") ? f : `content/episodes/${f}`,
     );
     console.log(`Checking ${filesToCheck.length} changed episode(s)...\n`);
   } else if (specificFiles.length > 0) {
     filesToCheck = specificFiles.map((f) =>
-      f.includes("/") ? f : `${EPISODES_DIR}/${f}`
+      f.includes("/") ? f : `${EPISODES_DIR}/${f}`,
     );
     console.log(`Checking ${filesToCheck.length} specified episode(s)...\n`);
   } else {
-    for await (const entry of walk(EPISODES_DIR, { exts: [".md"], maxDepth: 1 })) {
+    for await (const entry of walk(EPISODES_DIR, {
+      exts: [".md"],
+      maxDepth: 1,
+    })) {
       if (entry.name === "_index.md") continue;
       filesToCheck.push(entry.path);
     }
@@ -217,7 +243,7 @@ async function main() {
     allResults.push(result);
 
     const broken = result.links.filter(
-      (l) => l.status === "error" || l.status === "timeout"
+      (l) => l.status === "error" || l.status === "timeout",
     );
 
     if (broken.length > 0) {
@@ -238,12 +264,17 @@ async function main() {
 
   const totalLinks = allResults.reduce((sum, r) => sum + r.links.length, 0);
   const okLinks = allResults.reduce(
-    (sum, r) => sum + r.links.filter((l) => l.status === "ok" || l.status === "redirect").length,
-    0
+    (sum, r) =>
+      sum +
+      r.links.filter((l) => l.status === "ok" || l.status === "redirect")
+        .length,
+    0,
   );
 
   console.log("---");
-  console.log(`Checked ${totalLinks} links across ${filesToCheck.length} episodes`);
+  console.log(
+    `Checked ${totalLinks} links across ${filesToCheck.length} episodes`,
+  );
   console.log(`${okLinks} OK, ${totalBroken} broken`);
 
   if (totalBroken > 0) {
