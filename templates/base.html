@@ -26,7 +26,7 @@
             rel="alternate"
             type="application/rss+xml"
             title="{{ config.title }}"
-            href="{{ get_url(path='rss.xml') }}"
+            href="{{ get_url(path='feed.rss') }}"
         />
 
         {% block head %}{% endblock head %}
@@ -37,7 +37,7 @@
             <header>
                 <nav class="links">
                     <ul>
-                        <li><a href="/rss.xml">RSS</a></li>
+                        <li><a href="/feed.rss">RSS</a></li>
                         <li>
                             <a
                                 href="{{ config.extra.itunes_url }}"
