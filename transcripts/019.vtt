@@ -1,0 +1,6992 @@
+WEBVTT
+
+00:00:00.760 --> 00:00:06.400
+Du sagst mal, Kilian, jetzt wo GitHub sich von Microsoft kaufen lässt, wollen wir uns nicht einfach an den Pridlov verkaufen?
+
+00:00:07.600 --> 00:00:09.340
+Kriegen wir 7,5 Milliarden für unseren Podcast?
+
+00:00:09.920 --> 00:00:11.180
+Ich weiß nicht, wie viel macht man denn mit Flatter?
+
+00:00:12.920 --> 00:00:16.760
+Wie viel macht man denn überhaupt mit Flatter? Verdient man da Geld? Kriegt man da Cents rein?
+
+00:00:17.740 --> 00:00:18.840
+Kann auch immer davon leben, oder?
+
+00:00:18.840 --> 00:00:21.500
+Ganzer Euros über Flatter?
+
+00:00:22.300 --> 00:00:24.900
+Ich kann mir das irgendwie schwer nicht vorstellen, aber bestimmt, wenn man populär ist.
+
+00:00:25.260 --> 00:00:27.340
+Ist wahrscheinlich der Einzige, der bei Flatter was verdient.
+
+00:00:36.940 --> 00:00:38.360
+Das ist schön, dich mit dem Kauen zu hören.
+
+00:00:38.810 --> 00:00:38.920
+Genau.
+
+00:00:40.000 --> 00:00:41.400
+Du kannst auch Neuseio, oder?
+
+00:00:41.570 --> 00:00:42.720
+Diese Hintergrundgeräusche.
+
+00:00:43.010 --> 00:00:45.320
+Oder generell so Generatoren für Backgrounds,
+
+00:00:45.320 --> 00:00:47.500
+also Kaffee-Geräusche oder Krams.
+
+00:00:48.160 --> 00:00:49.520
+Coffee-Tivity heißt das.
+
+00:00:50.020 --> 00:00:50.640
+Gibt es verschiedene.
+
+00:00:50.810 --> 00:00:53.460
+Ich hätte gerne dich kauen im Hintergrund.
+
+00:00:53.460 --> 00:00:54.860
+Das ist so ein sehr beruhigendes Geräusch.
+
+00:00:55.080 --> 00:00:55.960
+Das willst du nicht.
+
+00:00:56.380 --> 00:01:03.820
+Ich habe mal versucht, im Vapiano einfach die Hintergrundgeräusche aufzunehmen, weil es da relativ gleichmäßig gelabert hat.
+
+00:01:05.120 --> 00:01:07.120
+Aber da bräuchte ich, glaube ich, ein besseres Audio-Acquadment.
+
+00:01:08.040 --> 00:01:08.360
+Gut, okay.
+
+00:01:09.040 --> 00:01:09.520
+Hi, Kilian!
+
+00:01:09.630 --> 00:01:10.160
+Hey, Hendrik!
+
+00:01:10.760 --> 00:01:13.020
+Ja, willkommen zur Akronomisierbar Folge 19.
+
+00:01:13.040 --> 00:01:14.140
+019, genau.
+
+00:01:14.920 --> 00:01:20.700
+Die letzte Folge haben wir ja zwei Folgen an zwei aufeinanderfolgenden Tagen aufgenommen.
+
+00:01:20.860 --> 00:01:22.540
+hatten wir so ein leichtes Missverständnis, weil ich die
+
+00:01:22.640 --> 00:01:24.680
+dann, die zweite dann irgendwann fertig geschnitten
+
+00:01:24.860 --> 00:01:26.640
+habe und du die sofort veröffentlicht hattest.
+
+00:01:26.980 --> 00:01:28.540
+Ich dachte, wir könnten die vielleicht benutzen, um so ein bisschen
+
+00:01:28.700 --> 00:01:30.600
+Puffer aufzubauen. Achso, du wolltest
+
+00:01:30.640 --> 00:01:32.620
+da, ah, okay, das, okay.
+
+00:01:33.100 --> 00:01:33.340
+Ups.
+
+00:01:34.800 --> 00:01:36.260
+Kranker Scheiß. Nee, wir müssen übrigens
+
+00:01:36.760 --> 00:01:38.440
+uns nochmal entschuldigen bei manchen Leuten, die das
+
+00:01:38.540 --> 00:01:40.520
+hoffentlich hören, oder zumindest ich muss mich
+
+00:01:40.660 --> 00:01:42.460
+entschuldigen, ich habe mit dem Umzug,
+
+00:01:43.700 --> 00:01:44.140
+wir haben doch
+
+00:01:44.520 --> 00:01:46.260
+auf Twitter Feedback bekommen, nämlich, dass
+
+00:01:46.460 --> 00:01:48.320
+unsere Domain, dass wir kein SSL-Sert für
+
+00:01:48.400 --> 00:01:49.379
+unsere Domain hatten und
+
+00:01:50.560 --> 00:01:51.620
+keine IPv6-Adresse.
+
+00:01:52.680 --> 00:01:53.560
+Das habe ich jetzt einfach mal
+
+00:01:55.060 --> 00:01:55.660
+Cloudflare vor uns
+
+00:01:55.820 --> 00:01:57.580
+geschaltet. Ja, kann man auch umhaten, aber das war so
+
+00:01:58.360 --> 00:01:59.520
+der einfachste Weg, wurde auch
+
+00:01:59.600 --> 00:02:01.540
+vorgeschlagen und an der Stelle
+
+00:02:01.920 --> 00:02:03.560
+finde ich das nicht schlimm, weil wir
+
+00:02:03.720 --> 00:02:05.140
+sind nur eine Webseite für einen Podcast.
+
+00:02:07.380 --> 00:02:07.740
+Wenn wir
+
+00:02:08.060 --> 00:02:09.679
+irgendwann selber hosten, dann können wir das
+
+00:02:09.840 --> 00:02:11.520
+natürlich machen. Das Blöde daran war bloß, dass
+
+00:02:11.790 --> 00:02:13.220
+ich den Redirect von
+
+00:02:13.380 --> 00:02:15.020
+feed.akronomisier.bar auf den
+
+00:02:15.160 --> 00:02:17.320
+RSS-Feed vergessen hatte und
+
+00:02:17.600 --> 00:02:18.619
+da ein paar Leute, die
+
+00:02:18.640 --> 00:02:21.120
+die die neuesten zwei Folgen nicht mitbekommen hat.
+
+00:02:21.160 --> 00:02:21.920
+Das tut mir sehr leid.
+
+00:02:21.960 --> 00:02:23.860
+Ach, deswegen sind unsere Downloadzahlen so eingebaut.
+
+00:02:25.800 --> 00:02:27.580
+Die haben sich aber mittlerweile auch immer noch nicht erholt.
+
+00:02:27.880 --> 00:02:29.380
+Deswegen frage ich mich,
+
+00:02:29.420 --> 00:02:29.980
+ob es überhaupt jemanden getroffen hat.
+
+00:02:29.980 --> 00:02:32.680
+Ja, wenn du einmal deine Zuhörerschaft verkrault hast, Kian.
+
+00:02:32.780 --> 00:02:33.980
+Ja, aber keine Ahnung.
+
+00:02:34.780 --> 00:02:35.640
+Mittlerweile läuft auch alles wieder.
+
+00:02:36.060 --> 00:02:37.540
+Also seit zwei, drei Wochen oder so.
+
+00:02:38.680 --> 00:02:39.740
+Tut mir leid, das war meine Schuld.
+
+00:02:41.799 --> 00:02:42.440
+Kann passieren.
+
+00:02:43.120 --> 00:02:44.800
+Was ist denn sonst so passiert? Erzähl mal was Positives.
+
+00:02:44.820 --> 00:02:47.180
+Kaum was, oder? Also da war jetzt nichts los die letzten Tage.
+
+00:02:47.360 --> 00:02:48.120
+Gar nichts, ne?
+
+00:02:48.420 --> 00:02:49.240
+seit den letzten zwei Wochen.
+
+00:02:51.400 --> 00:02:52.280
+Das Spektakulärste
+
+00:02:52.440 --> 00:02:54.220
+erstmal vorab, also das Größte, was generell
+
+00:02:54.220 --> 00:02:56.100
+die Welt betroffen hat. Musstest du deine
+
+00:02:56.240 --> 00:02:57.540
+Wohnung aufgrund der Bombenwarnung verlassen?
+
+00:02:58.600 --> 00:03:00.100
+Also ich möchte jetzt nicht zu
+
+00:03:00.320 --> 00:03:02.340
+sehr preisgeben, wo exakt
+
+00:03:02.400 --> 00:03:03.640
+in Dresden ich wohne,
+
+00:03:04.739 --> 00:03:06.060
+aber wenn sie sie
+
+00:03:06.540 --> 00:03:08.300
+200 Meter weiter in eine andere
+
+00:03:08.580 --> 00:03:09.940
+beliebige Himmelsrichtung gefunden hätten,
+
+00:03:10.440 --> 00:03:11.820
+wäre ich evakuiert worden.
+
+00:03:11.820 --> 00:03:13.640
+In eine beliebige Richtung, du wohnst rund um.
+
+00:03:13.660 --> 00:03:14.720
+Ich möchte keine Clues geben.
+
+00:03:16.700 --> 00:03:18.380
+Aber ja, ich wäre
+
+00:03:18.400 --> 00:03:20.240
+betroffen gewesen, aber es war eigentlich ganz witzig. Ich bin morgens
+
+00:03:20.340 --> 00:03:21.760
+aufgewacht und habe aus dem Fenster geschaut. Also nochmal,
+
+00:03:22.150 --> 00:03:24.360
+es war vor kurzem eine der größten
+
+00:03:26.280 --> 00:03:26.640
+Bombenfunde
+
+00:03:26.940 --> 00:03:28.740
+und eine der größten Evakuierungsaktionen
+
+00:03:28.840 --> 00:03:29.680
+in Dresden seit
+
+00:03:31.280 --> 00:03:31.640
+1945.
+
+00:03:33.800 --> 00:03:34.620
+Und ich bin morgens
+
+00:03:34.700 --> 00:03:36.520
+aufgewacht und es haben sich bereits in meiner kleinen
+
+00:03:36.620 --> 00:03:38.100
+Nebenstraße die Autos gestaut.
+
+00:03:38.800 --> 00:03:40.600
+Ich habe mein Fahrrad aus dem Fahrradkeller
+
+00:03:40.760 --> 00:03:42.160
+geholt und bin gemütlich zur Arbeit gefahren.
+
+00:03:43.440 --> 00:03:44.520
+Es ist schön, mit dem Fahrrad
+
+00:03:44.530 --> 00:03:46.580
+durch die Stadt zu fahren, muss ich immer wieder feststellen.
+
+00:03:47.940 --> 00:03:49.920
+Und wir haben natürlich auf Twitter dann gesagt,
+
+00:03:50.180 --> 00:03:53.120
+ihr könnt bei mir pennen, wenn ihr evakuiert worden seid.
+
+00:03:54.580 --> 00:03:56.620
+Aber das hat sich bei mir keiner gemeldet.
+
+00:03:58.400 --> 00:04:00.580
+Was machst denn du, wenn du Haustiere hast?
+
+00:04:00.810 --> 00:04:02.380
+Du musst ja relativ schnell evakuieren tatsächlich.
+
+00:04:04.880 --> 00:04:08.080
+Deine Katze kommt gleich mal zwei Tage ohne Katzenfutter aus, oder?
+
+00:04:08.320 --> 00:04:10.940
+Ja, aber was hast du denn, wenn du eine Katze oder einen Hund
+
+00:04:10.990 --> 00:04:12.160
+kannst du dir im Notfall auch mitnehmen?
+
+00:04:12.420 --> 00:04:13.860
+Und keine Ahnung, ist halt nicht nervös.
+
+00:04:13.860 --> 00:04:15.060
+Das ist auf jeden Fall nicht angenehm.
+
+00:04:15.240 --> 00:04:17.459
+Aber was machst du, wenn du ein Terrarium hast,
+
+00:04:17.739 --> 00:04:21.239
+wo irgendwas, was sehr fragil ist und schnell stirbt, das...
+
+00:04:21.489 --> 00:04:21.560
+Hä?
+
+00:04:23.000 --> 00:04:24.680
+Was fragil ist, was schnell stirbt?
+
+00:04:24.700 --> 00:04:26.360
+Ja, wenn es schnell stirbt, wenn es nicht gefüttert wird,
+
+00:04:27.360 --> 00:04:30.260
+muss man das einfach da lassen und quasi den Verlust in Kauf hin.
+
+00:04:30.360 --> 00:04:31.280
+Das ist doch voll die Tierkühlerei.
+
+00:04:31.460 --> 00:04:33.540
+Ja, aber wie lange denkst du denn du, dass du evakuiert bist?
+
+00:04:33.690 --> 00:04:35.220
+Ja, du denkst natürlich nicht, dass das zwei Tage dauert.
+
+00:04:35.220 --> 00:04:37.660
+Ja, es kann natürlich sein, dass dir irgendwie die Bombe hochgeht
+
+00:04:37.820 --> 00:04:40.580
+und dann irgendwie 35 Gebäude rundherum einsturzgefährdet sind.
+
+00:04:40.730 --> 00:04:42.380
+Nee, das ist ja generell nicht der Fall bei solchen Bomben.
+
+00:04:42.440 --> 00:04:45.000
+Die haben ja nicht so eine destruktive Kraft.
+
+00:04:45.140 --> 00:04:50.380
+Das Problem ist ja eher, dass die ganzen Scheiben überall im Kreis kaputt gehen und Leute durch Glassplitter halt Schaden nehmen könnten.
+
+00:04:50.740 --> 00:04:52.080
+Ach, das ist das, wovor sie sich...
+
+00:04:52.100 --> 00:04:54.900
+Das Ding hätte nicht mal die Tankstelle, glaube ich, nebenan von dem Fumt.
+
+00:04:55.140 --> 00:04:59.120
+Also vielleicht doch die Tankstelle noch mit, wenn die nicht diese fette Maus mehr rumgebaut hätten.
+
+00:04:59.260 --> 00:05:01.580
+Aber die haben sich schon nicht gerade mit Ruhm bekleckert bei der Entschärfung von dieser Geschichte.
+
+00:05:01.920 --> 00:05:08.260
+Ich kann mich erinnern, also die Geschichte war, die hatten den Zünder der Bombe aus Versehen schon halb reingedrückt.
+
+00:05:08.840 --> 00:05:13.180
+Und dann hatten sie Dämmmaterial rundherum aufgebaut aus Stroh.
+
+00:05:13.260 --> 00:05:21.400
+Und eine Technik, um diese Bombe zu entschärfen, ist, den Zünder mit irgendeiner raketenbetriebenen Schraubvorrichtung abzuschrauben.
+
+00:05:21.900 --> 00:05:31.520
+Was dann natürlich passiert ist, dass durch diese raketenbetriebene Schraubvorrichtung, die den Zünder abschrauben soll,
+
+00:05:32.000 --> 00:05:38.220
+das Dämmaterial, nämlich das trockene Stroh, was er oben draufgelegt hat und dann Feuer gefangen hat, ergo brannte es auf der Bombe.
+
+00:05:38.600 --> 00:05:40.100
+Und als ich das gehört habe, habe ich mir gedacht,
+
+00:05:41.040 --> 00:05:42.580
+oh Mann, aber das war mir gar nicht neu,
+
+00:05:42.740 --> 00:05:44.420
+weil das war irgendwie neulich in München oder
+
+00:05:45.120 --> 00:05:46.360
+Hamburg. Es ist schon mal passiert,
+
+00:05:46.600 --> 00:05:48.800
+dass sie irgendwie, dass sie die
+
+00:05:48.940 --> 00:05:50.840
+Bombe mit irgendwas eingedämmt
+
+00:05:50.900 --> 00:05:52.780
+hatten, was dann einfach Feuer gefangen
+
+00:05:52.920 --> 00:05:54.800
+hat. Dadurch ist ja die Teil-Ditonation
+
+00:05:54.940 --> 00:05:55.680
+dann passiert.
+
+00:05:56.860 --> 00:05:58.340
+Und hat noch gebrannt in den ganzen nächsten Tag,
+
+00:05:58.500 --> 00:06:00.280
+weshalb die Evakuation dann zwei Tage gedauert hat.
+
+00:06:00.699 --> 00:06:02.020
+Zumindest soweit ich das bekommen habe.
+
+00:06:02.180 --> 00:06:04.620
+Kennst du Leute, die betroffen waren? Ja, eine ganze Reihe.
+
+00:06:05.360 --> 00:06:06.600
+Hast du die bei dir unterkommen lassen?
+
+00:06:06.840 --> 00:06:08.060
+Nee, da hat sich auch niemand gemeldet.
+
+00:06:08.260 --> 00:06:10.380
+Die meisten Leute können wahrscheinlich dann auch irgendwie klar sein.
+
+00:06:11.160 --> 00:06:13.340
+Das scheint auch ganz gut geklappt zu haben.
+
+00:06:13.910 --> 00:06:15.840
+Aber es war doch ein riesiger Umkreis von...
+
+00:06:16.270 --> 00:06:17.120
+Also der hier in der...
+
+00:06:17.810 --> 00:06:18.980
+Ein ziemlich großer Teil der Stadt der Betroffenen.
+
+00:06:18.980 --> 00:06:21.720
+Und an dem ersten Tag war gleichzeitig in Dresden noch irgendeine Marathon-Aktion.
+
+00:06:21.980 --> 00:06:25.360
+Da war irgendwie so eine Rewe-Team-Challenge oder sowas.
+
+00:06:25.580 --> 00:06:27.020
+Da sind Leute durch die Stadt gejoggt.
+
+00:06:27.100 --> 00:06:28.700
+Da war dann die andere Hälfte der Stadt abgesperrt.
+
+00:06:30.660 --> 00:06:32.180
+Also wie gesagt, ich habe immer wieder gemerkt,
+
+00:06:32.280 --> 00:06:34.000
+es ist doch praktisch, mit dem Fahrrad zu arbeiten zu fahren.
+
+00:06:35.560 --> 00:06:37.700
+Und nicht unbedingt in dem Teil der Stadt zu wohnen,
+
+00:06:38.000 --> 00:06:38.820
+wo sowas passiert.
+
+00:06:39.840 --> 00:06:42.160
+Ja, na gut, du wohnst natürlich in einem ganz anderen Stadtteil als ich.
+
+00:06:42.600 --> 00:06:44.220
+Ja, aber ich meine, du warst ja auch nicht direkt betroffen.
+
+00:06:44.540 --> 00:06:45.960
+Nee, nee, nee. Wie gesagt, es war
+
+00:06:46.480 --> 00:06:47.860
+knapp, aber es war kein Problem.
+
+00:06:49.000 --> 00:06:49.220
+Krass.
+
+00:06:49.800 --> 00:06:51.700
+Nee, ja, das ist schon
+
+00:06:51.740 --> 00:06:53.940
+in diesem Pad seitdem es
+
+00:06:54.140 --> 00:06:55.760
+passiert. Seitdem du das Pad angelegt
+
+00:06:55.900 --> 00:06:57.560
+hattest und ich das Pad angelegt hatte und wir nicht
+
+00:06:58.360 --> 00:06:59.360
+darüber mit dem anderen...
+
+00:06:59.400 --> 00:07:00.540
+In einem der zwei Pads stand es drin.
+
+00:07:02.100 --> 00:07:03.560
+Ja, wenn wir chronologisch vorgehen,
+
+00:07:03.680 --> 00:07:05.300
+dann müsste man eigentlich noch über die tolle
+
+00:07:05.440 --> 00:07:07.300
+GPG-Vulnerability sprechen.
+
+00:07:07.920 --> 00:07:08.880
+die wir noch nicht abgehakt hatten.
+
+00:07:09.660 --> 00:07:10.660
+Erzähl, ich habe es nicht gelesen.
+
+00:07:11.320 --> 00:07:12.880
+Das war ja das Problem,
+
+00:07:13.320 --> 00:07:15.040
+das rumging, dass E-Mail-Clients
+
+00:07:15.080 --> 00:07:17.040
+nicht ordentlich mit HTML-Mails rumgingen.
+
+00:07:17.040 --> 00:07:17.180
+Ach, die Fail.
+
+00:07:18.720 --> 00:07:20.480
+Das war ja ein Fail für sich, oder?
+
+00:07:21.960 --> 00:07:23.240
+Der Fail an der Sache
+
+00:07:23.380 --> 00:07:24.500
+ist eher die Art und Weise,
+
+00:07:24.540 --> 00:07:25.840
+wie das reported wurde.
+
+00:07:26.400 --> 00:07:27.440
+Die PG ist broken.
+
+00:07:27.900 --> 00:07:29.820
+Das hat nicht wirklich überhaupt was
+
+00:07:29.920 --> 00:07:31.420
+mit der PG an sich zu tun.
+
+00:07:32.120 --> 00:07:33.340
+Ja, vor allem der größte Fail ist,
+
+00:07:33.800 --> 00:07:34.360
+meiner Meinung nach auch,
+
+00:07:34.440 --> 00:07:35.380
+das was Fefe geschrieben hat,
+
+00:07:35.820 --> 00:07:37.140
+nämlich, dass das heiße hier
+
+00:07:37.080 --> 00:07:38.920
+hart rum gehatet, von wegen GPG ist tot
+
+00:07:38.930 --> 00:07:39.440
+und ist Single.
+
+00:07:41.180 --> 00:07:43.140
+Gerade Heise, die kein TLS
+
+00:07:43.320 --> 00:07:44.440
+hatten bis was, vor einer Woche?
+
+00:07:44.630 --> 00:07:46.640
+Moment, Moment, Moment, das ist jetzt Whataboutism, ne?
+
+00:07:48.460 --> 00:07:48.800
+Ja, aber komm,
+
+00:07:49.120 --> 00:07:51.260
+ich mag Heise nicht, ich hab generell Abweichen gegen Heise.
+
+00:07:51.260 --> 00:07:52.840
+Okay, lass uns nicht über Heise reden, sondern
+
+00:07:52.850 --> 00:07:54.580
+lass uns über GPG reden. Also was ist passiert?
+
+00:07:56.160 --> 00:07:56.520
+GPG,
+
+00:07:57.130 --> 00:07:58.060
+die EFF hat
+
+00:08:00.000 --> 00:08:00.720
+angefangen vorzubereiten,
+
+00:08:00.770 --> 00:08:02.480
+oder jemand hat auf Twitter geschrieben, aus Münster,
+
+00:08:02.700 --> 00:08:04.920
+ein Wissenschaftler hatte geschrieben, wir veröffentlichen
+
+00:08:05.080 --> 00:08:07.040
+morgen Informationen darüber, dass GPG
+
+00:08:07.060 --> 00:08:08.840
+sicher ist. Und dann alle
+
+00:08:09.960 --> 00:08:10.780
+und dann ist es irgendwie
+
+00:08:11.080 --> 00:08:12.580
+geleakt, was passiert ist? Und
+
+00:08:13.070 --> 00:08:14.820
+weil es geleakt wurde und die hatten mit der
+
+00:08:14.900 --> 00:08:16.620
+EFF zusammengearbeitet, die Wissenschaftler,
+
+00:08:17.360 --> 00:08:18.760
+hat die EFF dann gesagt, okay, wir
+
+00:08:18.860 --> 00:08:20.260
+veröffentlichen unseren Artikel jetzt schon.
+
+00:08:21.220 --> 00:08:22.860
+Und in dem Artikel hatten sie
+
+00:08:22.860 --> 00:08:24.760
+halt geschrieben, deinstalliert alle eure
+
+00:08:24.980 --> 00:08:27.420
+GPG-E-Mail-Plugins,
+
+00:08:27.700 --> 00:08:28.520
+weil gefährlich.
+
+00:08:30.680 --> 00:08:30.940
+Und
+
+00:08:31.240 --> 00:08:32.620
+die Reaktion von den,
+
+00:08:32.810 --> 00:08:34.800
+zum Beispiel den Entwicklern von den GPG-Tools
+
+00:08:34.940 --> 00:08:36.040
+oder von GPGs selber
+
+00:08:36.920 --> 00:08:39.180
+war dann, oh mein Gott, habt euch nicht so
+
+00:08:39.340 --> 00:08:41.099
+und es ist kein GPG-Problem, es ist ein Problem
+
+00:08:41.640 --> 00:08:43.020
+davon, wie die E-Mail-Clients
+
+00:08:43.070 --> 00:08:44.680
+das implementieren. Und das war
+
+00:08:45.120 --> 00:08:47.140
+an und für sich und die Leute, die Wissenschaftler selber
+
+00:08:47.420 --> 00:08:47.720
+hatten dann
+
+00:08:50.100 --> 00:08:51.040
+Tweets von Leuten,
+
+00:08:51.260 --> 00:08:53.060
+die darüber geredet und spekuliert haben,
+
+00:08:53.520 --> 00:08:55.160
+einfach beantwortet mit, bitte schreibt
+
+00:08:55.160 --> 00:08:56.440
+nicht darüber, wir erzählen morgen alles.
+
+00:08:56.780 --> 00:08:58.420
+Das ist das Ding. Oh Gott.
+
+00:08:58.580 --> 00:09:00.920
+Es war alles ein bisschen dimmig. Im Endeffekt, was passiert?
+
+00:09:02.100 --> 00:09:02.720
+Kryptografisch ist
+
+00:09:03.090 --> 00:09:05.360
+das Problem, das E-Mail,
+
+00:09:05.780 --> 00:09:07.000
+Also du kannst eine verschlüsselte E-Mail schicken.
+
+00:09:08.000 --> 00:09:09.380
+Was ist in einer verschlüsselten E-Mail drin?
+
+00:09:09.480 --> 00:09:10.480
+Das ist eine ganz normale E-Mail,
+
+00:09:10.980 --> 00:09:13.220
+weil das Verschlüsselungsprotokoll auf E-Mail
+
+00:09:13.300 --> 00:09:14.620
+eher so oben drüber gebügelt ist.
+
+00:09:14.640 --> 00:09:17.020
+Das heißt, du nimmst ein Stück Text,
+
+00:09:17.560 --> 00:09:18.860
+du verschlüsselst den, da steht dann drin,
+
+00:09:19.020 --> 00:09:20.540
+hier beginnt jetzt verkrypteter Text
+
+00:09:20.940 --> 00:09:22.880
+und das packst du als Text in deine E-Mail
+
+00:09:22.880 --> 00:09:24.220
+und was das Plugin macht, ist, dass es
+
+00:09:24.940 --> 00:09:27.120
+in dem Text von deinem Content von der E-Mail erkennt
+
+00:09:27.540 --> 00:09:29.480
+oder Inhalt ist verschlüsselt, ich muss damit jetzt anders umgehen.
+
+00:09:29.960 --> 00:09:31.260
+Was allerdings passieren kann, ist,
+
+00:09:31.260 --> 00:09:32.100
+dass E-Mails
+
+00:09:35.399 --> 00:09:35.720
+sogenannte
+
+00:09:36.340 --> 00:09:37.800
+Multipart-E-Mails beinhalten können,
+
+00:09:37.830 --> 00:09:38.280
+das heißt,
+
+00:09:38.970 --> 00:09:40.440
+oder Multipart-Messages beinhalten können.
+
+00:09:40.630 --> 00:09:42.400
+Das heißt, du kennst ja die Funktion
+
+00:09:42.470 --> 00:09:43.380
+von deinem E-Mail-Client,
+
+00:09:44.820 --> 00:09:46.880
+dass deine E-Mail sowohl
+
+00:09:47.120 --> 00:09:48.880
+als Plaintext als auch als HTML
+
+00:09:49.500 --> 00:09:50.320
+verschickt werden kann.
+
+00:09:50.860 --> 00:09:52.620
+Und was du in dem Fall machst, ist, dass du einfach
+
+00:09:53.320 --> 00:09:55.520
+zweimal ein Content-Feld in deine E-Mail hast,
+
+00:09:55.530 --> 00:09:57.020
+wie genau das aussieht, weiß ich gar nicht so genau.
+
+00:09:57.050 --> 00:09:58.580
+Aber du hast zumindest dein E-Mail-Programm,
+
+00:09:58.620 --> 00:10:00.340
+oh guck mal, das ist das gleiche nochmal als HTML.
+
+00:10:00.580 --> 00:10:02.760
+Ich zeige dir jetzt nur das an, was du in deiner
+
+00:10:02.880 --> 00:10:03.860
+Präferenz eingestellt hast.
+
+00:10:04.480 --> 00:10:20.720
+Und diesen Umstand, dass Multipart-E-Mails einfach aneinander geklatscht werden prinzipiell, also ich kann dir eine HTML-E-Mail schicken und ich kann dir eine verschlüsselte E-Mail schicken und ich kann dir eine Plantext-E-Mail schicken und dein E-Mail-Programm stellt die prinzipiell potenziell nacheinander dar und macht die wieder zu einer.
+
+00:10:21.280 --> 00:10:32.660
+Das kann der Angreifer nutzen, insofern als dass er dir nicht eine verschlüsselte E-Mail schickt, sondern er möchte den Inhalt einer verschlüsselten E-Mail, die du empfängst, bekommen.
+
+00:10:33.280 --> 00:10:36.560
+Was macht er? Er empfängt auf dem Transportweg deine E-Mail.
+
+00:10:37.360 --> 00:10:41.400
+Er kann den Schlüsseltext nicht beeinflussen, ohne dass du das merkst.
+
+00:10:41.900 --> 00:10:59.820
+Er kann ihn auch nicht entschlüsseln, aber er kann davor ein Stück HTML-Code packen, nämlich zum Beispiel ein Image-Tag, was einfach mitten in dem Source ist gleich Anführungsstriche oben aufhört, beziehungsweise dann kommt irgendwie die URL zu seinem Server mit einem Query ist gleich und dann kommt der Schlüsseltext.
+
+00:11:00.360 --> 00:11:22.640
+Und was viele E-Mail-Programme machen, ist, dass sie dann den HTML-Teil, den er injectet hat, den der Angreifer injectet hat, rendern, dann den Kryptotext nehmen, den entschlüsseln, damit reinpasten und was dabei rauskommt, ist ein Stück HTML, wo dein entschlüsselter Klartext in dem URL-Query von diesem Image-Tag auftaucht.
+
+00:11:23.000 --> 00:11:37.080
+Dann wird von deinem E-Mail-Programm dieses gesamte Ding als HTML gerendert, woraufhin halt seine URL mit deinem Schlüsseltext, entschlüsselten Klartext als Query gesendet wird und damit ist der Inhalt deiner verschlüsselten E-Mail entschlüsselten.
+
+00:11:37.180 --> 00:11:38.100
+Das ist einer der Angriffe.
+
+00:11:38.160 --> 00:11:39.500
+Damit ist auf jeden Fall GPG kaputt.
+
+00:11:39.980 --> 00:11:41.400
+Damit ist GPG voll kaputt?
+
+00:11:42.260 --> 00:11:48.200
+Nee, das ist einfach, E-Mail-Clients sollten das absolut nicht so machen.
+
+00:11:49.019 --> 00:11:56.420
+Wenn du eine Multipart-E-Mail bekommst, sollten drei Parts dieser E-Mail komplett separat gehandhabt werden.
+
+00:11:56.440 --> 00:12:04.940
+Und wenn in der ersten nur ein halbes Stück HTML drin ist, dann soll das bitte auch als invalides HTML dargestellt werden und nicht solche Hacks, dass du Sachen zusammensetzen kannst aus unterschiedlichen Parts.
+
+00:12:06.060 --> 00:12:16.300
+Ein zweiter Teil von dem Angriff war, dass du, wenn du Teile von diesem Kryptotext kennst, zum Beispiel am Anfang ist es möglich, in den Kryptotext Sachen zu injecten.
+
+00:12:16.720 --> 00:12:39.700
+Wenn du zum Beispiel weißt, dass 99% aller E-Mails mit Hi oder Hello oder irgendwas anfangen, dann ist es möglich, dass du in den Schlüsseltext, und den Angriff kann ich jetzt nicht genau erklären, es ist zumindest möglich, dass du Sachen injectest, die dann mit entschlüsselt werden, und dann könntest du genauso einen ähnlichen Angriff fahren, dass du ein Stückchen HTML injectest, was dann sofort gerendert und dabei dann so eine URL aufgerufen wird, womit dann dein Klartext weggeschickt wird.
+
+00:12:40.240 --> 00:12:48.460
+Allerdings ist es eine Funktion der GPG-Implementierung, dass die erkennen, dass dieser Schlüsseltext dann nicht mehr integer ist, weil eine Prüfsumme nicht mehr erfüllt ist.
+
+00:12:49.500 --> 00:12:52.540
+Und eigentlich melden die das an die E-Mail-Clients dann auch weiter.
+
+00:12:54.200 --> 00:13:00.140
+Allerdings ist es natürlich den E-Mail-Clients freigestellt, das völlig zu ignorieren, was viele auch machen.
+
+00:13:00.360 --> 00:13:05.260
+Und dann entschlüsseln sie ein Stück nicht-integereren Kryptotext und dann hast du ihn genauso verloren.
+
+00:13:05.540 --> 00:13:07.500
+Es ist wieder eine Vulnerability
+
+00:13:07.960 --> 00:13:09.500
+von E-Mail-Clients
+
+00:13:09.550 --> 00:13:11.480
+und nicht von der Krypto-Implementierung selber.
+
+00:13:11.940 --> 00:13:13.220
+Das erinnert so ein bisschen an die
+
+00:13:14.220 --> 00:13:15.900
+Enigma-Sache aus dem Zweiten Weltkrieg.
+
+00:13:16.380 --> 00:13:17.020
+Da haben sie es ja auch
+
+00:13:17.560 --> 00:13:19.280
+tatsächlich die Nazi-Nachrichten
+
+00:13:19.400 --> 00:13:21.180
+entschlüsseln können, weil am Ende immer
+
+00:13:21.320 --> 00:13:23.400
+derselbe Text stand. Der gewisse Catchphrase
+
+00:13:23.520 --> 00:13:25.480
+der Nazis. Immer so ein Heil Hitler
+
+00:13:25.550 --> 00:13:26.960
+am Ende und nur deswegen haben sie...
+
+00:13:27.310 --> 00:13:28.460
+Der Nazi-Catchphrase.
+
+00:13:29.350 --> 00:13:30.500
+Ich glaube, das ist der Sendungstitel.
+
+00:13:30.730 --> 00:13:32.060
+Nein, lieber nicht.
+
+00:13:34.300 --> 00:13:35.880
+Die haben ihre Nachrichten immer mit
+
+00:13:36.780 --> 00:13:38.220
+dieser Grußformel angefangen
+
+00:13:38.300 --> 00:13:38.920
+oder beendet.
+
+00:13:40.720 --> 00:13:41.820
+Ja, was ist denn sonst noch so passiert?
+
+00:13:43.060 --> 00:13:44.080
+Weiter in der Timeline
+
+00:13:44.600 --> 00:13:45.740
+wäre der 25. Mai
+
+00:13:46.340 --> 00:13:48.100
+an uns vorbeigegangen und unsere Inboxen
+
+00:13:48.200 --> 00:13:49.820
+sind alle gestorben, weil die
+
+00:13:49.940 --> 00:13:51.820
+DSGVO Einzug gefunden hat.
+
+00:13:52.160 --> 00:13:54.200
+Oh ja. Also es hat ja glaube ich
+
+00:13:54.820 --> 00:13:56.100
+jeder Depp und seine Oma
+
+00:13:56.100 --> 00:13:57.800
+eine E-Mail bekommen wegen DSGVO.
+
+00:13:57.860 --> 00:13:59.680
+Eine? Tausend? Ich habe sogar einen
+
+00:14:00.020 --> 00:14:01.740
+Brief von meinem Vermieter bekommen.
+
+00:14:03.020 --> 00:14:04.340
+Und hast du deine Datenlösung beantragt?
+
+00:14:06.640 --> 00:14:08.120
+Das habe ich mir gar nicht genau durchgelesen,
+
+00:14:08.180 --> 00:14:10.960
+aber es fing an mit und da hat mein Gehirn schon oft durchgestellt.
+
+00:14:12.140 --> 00:14:14.280
+Auf Papier. Hast du ein Capture ausgedruckt nochmal drauf gehabt?
+
+00:14:15.220 --> 00:14:16.560
+Haben ja auch Leute auf Twitter gebraucht.
+
+00:14:16.580 --> 00:14:19.620
+Da gibt es ja eine schöne Seite gdprhallofshame.com
+
+00:14:20.180 --> 00:14:22.420
+und da hat jemand irgendwie so einen Brief mit einem Capture drauf.
+
+00:14:22.940 --> 00:14:24.780
+Und du, nee, nee, das war irgendein.
+
+00:14:25.380 --> 00:14:26.160
+Jetzt bringe ich Dinge durcheinander.
+
+00:14:26.340 --> 00:14:28.580
+Da sind zwar auch ausgedruckte GDPR-Bescheide drin gewesen,
+
+00:14:28.740 --> 00:14:31.340
+aber mit dem Capture war, glaube ich, eine Frau, die ein Auto kaufen wollte.
+
+00:14:31.600 --> 00:14:32.400
+Ja, das habe ich auch irgendwo gesehen.
+
+00:14:32.500 --> 00:14:34.360
+da mit einem Capture auf dem Formular ausgedrückt mit drauf
+
+00:14:34.500 --> 00:14:36.600
+und sie sollte das wohl laut Händler auch ausfüllen.
+
+00:14:37.180 --> 00:14:38.340
+So sollte da einen Haken setzen.
+
+00:14:38.410 --> 00:14:40.120
+Jetzt muss Capture reinschreiben, was sie sehen kann
+
+00:14:40.400 --> 00:14:40.860
+auf dem Capture.
+
+00:14:42.620 --> 00:14:42.980
+OMFG.
+
+00:14:44.580 --> 00:14:46.220
+Ja, klassischer Internet-Ausdrucker.
+
+00:14:47.240 --> 00:14:47.520
+Sehr schön.
+
+00:14:47.840 --> 00:14:49.980
+Am 25. Mai saß ich im Flugzeug
+
+00:14:50.280 --> 00:14:50.540
+nach Paris.
+
+00:14:52.600 --> 00:14:54.360
+Okay, hast du von der Airline was vorgehalten
+
+00:14:54.410 --> 00:14:54.520
+bekommen?
+
+00:14:55.580 --> 00:14:58.160
+Nee. Es könnte sein,
+
+00:14:58.220 --> 00:14:59.900
+dass ich einen Brief von der Lufthansa bekomme.
+
+00:15:00.060 --> 00:15:00.840
+Das müsste ich mal prüfen.
+
+00:15:01.620 --> 00:15:02.140
+Wo ging es denn hin?
+
+00:15:02.880 --> 00:15:03.940
+Ich war auf dem Rustfest
+
+00:15:04.220 --> 00:15:05.080
+Das Rustfest
+
+00:15:07.839 --> 00:15:09.340
+Ich habe bestimmt auch schon mal davon erzählt
+
+00:15:09.800 --> 00:15:11.260
+Ich war jetzt das dritte Mal da
+
+00:15:12.100 --> 00:15:13.180
+Das Rustfest EU
+
+00:15:13.300 --> 00:15:14.120
+ist die europäische
+
+00:15:14.900 --> 00:15:16.320
+Rust Community Veranstaltung
+
+00:15:17.259 --> 00:15:18.860
+Die war das allererste Mal in Berlin
+
+00:15:19.820 --> 00:15:21.340
+Dann war sie einmal in Kiew, da war ich nicht
+
+00:15:21.520 --> 00:15:23.420
+Dann war sie in Zürich, da war ich dann nördlich
+
+00:15:24.540 --> 00:15:25.340
+Und jetzt
+
+00:15:26.180 --> 00:15:26.280
+am
+
+00:15:27.800 --> 00:15:29.220
+26. oder 25. Mai
+
+00:15:29.480 --> 00:15:30.999
+war sie in
+
+00:15:31.320 --> 00:15:32.760
+Paris und dann bin ich hingeflogen.
+
+00:15:33.140 --> 00:15:34.240
+Ich habe mich da mit Händen und Füßen
+
+00:15:35.160 --> 00:15:36.540
+glücklicherweise über Wasser halten können.
+
+00:15:37.440 --> 00:15:38.820
+Ich kann ja überhaupt kein Französisch.
+
+00:15:38.920 --> 00:15:39.880
+Achso, sprachlich, ja.
+
+00:15:41.060 --> 00:15:42.440
+Und das war ziemlich cool.
+
+00:15:43.520 --> 00:15:44.600
+Wie lange war das ein verlängertes
+
+00:15:44.700 --> 00:15:45.460
+Wochenende, oder? Drei Tage?
+
+00:15:46.120 --> 00:15:46.860
+Vier Tage? Drei?
+
+00:15:48.860 --> 00:15:49.520
+Ich war da
+
+00:15:50.220 --> 00:15:52.040
+von, ich bin Freitagabend direkt nach der Arbeit
+
+00:15:52.400 --> 00:15:53.280
+zum Flughafen gefahren.
+
+00:15:53.680 --> 00:15:54.000
+Okay, cool.
+
+00:15:56.740 --> 00:15:57.460
+Samstag waren
+
+00:15:57.700 --> 00:15:59.339
+Vorträge, Sonntag
+
+00:15:59.360 --> 00:16:01.060
+waren Workshops. Ah, okay, cool.
+
+00:16:01.630 --> 00:16:02.840
+Dann war der offizielle Teil vorbei.
+
+00:16:04.060 --> 00:16:05.160
+Dann ging aber der coole Teil
+
+00:16:05.320 --> 00:16:06.620
+los, weil dann waren noch zwei Tage
+
+00:16:07.360 --> 00:16:08.000
+Impel Days.
+
+00:16:08.850 --> 00:16:10.420
+Das ist ja auch, boah, die schöne Community,
+
+00:16:10.560 --> 00:16:12.940
+das gefällt mir. Und die hatte ich,
+
+00:16:13.180 --> 00:16:15.240
+davon hatte ich erst erfahren, als ich in Zürich
+
+00:16:15.360 --> 00:16:16.960
+war und abgereist bin und die anderen so
+
+00:16:17.140 --> 00:16:19.000
+gezielt haben, ja, wir sehen uns dann morgen bei den Impel Days.
+
+00:16:19.720 --> 00:16:20.560
+Und ich so, what?
+
+00:16:21.960 --> 00:16:23.360
+Und das war im Prinzip,
+
+00:16:23.540 --> 00:16:25.340
+wir sitzen da im Kreis, oder wir sitzen
+
+00:16:25.430 --> 00:16:27.180
+alle zusammen in einem Raum und
+
+00:16:27.340 --> 00:16:28.960
+hacken und die Leute,
+
+00:16:29.300 --> 00:16:31.220
+die an dem Rust-Projekt arbeiten, sind halt live
+
+00:16:31.420 --> 00:16:33.380
+da und können sagen, okay, wir organisieren das jetzt mal
+
+00:16:33.380 --> 00:16:35.180
+an Gruppen und ihr könnt euch gerne
+
+00:16:35.320 --> 00:16:37.520
+Tickets aussuchen und wir helfen euch dabei, die zu fixen.
+
+00:16:37.560 --> 00:16:39.460
+Wie cool. Oder ihr arbeitet
+
+00:16:39.760 --> 00:16:41.380
+an dieser Initiative und ihr arbeitet
+
+00:16:41.500 --> 00:16:43.180
+an dieser Initiative und so weiter und so fort.
+
+00:16:43.440 --> 00:16:44.940
+Ja, diesmal bin ich halt mit dabei gewesen
+
+00:16:46.299 --> 00:16:47.100
+in Paris
+
+00:16:47.320 --> 00:16:48.340
+und das war in den Büros
+
+00:16:49.120 --> 00:16:50.480
+und das war in den Büros von
+
+00:16:51.279 --> 00:16:52.700
+Mozilla in Paris.
+
+00:16:53.000 --> 00:16:55.320
+Das ist übelst fancy.
+
+00:16:55.520 --> 00:16:57.020
+Das ist die, offenbar
+
+00:16:57.320 --> 00:16:59.260
+angeblich die ehemalige
+
+00:16:59.280 --> 00:17:01.340
+reichische Botschaft. Wir saßen
+
+00:17:01.440 --> 00:17:02.120
+an so einem großen
+
+00:17:04.260 --> 00:17:04.620
+Prunksaal
+
+00:17:06.300 --> 00:17:07.260
+mit Marmor und
+
+00:17:07.400 --> 00:17:08.420
+Stück und bemalten Decken.
+
+00:17:09.620 --> 00:17:11.199
+Der Raum hatte gewisse Nachteile,
+
+00:17:11.360 --> 00:17:13.240
+in so einem Raum kann sie sehr schlecht eine Klimaanlage
+
+00:17:13.420 --> 00:17:15.180
+nachrüsten. Selbst die Wifi-Router
+
+00:17:15.339 --> 00:17:17.060
+standen auf so freistehenden Ständern.
+
+00:17:18.260 --> 00:17:19.140
+Aber das war eigentlich ziemlich cool.
+
+00:17:19.240 --> 00:17:21.100
+Da waren halt Leute da, die ich schon
+
+00:17:21.220 --> 00:17:23.300
+bei den letzten Malen getroffen hatte. Leute, die ich, wie gesagt,
+
+00:17:23.459 --> 00:17:25.260
+von GitHub kenne, mit denen
+
+00:17:25.290 --> 00:17:26.920
+ich schon über GitHub zusammengearbeitet habe.
+
+00:17:27.560 --> 00:17:29.240
+Ein paar Jungs von
+
+00:17:29.260 --> 00:17:31.340
+Mulvatt VPN, die auch ihr gesamtes
+
+00:17:31.480 --> 00:17:32.020
+Backend in
+
+00:17:33.260 --> 00:17:35.300
+Rust schreiben haben, und der Client
+
+00:17:35.320 --> 00:17:36.920
+ist partiell in Rust geschrieben.
+
+00:17:37.220 --> 00:17:37.380
+Cool.
+
+00:17:40.000 --> 00:17:41.400
+Leute von Mozilla waren da,
+
+00:17:42.080 --> 00:17:42.940
+und ich habe
+
+00:17:43.380 --> 00:17:44.560
+an einem Workshop teilgenommen,
+
+00:17:45.780 --> 00:17:46.040
+der
+
+00:17:47.300 --> 00:17:48.460
+sich damit beschäftigt, wie man
+
+00:17:49.060 --> 00:17:50.800
+Lints für Rust mit Clippy schreibt.
+
+00:17:52.160 --> 00:17:53.340
+Und das ist eigentlich
+
+00:17:53.340 --> 00:17:55.000
+ein ziemlich coole Sinn. Also was ist ein Lint?
+
+00:17:55.040 --> 00:17:57.080
+Das könnte ich mir mal ganz kurz erzählen. Also ein Lint ist einfach
+
+00:17:57.700 --> 00:17:59.220
+eine Regel, die du
+
+00:17:59.240 --> 00:18:01.180
+gegen die du deinen Source-Code
+
+00:18:01.620 --> 00:18:02.880
+checken kannst und die sagt dir dann,
+
+00:18:03.520 --> 00:18:05.020
+du darfst das und das so nicht formatieren.
+
+00:18:05.020 --> 00:18:06.080
+Dass es Styles sind oder...
+
+00:18:06.250 --> 00:18:07.500
+Ja, da gehen diverse Sachen.
+
+00:18:10.920 --> 00:18:12.120
+Bei TypeScript gibt es sehr viele
+
+00:18:12.840 --> 00:18:14.480
+Lints oder es gibt auch hier bei JavaScript
+
+00:18:14.710 --> 00:18:16.640
+sehr viele bekannte
+
+00:18:16.820 --> 00:18:19.020
+Lint-Vorlösungen
+
+00:18:19.080 --> 00:18:20.920
+und du kannst dir dann definieren, welche von diesen Lints
+
+00:18:22.020 --> 00:18:22.380
+sind.
+
+00:18:22.860 --> 00:18:24.660
+Finde ich in vielen Communities. Rubocop ist ja auch
+
+00:18:24.780 --> 00:18:25.320
+erstaunlich populär.
+
+00:18:27.060 --> 00:18:28.460
+Für Rust ist das Clippy
+
+00:18:28.880 --> 00:18:34.180
+und da ist es normalerweise so, dass die ein festes Set an Lins einfach eingebaut haben.
+
+00:18:34.760 --> 00:18:40.620
+Es findet krasse Sachen, also zum Beispiel, wenn du Sachen als Referenz weitergibst,
+
+00:18:40.780 --> 00:18:45.140
+obwohl du sie bereits als Referenz bekommen hast oder wenn du Namen verwendest von Sachen,
+
+00:18:45.300 --> 00:18:47.440
+die zweideutig sind oder sowas.
+
+00:18:47.480 --> 00:18:50.460
+Also gehe ich mal davon aus, dass Clippy irgendwie den Rust Compiler invokt
+
+00:18:50.560 --> 00:18:53.060
+und da die Daten rauszieht und auf dessen Basis da...
+
+00:18:53.120 --> 00:18:55.600
+Es injectet sich selbst als Compiler-Plugin.
+
+00:18:55.740 --> 00:18:56.080
+Ah, okay.
+
+00:18:56.800 --> 00:19:02.100
+Und der Compiler hat bereits so ein Verständnis von Lint Runs.
+
+00:19:03.520 --> 00:19:04.640
+Das ist quasi eine Art Build Phase.
+
+00:19:05.100 --> 00:19:05.980
+Ja, quasi, genau.
+
+00:19:06.120 --> 00:19:09.780
+Und du injectest dich da selber und du implementierst dich selbst als Lint Run.
+
+00:19:10.000 --> 00:19:10.620
+Das ist ein Trait.
+
+00:19:11.619 --> 00:19:18.000
+Und es gibt Early Lint Runs und Late Lint Runs.
+
+00:19:18.380 --> 00:19:20.300
+Und das ist quasi einfach ein Visitor Pattern.
+
+00:19:20.400 --> 00:19:25.840
+Das heißt, du implementierst Check Function oder Check Expression oder Check so und sowas.
+
+00:19:26.160 --> 00:19:28.020
+irgendwelche von diesen Funktionen und sagst dann, okay,
+
+00:19:28.780 --> 00:19:30.180
+dann kriegst du halt ein Stück von dem
+
+00:19:30.460 --> 00:19:32.140
+Ast rein und checkst da
+
+00:19:32.440 --> 00:19:33.200
+Regeln drauf und
+
+00:19:34.700 --> 00:19:35.700
+du kannst dann sagen,
+
+00:19:36.400 --> 00:19:38.340
+ich beschwere mich jetzt über diese oder jene
+
+00:19:39.400 --> 00:19:40.240
+Eigenschaft von dem Code.
+
+00:19:40.250 --> 00:19:41.500
+Wir haben dann als kleine Übung
+
+00:19:42.940 --> 00:19:43.380
+implementiert,
+
+00:19:45.180 --> 00:19:45.620
+wir
+
+00:19:47.400 --> 00:19:48.280
+verbieten Transmuting,
+
+00:19:48.430 --> 00:19:49.340
+weil das unsafe ist.
+
+00:19:49.590 --> 00:19:52.300
+Das ist eine Funktion aus der
+
+00:19:52.400 --> 00:19:53.720
+Standardlibrary von Rust. Es gibt
+
+00:19:54.940 --> 00:19:55.380
+stdmemtransmute.
+
+00:19:55.740 --> 00:19:57.400
+Und das ist Unsafe-Code.
+
+00:19:57.540 --> 00:19:59.620
+Du kriegst dann einfach ein Stück Code rein und sagst,
+
+00:20:00.460 --> 00:20:01.660
+wenn das hier wieder rauskommt,
+
+00:20:01.880 --> 00:20:03.580
+dann hat das die Form von was anderem.
+
+00:20:03.680 --> 00:20:04.960
+Achso, ich glaube, das ist Unsafe-Bitcast.
+
+00:20:05.280 --> 00:20:06.580
+Das ist quasi, ja, das ist genau,
+
+00:20:07.580 --> 00:20:09.640
+es ist quasi Casting auf eine Art und Weise,
+
+00:20:09.780 --> 00:20:10.680
+aber es ist, ja genau,
+
+00:20:11.740 --> 00:20:12.480
+Bitcasting, so eine Art.
+
+00:20:13.260 --> 00:20:15.520
+Du kannst jetzt sagen, ich kriege jetzt hier einen String rein
+
+00:20:15.680 --> 00:20:19.060
+und ich möchte das als Array von so und sowas rausgeben oder so.
+
+00:20:20.000 --> 00:20:21.620
+Oder ich habe dieses Struct und...
+
+00:20:21.640 --> 00:20:23.100
+So etwas, den man eigentlich nur benutzt,
+
+00:20:23.120 --> 00:20:24.980
+wenn man sich sehr, sehr, sehr, sehr sicher ist, was man...
+
+00:20:25.000 --> 00:20:26.980
+Genau, und deswegen möchte man das auch verbieten können.
+
+00:20:27.000 --> 00:20:27.460
+Nein, ich gar nicht.
+
+00:20:28.640 --> 00:20:34.240
+Und die erste Fingerübung war einfach, das mit einem Early-Lint-Pass zu machen.
+
+00:20:34.370 --> 00:20:35.440
+Und da hast du keinerlei Typ...
+
+00:20:35.440 --> 00:20:36.080
+Solche Stufen?
+
+00:20:36.300 --> 00:20:37.700
+Ja, ja, ja. Es gibt Early und Late.
+
+00:20:38.170 --> 00:20:41.820
+Und bei dem Early hast du noch keinerlei Typ-Informationen, aber du weißt, wie Sachen heißen.
+
+00:20:42.140 --> 00:20:46.100
+Und da kannst du zum Beispiel einfach verbieten, dass du Funktionen aufrufst,
+
+00:20:46.520 --> 00:20:49.340
+die das Wort Transmute im Namen haben.
+
+00:20:49.600 --> 00:20:51.360
+Okay, aber das könnte ja false positives werfen.
+
+00:20:51.620 --> 00:20:52.940
+Das könnte false positives werfen.
+
+00:20:53.120 --> 00:20:55.900
+aber wenn irgendwas Transmute heißt, dann ist es entweder gefährlich oder falsch benannt.
+
+00:20:57.220 --> 00:20:58.300
+Transmute ist ein schöner Begriff.
+
+00:20:59.440 --> 00:21:04.120
+Genau. Ich wollte dann irgendwann, das war so der Vormittag, wir erklären mal, wie es geht.
+
+00:21:04.200 --> 00:21:06.580
+Es ist schon ganz schön fricklich, die API ist intern ein bisschen fies,
+
+00:21:06.620 --> 00:21:10.860
+weil du kriegst Sachen rein, die aus unterschiedlichen Libraries aus der Rust-Welt kommen.
+
+00:21:10.860 --> 00:21:15.980
+Du kriegst Sachen rein, die kommen aus Rust-C direkt.
+
+00:21:16.620 --> 00:21:19.380
+Du kriegst Sachen aus der Syntax-Library.
+
+00:21:19.720 --> 00:21:24.360
+Du kriegst Sachen aus der HIR Library, also aus der Higher Order Intermediate Representation rein.
+
+00:21:24.980 --> 00:21:26.280
+Und das ist alles relativ fricklich.
+
+00:21:28.100 --> 00:21:29.640
+Dieser Lint war relativ einfach.
+
+00:21:30.090 --> 00:21:32.960
+Ich wollte dann am Nachmittag, nachdem wir alle eine Einführung bekommen haben,
+
+00:21:34.020 --> 00:21:38.020
+einen Lint schreiben, der dich darüber in Kenntnis setzt,
+
+00:21:38.220 --> 00:21:42.880
+wenn du Parameter mit dem Typen bool in deiner API verwendest.
+
+00:21:43.620 --> 00:21:47.920
+Also wenn eine Funktion public ist und wenn sie einen Parameter annimmt,
+
+00:21:48.160 --> 00:21:49.440
+der vom Typ Boolean ist,
+
+00:21:50.010 --> 00:21:50.760
+dann wollte ich dir sagen,
+
+00:21:50.980 --> 00:21:52.280
+das ist keine gute API.
+
+00:21:52.580 --> 00:21:52.880
+Warum nicht?
+
+00:21:54.980 --> 00:21:56.900
+Bursche Parameter als API sind allgemein nicht schön.
+
+00:21:56.900 --> 00:21:58.340
+Du meinst, du müsst irgendeinen Inam-Wert hin,
+
+00:21:58.350 --> 00:21:59.500
+der das klar auszutrifiziert.
+
+00:22:00.200 --> 00:22:01.420
+Kann man das allgemein sagen?
+
+00:22:02.340 --> 00:22:04.420
+Das kannst du nicht unbedingt allgemein sagen,
+
+00:22:04.570 --> 00:22:05.980
+aber das ist an und für sich.
+
+00:22:06.000 --> 00:22:07.960
+Wenn es ein Warning ist, warum nicht, wenn man es ignoren kann?
+
+00:22:08.180 --> 00:22:09.240
+Genau, man könnte jetzt sagen,
+
+00:22:09.550 --> 00:22:10.260
+das ist schlecht, das Deal,
+
+00:22:10.380 --> 00:22:12.080
+denkt dann nochmal genau drüber nach oder sowas.
+
+00:22:12.340 --> 00:22:14.000
+Dann willst man den Implementer
+
+00:22:15.640 --> 00:22:16.740
+an der Stelle auch weg,
+
+00:22:16.770 --> 00:22:17.340
+dann macht man drüber nach,
+
+00:22:17.500 --> 00:22:19.520
+finde ich gut. Genau. Und das war schon
+
+00:22:19.720 --> 00:22:20.260
+relativ fricklich.
+
+00:22:21.600 --> 00:22:23.380
+Da habe ich dann eine Weile gesucht irgendwie in der API,
+
+00:22:23.600 --> 00:22:24.800
+wie ich das mache, wie ich an die Daten
+
+00:22:25.440 --> 00:22:27.300
+rankomme. Das war wirklich nicht schön.
+
+00:22:28.260 --> 00:22:29.540
+Und im Endeffekt habe ich dann einfach ein Stück
+
+00:22:29.720 --> 00:22:31.120
+Code aus Clippy selbst von woanders
+
+00:22:32.740 --> 00:22:33.540
+rauskopiert, weil
+
+00:22:33.920 --> 00:22:35.460
+Typen intern ein bisschen
+
+00:22:36.220 --> 00:22:37.540
+fricklich dargestellt sind in der API.
+
+00:22:37.680 --> 00:22:38.580
+Vor allem ist es schwierig,
+
+00:22:39.639 --> 00:22:40.920
+über Code zu reden
+
+00:22:41.880 --> 00:22:43.500
+in dem Code, mit dem
+
+00:22:43.520 --> 00:22:45.260
+du das machst. Also du kannst ja nicht einfach
+
+00:22:45.580 --> 00:22:47.260
+eine Variable haben, die Type heißt,
+
+00:22:47.360 --> 00:22:49.080
+weil Type ein Keyword ist oder sowas.
+
+00:22:49.590 --> 00:22:51.380
+Du kannst auch nichts haben,
+
+00:22:51.500 --> 00:22:53.360
+was Class heißt, weil es Class
+
+00:22:53.710 --> 00:22:54.900
+vielleicht als Keyword gibt.
+
+00:22:55.010 --> 00:22:56.840
+In Swift geht das. Du musst ihn in Backticks
+
+00:22:57.500 --> 00:22:59.220
+packen. Sieht super hässlich im Code aus, aber
+
+00:22:59.320 --> 00:23:01.280
+zumindest geht das da. Ah ja, aber bei
+
+00:23:01.290 --> 00:23:03.400
+denen ist es ja nur wiederum egal, weil der Swift-Compiler
+
+00:23:03.550 --> 00:23:05.020
+komplett in C++ geschrieben ist.
+
+00:23:05.460 --> 00:23:07.360
+Das kommt noch dazu, aber sowas
+
+00:23:07.440 --> 00:23:09.440
+könnte man theoretisch als Teil des Swift-Package-Managers
+
+00:23:09.620 --> 00:23:11.240
+eher machen, würde ich behaupten, dass man da irgendwie so ein
+
+00:23:11.400 --> 00:23:13.260
+Konzept von Build-Phases hat. Das soll auch, glaube ich, irgendwann
+
+00:23:13.910 --> 00:23:15.420
+kommen und dann da vielleicht Linting mit einbauen
+
+00:23:15.480 --> 00:23:16.599
+oder in Swift-Lint einfach
+
+00:23:17.240 --> 00:23:19.280
+Sherlockt und das da reinzerrt. Das finde ich cool.
+
+00:23:19.380 --> 00:23:20.300
+Das finde ich super cool sogar.
+
+00:23:21.100 --> 00:23:21.740
+Ich würde das haben.
+
+00:23:22.680 --> 00:23:24.740
+Eine neue Projektidee ist geboren worden.
+
+00:23:26.260 --> 00:23:27.240
+Ja, ansonsten, ich gehe nochmal
+
+00:23:27.380 --> 00:23:28.380
+zurück zum Rustfest. Also,
+
+00:23:29.080 --> 00:23:31.200
+die Vorträge sind alle sofort auf
+
+00:23:33.420 --> 00:23:35.000
+YouTube gewesen. Ich empfehle euch,
+
+00:23:35.020 --> 00:23:37.040
+sie anzugucken. Der allererste, oder einer der
+
+00:23:37.300 --> 00:23:39.000
+ersten war Learning to Learn,
+
+00:23:39.580 --> 00:23:40.660
+eine der Keynotes.
+
+00:23:42.500 --> 00:23:42.980
+Definitiv
+
+00:23:43.240 --> 00:23:45.100
+sehr interessant, weil
+
+00:23:45.240 --> 00:23:46.580
+darin von einem
+
+00:23:49.740 --> 00:23:50.540
+berühmten Physiker,
+
+00:23:50.700 --> 00:23:51.880
+dessen Name mir gerade nicht einfällt,
+
+00:23:52.260 --> 00:23:53.980
+erklärt wurde, wie er
+
+00:23:54.580 --> 00:23:56.620
+seinen Lernprozess organisiert hat
+
+00:23:56.700 --> 00:23:58.620
+und seinen Lehrprozess
+
+00:23:58.820 --> 00:24:00.500
+organisiert hat. Das war offenbar ein sehr guter
+
+00:24:00.600 --> 00:24:02.660
+Erklärer und es hat sich runtergebeult
+
+00:24:02.840 --> 00:24:04.480
+auf sehr
+
+00:24:04.680 --> 00:24:06.400
+einfache Regeln,
+
+00:24:06.560 --> 00:24:07.880
+zum Beispiel, dass du dich nicht hinter
+
+00:24:08.880 --> 00:24:09.980
+Jargon verstecken musst,
+
+00:24:10.380 --> 00:24:12.360
+dass du es möglichst
+
+00:24:12.540 --> 00:24:14.480
+gut runterbrichst auf einfache, verständliche
+
+00:24:14.680 --> 00:24:16.560
+Sachen. Einer der Vorträge war
+
+00:24:16.580 --> 00:24:18.200
+dem Entwickler von
+
+00:24:18.350 --> 00:24:20.420
+U, diesem Rust-basierten
+
+00:24:20.580 --> 00:24:22.300
+WebAssembly-React-artigen
+
+00:24:22.450 --> 00:24:24.120
+Web-Frontend-Framework.
+
+00:24:25.360 --> 00:24:26.140
+Der hat allerdings
+
+00:24:26.370 --> 00:24:28.300
+auf Rückfragen
+
+00:24:28.540 --> 00:24:29.700
+nicht sonderlich souverän
+
+00:24:30.480 --> 00:24:32.060
+reagiert, deswegen habe ich dann davon
+
+00:24:32.200 --> 00:24:34.000
+abgesehen, an seinem Workshop teilzunehmen, aber
+
+00:24:34.380 --> 00:24:35.840
+prinzipiell ist das ein ziemlich cooles Projekt.
+
+00:24:35.850 --> 00:24:38.000
+Auf jeden Fall. Und ich freue mich schon darauf,
+
+00:24:38.380 --> 00:24:41.220
+mehr so Rust-Frontend-Sachen
+
+00:24:42.380 --> 00:24:44.360
+die nach WebAssembly kompilieren zu sehen.
+
+00:24:46.340 --> 00:24:47.400
+Nach immer Wasm-Sachen.
+
+00:24:48.900 --> 00:24:49.780
+Genau. Allerdings
+
+00:24:50.500 --> 00:24:52.020
+allgemein, die Talks sind alle
+
+00:24:52.030 --> 00:24:53.200
+ziemlich gut. Es kamen häufig
+
+00:24:53.820 --> 00:24:55.680
+Cow-Referenzen drin vor. Ich glaube sogar,
+
+00:24:56.280 --> 00:24:57.440
+die Q ist das neue
+
+00:24:58.080 --> 00:24:58.520
+inoffizielle
+
+00:25:01.280 --> 00:25:01.720
+Sprachmaskottchen.
+
+00:25:02.480 --> 00:25:03.660
+Es gibt einen Typen
+
+00:25:05.000 --> 00:25:06.420
+in der Standardbibliothek,
+
+00:25:06.500 --> 00:25:08.280
+der heißt Cow. Also Copy on Write?
+
+00:25:08.510 --> 00:25:09.420
+Ja, Clone on Write.
+
+00:25:10.620 --> 00:25:11.720
+Und der ist sehr wichtig,
+
+00:25:12.350 --> 00:25:13.220
+vor allem in einem Vortrag,
+
+00:25:13.710 --> 00:25:14.460
+wo es um
+
+00:25:15.340 --> 00:25:17.000
+Immutable Data Structures ging
+
+00:25:17.120 --> 00:25:18.260
+und da brauchst du halt Copy and Write.
+
+00:25:18.400 --> 00:25:20.140
+Also überall Kühe reinpacken.
+
+00:25:20.260 --> 00:25:22.440
+Die packen einfach relativ viel.
+
+00:25:22.520 --> 00:25:23.380
+Also Cow is your friend.
+
+00:25:24.420 --> 00:25:25.360
+All you need is a cow.
+
+00:25:26.060 --> 00:25:28.120
+Und alle solche Witze. Ziemlich cool.
+
+00:25:28.540 --> 00:25:30.000
+Der Typ der Laien, dieses
+
+00:25:30.800 --> 00:25:31.760
+GPU-passierte
+
+00:25:32.720 --> 00:25:34.240
+2D-Rendering-Framework
+
+00:25:35.680 --> 00:25:36.160
+entwickelt,
+
+00:25:36.860 --> 00:25:38.320
+hat einen Vortrag darüber
+
+00:25:38.580 --> 00:25:40.340
+gehalten. Das ist auch das
+
+00:25:40.440 --> 00:25:42.080
+geilste Logo der Welt. Das ist nämlich so ein
+
+00:25:42.180 --> 00:25:44.440
+Mesh-Up aus einem Löwen
+
+00:25:45.020 --> 00:25:46.440
+und dem Doge,
+
+00:25:46.700 --> 00:25:47.800
+weil das das Logo von
+
+00:25:50.380 --> 00:25:51.420
+von Servo ist.
+
+00:25:51.780 --> 00:25:52.580
+Superschick, gefällt mir.
+
+00:25:53.060 --> 00:25:53.440
+Die Show Notes.
+
+00:25:56.100 --> 00:25:56.280
+Genau.
+
+00:25:57.760 --> 00:25:58.540
+Und witzigerweise
+
+00:25:58.570 --> 00:26:00.220
+war einer der Sponsoren Snips AI.
+
+00:26:00.660 --> 00:26:01.500
+Ui, die Snips-Leute.
+
+00:26:01.750 --> 00:26:02.720
+Die sitzen nämlich in Paris.
+
+00:26:03.320 --> 00:26:04.180
+Achso, stimmt.
+
+00:26:04.510 --> 00:26:06.080
+Deshalb sind es nur so viele Franzosen.
+
+00:26:06.840 --> 00:26:07.280
+Genau.
+
+00:26:08.920 --> 00:26:10.900
+Ich habe mich mit denen eine Runde unterhalten.
+
+00:26:11.010 --> 00:26:12.480
+Ich habe an so einem Gewinnspiel teilgenommen,
+
+00:26:12.680 --> 00:26:14.700
+um irgendwie so ein Entwickler-Set von denen zu gewinnen.
+
+00:26:14.790 --> 00:26:15.860
+Aber ich habe es leider nicht bekommen.
+
+00:26:16.250 --> 00:26:18.480
+Aber im Endeffekt brauchst du dafür auch nicht mehr
+
+00:26:18.580 --> 00:26:19.240
+als ein Raspberry Pi,
+
+00:26:20.920 --> 00:26:23.120
+ein gutes Mikrofon und noch so ein paar Zusatzteile.
+
+00:26:23.920 --> 00:26:24.780
+Das ist eigentlich ziemlich nice.
+
+00:26:25.000 --> 00:26:26.660
+Noch ein bisschen mehr Spaß mit der Plattform gehabt.
+
+00:26:27.160 --> 00:26:28.520
+Vielleicht kann ich dir mal ein bisschen drüber erzählen.
+
+00:26:28.780 --> 00:26:29.240
+Bin noch nicht fertig.
+
+00:26:29.660 --> 00:26:32.000
+Oh, also erzähl mir das bitte unbedingt.
+
+00:26:32.180 --> 00:26:33.580
+Ich möchte mir sowas nämlich auch bauen.
+
+00:26:33.970 --> 00:26:35.220
+Ja, aber nicht personal.
+
+00:26:35.310 --> 00:26:37.120
+Nur mal eine kurze Wiederholung.
+
+00:26:37.540 --> 00:26:40.120
+Snips AI, wir hatten vielleicht schon mal drüber geredet.
+
+00:26:40.340 --> 00:26:40.620
+Mehrfach.
+
+00:26:40.980 --> 00:26:42.900
+Mehrfach, genau. Also wenn ihr euch euer eigenes
+
+00:26:43.140 --> 00:26:45.060
+Open Source Amazon Echo
+
+00:26:45.320 --> 00:26:47.380
+bauen wollt oder einen eigenen Open Source
+
+00:26:48.360 --> 00:26:49.620
+sprachgesteuerten Home Assistant,
+
+00:26:50.080 --> 00:26:51.280
+dann ist das genau das,
+
+00:26:51.350 --> 00:26:52.320
+wenn man da Intents...
+
+00:26:52.320 --> 00:26:55.240
+Aber ich nutze es eher auf der Ebene tiefer, ohne die Automatic Speed Tracking
+
+00:26:55.420 --> 00:26:57.180
+Nation. Mir geht es ausschließlich um Intent
+
+00:26:57.260 --> 00:26:59.060
+und Entity Parsing aus Strings.
+
+00:26:59.780 --> 00:27:01.140
+Genau, du benutzt es
+
+00:27:01.220 --> 00:27:03.060
+um den Twitter-Feed
+
+00:27:03.220 --> 00:27:04.180
+von der DVB zu?
+
+00:27:04.240 --> 00:27:07.060
+Das habe ich erstmal noch auf glatteis gelegtes Projekt.
+
+00:27:07.360 --> 00:27:07.800
+Sagt man so?
+
+00:27:08.300 --> 00:27:09.740
+Auf Eis gelegtes Projekt.
+
+00:27:10.180 --> 00:27:12.100
+da bin ich noch nicht viel weiter gekommen, müssen wir nochmal angehen.
+
+00:27:12.520 --> 00:27:13.760
+Das wäre schön.
+
+00:27:14.380 --> 00:27:15.340
+Wofür benutzt du das jetzt gerade?
+
+00:27:16.160 --> 00:27:18.160
+Um eine kleine App zu bauen. Ich glaube, da habe ich schon mal kurz drüber gesprochen,
+
+00:27:18.320 --> 00:27:19.360
+aber ich bin noch nicht weit genug.
+
+00:27:19.590 --> 00:27:22.340
+Ich habe sehr viel Spaß damit.
+
+00:27:22.640 --> 00:27:23.700
+Wir munkeln weiter.
+
+00:27:25.300 --> 00:27:26.640
+Ja, also das war zumindest ziemlich cool.
+
+00:27:26.750 --> 00:27:28.720
+Bei den Impulse Days habe ich dann versucht,
+
+00:27:30.480 --> 00:27:31.720
+bei der Initiative
+
+00:27:31.960 --> 00:27:33.360
+Command Line Interfaces mitzumachen.
+
+00:27:33.540 --> 00:27:35.500
+Habe mir ein paar Tickets
+
+00:27:35.940 --> 00:27:37.720
+für Clab rausgesucht, habe festgestellt,
+
+00:27:38.220 --> 00:27:39.540
+dass einige von den Tickets einfach
+
+00:27:39.640 --> 00:27:42.240
+an dem YAML-Parser
+
+00:27:43.960 --> 00:27:44.800
+gescheitert sind, weil
+
+00:27:45.160 --> 00:27:47.060
+die ermöglichen, dass du
+
+00:27:47.240 --> 00:27:49.160
+eine YAML-Datei zur Copal-Zeit einliest
+
+00:27:49.320 --> 00:27:51.060
+und damit ein Kommandozeilen-Interface beschreibst.
+
+00:27:51.460 --> 00:27:52.560
+Das knallt an einigen Stellen.
+
+00:27:54.200 --> 00:27:54.820
+Das habe ich mir
+
+00:27:55.060 --> 00:27:57.000
+leider etwas Zeit verloren, weil ich
+
+00:27:57.400 --> 00:27:57.520
+den
+
+00:27:59.420 --> 00:28:01.140
+YAML-Parser aktuell nicht bauen konnte, einfach weil
+
+00:28:01.140 --> 00:28:03.200
+ich noch haunalte Log-Datei rumliegen hatte.
+
+00:28:04.920 --> 00:28:05.280
+Dann habe ich mir
+
+00:28:05.420 --> 00:28:06.780
+ein Issue angeguckt, habe da
+
+00:28:07.600 --> 00:28:09.000
+ein bisschen drüber nachgedacht
+
+00:28:09.020 --> 00:28:11.360
+und dann festgestellt, was du hier erwartest,
+
+00:28:11.560 --> 00:28:12.240
+ist, dass eine
+
+00:28:13.300 --> 00:28:15.100
+YAML-Datei passbar ist, die so wie du
+
+00:28:15.140 --> 00:28:17.020
+sie da hingeschrieben hast, nicht wirklich
+
+00:28:17.700 --> 00:28:19.120
+klar ist, weil er sich beschwert hat,
+
+00:28:19.120 --> 00:28:21.220
+dass er, wenn man zwei Einrückungen
+
+00:28:21.460 --> 00:28:23.040
+verwendet, dann wird das falsch interpretiert.
+
+00:28:23.880 --> 00:28:24.480
+Und zwar hast du ein
+
+00:28:25.080 --> 00:28:25.780
+Dash und dann
+
+00:28:27.200 --> 00:28:29.140
+Servers oder sowas und dann Doppelpunkt
+
+00:28:29.220 --> 00:28:30.800
+und dann in der Zeile da drunter
+
+00:28:31.300 --> 00:28:32.800
+nur mit zwei Spaces eingerückt
+
+00:28:33.280 --> 00:28:35.140
+das nächste Kind-Element von dem Key
+
+00:28:36.200 --> 00:28:37.340
+aus der Zeile davor
+
+00:28:38.560 --> 00:28:39.940
+und das könnte man nur lesen,
+
+00:28:40.080 --> 00:28:41.400
+als dass das das Kind-Element ist.
+
+00:28:41.700 --> 00:28:42.700
+Also du schreibst
+
+00:28:43.960 --> 00:28:45.740
+einen Strich, das ist ein Listen-Element
+
+00:28:46.020 --> 00:28:47.520
+und dann irgendeinen Namen und dann
+
+00:28:47.860 --> 00:28:49.520
+hinten am Ende der Zeile Doppelpunkt.
+
+00:28:50.180 --> 00:28:51.860
+Und auf der nächsten Zeile schreibst
+
+00:28:51.860 --> 00:28:53.180
+du dann etwas hin, egal was
+
+00:28:54.160 --> 00:28:56.000
+und es ist aber von dem vorherigen
+
+00:28:56.000 --> 00:28:58.340
+nur zwei Leerzeichen
+
+00:28:58.500 --> 00:28:58.840
+eingerückt.
+
+00:28:59.160 --> 00:29:00.960
+Dann müsste es auch ein Kind-Element, das Listen-Element sein.
+
+00:29:01.220 --> 00:29:02.080
+Dann ist es...
+
+00:29:03.559 --> 00:29:04.940
+Und da habe ich dann...
+
+00:29:05.060 --> 00:29:06.700
+Also meine Conclusion war unter dem Issue,
+
+00:29:07.260 --> 00:29:08.200
+you're holding it wrong,
+
+00:29:10.220 --> 00:29:11.460
+YAML is ambiguous
+
+00:29:11.840 --> 00:29:12.300
+this way.
+
+00:29:14.630 --> 00:29:15.460
+Was könnte das sonst sein?
+
+00:29:15.600 --> 00:29:17.040
+Issue Closen, also du hast, wie gesagt,
+
+00:29:17.180 --> 00:29:18.740
+nochmal für die Zuhörer,
+
+00:29:19.090 --> 00:29:20.940
+du hast einen Bindestrich,
+
+00:29:21.070 --> 00:29:22.460
+dann hast du irgendeinen Namen,
+
+00:29:22.810 --> 00:29:24.840
+einen Identifier, Doppelpunkt, und dann
+
+00:29:25.070 --> 00:29:26.880
+mit diesem, das ist quasi dieses
+
+00:29:27.160 --> 00:29:28.480
+Objekt selber, ist ein
+
+00:29:28.880 --> 00:29:30.960
+Listen-Element, und weil du hinten
+
+00:29:30.970 --> 00:29:32.520
+einen Doppelpunkt hast, machst du damit
+
+00:29:33.600 --> 00:29:35.020
+einen Key-Value-Paar auf.
+
+00:29:35.080 --> 00:29:37.220
+Das heißt, dass dieser Name
+
+00:29:37.240 --> 00:29:39.120
+ein Key und was dahinter kommt, ist der Value.
+
+00:29:39.510 --> 00:29:41.140
+Genau. Und auf der nächsten
+
+00:29:41.380 --> 00:29:43.140
+Zeile hast du jetzt nur zwei
+
+00:29:44.100 --> 00:29:45.320
+Leerzeichen weit eingerückt,
+
+00:29:46.280 --> 00:29:47.320
+irgendwas anderes stehen
+
+00:29:48.260 --> 00:29:49.160
+und bist quasi
+
+00:29:49.320 --> 00:29:50.740
+auf der gleichen Ebene wie das
+
+00:29:51.070 --> 00:29:52.560
+oben drüber. So was erwartet?
+
+00:29:52.560 --> 00:29:54.180
+Wie der Text, nicht wie der Bindestrich. Wie der Text.
+
+00:29:54.490 --> 00:29:56.840
+Okay, dann ist es das untere Element von dem nächsten Element überhaupt nicht.
+
+00:29:57.020 --> 00:29:57.860
+Ist es nicht.
+
+00:29:59.140 --> 00:30:00.940
+Was ist nämlich parsed und ich hab dann einfach mal
+
+00:30:01.100 --> 00:30:02.780
+verglichen, was die zwei
+
+00:30:02.940 --> 00:30:05.140
+YAML-Parser in Roby, die dir zur Verfügung stehen,
+
+00:30:05.230 --> 00:30:07.080
+da interpretieren. Die Theta-WB, wahrscheinlich, oder?
+
+00:30:09.240 --> 00:30:10.660
+was die rausspucken und zwar
+
+00:30:10.800 --> 00:30:11.740
+was passiert ist, dass
+
+00:30:12.680 --> 00:30:13.100
+dass du
+
+00:30:13.910 --> 00:30:15.580
+dass das nächste ein Key wieder ist
+
+00:30:17.980 --> 00:30:18.660
+mit einem Value
+
+00:30:18.940 --> 00:30:20.820
+und das vorherige ist ein Key
+
+00:30:21.160 --> 00:30:22.000
+mit einem Null Value
+
+00:30:22.680 --> 00:30:23.960
+weil es auf der gleichen Ebene ist
+
+00:30:23.960 --> 00:30:25.480
+und der Bindestrich wird einfach weggeworfen
+
+00:30:25.800 --> 00:30:28.020
+nee, das ist alles Teil des Listen-Elements
+
+00:30:28.300 --> 00:30:28.540
+ach so
+
+00:30:29.760 --> 00:30:31.660
+also das ist ein Dictionary in der Liste
+
+00:30:32.030 --> 00:30:32.620
+als Listen-Element
+
+00:30:32.920 --> 00:30:34.940
+genau, du erwartest, dass die zweite Zeile
+
+00:30:36.200 --> 00:30:37.080
+Value ist
+
+00:30:37.100 --> 00:30:38.780
+ist aber bereits selbst der nächste Key.
+
+00:30:39.620 --> 00:30:41.080
+Witzig, okay. Und das ist aber
+
+00:30:41.240 --> 00:30:43.000
+einfach ein Audit T
+
+00:30:43.120 --> 00:30:43.740
+auf YAML,
+
+00:30:45.419 --> 00:30:47.360
+weil es die gleiche Einrückungsstufe
+
+00:30:47.520 --> 00:30:48.840
+hat. Wenn du das
+
+00:30:49.260 --> 00:30:51.060
+vorher mit dem Bindestrich nicht mit
+
+00:30:51.260 --> 00:30:53.100
+zweien, sondern nur mit einem Leerzeichen eingerückt
+
+00:30:53.260 --> 00:30:54.960
+hättest, dann hätte es geklappt. Ich schreibe mal das Beispiel,
+
+00:30:55.260 --> 00:30:56.380
+das YAML Beispiel mit der Show Notes.
+
+00:30:56.640 --> 00:30:58.700
+Ich schreibe mal das Issue in die Show Notes.
+
+00:30:58.940 --> 00:30:59.640
+Genau, es ist also
+
+00:31:01.580 --> 00:31:03.080
+Conclusion, YAML ist
+
+00:31:03.180 --> 00:31:04.980
+weird und
+
+00:31:05.240 --> 00:31:07.060
+benutzt einfach immer vier Zeichen
+
+00:31:07.100 --> 00:31:08.540
+Einrückung und erwartet nicht, dass es
+
+00:31:09.030 --> 00:31:10.740
+das macht, was ihr denkt, wenn ihr
+
+00:31:10.810 --> 00:31:12.440
+nur zwei Zeichen Einrückung verwendet.
+
+00:31:15.020 --> 00:31:16.700
+Ja, damit habe ich ein bisschen rumgespielt und ein anderes Tool,
+
+00:31:16.840 --> 00:31:18.320
+mit dem ich noch rumgespielt habe, ist
+
+00:31:19.140 --> 00:31:20.860
+etwas, was ich schon vorher mal bauen wollte,
+
+00:31:21.000 --> 00:31:22.100
+ist ein Cargo
+
+00:31:23.060 --> 00:31:24.560
+Add-on, Cargo ist ja der
+
+00:31:24.740 --> 00:31:25.560
+Build Manager von Rust,
+
+00:31:27.240 --> 00:31:28.860
+das dir einfach alle möglichen
+
+00:31:29.240 --> 00:31:31.020
+Kombinationen an Featuren durchtestet,
+
+00:31:31.720 --> 00:31:32.780
+die du hast, das heißt, es nimmt
+
+00:31:32.900 --> 00:31:34.700
+alle deine Feature, bildet alle möglichen Kombinationen
+
+00:31:34.780 --> 00:31:37.040
+daraus und baut die alle und sagt dir dann, was davon
+
+00:31:37.060 --> 00:31:39.180
+sowas nicht. Und das
+
+00:31:39.320 --> 00:31:39.980
+wollte ich mal anfangen.
+
+00:31:42.600 --> 00:31:44.860
+Wo man so einzelne Features blocken kann mit
+
+00:31:45.620 --> 00:31:46.580
+Syntax in Rust, dass man das
+
+00:31:47.000 --> 00:31:49.120
+in bestimmten Bedingungen nur gebaut hat. Genau, Rust unterstützt Features.
+
+00:31:49.170 --> 00:31:51.220
+Du kannst Sachen, du kannst Codeblöcke
+
+00:31:51.680 --> 00:31:53.200
+mit Feature so und so annotieren.
+
+00:31:53.680 --> 00:31:55.260
+Und dann wird das nur gebaut, wenn du
+
+00:31:55.600 --> 00:31:57.160
+dieses Feature in deiner Cargo-Tommel
+
+00:31:57.260 --> 00:31:58.800
+anmachst. Und du kannst
+
+00:31:59.360 --> 00:32:01.320
+Features zu Metafeaturen
+
+00:32:01.540 --> 00:32:03.160
+zusammenfassen. Das heißt, wenn ich dieses Feature
+
+00:32:03.260 --> 00:32:05.260
+anmache, dann sind alle diese anderen Features auch an.
+
+00:32:05.900 --> 00:32:07.620
+Dadurch, dass du das allerdings...
+
+00:32:07.680 --> 00:32:09.460
+Sonst testet man es überhaupt nicht.
+
+00:32:09.640 --> 00:32:11.900
+Genau. Dadurch, dass du das
+
+00:32:12.000 --> 00:32:13.880
+mit so Pragmas machst, ist es
+
+00:32:13.880 --> 00:32:15.760
+nicht wirklich Teil deiner Sprache und der Compiler
+
+00:32:16.700 --> 00:32:17.720
+testet nicht, ob die sich
+
+00:32:17.840 --> 00:32:19.560
+vielleicht gegenseitig ausschließen.
+
+00:32:19.600 --> 00:32:21.760
+Es kann sein, dass zwei Feature-Kombinationen einfach
+
+00:32:21.960 --> 00:32:22.920
+zusammen nicht funktionieren.
+
+00:32:23.120 --> 00:32:24.540
+Okay, das klingt witzig.
+
+00:32:24.640 --> 00:32:26.680
+Und deswegen könnte man jetzt ein Tool bauen,
+
+00:32:27.780 --> 00:32:29.160
+was einfach alle Kombinationen
+
+00:32:29.300 --> 00:32:30.960
+bildet und überall mal checkt rüber laufen lässt.
+
+00:32:31.060 --> 00:32:32.700
+Das würde natürlich irrsinnig lange dauern.
+
+00:32:33.140 --> 00:32:35.180
+Manchmal, also ich habe dieses ASCII-Tool,
+
+00:32:35.280 --> 00:32:37.180
+was ich gebaut habe, das hat 15
+
+00:32:37.540 --> 00:32:38.640
+Features oder sowas und es
+
+00:32:39.260 --> 00:32:41.580
+läuft auf knapp 9000 mögliche Kombinationen
+
+00:32:41.580 --> 00:32:41.800
+hinaus.
+
+00:32:44.000 --> 00:32:45.360
+Zumindest das Coole am Rustfest
+
+00:32:45.540 --> 00:32:47.240
+war, ich war nicht wirklich häufig in meinem Hotel,
+
+00:32:47.350 --> 00:32:48.960
+sondern wir waren halt abends immer so mit einem Haufen
+
+00:32:49.100 --> 00:32:51.100
+Rustations in der Stadt unterwegs hier und da
+
+00:32:51.200 --> 00:32:52.820
+und mal so ein Weinchen trinken in der Stadt.
+
+00:32:53.840 --> 00:32:54.560
+Und irgendeiner
+
+00:32:55.760 --> 00:32:57.160
+sagt dann, ach ja, sowas
+
+00:32:57.190 --> 00:32:59.200
+habe ich schon mal gebaut, aber es ist nicht wirklich fertig
+
+00:32:59.460 --> 00:33:01.020
+geworden. Und dann habe ich mich halt bei den
+
+00:33:01.040 --> 00:33:03.240
+Imple Dacen gesetzt und habe das mal in einen Zustand gebracht,
+
+00:33:03.350 --> 00:33:05.240
+wo ich mir den gesagt habe, das könnte man jetzt benutzen. Ich bin
+
+00:33:05.260 --> 00:33:07.360
+immer noch in so einer Refactoring-Phase, aber
+
+00:33:08.600 --> 00:33:09.340
+ich möchte es
+
+00:33:09.460 --> 00:33:10.760
+eigentlich demnächst mal veröffentlichen.
+
+00:33:12.020 --> 00:33:12.940
+Und dann würde es dir sagen,
+
+00:33:13.260 --> 00:33:14.460
+übrigens, du hast mehr als
+
+00:33:15.580 --> 00:33:17.100
+30 Feature-Kombinationen, dieser
+
+00:33:17.260 --> 00:33:19.300
+Test könnte sehr lange dauern, möchtest du weiter?
+
+00:33:19.480 --> 00:33:20.740
+Ja, aber es ist auch wichtig, dass man das irgendwie
+
+00:33:21.100 --> 00:33:23.220
+das Gefühl davon noch bekommt, was das eigentlich
+
+00:33:23.440 --> 00:33:25.560
+ausmacht an Oberfläche, die da existiert.
+
+00:33:26.020 --> 00:33:26.940
+Ich würde wahrscheinlich, wenn ich
+
+00:33:27.580 --> 00:33:29.140
+das nutze, blind einfach mal ein paar Sachen
+
+00:33:29.260 --> 00:33:31.120
+hinter die Feature-Guides reinpacken und dann
+
+00:33:31.120 --> 00:33:33.100
+gar nicht mehr auf dem Schirm haben, dass es dann plötzlich
+
+00:33:33.120 --> 00:33:35.300
+Tausende von Kombinationen gibt, die da existieren
+
+00:33:35.520 --> 00:33:37.140
+können. Ja, du musst
+
+00:33:37.260 --> 00:33:39.060
+vor allem bedenken, dass du da vielleicht
+
+00:33:39.200 --> 00:33:41.100
+Toten-Code rumliegen hast, der nicht gebaut
+
+00:33:41.300 --> 00:33:42.040
+wird und wenn du das irgendwann...
+
+00:33:42.660 --> 00:33:44.220
+Den du normalerweise nicht mitbaust
+
+00:33:45.980 --> 00:33:47.120
+und wenn du die...
+
+00:33:47.940 --> 00:33:49.220
+Oder es gibt halt auch...
+
+00:33:49.880 --> 00:33:51.040
+Ja, und wenn du es dann irgendwann mal
+
+00:33:51.090 --> 00:33:52.780
+wieder so baust, dann baut es einfach nicht.
+
+00:33:52.780 --> 00:33:54.920
+Ja, oder jemand baut es mit einem bestimmten esoterischen Feature
+
+00:33:55.080 --> 00:33:56.740
+und das Ding ist halt horrendously broken
+
+00:33:56.890 --> 00:33:58.520
+und hat einen krassen Security-Flaw.
+
+00:33:58.630 --> 00:34:00.820
+Da gibt es natürlich Leute, die sagen, ich teste immer
+
+00:34:00.910 --> 00:34:03.080
+einfach einmal mit All-Features, das es gibt
+
+00:34:03.100 --> 00:34:04.300
+mit no default features
+
+00:34:05.000 --> 00:34:06.060
+und einmal mit default features.
+
+00:34:06.060 --> 00:34:08.740
+Das Problem, was du gerade meintest, dass ich zwei Features in die Quere kommen können.
+
+00:34:08.899 --> 00:34:10.820
+Und es gibt allerdings auch Fälle, genau.
+
+00:34:10.899 --> 00:34:12.820
+Ich habe das zum Beispiel bei mir benutzt, um
+
+00:34:13.040 --> 00:34:14.940
+einen HTTP-Server hinter einen Feature
+
+00:34:14.960 --> 00:34:16.720
+zu packen, der mit Rocket
+
+00:34:16.840 --> 00:34:18.500
+gebaut wird. Rocket ist
+
+00:34:19.780 --> 00:34:20.899
+baut momentan immer noch
+
+00:34:20.940 --> 00:34:22.760
+nur mit Nightly Rust und weil ich nicht möchte,
+
+00:34:22.919 --> 00:34:24.960
+dass ich Nightly Rust voraussetze,
+
+00:34:25.000 --> 00:34:26.419
+habe ich das hinter einen Feature-Fleck gepackt.
+
+00:34:27.840 --> 00:34:28.240
+Und...
+
+00:34:28.840 --> 00:34:29.940
+Ich bin praktisch an der Stelle.
+
+00:34:30.600 --> 00:34:33.060
+Genau. Ist allerdings blöd, weil du kannst dann
+
+00:34:33.080 --> 00:34:34.940
+nicht all features testen, wenn du kein Nightly
+
+00:34:35.060 --> 00:34:36.419
+hast, das wird definitiv nicht bauen.
+
+00:34:38.039 --> 00:34:38.620
+Hast du dir
+
+00:34:39.159 --> 00:34:40.879
+passend dazu eigentlich mal Arctics angeschaut?
+
+00:34:40.940 --> 00:34:42.860
+Darauf würde ich gerade eingehen. Es gibt ein paar Leute,
+
+00:34:44.500 --> 00:34:44.760
+der
+
+00:34:45.159 --> 00:34:46.080
+Andrew Hoppen und
+
+00:34:46.810 --> 00:34:48.840
+einer von OneAim machen jedes Jahr,
+
+00:34:49.020 --> 00:34:50.659
+jedes Jahr, das ist ja zweimal im Jahr,
+
+00:34:51.399 --> 00:34:52.700
+bei jedem Rustfest einen
+
+00:34:53.280 --> 00:34:54.960
+Workshop zum Thema Webtechnologien
+
+00:34:55.780 --> 00:34:56.940
+und da wurde bis jetzt jedes Mal
+
+00:34:57.030 --> 00:34:58.980
+über was anderes geredet. Als ich da einmal dabei war,
+
+00:34:59.020 --> 00:35:00.980
+das war noch in Berlin, ging es
+
+00:35:01.200 --> 00:35:02.180
+noch hauptsächlich um Iron.
+
+00:35:02.880 --> 00:35:07.400
+Das letzte Mal in Zürich ging es dann hauptsächlich um Rocket und dieses Mal ging es hauptsächlich um Actix.
+
+00:35:08.360 --> 00:35:09.840
+Das war eine sehr schöne API, muss ich sagen.
+
+00:35:10.600 --> 00:35:15.360
+Die Actix-API ist fast identisch zu der von Rocket.
+
+00:35:15.430 --> 00:35:17.200
+Die haben sich da sehr von inspirieren lassen.
+
+00:35:17.250 --> 00:35:24.040
+Es gehen halt diese schönen Pragmas, die dir deine Route direkt an die Funktionen ranschreiben,
+
+00:35:24.140 --> 00:35:27.260
+gehen halt leider nicht, weil die benutzen unstable Features.
+
+00:35:27.940 --> 00:35:32.560
+Aber es ist wesentlich schneller als Rocket, weil es halt asynchron funktioniert.
+
+00:35:33.920 --> 00:35:35.220
+während Rocket irgendwie einfach
+
+00:35:35.350 --> 00:35:37.120
+im Hintergrund N-Worker
+
+00:35:37.300 --> 00:35:38.520
+aufmacht. Achso, das wusste ich gar nicht.
+
+00:35:39.420 --> 00:35:41.180
+Ich würde immer noch Rocket von der API
+
+00:35:41.400 --> 00:35:43.020
+her sehr, sehr, sehr präferieren, weil es echt
+
+00:35:43.140 --> 00:35:44.780
+eine wirklich schöne API ist, aber Actix
+
+00:35:45.400 --> 00:35:47.480
+basiert halt auf so einem Acta-massierten
+
+00:35:47.680 --> 00:35:49.180
+Modell und das ist schon ziemlich krass. Also die,
+
+00:35:49.370 --> 00:35:51.400
+wenn man sich mit denen mal auseinandersetzt, die posten
+
+00:35:51.500 --> 00:35:52.440
+natürlich dann auch Links zu
+
+00:35:53.579 --> 00:35:55.320
+Web-Server-Benchmarks und die sind
+
+00:35:55.500 --> 00:35:57.180
+schon ziemlich, ziemlich schnell. Die benutzen wirklich
+
+00:35:57.320 --> 00:35:59.520
+alles, was man in Rust gerade für Web-Server
+
+00:35:59.800 --> 00:36:01.080
+schnelles und schönes verwenden kann.
+
+00:36:01.740 --> 00:36:02.880
+Und schießen damit eine ganze Menge
+
+00:36:04.420 --> 00:36:06.040
+verbreitete Web-Server-Technologien
+
+00:36:06.200 --> 00:36:06.840
+aus dem Wasser.
+
+00:36:08.000 --> 00:36:08.620
+Muss ich mal ausprobieren.
+
+00:36:10.220 --> 00:36:11.180
+Genau, wenn man wieder
+
+00:36:12.110 --> 00:36:13.780
+eine schnelle, massiv skalierende,
+
+00:36:14.400 --> 00:36:15.420
+parallelisierende, asynchrone
+
+00:36:15.660 --> 00:36:17.140
+Web-Server-Geschichte bauen möchte.
+
+00:36:17.140 --> 00:36:17.920
+Klar, jedes Wochenende.
+
+00:36:19.720 --> 00:36:21.920
+Dann kann es allerdings sein, dass dir was anderes auf die Füße fällt.
+
+00:36:21.970 --> 00:36:23.760
+Also ich hatte neulich sowas mit einem Kollegen auf Arbeit
+
+00:36:23.940 --> 00:36:26.660
+gebaut. Das war ein kleiner Web-Surf-Web-Dienst,
+
+00:36:27.360 --> 00:36:29.300
+der für einen Test von uns einfach
+
+00:36:29.660 --> 00:36:30.820
+Logs entgegenheben sollte.
+
+00:36:31.060 --> 00:36:39.080
+Das heißt, unser Client wurde ziemlich häufig gestartet und sollte 24 Stunden leben.
+
+00:36:39.500 --> 00:36:44.540
+Und jeder Client, die Logs von jedem Client sollten weggeschickt werden.
+
+00:36:44.540 --> 00:36:46.760
+Und dazu haben wir, weil es eine JavaScript-Anwendung im Browser ist,
+
+00:36:47.260 --> 00:36:50.640
+haben wir eine kleine Client-Server-Log-Forwarding-Geschichte gebaut.
+
+00:36:51.580 --> 00:36:54.540
+Das heißt, jeder Client macht einen Websocker zu diesem Log-Server auf.
+
+00:36:55.140 --> 00:36:59.020
+Und jedes Mal, wenn du eine Log-Line schreibst, wird die als JSON-Message dahin geschickt.
+
+00:37:01.120 --> 00:37:16.800
+Prinzipiell relativ trivial und wenn wir einen Load-Test machen, das sind so 1000 Teilnehmer oder sowas, das ist noch von Node stemmbar durchaus. Es ist jetzt nicht mega performant, aber die Load-Lines rauscht jetzt nicht wie blöd, es geht noch.
+
+00:37:17.220 --> 00:37:21.120
+Ich habe auch kurz darüber nachgedacht, ob das nicht der Zeitpunkt wäre, um Rust in der Firma zu verwenden.
+
+00:37:21.850 --> 00:37:29.400
+Aber ich könnte, glaube ich, diesen Service, der dahinter ist, relativ schnell mit so etwas wie Actix mal an einem Nachmittag neu bauen und dann sagen,
+
+00:37:29.430 --> 00:37:31.680
+hier, guck mal, wenn es nicht mehr skaliert, ich habe das mal in Rust nochmal gebaut.
+
+00:37:32.430 --> 00:37:33.420
+Das wäre also wahrscheinlich möglich.
+
+00:37:33.510 --> 00:37:45.340
+Aber was passiert ist, wir haben diesen Load-Test gestartet und wir haben den Server auf einer Amazon-AWS-Kiste irgendwo laufen.
+
+00:37:46.440 --> 00:37:56.040
+Und wenn dieser Low-Test eine Weile nicht läuft, und die läuft dauerhaft, wenn dieser Low-Test eine Weile nicht läuft und auf dieses Ding nicht angefragt wird, dann wird das irgendwie in Schlafzustand entstehen.
+
+00:37:56.740 --> 00:38:09.380
+Und was dann passiert ist, dass wenn es dann plötzlich angefragt wird, dann wird es hochgefahren, aber natürlich nicht schnell genug für unsere Bedürfnisse, weil wenn wir den Low-Test starten, dann loggen erstmal 1000 Clients gleichzeitig irgendwie ihre Log-Lines weg.
+
+00:38:09.680 --> 00:38:09.880
+Okay.
+
+00:38:10.940 --> 00:38:15.220
+Und dann merkt der, dann fahre ich mal noch eins hoch und bei dem Zeitpunkt ist es dann schon vorbei.
+
+00:38:16.519 --> 00:38:19.260
+Es skaliert, aber es skaliert nicht schnell genug.
+
+00:38:19.590 --> 00:38:23.600
+Also wir brauchen, wenn wir den Low-Test ausführen,
+
+00:38:23.610 --> 00:38:26.680
+dann brauchen wir das innerhalb von ein paar Millisekunden,
+
+00:38:26.740 --> 00:38:28.180
+brauchen wir, dass es läuft.
+
+00:38:28.430 --> 00:38:29.980
+Und dann reicht aber auch einer.
+
+00:38:30.210 --> 00:38:31.700
+Aber wenn der halt nicht da ist,
+
+00:38:31.840 --> 00:38:33.680
+dann haben wir quasi zu dem Zeitpunkt schon verloren.
+
+00:38:33.820 --> 00:38:34.520
+Das ist ein bisschen traurig.
+
+00:38:34.900 --> 00:38:35.980
+Das kann ja auch immer noch passieren,
+
+00:38:36.050 --> 00:38:38.740
+selbst wenn dein Web-Server, den du implementiert hast,
+
+00:38:38.920 --> 00:38:41.080
+von vornherein schon performant ist wie blöde.
+
+00:38:41.480 --> 00:38:43.300
+wenn der dir von deinem
+
+00:38:44.620 --> 00:38:45.960
+Kubernetes oder von deinem
+
+00:38:46.180 --> 00:38:47.920
+Cloud Provider einfach mal weggestellt wird,
+
+00:38:48.300 --> 00:38:49.520
+wenn du ihn gerade nicht benutzt, dann ist das blöd.
+
+00:38:49.850 --> 00:38:51.580
+Wir haben es dann einfach gelöst, indem wir das Ding so
+
+00:38:51.700 --> 00:38:53.660
+konfiguriert haben, dass es einfach anbleibt.
+
+00:38:54.400 --> 00:38:55.620
+Das wird dafür auch...
+
+00:38:55.720 --> 00:38:57.600
+Es reicht ja weiterhin eine relativ kleine
+
+00:38:57.900 --> 00:38:58.320
+Instanz dafür,
+
+00:38:59.600 --> 00:39:02.000
+aber das sind Sachen, die dir dann trotzdem noch passieren können.
+
+00:39:03.340 --> 00:39:03.780
+Witzig.
+
+00:39:05.900 --> 00:39:07.600
+Hier klingt ja tatsächlich nach einem coolen Meetup
+
+00:39:07.650 --> 00:39:09.660
+oder Rustfest, einem coolen Fest eher
+
+00:39:10.160 --> 00:39:10.820
+in Paris.
+
+00:39:11.060 --> 00:39:11.860
+Das war schon wirklich Party.
+
+00:39:13.359 --> 00:39:15.060
+Ich meine, ich gehe da ja auch hin, weil ich
+
+00:39:15.940 --> 00:39:17.240
+die Leute da mittlerweile relativ gut
+
+00:39:17.360 --> 00:39:19.200
+kenne und wir gehen ein bisschen halt jeden Abend um ja aus auf.
+
+00:39:20.640 --> 00:39:21.120
+Dann morgens
+
+00:39:21.300 --> 00:39:23.100
+gemeinsam haben wir uns irgendwo beim Bäcker in Paris
+
+00:39:23.340 --> 00:39:25.160
+getroffen, haben uns jeder ein Baguette zum Frühstück
+
+00:39:25.260 --> 00:39:27.160
+geholt, das mit unserer gebrochenen Französisch
+
+00:39:27.220 --> 00:39:28.960
+gestellt. Ich habe es wenigstens
+
+00:39:29.200 --> 00:39:31.140
+versucht mit ein bisschen Französisch hier und
+
+00:39:31.140 --> 00:39:33.160
+da, aber ich habe natürlich keinen Wort verstanden, sobald
+
+00:39:33.280 --> 00:39:34.900
+jemand mit einer normalen Sprechgeschwindigkeit
+
+00:39:35.010 --> 00:39:35.780
+mit mir reden wollte.
+
+00:39:37.620 --> 00:39:39.060
+Aber mit dem Concierge konnte
+
+00:39:39.060 --> 00:39:39.880
+ich dann irgendwann
+
+00:39:40.820 --> 00:39:42.500
+reden und mich verabschieden
+
+00:39:42.540 --> 00:39:44.260
+und wenn ich wiedergekommen bin, konnte ich meine
+
+00:39:44.460 --> 00:39:45.600
+Zimmernummer korrekt aussprechen.
+
+00:39:45.600 --> 00:39:45.760
+Nice.
+
+00:39:49.020 --> 00:39:49.580
+Apropos
+
+00:39:49.740 --> 00:39:51.300
+Fest, ein anderes
+
+00:39:51.940 --> 00:39:53.020
+Fest läuft ja gerade,
+
+00:39:53.600 --> 00:39:54.820
+nämlich die WWDC,
+
+00:39:55.600 --> 00:39:56.840
+die App-Bildest-Entwickler-Konferenz.
+
+00:39:57.580 --> 00:39:59.360
+Heute ist Mittwoch,
+
+00:39:59.560 --> 00:40:01.100
+vor zwei Tagen war Auftakt,
+
+00:40:01.700 --> 00:40:03.380
+die Keynote, wo sie ein bisschen
+
+00:40:03.540 --> 00:40:05.460
+mit Entwickler-Fokus dann nochmal
+
+00:40:05.580 --> 00:40:07.380
+quasi vorstellen, was so Neues ist,
+
+00:40:07.540 --> 00:40:09.200
+neue APIs existieren und so weiter.
+
+00:40:10.000 --> 00:40:11.920
+das haben wir uns hier in unserer lokalen
+
+00:40:12.180 --> 00:40:13.580
+CocoHeads-Gruppe natürlich gemeinsam
+
+00:40:13.760 --> 00:40:15.680
+angeschaut, beides, hat sehr viel Spaß gemacht am Montag
+
+00:40:16.860 --> 00:40:17.700
+ja, da gibt es ein paar
+
+00:40:17.800 --> 00:40:19.660
+coole neue Sachen, die vorgestellt haben, ein bisschen haben sie es
+
+00:40:20.880 --> 00:40:21.680
+gefühlt eingeschränkt
+
+00:40:21.840 --> 00:40:23.340
+es gibt viel mehr Performance-Improvements
+
+00:40:23.860 --> 00:40:25.620
+dieses Jahr auf allen Plattformen, finde ich
+
+00:40:25.620 --> 00:40:27.600
+sehr cool, ich konnte natürlich nicht widerstehen
+
+00:40:27.680 --> 00:40:28.360
+und habe mir erstmal
+
+00:40:29.360 --> 00:40:31.700
+die iOS 12 Beta, die allererste
+
+00:40:31.880 --> 00:40:33.860
+Beta auf mein Gerät gezogen
+
+00:40:34.580 --> 00:40:35.940
+aber was soll es, iOS-Geräte
+
+00:40:35.980 --> 00:40:37.660
+sind für mich keine Daily Driver, das ist
+
+00:40:38.359 --> 00:40:39.560
+quasi Development-Plattformen.
+
+00:40:40.320 --> 00:40:42.080
+Das heißt, wenn dein Handy jetzt spontan
+
+00:40:42.120 --> 00:40:43.860
+nicht mehr geht, bist du auch nicht traurig? Dann machst du einfach
+
+00:40:43.990 --> 00:40:45.380
+ein Fallback auf die Alte? Dann mache ich
+
+00:40:46.160 --> 00:40:47.840
+ein Downgrade oder setze es
+
+00:40:47.870 --> 00:40:50.200
+neu auf. Auf meine iOS-Karäte bin ich wenig angewiesen.
+
+00:40:50.600 --> 00:40:52.220
+Auf meinem Mac tut mir
+
+00:40:52.220 --> 00:40:53.440
+ein bisschen mehr weh, wenn da was kaputt geht.
+
+00:40:54.720 --> 00:40:56.020
+Aber ich muss sagen, die Beta
+
+00:40:56.280 --> 00:40:58.080
+ist beeindruckend. Also die
+
+00:40:58.160 --> 00:40:59.980
+letzten Jahre war es ein bisschen schwierig. Dann habe ich
+
+00:41:00.080 --> 00:41:02.100
+ein paar Wochen, dann konnte ich nicht ins Eduroam,
+
+00:41:02.160 --> 00:41:03.960
+ins Unienetz gehen, weil Apple da irgendwie
+
+00:41:04.200 --> 00:41:05.900
+entweder gab es einen Bug oder
+
+00:41:05.920 --> 00:41:08.160
+Apple hat neue Kryptostandards vorausgesetzt,
+
+00:41:08.260 --> 00:41:09.260
+die die Uni nicht halten konnte.
+
+00:41:09.819 --> 00:41:11.200
+Super, dann ging das nicht.
+
+00:41:11.600 --> 00:41:13.400
+Oder es war super unstable.
+
+00:41:13.780 --> 00:41:15.860
+Das passiert auch. Es ist die erste Beta, es ist völlig okay,
+
+00:41:16.000 --> 00:41:17.660
+wenn es unstable ist, aber aktuell
+
+00:41:17.860 --> 00:41:19.920
+das ist unglaublich. Das Ding
+
+00:41:19.960 --> 00:41:21.580
+ist bedeutend schneller als vorher.
+
+00:41:22.040 --> 00:41:23.760
+Die Akkulaufzeile ist ein bisschen mieser,
+
+00:41:23.880 --> 00:41:25.620
+gut, das auch zu erwarten, aber das läuft
+
+00:41:25.940 --> 00:41:27.660
+bedeutend schneller mit meinem ganzen Handy. Ich bin
+
+00:41:28.380 --> 00:41:29.720
+beeindruckt. Kann es nicht sein, dass sie einfach
+
+00:41:29.780 --> 00:41:31.520
+die Animation ein bisschen flotter gemacht hat?
+
+00:41:31.620 --> 00:41:33.340
+Das vermuten wir auch, dass es zum Teil daran liegt.
+
+00:41:33.720 --> 00:41:35.560
+Sie haben natürlich stark darüber gesprochen,
+
+00:41:35.740 --> 00:41:37.660
+was sie alles Performance verbessert haben
+
+00:41:37.710 --> 00:41:38.840
+und wie viel schneller das wirklich läuft.
+
+00:41:39.310 --> 00:41:41.100
+Und vor allem unterlass, dass die Geräte wirklich teilweise
+
+00:41:41.380 --> 00:41:42.500
+zweifach doppelt so schnell laufen.
+
+00:41:43.720 --> 00:41:45.500
+Das ist echt cool. Man sieht es aber auch an einer Stelle,
+
+00:41:45.620 --> 00:41:47.360
+sie haben auch stark geworben, dass das Share-Sheet,
+
+00:41:47.520 --> 00:41:48.860
+wenn du es mal irgendwelche Inhalte teilst,
+
+00:41:49.180 --> 00:41:51.280
+da geht so ein System-UI-Component auf,
+
+00:41:51.310 --> 00:41:54.200
+wo du Dinge mit einer bestimmten App teilen kannst
+
+00:41:54.200 --> 00:41:55.400
+oder bestimmte Aktionen ausführen kannst.
+
+00:41:55.840 --> 00:41:57.100
+Da merkt man auch, wie das schneller wird,
+
+00:41:57.220 --> 00:41:59.480
+nämlich geht das Share-Sheet auf und dann laden erst
+
+00:41:59.680 --> 00:42:01.120
+die Apps, die Icons drin.
+
+00:42:02.460 --> 00:42:04.680
+Ist aber völlig okay, weil somit fühlt sich das schneller an
+
+00:42:04.700 --> 00:42:06.640
+es theoretisch schneller zu nutzen, als wenn
+
+00:42:06.780 --> 00:42:08.880
+das ganze Ding erst blockt, bis es fertig geladen ist
+
+00:42:09.140 --> 00:42:10.360
+und sich dann die Animation reinspielt.
+
+00:42:10.360 --> 00:42:12.760
+Das klingt echt, als ob es einfach an dem Animationsframework
+
+00:42:12.860 --> 00:42:14.700
+zum Teil sicherlich, aber wie gesagt, es macht trotzdem
+
+00:42:14.780 --> 00:42:16.620
+so oder so den Unterschied, weil es fühlt sich schneller an
+
+00:42:16.640 --> 00:42:17.520
+und es ist tatsächlich auch schneller.
+
+00:42:18.180 --> 00:42:23.500
+Da fällt mir eine Anekdote aus meinem KDE-Desktop-Konfigurationsleben ein.
+
+00:42:24.540 --> 00:42:27.340
+Und zwar ist die Standardkonfiguration von Animationen
+
+00:42:27.340 --> 00:42:29.340
+auf KDE einfach ein Tick zu langsam
+
+00:42:29.560 --> 00:42:31.760
+und alle denken sich, KDE ist so ein Monster
+
+00:42:31.900 --> 00:42:32.940
+und es ist so langsam.
+
+00:42:33.560 --> 00:42:36.240
+Und dann gehst du einfach mal in die Desktop-Animationseinstellung
+
+00:42:36.240 --> 00:42:38.960
+und drehst die irgendwie von 50 auf 70 Prozent.
+
+00:42:39.260 --> 00:42:39.980
+Und dann zack.
+
+00:42:41.600 --> 00:42:42.060
+Das ist doch wunderbar.
+
+00:42:42.100 --> 00:42:43.060
+Ich meine, das macht einen riesen Unterschied.
+
+00:42:43.260 --> 00:42:43.800
+Das macht einen Unterschied.
+
+00:42:44.220 --> 00:42:47.380
+Das erinnere mich auch an Plank, P-L-A-N-C-K.
+
+00:42:47.560 --> 00:42:49.260
+Das ist ein Rappel für die Sprache Closure.
+
+00:42:50.160 --> 00:42:51.800
+Und da habe ich mal, meine ich,
+
+00:42:52.620 --> 00:42:53.600
+ich will mich daran zu erinnern,
+
+00:42:53.980 --> 00:42:55.760
+ich habe im Change Talk was gelesen.
+
+00:42:55.900 --> 00:42:57.480
+Ich habe mal sehr viel Closure geschrieben,
+
+00:42:57.580 --> 00:42:58.560
+habe in einer kurzen Zeit meines Lebens
+
+00:42:58.760 --> 00:42:59.520
+und sehr viel Spaß daran hatte,
+
+00:43:00.140 --> 00:43:02.140
+dass der Entwickler von diesem Rappel eine coole Idee hatte,
+
+00:43:02.160 --> 00:43:02.880
+wie man das schneller macht.
+
+00:43:03.060 --> 00:43:04.880
+zwar die Closure läuft mit der JVM
+
+00:43:05.400 --> 00:43:06.820
+und dieses Ripple zu starten, hat natürlich
+
+00:43:07.020 --> 00:43:08.960
+im Hintergrund erstmal die JVM gestartet, wo das
+
+00:43:08.960 --> 00:43:10.620
+drin laufen kann. Das hat halt so eine Sekunde,
+
+00:43:10.760 --> 00:43:12.740
+nicht nur die Sekunde, aber es hat
+
+00:43:12.860 --> 00:43:15.000
+einen kurzen Moment gedauert. Es war halt nicht instant
+
+00:43:15.260 --> 00:43:17.020
+da. Und er kam auf die
+
+00:43:17.160 --> 00:43:19.120
+coole Idee, er hat einfach die CLI
+
+00:43:19.680 --> 00:43:21.080
+ersetzt durch ein Shell-Skript,
+
+00:43:21.420 --> 00:43:23.200
+was das eigentliche Tool gestartet hat
+
+00:43:23.680 --> 00:43:25.080
+und dieses Shell-Skript hat halt quasi
+
+00:43:25.320 --> 00:43:27.160
+die UI des CLI,
+
+00:43:27.240 --> 00:43:27.920
+also quasi ein
+
+00:43:29.060 --> 00:43:30.900
+Chef-Rod, eine Spitze größer
+
+00:43:31.660 --> 00:43:32.260
+als angezeigt.
+
+00:43:32.380 --> 00:43:34.340
+diese blinkenden Cursor. Genau, und das hat
+
+00:43:34.700 --> 00:43:36.320
+angezeigt und im Hintergrund die JVM
+
+00:43:36.440 --> 00:43:38.100
+geladen und hat halt bereits schon Input angenommen.
+
+00:43:38.200 --> 00:43:40.000
+Das heißt, du hast das Ding gestartet, konntest los tippen
+
+00:43:40.300 --> 00:43:42.280
+und bis zu dem Zeitpunkt, wo du Enter gedrückt hast, war das Ding
+
+00:43:42.330 --> 00:43:44.500
+eh schon längst da. Aber das fühlte
+
+00:43:44.530 --> 00:43:46.440
+sich halt so an, als ob es instant da war
+
+00:43:46.480 --> 00:43:48.320
+und es hat so einen Unterschied für die Usability
+
+00:43:48.470 --> 00:43:50.420
+gemacht. Großartig fand ich das. Echt klasse.
+
+00:43:51.119 --> 00:43:52.400
+Jedes Mal, wenn du als Nutzer merkst,
+
+00:43:52.430 --> 00:43:53.460
+oh, ich muss hier gerade warten,
+
+00:43:54.720 --> 00:43:56.280
+ärgerst du dich ein bisschen? Ja, aber er hat halt auch nur
+
+00:43:56.360 --> 00:43:58.240
+gefaked und es ging halt... Das reicht ja
+
+00:43:58.380 --> 00:44:00.440
+völlig aus im Moment, weil du hast...
+
+00:44:00.460 --> 00:44:02.460
+Du bist entblockiert, deblockiert.
+
+00:44:02.560 --> 00:44:02.900
+Auf jeden Fall.
+
+00:44:02.980 --> 00:44:04.060
+Du kannst losarbeiten.
+
+00:44:05.000 --> 00:44:06.420
+Es fühlt sich so unglaublich snappy an.
+
+00:44:06.620 --> 00:44:07.560
+Aber ich will auch Apple nicht unterstellen,
+
+00:44:07.560 --> 00:44:08.340
+dass das alles gefake ist.
+
+00:44:08.400 --> 00:44:08.900
+Das glaube ich kaum,
+
+00:44:09.040 --> 00:44:11.220
+aber an der einen Stelle zumindest zur Hälfte.
+
+00:44:11.220 --> 00:44:11.860
+Und ich finde es auch gut,
+
+00:44:11.900 --> 00:44:12.740
+dass das so gefake ist.
+
+00:44:13.040 --> 00:44:13.300
+Gefällt mir.
+
+00:44:14.040 --> 00:44:15.820
+Ansonsten, was hat sich bei iOS geändert?
+
+00:44:16.240 --> 00:44:18.840
+Wir haben jetzt eine coole Shortcuts-App
+
+00:44:19.420 --> 00:44:20.360
+für die Hörer von uns,
+
+00:44:20.460 --> 00:44:21.920
+die so eine Workflow-App kennen,
+
+00:44:22.320 --> 00:44:23.440
+die es unter iOS mal gab.
+
+00:44:23.540 --> 00:44:25.040
+Die hat Apple aufgekauft vor zwei Jahren.
+
+00:44:25.480 --> 00:44:27.320
+Das war so eine Art Automation-App,
+
+00:44:27.500 --> 00:44:30.420
+wo diverse Features oder Applikationen
+
+00:44:30.460 --> 00:44:32.480
+werden konnten und dann halt
+
+00:44:32.800 --> 00:44:34.260
+bestimmte Aktionen automatisiert werden konnten.
+
+00:44:34.340 --> 00:44:36.580
+Zum Beispiel konnte ich dann über die App
+
+00:44:36.760 --> 00:44:38.360
+eine Aktion starten, wo ich nochmal
+
+00:44:38.480 --> 00:44:40.360
+gefragt wurde in einem Pop-Up, was ich gerade
+
+00:44:40.500 --> 00:44:42.040
+getrunken habe und dann hat mir das
+
+00:44:43.380 --> 00:44:44.340
+dementsprechend eine bestimmte
+
+00:44:44.480 --> 00:44:46.240
+Menge an Koffein in die Health-App eingetragen
+
+00:44:46.820 --> 00:44:48.440
+zum Beispiel oder eine bestimmte andere
+
+00:44:48.450 --> 00:44:50.120
+App gestartet mit einem bestimmten Text
+
+00:44:50.330 --> 00:44:52.060
+in einem Mail oder in einer Notiz oder
+
+00:44:52.400 --> 00:44:54.220
+keine Ahnung, da konnte man solche Aktionen aneinander
+
+00:44:54.340 --> 00:44:56.200
+ketten. Also Automation. Man konnte damit was machen.
+
+00:44:56.270 --> 00:44:57.800
+Das hat Apple jetzt ins System eingebaut
+
+00:44:58.500 --> 00:44:59.760
+und das kommt demnächst
+
+00:45:00.300 --> 00:45:01.820
+noch auf die Plattform mit drauf, das
+
+00:45:02.140 --> 00:45:03.780
+wird als extra App gelauncht, aber ist ins System
+
+00:45:03.940 --> 00:45:05.680
+integriert. Klingt super cool, super mächtig
+
+00:45:06.020 --> 00:45:07.460
+und da kann jetzt quasi jede App
+
+00:45:08.420 --> 00:45:09.940
+Aktionen publishen, die dann davon
+
+00:45:10.200 --> 00:45:11.740
+angesprochen werden können. Das klingt super cool,
+
+00:45:11.760 --> 00:45:13.620
+so kann ich dann sagen, kann ja auch
+
+00:45:13.760 --> 00:45:15.460
+sicherlich starten, dass ich jetzt
+
+00:45:16.100 --> 00:45:17.500
+mich auf dem Weg nach Hause mache und dann
+
+00:45:18.180 --> 00:45:19.580
+starte ein Workflow, der
+
+00:45:20.100 --> 00:45:21.800
+meinem Partner sagt, mir eine Nachricht schickt
+
+00:45:21.880 --> 00:45:22.620
+von wegen, ich bin auf dem Weg.
+
+00:45:23.800 --> 00:45:25.920
+Keine Ahnung, wenn der jemand zu Hause ist, ist schon komisch
+
+00:45:25.940 --> 00:45:27.740
+oder zu Hause schon mal die Lüfter startet
+
+00:45:27.940 --> 00:45:29.740
+über HomeKit. Das klingt aber
+
+00:45:29.760 --> 00:45:31.580
+man schon so ein bisschen nach den Intents, die es
+
+00:45:31.740 --> 00:45:33.660
+schon auf Android gibt, oder? Da kenne ich mich
+
+00:45:33.690 --> 00:45:35.900
+jetzt persönlich nicht mit aus. Da weiß ich nicht, wie das
+
+00:45:35.970 --> 00:45:37.500
+läuft oder was genau das ist.
+
+00:45:38.140 --> 00:45:39.800
+Aber ich finde es auf jeden Fall eine coole Sache
+
+00:45:40.020 --> 00:45:41.020
+und bin sehr gespannt.
+
+00:45:41.600 --> 00:45:43.760
+Viele Leute werden sich draufstürzen. Jede App hat
+
+00:45:43.840 --> 00:45:45.680
+sicherlich viele Extension Points, die man
+
+00:45:45.690 --> 00:45:47.700
+da publishen kann. Das klingt so wie, wir
+
+00:45:47.880 --> 00:45:49.860
+benutzen unsere iPhones zu viel oder wir benutzen
+
+00:45:49.960 --> 00:45:51.740
+unsere Smartphones zu viel und wir müssen zu viel damit
+
+00:45:52.020 --> 00:45:53.700
+interagieren. Also automatisieren wird
+
+00:45:53.800 --> 00:45:55.600
+das jetzt auch schon weg. Wenn man da viele
+
+00:45:55.850 --> 00:45:57.540
+Dinge hat, die man ständig dieselbe Aktion
+
+00:45:57.560 --> 00:45:59.440
+wiederholt, warum nicht? Klar, lass uns das weg
+
+00:45:59.580 --> 00:46:01.460
+automatisieren. In dieselben Richtung haben sie auch
+
+00:46:02.030 --> 00:46:03.160
+ein Feature eingeführt, was
+
+00:46:03.340 --> 00:46:05.320
+Google jetzt auch vor kurzem eingeführt hatte für Android,
+
+00:46:06.160 --> 00:46:06.700
+nämlich, dass man
+
+00:46:08.519 --> 00:46:09.460
+sieht, welche Apps man
+
+00:46:09.570 --> 00:46:11.580
+wie oft benutzt oder welche App-Gruppen man wie oft benutzt
+
+00:46:11.980 --> 00:46:13.420
+und da auch Limits für sich selber setzen kann.
+
+00:46:13.450 --> 00:46:15.000
+Ich habe mir gleich mal in der Beta ein
+
+00:46:16.019 --> 00:46:17.720
+einstündiges Limit für Social Media
+
+00:46:17.840 --> 00:46:19.600
+die Kategorie gesetzt und jetzt kriege ich
+
+00:46:19.680 --> 00:46:20.820
+da irgendwann eine
+
+00:46:21.740 --> 00:46:22.680
+Notification rein von wegen,
+
+00:46:23.400 --> 00:46:25.480
+du hast Twitter offen, du hast jetzt noch
+
+00:46:25.510 --> 00:46:27.520
+fünf Minuten übrig und wenn diese fünf Minuten
+
+00:46:27.540 --> 00:46:29.720
+abgelaufen sind, dann ist Twitter erstmal blockiert. Natürlich kann ich auch
+
+00:46:29.960 --> 00:46:31.960
+gehen. Ich behaupte,
+
+00:46:32.020 --> 00:46:33.920
+dass ich erwachsen bin und den Button
+
+00:46:34.100 --> 00:46:35.660
+drücken darf, dass ich umgehen mag.
+
+00:46:36.250 --> 00:46:37.840
+Aber ich finde es ganz cool, dass man sich da generell
+
+00:46:37.870 --> 00:46:39.860
+daran hält und das Gerät auch mit trackt, welche Apps
+
+00:46:39.890 --> 00:46:41.860
+ich wie oft benutze, wie oft ich mein Handy generell
+
+00:46:41.960 --> 00:46:43.680
+anmache, welche Apps mir die meisten Notifications schicken.
+
+00:46:44.040 --> 00:46:46.000
+Da haben sie auch viel dran geändert, dass ich Notifications
+
+00:46:46.560 --> 00:46:47.900
+optimieren kann, die Apps
+
+00:46:48.030 --> 00:46:49.760
+einfach blocke, dass mein Handy gar nicht erst vibriert
+
+00:46:49.770 --> 00:46:51.740
+bei bestimmten Apps und da viel, viel mehr
+
+00:46:52.080 --> 00:46:53.820
+für mich gestalten kann. Das finde ich echt cool. Da haben sie
+
+00:46:54.640 --> 00:46:57.500
+viel, viel noch rausgeholt. Aber
+
+00:46:57.620 --> 00:46:59.760
+also die neuen Features, vor allem auf diese Shortcut-Sache,
+
+00:46:59.850 --> 00:47:01.500
+also die Workflow-Sachen beschränkt
+
+00:47:02.220 --> 00:47:03.640
+und ein paar kleinere Sachen hier und da.
+
+00:47:04.280 --> 00:47:05.800
+Finde ich sehr cool. Auf macOS
+
+00:47:05.850 --> 00:47:06.700
+hat sich noch ein bisschen mehr getan.
+
+00:47:08.000 --> 00:47:09.120
+Du hast vorhin schon ein bisschen
+
+00:47:10.230 --> 00:47:11.460
+Spaß gehabt, dass der Dark Mode ja
+
+00:47:11.580 --> 00:47:13.480
+was andere Plattformen schon längst haben, aber trotzdem,
+
+00:47:13.720 --> 00:47:14.880
+jetzt haben wir den auch. Finde ich cool.
+
+00:47:15.520 --> 00:47:17.320
+Nee, also ich, sie haben es
+
+00:47:18.099 --> 00:47:19.600
+angekündigt und haben gesagt, man kann
+
+00:47:19.740 --> 00:47:21.380
+jetzt das Theme von
+
+00:47:21.780 --> 00:47:23.280
+Desktop-Anwendungen auf Mac ändern.
+
+00:47:23.820 --> 00:47:25.060
+Das ist natürlich durchaus schick.
+
+00:47:26.520 --> 00:47:28.780
+Es ist halt nur so ein, ja, schön,
+
+00:47:28.940 --> 00:47:30.940
+ich dachte, ihr hättet das vielleicht schon gekonnt.
+
+00:47:31.080 --> 00:47:32.600
+Konnte man das nicht schon und sowas?
+
+00:47:32.700 --> 00:47:34.860
+Nee, also es gab zumindest kein System-Wide-Dark-Mode.
+
+00:47:34.980 --> 00:47:36.780
+Du konntest natürlich hier so ein Theme,
+
+00:47:36.940 --> 00:47:38.440
+wie du möchtest, als deine App.
+
+00:47:39.080 --> 00:47:40.920
+Wenn du drüber nachdenkst, das ist prinzipiell
+
+00:47:41.080 --> 00:47:42.600
+was. Ich meine, gibt es nur einen Dark
+
+00:47:42.800 --> 00:47:44.080
+und einen Light-Mode? Es gibt nur Light und Dark.
+
+00:47:44.620 --> 00:47:46.580
+Ach so. Ich meine, gut, okay, das ist ja typisch
+
+00:47:46.600 --> 00:47:48.520
+Apple, dass sie sagen, das muss möglichst
+
+00:47:51.359 --> 00:47:52.000
+perfekt sein.
+
+00:47:52.920 --> 00:47:54.460
+Dementsprechend geben wir nur zwei
+
+00:47:54.640 --> 00:47:56.440
+Farb-Themes vor. Aber im Endeffekt, wenn du drüber nachdenkst,
+
+00:47:57.519 --> 00:47:59.760
+Farbthemes gibt es schon seit Windows 95.
+
+00:48:00.160 --> 00:48:00.880
+Klar, natürlich.
+
+00:48:01.270 --> 00:48:02.300
+Was natürlich cool ist, dass du...
+
+00:48:02.300 --> 00:48:04.480
+Die Highlight-Color kannst du auch auf macOS immer noch einstellen.
+
+00:48:04.530 --> 00:48:07.220
+Das hast du ja, glaube ich, auch nicht auf dem Standard von Blau belassen
+
+00:48:07.310 --> 00:48:08.500
+oder Graphite oder wie das immer das ist.
+
+00:48:09.819 --> 00:48:11.660
+Ja, da habe ich, glaube ich, auch was anderes gemacht.
+
+00:48:11.700 --> 00:48:13.040
+Das ist auch grün und schwarz, habe ich mir sagen lassen.
+
+00:48:13.779 --> 00:48:15.560
+Grün im Dark Mode sieht super cool aus.
+
+00:48:16.220 --> 00:48:16.360
+Genau.
+
+00:48:16.810 --> 00:48:20.780
+Was ich schick finde, ist, dass sie jetzt ihre Wallpaper überblenden lassen.
+
+00:48:20.930 --> 00:48:24.060
+Sie haben ja dieses Mojave oder Mojave.
+
+00:48:24.320 --> 00:48:26.200
+Da habe ich zum ersten Mal dieses Wort ausgesprochen.
+
+00:48:26.980 --> 00:48:27.340
+gehört.
+
+00:48:28.640 --> 00:48:30.980
+Das aktuelle Theme ist ja diese Wüste in Kalifornien.
+
+00:48:31.760 --> 00:48:32.120
+Und
+
+00:48:33.739 --> 00:48:34.880
+das Wallpaper ist jetzt
+
+00:48:35.060 --> 00:48:36.780
+tagsüber ein Foto der Wüste
+
+00:48:36.940 --> 00:48:39.000
+bei Tag und wenn es Abend wird, ändert sich das
+
+00:48:39.140 --> 00:48:40.840
+und das ist ein Foto der Wüste bei Nacht.
+
+00:48:41.060 --> 00:48:43.220
+Geht das auch mit anderen Wallpapers?
+
+00:48:43.880 --> 00:48:44.860
+Also in der Beta ist
+
+00:48:44.940 --> 00:48:46.840
+erstmal nur diese eine drin. Ich habe es auch gerne mal angeschaut.
+
+00:48:47.600 --> 00:48:49.100
+Die haben drei Wallpaper
+
+00:48:49.180 --> 00:48:49.900
+in der Beta erstmal.
+
+00:48:50.830 --> 00:48:52.900
+Die Wüste bei Tag, die Wüste bei Nacht und dieses dynamische
+
+00:48:52.980 --> 00:48:55.100
+Wallpaper. Das sind aber nicht nur zwei Bilder, die irgendwann automatisch
+
+00:48:55.120 --> 00:48:56.900
+switchen, sondern es geht sehr dynamisch
+
+00:48:57.080 --> 00:48:57.640
+als Gradient.
+
+00:48:59.480 --> 00:49:00.580
+Als Format ist das dieses
+
+00:49:00.800 --> 00:49:02.940
+HEIC, dieser neue Bildformat, was Apple
+
+00:49:02.940 --> 00:49:03.900
+da letztes Jahr, glaube ich, mit
+
+00:49:05.340 --> 00:49:06.900
+angebracht hat und ein bisschen zu pushen versucht.
+
+00:49:07.920 --> 00:49:08.780
+Aber das Ding ist halt,
+
+00:49:09.280 --> 00:49:10.580
+die einzelnen Grafiken sind, glaube ich,
+
+00:49:10.780 --> 00:49:12.940
+9 MB groß und dieser dynamische
+
+00:49:13.100 --> 00:49:14.600
+Container sind einfach mal 150 MB.
+
+00:49:15.660 --> 00:49:16.860
+Also da stecken wohl ein paar
+
+00:49:17.040 --> 00:49:19.060
+Grafiken drin, die es durchcycelt
+
+00:49:19.440 --> 00:49:20.920
+und wahrscheinlich dann mit so vielen Gradienten
+
+00:49:20.980 --> 00:49:22.960
+dazwischen, dass du nicht irgendwie einen harten Flash hast.
+
+00:49:23.200 --> 00:49:24.960
+Du siehst dann deshalb ja doch unter macOS recht häufig,
+
+00:49:25.760 --> 00:49:27.080
+allein durch die Tatsache, dass viele
+
+00:49:27.280 --> 00:49:29.220
+Events da irgendwo ein paar bisschen translucent sind
+
+00:49:29.420 --> 00:49:30.680
+und das mit durchschimmern lassen.
+
+00:49:30.780 --> 00:49:33.020
+Also ich freue mich schon drauf, wenn auf
+
+00:49:33.400 --> 00:49:34.320
+Unsplash die ersten
+
+00:49:35.200 --> 00:49:36.880
+Day and Night Warpapers
+
+00:49:37.140 --> 00:49:37.220
+sind.
+
+00:49:38.039 --> 00:49:40.840
+Das Format ist bekannt und du musst einfach mal reinschauen, wie es aufgebaut ist
+
+00:49:40.940 --> 00:49:43.280
+und dann kannst du wahrscheinlich auch andere dynamische Warpapers selber erstellen.
+
+00:49:43.760 --> 00:49:44.880
+Finde ich auf jeden Fall die Idee ziemlich
+
+00:49:45.400 --> 00:49:47.020
+cool. Wäre ein bisschen schade, dass das wahrscheinlich nur
+
+00:49:47.060 --> 00:49:48.980
+am Tageszyklus festgemacht wird, aber wer weiß, was
+
+00:49:49.080 --> 00:49:50.960
+sich da noch in den Betas ändern oder wie man generell
+
+00:49:50.960 --> 00:49:52.920
+das sieht. Aber generell eine witzige Idee.
+
+00:49:53.280 --> 00:49:53.620
+Gefällt mir.
+
+00:49:54.260 --> 00:49:55.440
+Durchaus nice, durchaus nice.
+
+00:49:55.580 --> 00:49:56.460
+Aber es ist halt ein kleines Gimmick.
+
+00:49:56.620 --> 00:49:58.720
+Das eine große, oder die zwei größeren Sachen,
+
+00:49:58.980 --> 00:50:00.920
+das eine ist nicht ganz so groß, aber ich finde es ziemlich groß,
+
+00:50:01.480 --> 00:50:04.200
+ist, dass sie mit Safari noch sehr darauf achten,
+
+00:50:04.660 --> 00:50:07.880
+jetzt jeglichen werbetreibenden dicken Strich durch die Rechner zu machen.
+
+00:50:08.640 --> 00:50:11.180
+Wir versuchen jetzt generell Browser Fingerprinting
+
+00:50:11.400 --> 00:50:13.640
+so komplett wie möglich zu umgehen und zu unterbinden,
+
+00:50:13.740 --> 00:50:16.980
+indem sie sehr wenig zulassen an Anfragen,
+
+00:50:17.460 --> 00:50:22.140
+welche Plugins installiert sind.
+
+00:50:22.940 --> 00:50:26.640
+Oder dass Webseiten noch mehr Rechte abfragen müssen,
+
+00:50:26.880 --> 00:50:28.140
+wenn sie bestimmte Features haben wollen.
+
+00:50:28.960 --> 00:50:31.960
+Das Panopti-Click von der EFF könnte man dann auf jeden Fall
+
+00:50:32.020 --> 00:50:32.740
+nochmal ausprobieren auf der Beta.
+
+00:50:32.980 --> 00:50:34.680
+Würde mich auch interessieren, sobald ich die dann installiert habe.
+
+00:50:34.900 --> 00:50:36.400
+Genau. Was ist der Hintergrund jetzt davon?
+
+00:50:36.550 --> 00:50:38.120
+Jetzt mal um ein bisschen Kontext zu geben.
+
+00:50:38.640 --> 00:50:40.760
+Wir haben von der EU jetzt diese schöne Richtlinie,
+
+00:50:40.860 --> 00:50:43.620
+dass die alle Webseiten jetzt so einen OK-Button einblenden müssen,
+
+00:50:44.260 --> 00:50:46.060
+um dich nach Erlaubnis zu fragen oder um dich zumindest
+
+00:50:46.170 --> 00:50:50.360
+darüber in Kenntnis zu setzen, dass sie jetzt Cookies speichern
+
+00:50:50.800 --> 00:50:52.060
+und dich wiedererkennen.
+
+00:50:52.160 --> 00:50:54.720
+Das sind zwei Sachen. Einmal die Cookie und einmal die GDPR-Sache,
+
+00:50:54.900 --> 00:50:55.860
+dass man darauf hinweist,
+
+00:50:55.940 --> 00:50:57.360
+eine Privacy Policy anzeigen muss.
+
+00:50:57.380 --> 00:50:59.940
+Es gibt ja diesen Wir-speichern-Cookies-von-Dier-Button.
+
+00:51:00.480 --> 00:51:01.540
+Die Cookie-Banner meinst du?
+
+00:51:01.860 --> 00:51:02.560
+Genau, die Cookie-Banner.
+
+00:51:02.640 --> 00:51:04.640
+Die sind ja auch erstmal nur für Third-Party-Cookies.
+
+00:51:04.640 --> 00:51:06.160
+Für eigene Cookies musst du nichts anzeigen.
+
+00:51:06.760 --> 00:51:07.720
+Das machen ja die meisten auch nicht.
+
+00:51:08.020 --> 00:51:08.240
+Achso.
+
+00:51:10.520 --> 00:51:12.820
+Man wird jetzt gewarnt, dass Webseiten Cookies speichern.
+
+00:51:13.180 --> 00:51:14.940
+Obwohl das an und für sich Bullshit ist,
+
+00:51:15.140 --> 00:51:17.680
+beziehungsweise derzeit natürlich Jahre hinterher ist,
+
+00:51:17.800 --> 00:51:20.380
+weil wenn eine Webseite dich tracken möchte,
+
+00:51:20.820 --> 00:51:22.400
+dann macht sie das mittlerweile nicht mehr über Cookies,
+
+00:51:22.900 --> 00:51:24.440
+sondern über Browser Fingerprinting.
+
+00:51:24.580 --> 00:51:25.920
+Und dieses Panoptik-Click ist, wie gesagt,
+
+00:51:26.080 --> 00:51:27.200
+ein Beispiel, das packen wir mal in die Show Notes.
+
+00:51:27.660 --> 00:51:30.320
+Dein Browser kann anhand von 35.000 unterschiedlichen
+
+00:51:31.579 --> 00:51:32.580
+Eigenschaften erkannt werden.
+
+00:51:33.020 --> 00:51:34.460
+Du gibst ja quasi
+
+00:51:34.980 --> 00:51:36.440
+die Konfiguration deines Browsers
+
+00:51:36.880 --> 00:51:38.160
+über diverse APIs raus,
+
+00:51:38.340 --> 00:51:40.120
+sei es nun, welche Sprache
+
+00:51:40.140 --> 00:51:41.380
+bei dir standartig eingestellt ist,
+
+00:51:41.780 --> 00:51:44.200
+ob du Gzip-Verschlüsselung auf HTTP unterstützt.
+
+00:51:44.220 --> 00:51:45.040
+Die Fenstergröße.
+
+00:51:45.220 --> 00:51:46.140
+Die Fenstergröße.
+
+00:51:46.200 --> 00:51:48.900
+Das ist auch der Grund, warum der Tor-Browser immer in einer festen Auflösung startet.
+
+00:51:49.200 --> 00:51:50.600
+Also am besten nicht resizen.
+
+00:51:50.760 --> 00:52:12.180
+Genau, also die Fenstergröße identifiziert dich und der Tower-Browser möchte natürlich nicht, dass du identifizierbar bist und deswegen soll er auch nicht identifizierbar über diese Sachen sein und dementsprechend hat er nur Standard-Fonts installiert, wenn überhaupt und hat immer die feste Fenstergröße, obwohl man theoretisch der Webseite auch eine künstliche Fenstergröße vorgaukeln könnte.
+
+00:52:12.240 --> 00:52:14.280
+dann hat man allerdings potenziellen Rendering-Fehler.
+
+00:52:14.460 --> 00:52:15.320
+Und es gibt noch
+
+00:52:16.560 --> 00:52:18.220
+zig andere Vektoren,
+
+00:52:18.460 --> 00:52:18.660
+über die
+
+00:52:21.220 --> 00:52:22.020
+Konfigurationsparameter anhand
+
+00:52:22.280 --> 00:52:22.620
+derer man
+
+00:52:25.180 --> 00:52:25.980
+einen Browser
+
+00:52:26.440 --> 00:52:28.000
+identifizieren könnte. Das ist jetzt alles
+
+00:52:28.100 --> 00:52:29.800
+nichts Schlimmes, es sind halt bloß Sachen,
+
+00:52:30.360 --> 00:52:31.500
+die in der Kombination,
+
+00:52:32.100 --> 00:52:34.340
+weil es halt so viele unterschiedliche Konfigurationsmöglichkeiten
+
+00:52:34.360 --> 00:52:35.980
+gibt, es ist halt sehr unwahrscheinlich,
+
+00:52:36.120 --> 00:52:37.980
+dass zwei Leute exakt die gleiche
+
+00:52:38.080 --> 00:52:39.340
+Konfiguration haben und dementsprechend
+
+00:52:39.820 --> 00:52:42.200
+das Panoptic-Click zeigt ja auch an, dass wie
+
+00:52:42.920 --> 00:52:44.440
+wie eindeutig du bist.
+
+00:52:44.560 --> 00:52:45.460
+Ob du nur einer von
+
+00:52:47.180 --> 00:52:48.540
+10 Millionen oder ob du
+
+00:52:48.560 --> 00:52:49.600
+einer von 10 bist.
+
+00:52:49.860 --> 00:52:51.920
+Wenn du mit einem gängigen Browser,
+
+00:52:52.360 --> 00:52:54.360
+Firefox, Safari oder EA,
+
+00:52:54.360 --> 00:52:56.180
+da drauf gehst, mich würde es sehr wundern,
+
+00:52:56.200 --> 00:52:58.280
+wenn die meisten Nutzer da nicht komplett eindeutig sind.
+
+00:52:58.360 --> 00:52:59.280
+Weil das ist es halt einfach.
+
+00:52:59.600 --> 00:53:02.700
+Wenn du jetzt Opera im High-Contrast-Modus
+
+00:53:02.920 --> 00:53:03.320
+benutzt.
+
+00:53:03.980 --> 00:53:04.620
+Sehr eindeutig.
+
+00:53:06.420 --> 00:53:06.820
+Alleinstellungsmerkmal.
+
+00:53:07.240 --> 00:53:09.020
+Da geben sie sich sehr viel Mühe,
+
+00:53:09.140 --> 00:53:10.619
+dass viele
+
+00:53:10.980 --> 00:53:12.800
+Geräte quasi gleich aussehen für Webseiten
+
+00:53:12.810 --> 00:53:14.860
+und man da sehr schlecht gefingerprintet
+
+00:53:14.960 --> 00:53:16.440
+werden kann. Finde ich sehr cool. Auch
+
+00:53:16.560 --> 00:53:18.380
+plattformübergreifend, iOS sowohl auch
+
+00:53:18.890 --> 00:53:19.640
+genau dasselbe.
+
+00:53:21.020 --> 00:53:22.320
+Aber das coolste Feature fast,
+
+00:53:22.800 --> 00:53:24.640
+das haben sie jetzt nur ein bisschen gepreviewt,
+
+00:53:24.680 --> 00:53:26.620
+das kommt erst nächstes Jahr. Und zwar war
+
+00:53:26.680 --> 00:53:28.640
+das auch das, was am meisten durch die
+
+00:53:28.760 --> 00:53:30.580
+Rumormill ging. Und zwar, dass
+
+00:53:30.610 --> 00:53:32.000
+man so eine Art
+
+00:53:32.800 --> 00:53:34.520
+Shared UI Library für
+
+00:53:34.880 --> 00:53:35.700
+iOS und MacOS hat.
+
+00:53:37.220 --> 00:53:38.520
+Also die Rumors gingen
+
+00:53:38.780 --> 00:53:40.600
+in alle verschiedensten Richtungen dazu, aber was
+
+00:53:40.620 --> 00:53:42.080
+tatsächlich kommt, ist, dass man
+
+00:53:42.620 --> 00:53:44.140
+auf macOS so ein bisschen,
+
+00:53:44.320 --> 00:53:45.860
+zumindest ein Großteil von UIKit,
+
+00:53:46.200 --> 00:53:48.360
+das ist die UI-Framework von
+
+00:53:48.520 --> 00:53:50.080
+iOS, direkt ansprechen kann
+
+00:53:50.620 --> 00:53:52.480
+und das wohl vorhanden
+
+00:53:52.560 --> 00:53:54.420
+ist und da vieles aber dann
+
+00:53:54.480 --> 00:53:55.980
+ein bisschen Mac-ähnlicher macht,
+
+00:53:56.320 --> 00:53:58.380
+dass ich halt jetzt natürlich keine Touch-Events irgendwo habe,
+
+00:53:58.480 --> 00:53:59.920
+sondern mit dem Maus drüber habe und Hover
+
+00:54:01.680 --> 00:54:02.160
+kann
+
+00:54:02.420 --> 00:54:03.600
+über Sachen und die
+
+00:54:03.920 --> 00:54:05.280
+ordentlich dann direkt mit angepasst werden, aber
+
+00:54:05.780 --> 00:54:08.160
+die Grundidee ist erstmal, dass ich mit sehr wenig
+
+00:54:08.340 --> 00:54:09.800
+Aufwand eine iOS-App
+
+00:54:10.220 --> 00:54:11.820
+auf macOS porten werden kann.
+
+00:54:12.340 --> 00:54:13.140
+Und das finde ich ziemlich cool.
+
+00:54:14.079 --> 00:54:15.960
+Da werde ich auch, also viele Leute
+
+00:54:16.020 --> 00:54:17.880
+haben ja das Problem, dass iOS als Plattform
+
+00:54:18.040 --> 00:54:20.100
+einfach populärer ist und viele Leute haben Angst,
+
+00:54:20.220 --> 00:54:21.480
+dass der Mac so ein bisschen am Sterben ist.
+
+00:54:21.960 --> 00:54:23.640
+Aber native Apps
+
+00:54:24.000 --> 00:54:25.840
+sehr viel einfacher als auf den Mac
+
+00:54:26.000 --> 00:54:27.720
+Publishing finde ich sehr, sehr ansprechend.
+
+00:54:27.780 --> 00:54:29.840
+Und da würde ich auch mich sehr gerne mal
+
+00:54:30.100 --> 00:54:32.020
+noch mehr dran austoben.
+
+00:54:32.180 --> 00:54:33.360
+Leider kommt das aber erst 2019
+
+00:54:33.600 --> 00:54:35.860
+und das ist jetzt erstmal eine Ankündigung, was aber super clever
+
+00:54:36.040 --> 00:54:37.860
+ist, finde ich. Wenn die das nämlich jetzt ankündigen,
+
+00:54:38.600 --> 00:54:42.100
+Apple veröffentlicht keine großen Sachen außerhalb von der Keynote oder von solchen Events.
+
+00:54:42.660 --> 00:54:45.700
+Aber wenn sie es jetzt ankündigen, dann können sie auch problemlos auf Leute zugehen
+
+00:54:46.320 --> 00:54:53.000
+und da mehr Fragen stellen, beziehungsweise eine Preview schon mal irgendwann mal raushauen oder so.
+
+00:54:53.020 --> 00:54:57.240
+Aber jetzt ist es ja quasi schon Common Knowledge und jetzt können sie auch Teile von veröffentlichen,
+
+00:54:57.320 --> 00:54:59.460
+ohne dass das ja die Schedule kaputt machen würde.
+
+00:54:59.460 --> 00:55:04.980
+Ich frage mich, ob das nicht sogar mit der internen Release Policy von Apple ein bisschen zusammenspielt,
+
+00:55:05.060 --> 00:55:08.380
+dass sie überhaupt nicht über solche Sachen mit anderen Leuten kommunizieren dürfen.
+
+00:55:08.560 --> 00:55:10.300
+Eben, machen sie halt einfach nicht.
+
+00:55:11.020 --> 00:55:12.780
+Deswegen finde ich das clever, dass sie es jetzt announced haben.
+
+00:55:12.850 --> 00:55:15.160
+Es ist da und jetzt können sie da sehr offen mit umgehen.
+
+00:55:15.320 --> 00:55:16.980
+Das ist natürlich praktisch für alle Leute,
+
+00:55:16.990 --> 00:55:18.540
+die bereits eine iOS-Anwendung haben,
+
+00:55:18.720 --> 00:55:19.960
+die dann einfach auf den Mac botieren können.
+
+00:55:20.060 --> 00:55:21.440
+Dann könnte man sich zum Beispiel für Mac
+
+00:55:22.159 --> 00:55:25.400
+komplett die elektronbasierte Signal-App sparen.
+
+00:55:25.640 --> 00:55:26.480
+Oh, stimmt.
+
+00:55:26.890 --> 00:55:27.600
+Oh, da habe ich noch gar nicht dran gedacht.
+
+00:55:27.630 --> 00:55:28.180
+Oh, wäre das toll.
+
+00:55:28.960 --> 00:55:29.080
+Genau.
+
+00:55:29.450 --> 00:55:30.120
+Oh, fuck das Ding.
+
+00:55:30.230 --> 00:55:30.980
+Und diverse andere Apps,
+
+00:55:32.210 --> 00:55:36.440
+wo es momentan nur so halbseitene Desktop-Varianten gibt.
+
+00:55:36.600 --> 00:55:38.100
+Slack ist ja auch nativ auf iOS.
+
+00:55:38.380 --> 00:55:40.200
+können die nicht einfach das Ding neu bauen.
+
+00:55:40.460 --> 00:55:41.420
+Das ist durchaus möglich.
+
+00:55:42.720 --> 00:55:44.480
+Oh, das stimmt. Ja, da wird aber viel kommen.
+
+00:55:44.550 --> 00:55:46.040
+Ich freue mich drauf. Das ist natürlich
+
+00:55:46.380 --> 00:55:48.320
+leider halt nur macOS-spezifisch, aber gut,
+
+00:55:48.620 --> 00:55:49.920
+wird in jedem Fall von Apple natürlich nicht gewartet.
+
+00:55:51.120 --> 00:55:52.000
+Was denn noch krass ist?
+
+00:55:52.500 --> 00:55:54.160
+Es wurde ja kurzzeitig spekuliert, ob es
+
+00:55:54.280 --> 00:55:55.060
+möglich sein soll.
+
+00:55:56.720 --> 00:55:57.360
+Was war es?
+
+00:55:58.640 --> 00:55:59.560
+Swift für Android?
+
+00:56:00.000 --> 00:56:02.140
+Da gibt es immer noch Spekulationen, dass da was am
+
+00:56:02.220 --> 00:56:03.940
+Kommen ist. Swift hat ja schon Fusia Support.
+
+00:56:05.200 --> 00:56:05.800
+Das ist ja Google
+
+00:56:06.380 --> 00:56:08.100
+OS für, keine Ahnung,
+
+00:56:08.200 --> 00:56:09.600
+was das nächste ist. Für übermorgen.
+
+00:56:10.100 --> 00:56:10.920
+Für übermorgen, genau.
+
+00:56:12.300 --> 00:56:14.240
+Da baut es auf jeden Fall schon drauf, was ich sehr interessant
+
+00:56:14.480 --> 00:56:16.080
+finde. Mal schauen, was da in Zukunft noch
+
+00:56:16.320 --> 00:56:18.100
+passiert. Eine Sache, die sehr
+
+00:56:18.180 --> 00:56:19.880
+negativ aufgefallen ist, ist, dass sie jetzt
+
+00:56:20.120 --> 00:56:21.420
+OpenGL... Wollte ich gerade ansprechen.
+
+00:56:22.180 --> 00:56:24.120
+Sie haben deprecated. Das heißt natürlich
+
+00:56:24.200 --> 00:56:25.200
+nicht, dass es weg ist, aber
+
+00:56:26.140 --> 00:56:28.020
+die gängige Meinung auf Twitter aktuell ist auch,
+
+00:56:28.340 --> 00:56:29.760
+ja, was soll's? OpenGL ist deprecated.
+
+00:56:30.020 --> 00:56:32.220
+OpenGL ist schon seit einem Jahrzehnt
+
+00:56:32.420 --> 00:56:33.960
+nicht mehr wirklich plattformübergreifend.
+
+00:56:33.980 --> 00:56:35.740
+Du musstest schon so viel sehr plattform-
+
+00:56:35.880 --> 00:56:37.780
+plazifischen Code schreiben, dass es quasi
+
+00:56:38.040 --> 00:56:39.800
+keinen Unterschied gibt. Du konntest nie, also
+
+00:56:40.200 --> 00:56:41.940
+in letzter Zeit zumindest nie, sehr
+
+00:56:42.539 --> 00:56:43.840
+plattformübergreifend Kram direkt mit OpenGL machen.
+
+00:56:43.840 --> 00:56:45.920
+Ja, es gab irgendwie diverse Flavors von OpenGL
+
+00:56:46.050 --> 00:56:47.480
+mit OpenGL und OpenGL ES.
+
+00:56:47.640 --> 00:56:48.960
+Deswegen konnte man das eh schon weghauen.
+
+00:56:49.640 --> 00:56:51.940
+Aber man hat es mit Rapper-Libraries eigentlich immer relativ
+
+00:56:52.160 --> 00:56:53.700
+gut hinbekommen. Ja, aber die gibt es ja jetzt auch
+
+00:56:53.800 --> 00:56:55.980
+auf anderer Ebene. Es gibt ja schon länger so ein Projekt,
+
+00:56:56.120 --> 00:56:57.880
+ich fände mir der Name gerade nicht ein, womit man
+
+00:56:58.420 --> 00:56:59.880
+diese Vulcan-APIs mit
+
+00:56:59.950 --> 00:57:01.840
+Metal ansprechen kann. Genau. Andersrum, dass man Metal
+
+00:57:02.000 --> 00:57:03.920
+anspricht mit Vulcan-APIs. Genau, und das
+
+00:57:03.940 --> 00:57:06.080
+das hätte ich eigentlich ursprünglich als Star
+
+00:57:06.240 --> 00:57:08.140
+genommen, das ist dieses Malton VK.
+
+00:57:08.320 --> 00:57:09.920
+Ah, genau. Und was das macht,
+
+00:57:10.060 --> 00:57:11.620
+ist jetzt momentan, man kann auf
+
+00:57:12.460 --> 00:57:13.980
+macOS nur noch mit
+
+00:57:14.000 --> 00:57:15.400
+dieser Metal-API-Grafik machen
+
+00:57:16.180 --> 00:57:17.800
+und der Nachfolger von
+
+00:57:17.960 --> 00:57:19.400
+OpenGL, oder nicht wirklich Nachfolger, aber
+
+00:57:19.780 --> 00:57:21.820
+eigentlich schon Nachfolger von OpenGL
+
+00:57:22.060 --> 00:57:23.600
+von der Kronos-Gruppe ist dieses
+
+00:57:23.820 --> 00:57:25.860
+Vulkan und was die anbieten
+
+00:57:26.000 --> 00:57:27.260
+ist quasi einfach ein Rapper
+
+00:57:28.880 --> 00:57:29.840
+für Metal,
+
+00:57:30.280 --> 00:57:31.780
+der die Vulkan-API
+
+00:57:31.820 --> 00:57:33.020
+Exposed. Also du sprichst
+
+00:57:33.820 --> 00:57:35.420
+mit Metal, aber du benutzt die API
+
+00:57:35.680 --> 00:57:37.480
+von Vulkan. Dementsprechend
+
+00:57:37.580 --> 00:57:39.520
+wäre das eigentlich ein schöner Hack, um
+
+00:57:40.460 --> 00:57:41.140
+einfach Sachen, die
+
+00:57:41.600 --> 00:57:43.580
+für Vulkan gebaut sind, was ja
+
+00:57:44.600 --> 00:57:45.560
+auf Linux,
+
+00:57:46.060 --> 00:57:46.220
+Windows,
+
+00:57:48.040 --> 00:57:49.360
+Android und anderen
+
+00:57:49.600 --> 00:57:51.000
+Plattformen, die bislang OpenGL unterstützen,
+
+00:57:51.400 --> 00:57:52.220
+auch funktioniert,
+
+00:57:53.740 --> 00:57:55.280
+um damit dann auch den Mac und iOS
+
+00:57:55.520 --> 00:57:57.160
+targeten zu können. Weil manche andere
+
+00:57:57.700 --> 00:57:59.600
+Frameworks, die sehr populär sind, Unity zum Beispiel,
+
+00:57:59.980 --> 00:58:01.760
+gehen ja auch in die Richtung, Unity
+
+00:58:01.780 --> 00:58:03.860
+macOS nutzt Metal und ich nutiere auf
+
+00:58:04.430 --> 00:58:05.640
+anderen Plattformen, nutzt glaube ich sogar
+
+00:58:05.920 --> 00:58:06.980
+Vulkan, wenn mich nicht alles täuscht.
+
+00:58:07.880 --> 00:58:08.820
+Und da hat man ja quasi auch
+
+00:58:09.680 --> 00:58:11.640
+das schon weg abstrahiert und arbeitet auf
+
+00:58:11.670 --> 00:58:13.720
+einer etwas höheren Ebene. Ja, sobald du auf einer höheren
+
+00:58:13.880 --> 00:58:15.280
+Ebene arbeitest, ist es dir vollkommen egal.
+
+00:58:15.480 --> 00:58:17.740
+Und die Performance von Vulkan auf anderen Plattformen
+
+00:58:17.800 --> 00:58:19.560
+und Metal auf macOS ist halt fantastisch.
+
+00:58:19.590 --> 00:58:21.540
+Wenn allerdings jetzt der Entwickler von
+
+00:58:21.570 --> 00:58:23.660
+einem populären Cross-Plattform-Browser
+
+00:58:23.790 --> 00:58:25.640
+bist, dann tankiert dich das schon,
+
+00:58:25.820 --> 00:58:27.440
+dass du irgendwann vielleicht kein OpenGL mehr hast.
+
+00:58:27.470 --> 00:58:28.820
+Ach, Firefox nutzt ja ziemlich viel?
+
+00:58:29.300 --> 00:58:30.240
+Zum Beispiel, ja.
+
+00:58:31.780 --> 00:58:34.000
+Na gut, wie gesagt, ist ja erstmal deprecated, ist noch nicht tot.
+
+00:58:34.680 --> 00:58:36.740
+Ich vermute auch nicht, dass es mit dem nächsten macOS Release
+
+00:58:37.000 --> 00:58:38.980
+nächstes Jahr schon weg sein wird, das kann ich mir aber nicht vorstellen.
+
+00:58:39.620 --> 00:58:41.880
+Gerade weil sehr viel Software das nutzt aktuell.
+
+00:58:43.340 --> 00:58:45.960
+Was sie gemacht haben, ist jetzt, dass sie 32-Bit-Apps
+
+00:58:46.780 --> 00:58:48.760
+zuletzt unterstützen. Die wurden letztes Jahr deprecated.
+
+00:58:49.780 --> 00:58:51.060
+macOS Mojave wird jetzt die
+
+00:58:51.700 --> 00:58:52.100
+Mojave.
+
+00:58:57.520 --> 00:58:59.540
+Angeblich lispeln die Spanier,
+
+00:58:59.640 --> 00:59:00.640
+wenn sie Spanisch sprechen.
+
+00:59:01.680 --> 00:59:03.100
+Und die anderen Spanisch sprechen
+
+00:59:03.180 --> 00:59:05.120
+dann Liffel nicht. Ich glaube, dieses
+
+00:59:05.720 --> 00:59:07.240
+Mojave, was wir denken würden, wäre
+
+00:59:07.500 --> 00:59:07.780
+Spanisch.
+
+00:59:09.380 --> 00:59:10.980
+I'm speaking out of my ass right now.
+
+00:59:11.160 --> 00:59:11.860
+macOS 1014.
+
+00:59:13.340 --> 00:59:14.940
+Und in den USA sprechen sie
+
+00:59:15.420 --> 00:59:16.120
+Mojave aus.
+
+00:59:16.840 --> 00:59:16.960
+Okay.
+
+00:59:18.680 --> 00:59:19.480
+MacOS 1014
+
+00:59:21.240 --> 00:59:22.220
+ist die letzte
+
+00:59:22.300 --> 00:59:23.960
+macOS-Release, das 32-Bit-Apps
+
+00:59:24.160 --> 00:59:25.280
+supported. Finde ich krass.
+
+00:59:25.840 --> 00:59:27.220
+Dann wäre es endlich mal da angekommen.
+
+00:59:28.080 --> 00:59:29.600
+Ich sehe, das hat auch Konsequenzen
+
+00:59:29.940 --> 00:59:31.780
+Ja, das hat Konsequenzen für jeden,
+
+00:59:32.300 --> 00:59:33.880
+der Software entwickelt und diese auf Mac
+
+00:59:34.980 --> 00:59:35.380
+ausliefern möchte.
+
+00:59:35.480 --> 00:59:37.260
+Das wurde ja letztes Jahr schon angekündigt, aber ich glaube auch,
+
+00:59:38.000 --> 00:59:40.060
+vielleicht würde dann OpenGL übernächstes Jahr
+
+00:59:40.140 --> 00:59:41.640
+schon rausfliegen. Das kann natürlich sein.
+
+00:59:42.760 --> 00:59:43.080
+Würde mich,
+
+00:59:44.200 --> 00:59:44.760
+finde ich spannend.
+
+00:59:45.880 --> 00:59:46.880
+Krass, auf jeden Fall.
+
+00:59:48.280 --> 00:59:49.360
+Genau, aber ansonsten gibt es die Woche noch
+
+00:59:49.800 --> 00:59:51.920
+ziemlich viele coole Talks, wenn wir mal ein paar Sachen anschauen.
+
+00:59:54.120 --> 00:59:55.800
+Was da so cool ist mit genauer
+
+00:59:55.980 --> 00:59:57.240
+ange... Also ich meine, die
+
+00:59:57.240 --> 00:59:59.380
+die willigsten raus, aber die Talks sind
+
+00:59:59.660 --> 01:00:01.340
+bei Apple immer sehr cool, weil die
+
+01:00:01.460 --> 01:00:03.520
+sehr technisch sind, aber sehr cool
+
+01:00:03.700 --> 01:00:05.660
+als Anleitung auch fungieren. Die kann man
+
+01:00:05.660 --> 01:00:07.200
+die nächsten Jahre immer noch anschauen
+
+01:00:07.560 --> 01:00:09.180
+und wenn man eine bestimmte API gerade versucht,
+
+01:00:09.320 --> 01:00:10.780
+irgendwas zu nutzen, irgendwas zu implementieren,
+
+01:00:11.180 --> 01:00:13.520
+sei es jetzt der coole neue AR-Kit
+
+01:00:13.660 --> 01:00:15.040
+angekündigte Kram oder
+
+01:00:15.320 --> 01:00:17.500
+der ganz coole neue Machine Learning-Teil,
+
+01:00:17.520 --> 01:00:19.540
+wo man auch da auf sehr, sehr einfache Art und Weise
+
+01:00:20.140 --> 01:00:21.160
+Modelle antrainieren kann
+
+01:00:21.360 --> 01:00:21.860
+in dem Playground.
+
+01:00:22.980 --> 01:00:25.260
+Ist das ML-Kit oder Create ML heißt das,
+
+01:00:25.360 --> 01:00:26.080
+was ich gerade im Kopf hatte?
+
+01:00:27.200 --> 01:00:29.600
+Super cool, mit zwei Zeilen Code und einem Playground
+
+01:00:29.800 --> 01:00:31.040
+trainierst du dir einfach ein Model an
+
+01:00:31.310 --> 01:00:32.960
+und das Ganze nutzt Transfer Learning und baut
+
+01:00:33.300 --> 01:00:34.660
+auf Inception V2 auf
+
+01:00:35.220 --> 01:00:37.240
+und am Ende hast du eine 50
+
+01:00:37.480 --> 01:00:39.340
+Kilobyte Model, was du
+
+01:00:39.380 --> 01:00:41.000
+in eine App reinschmeißen kannst, was dir
+
+01:00:41.120 --> 01:00:42.680
+keine Ahnung, Bilder erkennen kann.
+
+01:00:42.780 --> 01:00:44.800
+Das ist unglaublich krass,
+
+01:00:45.280 --> 01:00:46.740
+wie einfach das ist.
+
+01:00:47.360 --> 01:00:48.780
+Ich habe mich erst vor wenigen Tagen
+
+01:00:49.720 --> 01:00:50.520
+mal wieder durch eine
+
+01:00:50.620 --> 01:00:52.500
+TensorFlow-Demo durchgeklickt
+
+01:00:52.750 --> 01:00:54.700
+oder durch eine TensorFlow-Beginner-Doku
+
+01:00:55.240 --> 01:00:57.160
+und habe da versucht, was gleich auf die Beine
+
+01:00:57.180 --> 01:00:59.180
+hat auch ganz gut geklappt, aber es gab halt
+
+01:00:59.720 --> 01:01:00.660
+zigtausend Ecken, wo ich
+
+01:01:01.170 --> 01:01:03.240
+bin ich einfach nicht sicher, da habe ich einfach Parameter
+
+01:01:03.360 --> 01:01:04.920
+übernommen aus der Doku, weil das halt so drin stand.
+
+01:01:05.520 --> 01:01:06.900
+Da war auch keine Erklärung dabei,
+
+01:01:07.280 --> 01:01:09.120
+wofür die da sind. Das war auch viel zu viel, dass man das
+
+01:01:09.150 --> 01:01:11.160
+hätte erklären können. Hätte ich natürlich irgendwo, hätte ich es
+
+01:01:11.260 --> 01:01:13.160
+gefunden, aber ich wusste
+
+01:01:13.320 --> 01:01:15.420
+natürlich an der Stelle über sehr wenige Parameter
+
+01:01:15.600 --> 01:01:17.340
+Bescheid und natürlich kannst
+
+01:01:17.340 --> 01:01:18.100
+du jetzt den Weg nehmen.
+
+01:01:20.540 --> 01:01:21.100
+Natürlich kannst du jetzt
+
+01:01:21.270 --> 01:01:23.100
+den Weg gehen und da möglichst viel verstecken
+
+01:01:23.110 --> 01:01:24.320
+vom Nutzer oder halt
+
+01:01:25.260 --> 01:01:27.140
+gute Standards wählen, aber das
+
+01:01:27.160 --> 01:01:28.200
+macht halt sehr viel
+
+01:01:29.060 --> 01:01:31.040
+einfacher für Leute, die halt gerade damit anfangen.
+
+01:01:31.700 --> 01:01:32.640
+Und was die halt
+
+01:01:33.420 --> 01:01:34.860
+gezeigt haben, das war glaube ich in der
+
+01:01:34.980 --> 01:01:36.660
+Plattform-Stelle The Union und nicht mehr in der Keynote,
+
+01:01:36.740 --> 01:01:37.920
+bin mir aber gar nicht mehr hundertprozentig sicher,
+
+01:01:38.560 --> 01:01:40.600
+war, dass du halt ein Playground, also das sind diese
+
+01:01:42.219 --> 01:01:42.940
+interaktive Repples,
+
+01:01:43.250 --> 01:01:44.600
+die in Xcode eingebaut sind, die jetzt auch
+
+01:01:44.860 --> 01:01:46.140
+viel, viel besser laufen mit Xcode 10 schon,
+
+01:01:47.260 --> 01:01:47.920
+nutzen kannst.
+
+01:01:48.100 --> 01:01:50.540
+Du importierst das Framework, sagst
+
+01:01:51.120 --> 01:01:52.720
+hier Input und dann rendert
+
+01:01:52.800 --> 01:01:54.680
+in der Seitenleiste, wo auch
+
+01:01:55.260 --> 01:01:56.160
+Dinge angezeigt werden können,
+
+01:01:56.620 --> 01:02:00.060
+die ist schon mal eine Demo und lässt dich da quasi einfach einen Ordner drauf dragen,
+
+01:02:01.359 --> 01:02:04.340
+wo Subdirectories mit bestimmten Namen und da liegen die Bilder drin,
+
+01:02:04.450 --> 01:02:07.060
+also das, was man auch in TensorFlow füttern würde, ziehst du da rein.
+
+01:02:07.640 --> 01:02:09.100
+Zwei Sekunden später ist es durch.
+
+01:02:09.880 --> 01:02:10.220
+Trainiert?
+
+01:02:10.680 --> 01:02:14.340
+Durchtrainiert, vielleicht nicht zwei Sekunden, aber je nach Hardware und je nach Menge an Daten natürlich.
+
+01:02:14.800 --> 01:02:16.160
+Du hast nur trainiert, ich habe Polizei.
+
+01:02:17.640 --> 01:02:23.340
+Ist es durch und vor allem die Tatsache, dass es da halt zum Beispiel so ein Inception-Model nutzt,
+
+01:02:23.460 --> 01:02:25.400
+Transfer Learning zu betreiben, sprich
+
+01:02:25.420 --> 01:02:26.720
+dich nicht mehr von Grund auf
+
+01:02:27.320 --> 01:02:29.600
+erkennen muss erstmal, was sind generelle Kanten
+
+01:02:30.000 --> 01:02:31.640
+oder wo sind Linien.
+
+01:02:31.680 --> 01:02:32.880
+Also es fängt nicht jedes Mal bei Null an.
+
+01:02:32.900 --> 01:02:34.820
+Es fängt nicht bei Null an, genau. Und nutzt halt schon
+
+01:02:35.380 --> 01:02:36.800
+ein Model, was super gut
+
+01:02:37.560 --> 01:02:39.360
+Inhalte von Bildern erkennen kann und du nutzt
+
+01:02:39.360 --> 01:02:41.480
+es dann, um Blumen zu erkennen. Das ist jetzt die Demo
+
+01:02:41.940 --> 01:02:42.720
+gewesen an der Stelle.
+
+01:02:43.280 --> 01:02:45.160
+Und das ist halt quasi nur das letzte Stück,
+
+01:02:45.280 --> 01:02:47.160
+was dann nochmal neu trainiert werden muss oder was halt dann
+
+01:02:47.400 --> 01:02:48.120
+aufbaut auf Inception.
+
+01:02:49.000 --> 01:02:51.400
+Und du integrierst
+
+01:02:51.400 --> 01:02:53.420
+auch nur dieses letzte Stück in deine App und dann plötzlich hast du
+
+01:02:53.440 --> 01:02:55.840
+nicht mehr in ein 200 MB-Model, was du da reinbaust,
+
+01:02:55.990 --> 01:02:57.760
+sondern ein 50 KB-Model,
+
+01:02:58.100 --> 01:02:59.060
+was du in deine App reinbaust.
+
+01:02:59.560 --> 01:03:01.040
+Und das ist ein gigantischer Unterschied.
+
+01:03:01.540 --> 01:03:02.980
+Das ist großartig, gefällt mir unglaublich gut.
+
+01:03:03.020 --> 01:03:04.100
+Da werde ich auf jeden Fall ein bisschen Spaß haben.
+
+01:03:04.580 --> 01:03:06.040
+Leider musst du, um das auszuprobieren,
+
+01:03:06.560 --> 01:03:07.840
+reicht jetzt nicht aus, die Xcode-Beta zu nehmen,
+
+01:03:07.910 --> 01:03:09.480
+sondern du musst auch auf Mac OS X14 sein,
+
+01:03:09.940 --> 01:03:10.940
+weil erst da ist das Zeug drauf.
+
+01:03:11.920 --> 01:03:13.320
+Weil das in der Standardbibliothek...
+
+01:03:13.340 --> 01:03:15.420
+Das wird irgendwo ins System integriert sein,
+
+01:03:15.500 --> 01:03:16.600
+das Shared Library irgendwie,
+
+01:03:16.960 --> 01:03:17.980
+dass man da drauf zu kommen kann.
+
+01:03:18.110 --> 01:03:20.880
+Also leider musst du die Beta mit installieren.
+
+01:03:21.530 --> 01:03:22.780
+Das heißt, das hast du noch nicht...
+
+01:03:22.800 --> 01:03:23.880
+Habe ich noch nicht ausprobieren können.
+
+01:03:24.240 --> 01:03:26.360
+Das werde ich vermutlich, aber nachher
+
+01:03:26.800 --> 01:03:28.600
+werde ich mich mal zusammenreißen können und die Beta installieren.
+
+01:03:29.520 --> 01:03:30.620
+Vor allem, weil iOS 12 halt so
+
+01:03:30.840 --> 01:03:32.640
+fantastisch läuft und die ersten Leute,
+
+01:03:32.780 --> 01:03:34.520
+die die macOS Beta installiert haben, auch
+
+01:03:34.640 --> 01:03:36.520
+meinen, dass es echt richtig gut läuft
+
+01:03:37.080 --> 01:03:38.720
+und kaum Probleme bestehen,
+
+01:03:39.180 --> 01:03:40.360
+werde ich mich einfach mal
+
+01:03:40.960 --> 01:03:42.660
+damit reinsetzen. So, hallo Swift,
+
+01:03:42.880 --> 01:03:43.660
+das habt ihr nur davon.
+
+01:03:44.680 --> 01:03:46.500
+Ihr habt nur spekuliert, worüber geredet wird.
+
+01:03:46.640 --> 01:03:48.100
+Wir haben zwei Tage später aufgenommen.
+
+01:03:49.340 --> 01:03:50.500
+Wow, ich rede drüber,
+
+01:03:50.560 --> 01:03:52.220
+was passiert das genau? So wie
+
+01:03:52.240 --> 01:03:54.260
+zig andere Podcasts ausgerichtet.
+
+01:03:54.260 --> 01:03:56.680
+Es tut mir so leid, ich habe versucht, Kian zurückzuhalten,
+
+01:03:56.820 --> 01:03:58.940
+aber er hat einfach geredet und geredet
+
+01:03:59.060 --> 01:03:59.680
+und geredet.
+
+01:04:00.570 --> 01:04:02.460
+Nee, das waren ja die wichtigsten Sachen, die passiert sind.
+
+01:04:04.179 --> 01:04:04.900
+Am vorgestern
+
+01:04:05.770 --> 01:04:06.800
+dort am Montagabend.
+
+01:04:07.380 --> 01:04:07.560
+Genau.
+
+01:04:08.980 --> 01:04:09.440
+Super krass.
+
+01:04:12.600 --> 01:04:14.320
+Was einmal ist, was ein Größeres passiert ist,
+
+01:04:14.380 --> 01:04:15.220
+jetzt erst vor wenigen Tagen,
+
+01:04:16.460 --> 01:04:18.420
+eine Plattform, die wir alle sehr häufig nutzen,
+
+01:04:18.650 --> 01:04:19.200
+wurde gekauft.
+
+01:04:19.350 --> 01:04:20.720
+Das war ein sehr emotionales Thema.
+
+01:04:21.160 --> 01:04:23.180
+wurde gekauft, hat sich geeinigt mit
+
+01:04:24.080 --> 01:04:24.980
+einem Käufer und
+
+01:04:25.200 --> 01:04:26.660
+verkauft sich jetzt. Wahrscheinlich die Firma,
+
+01:04:27.300 --> 01:04:28.380
+die generell schon
+
+01:04:28.980 --> 01:04:31.040
+eine riesige Rechnung
+
+01:04:31.140 --> 01:04:32.960
+jeden Monat bekommen hat. Also wir reden von
+
+01:04:33.040 --> 01:04:34.800
+Microsoft und GitHub. Microsoft hat
+
+01:04:34.830 --> 01:04:36.940
+wahrscheinlich generell schon monatlich eine sehr, sehr
+
+01:04:37.120 --> 01:04:38.600
+große Rechnung bekommen von GitHub für
+
+01:04:38.920 --> 01:04:40.660
+Krams. Und Microsoft
+
+01:04:40.960 --> 01:04:42.060
+hat GitHub gekauft.
+
+01:04:43.080 --> 01:04:44.160
+Andersrum wäre es natürlich auch geil.
+
+01:04:44.450 --> 01:04:46.720
+Das wäre geil gewesen. Ne, also was ist
+
+01:04:46.900 --> 01:04:48.620
+passiert? Es ging plötzlich rum,
+
+01:04:49.580 --> 01:04:49.720
+oh,
+
+01:04:50.440 --> 01:04:51.500
+Microsoft, GitHub denkt
+
+01:04:51.620 --> 01:04:51.700
+darauf,
+
+01:04:53.720 --> 01:04:55.280
+oh, GitHub denkt darüber nach,
+
+01:04:55.440 --> 01:04:56.560
+sich von Microsoft kaufen zu lassen.
+
+01:04:57.240 --> 01:04:59.100
+Und am nächsten Tag hieß es echt von einer offiziellen
+
+01:04:59.220 --> 01:05:00.120
+Pressemeldung von,
+
+01:05:01.420 --> 01:05:03.160
+wie heißt der Typ? Satya Nadella.
+
+01:05:03.740 --> 01:05:04.380
+Und dem
+
+01:05:05.540 --> 01:05:06.760
+aktuellen CEO von
+
+01:05:07.080 --> 01:05:07.980
+Chris Wynesdraff.
+
+01:05:08.580 --> 01:05:09.060
+Defunct.
+
+01:05:10.760 --> 01:05:12.900
+Defunct. Fand ich auch witzig, dass der Typ,
+
+01:05:13.180 --> 01:05:14.360
+der die CEO von
+
+01:05:15.260 --> 01:05:16.680
+GitHub ist, das hatte ich gar nicht gecheckt.
+
+01:05:17.600 --> 01:05:18.760
+Aber der wollte schon länger
+
+01:05:18.780 --> 01:05:20.900
+zurücktreten. Hat er jetzt somit auch endlich mal
+
+01:05:21.040 --> 01:05:22.780
+geschafft. Und jetzt ist jemand anders, der
+
+01:05:23.060 --> 01:05:24.720
+CEO von GitHub, so wie sie es mitbekommen haben.
+
+01:05:24.830 --> 01:05:25.900
+Matt Friedman heißt er, glaube ich.
+
+01:05:26.960 --> 01:05:28.680
+Und sie haben sich zumindest geeinigt, dass GitHub
+
+01:05:28.920 --> 01:05:30.780
+jetzt, beziehungsweise sie haben
+
+01:05:30.780 --> 01:05:32.520
+sich noch nicht geeinigt, aber sie verhandeln
+
+01:05:32.730 --> 01:05:34.560
+gerade, aber sie wollen gerne sich an
+
+01:05:34.820 --> 01:05:35.500
+Microsoft verkaufen.
+
+01:05:36.400 --> 01:05:38.000
+Jetzt ist es ja passiert, für siebeneinhalb Milliarden
+
+01:05:38.430 --> 01:05:40.580
+Dollar, äh Euro, Dollar, weiß gar nicht,
+
+01:05:40.880 --> 01:05:42.720
+egal. Geld, für siebeneinhalb Milliarden
+
+01:05:42.950 --> 01:05:44.420
+Geld. Ja genau, generische Geldeinheit hier
+
+01:05:44.460 --> 01:05:46.480
+einfügen. Siebeneinhalb Milliarden
+
+01:05:46.640 --> 01:05:48.740
+Bitcoin. Und das ist eigentlich schon ziemlich krass, also es gab
+
+01:05:48.760 --> 01:05:51.280
+Und dann haben viele Leute auf Twitter gepostet,
+
+01:05:51.700 --> 01:05:52.980
+oh, ich wollte jetzt Git haben,
+
+01:05:53.040 --> 01:05:53.860
+das gehört ja Microsoft.
+
+01:05:53.880 --> 01:05:55.780
+Das finde ich ehrlich gesagt ein bisschen arg übertrieben.
+
+01:05:55.960 --> 01:05:58.640
+Also was ist denn bitte dezentraler als ein Git-Remote?
+
+01:05:59.040 --> 01:06:00.240
+Also als Git generell?
+
+01:06:00.440 --> 01:06:01.780
+Die meisten Leute haben wahrscheinlich...
+
+01:06:01.900 --> 01:06:02.640
+Genau, das haben ja Leute gesagt,
+
+01:06:03.099 --> 01:06:04.900
+das Problem ist, dass die Git-Hub überhaupt nutzt,
+
+01:06:04.980 --> 01:06:06.500
+weil das ist eine zentrale Infrastruktur.
+
+01:06:07.440 --> 01:06:08.700
+Und ich sage immer, Moment mal,
+
+01:06:09.380 --> 01:06:10.600
+dann habt ihr offenbar Git nicht verstanden,
+
+01:06:10.620 --> 01:06:12.560
+weil ihr müsst einfach nur bei eurem Repo-Lokal
+
+01:06:12.940 --> 01:06:15.220
+ein anderes Remote eintragen und dann dorthin pushen.
+
+01:06:15.280 --> 01:06:16.440
+Das mache ich die ganze Zeit.
+
+01:06:16.920 --> 01:06:20.120
+Das mache ich auch, wenn ich auf zwei unterschiedlichen Git-Repositories arbeite.
+
+01:06:20.160 --> 01:06:22.640
+Wenn ich das vorgehe, habe ich auch zwei Remotes bei mir eingetragen.
+
+01:06:23.140 --> 01:06:27.060
+Also das Problem ist jetzt mal nicht, ihr könnt jederzeit bei euch zu Hause ein Raspberry Pi hinstellen,
+
+01:06:27.100 --> 01:06:28.300
+da SSH drauf machen und Git.
+
+01:06:28.360 --> 01:06:30.140
+Ihr müsst nur SSH und Git installiert haben.
+
+01:06:30.480 --> 01:06:32.300
+Steckt eine Festplatte an, wenn ihr große Reben habt.
+
+01:06:32.720 --> 01:06:36.060
+Und dann pusht ihr einfach alles auch noch auf euer Raspberry Pi und könnt anderen Leuten,
+
+01:06:36.200 --> 01:06:37.140
+wenn die da Zugriff drauf haben.
+
+01:06:37.500 --> 01:06:40.580
+Ich meine, das haben wir in der Uni schon seit Jahren gemacht,
+
+01:06:41.180 --> 01:06:42.819
+bevor wir für inoffizielle...
+
+01:06:42.840 --> 01:06:45.100
+Du kannst, glaube ich, sogar Git ein anderes Directory
+
+01:06:45.240 --> 01:06:47.620
+auf deiner Platt einfach als Remote reinhauen, glaube ich.
+
+01:06:47.860 --> 01:06:48.540
+Remote kann alles sein.
+
+01:06:48.840 --> 01:06:51.300
+Du kannst theoretisch einfach von einem anderen Ordner klonen.
+
+01:06:52.080 --> 01:06:52.240
+Genau.
+
+01:06:53.380 --> 01:06:55.220
+Das eine, was halt zentral bei GitHub ist,
+
+01:06:56.060 --> 01:06:56.840
+dass die Issues hosten.
+
+01:06:57.460 --> 01:06:58.740
+Alles, was natürlich rundherum ist,
+
+01:07:00.040 --> 01:07:02.880
+aber das ist das, was GitHub anbietet
+
+01:07:03.600 --> 01:07:04.540
+und nicht was Git anbietet.
+
+01:07:04.640 --> 01:07:05.960
+Genau, das hat halt nichts damit zu tun.
+
+01:07:06.240 --> 01:07:07.020
+Vielleicht wäre es natürlich schön,
+
+01:07:07.100 --> 01:07:08.420
+irgendwann mal sowas in Repo...
+
+01:07:09.500 --> 01:07:11.020
+Es gibt halt so ein paar witzige Hacks
+
+01:07:11.020 --> 01:07:11.980
+von wegen so ein zweites Repo,
+
+01:07:12.460 --> 01:07:14.260
+dass dann irgendein Tool,
+
+01:07:14.290 --> 01:07:16.660
+das die GitHub-API anspricht, die Issues immer runterzieht,
+
+01:07:16.700 --> 01:07:17.920
+in diesem zweiten Repo verwaltet.
+
+01:07:17.960 --> 01:07:20.320
+Ich habe auch schon andere Tools gesehen, die dir deine Issues
+
+01:07:20.580 --> 01:07:22.220
+quasi auf einem extra
+
+01:07:22.460 --> 01:07:24.260
+Branch mit synchronisieren, sodass du
+
+01:07:24.360 --> 01:07:26.240
+deine Issues irgendwie in dem
+
+01:07:26.400 --> 01:07:27.520
+Repo mittransportieren kannst.
+
+01:07:27.680 --> 01:07:29.380
+Das fühlt sich aber alles super komisch an.
+
+01:07:29.660 --> 01:07:31.580
+Ist halt auch nicht ideal von der Infrastruktur her.
+
+01:07:32.120 --> 01:07:33.280
+Aber was halt momentan ist,
+
+01:07:33.760 --> 01:07:35.080
+ist, dass wir hatten schon mal über
+
+01:07:36.839 --> 01:07:37.560
+CocoaPods geredet
+
+01:07:37.560 --> 01:07:39.100
+und über andere Sachen, viele Projekte
+
+01:07:39.539 --> 01:07:41.560
+benutzen einfach GitHub als ihren
+
+01:07:41.580 --> 01:07:42.840
+Backbone des Rust-Projekts.
+
+01:07:42.840 --> 01:07:43.720
+Auf jeden Fall, genau.
+
+01:07:44.780 --> 01:07:47.200
+Viele andere Sachen, diverse
+
+01:07:47.440 --> 01:07:49.320
+Programmiersprachen, andere große Projekte haben
+
+01:07:49.440 --> 01:07:50.980
+einfach als ihren zentralen Anlaufpunkt
+
+01:07:51.540 --> 01:07:52.620
+ihr GitHub-Repository.
+
+01:07:53.220 --> 01:07:55.460
+Die ganzen Issues von diesen Sachen,
+
+01:07:56.000 --> 01:07:57.260
+von diesen Projekten laufen komplett
+
+01:07:57.380 --> 01:07:59.360
+nur über GitHub. Die Webseiten
+
+01:07:59.520 --> 01:08:01.420
+von vielen werden auf GitHub gehostet.
+
+01:08:01.440 --> 01:08:03.140
+Unglaublich populär. Genau, also die sind,
+
+01:08:03.340 --> 01:08:04.800
+GitHub hat es eigentlich geschafft mit diesem Dienst,
+
+01:08:05.020 --> 01:08:07.340
+eigentlich wollten sie nur
+
+01:08:07.400 --> 01:08:09.180
+ein schönes Webinterface
+
+01:08:09.320 --> 01:08:11.540
+zur Verfügung stellen, aber sie haben es halt geschafft in den letzten
+
+01:08:11.560 --> 01:08:13.300
+Jahren zu einem sehr, sehr
+
+01:08:14.100 --> 01:08:15.260
+Zu dem OSS Hub
+
+01:08:15.500 --> 01:08:16.100
+überhaupt zu werden.
+
+01:08:17.060 --> 01:08:19.000
+Zu einem zentralen Stück Infrastruktur
+
+01:08:19.600 --> 01:08:21.279
+des Internets eigentlich zu werden.
+
+01:08:21.380 --> 01:08:23.339
+Also wie gesagt, es werden Sachen
+
+01:08:23.580 --> 01:08:24.380
+davon gehostet.
+
+01:08:25.759 --> 01:08:27.160
+Nicht nur, dass da Softwareprojekte
+
+01:08:27.480 --> 01:08:29.140
+sich darüber organisieren, sondern viele benutzen
+
+01:08:29.200 --> 01:08:30.460
+einfach GitHub einfach als
+
+01:08:32.000 --> 01:08:33.220
+Storage für diverse
+
+01:08:33.560 --> 01:08:33.640
+Sachen.
+
+01:08:35.040 --> 01:08:36.600
+Homebrew baut auch drauf auf, klar.
+
+01:08:37.819 --> 01:08:38.620
+Homebrew war das.
+
+01:08:39.020 --> 01:08:40.440
+Cocoa Pots auch, ja, aber
+
+01:08:41.160 --> 01:08:42.980
+andere Sachen, die doch alle Daten
+
+01:08:43.160 --> 01:08:44.040
+quasi in einem Repo liegen haben.
+
+01:08:44.540 --> 01:08:45.660
+Was ja auch erstmal nicht falsch ist.
+
+01:08:46.740 --> 01:08:48.680
+Und was man jetzt machen muss, ist, wenn man
+
+01:08:48.859 --> 01:08:49.560
+nicht mehr von GitHub,
+
+01:08:50.600 --> 01:08:52.720
+wenn man GitHub nicht mehr vertraut, weil es jetzt Microsoft
+
+01:08:52.980 --> 01:08:54.779
+gehört, ist einfach bloß
+
+01:08:54.940 --> 01:08:56.799
+eine URL von diesem Remote irgendwo
+
+01:08:57.279 --> 01:08:58.759
+anders hinzeichen lassen, wo ein anderes Git
+
+01:08:58.839 --> 01:09:00.640
+läuft. Und halt Dinge
+
+01:09:00.900 --> 01:09:02.779
+möglicherweise mit der Daten. Aber warum muss man
+
+01:09:02.779 --> 01:09:04.359
+das vielleicht nicht unbedingt machen?
+
+01:09:04.720 --> 01:09:06.220
+Ist es denn so schlimm, dass es Microsoft gehört?
+
+01:09:06.720 --> 01:09:08.699
+Ich meine, Ende des Jahres wird sich
+
+01:09:08.779 --> 01:09:10.700
+erstmal von der Infrastruktur her überhaupt nichts ändern,
+
+01:09:10.940 --> 01:09:12.520
+weil bis dahin wird Microsoft erstmal
+
+01:09:12.650 --> 01:09:14.259
+überhaupt evaluiert. Es wäre auch meiner,
+
+01:09:14.580 --> 01:09:16.480
+ich möchte prognostizieren, es verändert sich
+
+01:09:16.640 --> 01:09:18.160
+überhaupt nichts. Ich steige davon aus.
+
+01:09:19.160 --> 01:09:20.440
+Microsoft hat sich in den letzten...
+
+01:09:20.440 --> 01:09:22.560
+Team Foundation Server Hub umbenannt wird. Ich hätte nicht gedacht, dass ich das
+
+01:09:22.779 --> 01:09:24.620
+irgendwann mal sage, weil Microsoft hat sich ja in den letzten Jahren
+
+01:09:24.819 --> 01:09:26.819
+als sehr große positive
+
+01:09:27.220 --> 01:09:28.400
+Kraft im Open Source Bereich
+
+01:09:29.600 --> 01:09:30.799
+herausgestellt. Sie sind
+
+01:09:30.890 --> 01:09:32.680
+einer der größten Contributor
+
+01:09:32.839 --> 01:09:34.759
+to Open Source Projekte, die auf GitHub gehostet werden.
+
+01:09:34.839 --> 01:09:36.720
+Deswegen hast du ja gesagt, dass sie eine große Rechnung an GitHub
+
+01:09:36.740 --> 01:09:39.240
+stellen. Sie haben mittlerweile intern die Policy
+
+01:09:40.750 --> 01:09:43.520
+Open-Sourced, unless you have a good reason not to.
+
+01:09:44.819 --> 01:09:47.580
+Sie sind Entwickler von mittlerweile sehr populären
+
+01:09:48.690 --> 01:09:51.740
+Open-Source-Projekten, wie zum Beispiel Visual Studio Code oder TypeScript.
+
+01:09:52.589 --> 01:09:55.360
+Mit diesen beiden Projekten streite ich meinen Lebensunterhalt.
+
+01:09:57.260 --> 01:09:59.640
+Und allgemein, an dieser Stelle sind sie eigentlich
+
+01:10:01.100 --> 01:10:04.040
+bislang relativ positiv verwurzelt. Das könnte man natürlich
+
+01:10:04.340 --> 01:10:06.000
+in der Geschichte einfach ein paar Jahre zurück
+
+01:10:06.260 --> 01:10:08.060
+weitergucken und feststellen,
+
+01:10:08.320 --> 01:10:10.220
+dass Microsoft natürlich andere
+
+01:10:10.440 --> 01:10:10.740
+Sachen gemacht hat. Ja, Microsoft hatte halt
+
+01:10:10.740 --> 01:10:12.280
+eine History, wo sie halt aktiv
+
+01:10:12.780 --> 01:10:14.220
+versuchen, Linux zu zerstören.
+
+01:10:14.810 --> 01:10:16.240
+Wo Steve Barmer
+
+01:10:16.930 --> 01:10:18.300
+Open Source als Krebsgeschwür
+
+01:10:18.400 --> 01:10:19.300
+bezeichnet hat. Das ist
+
+01:10:20.670 --> 01:10:22.340
+alles auch die Geschichte von Microsoft.
+
+01:10:24.000 --> 01:10:24.380
+Allerdings
+
+01:10:24.820 --> 01:10:25.980
+momentan gehe ich davon aus,
+
+01:10:26.540 --> 01:10:28.360
+GitHub ist, wie es ist, gut
+
+01:10:28.410 --> 01:10:30.360
+und Microsoft hat einfach ein großes Interesse
+
+01:10:30.470 --> 01:10:31.320
+daran, es weiter
+
+01:10:32.300 --> 01:10:33.260
+laufen zu lassen.
+
+01:10:33.620 --> 01:10:35.580
+Es wird wahrscheinlich jetzt hier und da mal
+
+01:10:36.940 --> 01:10:37.420
+GitHub
+
+01:10:37.740 --> 01:10:39.600
+Microsoft-Werbung tauchen
+
+01:10:40.120 --> 01:10:41.620
+und vielleicht wird auch das Frontend
+
+01:10:41.800 --> 01:10:43.340
+in TypeScript irgendwie geschrieben.
+
+01:10:43.600 --> 01:10:45.480
+Aber ich gehe nicht davon aus, dass ich an der
+
+01:10:45.940 --> 01:10:47.440
+allgemeinen Funktionalität und an dem
+
+01:10:47.960 --> 01:10:49.020
+Modus von GitHub
+
+01:10:50.360 --> 01:10:51.520
+irgendetwas signifikant ändern
+
+01:10:51.760 --> 01:10:53.600
+wird. Prinzipiell sicherlich erstmal nicht.
+
+01:10:53.800 --> 01:10:53.920
+Genau.
+
+01:10:55.460 --> 01:10:57.540
+Vermute ich auch. Ich bin gerade auch so ein schöner Post
+
+01:10:57.660 --> 01:10:59.460
+offen. Hast du hier schlechtes WLAN?
+
+01:11:00.180 --> 01:11:01.840
+Also ich glaube, die Seite ist komplett überladend.
+
+01:11:01.840 --> 01:11:03.900
+Kann sein, dass die Verker News oder Slash dort gelandet ist.
+
+01:11:12.680 --> 01:11:13.240
+Ach genau.
+
+01:11:14.500 --> 01:11:16.620
+Es gibt natürlich auf jeden Fall den Grund dazu,
+
+01:11:16.760 --> 01:11:18.440
+auch der Sache kritisch gegenüber zu stehen.
+
+01:11:18.540 --> 01:11:20.160
+Einfach weil man Microsoft History eben kennt,
+
+01:11:20.300 --> 01:11:21.280
+wie du vorhin eben gesagt hast.
+
+01:11:23.060 --> 01:11:26.880
+Die Tatsache, dass es eben als Krebs oder Linux als Krebs bezeichnet wurde,
+
+01:11:27.340 --> 01:11:29.200
+beziehungsweise dass Microsoft unter anderem auch
+
+01:11:29.780 --> 01:11:31.440
+der UK gegenüber gedroht hat,
+
+01:11:32.380 --> 01:11:33.520
+alles aus dem Land
+
+01:11:33.680 --> 01:11:35.420
+rauszumouven, wenn die weiter
+
+01:11:35.590 --> 01:11:36.520
+Open Source promoten.
+
+01:11:37.140 --> 01:11:39.660
+Das ist die Marketingabteilung oder die Geschäftsabteilung
+
+01:11:39.800 --> 01:11:41.280
+von Microsoft. Es gibt ja auch dieses
+
+01:11:42.960 --> 01:11:43.840
+Limux-Projekt,
+
+01:11:44.270 --> 01:11:45.780
+die Münchner Stadtverwaltung stellt auf
+
+01:11:45.900 --> 01:11:47.880
+Linux um und Steve
+
+01:11:48.140 --> 01:11:50.060
+Barmer ist extra nach München gereist
+
+01:11:50.140 --> 01:11:51.660
+und hat gesagt, wollt ihr nicht doch bei Windows
+
+01:11:51.960 --> 01:11:54.060
+bleiben? Und im Endeffekt
+
+01:11:54.520 --> 01:11:55.720
+haben sie jetzt politischen Druck
+
+01:11:55.900 --> 01:11:57.820
+ausgeübt, damit die Leute weiterhin
+
+01:11:57.840 --> 01:11:59.820
+Windows verwenden. Also ich glaube, die Windows-Sparte
+
+01:11:59.940 --> 01:12:00.920
+von Microsoft ist da
+
+01:12:01.860 --> 01:12:03.100
+immer noch ziemlich radikal.
+
+01:12:03.170 --> 01:12:05.840
+Ich hoffe einfach, dass vieles davon gestorben ist,
+
+01:12:05.940 --> 01:12:07.140
+als die Form abgegangen ist.
+
+01:12:08.400 --> 01:12:09.780
+Scheint ja auch zeitlich gut
+
+01:12:09.800 --> 01:12:11.780
+damit zu passen. Microsoft hat sich
+
+01:12:11.820 --> 01:12:13.740
+ja wirklich geändert und mal schauen, wie das
+
+01:12:13.920 --> 01:12:15.500
+halt sich weiterentwickelt.
+
+01:12:16.780 --> 01:12:17.580
+Ja, also ich bin da mal gespannt.
+
+01:12:17.710 --> 01:12:19.460
+Also es gibt, wie gesagt, es gibt noch die schlechten Seiten
+
+01:12:19.760 --> 01:12:20.520
+von Microsoft, aber
+
+01:12:22.000 --> 01:12:23.560
+gerade ihr Umgang mit
+
+01:12:25.480 --> 01:12:27.800
+aber gerade ihr Umgang mit GitHub war eigentlich
+
+01:12:27.820 --> 01:12:29.660
+lang positiv.
+
+01:12:30.960 --> 01:12:31.400
+Deswegen, also
+
+01:12:31.780 --> 01:12:33.180
+wir machen wahrscheinlich hier und da
+
+01:12:34.050 --> 01:12:35.720
+immer noch sehr viele Sachen, die shady sind.
+
+01:12:36.320 --> 01:12:37.440
+Alles, was Windows
+
+01:12:38.380 --> 01:12:39.700
+10 wegfunkt, diese ganzen
+
+01:12:39.880 --> 01:12:41.440
+Geschichten. Das ist super weird.
+
+01:12:41.510 --> 01:12:42.600
+Das ist alles super krass.
+
+01:12:43.840 --> 01:12:45.720
+Aber ich glaube nicht, dass sie GitHub kaputt
+
+01:12:45.840 --> 01:12:47.620
+machen werden. Ne, da glaube ich eigentlich erst auch nicht dran.
+
+01:12:48.320 --> 01:12:49.700
+Da können wir auch, glaube ich,
+
+01:12:49.820 --> 01:12:51.540
+davon ausgehen, dass das erst persönlich passieren wird.
+
+01:12:51.660 --> 01:12:52.720
+Vor allem nicht in absehbarer Zukunft.
+
+01:12:54.480 --> 01:12:54.620
+Genau.
+
+01:12:55.550 --> 01:12:57.780
+Wie gesagt, abgesehen davon, dass es in Team
+
+01:12:57.800 --> 01:12:58.880
+Server Hub umbenannt wird.
+
+01:12:59.810 --> 01:13:01.240
+Es gab auch schon Leute, die GitHub
+
+01:13:01.720 --> 01:13:03.720
+gethemed in so einem Windows 95
+
+01:13:04.580 --> 01:13:04.960
+Design
+
+01:13:05.900 --> 01:13:06.460
+gepostet haben.
+
+01:13:06.770 --> 01:13:07.240
+Ach herrlich.
+
+01:13:08.200 --> 01:13:10.240
+Wo wir gerade dabei sind, wollen wir unsere
+
+01:13:10.420 --> 01:13:12.160
+GitHub Stars der Woche aufziehen?
+
+01:13:12.220 --> 01:13:14.300
+Gerne. Was hast du denn da so rausgesucht?
+
+01:13:16.840 --> 01:13:18.240
+Also ich hörte ja hauptsächlich
+
+01:13:18.480 --> 01:13:19.800
+von diesem Molten VK
+
+01:13:20.580 --> 01:13:21.800
+erzählen. Ich bin ja leider
+
+01:13:22.260 --> 01:13:24.380
+überhaupt nicht computergrafikmäßig
+
+01:13:24.680 --> 01:13:25.680
+bewandert. Allerdings,
+
+01:13:26.480 --> 01:13:29.020
+wenn ihr Vulkan-API anspricht
+
+01:13:30.120 --> 01:13:31.240
+oder euch damit auskennt
+
+01:13:31.520 --> 01:13:32.580
+und das auf Metal,
+
+01:13:33.000 --> 01:13:35.180
+also auf macOS oder iOS
+
+01:13:35.360 --> 01:13:36.380
+oder auf Cocoa-Plattform,
+
+01:13:37.960 --> 01:13:39.180
+dann gibt es, wie gesagt,
+
+01:13:39.580 --> 01:13:41.000
+Martin VK, das ist
+
+01:13:42.260 --> 01:13:43.660
+nach oben Vulkan,
+
+01:13:43.940 --> 01:13:44.620
+nach unten Metal
+
+01:13:45.480 --> 01:13:46.260
+und das ist ein Rapper,
+
+01:13:46.400 --> 01:13:47.900
+der einfach damit auf Metal
+
+01:13:48.640 --> 01:13:50.160
+Vulkan-API zur Verfügung steht.
+
+01:13:54.540 --> 01:13:54.960
+Jetzt du.
+
+01:13:55.620 --> 01:14:01.020
+Ich habe mir ein Tool von Facebook tatsächlich rausgesucht, nämlich heißt das Ganze Infer.
+
+01:14:01.880 --> 01:14:07.900
+Und das Ganze sieht ziemlich cool aus, ist ein Static Analyzer für Java und C, C++ und auch Objective-C.
+
+01:14:08.520 --> 01:14:11.760
+Und es sieht ziemlich cool aus. Also gerade für Java habe ich es tatsächlich mal kurz ausprobiert.
+
+01:14:13.100 --> 01:14:17.340
+Es klappt beeindruckend gut und du kannst halt einfach Static Code Analyzer drüber laufen lassen
+
+01:14:17.380 --> 01:14:19.680
+und der wirft dir ziemlich viel coolen Scheiß dabei raus.
+
+01:14:21.000 --> 01:14:21.880
+Hier in der Demo.
+
+01:14:24.920 --> 01:14:26.440
+Ja genau, zum Beispiel Sachen, die
+
+01:14:26.500 --> 01:14:28.560
+0.0-Exception werfen können, findet
+
+01:14:28.740 --> 01:14:29.800
+der erstmal beim
+
+01:14:30.620 --> 01:14:32.260
+Anschauen des Codes. Finde ich ziemlich cool.
+
+01:14:32.640 --> 01:14:33.300
+Kann man generell
+
+01:14:34.540 --> 01:14:35.960
+sich mit Einbauern mal benutzen.
+
+01:14:36.860 --> 01:14:38.180
+Cooles Tool. Fällt mir, was
+
+01:14:38.860 --> 01:14:39.460
+dabei herausgefallen ist.
+
+01:14:40.140 --> 01:14:40.800
+Infer heißt das.
+
+01:14:42.260 --> 01:14:42.420
+Krass.
+
+01:14:44.300 --> 01:14:44.580
+Ich habe
+
+01:14:44.900 --> 01:14:47.420
+auf dem Rust-Fest noch was anderes
+
+01:14:47.660 --> 01:14:48.980
+Schönes gezeigt bekommen und das heißt
+
+01:14:50.680 --> 01:14:52.000
+ALE, die
+
+01:14:52.480 --> 01:14:53.560
+Asynchronous Lint Engine.
+
+01:14:54.360 --> 01:14:55.960
+Und zwar habe ich lange Zeit
+
+01:14:56.060 --> 01:14:57.900
+Visual Studio Code hauptsächlich deshalb
+
+01:14:58.120 --> 01:14:59.980
+verwendet, wegen der guten Integration
+
+01:15:00.320 --> 01:15:02.060
+mit dem Language Server Protokoll, was
+
+01:15:02.060 --> 01:15:03.860
+ja von TypeScript und Rust
+
+01:15:04.020 --> 01:15:05.420
+zur Verfügung gestellt wird. Das heißt einfach,
+
+01:15:06.500 --> 01:15:07.760
+dein Editor spricht, während du
+
+01:15:07.940 --> 01:15:09.720
+Tipps die ganze Zeit mit deinem Compiler und
+
+01:15:10.940 --> 01:15:11.980
+du kriegst live Feedback
+
+01:15:12.640 --> 01:15:13.400
+oder Completion
+
+01:15:14.060 --> 01:15:15.280
+und so weiter und so fort.
+
+01:15:18.480 --> 01:15:18.960
+Und
+
+01:15:18.980 --> 01:15:20.780
+Chronos Lint Engine ist ein
+
+01:15:22.060 --> 01:15:23.140
+Wim-Plugin, beziehungsweise
+
+01:15:23.240 --> 01:15:25.220
+ein Neo-Wim-Plugin, das geht, wie gesagt, auch mit Wim-8.
+
+01:15:27.000 --> 01:15:27.220
+Und
+
+01:15:27.400 --> 01:15:28.940
+die bietet dir die gleiche Funktionität an,
+
+01:15:29.060 --> 01:15:30.960
+sie ist genauso schnell, weil sie einfach
+
+01:15:31.380 --> 01:15:32.980
+das gleiche Protokoll spricht und
+
+01:15:33.120 --> 01:15:34.580
+man sieht hier eine Demo und man sieht,
+
+01:15:34.960 --> 01:15:37.040
+wenn man das grafische Wim, also
+
+01:15:37.340 --> 01:15:38.680
+Gwim oder MacWim verwendet,
+
+01:15:39.140 --> 01:15:40.840
+dann hat man auch so squiggly lines
+
+01:15:41.500 --> 01:15:42.400
+unter den Sachen,
+
+01:15:43.000 --> 01:15:45.100
+also das ist nicht roher Text und wenn man mit der Maus
+
+01:15:45.240 --> 01:15:46.780
+über diesen Fehlern hovert, dann kriegt man die
+
+01:15:46.940 --> 01:15:48.720
+Fehlermeldung auch direkt angezeigt. Super cool.
+
+01:15:49.360 --> 01:15:50.660
+Das ist ziemlich nice und
+
+01:15:51.380 --> 01:15:53.120
+jetzt kann ich wieder häufiger Wim benutzen.
+
+01:15:53.360 --> 01:15:54.500
+Yay. Puches Wim.
+
+01:15:55.580 --> 01:15:57.060
+Du bist für mich auch einer der krassesten
+
+01:15:57.160 --> 01:15:57.940
+Wim-User, die ich kenne.
+
+01:15:58.800 --> 01:16:00.220
+Ich bin einfach der krass abhängigste
+
+01:16:00.300 --> 01:16:01.260
+Wim-User, den du kennst.
+
+01:16:01.670 --> 01:16:02.260
+Wie eine Droge.
+
+01:16:04.240 --> 01:16:04.640
+Hast du noch was?
+
+01:16:05.050 --> 01:16:06.620
+Ich hab noch was und zwar
+
+01:16:07.120 --> 01:16:09.120
+hab ich noch eine Programmiersprache.
+
+01:16:09.680 --> 01:16:11.580
+Nein, nicht noch eine Programmiersprache.
+
+01:16:12.640 --> 01:16:13.320
+Die ist
+
+01:16:13.580 --> 01:16:14.420
+Zilt heißt die.
+
+01:16:15.210 --> 01:16:16.640
+Ist tatsächlich in Swift geschrieben.
+
+01:16:17.920 --> 01:16:19.740
+Das ist aber nicht einfach bloß Swift auf Deutsch, oder?
+
+01:16:19.940 --> 01:16:21.180
+Nee, das ist ja Schwalbe.
+
+01:16:23.800 --> 01:16:25.880
+Silt ist von zwei Leuten geschrieben, die ziemlich cool sind.
+
+01:16:26.480 --> 01:16:27.500
+Der eine, den ihr gerade im Kopf habt,
+
+01:16:27.600 --> 01:16:29.880
+der andere muss ich nachschauen, ist Hauen Haskins.
+
+01:16:30.020 --> 01:16:31.080
+Der ist mittlerweile auch bei Apple
+
+01:16:31.560 --> 01:16:32.720
+und arbeitet da im Compiler-Team mit.
+
+01:16:33.220 --> 01:16:34.860
+Und zwar ist, ich habe einfach nur gepickt,
+
+01:16:34.960 --> 01:16:37.180
+weil sie haben in einem Podcast darüber gesprochen,
+
+01:16:37.340 --> 01:16:37.700
+haben die beiden.
+
+01:16:38.600 --> 01:16:41.360
+Und zwar ist das eine Dependently Typed Functional Programming
+
+01:16:41.460 --> 01:16:43.260
+Handwich. Und die haben auch in dem Podcast sehr viel
+
+01:16:43.360 --> 01:16:45.020
+darüber gesprochen, was genau das bedeutet. Ich möchte darauf
+
+01:16:45.100 --> 01:16:46.920
+jetzt nochmal eingehen und eher auf unsere
+
+01:16:46.940 --> 01:16:48.920
+previous Folge verweisen, weil ich von der
+
+01:16:49.000 --> 01:16:51.080
+Thematik auch nicht ganz so viel verstehe, muss ich
+
+01:16:51.080 --> 01:16:52.980
+sagen. Aber den Podcast musst du mir mal mitteilen.
+
+01:16:53.070 --> 01:16:54.940
+Aber von dem, pack mal die Shownotes,
+
+01:16:55.800 --> 01:16:56.580
+aber von dem, was
+
+01:16:57.860 --> 01:16:58.980
+SILD ausmacht und was die
+
+01:16:59.040 --> 01:17:00.840
+darüber gesprochen haben, klang das super, super cool.
+
+01:17:00.950 --> 01:17:03.080
+Also, dass ich halt, nur als Kurzabriss,
+
+01:17:03.160 --> 01:17:04.600
+dass ich viel mehr ins Typsystem packe,
+
+01:17:04.930 --> 01:17:07.100
+als ich von Zwift oder Rust gewöhnt
+
+01:17:07.110 --> 01:17:09.160
+bin, zum Beispiel Längen von Arrays
+
+01:17:09.380 --> 01:17:10.420
+als grobes Beispiel erstmal
+
+01:17:10.880 --> 01:17:12.900
+vorgenommen oder solche Dinge. Und dass ich
+
+01:17:12.900 --> 01:17:15.100
+das damit abbilden kann und quasi dann zur Compile-Zeit
+
+01:17:15.520 --> 01:17:17.280
+prüfen kann. Und das klingt jetzt mal super cool.
+
+01:17:17.370 --> 01:17:17.980
+Ich fand es auch cool.
+
+01:17:19.700 --> 01:17:21.240
+In welchem Kontext verwendet man die?
+
+01:17:22.480 --> 01:17:23.320
+Kann man damit Code
+
+01:17:23.540 --> 01:17:25.200
+produzieren, der dann im Kontext von
+
+01:17:25.290 --> 01:17:26.920
+anderen Swift-Programmen benutzt werden kann?
+
+01:17:27.100 --> 01:17:28.540
+Nicht, soweit ich wüsste.
+
+01:17:29.170 --> 01:17:31.180
+Also soweit ich verstehe, ist das erstmal
+
+01:17:31.300 --> 01:17:33.080
+ein komplett eigenes Ding und mehr ein Experiment
+
+01:17:33.440 --> 01:17:35.220
+als was, was man sinnvoll für
+
+01:17:35.400 --> 01:17:36.920
+irgendwas genutzt. Aber
+
+01:17:37.360 --> 01:17:39.280
+es sah trotzdem super cool aus.
+
+01:17:40.160 --> 01:17:40.520
+Abgefahren.
+
+01:17:41.700 --> 01:17:42.880
+Ich habe noch eine weitere Sache.
+
+01:17:42.880 --> 01:17:43.960
+Robert Woodman heißt der andere, sorry.
+
+01:17:44.980 --> 01:17:46.380
+Sag es nochmal. Robert Wooden
+
+01:17:46.500 --> 01:17:48.100
+heißt der andere, sehe ich gerade, der
+
+01:17:48.200 --> 01:17:49.240
+dran hängt. Cool.
+
+01:17:49.960 --> 01:17:52.160
+So, ich paste mal kurz meine ganzen Links in die Show Notes,
+
+01:17:52.220 --> 01:17:52.640
+bin sozial.
+
+01:17:54.660 --> 01:17:56.320
+Ich habe noch eine andere kleine Sache vom Rustfest
+
+01:17:56.500 --> 01:17:58.040
+mitgebracht, und zwar ein bekannter von mir,
+
+01:17:58.320 --> 01:17:59.200
+der Ogim,
+
+01:18:01.100 --> 01:18:02.100
+an dessen Code ich,
+
+01:18:02.280 --> 01:18:04.000
+also den ich hauptsächlich daher kenne, dass ich
+
+01:18:04.080 --> 01:18:05.160
+an seinem Code auf
+
+01:18:06.020 --> 01:18:07.520
+GitHub bereits gearbeitet habe und
+
+01:18:08.180 --> 01:18:09.860
+zufällig in Zürich persönlich
+
+01:18:10.040 --> 01:18:11.920
+kennengelernt habe. Sehr cool. Hat ein cooles
+
+01:18:12.040 --> 01:18:13.820
+kleines Programm gebaut, das heißt Checkback.
+
+01:18:14.660 --> 01:18:16.180
+und die Description erklärt eigentlich alles.
+
+01:18:16.340 --> 01:18:18.120
+Have you ever had to include a reference
+
+01:18:18.720 --> 01:18:20.480
+in your code so you can
+
+01:18:20.620 --> 01:18:22.760
+check back with it later but then you forget?
+
+01:18:23.180 --> 01:18:24.680
+Uh, okay. Mache ich oft.
+
+01:18:25.090 --> 01:18:26.140
+Links in den Kommentaren packen?
+
+01:18:26.360 --> 01:18:28.480
+Im Endeffekt, was es macht, ist es scannt deinen Code
+
+01:18:28.740 --> 01:18:30.260
+nach Links zu GitHub-Issues oder
+
+01:18:30.370 --> 01:18:32.380
+Stack-Overflow-Sachen und nutzt deren
+
+01:18:32.660 --> 01:18:34.660
+APIs, um zu checken, ob dort was passiert ist
+
+01:18:34.750 --> 01:18:36.080
+oder nicht. Oh, das ist ja cool.
+
+01:18:36.210 --> 01:18:38.400
+Ich weiß nicht, ob ich jetzt noch das File-Age oder
+
+01:18:38.500 --> 01:18:41.120
+irgendwie den Git-Timestamp
+
+01:18:41.210 --> 01:18:42.440
+oder so von der Datei, wann das
+
+01:18:42.440 --> 01:18:44.440
+zugefügt wurde, checkt. Das wäre noch ein nächster
+
+01:18:44.600 --> 01:18:45.840
+Schritt. Vielleicht macht es das aber auch schon.
+
+01:18:46.540 --> 01:18:48.380
+Und dann könntest du checken, ob an den Code,
+
+01:18:48.780 --> 01:18:50.280
+den du einfach unwissend
+
+01:18:51.120 --> 01:18:52.600
+in deinen Code reingepastet
+
+01:18:52.680 --> 01:18:54.340
+hast, ob sich da nochmal irgendwelche Sachen
+
+01:18:54.520 --> 01:18:56.100
+ergeben. Aber die Tatsache, dass ich mir sagen kann, ob
+
+01:18:56.200 --> 01:18:58.060
+ein Issue, was ich verlinkt habe, geclosed ist mittlerweile,
+
+01:18:58.320 --> 01:18:59.540
+das wäre ja schon mal super praktisch.
+
+01:19:00.260 --> 01:19:02.160
+Wie geil. Gefällt mir. Super cool.
+
+01:19:03.800 --> 01:19:04.520
+Ob das geclosed
+
+01:19:04.640 --> 01:19:05.740
+ist, da gibt es noch den Service
+
+01:19:05.920 --> 01:19:07.560
+Tell me when it's closed. Das gibt es noch, genau.
+
+01:19:07.860 --> 01:19:10.080
+Damit du nicht, ein Problem
+
+01:19:10.220 --> 01:19:12.400
+auf GitHub ist, du kannst ein Issue
+
+01:19:12.420 --> 01:19:14.940
+aber dann kriegst du wirklich jedes Mal, wenn da was passiert ist,
+
+01:19:15.340 --> 01:19:15.920
+eine Notification.
+
+01:19:16.070 --> 01:19:18.720
+Das geht mir zum Beispiel bei diesem Scrollback-Feature von Alacrity
+
+01:19:18.970 --> 01:19:19.520
+super auf den Keks,
+
+01:19:20.040 --> 01:19:22.400
+weil da alle drei Wochen mal irgendjemand irgendwas postet,
+
+01:19:22.480 --> 01:19:23.600
+was überhaupt nichts damit zu tun hat,
+
+01:19:23.680 --> 01:19:25.160
+dass dieses Feature irgendwann mal fertig wird.
+
+01:19:26.660 --> 01:19:28.160
+Und mit dem Surface Tell Me When It's Closed
+
+01:19:28.280 --> 01:19:29.400
+musst du dem Ding nicht selber folgen.
+
+01:19:29.960 --> 01:19:31.320
+Aber du kriegst auch mal eine Notification.
+
+01:19:31.720 --> 01:19:32.420
+Ja, und vor allem,
+
+01:19:33.060 --> 01:19:34.600
+also GitHub muss generell mal daran arbeiten,
+
+01:19:34.760 --> 01:19:36.560
+was Watching von Repos bedeutet.
+
+01:19:36.960 --> 01:19:38.860
+Wenn man nur Releases zum Beispiel watchen könnte,
+
+01:19:38.950 --> 01:19:39.720
+wäre schon fantastisch.
+
+01:19:40.310 --> 01:19:41.760
+Vielleicht können sie das ja mit den sieben Milliarden,
+
+01:19:41.960 --> 01:19:43.340
+von Microsoft bekommen haben jetzt endlich.
+
+01:19:43.540 --> 01:19:45.800
+Möglicherweise. Noch gar nicht wirklich über GitLab
+
+01:19:46.080 --> 01:19:47.360
+gesprochen, wo ja alle hingeflüchtet sind,
+
+01:19:48.080 --> 01:19:49.800
+die die Server gebrannt haben an dem Tag,
+
+01:19:50.220 --> 01:19:51.100
+weil sie zehnmal so viele
+
+01:19:52.540 --> 01:19:53.440
+Imports gehabt haben.
+
+01:19:53.680 --> 01:19:55.840
+Ja, wer weiß, ob die ihr Business-Modell
+
+01:19:55.960 --> 01:19:56.940
+mit Mach doch, was du willst,
+
+01:19:58.080 --> 01:19:59.360
+noch lange. Die haben ja jetzt erstmal
+
+01:20:00.220 --> 01:20:01.640
+heute, glaube ich, mit angekündigt, dass
+
+01:20:01.870 --> 01:20:04.560
+sie ihre Premium-
+
+01:20:04.920 --> 01:20:06.580
+Oberklasse, also auch für,
+
+01:20:06.580 --> 01:20:09.420
+ich weiß gar nicht, wie das heißt, Gold oder
+
+01:20:09.420 --> 01:20:10.140
+irgendwas anderes für die Self-Hosted-Variante
+
+01:20:10.580 --> 01:20:12.920
+ist jetzt free für Education und Open Source.
+
+01:20:13.700 --> 01:20:14.220
+Das finde ich cool.
+
+01:20:15.600 --> 01:20:17.160
+Nicht leider für Education im Sinne von
+
+01:20:17.490 --> 01:20:19.540
+für Unis und Edu-Einrichtungen,
+
+01:20:19.660 --> 01:20:21.300
+nicht für einzelne Edu-Mitglieder
+
+01:20:21.310 --> 01:20:21.920
+wie Studenten.
+
+01:20:22.520 --> 01:20:24.140
+Das heißt, weil die das einfach nicht handeln könnten
+
+01:20:24.210 --> 01:20:25.660
+von den Anfragen, kann ich irgendwo verstehen.
+
+01:20:25.890 --> 01:20:27.920
+Aber wenn jetzt die Uni ein eigenes GitLab posten würde,
+
+01:20:28.000 --> 01:20:29.380
+wäre das schon mal ein großer Schwerpunkt.
+
+01:20:29.380 --> 01:20:30.120
+Das machen auch manche Unis.
+
+01:20:30.310 --> 01:20:31.180
+Die TU Chemnitz zum Beispiel,
+
+01:20:31.310 --> 01:20:32.800
+das nutzt die TU Dresden zum Beispiel auch mit.
+
+01:20:33.070 --> 01:20:34.640
+Da kannst du dich auch mit deinem TU Dresden-Account
+
+01:20:34.710 --> 01:20:37.540
+über deren Chipolet direkt einloggen
+
+01:20:37.640 --> 01:20:38.800
+und das benutzen.
+
+01:20:39.680 --> 01:20:40.060
+Ach was.
+
+01:20:40.480 --> 01:20:42.620
+Der Campus-Navigator, das Projekt,
+
+01:20:42.820 --> 01:20:43.840
+an dem ich mit arbeite.
+
+01:20:44.150 --> 01:20:47.120
+Aber die Software-Praktiker müssen immer noch SourceForge benutzen?
+
+01:20:47.150 --> 01:20:49.200
+Nee, mittlerweile nutzen die sogar GitHub.
+
+01:20:49.760 --> 01:20:51.420
+Ach schon, das hatten sie schon geändert.
+
+01:20:52.340 --> 01:20:54.400
+Genau, aber GitLab ist natürlich im Gegensatz zu GitHub
+
+01:20:54.630 --> 01:20:56.080
+auch als Plattform komplett open-source.
+
+01:20:56.200 --> 01:20:58.120
+Das kannst du halt auch selber hosten, wenn du möchtest.
+
+01:20:58.480 --> 01:21:00.560
+Oder du nimmst dir ein GitT oder ein Gox.
+
+01:21:02.120 --> 01:21:03.680
+Ich betreibe selber mein eigenes GitT.
+
+01:21:04.960 --> 01:21:06.840
+Das lässt sich einfacher hosten als ein GitLab,
+
+01:21:06.940 --> 01:21:08.400
+was ein ziemlich großes Rails-Monster auch ist.
+
+01:21:08.820 --> 01:21:10.680
+Man kann es machen, aber man muss ein bisschen mehr Arbeit reinstecken.
+
+01:21:11.000 --> 01:21:12.640
+Gitti ist wirklich Null Arbeit.
+
+01:21:13.020 --> 01:21:14.100
+Du musst es quasi nur starten.
+
+01:21:14.300 --> 01:21:15.760
+Gitti und Gox ist fast das Gleiche.
+
+01:21:15.940 --> 01:21:18.600
+Gitti ist ein Fog von Gox, weil der Gox-Maintainer mal eine Weile
+
+01:21:18.920 --> 01:21:20.540
+weg war und niemand anderes
+
+01:21:21.960 --> 01:21:22.500
+Commit-Rechte hatte,
+
+01:21:22.740 --> 01:21:23.840
+beziehungsweise Push-Rechte auf das Vipo.
+
+01:21:24.260 --> 01:21:25.820
+Und man gemunkelt hat, dass es tot war,
+
+01:21:26.460 --> 01:21:28.680
+das Vipo, und dann kamen wir irgendwann wieder und jetzt leben beide,
+
+01:21:28.800 --> 01:21:30.140
+aber sind ein bisschen auseinandergewachsen.
+
+01:21:30.700 --> 01:21:31.920
+Aber Gitti wird, glaube ich, mehr maintained.
+
+01:21:31.920 --> 01:21:33.640
+Da ist man einmal nicht erreichbar.
+
+01:21:34.120 --> 01:21:35.180
+Aber es durfte halt auch nur er
+
+01:21:35.800 --> 01:21:37.940
+erst merchen. Und da waren viele Leute jetzt ein bisschen pissig.
+
+01:21:39.940 --> 01:21:41.120
+Tja, der Bass Factor,
+
+01:21:41.340 --> 01:21:42.700
+der war zwar nicht weg, er war für immer weg, aber
+
+01:21:43.180 --> 01:21:45.100
+quasi dasselbe. Aber eine Sache, die mich halt immer noch
+
+01:21:45.180 --> 01:21:46.600
+an GitHub reizt, ist, dass es halt
+
+01:21:47.640 --> 01:21:48.440
+der Hub ist.
+
+01:21:48.860 --> 01:21:50.420
+Das ist so wie,
+
+01:21:51.450 --> 01:21:53.000
+wenn jemand ein zweites Twitter aufmacht,
+
+01:21:53.340 --> 01:21:54.280
+das gibt es ja auch mit
+
+01:21:54.900 --> 01:21:55.760
+äh, äh, äh,
+
+01:21:56.760 --> 01:21:58.280
+wie heißt das? Mastodon.
+
+01:21:58.680 --> 01:22:00.240
+Das gibt es ja auch mit Mastodon schon, aber
+
+01:22:01.320 --> 01:22:03.080
+da muss ich ja noch eine zweite
+
+01:22:03.240 --> 01:22:04.640
+Plattform checken, wo hier
+
+01:22:04.900 --> 01:22:07.000
+coole Sachen passieren. Also man floggt generell,
+
+01:22:07.140 --> 01:22:09.380
+Das ist ein Phänomen, was oft genug beobachtet wird.
+
+01:22:09.540 --> 01:22:11.940
+Es floggt generell immer alles zurück zur Zentralisation.
+
+01:22:12.720 --> 01:22:14.440
+Man muss Dinge halt von Grund auf so aufbauen,
+
+01:22:14.520 --> 01:22:15.880
+dass sie zentral genutzt werden können.
+
+01:22:16.560 --> 01:22:19.380
+Aber es wird dann immer, also genau wie mit dem Java-CCC-Server,
+
+01:22:19.380 --> 01:22:21.020
+es wird immer einen dicken Server,
+
+01:22:21.310 --> 01:22:23.640
+oder jetzt mal auf Web-Zogen, einen dicken Server geben,
+
+01:22:23.640 --> 01:22:24.360
+wo die meisten sitzen.
+
+01:22:24.810 --> 01:22:25.780
+Da wird sich nichts dran ändern.
+
+01:22:25.940 --> 01:22:28.100
+Das ist allgemein das große Problem des Kapitalismus,
+
+01:22:28.250 --> 01:22:31.080
+dass alles zum Monopol strebt.
+
+01:22:31.580 --> 01:22:33.220
+Naja, aber das ist ja auch in der Natur beobachtbar.
+
+01:22:33.220 --> 01:22:35.940
+Da habe ich in ein paar andere Posts auch gekommend.
+
+01:22:36.440 --> 01:22:38.540
+Das hat auf Hackern die letzten Tage gelesen.
+
+01:22:38.960 --> 01:22:40.200
+Das passiert einfach immer wieder.
+
+01:22:40.920 --> 01:22:42.580
+Und naja, muss man halt einfach mit
+
+01:22:42.840 --> 01:22:44.300
+leben und wie gesagt, Dinge so
+
+01:22:44.560 --> 01:22:46.460
+dezentral bauen, dass sie halt auch von Leuten,
+
+01:22:46.540 --> 01:22:48.600
+die diesen Service nicht nutzen, primärmlich genutzt werden können.
+
+01:22:48.920 --> 01:22:50.520
+Naja, man darf einfach nicht davon
+
+01:22:51.480 --> 01:22:52.280
+abhängig sein.
+
+01:22:52.700 --> 01:22:54.360
+Bei Facebook und bei Twitter ist es so,
+
+01:22:54.540 --> 01:22:56.080
+wenn du da Kunde von bist,
+
+01:22:56.440 --> 01:22:58.400
+dann bist du davon auch abhängig. Wenn du Kunde
+
+01:22:58.560 --> 01:22:59.940
+von GitHub bist, bist du davon
+
+01:23:01.040 --> 01:23:02.480
+eigentlich nicht abhängig.
+
+01:23:02.480 --> 01:23:03.100
+Oder nicht so wirklich.
+
+01:23:03.380 --> 01:23:04.860
+Naja, gut, okay, kann man seine
+
+01:23:06.000 --> 01:23:07.280
+Issues exportieren und nach
+
+01:23:07.420 --> 01:23:09.500
+GitLab importieren? Eventuell,
+
+01:23:09.640 --> 01:23:10.500
+das weiß ich gar nicht genau.
+
+01:23:11.340 --> 01:23:13.180
+GitLab bietet direkt GitHub-Importer an.
+
+01:23:14.360 --> 01:23:15.320
+Also ist das Problem
+
+01:23:15.440 --> 01:23:15.940
+bei GitLab.
+
+01:23:15.940 --> 01:23:16.660
+Der hat bloß ungefähr
+
+01:23:18.500 --> 01:23:20.040
+30 Stunden bei mir gerödelt
+
+01:23:20.120 --> 01:23:22.000
+vor zwei Tagen, um ein Wipo zu importieren.
+
+01:23:22.600 --> 01:23:22.880
+What?
+
+01:23:23.680 --> 01:23:24.720
+Wie gesagt, die Server haben gebrannt.
+
+01:23:25.320 --> 01:23:27.260
+Ja gut, okay, das war natürlich, nachdem sie Bekannter gegeben haben,
+
+01:23:27.280 --> 01:23:28.080
+das GitLab.
+
+01:23:29.040 --> 01:23:30.560
+Wo Leute in Massen rübergeflüchtet sind.
+
+01:23:30.840 --> 01:23:31.900
+Was ich jetzt nicht so
+
+01:23:32.920 --> 01:23:34.100
+notwendig finde, aber
+
+01:23:34.480 --> 01:23:36.480
+naja, sollen sie halt. GitLab ist auch als Software
+
+01:23:36.630 --> 01:23:38.120
+super cool. Er hat auch vieles, was
+
+01:23:38.520 --> 01:23:40.420
+GitHub nicht kann. Die integrierte CI
+
+01:23:40.840 --> 01:23:41.420
+finde ich super cool.
+
+01:23:42.020 --> 01:23:44.620
+Das integrierte Deployment, auch dieser Kubernetes-Support
+
+01:23:44.720 --> 01:23:46.000
+der eingebaut ist, super cool.
+
+01:23:46.520 --> 01:23:48.340
+Gehe mir ein bisschen über den Kopf, was man genau damit
+
+01:23:48.410 --> 01:23:49.580
+alles für Magic und andere stellen kann.
+
+01:23:49.650 --> 01:23:52.380
+Das ist allerdings eine andere Geschichte, weil soweit ich weiß, wird das
+
+01:23:52.480 --> 01:23:54.520
+größtenteils von einer ganz kleinen Handvoll
+
+01:23:54.640 --> 01:23:55.200
+Leute entwickelt.
+
+01:23:56.150 --> 01:23:57.360
+Wie gesagt, trotzdem Open Source.
+
+01:23:58.260 --> 01:24:00.500
+Selbst wenn die keinen Bock mehr haben, das Projekt wird weiterleben.
+
+01:24:02.400 --> 01:24:03.420
+Also, wir stellen fest
+
+01:24:04.660 --> 01:24:05.920
+es wird alles nicht so schlimm
+
+01:24:07.060 --> 01:24:07.300
+wie
+
+01:24:07.880 --> 01:24:08.240
+man denkt
+
+01:24:09.660 --> 01:24:11.420
+Die Suppe wird längst nicht so heiß gegessen
+
+01:24:12.000 --> 01:24:12.400
+Quatsch
+
+01:24:14.140 --> 01:24:15.640
+Keine, ich finde das waren sehr gute
+
+01:24:15.920 --> 01:24:16.240
+Schlussworte
+
+01:24:16.760 --> 01:24:19.540
+Ja, die zu heiße Suppe
+
+01:24:20.120 --> 01:24:20.900
+Die zu heiße Suppe
+
+01:24:20.940 --> 01:24:23.320
+Ich mache mir jetzt erstmal was zu essen, du hörst mir sehr gerne beim Kauen
+
+01:24:23.560 --> 01:24:25.180
+So weit würde ich jetzt nicht gehen
+
+01:24:27.120 --> 01:24:29.500
+Ne, war eine gute Folge, Folge Nummer 019
+
+01:24:29.520 --> 01:24:30.860
+Das sagst du jetzt.
+
+01:24:31.740 --> 01:24:33.600
+Da hat man was von nach dem Stein davon übrig bleibt.
+
+01:24:34.980 --> 01:24:35.540
+Also vielen Dank,
+
+01:24:35.570 --> 01:24:37.380
+dass ihr uns mal wieder zugehört habt. Das war Folge
+
+01:24:38.080 --> 01:24:39.600
+19, die 20. Folge
+
+01:24:39.840 --> 01:24:40.840
+von Akronomisierbar.
+
+01:24:42.060 --> 01:24:43.400
+Ihr findet uns weiterhin
+
+01:24:43.860 --> 01:24:45.460
+auf Twitter. Bitte schreibt uns
+
+01:24:45.610 --> 01:24:46.100
+einfach an
+
+01:24:46.920 --> 01:24:49.340
+akronomisierbar oder an unsere persönlichen Handles.
+
+01:24:49.500 --> 01:24:49.840
+Ich bin
+
+01:24:50.590 --> 01:24:51.820
+at hoodie-de.
+
+01:24:52.290 --> 01:24:54.220
+Ich at Kilian K.O.E. mit einem L.
+
+01:24:54.470 --> 01:24:56.640
+Wir haben aus den letzten Tagen vermehrt Feedback bekommen auf Twitter.
+
+01:24:56.940 --> 01:24:58.360
+Schreibt uns gerne immer weiter. Das ist toll.
+
+01:24:58.680 --> 01:25:00.260
+Genau, wir mögen euer Feedback. Wir
+
+01:25:00.960 --> 01:25:02.360
+sehen auch einige der Pain-Points, die uns
+
+01:25:02.700 --> 01:25:04.480
+über Twitter herangetragen wurden selber. Also
+
+01:25:04.520 --> 01:25:06.620
+ich würde gerne mehr als
+
+01:25:06.680 --> 01:25:08.440
+nur ein MP3-Feed veröffentlichen, aber
+
+01:25:08.680 --> 01:25:10.480
+momentan ist das einfach nicht ganz so
+
+01:25:10.580 --> 01:25:12.280
+einfach und wir wollen jetzt auch mehr Zeit
+
+01:25:12.880 --> 01:25:14.440
+in das Produzieren von Folgen als
+
+01:25:14.560 --> 01:25:15.800
+in das Veröffentlichen von Folgen.
+
+01:25:16.080 --> 01:25:18.360
+Immerhin haben wir jetzt ein Zertifikat für unsere
+
+01:25:18.520 --> 01:25:19.620
+Seite und IPv6.
+
+01:25:20.960 --> 01:25:21.120
+Genau.
+
+01:25:22.820 --> 01:25:24.140
+Also bitte weiter Feedback.
+
+01:25:25.060 --> 01:25:26.540
+Wir freuen uns da sehr, sehr, sehr drüber
+
+01:25:26.700 --> 01:25:28.640
+und wir interagieren auch gerne mit euch auf Twitter
+
+01:25:28.660 --> 01:25:30.340
+oder schreibt uns E-Mails,
+
+01:25:30.560 --> 01:25:32.040
+soweit ich weiß, werden die weitergeleitet.
+
+01:25:32.120 --> 01:25:34.220
+Ich kann nicht versprechen, dass ich da schnell drauf reagiere,
+
+01:25:34.260 --> 01:25:35.260
+wenn ich schlecht mit E-Mails bin.
+
+01:25:36.500 --> 01:25:38.600
+Aber wie gesagt, vielen Dank, dass ihr uns weiter gehört habt.
+
+01:25:39.620 --> 01:25:40.480
+Ja, vielen Dank fürs Zuhören.
+
+01:25:40.760 --> 01:25:42.220
+Und die nächste Folge in eurem Podcast-Chat
+
+01:25:42.420 --> 01:25:45.300
+beginnt in 3, 2, 1.
+

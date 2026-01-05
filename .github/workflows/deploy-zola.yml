@@ -20,7 +20,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Generate search index
+        run: deno run --allow-read --allow-write scripts/generate-search-index.ts
+
       - name: Setup Zola
         uses: taiki-e/install-action@v2
         with:

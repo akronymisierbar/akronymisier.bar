@@ -281,11 +281,21 @@ episode_number = episode_num | int %} {% endif %}
                 console.log("Transcript not available");
             });
 
+        // Handle timestamp from URL (from transcript search)
+        const urlParams = new URLSearchParams(window.location.search);
+        const startTime = urlParams.get('t');
+
         // Remember playback position
         const episodeId = "{{ page.slug }}";
         const savedPosition = localStorage.getItem("position-" + episodeId);
 
-        if (savedPosition) {
+        if (startTime) {
+            const seconds = parseFloat(startTime);
+            audioPlayer.addEventListener('loadedmetadata', function() {
+                audioPlayer.currentTime = seconds;
+                audioPlayer.play();
+            }, { once: true });
+        } else if (savedPosition) {
             audioPlayer.currentTime = parseFloat(savedPosition);
         }
 
