@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="{{ config.default_language }}">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+        <meta
+            name="description"
+            content="{% block description %}{{ config.description }}{% endblock description %}"
+        />
+
+        <link rel="icon" href="/images/favicon.ico" />
+        <link
+            rel="apple-touch-icon"
+            sizes="192x192"
+            href="/images/logo192.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="512x512"
+            href="/images/logo512.png"
+        />
+
+        <link rel="stylesheet" href="/style.css" />
+        <link
+            rel="alternate"
+            type="application/rss+xml"
+            title="{{ config.title }}"
+            href="{{ get_url(path='rss.xml') }}"
+        />
+
+        {% block head %}{% endblock head %}
+    </head>
+
+    <body>
+        <div class="main">
+            <header>
+                <nav class="links">
+                    <ul>
+                        <li><a href="/rss.xml">RSS</a></li>
+                        <li>
+                            <a
+                                href="{{ config.extra.itunes_url }}"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Apple Podcasts</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="{{ config.extra.matrix_url }}"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Matrix</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="{{ config.extra.mastodon_url }}"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Fediverse</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="{{ config.extra.podcast_funding_url }}"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >Spenden</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+
+                {% block header %}
+                <a href="/">
+                    <img
+                        class="logo center"
+                        src="/images/logo512.png"
+                        alt="Podcast logo showing headphones and the text Akronymisierbar"
+                    />
+                </a>
+                {% endblock header %}
+            </header>
+
+            <main>{% block content %}{% endblock content %}</main>
+
+            <footer>
+                <hr />
+                <p class="footer">
+                    <a
+                        href="{{ config.extra.matrix_url }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Matrix</a
+                    >
+                    ·
+                    <a
+                        href="{{ config.extra.mastodon_url }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Mastodon</a
+                    >
+                    ·
+                    <a
+                        href="{{ config.extra.github_url }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >GitHub</a
+                    >
+                    ·
+                    <a
+                        href="{{ config.extra.podcast_funding_url }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Spenden</a
+                    >
+                </p>
+                <p class="footer">
+                    {% if config.extra.hosts %} Hosts: {% for host in
+                    config.extra.hosts %}
+                    <a
+                        href="{{ host.url }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >{{ host.name }}</a
+                    >{% if not loop.last %} & {% endif %} {% endfor %} {% endif
+                    %}
+                </p>
+            </footer>
+        </div>
+
+        {% block scripts %}{% endblock scripts %}
+    </body>
+</html>

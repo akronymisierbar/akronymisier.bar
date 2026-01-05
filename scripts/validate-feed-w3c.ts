@@ -39,7 +39,7 @@ function printIssue(issue: any, severity: string) {
   const message = issue.querySelector("span.message").textContent;
 
   console.log(
-    `::${severity} file=public/feed.rss,line=${line},col=${column}::${message}`
+    `::${severity} file=public/feed.xml,line=${line},col=${column}::${message}`
   );
 }
 

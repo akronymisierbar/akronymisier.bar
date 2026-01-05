@@ -1,0 +1,429 @@
+// Variables
+$primary-color: #333;
+$secondary-color: #666;
+$link-color: #0066cc;
+$border-color: #ddd;
+$background-light: #f5f5f5;
+$max-width: 800px;
+
+// Reset and base styles
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: $primary-color;
+    background: white;
+}
+
+.main {
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+    margin: 1.5rem 0 1rem;
+    line-height: 1.2;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.25rem; }
+
+p {
+    margin: 1rem 0;
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// Header and navigation
+header {
+    margin-bottom: 2rem;
+}
+
+.logo {
+    width: 350px;
+    max-width: 100%;
+    display: block;
+    margin: 2rem auto;
+    
+    &.center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.links {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style: none;
+        gap: 1rem;
+        padding: 0;
+        margin: 0 0 2rem 0;
+    }
+    
+    li {
+        margin: 0;
+    }
+    
+    a {
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        transition: background-color 0.2s;
+        
+        &:hover {
+            background: $background-light;
+            text-decoration: none;
+        }
+    }
+}
+
+// Episodes list
+.episodes-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0 1rem;
+    
+    h2 {
+        margin: 0;
+    }
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    input {
+        padding: 0.5rem;
+        padding-right: 2rem;
+        border: 1px solid $border-color;
+        border-radius: 4px;
+        font-size: 1rem;
+        width: 200px;
+        
+        &:focus {
+            outline: none;
+            border-color: $link-color;
+        }
+    }
+    
+    .clear-search-button {
+        position: absolute;
+        right: 0.5rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: $secondary-color;
+        padding: 0.25rem;
+        display: flex;
+        align-items: center;
+        
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
+
+.episode-item {
+    margin: 1.5rem 0;
+    
+    .episode-item-content {
+        display: flex;
+        gap: 1.5rem;
+        align-items: flex-start;
+    }
+    
+    .episode-thumb {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 8px;
+        flex-shrink: 0;
+    }
+    
+    .episode-info {
+        flex: 1;
+        min-width: 0;
+    }
+    
+    h3 {
+        margin: 0 0 0.5rem 0;
+    }
+    
+    .episode-details {
+        font-size: 0.875rem;
+        color: $secondary-color;
+        margin: 0.5rem 0;
+        
+        .date, .duration {
+            display: inline-block;
+        }
+    }
+    
+    .summary {
+        margin: 0.5rem 0;
+        line-height: 1.5;
+    }
+}
+
+hr {
+    border: none;
+    border-top: 1px solid $border-color;
+    margin: 1.5rem 0;
+}
+
+// Episode detail page styles moved to inline CSS in episode.html template
+
+.episode-details {
+    font-size: 0.875rem;
+    color: $secondary-color;
+    margin: 1rem 0;
+}
+
+.audio-player {
+    margin: 2rem 0;
+    background: $background-light;
+    border-radius: 8px;
+    padding: 1rem;
+    
+    audio {
+        width: 100%;
+    }
+}
+
+.chapter-marks {
+    margin-top: 1rem;
+    
+    summary {
+        cursor: pointer;
+        font-weight: bold;
+        padding: 0.5rem 0;
+        user-select: none;
+    }
+    
+    .chapter-button {
+        display: block;
+        width: 100%;
+        text-align: left;
+        padding: 0.5rem;
+        margin: 0.25rem 0;
+        background: white;
+        border: 1px solid $border-color;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+        font-size: 0.875rem;
+        
+        &:hover {
+            background: darken(white, 5%);
+        }
+    }
+}
+
+.episode-content {
+    margin: 2rem 0;
+    
+    ul {
+        margin: 1rem 0;
+        padding-left: 2rem;
+    }
+    
+    li {
+        margin: 0.5rem 0;
+    }
+    
+    blockquote {
+        border-left: 4px solid $border-color;
+        padding-left: 1rem;
+        margin: 1rem 0;
+        color: $secondary-color;
+        font-style: italic;
+    }
+}
+
+.transcript {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: lighten($background-light, 2%);
+    border-radius: 8px;
+    max-height: 400px;
+    overflow-y: auto;
+    
+    h2 {
+        margin-top: 0;
+    }
+}
+
+.social-interact {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: $background-light;
+    border-radius: 8px;
+}
+
+// Footer
+footer {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    text-align: center;
+    color: $secondary-color;
+    font-size: 0.875rem;
+    
+    p {
+        margin: 0.5rem 0;
+    }
+    
+    a {
+        color: $secondary-color;
+        
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
+
+// Utilities
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: $link-color;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+    
+    &:hover {
+        background: darken($link-color, 10%);
+        text-decoration: none;
+    }
+}
+
+.more-episodes {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.no-results {
+    text-align: center;
+    color: $secondary-color;
+    padding: 2rem;
+    font-style: italic;
+}
+
+// Responsive design
+@media (max-width: 600px) {
+    .episodes-title-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        
+        .search-container {
+            width: 100%;
+            
+            input {
+                width: 100%;
+            }
+        }
+    }
+    
+    .logo {
+        width: 250px;
+    }
+    
+    .links ul {
+        flex-direction: column;
+        
+        li {
+            width: 100%;
+            text-align: center;
+        }
+    }
+    
+    .episode-item {
+        .episode-thumb {
+            width: 80px;
+            height: 80px;
+        }
+        
+        .episode-item-content {
+            gap: 1rem;
+        }
+    }
+}
+
+// Dark mode support
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #1a1a1a;
+        color: #e0e0e0;
+    }
+    
+    .main {
+        color: #e0e0e0;
+    }
+    
+    a {
+        color: #66b3ff;
+    }
+    
+    .episode-details,
+    .episode-item .episode-details,
+    footer {
+        color: #999;
+    }
+    
+    .audio-player,
+    .social-interact,
+    .links a:hover {
+        background: #2a2a2a;
+    }
+    
+    .chapter-button {
+        background: #2a2a2a;
+        border-color: #444;
+        color: #e0e0e0;
+        
+        &:hover {
+            background: #333;
+        }
+    }
+    
+    .search-container input {
+        background: #2a2a2a;
+        border-color: #444;
+        color: #e0e0e0;
+        
+        &:focus {
+            border-color: #66b3ff;
+        }
+    }
+    
+    hr {
+        border-color: #444;
+    }
+    
+    .transcript {
+        background: #2a2a2a;
+    }
+    
+    blockquote {
+        border-color: #444;
+        color: #999;
+    }
+}

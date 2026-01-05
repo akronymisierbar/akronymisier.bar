@@ -1,0 +1,115 @@
+{% extends "base.html" %} {% block title %}Alle Episoden - {{ config.title }}{%
+endblock title %} {% block content %}
+<h1>Alle Episoden</h1>
+
+<div class="episodes-title-container">
+    <p>{{ section.pages | length }} Episoden</p>
+    <div class="search-container">
+        <input type="text" id="search" placeholder="Suche..." name="search" />
+        <button
+            class="clear-search-button"
+            id="clear-search"
+            style="display: none"
+        >
+            <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+            >
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="15" y1="9" x2="9" y2="15"></line>
+                <line x1="9" y1="9" x2="15" y2="15"></line>
+            </svg>
+        </button>
+    </div>
+</div>
+
+<div id="episodes-list">
+    {% for page in section.pages %}
+    <div
+        class="episode-item"
+        data-search="{{ page.title | lower }} {{ page.extra.description | lower }} {{ page.content | striptags | lower }}"
+    >
+        <div class="episode-item-content">
+            <a href="{{ page.permalink }}" class="episode-thumb-link">
+                {% if page.extra.cover_image %}
+                <img
+                    class="episode-thumb"
+                    src="{{ page.extra.cover_image }}"
+                    alt="Cover for {{ page.title }}"
+                />
+                {% else %}
+                <img
+                    class="episode-thumb"
+                    src="/images/logo512.png"
+                    alt="Podcast logo"
+                />
+                {% endif %}
+            </a>
+            <div class="episode-info">
+                <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
+                <p class="summary">{{ page.extra.description }}</p>
+                <p class="episode-details">
+                    <span class="date"
+                        >{{ page.date | date(format="%d.%m.%Y") }}</span
+                    >
+                    ·
+                    <span class="duration">{{ page.extra.duration }}</span>
+                </p>
+            </div>
+        </div>
+        <hr />
+    </div>
+    {% endfor %}
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const searchInput = document.getElementById("search");
+        const clearButton = document.getElementById("clear-search");
+        const episodesList = document.getElementById("episodes-list");
+        const episodes = episodesList.querySelectorAll(".episode-item");
+
+        searchInput.addEventListener("input", function () {
+            const query = this.value.toLowerCase();
+            clearButton.style.display = query ? "block" : "none";
+
+            let visibleCount = 0;
+            episodes.forEach((episode) => {
+                const searchData = episode.dataset.search;
+                const isVisible = searchData.includes(query);
+                episode.style.display = isVisible ? "block" : "none";
+                if (isVisible) visibleCount++;
+            });
+
+            // Show a message if no results
+            let noResults = document.getElementById("no-results");
+            if (visibleCount === 0 && query) {
+                if (!noResults) {
+                    noResults = document.createElement("div");
+                    noResults.id = "no-results";
+                    noResults.className = "no-results";
+                    noResults.textContent = "Keine Episoden gefunden.";
+                    episodesList.appendChild(noResults);
+                }
+                noResults.style.display = "block";
+            } else if (noResults) {
+                noResults.style.display = "none";
+            }
+        });
+
+        clearButton.addEventListener("click", function () {
+            searchInput.value = "";
+            clearButton.style.display = "none";
+            episodes.forEach((episode) => {
+                episode.style.display = "block";
+            });
+            const noResults = document.getElementById("no-results");
+            if (noResults) noResults.style.display = "none";
+        });
+    });
+</script>
+{% endblock content %}

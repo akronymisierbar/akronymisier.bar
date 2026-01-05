@@ -1,0 +1,43 @@
+base_url = "https://akronymisier.bar"
+
+title = "Akronymisierbar"
+description = "Podcast von und mit Hendrik und Kilian. Geballtes gefährliches Halbwissen zu allem rund um Programmiersprachen, Messengern und anderen (meist technischen) Themen, die uns spontan einfallen."
+
+default_language = "de"
+
+compile_sass = true
+
+build_search_index = true
+
+generate_feeds = true
+feed_filenames = ["feed.xml"]
+# Set feed limit to include all episodes
+feed_limit = 1000
+
+[markdown]
+highlight_code = true
+
+
+[extra]
+episode_base_url = "https://kkw.lol/k/akb"
+
+podcast_guid = "d98cda05-7cdb-565f-b766-cd622743df1c"
+podcast_email = "akronymisierbar@fastmail.com"
+podcast_funding_url = "https://ko-fi.com/kilko"
+podcast_locked = true
+podcast_explicit = false
+podcast_category = "Technology"
+podcast_subcategory = "Leisure"
+podcast_keywords = "akronymisierbar, dresden, rust, swift, typescript, tech"
+podcast_location = "Dresden, DE"
+podcast_block_spotify = true
+
+hosts = [
+    { name = "Hendrik", url = "https://chaos.social/@hoodie", img = "https://assets.chaos.social/accounts/avatars/000/086/679/original/e3bfd5f96638f280.png" },
+    { name = "Kilian", url = "https://kilian.io", img = "https://kilian.io/assets/img/kilian.jpg" },
+]
+
+itunes_url = "https://itunes.apple.com/de/podcast/akronymisierbar/id1200334668"
+matrix_url = "https://matrix.to/#/#akronymisierbar:matrix.org"
+mastodon_url = "https://chaos.social/@akronymisierbar"
+github_url = "https://github.com/akronymisierbar"
