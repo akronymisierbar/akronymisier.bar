@@ -5,5 +5,3 @@ template = "episodes.html"
 page_template = "episode.html"
 generate_feeds = true
 +++
-
-Alle Folgen des Akronymisierbar Podcasts.
