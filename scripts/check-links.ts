@@ -73,8 +73,8 @@ function extractUrls(content: string): string[] {
     }
   }
 
-  // Match bare URLs not inside markdown link syntax
-  const bareUrlRegex = /(?<![[(])https?:\/\/[^\s<>"'\]]+/g;
+  // Match bare URLs not inside markdown link syntax or nested in another URL (Wayback snapshots)
+  const bareUrlRegex = /(?<![[(/])https?:\/\/[^\s<>"'`\]]+/g;
   while ((match = bareUrlRegex.exec(content)) !== null) {
     const url = match[0];
     if (!shouldSkipUrl(url)) {
