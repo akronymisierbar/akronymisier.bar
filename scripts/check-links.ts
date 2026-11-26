@@ -1,17 +1,20 @@
-#!/usr/bin/env -S deno run --allow-read --allow-net --allow-run
+#!/usr/bin/env node
 
 /**
  * Checks for dead links in episode markdown files.
  *
  * Usage:
- *   deno run --allow-read --allow-net --allow-run scripts/check-links.ts
- *   deno run --allow-read --allow-net --allow-run scripts/check-links.ts 060.md 061.md
- *   deno run --allow-read --allow-net --allow-run scripts/check-links.ts --changed-only
+ *   pnpm check-links
+ *   pnpm check-links 060.md 061.md
+ *   pnpm check-links --changed-only
  */
 
-import { walk } from "https://deno.land/std@0.208.0/fs/walk.ts";
+import { execFile } from "node:child_process";
+import { readFile } from "node:fs/promises";
+import { basename, join } from "node:path";
+import { promisify } from "node:util";
+import { EPISODES_DIR, listEpisodeFiles, parseEpisode } from "./lib/episodes.ts";
 
-const EPISODES_DIR = new URL("../content/episodes", import.meta.url).pathname;
 const TIMEOUT_MS = 10000;
 const CONCURRENT_REQUESTS = 5;
 
@@ -80,14 +83,6 @@ function extractUrls(content: string): string[] {
   }
 
   return [...urls];
-}
-
-function parseFrontmatter(content: string): { body: string } {
-  const match = content.match(/^\+\+\+\n[\s\S]*?\n\+\+\+\n([\s\S]*)$/);
-  if (!match) {
-    return { body: content };
-  }
-  return { body: match[1] };
 }
 
 async function checkUrl(url: string): Promise<LinkResult> {
@@ -163,10 +158,9 @@ async function checkUrlsWithConcurrency(
 }
 
 async function checkEpisode(filePath: string): Promise<EpisodeResult> {
-  const content = await Deno.readTextFile(filePath);
-  const { body } = parseFrontmatter(content);
+  const { body } = parseEpisode(await readFile(filePath, "utf8"));
   const urls = extractUrls(body);
-  const fileName = filePath.split("/").pop() || filePath;
+  const fileName = basename(filePath);
 
   if (urls.length === 0) {
     return { file: fileName, links: [] };
@@ -177,21 +171,15 @@ async function checkEpisode(filePath: string): Promise<EpisodeResult> {
 }
 
 async function getChangedEpisodes(): Promise<string[]> {
-  const process = new Deno.Command("git", {
-    args: [
-      "diff",
-      "--name-only",
-      "--diff-filter=ACMR",
-      "origin/main...HEAD",
-      "--",
-      "content/episodes/*.md",
-    ],
-    stdout: "piped",
-    stderr: "piped",
-  });
-
-  const { stdout } = await process.output();
-  const output = new TextDecoder().decode(stdout).trim();
+  const { stdout } = await promisify(execFile)("git", [
+    "diff",
+    "--name-only",
+    "--diff-filter=ACMR",
+    "origin/main...HEAD",
+    "--",
+    "content/episodes/*.md",
+  ]);
+  const output = stdout.trim();
 
   if (!output) {
     return [];
@@ -201,7 +189,7 @@ async function getChangedEpisodes(): Promise<string[]> {
 }
 
 async function main() {
-  const args = Deno.args;
+  const args = process.argv.slice(2);
   const changedOnly = args.includes("--changed-only");
   const specificFiles = args.filter(
     (a) => a.endsWith(".md") && !a.startsWith("--"),
@@ -221,17 +209,11 @@ async function main() {
     console.log(`Checking ${filesToCheck.length} changed episode(s)...\n`);
   } else if (specificFiles.length > 0) {
     filesToCheck = specificFiles.map((f) =>
-      f.includes("/") ? f : `${EPISODES_DIR}/${f}`,
+      f.includes("/") ? f : join(EPISODES_DIR, f),
     );
     console.log(`Checking ${filesToCheck.length} specified episode(s)...\n`);
   } else {
-    for await (const entry of walk(EPISODES_DIR, {
-      exts: [".md"],
-      maxDepth: 1,
-    })) {
-      if (entry.name === "_index.md") continue;
-      filesToCheck.push(entry.path);
-    }
+    filesToCheck = await listEpisodeFiles();
     console.log(`Checking all ${filesToCheck.length} episodes...\n`);
   }
 
@@ -278,8 +260,8 @@ async function main() {
   console.log(`${okLinks} OK, ${totalBroken} broken`);
 
   if (totalBroken > 0) {
-    Deno.exit(1);
+    process.exit(1);
   }
 }
 
-main();
+await main();

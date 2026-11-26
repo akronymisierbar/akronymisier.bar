@@ -23,7 +23,8 @@
           default = pkgs.mkShell {
             packages = [
               pkgs.zola
-              pkgs.deno
+              pkgs.nodejs_24
+              pkgs.pnpm
               # new-episode.ts reads the episode duration via ffprobe
               pkgs.ffmpeg
             ];

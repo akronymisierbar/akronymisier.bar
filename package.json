@@ -1,0 +1,26 @@
+{
+  "name": "akronymisier.bar",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.23.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "search-index": "node scripts/generate-search-index.ts",
+    "validate:episodes": "node scripts/validate-episode.ts",
+    "validate:feed": "node scripts/validate-feed.ts",
+    "check-links": "node scripts/check-links.ts",
+    "new-episode": "node scripts/new-episode.ts",
+    "convert-chaptermarks": "node scripts/convert-chaptermarks.ts",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.12.1",
+    "smol-toml": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.3",
+    "typescript": "^7.0.2"
+  }
+}

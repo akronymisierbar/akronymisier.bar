@@ -1,4 +1,4 @@
-#!/usr/bin/env -S deno run --allow-read
+#!/usr/bin/env node
 
 /**
  * Validates the built RSS feed for podcast requirements.
@@ -8,9 +8,11 @@
  * - PSP-1: Podcast Standards Project compliance
  */
 
-import { parse } from "https://deno.land/x/xml@2.1.3/mod.ts";
+import { readFile } from "node:fs/promises";
+import { join } from "node:path";
+import { XMLParser, XMLValidator } from "fast-xml-parser";
 
-const FEED_PATH = new URL("../public/feed.xml", import.meta.url).pathname;
+const FEED_PATH = join(import.meta.dirname, "../public/feed.xml");
 
 interface ValidationError {
   category: string;
@@ -18,7 +20,6 @@ interface ValidationError {
   severity: "error" | "warning";
 }
 
-// deno-lint-ignore no-explicit-any
 function getElement(parent: any, name: string): any {
   if (!parent) return null;
   if (Array.isArray(parent)) {
@@ -27,7 +28,6 @@ function getElement(parent: any, name: string): any {
   return parent[name];
 }
 
-// deno-lint-ignore no-explicit-any
 function getText(parent: any, name: string): string | null {
   const elem = getElement(parent, name);
   if (!elem) return null;
@@ -36,41 +36,37 @@ function getText(parent: any, name: string): string | null {
   return null;
 }
 
-// deno-lint-ignore no-explicit-any
-function getAttr(parent: any, name: string, attr: string): string | null {
-  const elem = getElement(parent, name);
-  if (!elem) return null;
-  return elem[`@${attr}`] || null;
-}
-
 async function main() {
   const errors: ValidationError[] = [];
 
   let content: string;
   try {
-    content = await Deno.readTextFile(FEED_PATH);
+    content = await readFile(FEED_PATH, "utf8");
   } catch {
     console.error(`Error: Could not read ${FEED_PATH}`);
     console.error("Make sure to run 'zola build' first.");
-    Deno.exit(1);
+    process.exit(1);
   }
 
   // === BASICS ===
 
   // Is it XML?
-  // deno-lint-ignore no-explicit-any
-  let doc: any;
-  try {
-    doc = parse(content);
-  } catch (e) {
+  const validation = XMLValidator.validate(content);
+  if (validation !== true) {
     errors.push({
       category: "Basics",
-      message: `Not valid XML: ${e}`,
+      message: `Not valid XML: ${validation.err.msg} (line ${validation.err.line})`,
       severity: "error",
     });
     printResults(errors);
-    Deno.exit(1);
+    process.exit(1);
   }
+  const doc = new XMLParser({
+    ignoreAttributes: false,
+    attributeNamePrefix: "@",
+    // Keep values as strings so numeric-looking text like <itunes:episode> is checked too.
+    parseTagValue: false,
+  }).parse(content);
 
   // Is it RSS?
   if (!doc?.rss) {
@@ -80,7 +76,7 @@ async function main() {
       severity: "error",
     });
     printResults(errors);
-    Deno.exit(1);
+    process.exit(1);
   }
 
   const channel = doc.rss.channel;
@@ -91,7 +87,7 @@ async function main() {
       severity: "error",
     });
     printResults(errors);
-    Deno.exit(1);
+    process.exit(1);
   }
 
   // === RSS 2.0 REQUIRED CHANNEL ELEMENTS ===
@@ -219,7 +215,7 @@ async function main() {
       severity: "error",
     });
     printResults(errors);
-    Deno.exit(1);
+    process.exit(1);
   }
 
   if (!Array.isArray(items)) {
@@ -427,7 +423,7 @@ async function main() {
 
   const hasErrors = errors.some((e) => e.severity === "error");
   if (hasErrors) {
-    Deno.exit(1);
+    process.exit(1);
   }
 }
 
@@ -463,4 +459,4 @@ function printResults(errors: ValidationError[]) {
   console.log(`Total: ${errorCount} errors, ${warnCount} warnings`);
 }
 
-main();
+await main();

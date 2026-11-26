@@ -1,4 +1,6 @@
-#! /usr/bin/env deno run --allow-read --allow-write
+#!/usr/bin/env node
+
+import { readFile, writeFile } from "node:fs/promises";
 
 const convertToSeconds = (time: string) => {
   const [hours, minutes, seconds] = time.split(':').map(parseFloat);
@@ -6,7 +8,7 @@ const convertToSeconds = (time: string) => {
 };
 
 const generateJson = async (inputFile: string, outputFile: string) => {
-  const data = await Deno.readTextFile(inputFile);
+  const data = await readFile(inputFile, "utf8");
   const lines = data.split('\n').filter(line => line.trim() !== '');
   
   const chapters = lines.map(line => {
@@ -23,12 +25,13 @@ const generateJson = async (inputFile: string, outputFile: string) => {
     chapters,
   };
 
-  await Deno.writeTextFile(outputFile, JSON.stringify(result, null, 2));
+  await writeFile(outputFile, JSON.stringify(result, null, 2));
 };
 
-if (Deno.args.length !== 2) {
+const args = process.argv.slice(2);
+if (args.length !== 2) {
   console.log("Usage: ./convert-chaptermarks.ts <episode>.chapters.{txt,json}");
-  Deno.exit(1);
+  process.exit(1);
 }
 
-generateJson(Deno.args[0], Deno.args[1]);
+await generateJson(args[0], args[1]);

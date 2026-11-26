@@ -1,18 +1,25 @@
-#!/usr/bin/env -S deno run --allow-read --allow-write --allow-net --allow-run
+#!/usr/bin/env node
 
 /**
  * CLI tool for creating new episode markdown files with auto-fetched metadata.
  *
  * Usage:
- *   deno run --allow-all scripts/new-episode.ts 062
- *   deno run --allow-all scripts/new-episode.ts --next
+ *   pnpm new-episode 062
+ *   pnpm new-episode --next
  */
 
-import { walk } from "https://deno.land/std@0.208.0/fs/walk.ts";
-import { parse } from "https://deno.land/std@0.208.0/flags/mod.ts";
-
-const EPISODES_DIR = new URL("../content/episodes", import.meta.url).pathname;
-const BASE_URL = "https://kkw.lol/k/akb";
+import { execFile } from "node:child_process";
+import { access, writeFile } from "node:fs/promises";
+import { basename, join } from "node:path";
+import { createInterface, type Interface } from "node:readline";
+import { parseArgs, promisify } from "node:util";
+import {
+  EPISODES_DIR,
+  MEDIA_BASE_URL as BASE_URL,
+  checkUrlExists,
+  getContentLength,
+  listEpisodeFiles,
+} from "./lib/episodes.ts";
 
 interface EpisodeMetadata {
   number: string;
@@ -23,8 +30,6 @@ interface EpisodeMetadata {
   audioLength: number;
   description: string;
   socialInteract?: string;
-  hasChapters: boolean;
-  hasTranscript: boolean;
   coverImage?: string;
 }
 
@@ -44,96 +49,44 @@ function formatDuration(seconds: number): string {
 }
 
 async function findNextEpisodeNumber(): Promise<number> {
-  let maxNum = -1;
-  for await (const entry of walk(EPISODES_DIR, { exts: [".md"], maxDepth: 1 })) {
-    if (entry.name === "_index.md") continue;
-    const match = entry.name.match(/^(\d+)\.md$/);
-    if (match) {
-      const num = parseInt(match[1], 10);
-      if (num > maxNum) maxNum = num;
-    }
-  }
-  return maxNum + 1;
-}
-
-async function checkUrlExists(url: string): Promise<boolean> {
-  try {
-    const res = await fetch(url, { method: "HEAD" });
-    return res.ok;
-  } catch {
-    return false;
-  }
-}
-
-async function getContentLength(url: string): Promise<number> {
-  try {
-    const res = await fetch(url, { method: "HEAD" });
-    const length = res.headers.get("Content-Length");
-    return length ? parseInt(length, 10) : 0;
-  } catch {
-    return 0;
-  }
-}
-
-async function fetchChaptersJson(episodeNum: string): Promise<{ duration?: string } | null> {
-  const url = `${BASE_URL}/${episodeNum}.chapters.json`;
-  try {
-    const res = await fetch(url);
-    if (!res.ok) return null;
-    const data = await res.json();
-    if (data.chapters && data.chapters.length > 0) {
-      const lastChapter = data.chapters[data.chapters.length - 1];
-      return { duration: undefined };
-    }
-    return {};
-  } catch {
-    return null;
-  }
+  const numbers = (await listEpisodeFiles()).map((f) => parseInt(basename(f, ".md"), 10));
+  return Math.max(-1, ...numbers) + 1;
 }
 
 async function tryGetDuration(episodeNum: string): Promise<string | undefined> {
   try {
-    const proc = new Deno.Command("ffprobe", {
-      args: [
-        "-v", "quiet",
-        "-show_entries", "format=duration",
-        "-of", "csv=p=0",
-        `${BASE_URL}/${episodeNum}.mp3`
-      ],
-      stdout: "piped",
-      stderr: "null",
-    });
-    const output = await proc.output();
-    if (output.success) {
-      const seconds = parseFloat(new TextDecoder().decode(output.stdout).trim());
-      if (!isNaN(seconds)) {
-        return formatDuration(seconds);
-      }
-    }
+    const { stdout } = await promisify(execFile)("ffprobe", [
+      "-v", "quiet",
+      "-show_entries", "format=duration",
+      "-of", "csv=p=0",
+      `${BASE_URL}/${episodeNum}.mp3`,
+    ]);
+    const seconds = parseFloat(stdout.trim());
+    if (!isNaN(seconds)) return formatDuration(seconds);
   } catch {
-    // ffprobe not available
+    // ffprobe not available or the MP3 is missing
   }
   return undefined;
 }
 
+// One shared reader, created on first use: separate readline instances would each
+// buffer and lose piped input, and an open one keeps the process alive.
+let stdin: Interface | undefined;
+let stdinLines: AsyncIterator<string> | undefined;
+
 async function prompt(message: string, defaultValue?: string): Promise<string> {
   const suffix = defaultValue ? ` [${defaultValue}]` : "";
-  const buf = new Uint8Array(1024);
-
-  await Deno.stdout.write(new TextEncoder().encode(`${message}${suffix}: `));
-  const n = await Deno.stdin.read(buf);
-
-  if (n === null || n === 0) {
-    return defaultValue || "";
-  }
-
-  const input = new TextDecoder().decode(buf.subarray(0, n)).trim();
+  process.stdout.write(`${message}${suffix}: `);
+  stdin ??= createInterface({ input: process.stdin });
+  stdinLines ??= stdin[Symbol.asyncIterator]();
+  const { value, done } = await stdinLines.next();
+  const input = done ? "" : value.trim();
   return input || defaultValue || "";
 }
 
 function generateEpisodeTemplate(meta: EpisodeMetadata): string {
   let content = `+++
-title = "${meta.number} - ${meta.title}"
+title = ${JSON.stringify(`${meta.number} - ${meta.title}`)}
 date = ${meta.date}
 template = "episode.html"
 aliases = ["/${meta.number}"]
@@ -148,6 +101,9 @@ description = """${meta.description}"""
 
   if (meta.socialInteract) {
     content += `social_interact = "${meta.socialInteract}"\n`;
+  }
+  if (meta.coverImage) {
+    content += `cover_image = "${BASE_URL}/${meta.coverImage}"\n`;
   }
 
   content += `+++
@@ -171,10 +127,16 @@ description = """${meta.description}"""
 }
 
 async function main() {
-  const args = parse(Deno.args, {
-    boolean: ["next", "help"],
-    string: ["title", "description", "date", "social"],
-    alias: { h: "help", n: "next", t: "title", d: "description", s: "social" },
+  const { values: args, positionals } = parseArgs({
+    allowPositionals: true,
+    options: {
+      next: { type: "boolean", short: "n" },
+      help: { type: "boolean", short: "h" },
+      title: { type: "string", short: "t" },
+      description: { type: "string", short: "d" },
+      date: { type: "string" },
+      social: { type: "string", short: "s" },
+    },
   });
 
   if (args.help) {
@@ -199,20 +161,20 @@ Examples:
   new-episode.ts --next
   new-episode.ts 062 --title "Episode Title" --description "About this episode"
 `);
-    Deno.exit(0);
+    process.exit(0);
   }
 
   let episodeNum: string;
 
-  if (args.next || args._.length === 0) {
+  if (args.next || positionals.length === 0) {
     const nextNum = await findNextEpisodeNumber();
     episodeNum = formatEpisodeNumber(nextNum);
     console.log(`Auto-detected next episode number: ${episodeNum}`);
   } else {
-    const num = parseInt(args._[0].toString(), 10);
+    const num = parseInt(positionals[0], 10);
     if (isNaN(num)) {
       console.error("Error: Episode number must be a valid integer");
-      Deno.exit(1);
+      process.exit(1);
     }
     episodeNum = formatEpisodeNumber(num);
   }
@@ -249,8 +211,7 @@ Examples:
   console.log("Checking for chapter marks...");
   const chaptersJsonExists = await checkUrlExists(`${BASE_URL}/${episodeNum}.chapters.json`);
   const chaptersTxtExists = await checkUrlExists(`${BASE_URL}/${episodeNum}.chapters.txt`);
-  const hasChapters = chaptersJsonExists || chaptersTxtExists;
-  if (hasChapters) {
+  if (chaptersJsonExists || chaptersTxtExists) {
     console.log(`  Chapters found: ${chaptersJsonExists ? ".chapters.json" : ".chapters.txt"}`);
   } else {
     console.log("  No chapter marks found");
@@ -258,8 +219,7 @@ Examples:
 
   // Check for transcript
   console.log("Checking for transcript...");
-  const hasTranscript = await checkUrlExists(`${BASE_URL}/${episodeNum}.vtt`);
-  if (hasTranscript) {
+  if (await checkUrlExists(`${BASE_URL}/${episodeNum}.vtt`)) {
     console.log("  Transcript found: .vtt");
   } else {
     console.log("  No transcript found");
@@ -305,32 +265,28 @@ Examples:
     title: title || "Untitled",
     date,
     guid: generateUUID(),
-    duration,
+    duration: duration ?? "00:00:00",
     audioLength,
     description: description || "",
     socialInteract: socialInteract || undefined,
-    hasChapters,
-    hasTranscript,
     coverImage,
   };
 
   // Generate and write file
   const template = generateEpisodeTemplate(meta);
-  const outputPath = `${EPISODES_DIR}/${episodeNum}.md`;
+  const outputPath = join(EPISODES_DIR, `${episodeNum}.md`);
 
   // Check if file already exists
-  try {
-    await Deno.stat(outputPath);
+  const exists = await access(outputPath).then(() => true, () => false);
+  if (exists) {
     const overwrite = await prompt(`File ${outputPath} already exists. Overwrite? (y/N)`, "n");
     if (overwrite.toLowerCase() !== "y") {
       console.log("Aborted.");
-      Deno.exit(0);
+      process.exit(0);
     }
-  } catch {
-    // File doesn't exist, proceed
   }
 
-  await Deno.writeTextFile(outputPath, template);
+  await writeFile(outputPath, template);
 
   console.log(`\nEpisode file created: ${outputPath}`);
   console.log(`
@@ -341,4 +297,5 @@ Next steps:
 `);
 }
 
-main();
+await main();
+stdin?.close();

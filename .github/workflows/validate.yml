@@ -11,18 +11,28 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Deno
-        uses: denoland/setup-deno@v2
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+
+      - name: Setup Node
+        uses: actions/setup-node@v7
         with:
-          deno-version: v2.x
+          node-version: 24
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
 
       - name: Setup Zola
         uses: taiki-e/install-action@v2
         with:
           tool: zola@0.23.6
 
+      - name: Typecheck scripts
+        run: pnpm typecheck
+
       - name: Validate episodes
-        run: deno run --allow-read --allow-net scripts/validate-episode.ts
+        run: pnpm validate:episodes
 
       - name: Build site
         run: |
@@ -30,4 +40,4 @@ jobs:
           cp public/feed.xml public/feed.rss
 
       - name: Validate RSS feed
-        run: deno run --allow-read scripts/validate-feed.ts
+        run: pnpm validate:feed

@@ -1,19 +1,24 @@
-#!/usr/bin/env -S deno run --allow-read --allow-net
+#!/usr/bin/env node
 
 /**
  * Validates episode markdown files for the Akronymisierbar podcast.
  * Checks frontmatter, media file existence, and metadata consistency.
  *
  * Usage:
- *   deno run --allow-read --allow-net scripts/validate-episode.ts
- *   deno run --allow-read --allow-net scripts/validate-episode.ts 060.md 061.md
+ *   pnpm validate:episodes
+ *   pnpm validate:episodes 060.md 061.md --skip-remote
  */
 
-import { walk } from "https://deno.land/std@0.208.0/fs/walk.ts";
-import { parse } from "https://deno.land/std@0.208.0/toml/parse.ts";
-
-const EPISODES_DIR = new URL("../content/episodes", import.meta.url).pathname;
-const BASE_URL = "https://kkw.lol/k/akb";
+import { readFile } from "node:fs/promises";
+import { basename, join } from "node:path";
+import {
+  EPISODES_DIR,
+  MEDIA_BASE_URL,
+  checkUrlExists,
+  getContentLength,
+  listEpisodeFiles,
+  parseEpisode,
+} from "./lib/episodes.ts";
 
 interface ValidationError {
   file: string;
@@ -22,67 +27,16 @@ interface ValidationError {
   severity: "error" | "warning";
 }
 
-interface EpisodeFrontmatter {
-  title?: string;
-  date?: string;
-  template?: string;
-  aliases?: string[];
-  draft?: boolean;
-  extra?: {
-    guid?: string;
-    duration?: string;
-    audio_length?: number;
-    description?: string;
-    social_interact?: string;
-    cover_image?: string;
-    audio_url?: string;
-    chapters_url?: string;
-  };
-}
-
 const UUID_REGEX = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 const DURATION_REGEX = /^\d{2}:\d{2}:\d{2}$/;
 const DATE_REGEX = /^\d{4}-\d{2}-\d{2}$/;
 
-async function checkUrlExists(url: string): Promise<boolean> {
-  try {
-    const res = await fetch(url, { method: "HEAD" });
-    return res.ok;
-  } catch {
-    return false;
-  }
-}
-
-async function getContentLength(url: string): Promise<number> {
-  try {
-    const res = await fetch(url, { method: "HEAD" });
-    const length = res.headers.get("Content-Length");
-    return length ? parseInt(length, 10) : 0;
-  } catch {
-    return 0;
-  }
-}
-
-function parseFrontmatter(content: string): { frontmatter: EpisodeFrontmatter | null; body: string } {
-  const match = content.match(/^\+\+\+\n([\s\S]*?)\n\+\+\+\n([\s\S]*)$/);
-  if (!match) {
-    return { frontmatter: null, body: content };
-  }
-
-  try {
-    const frontmatter = parse(match[1]) as EpisodeFrontmatter;
-    return { frontmatter, body: match[2] };
-  } catch {
-    return { frontmatter: null, body: content };
-  }
-}
-
 async function validateEpisode(filePath: string, checkRemote: boolean): Promise<ValidationError[]> {
   const errors: ValidationError[] = [];
-  const fileName = filePath.split("/").pop() || "";
+  const fileName = basename(filePath);
 
-  const content = await Deno.readTextFile(filePath);
-  const { frontmatter } = parseFrontmatter(content);
+  const content = await readFile(filePath, "utf8");
+  const { frontmatter } = parseEpisode(content);
 
   if (!frontmatter) {
     errors.push({
@@ -196,7 +150,7 @@ async function validateEpisode(filePath: string, checkRemote: boolean): Promise<
     const episodeNum = fileName.replace(".md", "");
 
     // Check MP3 exists
-    const mp3Url = extra.audio_url || `${BASE_URL}/${episodeNum}.mp3`;
+    const mp3Url = extra.audio_url || `${MEDIA_BASE_URL}/${episodeNum}.mp3`;
     const mp3Exists = await checkUrlExists(mp3Url);
     if (!mp3Exists) {
       errors.push({
@@ -222,19 +176,19 @@ async function validateEpisode(filePath: string, checkRemote: boolean): Promise<
     }
 
     // Check cover image exists
-    const jpgExists = await checkUrlExists(`${BASE_URL}/${episodeNum}.jpg`);
-    const pngExists = await checkUrlExists(`${BASE_URL}/${episodeNum}.png`);
+    const jpgExists = await checkUrlExists(`${MEDIA_BASE_URL}/${episodeNum}.jpg`);
+    const pngExists = await checkUrlExists(`${MEDIA_BASE_URL}/${episodeNum}.png`);
     if (!jpgExists && !pngExists && !extra.cover_image) {
       errors.push({
         file: fileName,
         field: "cover",
-        message: `No cover image found at ${BASE_URL}/${episodeNum}.{jpg,png}`,
+        message: `No cover image found at ${MEDIA_BASE_URL}/${episodeNum}.{jpg,png}`,
         severity: "warning",
       });
     }
 
     // Check VTT transcript exists
-    const vttUrl = `${BASE_URL}/${episodeNum}.vtt`;
+    const vttUrl = `${MEDIA_BASE_URL}/${episodeNum}.vtt`;
     const vttExists = await checkUrlExists(vttUrl);
     if (!vttExists) {
       errors.push({
@@ -250,7 +204,7 @@ async function validateEpisode(filePath: string, checkRemote: boolean): Promise<
 }
 
 async function main() {
-  const args = Deno.args;
+  const args = process.argv.slice(2);
   const checkRemote = !args.includes("--skip-remote");
   const files = args.filter(a => a.endsWith(".md"));
 
@@ -263,14 +217,13 @@ async function main() {
 
   if (files.length > 0) {
     for (const file of files) {
-      const filePath = file.includes("/") ? file : `${EPISODES_DIR}/${file}`;
+      const filePath = file.includes("/") ? file : join(EPISODES_DIR, file);
       const errors = await validateEpisode(filePath, checkRemote);
       allErrors = allErrors.concat(errors);
     }
   } else {
-    for await (const entry of walk(EPISODES_DIR, { exts: [".md"], maxDepth: 1 })) {
-      if (entry.name === "_index.md") continue;
-      const errors = await validateEpisode(entry.path, checkRemote);
+    for (const filePath of await listEpisodeFiles()) {
+      const errors = await validateEpisode(filePath, checkRemote);
       allErrors = allErrors.concat(errors);
     }
   }
@@ -307,8 +260,8 @@ async function main() {
 
   // Exit with error code if there are errors
   if (hasErrors) {
-    Deno.exit(1);
+    process.exit(1);
   }
 }
 
-main();
+await main();

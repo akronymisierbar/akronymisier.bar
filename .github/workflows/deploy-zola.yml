@@ -21,13 +21,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Deno
-        uses: denoland/setup-deno@v2
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+
+      - name: Setup Node
+        uses: actions/setup-node@v7
         with:
-          deno-version: v2.x
+          node-version: 24
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
 
       - name: Generate search index
-        run: deno run --allow-read --allow-write --allow-net scripts/generate-search-index.ts
+        run: pnpm search-index
 
       - name: Setup Zola
         uses: taiki-e/install-action@v2

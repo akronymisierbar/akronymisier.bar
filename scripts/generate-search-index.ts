@@ -1,4 +1,4 @@
-#!/usr/bin/env -S deno run --allow-read --allow-write --allow-net
+#!/usr/bin/env node
 
 /**
  * Generates a search index from episode metadata and VTT transcripts.
@@ -6,24 +6,14 @@
  * The index is used for client-side full-text search.
  *
  * Usage:
- *   deno run --allow-read --allow-write --allow-net scripts/generate-search-index.ts
+ *   pnpm search-index
  */
 
-import { walk } from "https://deno.land/std@0.208.0/fs/walk.ts";
-import { parse } from "https://deno.land/std@0.208.0/toml/parse.ts";
+import { readFile, stat, writeFile } from "node:fs/promises";
+import { basename, join } from "node:path";
+import { MEDIA_BASE_URL, type EpisodeFrontmatter, listEpisodeFiles, parseEpisode } from "./lib/episodes.ts";
 
-const EPISODES_DIR = new URL("../content/episodes", import.meta.url).pathname;
-const TRANSCRIPT_BASE_URL = "https://kkw.lol/k/akb";
-const OUTPUT_FILE = new URL("../static/search-index.json", import.meta.url).pathname;
-
-interface EpisodeFrontmatter {
-  title?: string;
-  date?: string | Date;
-  extra?: {
-    duration?: string;
-    description?: string;
-  };
-}
+const OUTPUT_FILE = join(import.meta.dirname, "../static/search-index.json");
 
 interface EpisodeMetadata {
   i: string;      // id
@@ -52,17 +42,6 @@ interface VttCue {
   startTime: number;
   endTime: number;
   text: string;
-}
-
-function parseFrontmatter(content: string): EpisodeFrontmatter | null {
-  const match = content.match(/^\+\+\+\n([\s\S]*?)\n\+\+\+/);
-  if (!match) return null;
-
-  try {
-    return parse(match[1]) as EpisodeFrontmatter;
-  } catch {
-    return null;
-  }
 }
 
 function parseTimestamp(ts: string): number {
@@ -136,7 +115,7 @@ function consolidateCues(cues: VttCue[], targetDuration: number = 30): Transcrip
 }
 
 function getTranscriptUrl(episodeId: string): string {
-  return `${TRANSCRIPT_BASE_URL}/${episodeId}.vtt`;
+  return `${MEDIA_BASE_URL}/${episodeId}.vtt`;
 }
 
 async function fetchTranscript(episodeId: string): Promise<string | null> {
@@ -177,15 +156,12 @@ async function main() {
 
   const episodeEntries: EpisodeEntry[] = [];
 
-  for await (const entry of walk(EPISODES_DIR, { exts: [".md"], maxDepth: 1 })) {
-    if (entry.name === "_index.md") continue;
-
-    const episodeId = entry.name.replace(".md", "");
-    const content = await Deno.readTextFile(entry.path);
-    const frontmatter = parseFrontmatter(content);
+  for (const filePath of await listEpisodeFiles()) {
+    const episodeId = basename(filePath, ".md");
+    const { frontmatter } = parseEpisode(await readFile(filePath, "utf8"));
 
     if (!frontmatter?.title || !frontmatter?.date) {
-      console.log(`  Skipping ${entry.name}: missing required frontmatter`);
+      console.log(`  Skipping ${basename(filePath)}: missing required frontmatter`);
       continue;
     }
 
@@ -237,9 +213,9 @@ async function main() {
 
   index.episodes.sort((a, b) => b.p.localeCompare(a.p));
 
-  await Deno.writeTextFile(OUTPUT_FILE, JSON.stringify(index));
+  await writeFile(OUTPUT_FILE, JSON.stringify(index));
 
-  const stats = await Deno.stat(OUTPUT_FILE);
+  const stats = await stat(OUTPUT_FILE);
   const sizeKb = (stats.size / 1024).toFixed(1);
 
   console.log(`\n---`);
@@ -250,4 +226,4 @@ async function main() {
   console.log(`Output: ${OUTPUT_FILE}`);
 }
 
-main();
+await main();
