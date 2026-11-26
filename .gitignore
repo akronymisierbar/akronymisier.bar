@@ -24,3 +24,6 @@ yarn-error.log*
 dist
 public
 static/search-index.json
+
+# direnv
+.direnv
