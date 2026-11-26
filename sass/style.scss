@@ -279,11 +279,20 @@ hr {
     padding: 1rem;
     background: lighten($background-light, 2%);
     border-radius: 8px;
-    max-height: 400px;
-    overflow-y: auto;
-    
-    h2 {
-        margin-top: 0;
+
+    summary {
+        cursor: pointer;
+
+        h2 {
+            display: inline;
+            margin: 0;
+        }
+    }
+
+    .transcript-content {
+        margin-top: 1rem;
+        max-height: 400px;
+        overflow-y: auto;
     }
 }
 

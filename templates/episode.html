@@ -72,15 +72,6 @@ endblock description %} {% block head %}
         background: #e9e9e9;
     }
 
-    .transcript {
-        margin: 2rem 0;
-        padding: 1rem;
-        background: #f9f9f9;
-        border-radius: 8px;
-        max-height: 400px;
-        overflow-y: auto;
-    }
-
     @media (prefers-color-scheme: dark) {
         .audio-player {
             background: #2a2a2a;
@@ -93,10 +84,6 @@ endblock description %} {% block head %}
 
         .chapter-button:hover {
             background: #333;
-        }
-
-        .transcript {
-            background: #2a2a2a;
         }
     }
 
@@ -317,10 +304,10 @@ episode_number = episode_num | int %} {% endif %}
     <h2>Shownotes</h2>
     <div class="episode-content">{{ page.content | safe }}</div>
 
-    <div class="transcript" id="transcript" style="display: none">
-        <h2>Transkript</h2>
-        <div id="transcript-content">Lade Transkript...</div>
-    </div>
+    <details class="transcript" id="transcript">
+        <summary><h2>Transkript</h2></summary>
+        <div class="transcript-content" id="transcript-content">Lade Transkript...</div>
+    </details>
 
     {% if page.extra.social_interact %}
     <div class="fediverse-interactions" id="fediverse-interactions" data-url="{{ page.extra.social_interact | safe }}">
@@ -383,39 +370,40 @@ episode_number = episode_num | int %} {% endif %}
                 console.log("Chapter marks not available");
             });
 
-        // Load and display transcript
-        fetch(transcriptUrl)
-            .then((response) => {
-                if (!response.ok) throw new Error("Transcript not found");
-                return response.text();
-            })
-            .then((vttContent) => {
-                const transcript = document.getElementById("transcript");
-                const transcriptContent =
-                    document.getElementById("transcript-content");
+        // Load the transcript on first open; it is large and most visitors never read it.
+        const transcript = document.getElementById("transcript");
+        transcript.addEventListener("toggle", function loadTranscript() {
+            if (!transcript.open) return;
+            transcript.removeEventListener("toggle", loadTranscript);
+            const transcriptContent = document.getElementById("transcript-content");
+            fetch(transcriptUrl)
+                .then((response) => {
+                    if (!response.ok) throw new Error("Transcript not found");
+                    return response.text();
+                })
+                .then((vttContent) => {
+                    // Parse VTT and display as text
+                    const lines = vttContent.split("\n");
+                    let text = "";
+                    let inCue = false;
 
-                // Parse VTT and display as text
-                const lines = vttContent.split("\n");
-                let text = "";
-                let inCue = false;
-
-                for (const line of lines) {
-                    if (line.includes("-->")) {
-                        inCue = true;
-                    } else if (inCue && line.trim() === "") {
-                        inCue = false;
-                        text += "\n";
-                    } else if (inCue && line.trim() !== "") {
-                        text += line + " ";
+                    for (const line of lines) {
+                        if (line.includes("-->")) {
+                            inCue = true;
+                        } else if (inCue && line.trim() === "") {
+                            inCue = false;
+                            text += "\n";
+                        } else if (inCue && line.trim() !== "") {
+                            text += line + " ";
+                        }
                     }
-                }
 
-                transcriptContent.textContent = text;
-                transcript.style.display = "block";
-            })
-            .catch((error) => {
-                console.log("Transcript not available");
-            });
+                    transcriptContent.textContent = text;
+                })
+                .catch(() => {
+                    transcriptContent.textContent = "Transkript nicht verfügbar.";
+                });
+        });
 
         // Handle timestamp from URL (from transcript search)
         const urlParams = new URLSearchParams(window.location.search);
