@@ -7,8 +7,6 @@ default_language = "de"
 
 compile_sass = true
 
-build_search_index = true
-
 generate_feeds = true
 feed_filenames = ["feed.xml"]
 # Set feed limit to include all episodes
