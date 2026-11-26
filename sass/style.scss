@@ -220,20 +220,20 @@ hr {
     padding: 1rem;
     
     audio {
+        display: block;
         width: 100%;
+        margin-bottom: 0.5rem;
     }
-}
 
-.chapter-marks {
-    margin-top: 1rem;
-    
     summary {
         cursor: pointer;
         font-weight: bold;
         padding: 0.5rem 0;
         user-select: none;
     }
-    
+}
+
+.chapter-marks {
     .chapter-button {
         display: block;
         width: 100%;
@@ -535,7 +535,8 @@ mark {
         background: #2a2a2a;
     }
     
-    .chapter-button {
+    // Same specificity as the light rule, which would win otherwise.
+    .chapter-marks .chapter-button {
         background: #2a2a2a;
         border-color: #444;
         color: #e0e0e0;
