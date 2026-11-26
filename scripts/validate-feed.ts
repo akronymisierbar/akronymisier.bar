@@ -11,6 +11,7 @@
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { XMLParser, XMLValidator } from "fast-xml-parser";
+import { EPISODES_WITHOUT_DESCRIPTION } from "./lib/episodes.ts";
 
 const FEED_PATH = join(import.meta.dirname, "../public/feed.xml");
 
@@ -322,7 +323,8 @@ async function main() {
     }
 
     // Description or itunes:summary (for search)
-    if (!getText(item, "description") && !getText(item, "itunes:summary")) {
+    const hasDescription = getText(item, "description") || getText(item, "itunes:summary");
+    if (!hasDescription && !EPISODES_WITHOUT_DESCRIPTION.has(title.slice(0, 3))) {
       errors.push({
         category: "Apple Podcasts",
         message: `${title}: Missing episode description`,

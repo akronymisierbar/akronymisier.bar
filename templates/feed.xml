@@ -49,30 +49,10 @@
     <itunes:category text="{{ config.extra.podcast_category }}"/>
     <itunes:category text="{{ config.extra.podcast_subcategory }}"/>
     
+    {% set guest_data = load_data(path="data/guests.toml") %}
     {% for page in pages %}
-    {% set episode_num = page.slug %}
-    {% set base_url = config.extra.episode_base_url %}
     
-    {# Handle audio URL #}
-    {% if page.extra.audio_url %}
-      {% set audio_url = page.extra.audio_url %}
-    {% else %}
-      {% set audio_url = base_url ~ "/" ~ episode_num ~ ".mp3" %}
-    {% endif %}
-    
-    {# Handle chapters URL #}
-    {% if page.extra.chapters_url %}
-      {% set chapters_url = page.extra.chapters_url %}
-    {% else %}
-      {% set chapters_url = base_url ~ "/" ~ episode_num ~ ".chapters.json" %}
-    {% endif %}
-    
-    {# Handle episode number #}
-    {% if page.extra.episode_number %}
-      {% set episode_number = page.extra.episode_number %}
-    {% else %}
-      {% set episode_number = episode_num | int %}
-    {% endif %}
+    {% set media_url = config.extra.episode_base_url ~ "/" ~ page.slug %}
     <item>
       <guid isPermaLink="false">{{ page.extra.guid }}</guid>
       <title>{{ page.title }}</title>
@@ -81,7 +61,7 @@
       <author>{{ config.extra.podcast_email }} (Akronymisierbar)</author>
       <link>{{ page.permalink }}</link>
       <content:encoded><![CDATA[{{ page.content | safe }}]]></content:encoded>
-      <enclosure length="{{ page.extra.audio_length }}" type="audio/mpeg" url="{{ audio_url }}"/>
+      <enclosure length="{{ page.extra.audio_length }}" type="audio/mpeg" url="{{ media_url }}.mp3"/>
       <itunes:title>{{ page.title }}</itunes:title>
       <itunes:author>Akronymisierbar</itunes:author>
       <itunes:duration>{{ page.extra.duration }}</itunes:duration>
@@ -89,21 +69,22 @@
       <itunes:subtitle>{{ page.extra.description }}</itunes:subtitle>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
-      <itunes:episode>{{ episode_number }}</itunes:episode>
-      {% if page.extra.chapters_url or chapters_url %}
-      <podcast:chapters url="{{ chapters_url }}" type="application/json+chapters" />
+      <itunes:episode>{{ page.slug | int }}</itunes:episode>
+      {% if page.extra.chapters is not defined or page.extra.chapters %}
+      <podcast:chapters url="{{ media_url }}.chapters.json" type="application/json+chapters" />
       {% endif %}
       {% if page.extra.social_interact %}
       <podcast:socialInteract uri="{{ page.extra.social_interact }}" protocol="activitypub" accountId="@akronymisierbar" accountUrl="{{ config.extra.mastodon_url }}" />
       {% endif %}
+      {% for key in page.extra.guests or [] %} {% set guest = guest_data[key] %}
+      <podcast:person role="guest"{% if guest.links %} href="{{ guest.links[0].url }}"{% endif %}>{{ guest.name }}</podcast:person>
+      {% endfor %}
       {% if page.extra.cover_image %}
       <itunes:image href="{{ page.extra.cover_image }}"/>
       {% else %}
       <itunes:image href="{{ config.base_url }}/images/logo.jpg"/>
       {% endif %}
-      {% if page.extra.transcript_vtt %}
-      <podcast:transcript url="{{ page.extra.transcript_vtt }}" type="text/vtt" language="de"/>
-      {% endif %}
+      <podcast:transcript url="{{ media_url }}.vtt" type="text/vtt" language="de"/>
     </item>
     {% endfor %}
   </channel>
