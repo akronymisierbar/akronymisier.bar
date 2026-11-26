@@ -13,6 +13,11 @@ $max-width: 800px;
     box-sizing: border-box;
 }
 
+:root {
+    // Lets native controls like the audio player follow the dark mode.
+    color-scheme: light dark;
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     line-height: 1.6;
