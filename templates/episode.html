@@ -41,14 +41,12 @@ endblock description %} {% block head %}
     }
 
     audio {
+        display: block;
         width: 100%;
+        margin-bottom: 0.5rem;
     }
 
-    .chapter-marks {
-        margin-top: 1rem;
-    }
-
-    .chapter-marks summary {
+    .audio-player summary {
         cursor: pointer;
         font-weight: bold;
         padding: 0.5rem 0;
@@ -295,6 +293,11 @@ episode_number = episode_num | int %} {% endif %}
                 <div id="chapters-list">Lade Kapitelmarken...</div>
             </details>
         </div>
+
+        <details class="transcript" id="transcript">
+            <summary>Transkript</summary>
+            <div class="transcript-content" id="transcript-content">Lade Transkript...</div>
+        </details>
     </div>
 
     {% if page.extra.description %}
@@ -303,11 +306,6 @@ episode_number = episode_num | int %} {% endif %}
 
     <h2>Shownotes</h2>
     <div class="episode-content">{{ page.content | safe }}</div>
-
-    <details class="transcript" id="transcript">
-        <summary><h2>Transkript</h2></summary>
-        <div class="transcript-content" id="transcript-content">Lade Transkript...</div>
-    </details>
 
     {% if page.extra.social_interact %}
     <div class="fediverse-interactions" id="fediverse-interactions" data-url="{{ page.extra.social_interact | safe }}">
