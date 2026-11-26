@@ -37,6 +37,10 @@
                     >
                     ·
                     <span class="duration">{{ page.extra.duration }}</span>
+                    {% if page.extra.guests %}
+                    ·
+                    <span class="guests">mit {% for key in page.extra.guests %}{% if not loop.first %}{% if loop.last %} und {% else %}, {% endif %}{% endif %}{{ guest_data[key].name }}{% endfor %}</span>
+                    {% endif %}
                 </p>
             </div>
         </div>

@@ -246,14 +246,10 @@ transcript_vtt = base_url ~ "/" ~ episode_num ~ ".vtt" %}
 
     {% if page.extra.guests %}
     {% set guest_data = load_data(path="data/guests.toml") %}
-    <h2>Zu Gast</h2>
-    <ul class="guests">
-        {% for key in page.extra.guests %} {% set guest = guest_data[key] %}
-        <li>
-            {{ guest.name }}{% if guest.links %}: {% for link in guest.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}
-        </li>
-        {% endfor %}
-    </ul>
+    <p class="guests">
+        Zu Gast:
+        {% for key in page.extra.guests %}{% set guest = guest_data[key] %}{% if not loop.first %}{% if loop.last %} und {% else %}, {% endif %}{% endif %}{{ guest.name }}{% if guest.links %} ({% for link in guest.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% if not loop.last %}, {% endif %}{% endfor %}){% endif %}{% endfor %}
+    </p>
     {% endif %}
 
     <h2>Shownotes</h2>
