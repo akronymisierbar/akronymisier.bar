@@ -234,17 +234,9 @@ endblock description %} {% block head %}
 {% endblock head %} {% block header %} {# Remove header content - we'll put
 everything in the content block #} {% endblock header %} {% block content %} {#
 Derive episode data from slug #} {% set episode_num = page.slug %} {% set
-base_url = config.extra.episode_base_url %} {# Handle audio URL #} {% if
-page.extra.audio_url %} {% set audio_url = page.extra.audio_url %} {% else %} {%
-set audio_url = base_url ~ "/" ~ episode_num ~ ".mp3" %} {% endif %} {# Handle
-chapters URL #} {% if page.extra.chapters_url %} {% set chapters_url =
-page.extra.chapters_url %} {% else %} {% set chapters_url = base_url ~ "/" ~
-episode_num ~ ".chapters.json" %} {% endif %} {# Handle transcript URL #} {% if
-page.extra.transcript_vtt %} {% set transcript_vtt = page.extra.transcript_vtt
-%} {% else %} {% set transcript_vtt = base_url ~ "/" ~ episode_num ~ ".vtt" %}
-{% endif %} {# Handle episode number #} {% if page.extra.episode_number %} {%
-set episode_number = page.extra.episode_number %} {% else %} {% set
-episode_number = episode_num | int %} {% endif %}
+base_url = config.extra.episode_base_url %} {% set audio_url = base_url ~ "/" ~ episode_num ~ ".mp3" %} {% set
+chapters_url = base_url ~ "/" ~ episode_num ~ ".chapters.json" %} {% set
+transcript_vtt = base_url ~ "/" ~ episode_num ~ ".vtt" %}
 
 <article>
     {# Title with back button #}
@@ -302,6 +294,18 @@ episode_number = episode_num | int %} {% endif %}
 
     {% if page.extra.description %}
     <p class="summary">{{ page.extra.description }}</p>
+    {% endif %}
+
+    {% if page.extra.guests %}
+    {% set guest_data = load_data(path="data/guests.toml") %}
+    <h2>Zu Gast</h2>
+    <ul class="guests">
+        {% for key in page.extra.guests %} {% set guest = guest_data[key] %}
+        <li>
+            {{ guest.name }}{% if guest.links %}: {% for link in guest.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% if not loop.last %}, {% endif %}{% endfor %}{% endif %}
+        </li>
+        {% endfor %}
+    </ul>
     {% endif %}
 
     <h2>Shownotes</h2>

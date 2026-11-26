@@ -1,11 +1,13 @@
 {# Episode list with live search over all episodes.
    Expects `pages`; `initial_count` limits how many are shown without a search query (0 shows all). #}
 {# Rendered content is already HTML-escaped, so escaping it again would break searches for & or quotes. #}
+{% set guest_data = load_data(path="data/guests.toml") %}
 <div id="episodes-list" data-initial-count="{{ initial_count }}">
     {% for page in pages %}
+    {% set guest_names = [guest_data[key].name for key in page.extra.guests or []] | join(sep=" ") %}
     <div
         class="episode-item"
-        data-search="{{ page.title | lower }} {{ page.extra.description | lower }} {{ page.content | striptags | lower | safe }}"
+        data-search="{{ page.title | lower }} {{ page.extra.description | lower }} {{ guest_names | lower }} {{ page.content | striptags | lower | safe }}"
         {% if initial_count > 0 and loop.index > initial_count %}style="display: none"{% endif %}
     >
         <div class="episode-item-content">

@@ -1,0 +1,124 @@
+# Guests referenced from episode frontmatter via `guests = ["<key>", ...]` in [extra].
+# The first link is used as the guest's profile URL in the feed (podcast:person).
+# Keys are the guest's username where they have one, otherwise their first name.
+# Hosts of other podcasts in crossover episodes count as guests too.
+
+[annskaja]
+name = "Anna Biselli"
+links = [
+    { label = "netzpolitik.org", url = "https://netzpolitik.org/author/anna/" },
+]
+
+[argorak]
+name = "Florian Gilcher"
+links = [{ label = "GitHub", url = "https://github.com/skade" }]
+
+[ax3l]
+name = "Axel Hübl"
+links = [{ label = "GitHub", url = "https://github.com/ax3l/" }]
+
+[badboy]
+name = "Jan-Erik"
+links = [{ label = "Twitter", url = "https://xcancel.com/badboy_" }]
+
+[bilal]
+name = "Bilal"
+links = [{ label = "Website", url = "https://www.reffascode.de/" }]
+
+[dns2utf8]
+name = "Stefan Schindler"
+links = [{ label = "Twitter", url = "https://xcancel.com/dns2utf8" }]
+
+[jk]
+name = "Johannes"
+links = [{ label = "GitHub", url = "https://github.com/jklmnn" }]
+
+[juls]
+name = "Juls"
+
+[jupp0r]
+name = "Jupp"
+links = [{ label = "Website", url = "http://jupp.ninja/" }]
+
+[katharina-gross]
+name = "Katharina Groß"
+links = [
+    { label = "neue raeume", url = "http://neueraeume.xyz/info/vr-entwicklungsteam/" },
+]
+
+[kloenk]
+name = "Fiona"
+links = [{ label = "GitHub", url = "https://github.com/kloenk" }]
+
+[mandy]
+name = "Mandy"
+
+[marcus-degenkolbe]
+name = "Marcus Degenkolbe"
+links = [
+    { label = "neue raeume", url = "http://neueraeume.xyz/info/vr-entwicklungsteam/" },
+]
+
+[marius]
+name = "Marius Melzer"
+links = [{ label = "GitHub", url = "https://github.com/farao" }]
+
+[mcnesium]
+name = "mcnesium"
+links = [{ label = "Fediverse", url = "https://chaos.social/@mcnesium" }]
+
+[mic92]
+name = "Mic92"
+links = [
+    { label = "Fediverse", url = "https://toot.matereal.eu/@mic92" },
+    { label = "GitHub", url = "https://github.com/mic92" },
+]
+
+[nac]
+name = "nac"
+links = [{ label = "Website", url = "https://wiki.c3d2.de/wiki/Benutzer:Nac" }]
+
+[sandro]
+name = "Sandro"
+
+[saspeuk]
+name = "Sascha"
+links = [{ label = "GitHub", url = "https://github.com/SaschaPeukert" }]
+
+[schmittlauch]
+name = "schmittlauch"
+links = [
+    { label = "Fediverse", url = "https://toot.matereal.eu/@schmittlauch" },
+    { label = "GitHub", url = "https://github.com/schmittlauch" },
+]
+
+[steigr]
+name = "Steigr"
+links = [{ label = "Twitter", url = "https://xcancel.com/steigr" }]
+
+[tom]
+name = "Tom Graupner"
+links = [{ label = "GitHub", url = "https://github.com/tgraupne" }]
+
+[ueckueck]
+name = "Stephanie Henkel"
+links = [
+    { label = "Website", url = "https://ueckueck.uber.space/" },
+    { label = "Fediverse", url = "https://dresden.network/@ueckueck" },
+    { label = "Reboot Politics", url = "https://podcasts.homes/@rebootpolitics" },
+]
+
+[whimboo]
+name = "Henrik Skupin"
+links = [{ label = "GitHub", url = "https://github.com/whimboo" }]
+
+[xyrill]
+name = "Xyrill"
+links = [{ label = "Website", url = "https://xyrillian.de" }]
+
+[zwecki]
+name = "Florian Karow"
+links = [
+    { label = "Fediverse", url = "https://dresden.network/@zwecki" },
+    { label = "Reboot Politics", url = "https://podcasts.homes/@rebootpolitics" },
+]

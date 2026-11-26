@@ -5,6 +5,9 @@ import { parse } from "smol-toml";
 export const EPISODES_DIR = join(import.meta.dirname, "../../content/episodes");
 export const MEDIA_BASE_URL = "https://kkw.lol/k/akb";
 
+/** Old episodes that never had a description; every other episode needs one. */
+export const EPISODES_WITHOUT_DESCRIPTION = new Set(["029", "034", "035", "041", "047", "048"]);
+
 export interface EpisodeFrontmatter {
   title?: string;
   date?: string | Date;
@@ -18,8 +21,8 @@ export interface EpisodeFrontmatter {
     description?: string;
     social_interact?: string;
     cover_image?: string;
-    audio_url?: string;
-    chapters_url?: string;
+    guests?: string[];
+    chapters?: boolean;
   };
 }
 

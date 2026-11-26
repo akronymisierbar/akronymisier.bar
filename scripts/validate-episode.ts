@@ -13,6 +13,7 @@ import { readFile } from "node:fs/promises";
 import { basename, join } from "node:path";
 import {
   EPISODES_DIR,
+  EPISODES_WITHOUT_DESCRIPTION,
   MEDIA_BASE_URL,
   checkUrlExists,
   getContentLength,
@@ -136,11 +137,11 @@ async function validateEpisode(filePath: string, checkRemote: boolean): Promise<
     });
   }
 
-  if (extra.description === undefined) {
+  if (!extra.description?.trim() && !EPISODES_WITHOUT_DESCRIPTION.has(basename(fileName, ".md"))) {
     errors.push({
       file: fileName,
       field: "extra.description",
-      message: "Missing required field: extra.description (can be empty string)",
+      message: "Missing required field: extra.description",
       severity: "error",
     });
   }
@@ -150,7 +151,7 @@ async function validateEpisode(filePath: string, checkRemote: boolean): Promise<
     const episodeNum = fileName.replace(".md", "");
 
     // Check MP3 exists
-    const mp3Url = extra.audio_url || `${MEDIA_BASE_URL}/${episodeNum}.mp3`;
+    const mp3Url = `${MEDIA_BASE_URL}/${episodeNum}.mp3`;
     const mp3Exists = await checkUrlExists(mp3Url);
     if (!mp3Exists) {
       errors.push({
@@ -195,6 +196,17 @@ async function validateEpisode(filePath: string, checkRemote: boolean): Promise<
         file: fileName,
         field: "vtt",
         message: `Transcript not found at: ${vttUrl}`,
+        severity: "error",
+      });
+    }
+
+    // The feed links chapters unless the episode opts out with chapters = false
+    const chaptersUrl = `${MEDIA_BASE_URL}/${episodeNum}.chapters.json`;
+    if (extra.chapters !== false && !(await checkUrlExists(chaptersUrl))) {
+      errors.push({
+        file: fileName,
+        field: "chapters",
+        message: `Chapters not found at: ${chaptersUrl} (set chapters = false if the episode has none)`,
         severity: "error",
       });
     }
