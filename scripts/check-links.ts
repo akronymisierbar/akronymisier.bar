@@ -17,6 +17,10 @@ import { EPISODES_DIR, listEpisodeFiles, parseEpisode } from "./lib/episodes.ts"
 
 const TIMEOUT_MS = 10000;
 const CONCURRENT_REQUESTS = 5;
+// Some servers reject requests without a browser user agent.
+const USER_AGENT =
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36";
+const KNOWN_DEAD_LINKS_FILE = join(import.meta.dirname, "known-dead-links.txt");
 
 interface LinkResult {
   url: string;
@@ -36,7 +40,16 @@ const SKIP_DOMAINS = [
   "xcancel.com",
 ];
 
+/** Dead links with no archived copy to point to; reporting them again would only add noise. */
+const knownDeadLinks = new Set(
+  (await readFile(KNOWN_DEAD_LINKS_FILE, "utf8"))
+    .split("\n")
+    .map((line) => line.trim())
+    .filter((line) => line && !line.startsWith("#")),
+);
+
 function shouldSkipUrl(url: string): boolean {
+  if (knownDeadLinks.has(url)) return true;
   try {
     const hostname = new URL(url).hostname;
     return SKIP_DOMAINS.some(
@@ -85,18 +98,15 @@ function extractUrls(content: string): string[] {
   return [...urls];
 }
 
-async function checkUrl(url: string): Promise<LinkResult> {
-  const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), TIMEOUT_MS);
-
+async function request(url: string, method: "HEAD" | "GET"): Promise<LinkResult> {
   try {
     const res = await fetch(url, {
-      method: "HEAD",
-      signal: controller.signal,
+      method,
+      headers: { "User-Agent": USER_AGENT },
+      signal: AbortSignal.timeout(TIMEOUT_MS),
       redirect: "manual",
     });
-
-    clearTimeout(timeoutId);
+    await res.body?.cancel();
 
     if (res.status >= 300 && res.status < 400) {
       const redirectUrl = res.headers.get("location");
@@ -109,18 +119,12 @@ async function checkUrl(url: string): Promise<LinkResult> {
     }
 
     if (!res.ok) {
-      return {
-        url,
-        status: "error",
-        statusCode: res.status,
-      };
+      return { url, status: "error", statusCode: res.status };
     }
 
     return { url, status: "ok", statusCode: res.status };
   } catch (e) {
-    clearTimeout(timeoutId);
-
-    if (e instanceof DOMException && e.name === "AbortError") {
+    if (e instanceof DOMException && e.name === "TimeoutError") {
       return { url, status: "timeout" };
     }
 
@@ -130,6 +134,14 @@ async function checkUrl(url: string): Promise<LinkResult> {
       error: e instanceof Error ? e.message : String(e),
     };
   }
+}
+
+async function checkUrl(url: string): Promise<LinkResult> {
+  const head = await request(url, "HEAD");
+  // Many servers mishandle HEAD (405, 403, resets), so confirm a failure with GET unless the page is clearly gone.
+  const clearlyGone = head.statusCode === 404 || head.statusCode === 410;
+  if (head.status === "ok" || head.status === "redirect" || clearlyGone) return head;
+  return request(url, "GET");
 }
 
 async function checkUrlsWithConcurrency(

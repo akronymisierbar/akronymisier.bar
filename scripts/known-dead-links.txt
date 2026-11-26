@@ -1,0 +1,17 @@
+# Dead links in episode shownotes that have no Wayback Machine snapshot.
+# check-links skips these; one URL per line, exactly as it appears in the episode.
+https://bitlove.org
+https://gultsch.de/compliance_ranked.html
+http://documentup.com/shelljs/shelljs
+https://github.com/metal-os/os
+https://wir-sind-afd.de
+https://lucaswoltmann.de/maps/2019/03/25/Exford-english-dictionary.html
+http://wahlen.dresden.de/
+https://apps.apple.com/us/app/manni/id1347527695?l=de&ls=1
+https://fahrplan.das-sendezentrum.de/36c3/talk/EKFJUY/
+https://kevin-lang.dev/
+https://scribe.rip/https:/medium.com/re-form/x-to-close-417936dfc0dc
+https://𝕏.bar
+https://www.adacore.com/uploads/techPapers/232867-adacore-record-flux-tech-paper-v10.pdf
+https://davidcelis.nyc3.cdn.digitaloceanspaces.com/Honk.aiff
+https://svc90.main.px.t-online.de/version/v1/diagnosis-keys/country/DE/date
