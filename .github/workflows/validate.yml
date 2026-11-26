@@ -28,8 +28,10 @@ jobs:
         with:
           tool: zola@0.23.6
 
-      - name: Typecheck scripts
-        run: pnpm typecheck
+      - name: Typecheck and test scripts
+        run: |
+          pnpm typecheck
+          pnpm test
 
       - name: Validate episodes
         run: pnpm validate:episodes

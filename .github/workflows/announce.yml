@@ -1,0 +1,57 @@
+name: Announce Episode
+
+# Runs after every successful deploy; the script exits early unless the newest
+# episode still lacks a social_interact link.
+on:
+  workflow_run:
+    workflows: ["Deploy to GitHub Pages"]
+    branches: [main]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: announce
+  cancel-in-progress: false
+
+jobs:
+  announce:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          # A token of a repo admin: it may bypass the required checks on main, and
+          # unlike GITHUB_TOKEN its push triggers the deploy workflow.
+          token: ${{ secrets.ANNOUNCE_PUSH_TOKEN }}
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Announce newest episode
+        run: pnpm announce
+        env:
+          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+
+      - name: Commit social_interact link
+        run: |
+          git diff --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "add $(basename "$(git diff --name-only)" .md) social interact"
+          # main may have moved while the script waited for the feed.
+          git pull --rebase
+          git push

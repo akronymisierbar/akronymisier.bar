@@ -13,7 +13,9 @@
     "check-links": "node scripts/check-links.ts",
     "new-episode": "node scripts/new-episode.ts",
     "convert-chaptermarks": "node scripts/convert-chaptermarks.ts",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "announce": "node scripts/announce-episode.ts",
+    "test": "node --test 'scripts/**/*.test.ts'"
   },
   "dependencies": {
     "fast-xml-parser": "^5.12.1",

@@ -29,7 +29,6 @@ interface EpisodeMetadata {
   duration: string;
   audioLength: number;
   description: string;
-  socialInteract?: string;
   coverImage?: string;
 }
 
@@ -99,9 +98,6 @@ audio_length = ${meta.audioLength}
 description = """${meta.description}"""
 `;
 
-  if (meta.socialInteract) {
-    content += `social_interact = "${meta.socialInteract}"\n`;
-  }
   if (meta.coverImage) {
     content += `cover_image = "${BASE_URL}/${meta.coverImage}"\n`;
   }
@@ -135,7 +131,6 @@ async function main() {
       title: { type: "string", short: "t" },
       description: { type: "string", short: "d" },
       date: { type: "string" },
-      social: { type: "string", short: "s" },
     },
   });
 
@@ -153,7 +148,6 @@ Options:
   -t, --title       Episode title (without number prefix)
   -d, --description Episode description
   --date            Publication date (YYYY-MM-DD, default: today)
-  -s, --social      Mastodon post URL for social_interact
   -h, --help        Show this help message
 
 Examples:
@@ -241,12 +235,10 @@ Examples:
   // Get user input for missing fields (skip prompts if all required args provided)
   let title: string;
   let description: string;
-  let socialInteract: string | undefined;
 
   if (args.title && args.description) {
     title = args.title;
     description = args.description;
-    socialInteract = args.social || undefined;
   } else {
     title = args.title || await prompt("Episode title (without number prefix)");
     description = args.description || await prompt("Episode description");
@@ -254,8 +246,6 @@ Examples:
     if (!duration) {
       duration = await prompt("Duration (HH:MM:SS)", "00:00:00");
     }
-
-    socialInteract = args.social || await prompt("Mastodon post URL (optional, press Enter to skip)") || undefined;
   }
 
   const date = args.date || new Date().toISOString().split("T")[0];
@@ -268,7 +258,6 @@ Examples:
     duration: duration ?? "00:00:00",
     audioLength,
     description: description || "",
-    socialInteract: socialInteract || undefined,
     coverImage,
   };
 
