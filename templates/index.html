@@ -63,7 +63,7 @@
 
 <div id="episodes-list">
     {% set episodes = get_section(path="episodes/_index.md") %} {% for page in
-    episodes.pages | slice(end=10) %}
+    episodes.pages[:10] %}
     <div
         class="episode-item"
         data-search="{{ page.title | lower }} {{ page.extra.description | lower }}"

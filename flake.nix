@@ -1,14 +1,10 @@
 {
   description = "akronymisier.bar podcast website";
 
-  inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    # Provides zola 0.19.2, the version CI installs; newer releases reject config.toml
-    nixpkgs-zola.url = "github:NixOS/nixpkgs/nixos-24.11";
-  };
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
   outputs =
-    { nixpkgs, nixpkgs-zola, ... }:
+    { nixpkgs, ... }:
     let
       forAllSystems = nixpkgs.lib.genAttrs [
         "aarch64-darwin"
@@ -26,7 +22,7 @@
         {
           default = pkgs.mkShell {
             packages = [
-              nixpkgs-zola.legacyPackages.${system}.zola
+              pkgs.zola
               pkgs.deno
               # new-episode.ts reads the episode duration via ffprobe
               pkgs.ffmpeg

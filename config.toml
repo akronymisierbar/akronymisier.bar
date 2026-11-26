@@ -12,10 +12,6 @@ feed_filenames = ["feed.xml"]
 # Set feed limit to include all episodes
 feed_limit = 1000
 
-[markdown]
-highlight_code = true
-
-
 [extra]
 episode_base_url = "https://kkw.lol/k/akb"
 
