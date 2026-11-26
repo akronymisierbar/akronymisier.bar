@@ -274,26 +274,10 @@ hr {
     }
 }
 
-.transcript {
-    margin: 2rem 0;
-    padding: 1rem;
-    background: lighten($background-light, 2%);
-    border-radius: 8px;
-
-    summary {
-        cursor: pointer;
-
-        h2 {
-            display: inline;
-            margin: 0;
-        }
-    }
-
-    .transcript-content {
-        margin-top: 1rem;
-        max-height: 400px;
-        overflow-y: auto;
-    }
+.transcript-content {
+    max-height: 400px;
+    overflow-y: auto;
+    font-size: 0.875rem;
 }
 
 .social-interact {
@@ -573,10 +557,6 @@ mark {
     
     hr {
         border-color: #444;
-    }
-    
-    .transcript {
-        background: #2a2a2a;
     }
     
     blockquote {
