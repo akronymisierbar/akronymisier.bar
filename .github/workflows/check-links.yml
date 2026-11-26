@@ -1,10 +1,10 @@
 name: Check Links
 
+# Runs on every PR because check-links-pr is a required check; a paths filter
+# would leave it pending forever on PRs that touch no episode.
 on:
   pull_request:
     branches: ["**"]
-    paths:
-      - "content/episodes/*.md"
 
 jobs:
   check-links-pr:
