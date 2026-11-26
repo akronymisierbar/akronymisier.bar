@@ -1,0 +1,28 @@
+# Links in episode shownotes that check-links skips, one URL per line, exactly as it appears in the episode.
+
+# Dead, with no Wayback Machine snapshot to point to.
+https://gultsch.de/compliance_ranked.html
+https://github.com/metal-os/os
+https://lucaswoltmann.de/maps/2019/03/25/Exford-english-dictionary.html
+https://kevin-lang.dev/
+https://𝕏.bar
+https://davidcelis.nyc3.cdn.digitaloceanspaces.com/Honk.aiff
+https://svc90.main.px.t-online.de/version/v1/diagnosis-keys/country/DE/date
+https://blocklist.kowabit.de/fritzboxliste.txt
+
+# Working in a browser, but the server rejects automated requests.
+https://www.facebook.com/COSMOTICVR
+https://sourceforge.net/blog/introducing-the-new-sourceforge/
+https://linux.die.net/man/1/finger
+https://wit.ai
+https://nex3.medium.com/pubgrub-2fb6470504f
+https://medium.com/re-form/x-to-close-417936dfc0dc
+https://space.stackexchange.com/questions/9243/what-computer-and-software-is-used-by-the-falcon-9/9446#9446
+https://www.zeit.de/wissen/gesundheit/corona-impfungen-aktuelle-zahlen-deutschland-karte
+https://wiki.linuxfoundation.org/llvmlinux
+https://frame.work
+https://marketplace.visualstudio.com/items?itemName=tonybaloney.vscode-pets
+https://chaos.social/@kilian/112212006691998740
+https://lib.rs/crates/coffee_break
+https://crates.io/crates/hannibal/
+https://headgum.com/not-another-dd-podcast

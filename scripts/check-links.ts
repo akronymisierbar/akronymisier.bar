@@ -20,7 +20,7 @@ const CONCURRENT_REQUESTS = 5;
 // Some servers reject requests without a browser user agent.
 const USER_AGENT =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36";
-const KNOWN_DEAD_LINKS_FILE = join(import.meta.dirname, "known-dead-links.txt");
+const SKIP_LIST_FILE = join(import.meta.dirname, "link-check-skip.txt");
 
 interface LinkResult {
   url: string;
@@ -38,18 +38,20 @@ interface EpisodeResult {
 const SKIP_DOMAINS = [
   // Always reports 503, and also we don't need to hammer a good service.
   "xcancel.com",
+  // Snapshots don't go away, and archive.org throttles bursts of requests.
+  "web.archive.org",
 ];
 
-/** Dead links with no archived copy to point to; reporting them again would only add noise. */
-const knownDeadLinks = new Set(
-  (await readFile(KNOWN_DEAD_LINKS_FILE, "utf8"))
+/** Links the check cannot settle: dead ones without an archived copy, and working ones behind bot protection. */
+const skippedLinks = new Set(
+  (await readFile(SKIP_LIST_FILE, "utf8"))
     .split("\n")
     .map((line) => line.trim())
     .filter((line) => line && !line.startsWith("#")),
 );
 
 function shouldSkipUrl(url: string): boolean {
-  if (knownDeadLinks.has(url)) return true;
+  if (skippedLinks.has(url)) return true;
   try {
     const hostname = new URL(url).hostname;
     return SKIP_DOMAINS.some(
@@ -118,7 +120,8 @@ async function request(url: string, method: "HEAD" | "GET"): Promise<LinkResult>
       };
     }
 
-    if (!res.ok) {
+    // 429 means the server is up but throttling us, not that the page is gone.
+    if (!res.ok && res.status !== 429) {
       return { url, status: "error", statusCode: res.status };
     }
 
