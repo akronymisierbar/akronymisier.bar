@@ -10,7 +10,7 @@ https://davidcelis.nyc3.cdn.digitaloceanspaces.com/Honk.aiff
 https://svc90.main.px.t-online.de/version/v1/diagnosis-keys/country/DE/date
 https://blocklist.kowabit.de/fritzboxliste.txt
 
-# Working in a browser, but the server rejects automated requests.
+# Working in a browser, but the server rejects automated requests, at least from GitHub's CI runners.
 https://www.facebook.com/COSMOTICVR
 https://sourceforge.net/blog/introducing-the-new-sourceforge/
 https://linux.die.net/man/1/finger
@@ -26,3 +26,11 @@ https://chaos.social/@kilian/112212006691998740
 https://lib.rs/crates/coffee_break
 https://crates.io/crates/hannibal/
 https://headgum.com/not-another-dd-podcast
+https://www.bloomberg.com/news/features/2017-04-19/silicon-valley-s-400-juicer-may-be-feeling-the-squeeze
+http://www.swissjabber.ch/
+http://nilhcem.com/swift-is-like-kotlin/
+https://medium.com/friendship-dot-js/i-peeked-into-my-node-modules-directory-and-you-wont-believe-what-happened-next-b89f63d21558
+https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70
+https://www.reddit.com/r/rust/comments/8wlkbe/actixweb_has_removed_all_unsound_use_of_unsafe_in/
+https://www.reddit.com/r/OutOfTheLoop/
+https://www.patreon.com/samaaron/
